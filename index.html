@@ -4,14 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JunkScout | Dump your junk the right way</title>
-  <meta name="description" content="Find verified drop-off locations for furniture, construction debris, tires, yard waste, and more — with rules, hours, and fees when available." />
+  <meta
+    name="description"
+    content="Find verified drop-off locations for furniture, construction debris, tires, yard waste, and more — with rules, hours, and fees when available."
+  />
   <link rel="stylesheet" href="/styles.css" />
 </head>
+
 <body>
   <!-- Top Nav -->
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="#">
+      <a class="brand" href="/">
         <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
       </a>
 
@@ -37,38 +41,41 @@
       <div class="container">
         <h1>Dump your junk. The right way.</h1>
         <p class="subhead">
-          Find verified drop-off locations for couches, construction debris, tires, yard waste, and more;
-          with rules, hours, and fees when available.
+          Find verified drop-off locations for couches, construction debris, tires, yard waste,
+          and more — with rules, hours, and fees when available.
         </p>
 
         <!-- Wizard -->
         <section class="wizard" aria-label="Search">
           <div class="wizard__row">
-            <label class="field">
-              <span class="label">What are you dumping?</span>
+            <label class="field field--where">
+              <span class="label">Where are you?</span>
               <div class="combo">
-                <input id="itemInput" type="text" placeholder="Type to add items…" autocomplete="off" />
-                <button class="combo__btn" id="addItemBtn" type="button">Add</button>
-              </div>
-              <div class="hint">Choose up to 5</div>
-              <div class="chips" id="chipRow" aria-live="polite"></div>
-            </label>
-
-            <label class="field">
-              <span class="label">Where?</span>
-              <div class="combo">
-                <input id="whereInput" type="text" placeholder="City, State (e.g., Austin, TX)" />
-                <button class="combo__btn" id="useLocationBtn" type="button">Use my location</button>
+                <input
+                  id="whereInput"
+                  type="text"
+                  placeholder="City, State (e.g., Austin, TX)"
+                  autocomplete="off"
+                />
+                <button class="combo__btn" id="useLocationBtn" type="button">
+                  Use my location
+                </button>
               </div>
 
               <div class="filters">
-                <button class="link" id="toggleFilters" type="button">More filters</button>
+                <button class="link" id="toggleFilters" type="button">
+                  More filters
+                </button>
               </div>
             </label>
 
             <div class="field field--cta">
               <span class="label" aria-hidden="true">&nbsp;</span>
-              <button class="btn btn--primary btn--big" id="searchBtn" type="button">
+              <button
+                class="btn btn--primary btn--big"
+                id="searchBtn"
+                type="button"
+              >
                 Find drop-off options
               </button>
 
@@ -113,14 +120,17 @@
           </div>
 
           <div class="wizard__note">
-            <span class="dot"></span> Verified sources • No spam • Updated by community
+            <span class="dot"></span>
+            Verified sources • No spam • Updated by community
           </div>
         </section>
 
         <!-- Preview cards -->
         <section class="cards" aria-label="Examples">
           <article class="card">
-            <div class="card__kicker"><span class="badge badge--blue">Closest drop-off</span></div>
+            <div class="card__kicker">
+              <span class="badge badge--blue">Closest drop-off</span>
+            </div>
             <h3>Williamson County Collection Center</h3>
             <p class="card__meta">Accepts: Furniture, Brush</p>
             <p class="card__meta">8 AM – 5:45 PM • Verified Jan 6</p>
@@ -128,7 +138,9 @@
           </article>
 
           <article class="card">
-            <div class="card__kicker"><span class="badge badge--green">No surprises</span></div>
+            <div class="card__kicker">
+              <span class="badge badge--green">No surprises</span>
+            </div>
             <h3>Resident ID required</h3>
             <p class="card__meta">Tires limited • No appliances</p>
             <p class="card__meta">Mon–Sat • Verified Jan 6</p>
@@ -136,10 +148,14 @@
           </article>
 
           <article class="card">
-            <div class="card__kicker"><span class="badge badge--orange">Takes construction debris</span></div>
+            <div class="card__kicker">
+              <span class="badge badge--orange">Takes construction debris</span>
+            </div>
             <h3>C&amp;D Facility</h3>
             <p class="card__meta">Drywall, Lumber, Tile</p>
-            <p class="card__meta"><span class="pill">No household trash</span> • Verified Jan 3</p>
+            <p class="card__meta">
+              <span class="pill">No household trash</span> • Verified Jan 3
+            </p>
             <a class="link" href="#">View details</a>
           </article>
         </section>
@@ -161,7 +177,10 @@
             <div class="why__item">
               <div class="icon">🛻</div>
               <h3>Built for real life</h3>
-              <p>Couches, remodel debris, tires, brush, appliances — not just “landfills.”</p>
+              <p>
+                Couches, remodel debris, tires, brush, appliances — not just
+                “landfills.”
+              </p>
             </div>
           </div>
         </section>
@@ -170,13 +189,13 @@
         <section class="browse" id="browse-materials">
           <h2>Browse by what you have</h2>
           <div class="tiles">
-            <a class="tile" href="#"><span class="tile__emoji">🛋️</span> Couches &amp; furniture</a>
+            <a class="tile" href="#"><span class="tile__emoji">🛋️</span> Furniture</a>
             <a class="tile" href="#"><span class="tile__emoji">🛏️</span> Mattresses</a>
-            <a class="tile" href="#"><span class="tile__emoji">🧱</span> Construction debris (C&amp;D)</a>
+            <a class="tile" href="#"><span class="tile__emoji">🧱</span> Construction debris</a>
             <a class="tile" href="#"><span class="tile__emoji">🛞</span> Tires</a>
             <a class="tile" href="#"><span class="tile__emoji">🧊</span> Appliances</a>
-            <a class="tile" href="#"><span class="tile__emoji">💻</span> Electronics (e-waste)</a>
-            <a class="tile" href="#"><span class="tile__emoji">🎨</span> Paint / chemicals (HHW)</a>
+            <a class="tile" href="#"><span class="tile__emoji">💻</span> Electronics</a>
+            <a class="tile" href="#"><span class="tile__emoji">🎨</span> Paint / chemicals</a>
             <a class="tile" href="#"><span class="tile__emoji">🔩</span> Scrap metal</a>
           </div>
           <div class="center">
@@ -188,38 +207,54 @@
         <section class="how" id="how-it-works">
           <h2>How it works</h2>
           <ol class="steps">
-            <li><span class="stepnum">1</span> Pick what you’re dumping</li>
-            <li><span class="stepnum">2</span> See the best drop-off options near you</li>
-            <li><span class="stepnum">3</span> Get rules + directions + what to bring</li>
+            <li><span class="stepnum">1</span> Enter your location</li>
+            <li><span class="stepnum">2</span> See verified drop-off options</li>
+            <li><span class="stepnum">3</span> Get rules + directions</li>
           </ol>
-          <p class="muted small">Wrong info? Report it in 10 seconds. We’ll update it.</p>
+          <p class="muted small">
+            Wrong info? Report it in 10 seconds. We’ll update it.
+          </p>
         </section>
 
-        <!-- Browse locations (SEO hub CTA) -->
+        <!-- Browse locations -->
         <section class="recent" id="browse-locations">
           <div class="recent__head">
             <h2>Browse locations</h2>
             <a class="link" href="/texas/">Texas locations →</a>
           </div>
           <div class="recent__list">
-            <a class="recent__item" href="#"><span class="badge badge--green">Verified</span> Waco Landfill (TX) • Jan 6</a>
-            <a class="recent__item" href="#"><span class="badge badge--green">Verified</span> Cedar Park Recycling Center (TX) • Jan 5</a>
-            <a class="recent__item" href="#"><span class="badge badge--green">Verified</span> Hazardous Waste Drop-Off (TX) • Jan 4</a>
+            <a class="recent__item" href="#">
+              <span class="badge badge--green">Verified</span>
+              Waco Landfill (TX) • Jan 6
+            </a>
+            <a class="recent__item" href="#">
+              <span class="badge badge--green">Verified</span>
+              Cedar Park Recycling Center (TX) • Jan 5
+            </a>
+            <a class="recent__item" href="#">
+              <span class="badge badge--green">Verified</span>
+              Hazardous Waste Drop-Off (TX) • Jan 4
+            </a>
           </div>
         </section>
 
         <!-- Report -->
-        <section class="report" id="report" aria-label="Report an update">
+        <section class="report" id="report">
           <div class="report__box">
             <h2>Report an update</h2>
-            <p class="muted">Found wrong hours, fees, or rules? Send it — we’ll verify and update.</p>
+            <p class="muted">
+              Found wrong hours, fees, or rules? Send it — we’ll verify and update.
+            </p>
             <div class="report__actions">
-              <button class="btn btn--primary" type="button">Report an update</button>
-              <button class="btn btn--ghost" type="button">Add a new site</button>
+              <button class="btn btn--primary" type="button">
+                Report an update
+              </button>
+              <button class="btn btn--ghost" type="button">
+                Add a new site
+              </button>
             </div>
           </div>
         </section>
-
       </div>
     </section>
   </main>
@@ -248,7 +283,9 @@
         <a href="#">Data sources</a>
       </div>
       <div class="footer__note">
-        <div class="footer__brand">© <span id="year"></span> JunkScout</div>
+        <div class="footer__brand">
+          © <span id="year"></span> JunkScout
+        </div>
         <div class="muted small">Always confirm before visiting.</div>
       </div>
     </div>
