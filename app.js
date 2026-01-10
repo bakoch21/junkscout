@@ -1,8 +1,7 @@
-const MAX_ITEMS = 5;
+// app.js — location-first wizard + city autocomplete
 
-const itemInput = document.getElementById("itemInput");
-const addItemBtn = document.getElementById("addItemBtn");
-const chipRow = document.getElementById("chipRow");
+const CITY_LIST_URL = "/scripts/cities-texas.json";
+
 const yearEl = document.getElementById("year");
 
 const toggleFilters = document.getElementById("toggleFilters");
@@ -11,115 +10,142 @@ const filtersPanel = document.getElementById("filtersPanel");
 const searchBtn = document.getElementById("searchBtn");
 const ctaStart = document.getElementById("ctaStart");
 
-let items = [];
+const whereInput = document.getElementById("whereInput");
+const cityList = document.getElementById("cityList");
+const useLocationBtn = document.getElementById("useLocationBtn");
 
-function renderChips(){
-  chipRow.innerHTML = "";
-  items.forEach((t, idx) => {
-    const chip = document.createElement("span");
-    chip.className = "chip";
-    chip.innerHTML = `${escapeHtml(t)} <button aria-label="Remove ${escapeHtml(t)}" data-i="${idx}">×</button>`;
-    chipRow.appendChild(chip);
-  });
+// Optional filters (exist on homepage)
+const loadSelect = document.getElementById("loadSelect");
+const openNowEl = document.getElementById("openNow");
+const residentOnlyEl = document.getElementById("residentOnly");
+const mixedLoadsEl = document.getElementById("mixedLoads");
+
+// "Austin, TX" -> { state:"texas", city:"austin" }
+let CITY_LOOKUP = new Map();
+
+function titleCaseFromSlug(slug = "") {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
 }
 
-function addItem(){
-  const raw = (itemInput.value || "").trim();
-  if(!raw) return;
-
-  if(items.length >= MAX_ITEMS){
-    alert(`Max ${MAX_ITEMS} items for now.`);
-    itemInput.value = "";
-    return;
-  }
-
-  const normalized = raw.toLowerCase();
-  if(items.map(x => x.toLowerCase()).includes(normalized)){
-    itemInput.value = "";
-    return;
-  }
-
-  items.push(raw);
-  itemInput.value = "";
-  renderChips();
+function buildCityLabel(entry) {
+  // You're Texas-only right now, so show "City, TX"
+  const cityName = titleCaseFromSlug(entry.city);
+  return `${cityName}, TX`;
 }
 
-function escapeHtml(str){
-  return str.replace(/[&<>"']/g, (m) => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
-  }[m]));
+async function populateCityDatalist() {
+  if (!whereInput || !cityList) return;
+
+  try {
+    const res = await fetch(CITY_LIST_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error(`Could not load ${CITY_LIST_URL} (${res.status})`);
+
+    const cities = await res.json();
+    if (!Array.isArray(cities)) throw new Error("City list JSON is not an array.");
+
+    cityList.innerHTML = "";
+    CITY_LOOKUP = new Map();
+
+    for (const entry of cities) {
+      if (!entry?.state || !entry?.city) continue;
+
+      const label = buildCityLabel(entry);
+      CITY_LOOKUP.set(label.toLowerCase(), { state: entry.state, city: entry.city });
+
+      const opt = document.createElement("option");
+      opt.value = label;
+      cityList.appendChild(opt);
+    }
+  } catch (err) {
+    console.warn("City datalist failed to load:", err);
+    // No hard failure — user can still type manually
+  }
 }
 
-addItemBtn.addEventListener("click", addItem);
-itemInput.addEventListener("keydown", (e) => {
-  if(e.key === "Enter"){
-    e.preventDefault();
-    addItem();
-  }
-});
+function toggleFiltersPanel() {
+  if (!filtersPanel || !toggleFilters) return;
 
-chipRow.addEventListener("click", (e) => {
-  const btn = e.target.closest("button[data-i]");
-  if(!btn) return;
-  const idx = Number(btn.getAttribute("data-i"));
-  items.splice(idx, 1);
-  renderChips();
-});
-
-toggleFilters.addEventListener("click", () => {
   const isHidden = filtersPanel.hasAttribute("hidden");
-  if(isHidden){
+  if (isHidden) {
     filtersPanel.removeAttribute("hidden");
     toggleFilters.textContent = "Hide filters";
   } else {
     filtersPanel.setAttribute("hidden", "");
     toggleFilters.textContent = "More filters";
   }
-});
+}
 
-// For now, just demo the flow
-function runSearch(){
-  const where = document.getElementById("whereInput").value.trim();
-  const load = document.getElementById("loadSelect").value;
-  const openNow = document.getElementById("openNow").checked;
-  const residentOnly = document.getElementById("residentOnly").checked;
-  const mixedLoads = document.getElementById("mixedLoads").checked;
+function runSearch() {
+  const whereRaw = (whereInput?.value || "").trim();
+  const key = whereRaw.toLowerCase();
 
-  if(items.length === 0){
-    alert("Add at least one item (e.g., couch, tires, construction debris).");
-    return;
-  }
-  if(!where){
+  if (!whereRaw) {
     alert("Enter a location (e.g., Austin, TX) or use your location.");
     return;
   }
 
+  // If user picked a known city, go straight to that city page
+  if (CITY_LOOKUP.has(key)) {
+    const { state, city } = CITY_LOOKUP.get(key);
+    window.location.href = `/${state}/${city}/`;
+    return;
+  }
+
+  // If they typed something not in the list, keep it simple for now.
+  // Later we can geocode this and route them correctly.
   alert(
-    `Searching near: ${where}\n` +
-    `Items: ${items.join(", ")}\n` +
-    `Load: ${load || "n/a"}\n` +
-    `Open now: ${openNow}\nResident-only: ${residentOnly}\nMixed loads: ${mixedLoads}\n\n` +
-    `Next step: build results page (search.html) and pass these as URL params.`
+    `We don't recognize that location yet.\n\n` +
+      `Please select a city from the dropdown list (e.g., Austin, TX).`
   );
 }
 
-searchBtn.addEventListener("click", runSearch);
-ctaStart.addEventListener("click", () => {
-  itemInput.focus();
-});
+function focusWhere() {
+  if (whereInput) whereInput.focus();
+}
 
-document.getElementById("useLocationBtn").addEventListener("click", () => {
-  if(!navigator.geolocation){
+function useMyLocation() {
+  if (!navigator.geolocation) {
     alert("Geolocation not supported in this browser.");
     return;
   }
+
   navigator.geolocation.getCurrentPosition(
-    () => {
-      alert("Got your location. Next we’ll reverse-geocode to a city/state (free option: OpenStreetMap Nominatim).");
+    async () => {
+      // Placeholder for reverse geocode (Nominatim).
+      // For now, we just tell the user it worked.
+      alert(
+        "Got your location. Next step: reverse-geocode to a city/state and auto-fill this box."
+      );
+
+      // Optional: you can temporarily set a default to prove flow:
+      // whereInput.value = "Austin, TX";
     },
     () => alert("Couldn’t access location. You can type a city/state instead.")
   );
-});
+}
 
-yearEl.textContent = new Date().getFullYear();
-renderChips();
+// Wire up events
+if (toggleFilters) toggleFilters.addEventListener("click", toggleFiltersPanel);
+if (searchBtn) searchBtn.addEventListener("click", runSearch);
+if (ctaStart) ctaStart.addEventListener("click", focusWhere);
+if (useLocationBtn) useLocationBtn.addEventListener("click", useMyLocation);
+
+// Enter key triggers search
+if (whereInput) {
+  whereInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      runSearch();
+    }
+  });
+}
+
+// Init
+document.addEventListener("DOMContentLoaded", () => {
+  populateCityDatalist();
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+});
