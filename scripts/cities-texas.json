@@ -1,0 +1,6 @@
+[
+  { "state": "texas", "city": "austin", "query": "Austin, Texas, USA" },
+  { "state": "texas", "city": "dallas", "query": "Dallas, Texas, USA" },
+  { "state": "texas", "city": "houston", "query": "Houston, Texas, USA" },
+  { "state": "texas", "city": "san-antonio", "query": "San Antonio, Texas, USA" }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9520379,
+    "lng": -96.7662987,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/1567932805"
+  },
+  {
+    "name": "FMI Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7183271,
+    "lng": -96.8690925,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6296245607"
+  },
+  {
+    "name": "Greenpath Recovery",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7184656,
+    "lng": -96.8684796,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6296245608"
+  },
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6413269,
+    "lng": -96.9553907,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6641272910"
+  },
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6523264,
+    "lng": -96.974901,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6641272911"
+  },
+  {
+    "name": "Clothes & Shoes Recycling Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9562142,
+    "lng": -96.8928589,
+    "website": "https://fillthebins.com",
+    "osm_url": "https://www.openstreetmap.org/node/11911146930"
+  },
+  {
+    "name": "Armstrong Archives",
+    "type": "recycling",
+    "address": "1515 Crescent Drive Carrollton TX 75006",
+    "lat": 32.9570188,
+    "lng": -96.9167122,
+    "website": "https://www.armstrongarchives.com/",
+    "osm_url": "https://www.openstreetmap.org/node/12151033543"
+  },
+  {
+    "name": "Keeper of the Grumper",
+    "type": "recycling",
+    "address": "3704 Arapaho Road Addison TX 75001",
+    "lat": 32.9560029,
+    "lng": -96.8534502,
+    "website": "https://keeperofthegrumper.org/",
+    "osm_url": "https://www.openstreetmap.org/node/13398279164"
+  },
+  {
+    "name": "Irving Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7835313,
+    "lng": -96.9438942,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/29396471"
+  },
+  {
+    "name": "McCommas Bluff Sanitary Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.6823187,
+    "lng": -96.7191789,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/30789572"
+  },
+  {
+    "name": "Grand Prairie Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7698514,
+    "lng": -96.9492464,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/317592059"
+  },
+  {
+    "name": "DFW Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0200774,
+    "lng": -96.9546189,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/336438904"
+  },
+  {
+    "name": "Recycle Revolution",
+    "type": "recycling",
+    "address": "6835 Forest Park Road 75235",
+    "lat": 32.8264799,
+    "lng": -96.8510826,
+    "website": "https://recyclerevolutiondallas.com/",
+    "osm_url": "https://www.openstreetmap.org/way/465038777"
+  },
+  {
+    "name": "Southwest (Oak Cliff) Transfer Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6879484,
+    "lng": -96.8813745,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/467243383"
+  },
+  {
+    "name": "Northeast (Fair Oaks) Transfer Station",
+    "type": "recycling",
+    "address": "7400 Holly Hill Drive",
+    "lat": 32.8811878,
+    "lng": -96.752371,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/468149350"
+  },
+  {
+    "name": "Customer Convenience Recycling Center at McCommas Bluff Landfill",
+    "type": "recycling",
+    "address": "5450 Simpson Stuart Road",
+    "lat": 32.6805119,
+    "lng": -96.7281282,
+    "website": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+    "osm_url": "https://www.openstreetmap.org/way/469105875"
+  },
+  {
+    "name": "CM Hinton Jr. Regional Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.9579388,
+    "lng": -96.5420747,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/495939892"
+  },
+  {
+    "name": "City of Mesquite Recycling and Compost Center",
+    "type": "landfill",
+    "address": "3550 Lawson Road Mesquite TX 75181",
+    "lat": 32.7132744,
+    "lng": -96.5474446,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1087111669"
+  },
+  {
+    "name": "Phoenix Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9219174,
+    "lng": -96.6315154,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1301335674"
+  }
+]

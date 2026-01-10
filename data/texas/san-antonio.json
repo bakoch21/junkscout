@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Two Men and a Junk Truck",
+    "type": "transfer_station",
+    "address": "20935 US Highway 281 North San Antonio TX 78258",
+    "lat": 29.6419451,
+    "lng": -98.4556087,
+    "website": "https://twomenandajunktruck.com/locations/tx/san-antonio/junk-removal-san-antonio-north",
+    "osm_url": "https://www.openstreetmap.org/node/13005797608"
+  },
+  {
+    "name": "Frio City Road Bulky Waste Collection Center",
+    "type": "transfer_station",
+    "address": "1531 Frio City Road San Antonio 78226",
+    "lat": 29.3940532,
+    "lng": -98.5358595,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/162535263"
+  },
+  {
+    "name": "West Avenue Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.5407458,
+    "lng": -98.5120278,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/172455999"
+  },
+  {
+    "name": "Texas Disposal Systems Starcrest Transfer Station",
+    "type": "transfer_station",
+    "address": "",
+    "lat": 29.5460284,
+    "lng": -98.457592,
+    "website": "https://www.texasdisposal.com/",
+    "osm_url": "https://www.openstreetmap.org/way/269856295"
+  },
+  {
+    "name": "San Antonio Bitters Recycling Center",
+    "type": "recycling",
+    "address": "1800 Wurzbach Parkway San Antonio TX 78216",
+    "lat": 29.542061,
+    "lng": -98.4673513,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/370853902"
+  },
+  {
+    "name": "Tessman Road Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.4354227,
+    "lng": -98.3428943,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/373704281"
+  },
+  {
+    "name": "Covel Gardens Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.3343179,
+    "lng": -98.6546479,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/373704538"
+  },
+  {
+    "name": "San Antonio Household Hazardous Waste Disposal",
+    "type": "recycling",
+    "address": "7030 Culebra Road San Antonio TX 78238",
+    "lat": 29.4511168,
+    "lng": -98.6281848,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/678629305"
+  },
+  {
+    "name": "Beck Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.5470798,
+    "lng": -98.2618889,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/830189199"
+  },
+  {
+    "name": "Bracken Recylcing",
+    "type": "recycling",
+    "address": "19068 Marbach Lane San Antonio TX 78266",
+    "lat": 29.6185504,
+    "lng": -98.3271844,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/864191752"
+  },
+  {
+    "name": "A. G. Pickard Pecans",
+    "type": "recycling",
+    "address": "101 Nogalitos Street San Antonio TX 78204",
+    "lat": 29.4090251,
+    "lng": -98.501694,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/929735081"
+  },
+  {
+    "name": "SouthWaste Disposal",
+    "type": "transfer_station",
+    "address": "1375 Creekview San Antonio TX",
+    "lat": 29.4418252,
+    "lng": -98.419088,
+    "website": "https://southwaste.com/austin-san-antonio/",
+    "osm_url": "https://www.openstreetmap.org/way/1328596956"
+  }
+]
