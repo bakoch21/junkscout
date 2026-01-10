@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# local env / secrets (just in case later)
+.env
