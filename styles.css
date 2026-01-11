@@ -52,10 +52,10 @@ a{color:inherit; text-decoration:none}
   flex:0 0 auto; /* ✅ don't let the logo area shrink weirdly */
 }
 
-.brand__logo {
-  height: 36px;
-  width: auto;
-  display: block;
+.brand__logo{
+  height:36px;
+  width:auto;
+  display:block;
 }
 
 /* Center nav links */
@@ -127,7 +127,22 @@ a{color:inherit; text-decoration:none}
   color:#4b5563;
   font-size:17px;
   line-height:1.55;
-  margin:16px 0 28px;
+  margin:16px 0 12px; /* ✅ tightened (was 28px bottom) */
+}
+
+/* ✅ City pages: pull cards up higher */
+.hero .muted.small{
+  margin:0 0 10px;
+}
+.seo-copy{
+  margin-top:10px;
+  margin-bottom:12px;
+}
+.seo-copy h2{
+  margin-top:18px;
+}
+.hero .container > .cards{
+  margin-top:10px; /* overrides .cards default spacing in hero */
 }
 
 /* Wizard */
@@ -233,6 +248,14 @@ select{
   border-radius:var(--radius);
   padding:18px;
   box-shadow:0 10px 26px rgba(0,0,0,.06);
+
+  /* ✨ Surprise upgrade: premium hover behavior */
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.card:hover{
+  transform: translateY(-2px);
+  box-shadow: var(--shadowStrong);
+  border-color: rgba(63,122,58,0.22);
 }
 .card__kicker{margin-bottom:8px}
 .card h3{margin:8px 0 8px; font-size:19px}

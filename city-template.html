@@ -8,7 +8,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <!-- SEO CONTROL: default to noindex -->
+  <!-- SEO CONTROL -->
   <meta name="robots" content="index,follow" />
 
   <title>City | JunkScout</title>
@@ -16,9 +16,7 @@
 
   <link rel="stylesheet" href="/styles.css" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-
 </head>
-
 
 <body>
   <header class="nav">
@@ -52,8 +50,11 @@
         Source-linked where possible • Community-suggested • Always confirm before visiting
       </p>
 
-      <!-- SEO COPY START -->
-      <section class="seo-copy">
+      <!-- Results injected here (moved up for UX) -->
+      <section class="cards" id="results" style="margin-top:14px"></section>
+
+      <!-- SEO COPY START (moved below results) -->
+      <section class="seo-copy" style="margin-top:26px">
         <p>
           Need a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
           <strong>recycling drop-off</strong> in this city?
@@ -64,7 +65,7 @@
         <p>
           Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
           The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
-          Use the listings below to confirm what’s accepted before you drive out.
+          Use the listings above to confirm what’s accepted before you drive out.
         </p>
 
         <h2>What items are typically accepted?</h2>
@@ -88,9 +89,6 @@
         </p>
       </section>
       <!-- SEO COPY END -->
-
-      <!-- Results injected here -->
-      <section class="cards" id="results" style="margin-top:22px"></section>
 
       <p class="muted small" style="margin-top:12px">
         Results are sourced from public listings and community contributions. Always confirm before visiting.
