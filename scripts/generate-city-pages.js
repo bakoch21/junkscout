@@ -44,19 +44,54 @@ function buildJsonLd({ state, city, meta }) {
   const cityName = titleCaseFromSlug(city);
   const stateName = titleCaseFromSlug(state);      // "Texas"
   const stateAbbrev = stateAbbrevFromSlug(state);  // "TX"
-  const url = meta.canonicalUrl;
+
+  const url = meta.canonicalUrl;                   // https://junkscout.io/texas/austin/
+  const stateUrl = `${BASE_URL}/${state}/`;        // https://junkscout.io/texas/
+  const siteUrl = `${BASE_URL}/`;                  // https://junkscout.io/
+
+  // Stable IDs (Google likes entity stitching)
+  const webpageId = `${url}#webpage`;
+  const breadcrumbId = `${url}#breadcrumb`;
+  const placeId = `${url}#place`;
+  const websiteId = `${siteUrl}#website`;
+  const orgId = `${siteUrl}#org`;
+
+  const searchTarget = `${BASE_URL}/?where={search_term_string}`;
 
   const graph = [
     {
+      "@type": "Organization",
+      "@id": orgId,
+      "name": "JunkScout",
+      "url": siteUrl
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      "name": "JunkScout",
+      "url": siteUrl,
+      "publisher": { "@id": orgId },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": searchTarget
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
       "@type": "BreadcrumbList",
+      "@id": breadcrumbId,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
-        { "@type": "ListItem", "position": 2, "name": stateName, "item": `${BASE_URL}/${state}/` },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+        { "@type": "ListItem", "position": 2, "name": stateName, "item": stateUrl },
         { "@type": "ListItem", "position": 3, "name": cityName, "item": url }
       ]
     },
     {
       "@type": "Place",
+      "@id": placeId,
       "name": `Dump and landfill options in ${cityName}, ${stateName}`,
       "address": {
         "@type": "PostalAddress",
@@ -64,19 +99,29 @@ function buildJsonLd({ state, city, meta }) {
         "addressRegion": stateAbbrev,
         "addressCountry": "US"
       },
-      "hasMap": `https://www.google.com/maps/search/${encodeURIComponent(`dump landfill ${cityName} ${stateAbbrev}`)}`,
+      "hasMap": `https://www.google.com/maps/search/${encodeURIComponent(
+        `dump landfill ${cityName} ${stateAbbrev}`
+      )}`,
       "url": url
     },
     {
       "@type": "WebPage",
+      "@id": webpageId,
       "name": meta.title,
       "description": meta.description,
       "url": url,
-      "isPartOf": { "@type": "WebSite", "name": "JunkScout", "url": `${BASE_URL}/` }
+      "isPartOf": { "@id": websiteId },
+      "about": { "@id": placeId },
+      "breadcrumb": { "@id": breadcrumbId }
     }
   ];
 
-  const json = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }, null, 2);
+  const json = JSON.stringify(
+    { "@context": "https://schema.org", "@graph": graph },
+    null,
+    2
+  );
+
   return `<script type="application/ld+json">\n${json}\n</script>`;
 }
 

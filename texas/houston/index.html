@@ -7,7 +7,31 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://junkscout.io/#org",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://junkscout.io/#website",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/",
+      "publisher": {
+        "@id": "https://junkscout.io/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://junkscout.io/?where={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
       "@type": "BreadcrumbList",
+      "@id": "https://junkscout.io/texas/houston/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -31,6 +55,7 @@
     },
     {
       "@type": "Place",
+      "@id": "https://junkscout.io/texas/houston/#place",
       "name": "Dump and landfill options in Houston, Texas",
       "address": {
         "@type": "PostalAddress",
@@ -43,13 +68,18 @@
     },
     {
       "@type": "WebPage",
+      "@id": "https://junkscout.io/texas/houston/#webpage",
       "name": "Find dumps and landfills in Houston, TEXAS | JunkScout",
       "description": "Public dumps, landfills, transfer stations, and recycling drop-offs near Houston, TEXAS — with rules and accepted materials when available.",
       "url": "https://junkscout.io/texas/houston/",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "JunkScout",
-        "url": "https://junkscout.io/"
+        "@id": "https://junkscout.io/#website"
+      },
+      "about": {
+        "@id": "https://junkscout.io/texas/houston/#place"
+      },
+      "breadcrumb": {
+        "@id": "https://junkscout.io/texas/houston/#breadcrumb"
       }
     }
   ]
