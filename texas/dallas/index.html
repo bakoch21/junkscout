@@ -3,7 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO CONTROL: default to noindex -->
+  <meta name="robots" content="index,follow" />
+
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
 
   <title>Find dumps and landfills in Dallas, TEXAS | JunkScout</title>
   <meta name="description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Dallas, TEXAS — with rules and accepted materials when available." />
@@ -20,6 +26,7 @@
 
 </head>
 
+
 <body data-state="texas" data-city="dallas">
   <header class="nav">
     <div class="nav__inner">
@@ -29,7 +36,7 @@
 
       <nav class="nav__links" aria-label="Primary">
         <a href="/index.html#browse-materials">Browse materials</a>
-        <a href="/index.html#browse-locations">Browse locations</a>
+        <a href="/texas/">Browse locations</a>
         <a href="/index.html#how-it-works">How it works</a>
         <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
       </nav>
@@ -47,9 +54,47 @@
       <p class="subhead" id="citySubhead">
         Public dumps, transfer stations, and disposal sites — with hours, rules, and accepted materials when available.
       </p>
+
       <p class="muted small">
         Source-linked where possible • Community-suggested • Always confirm before visiting
       </p>
+
+      <!-- SEO COPY START -->
+      <section class="seo-copy">
+        <p>
+          Need a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
+          <strong>recycling drop-off</strong> in this city?
+          JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
+        </p>
+
+        <h2>Where can I dump junk in this city?</h2>
+        <p>
+          Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
+          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings below to confirm what’s accepted before you drive out.
+        </p>
+
+        <h2>What items are typically accepted?</h2>
+        <p>
+          Commonly accepted items include <strong>furniture</strong>, <strong>yard waste</strong>, <strong>brush</strong>,
+          <strong>construction debris</strong> (C&amp;D), appliances (sometimes restricted), and mixed recyclables.
+          Some facilities accept only certain materials or require loads to be separated.
+        </p>
+
+        <h2>Fees, hours, and resident requirements</h2>
+        <p>
+          Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
+          Others charge based on load size, weight, or material type.
+          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+        </p>
+
+        <h2>Nearby locations</h2>
+        <p>
+          If you don’t see the right option here, nearby cities may have additional landfills or drop-off centers.
+          (Tip: search nearby areas in Texas for more options.)
+        </p>
+      </section>
+      <!-- SEO COPY END -->
 
       <!-- Results injected here -->
       <section class="cards" id="results" style="margin-top:22px"></section>

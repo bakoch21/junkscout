@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://https://junkscout.io/</loc>
+    <loc>https://junkscout.io/</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -15,30 +16,31 @@
   </url>
 
   <url>
-    <loc>https://https://junkscout.io/texas/austin/</loc>
+    <loc>https://junkscout.io/texas/austin/</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://https://junkscout.io/texas/dallas/</loc>
+    <loc>https://junkscout.io/texas/dallas/</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://Yhttps://junkscout.io/texas/houston/</loc>
+    <loc>https://junkscout.io/texas/houston/</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://https://junkscout.io/texas/san-antonio/</loc>
+    <loc>https://junkscout.io/texas/san-antonio/</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+
 </urlset>
