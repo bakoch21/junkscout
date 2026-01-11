@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,11 +36,10 @@
       </nav>
 
       <div class="nav__actions">
-        <a class="btn btn--ghost" href="#report">Report an update</a>
-        <button class="btn btn--primary" id="ctaStart" type="button">
-          Find drop-off options
-        </button>
+        <a class="btn btn--ghost" href="/texas/">Drop-Off Options</a>
+        <a class="btn btn--primary" href="/texas/">Browse Texas Locations</a>
       </div>
+
     </div>
   </header>
 
@@ -50,7 +50,7 @@
         <h1>Dump your junk. The right way.</h1>
         <p class="subhead">
           Find verified drop-off locations for couches, construction debris, tires, yard waste,
-          and more — with rules, hours, and fees when available.
+          and more, with rules, hours, and fees when available.
         </p>
 
         <!-- Wizard -->
@@ -137,40 +137,49 @@
           </div>
         </section>
 
-        <!-- Preview cards -->
-        <section class="cards" aria-label="Examples">
-          <article class="card">
-            <div class="card__kicker">
-              <span class="badge badge--blue">Closest drop-off</span>
-            </div>
-            <h3>Williamson County Collection Center</h3>
-            <p class="card__meta">Accepts: Furniture, Brush</p>
-            <p class="card__meta">8 AM – 5:45 PM • Verified Jan 6</p>
-            <a class="link" href="#">View details</a>
-          </article>
+<!-- Preview cards -->
+<section class="cards" aria-label="Examples">
+  <article class="card">
+    <div class="card__kicker">
+      <span class="badge badge--blue">Official city drop-off</span>
+    </div>
+    <h3>Recycle &amp; Reuse Drop-off Center</h3>
+    <p class="card__meta">Accepts: Household items, recycling, reuse</p>
+    <p class="card__meta">Appointment-only • Verified Jan 2026</p>
+    <a class="link" href="/texas/austin/">Drop-off options</a>
+    <a class="link" href="https://www.austintexas.gov/dropoff" target="_blank" rel="noopener">
+      Official site
+    </a>
+  </article>
 
-          <article class="card">
-            <div class="card__kicker">
-              <span class="badge badge--green">No surprises</span>
-            </div>
-            <h3>Resident ID required</h3>
-            <p class="card__meta">Tires limited • No appliances</p>
-            <p class="card__meta">Mon–Sat • Verified Jan 6</p>
-            <a class="link" href="#">View details</a>
-          </article>
+  <article class="card">
+    <div class="card__kicker">
+      <span class="badge badge--green">Major landfill option</span>
+    </div>
+    <h3>Travis County Landfill</h3>
+    <p class="card__meta">Accepts: General waste, large loads</p>
+    <p class="card__meta">Check rates &amp; rules • Verified Jan 2026</p>
+    <a class="link" href="/texas/austin/">View Austin landfill options</a>
+    <a class="link" href="https://www.wasteconnections.com/travis-county-landfill/" target="_blank" rel="noopener">
+      Rates &amp; hours
+    </a>
+  </article>
 
-          <article class="card">
-            <div class="card__kicker">
-              <span class="badge badge--orange">Takes construction debris</span>
-            </div>
-            <h3>C&amp;D Facility</h3>
-            <p class="card__meta">Drywall, Lumber, Tile</p>
-            <p class="card__meta">
-              <span class="pill">No household trash</span> • Verified Jan 3
-            </p>
-            <a class="link" href="#">View details</a>
-          </article>
-        </section>
+  <article class="card">
+    <div class="card__kicker">
+      <span class="badge badge--orange">WM facility</span>
+    </div>
+    <h3>Austin Community Landfill (WM)</h3>
+    <p class="card__meta">Accepts: Construction &amp; household debris</p>
+    <p class="card__meta">
+      <span class="pill">Check rules first</span> • Verified Jan 2026
+    </p>
+    <a class="link" href="/texas/austin/">View Austin landfill options</a>
+    <a class="link" href="https://www.wm.com/us/en/facilities/austin-community-landfill" target="_blank" rel="noopener">
+      Facility info
+    </a>
+  </article>
+</section>
 
         <!-- Why -->
         <section class="why" aria-label="Why JunkScout">
@@ -253,18 +262,10 @@
         <!-- Report -->
         <section class="report" id="report">
           <div class="report__box">
-            <h2>Report an update</h2>
+            <h2>What JunkScout is</h2>
             <p class="muted">
-              Found wrong hours, fees, or rules? Send it — we’ll verify and update.
+              A city-by-city directory of public disposal and recycling sites, built for clarity over clutter
             </p>
-            <div class="report__actions">
-              <button class="btn btn--primary" type="button">
-                Report an update
-              </button>
-              <button class="btn btn--ghost" type="button">
-                Add a new site
-              </button>
-            </div>
           </div>
         </section>
       </div>
@@ -304,5 +305,6 @@
   </footer>
 
   <script src="/app.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"55450da2c3764da5b3245cf0a4abecf5","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
