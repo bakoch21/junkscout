@@ -9,9 +9,10 @@
 
     "build:data:tx": "node scripts/generate-cities.js",
     "build:citylist:tx": "node scripts/build-texas-city-list.js",
+    "build:neighbors:tx": "node scripts/build-neighbors.js --state=texas --k=10",
     "build:pages:tx": "node scripts/generate-city-pages.js",
 
-    "build:tx": "npm run build:data:tx && npm run build:citylist:tx && npm run build:pages:tx"
+    "build:tx": "npm run build:data:tx && npm run build:citylist:tx && npm run build:neighbors:tx && npm run build:pages:tx"
   },
   "keywords": [],
   "author": "",
