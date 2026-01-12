@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
   <title>Browse Texas dump & landfill locations | JunkScout</title>
   <meta name="description" content="Browse Texas cities to find dumps, landfills, transfer stations, and recycling drop-off locations." />
   <link rel="canonical" href="/texas/" />
+
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
@@ -18,7 +21,7 @@
 
       <nav class="nav__links" aria-label="Primary">
         <a href="/index.html#browse-materials">Browse materials</a>
-        <a href="/index.html#browse-locations">Browse locations</a>
+        <a href="/texas/">Browse locations</a>
         <a href="/index.html#how-it-works">How it works</a>
         <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
       </nav>
@@ -35,15 +38,93 @@
       <h1>Browse locations in Texas</h1>
       <p class="subhead">Choose a city to find dumps, landfills, transfer stations, and recycling drop-offs.</p>
 
-      <section style="margin-top:22px">
-        <ul style="line-height:1.9; padding-left:18px; margin:0">
-          <li><a href="/texas/austin/">Austin</a></li>
-          <li><a href="/texas/dallas/">Dallas</a></li>
-          <li><a href="/texas/houston/">Houston</a></li>
-          <li><a href="/texas/san-antonio/">San Antonio</a></li>
-        </ul>
+      <!-- Texas hub -->
+      <section class="cityhub" style="margin-top:22px">
+        <div class="cityhub__controls">
+          <input
+            id="citySearch"
+            class="cityhub__search"
+            type="search"
+            placeholder="Search Texas cities (e.g., Frisco, Waco, El Paso)"
+            aria-label="Search Texas cities"
+          />
+          <div class="muted small" id="cityCount"></div>
+        </div>
+
+        <div class="cityhub__grid" id="cityList"></div>
+
+        <p class="muted small" style="margin-top:12px">
+          Tip: If a city page shows “Unable to load locations right now,” it means that city’s data file hasn’t been generated yet.
+        </p>
       </section>
     </div>
   </main>
+
+  <script>
+    (async function () {
+      const listEl = document.getElementById("cityList");
+      const searchEl = document.getElementById("citySearch");
+      const countEl = document.getElementById("cityCount");
+
+      function titleCaseFromSlug(slug = "") {
+        return slug
+          .split("-")
+          .filter(Boolean)
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ");
+      }
+
+      let cities = [];
+
+      function render(list) {
+        listEl.innerHTML = list
+          .map(
+            (c) => `
+              <a class="cityhub__pill" href="${c.href}">
+                ${c.label}
+              </a>
+            `
+          )
+          .join("");
+
+        countEl.textContent = `${list.length} cities`;
+      }
+
+      function filter(q) {
+        const query = (q || "").trim().toLowerCase();
+        if (!query) return cities;
+        return cities.filter((c) => c.label.toLowerCase().includes(query));
+      }
+
+      try {
+        // Source of truth: your generator uses scripts/cities-texas.json
+        const res = await fetch("/scripts/cities-texas.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`Failed to load city list: ${res.status}`);
+        const data = await res.json();
+
+        cities = (data || [])
+          .filter((x) => x && String(x.state).toLowerCase() === "texas" && x.city)
+          .map((x) => {
+            const slug = String(x.city).toLowerCase();
+            return {
+              slug,
+              label: titleCaseFromSlug(slug),
+              href: `/texas/${slug}/`,
+            };
+          })
+          .sort((a, b) => a.label.localeCompare(b.label));
+
+        render(cities);
+
+        searchEl.addEventListener("input", () => {
+          render(filter(searchEl.value));
+        });
+      } catch (err) {
+        console.error(err);
+        listEl.innerHTML = `<div class="muted">Unable to load city list right now.</div>`;
+        countEl.textContent = "";
+      }
+    })();
+  </script>
 </body>
 </html>
