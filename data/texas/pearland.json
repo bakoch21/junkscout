@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Stella Roberts Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 29.5451264,
+    "lng": -95.3099689,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/128315697"
+  },
+  {
+    "name": "Lone Star Disposal",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.5919043,
+    "lng": -95.4372343,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/196615945"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Transfer Station",
+    "type": "transfer_station",
+    "address": "3200 Lawrence Road Wichita Falls TX 76308",
+    "lat": 33.873771,
+    "lng": -98.5424026,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/628932216"
+  },
+  {
+    "name": "Scales",
+    "type": "transfer_station",
+    "address": "2300 Lawrence Road Wichita Falls TX 76308",
+    "lat": 33.8731062,
+    "lng": -98.541084,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/628932505"
+  }
+]

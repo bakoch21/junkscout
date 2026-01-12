@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Amarillo Metals Company, Inc",
+    "type": "recycling",
+    "address": "415 North Grand Street Amarillo TX 79109",
+    "lat": 35.2167702,
+    "lng": -101.7964732,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894450479"
+  },
+  {
+    "name": "Amarillo Recycling Company, Inc.",
+    "type": "recycling",
+    "address": "5318 East Amarillo Boulevard Amarillo TX 79107",
+    "lat": 35.2216074,
+    "lng": -101.7961798,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894450500"
+  },
+  {
+    "name": "W. Silver Recycling Company",
+    "type": "recycling",
+    "address": "3320 East Amarillo Boulevard Amarillo TX 79107",
+    "lat": 35.2215976,
+    "lng": -101.7985267,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894463188"
+  },
+  {
+    "name": "North Texas Waste & Recycling",
+    "type": "recycling",
+    "address": "4110 East Amarillo Boulevard Amarillo TX 79107",
+    "lat": 35.2211718,
+    "lng": -101.790506,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894463368"
+  },
+  {
+    "name": "Scrap Processing Co.",
+    "type": "recycling",
+    "address": "95 Browning Street Amarillo TX 79104",
+    "lat": 35.2101851,
+    "lng": -101.8076043,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/13013150932"
+  },
+  {
+    "name": "Used Oil Collection Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 35.1852548,
+    "lng": -101.8311894,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/13240497571"
+  },
+  {
+    "name": "Metal & Used Oil Collection Center",
+    "type": "recycling",
+    "address": "604 South Independence Street Amarillo TX 79106",
+    "lat": 35.2110607,
+    "lng": -101.8832934,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1278729141"
+  },
+  {
+    "name": "Used Oil Collection Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 35.2505193,
+    "lng": -101.8327615,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1279582216"
+  },
+  {
+    "name": "City of Amarillo Brush Site",
+    "type": "recycling",
+    "address": "3401 Broadway Drive Amarillo TX 79107",
+    "lat": 35.2461001,
+    "lng": -101.8499046,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1424542195"
+  }
+]

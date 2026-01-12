@@ -1,0 +1,38 @@
+[
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6413269,
+    "lng": -96.9553907,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6641272910"
+  },
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6523264,
+    "lng": -96.974901,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6641272911"
+  },
+  {
+    "name": "Irving Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7835313,
+    "lng": -96.9438942,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/29396471"
+  },
+  {
+    "name": "Grand Prairie Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7698514,
+    "lng": -96.9492464,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/317592059"
+  }
+]

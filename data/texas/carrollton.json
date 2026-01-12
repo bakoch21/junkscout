@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Clothes & Shoes Recycling Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9562142,
+    "lng": -96.8928589,
+    "website": "https://fillthebins.com",
+    "osm_url": "https://www.openstreetmap.org/node/11911146930"
+  },
+  {
+    "name": "Armstrong Archives",
+    "type": "recycling",
+    "address": "1515 Crescent Drive Carrollton TX 75006",
+    "lat": 32.9570188,
+    "lng": -96.9167122,
+    "website": "https://www.armstrongarchives.com/",
+    "osm_url": "https://www.openstreetmap.org/node/12151033543"
+  },
+  {
+    "name": "Keeper of the Grumper",
+    "type": "recycling",
+    "address": "3704 Arapaho Road Addison TX 75001",
+    "lat": 32.9560029,
+    "lng": -96.8534502,
+    "website": "https://keeperofthegrumper.org/",
+    "osm_url": "https://www.openstreetmap.org/node/13398279164"
+  },
+  {
+    "name": "DFW Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0200774,
+    "lng": -96.9546189,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/336438904"
+  },
+  {
+    "name": "Camelot Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0307155,
+    "lng": -96.950935,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/336439435"
+  }
+]

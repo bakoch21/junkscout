@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Setasa",
+    "type": "recycling",
+    "address": "",
+    "lat": 27.5449704,
+    "lng": -99.5827737,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/5774565476"
+  },
+  {
+    "name": "Setasa",
+    "type": "landfill",
+    "address": "",
+    "lat": 27.5447692,
+    "lng": -99.5841188,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/609679471"
+  },
+  {
+    "name": "City of Laredo Landfill",
+    "type": "landfill",
+    "address": "TX 359 Laredo TX 78046",
+    "lat": 27.4929346,
+    "lng": -99.4100013,
+    "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
+    "osm_url": "https://www.openstreetmap.org/way/1151383582"
+  }
+]

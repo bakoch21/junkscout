@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Recycling Point",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.1989807,
+    "lng": -97.1231056,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/1655963854"
+  },
+  {
+    "name": "DFW Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0200774,
+    "lng": -96.9546189,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/336438904"
+  },
+  {
+    "name": "Camelot Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0307155,
+    "lng": -96.950935,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/336439435"
+  },
+  {
+    "name": "Lewisville Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0506346,
+    "lng": -96.9741131,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/390045378"
+  },
+  {
+    "name": "Denton Recycle Center",
+    "type": "transfer_station",
+    "address": "1722 Cooper Creek Road Denton TX 76208",
+    "lat": 33.2369623,
+    "lng": -97.0810666,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/900166721"
+  }
+]

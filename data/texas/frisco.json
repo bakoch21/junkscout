@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Custer Transfer Station",
+    "type": "transfer_station",
+    "address": "9901 Custer Road Plano TX 75025",
+    "lat": 33.1146866,
+    "lng": -96.7353896,
+    "website": "https://www.plano.gov/685/Do-It-Yourself-Disposal",
+    "osm_url": "https://www.openstreetmap.org/way/452292395"
+  },
+  {
+    "name": "Custer Transfer Station",
+    "type": "transfer_station",
+    "address": "",
+    "lat": 33.1149086,
+    "lng": -96.7351259,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/658604109"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Green Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 29.7211792,
+    "lng": -94.9884887,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/837714494"
+  },
+  {
+    "name": "Greenshadow Landfill",
+    "type": "landfill",
+    "address": "710 Jana Lane Pasadena TX 77503",
+    "lat": 29.6961628,
+    "lng": -95.1474276,
+    "website": "https://www.wmsolutions.com/locations/details/id/103",
+    "osm_url": "https://www.openstreetmap.org/way/390096551"
+  },
+  {
+    "name": "Greenbelt Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.6238286,
+    "lng": -95.191411,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/399714155"
+  }
+]

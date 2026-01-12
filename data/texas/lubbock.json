@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Recycling Drop-Off Center",
+    "type": "recycling",
+    "address": "208 Municipal Drive Lubbock",
+    "lat": 33.6027871,
+    "lng": -101.837503,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/422848223"
+  },
+  {
+    "name": "City Recycling Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.5258193,
+    "lng": -101.959481,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/470019657"
+  },
+  {
+    "name": "Southside Recycling Center",
+    "type": "recycling",
+    "address": "1631 84th Street Lubbock",
+    "lat": 33.5163799,
+    "lng": -101.854952,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/583388280"
+  },
+  {
+    "name": "Caliche Canyon Landfill",
+    "type": "landfill",
+    "address": "8425 North Avenue P Lubbock TX 79403",
+    "lat": 33.6720515,
+    "lng": -101.8580447,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/678974718"
+  }
+]

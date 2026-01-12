@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pine Hill Landfill",
+    "type": "landfill",
+    "address": "1102 Four S Industrial Boulevard Longview TX 75603",
+    "lat": 32.450868,
+    "lng": -94.8334337,
+    "website": "https://www.republicservices.com/",
+    "osm_url": "https://www.openstreetmap.org/way/384596715"
+  },
+  {
+    "name": "City of Longview Compost Site",
+    "type": "landfill",
+    "address": "2020 Swinging Bridge Road Longview TX 75604",
+    "lat": 32.4827079,
+    "lng": -94.8027422,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/391129195"
+  }
+]
