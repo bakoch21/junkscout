@@ -27,6 +27,9 @@ body{
 a{color:inherit; text-decoration:none}
 .container{max-width:var(--max); margin:0 auto; padding:0 20px}
 
+.muted{color:var(--muted)}
+.small{font-size:12px}
+
 /* Nav */
 .nav{
   position:sticky; top:0; z-index:50;
@@ -39,8 +42,7 @@ a{color:inherit; text-decoration:none}
   display:flex; align-items:center; justify-content:space-between;
   gap:16px;
   max-width:var(--max); margin:0 auto; padding:0 20px;
-
-  flex-wrap:nowrap; /* ✅ keep everything on one line */
+  flex-wrap:nowrap; /* keep everything on one line */
 }
 
 /* Brand */
@@ -48,10 +50,8 @@ a{color:inherit; text-decoration:none}
   display:flex;
   align-items:center;
   gap:10px;
-
-  flex:0 0 auto; /* ✅ don't let the logo area shrink weirdly */
+  flex:0 0 auto; /* don't let the logo area shrink weirdly */
 }
-
 .brand__logo{
   height:36px;
   width:auto;
@@ -65,14 +65,14 @@ a{color:inherit; text-decoration:none}
   align-items:center;
   font-size:14px;
 
-  white-space:nowrap;     /* ✅ don't wrap into multiple rows */
-  overflow:hidden;        /* ✅ prevent pushing header taller */
-  text-overflow:ellipsis; /* ✅ safe truncation if needed */
-  min-width:0;            /* ✅ allows shrink inside flex container */
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  min-width:0;
 }
 .nav__links a{
   color:#374151;
-  flex:0 0 auto;          /* ✅ each link stays its natural size */
+  flex:0 0 auto;
 }
 .nav__links a:hover{text-decoration:underline}
 
@@ -81,13 +81,9 @@ a{color:inherit; text-decoration:none}
   display:flex;
   gap:10px;
   align-items:center;
-
-  white-space:nowrap; /* ✅ keep buttons on one line */
-  flex:0 0 auto;      /* ✅ don't shrink into weird wrapping */
+  white-space:nowrap;
+  flex:0 0 auto;
 }
-
-.muted{color:var(--muted)}
-.small{font-size:12px}
 
 /* Buttons */
 .btn{
@@ -127,23 +123,14 @@ a{color:inherit; text-decoration:none}
   color:#4b5563;
   font-size:17px;
   line-height:1.55;
-  margin:16px 0 12px; /* ✅ tightened (was 28px bottom) */
+  margin:16px 0 12px; /* tightened */
 }
 
-/* ✅ City pages: pull cards up higher */
-.hero .muted.small{
-  margin:0 0 10px;
-}
-.seo-copy{
-  margin-top:10px;
-  margin-bottom:12px;
-}
-.seo-copy h2{
-  margin-top:18px;
-}
-.hero .container > .cards{
-  margin-top:10px; /* overrides .cards default spacing in hero */
-}
+/* City pages: pull cards up higher */
+.hero .muted.small{margin:0 0 10px}
+.seo-copy{margin-top:10px; margin-bottom:12px}
+.seo-copy h2{margin-top:18px}
+.hero .container > .cards{margin-top:10px}
 
 /* Wizard */
 .wizard{
@@ -248,8 +235,6 @@ select{
   border-radius:var(--radius);
   padding:18px;
   box-shadow:0 10px 26px rgba(0,0,0,.06);
-
-  /* ✨ Surprise upgrade: premium hover behavior */
   transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 .card:hover{
@@ -278,6 +263,60 @@ select{
   border-radius:999px;
   font-size:12px;
 }
+
+/* Texas hub (city directory) */
+.cityhub{
+  background: linear-gradient(180deg, #ffffff 0%, #fdfaf6 100%);
+  border:1px solid var(--border);
+  border-radius: var(--radius2);
+  padding:18px;
+  box-shadow: var(--shadowStrong);
+}
+.cityhub__controls{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
+}
+.cityhub__search{
+  width:min(520px, 100%);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:12px 14px;
+  font-size:14px;
+  background:#fff;
+  outline:none;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+}
+.cityhub__search:focus{
+  border-color: rgba(46,110,166,0.55);
+  box-shadow: 0 10px 22px rgba(46,110,166,0.10);
+}
+.cityhub__grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.cityhub__pill{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px 12px;
+  border-radius:999px;
+  border:1px solid rgba(0,0,0,0.08);
+  background:#ffffff;
+  font-weight:700;
+  font-size:13px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.cityhub__pill:hover{
+  transform: translateY(-1px);
+  box-shadow: var(--shadowStrong);
+}
+.cityhub__pill:active{transform: translateY(0px)}
 
 /* Sections */
 .why, .browse, .how, .recent, .report{margin-top:48px}
