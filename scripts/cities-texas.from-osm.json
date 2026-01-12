@@ -1,0 +1,472 @@
+[
+  {
+    "state": "texas",
+    "city": "houston",
+    "query": "Houston Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "austin",
+    "query": "Austin Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "amarillo",
+    "query": "Amarillo Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "fort-worth",
+    "query": "Fort Worth Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "georgetown",
+    "query": "Georgetown Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "san-antonio",
+    "query": "San Antonio Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "lubbock",
+    "query": "Lubbock Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "waco",
+    "query": "Waco Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "el-paso",
+    "query": "El Paso Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "longview",
+    "query": "Longview Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "sherman",
+    "query": "Sherman Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "laredo",
+    "query": "Laredo Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "round-rock",
+    "query": "Round Rock Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "gatesville",
+    "query": "Gatesville Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "lufkin",
+    "query": "Lufkin Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "tyler",
+    "query": "Tyler Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "midland",
+    "query": "Midland Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "mount-pleasant",
+    "query": "Mount Pleasant Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "junction",
+    "query": "Junction Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "bandera",
+    "query": "Bandera Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "pampa",
+    "query": "Pampa Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "kerrville",
+    "query": "Kerrville Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "floydada",
+    "query": "Floydada Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "mesquite",
+    "query": "Mesquite Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "katy",
+    "query": "Katy Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "new-caney",
+    "query": "New Caney Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "haltom-city",
+    "query": "Haltom City Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "wimberley",
+    "query": "Wimberley Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "carrollton",
+    "query": "Carrollton Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "marvel",
+    "query": "Marvel Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "addison",
+    "query": "Addison Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "leander",
+    "query": "Leander Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "needville",
+    "query": "Needville Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "waxahachie",
+    "query": "Waxahachie Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "ferris",
+    "query": "Ferris Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "victoria",
+    "query": "Victoria Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "frisco",
+    "query": "Frisco Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "allen",
+    "query": "Allen Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "pasadena",
+    "query": "Pasadena Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "baytown",
+    "query": "Baytown Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "hondo",
+    "query": "Hondo Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "kilgore",
+    "query": "Kilgore Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "el-paso-city",
+    "query": "El Paso City Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "sweetwater",
+    "query": "Sweetwater Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "luling",
+    "query": "Luling Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "sunnyvale",
+    "query": "Sunnyvale Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "the-woodlands",
+    "query": "The Woodlands Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "corpus-christi",
+    "query": "Corpus Christi Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "richmond",
+    "query": "Richmond Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "arlington",
+    "query": "Arlington Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "port-isabel",
+    "query": "Port Isabel Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "laguna-vista",
+    "query": "Laguna Vista Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "south-padre-island",
+    "query": "South Padre Island Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "slaton",
+    "query": "Slaton Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "ballinger",
+    "query": "Ballinger Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "bruceville-eddy",
+    "query": "Bruceville Eddy Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "brownsville",
+    "query": "Brownsville Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "lamesa",
+    "query": "Lamesa Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "lindale",
+    "query": "Lindale Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "crosby",
+    "query": "Crosby Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "garland",
+    "query": "Garland Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "navasota",
+    "query": "Navasota Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "lampasas",
+    "query": "Lampasas Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "tilden",
+    "query": "Tilden Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "cedar-park",
+    "query": "Cedar Park Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "jarrell",
+    "query": "Jarrell Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "texarkana",
+    "query": "Texarkana Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "abilene",
+    "query": "Abilene Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "waskom",
+    "query": "Waskom Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "greenville",
+    "query": "Greenville Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "san-angelo",
+    "query": "San Angelo Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "fredericksburg",
+    "query": "Fredericksburg Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "lake-dallas",
+    "query": "Lake Dallas Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "windthorst",
+    "query": "Windthorst Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "rio-bravo",
+    "query": "Rio Bravo Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "zapata",
+    "query": "Zapata Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "chester",
+    "query": "Chester Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "bastrop",
+    "query": "Bastrop Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "eagle-pass",
+    "query": "Eagle Pass Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "del-valle",
+    "query": "Del Valle Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "lakeway",
+    "query": "Lakeway Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "sunray",
+    "query": "Sunray Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "pflugerville",
+    "query": "Pflugerville Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "mckinney",
+    "query": "Mckinney Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "grandview",
+    "query": "Grandview Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "mcgregor",
+    "query": "Mcgregor Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "marble-falls",
+    "query": "Marble Falls Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "rockwall",
+    "query": "Rockwall Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "bevil-oaks",
+    "query": "Bevil Oaks Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "bryan",
+    "query": "Bryan Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "spring",
+    "query": "Spring Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "floresville",
+    "query": "Floresville Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "alton",
+    "query": "Alton Texas USA"
+  },
+  {
+    "state": "texas",
+    "city": "san-marcos",
+    "query": "San Marcos Texas USA"
+  }
+]

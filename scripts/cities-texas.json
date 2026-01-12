@@ -1,77 +1,207 @@
 [
-  { "state": "texas", "city": "austin", "query": "Austin, Texas, USA" },
-  { "state": "texas", "city": "dallas", "query": "Dallas, Texas, USA" },
-  { "state": "texas", "city": "houston", "query": "Houston, Texas, USA" },
-  { "state": "texas", "city": "san-antonio", "query": "San Antonio, Texas, USA" },
-  { "state": "texas", "city": "fort-worth", "query": "Fort Worth, Texas, USA" },
-  { "state": "texas", "city": "el-paso", "query": "El Paso, Texas, USA" },
-  { "state": "texas", "city": "arlington", "query": "Arlington, Texas, USA" },
-  { "state": "texas", "city": "corpus-christi", "query": "Corpus Christi, Texas, USA" },
-  { "state": "texas", "city": "plano", "query": "Plano, Texas, USA" },
-  { "state": "texas", "city": "lubbock", "query": "Lubbock, Texas, USA" },
-
-  { "state": "texas", "city": "irving", "query": "Irving, Texas, USA" },
-  { "state": "texas", "city": "garland", "query": "Garland, Texas, USA" },
-  { "state": "texas", "city": "frisco", "query": "Frisco, Texas, USA" },
-  { "state": "texas", "city": "mckinney", "query": "McKinney, Texas, USA" },
-  { "state": "texas", "city": "grand-prairie", "query": "Grand Prairie, Texas, USA" },
-  { "state": "texas", "city": "mesquite", "query": "Mesquite, Texas, USA" },
-  { "state": "texas", "city": "carrollton", "query": "Carrollton, Texas, USA" },
-  { "state": "texas", "city": "lewisville", "query": "Lewisville, Texas, USA" },
-  { "state": "texas", "city": "flower-mound", "query": "Flower Mound, Texas, USA" },
-  { "state": "texas", "city": "denton", "query": "Denton, Texas, USA" },
-
-  { "state": "texas", "city": "waco", "query": "Waco, Texas, USA" },
-  { "state": "texas", "city": "temple", "query": "Temple, Texas, USA" },
-  { "state": "texas", "city": "killeen", "query": "Killeen, Texas, USA" },
-  { "state": "texas", "city": "round-rock", "query": "Round Rock, Texas, USA" },
-  { "state": "texas", "city": "cedar-park", "query": "Cedar Park, Texas, USA" },
-  { "state": "texas", "city": "georgetown", "query": "Georgetown, Texas, USA" },
-  { "state": "texas", "city": "san-marcos", "query": "San Marcos, Texas, USA" },
-  { "state": "texas", "city": "new-braunfels", "query": "New Braunfels, Texas, USA" },
-  { "state": "texas", "city": "kyle", "query": "Kyle, Texas, USA" },
-  { "state": "texas", "city": "buda", "query": "Buda, Texas, USA" },
-
-  { "state": "texas", "city": "college-station", "query": "College Station, Texas, USA" },
-  { "state": "texas", "city": "bryan", "query": "Bryan, Texas, USA" },
-  { "state": "texas", "city": "conroe", "query": "Conroe, Texas, USA" },
-  { "state": "texas", "city": "the-woodlands", "query": "The Woodlands, Texas, USA" },
-  { "state": "texas", "city": "spring", "query": "Spring, Texas, USA" },
-  { "state": "texas", "city": "pasadena", "query": "Pasadena, Texas, USA" },
-  { "state": "texas", "city": "baytown", "query": "Baytown, Texas, USA" },
-  { "state": "texas", "city": "league-city", "query": "League City, Texas, USA" },
-  { "state": "texas", "city": "pearland", "query": "Pearland, Texas, USA" },
-  { "state": "texas", "city": "sugar-land", "query": "Sugar Land, Texas, USA" },
-
-  { "state": "texas", "city": "beaumont", "query": "Beaumont, Texas, USA" },
-  { "state": "texas", "city": "port-arthur", "query": "Port Arthur, Texas, USA" },
-  { "state": "texas", "city": "tyler", "query": "Tyler, Texas, USA" },
-  { "state": "texas", "city": "longview", "query": "Longview, Texas, USA" },
-  { "state": "texas", "city": "marshall", "query": "Marshall, Texas, USA" },
-  { "state": "texas", "city": "texarkana", "query": "Texarkana, Texas, USA" },
-
-  { "state": "texas", "city": "abilene", "query": "Abilene, Texas, USA" },
-  { "state": "texas", "city": "san-angelo", "query": "San Angelo, Texas, USA" },
-  { "state": "texas", "city": "midland", "query": "Midland, Texas, USA" },
-  { "state": "texas", "city": "odessa", "query": "Odessa, Texas, USA" },
-  { "state": "texas", "city": "amarillo", "query": "Amarillo, Texas, USA" },
-
-  { "state": "texas", "city": "victoria", "query": "Victoria, Texas, USA" },
-  { "state": "texas", "city": "laredo", "query": "Laredo, Texas, USA" },
-  { "state": "texas", "city": "mcallen", "query": "McAllen, Texas, USA" },
-  { "state": "texas", "city": "edinburg", "query": "Edinburg, Texas, USA" },
-  { "state": "texas", "city": "brownsville", "query": "Brownsville, Texas, USA" },
-
-  { "state": "texas", "city": "harlingen", "query": "Harlingen, Texas, USA" },
-  { "state": "texas", "city": "mission", "query": "Mission, Texas, USA" },
-  { "state": "texas", "city": "eagle-pass", "query": "Eagle Pass, Texas, USA" },
-  { "state": "texas", "city": "del-rio", "query": "Del Rio, Texas, USA" },
-
-  { "state": "texas", "city": "wichita-falls", "query": "Wichita Falls, Texas, USA" },
-  { "state": "texas", "city": "sherman", "query": "Sherman, Texas, USA" },
-  { "state": "texas", "city": "denison", "query": "Denison, Texas, USA" },
-
-  { "state": "texas", "city": "fredericksburg", "query": "Fredericksburg, Texas, USA" },
-  { "state": "texas", "city": "boerne", "query": "Boerne, Texas, USA" },
-  { "state": "texas", "city": "seguin", "query": "Seguin, Texas, USA" }
+  {
+    "state": "texas",
+    "city": "amarillo",
+    "query": "Amarillo, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "arlington",
+    "query": "Arlington, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "austin",
+    "query": "Austin, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "baytown",
+    "query": "Baytown, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "beaumont",
+    "query": "Beaumont, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "brownsville",
+    "query": "Brownsville, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "carrollton",
+    "query": "Carrollton, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "corpus-christi",
+    "query": "Corpus Christi, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "dallas",
+    "query": "Dallas, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "denton",
+    "query": "Denton, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "el-paso",
+    "query": "El Paso, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "fort-worth",
+    "query": "Fort Worth, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "frisco",
+    "query": "Frisco, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "garland",
+    "query": "Garland, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "grand-prairie",
+    "query": "Grand Prairie, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "houston",
+    "query": "Houston, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "irving",
+    "query": "Irving, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "killeen",
+    "query": "Killeen, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "laredo",
+    "query": "Laredo, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "lewisville",
+    "query": "Lewisville, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "longview",
+    "query": "Longview, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "lubbock",
+    "query": "Lubbock, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "mckinney",
+    "query": "Mckinney, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "mesquite",
+    "query": "Mesquite, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "midland",
+    "query": "Midland, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "new-braunfels",
+    "query": "New Braunfels, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "pasadena",
+    "query": "Pasadena, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "pearland",
+    "query": "Pearland, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "plano",
+    "query": "Plano, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "port-arthur",
+    "query": "Port Arthur, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "round-rock",
+    "query": "Round Rock, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "san-angelo",
+    "query": "San Angelo, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "san-antonio",
+    "query": "San Antonio, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "san-marcos",
+    "query": "San Marcos, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "seguin",
+    "query": "Seguin, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "sugar-land",
+    "query": "Sugar Land, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "the-woodlands",
+    "query": "The Woodlands, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "tyler",
+    "query": "Tyler, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "victoria",
+    "query": "Victoria, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "waco",
+    "query": "Waco, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "wichita-falls",
+    "query": "Wichita Falls, Texas, USA"
+  }
 ]
