@@ -294,29 +294,46 @@ select{
   border-color: rgba(46,110,166,0.55);
   box-shadow: 0 10px 22px rgba(46,110,166,0.10);
 }
+
+/* ✅ List-style layout: clean, scannable, responsive */
 .cityhub__grid{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
+  margin-top: 6px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap:10px 12px;
 }
+
 .cityhub__pill{
-  display:inline-flex;
+  display:flex;
   align-items:center;
-  justify-content:center;
+  justify-content:space-between;
   padding:10px 12px;
-  border-radius:999px;
+  border-radius:12px;
   border:1px solid rgba(0,0,0,0.08);
   background:#ffffff;
   font-weight:700;
   font-size:13px;
   box-shadow: 0 8px 18px rgba(0,0,0,0.04);
-  transition: transform .12s ease, box-shadow .12s ease;
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 .cityhub__pill:hover{
   transform: translateY(-1px);
   box-shadow: var(--shadowStrong);
+  border-color: rgba(63,122,58,0.20);
 }
 .cityhub__pill:active{transform: translateY(0px)}
+
+/* Nice little affordance: a subtle arrow on hover */
+.cityhub__pill::after{
+  content:"→";
+  color:#9ca3af;
+  font-weight:900;
+  transition: transform .12s ease, color .12s ease;
+}
+.cityhub__pill:hover::after{
+  transform: translateX(2px);
+  color:#6b7280;
+}
 
 /* Sections */
 .why, .browse, .how, .recent, .report{margin-top:48px}
