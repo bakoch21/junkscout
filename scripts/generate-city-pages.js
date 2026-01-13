@@ -6,6 +6,9 @@ const CITY_LIST_PATH = "./scripts/cities-texas.json";
 const TEMPLATE_PATH = "./city-template.html";
 const OUTPUT_BASE = "."; // project root
 
+// Neighbors output (from scripts/build-neighbors.js)
+const NEIGHBORS_PATH = "./data/texas/_neighbors.json";
+
 // ✅ Canonical base (used for canonical, OG, and JSON-LD)
 const BASE_URL = "https://junkscout.io";
 
@@ -18,7 +21,6 @@ function titleCaseFromSlug(slug = "") {
 }
 
 function stateAbbrevFromSlug(stateSlug = "") {
-  // Extend later if you add states
   if (stateSlug.toLowerCase() === "texas") return "TX";
   return stateSlug.toUpperCase();
 }
@@ -42,14 +44,13 @@ function buildMeta({ state, city }) {
 
 function buildJsonLd({ state, city, meta }) {
   const cityName = titleCaseFromSlug(city);
-  const stateName = titleCaseFromSlug(state);      // "Texas"
-  const stateAbbrev = stateAbbrevFromSlug(state);  // "TX"
+  const stateName = titleCaseFromSlug(state); // "Texas"
+  const stateAbbrev = stateAbbrevFromSlug(state); // "TX"
 
-  const url = meta.canonicalUrl;                   // https://junkscout.io/texas/austin/
-  const stateUrl = `${BASE_URL}/${state}/`;        // https://junkscout.io/texas/
-  const siteUrl = `${BASE_URL}/`;                  // https://junkscout.io/
+  const url = meta.canonicalUrl; // https://junkscout.io/texas/austin/
+  const stateUrl = `${BASE_URL}/${state}/`; // https://junkscout.io/texas/
+  const siteUrl = `${BASE_URL}/`; // https://junkscout.io/
 
-  // Stable IDs (Google likes entity stitching)
   const webpageId = `${url}#webpage`;
   const breadcrumbId = `${url}#breadcrumb`;
   const placeId = `${url}#place`;
@@ -62,58 +63,55 @@ function buildJsonLd({ state, city, meta }) {
     {
       "@type": "Organization",
       "@id": orgId,
-      "name": "JunkScout",
-      "url": siteUrl
+      name: "JunkScout",
+      url: siteUrl,
     },
     {
       "@type": "WebSite",
       "@id": websiteId,
-      "name": "JunkScout",
-      "url": siteUrl,
-      "publisher": { "@id": orgId },
-      "potentialAction": {
+      name: "JunkScout",
+      url: siteUrl,
+      publisher: { "@id": orgId },
+      potentialAction: {
         "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": searchTarget
-        },
-        "query-input": "required name=search_term_string"
-      }
+        target: { "@type": "EntryPoint", urlTemplate: searchTarget },
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "BreadcrumbList",
       "@id": breadcrumbId,
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-        { "@type": "ListItem", "position": 2, "name": stateName, "item": stateUrl },
-        { "@type": "ListItem", "position": 3, "name": cityName, "item": url }
-      ]
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+        { "@type": "ListItem", position: 2, name: stateName, item: stateUrl },
+        { "@type": "ListItem", position: 3, name: cityName, item: url },
+      ],
     },
     {
       "@type": "Place",
       "@id": placeId,
-      "name": `Dump and landfill options in ${cityName}, ${stateName}`,
-      "address": {
+      name: `Dump and landfill options in ${cityName}, ${stateName}`,
+      address: {
         "@type": "PostalAddress",
-        "addressLocality": cityName,
-        "addressRegion": stateAbbrev,
-        "addressCountry": "US"
+        addressLocality: cityName,
+        addressRegion: stateAbbrev,
+        addressCountry: "US",
       },
-      "hasMap": `https://www.google.com/maps/search/${encodeURIComponent(
+      hasMap: `https://www.google.com/maps/search/${encodeURIComponent(
         `dump landfill ${cityName} ${stateAbbrev}`
       )}`,
-      "url": url
+      url,
     },
     {
       "@type": "WebPage",
       "@id": webpageId,
-      "name": meta.title,
-      "description": meta.description,
-      "url": url,
-      "isPartOf": { "@id": websiteId },
-      "about": { "@id": placeId },
-      "breadcrumb": { "@id": breadcrumbId }
-    }
+      name: meta.title,
+      description: meta.description,
+      url,
+      isPartOf: { "@id": websiteId },
+      about: { "@id": placeId },
+      breadcrumb: { "@id": breadcrumbId },
+    },
   ];
 
   const json = JSON.stringify(
@@ -126,7 +124,6 @@ function buildJsonLd({ state, city, meta }) {
 }
 
 function injectHeadMeta(html, meta) {
-  // Insert meta tags before </head>
   const tags = `
   <title>${meta.title}</title>
   <meta name="description" content="${meta.description}" />
@@ -141,12 +138,10 @@ function injectHeadMeta(html, meta) {
   <meta name="twitter:title" content="${meta.ogTitle}" />
   <meta name="twitter:description" content="${meta.ogDesc}" />
 `;
-
   return html.replace("</head>", `${tags}\n</head>`);
 }
 
 function injectJsonLd(html, jsonLdScript) {
-  // Prefer marker replacement; fall back to inserting before </head>
   const markerRegex = /<!--\s*JSONLD:START\s*-->[\s\S]*?<!--\s*JSONLD:END\s*-->/;
 
   if (markerRegex.test(html)) {
@@ -156,22 +151,110 @@ function injectJsonLd(html, jsonLdScript) {
     );
   }
 
-  // Fallback: insert right before </head>
   return html.replace("</head>", `\n${jsonLdScript}\n</head>`);
 }
 
 function injectBodySeed(html, { state, city }) {
-  // Add stable data attributes for city.js consumption
-  // NOTE: Template currently has "<body>" with no attributes.
-  return html.replace(
-    "<body>",
-    `<body data-state="${state}" data-city="${city}">`
-  );
+  return html.replace("<body>", `<body data-state="${state}" data-city="${city}">`);
+}
+
+/**
+ * Build the nearby cities HTML.
+ * Reads neighbors map (generated by build-neighbors.js) and renders a simple list of links.
+ */
+function buildNearbyHtml({ state, city, neighborsMap }) {
+  const itemsRaw = neighborsMap?.[city] || neighborsMap?.[String(city).toLowerCase()] || [];
+  if (!Array.isArray(itemsRaw) || itemsRaw.length === 0) return "";
+
+  // Normalize possible neighbor item shapes
+  const items = itemsRaw
+    .map((n) => {
+      const slug =
+        (n && (n.slug || n.city || n.city_slug || n.to)) ||
+        (typeof n === "string" ? n : null);
+
+      if (!slug) return null;
+
+      const cleanSlug = String(slug).trim().toLowerCase().replace(/\s+/g, "-");
+      const label = n && (n.label || n.name) ? String(n.label || n.name) : titleCaseFromSlug(cleanSlug);
+
+      // distance could be "distance_mi" or "distanceMiles" etc
+      const d =
+        (n && (n.distance_mi ?? n.distanceMiles ?? n.mi ?? n.distance)) ??
+        null;
+
+      const distanceText =
+        typeof d === "number" && isFinite(d) ? `${Math.round(d)} mi` : "";
+
+      return { slug: cleanSlug, label, distanceText };
+    })
+    .filter(Boolean);
+
+  if (items.length === 0) return "";
+
+  const cityName = titleCaseFromSlug(city);
+  const stateName = titleCaseFromSlug(state);
+
+  return `
+<section class="seo-copy" aria-label="Nearby locations">
+  <h2>Nearby dump & landfill locations</h2>
+  <p class="muted">
+    If you don’t see the right option in ${cityName}, check these nearby cities in ${stateName}.
+  </p>
+
+  <div class="cityhub__grid" style="margin-top:10px">
+    ${items
+      .map(
+        (x) => `
+      <a class="cityhub__pill" href="/${state}/${x.slug}/">
+        ${x.label}${x.distanceText ? ` <span class="muted" style="font-weight:600">· ${x.distanceText}</span>` : ""}
+      </a>
+    `
+      )
+      .join("")}
+  </div>
+</section>
+`.trim();
+}
+
+/**
+ * Inject nearby cities section.
+ * Preferred: template contains marker:
+ *   <!-- NEARBY:START --><!-- NEARBY:END -->
+ * Fallback: insert before </main>
+ */
+function injectNearby(html, nearbyHtml) {
+  if (!nearbyHtml) return html;
+
+  const markerRegex = /<!--\s*NEARBY:START\s*-->[\s\S]*?<!--\s*NEARBY:END\s*-->/;
+
+  if (markerRegex.test(html)) {
+    return html.replace(
+      markerRegex,
+      `<!-- NEARBY:START -->\n${nearbyHtml}\n<!-- NEARBY:END -->`
+    );
+  }
+
+  // Fallback: insert before closing </main>
+  if (html.includes("</main>")) {
+    return html.replace("</main>", `\n${nearbyHtml}\n</main>`);
+  }
+
+  // Last resort
+  return html.replace("</body>", `\n${nearbyHtml}\n</body>`);
 }
 
 function ensureCityTitleIsGeneric(html) {
-  // Keep template generic; city.js will set H1/subhead based on route
   return html;
+}
+
+function safeReadJson(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return null;
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch {
+    return null;
+  }
 }
 
 function run() {
@@ -182,6 +265,9 @@ function run() {
   template = template
     .replace(/<title>.*?<\/title>\s*/i, "")
     .replace(/<meta\s+name="description"[^>]*>\s*/i, "");
+
+  // Load neighbors map once
+  const neighborsMap = safeReadJson(NEIGHBORS_PATH) || {};
 
   for (const entry of cities) {
     const { state, city } = entry;
@@ -198,6 +284,10 @@ function run() {
 
     // 3) Add body seed attributes
     outHtml = injectBodySeed(outHtml, { state, city });
+
+    // 4) Inject Nearby cities (static links)
+    const nearbyHtml = buildNearbyHtml({ state, city, neighborsMap });
+    outHtml = injectNearby(outHtml, nearbyHtml);
 
     outHtml = ensureCityTitleIsGeneric(outHtml);
 
