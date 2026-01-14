@@ -6,7 +6,8 @@
     "lat": 31.6907705,
     "lng": -106.3832234,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/454932574"
+    "osm_url": "https://www.openstreetmap.org/way/454932574",
+    "facility_id": "f_8a7f77fa4a9b"
   },
   {
     "name": "Pull-A-Part",
@@ -15,7 +16,8 @@
     "lat": 31.8018486,
     "lng": -106.2742016,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/457772942"
+    "osm_url": "https://www.openstreetmap.org/way/457772942",
+    "facility_id": "f_2545e1a118bc"
   },
   {
     "name": "Recicladora Fenix",
@@ -24,6 +26,7 @@
     "lat": 31.6526946,
     "lng": -106.4297797,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/634087658"
+    "osm_url": "https://www.openstreetmap.org/way/634087658",
+    "facility_id": "f_54abf278b987"
   }
 ]

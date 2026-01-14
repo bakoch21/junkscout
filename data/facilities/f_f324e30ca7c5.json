@@ -1,0 +1,17 @@
+{
+  "id": "f_f324e30ca7c5",
+  "slug": "covel-gardens-landfill",
+  "name": "Covel Gardens Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.3343179,
+  "lng": -98.6546479,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/373704538",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_925b2b601899",
+  "slug": "atascocita-landfill",
+  "name": "Atascocita Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.9567492,
+  "lng": -95.2350361,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/148331083",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

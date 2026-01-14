@@ -1,0 +1,17 @@
+{
+  "id": "f_f5a2e86875aa",
+  "slug": "southwest-oak-cliff-transfer-station",
+  "name": "Southwest (Oak Cliff) Transfer Station",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.6879484,
+  "lng": -96.8813745,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/467243383",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

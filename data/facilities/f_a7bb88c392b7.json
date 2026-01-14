@@ -1,0 +1,17 @@
+{
+  "id": "f_a7bb88c392b7",
+  "slug": "san-antonio-bitters-recycling-center",
+  "name": "San Antonio Bitters Recycling Center",
+  "type": "recycling",
+  "address": "1800 Wurzbach Parkway San Antonio TX 78216",
+  "lat": 29.542061,
+  "lng": -98.4673513,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/370853902",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

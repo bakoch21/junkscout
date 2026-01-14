@@ -1,0 +1,17 @@
+{
+  "id": "f_fe7adc326204",
+  "slug": "republic-mccarty-road-landfill",
+  "name": "Republic McCarty Road Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.8279854,
+  "lng": -95.2395366,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/195840767",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

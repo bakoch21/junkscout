@@ -1,0 +1,2468 @@
+[
+  {
+    "id": "f_050ac796ad5e",
+    "slug": "380-mckinney-c-and-d-landfill",
+    "name": "380 McKinney C&D Landfill",
+    "type": "landfill",
+    "address": "2540 East University Drive McKinney TX 75069",
+    "lat": 33.1927159,
+    "lng": -96.5705498,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1234762062",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "mckinney"
+      }
+    ]
+  },
+  {
+    "id": "f_f9ff4782a0ed",
+    "slug": "a-g-pickard-pecans",
+    "name": "A. G. Pickard Pecans",
+    "type": "recycling",
+    "address": "101 Nogalitos Street San Antonio TX 78204",
+    "lat": 29.4090251,
+    "lng": -98.501694,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/929735081",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_b12f40977aa6",
+    "slug": "abs-metal-recycling",
+    "name": "ABS Metal Recycling",
+    "type": "recycling",
+    "address": "10519 McAngus Road Del Valle TX 78617",
+    "lat": 30.152656,
+    "lng": -97.6689714,
+    "website": "http://www.absrecycling.com/",
+    "osm_url": "https://www.openstreetmap.org/way/1185608567",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_aa76d5dee4b7",
+    "slug": "addicks-fairbanks-landfill",
+    "name": "Addicks Fairbanks Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.8720942,
+    "lng": -95.622773,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/148260554",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_1e5ec3672eef",
+    "slug": "amarillo-metals-company-inc",
+    "name": "Amarillo Metals Company, Inc",
+    "type": "recycling",
+    "address": "415 North Grand Street Amarillo TX 79109",
+    "lat": 35.2167702,
+    "lng": -101.7964732,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894450479",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_ac47284f3fc5",
+    "slug": "amarillo-recycling-company-inc",
+    "name": "Amarillo Recycling Company, Inc.",
+    "type": "recycling",
+    "address": "5318 East Amarillo Boulevard Amarillo TX 79107",
+    "lat": 35.2216074,
+    "lng": -101.7961798,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894450500",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_7a2eb5a73264",
+    "slug": "armstrong-archives",
+    "name": "Armstrong Archives",
+    "type": "recycling",
+    "address": "1515 Crescent Drive Carrollton TX 75006",
+    "lat": 32.9570188,
+    "lng": -96.9167122,
+    "website": "https://www.armstrongarchives.com/",
+    "osm_url": "https://www.openstreetmap.org/node/12151033543",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "carrollton"
+      },
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_925b2b601899",
+    "slug": "atascocita-landfill",
+    "name": "Atascocita Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.9567492,
+    "lng": -95.2350361,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/148331083",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_33e2d348d63a",
+    "slug": "austin-wood-recycling",
+    "name": "Austin Wood Recycling",
+    "type": "recycling",
+    "address": "9201 FM 812 Austin TX 78719",
+    "lat": 30.1555498,
+    "lng": -97.6873274,
+    "website": "https://www.austinwoodrecycling.com/",
+    "osm_url": "https://www.openstreetmap.org/way/1185824388",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_8bc5076be468",
+    "slug": "beck-landfill",
+    "name": "Beck Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.5470798,
+    "lng": -98.2618889,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/830189199",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_b5f99587f551",
+    "slug": "best-grease-service",
+    "name": "Best Grease Service",
+    "type": "recycling",
+    "address": "5232 Nadine Drive Haltom City TX 76117",
+    "lat": 32.8192997,
+    "lng": -97.269422,
+    "website": "http://oilrecyclinghaltomcity.com",
+    "osm_url": "https://www.openstreetmap.org/node/6611326408",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_49e36750e008",
+    "slug": "bracken-recylcing",
+    "name": "Bracken Recylcing",
+    "type": "recycling",
+    "address": "19068 Marbach Lane San Antonio TX 78266",
+    "lat": 29.6185504,
+    "lng": -98.3271844,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/864191752",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_ed9f5d68c551",
+    "slug": "browning-ferris-industries-sunset-farms-landfill",
+    "name": "Browning-Ferris Industries Sunset Farms Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 30.3432505,
+    "lng": -97.6266581,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/195840985",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_49ea78691768",
+    "slug": "brownsville-recycling-center",
+    "name": "Brownsville Recycling Center",
+    "type": "recycling",
+    "address": "308 East Elizabeth Street Brownsville TX 78520",
+    "lat": 25.9068005,
+    "lng": -97.5045245,
+    "website": "https://www.cameroncountytx.gov/recycling-centers-directory/",
+    "osm_url": "https://www.openstreetmap.org/way/746257106",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "brownsville"
+      }
+    ]
+  },
+  {
+    "id": "f_025d1d2b922a",
+    "slug": "c-and-d-scrap-metal",
+    "name": "C&D Scrap Metal",
+    "type": "recycling",
+    "address": "6775 Bingle Road Houston TX",
+    "lat": 29.8641276,
+    "lng": -95.488482,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/690500603",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_446e93d212db",
+    "slug": "caliche-canyon-landfill",
+    "name": "Caliche Canyon Landfill",
+    "type": "landfill",
+    "address": "8425 North Avenue P Lubbock TX 79403",
+    "lat": 33.6720515,
+    "lng": -101.8580447,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/678974718",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "lubbock"
+      }
+    ]
+  },
+  {
+    "id": "f_30d19f2ad573",
+    "slug": "camelot-landfill",
+    "name": "Camelot Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0307155,
+    "lng": -96.950935,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/336439435",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "carrollton"
+      },
+      {
+        "state": "texas",
+        "city": "denton"
+      },
+      {
+        "state": "texas",
+        "city": "lewisville"
+      }
+    ]
+  },
+  {
+    "id": "f_ac8ec7248b1e",
+    "slug": "cardboard-and-paper-recycling",
+    "name": "Cardboard and Paper recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9445044,
+    "lng": -97.5803372,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/739751198",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_e53fbdbeddd3",
+    "slug": "citizens-collection-station",
+    "name": "Citizens Collection Station",
+    "type": "recycling",
+    "address": "4100 Smith Road Midland TX 79705",
+    "lat": 32.0370148,
+    "lng": -102.0912537,
+    "website": "https://www.midlandtexas.gov/facilities/facility/details/Citizens-Collection-Station-73",
+    "osm_url": "https://www.openstreetmap.org/way/545159404",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "midland"
+      }
+    ]
+  },
+  {
+    "id": "f_b6ba5aba32a5",
+    "slug": "city-of-amarillo-brush-site",
+    "name": "City of Amarillo Brush Site",
+    "type": "recycling",
+    "address": "3401 Broadway Drive Amarillo TX 79107",
+    "lat": 35.2461001,
+    "lng": -101.8499046,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1424542195",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_fbed1f2062b4",
+    "slug": "city-of-dallas-big-blue-recycle-bin",
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6413269,
+    "lng": -96.9553907,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6641272910",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "grand-prairie"
+      }
+    ]
+  },
+  {
+    "id": "f_30014927e24d",
+    "slug": "city-of-dallas-big-blue-recycle-bin",
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6523264,
+    "lng": -96.974901,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6641272911",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "grand-prairie"
+      }
+    ]
+  },
+  {
+    "id": "f_72fcc822edd3",
+    "slug": "city-of-laredo-landfill",
+    "name": "City of Laredo Landfill",
+    "type": "landfill",
+    "address": "TX 359 Laredo TX 78046",
+    "lat": 27.4929346,
+    "lng": -99.4100013,
+    "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
+    "osm_url": "https://www.openstreetmap.org/way/1151383582",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "laredo"
+      }
+    ]
+  },
+  {
+    "id": "f_0f8304e5a000",
+    "slug": "city-of-longview-compost-site",
+    "name": "City of Longview Compost Site",
+    "type": "landfill",
+    "address": "2020 Swinging Bridge Road Longview TX 75604",
+    "lat": 32.4827079,
+    "lng": -94.8027422,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/391129195",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "longview"
+      }
+    ]
+  },
+  {
+    "id": "f_714a5d224d59",
+    "slug": "city-of-mesquite-recycling-and-compost-center",
+    "name": "City of Mesquite Recycling and Compost Center",
+    "type": "landfill",
+    "address": "3550 Lawson Road Mesquite TX 75181",
+    "lat": 32.7132744,
+    "lng": -96.5474446,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1087111669",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "mesquite"
+      }
+    ]
+  },
+  {
+    "id": "f_ffd532b114de",
+    "slug": "city-of-midland-landfill",
+    "name": "City of Midland Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 31.9657396,
+    "lng": -101.9325577,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/405469689",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "midland"
+      }
+    ]
+  },
+  {
+    "id": "f_a498415814ed",
+    "slug": "city-of-seguin-recycling-center",
+    "name": "City of Seguin Recycling Center",
+    "type": "recycling",
+    "address": "634 Fred Byrd Drive 78155",
+    "lat": 29.5583498,
+    "lng": -97.9720712,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/183001279",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "seguin"
+      }
+    ]
+  },
+  {
+    "id": "f_86afd4ef18ab",
+    "slug": "city-recycling-station",
+    "name": "City Recycling Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.5258193,
+    "lng": -101.959481,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/470019657",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "lubbock"
+      }
+    ]
+  },
+  {
+    "id": "f_ecb144cc9817",
+    "slug": "clothes-and-shoes-recycling-bin",
+    "name": "Clothes & Shoes Recycling Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9562142,
+    "lng": -96.8928589,
+    "website": "https://fillthebins.com",
+    "osm_url": "https://www.openstreetmap.org/node/11911146930",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "carrollton"
+      },
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_87e3ee3f4679",
+    "slug": "cm-hinton-jr-regional-landfill",
+    "name": "CM Hinton Jr. Regional Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.9579388,
+    "lng": -96.5420747,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/495939892",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "garland"
+      }
+    ]
+  },
+  {
+    "id": "f_ef0b805546ba",
+    "slug": "cmc-recycling",
+    "name": "CMC Recycling",
+    "type": "recycling",
+    "address": "1704 West Howard Lane Austin TX",
+    "lat": 30.4281445,
+    "lng": -97.6783815,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/383184775",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_a352be473ddb",
+    "slug": "cmc-recycling",
+    "name": "CMC Recycling",
+    "type": "recycling",
+    "address": "1605 Garden City Highway Midland TX 79701",
+    "lat": 31.9881391,
+    "lng": -102.0548337,
+    "website": "https://www.cmcrecycling.com/locations/midland",
+    "osm_url": "https://www.openstreetmap.org/way/1316954561",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "midland"
+      }
+    ]
+  },
+  {
+    "id": "f_bfe8caefedda",
+    "slug": "coal-storage",
+    "name": "Coal Storage",
+    "type": "landfill",
+    "address": "",
+    "lat": 27.8145365,
+    "lng": -97.4972275,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1088184330",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "corpus-christi"
+      }
+    ]
+  },
+  {
+    "id": "f_e75b93f7e3b9",
+    "slug": "cobbs-recycling-center",
+    "name": "Cobbs Recycling Center",
+    "type": "recycling",
+    "address": "4201 Trice Avenue Waco TX 76710",
+    "lat": 31.5462434,
+    "lng": -97.1868365,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/13311971041",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "waco"
+      }
+    ]
+  },
+  {
+    "id": "f_09931360ff4c",
+    "slug": "compra-de-metales",
+    "name": "Compra de metales",
+    "type": "recycling",
+    "address": "",
+    "lat": 25.8540334,
+    "lng": -97.4748286,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/4537330292",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "brownsville"
+      }
+    ]
+  },
+  {
+    "id": "f_d01faee26bf6",
+    "slug": "cougar-landfill",
+    "name": "Cougar Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.8967004,
+    "lng": -95.2624371,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/447277173",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_f324e30ca7c5",
+    "slug": "covel-gardens-landfill",
+    "name": "Covel Gardens Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.3343179,
+    "lng": -98.6546479,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/373704538",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_519e1582269b",
+    "slug": "custer-transfer-station",
+    "name": "Custer Transfer Station",
+    "type": "transfer_station",
+    "address": "9901 Custer Road Plano TX 75025",
+    "lat": 33.1146866,
+    "lng": -96.7353896,
+    "website": "https://www.plano.gov/685/Do-It-Yourself-Disposal",
+    "osm_url": "https://www.openstreetmap.org/way/452292395",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "frisco"
+      },
+      {
+        "state": "texas",
+        "city": "plano"
+      }
+    ]
+  },
+  {
+    "id": "f_d01b26990dff",
+    "slug": "custer-transfer-station",
+    "name": "Custer Transfer Station",
+    "type": "transfer_station",
+    "address": "",
+    "lat": 33.1149086,
+    "lng": -96.7351259,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/658604109",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "frisco"
+      },
+      {
+        "state": "texas",
+        "city": "plano"
+      }
+    ]
+  },
+  {
+    "id": "f_def73b03d340",
+    "slug": "customer-convenience-recycling-center-at-mccommas-bluff-landfill",
+    "name": "Customer Convenience Recycling Center at McCommas Bluff Landfill",
+    "type": "recycling",
+    "address": "5450 Simpson Stuart Road",
+    "lat": 32.6805119,
+    "lng": -96.7281282,
+    "website": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+    "osm_url": "https://www.openstreetmap.org/way/469105875",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_f0c2ddc41085",
+    "slug": "denton-recycle-center",
+    "name": "Denton Recycle Center",
+    "type": "transfer_station",
+    "address": "1722 Cooper Creek Road Denton TX 76208",
+    "lat": 33.2369623,
+    "lng": -97.0810666,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/900166721",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "denton"
+      }
+    ]
+  },
+  {
+    "id": "f_63c3b3f8a1c7",
+    "slug": "dfw-landfill",
+    "name": "DFW Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0200774,
+    "lng": -96.9546189,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/336438904",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "carrollton"
+      },
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "denton"
+      },
+      {
+        "state": "texas",
+        "city": "lewisville"
+      }
+    ]
+  },
+  {
+    "id": "f_418eb02f4bb3",
+    "slug": "dfw-recyclers",
+    "name": "DFW Recyclers",
+    "type": "recycling",
+    "address": "2410 West Division Street Arlington TX 76012",
+    "lat": 32.7349087,
+    "lng": -97.1470574,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/659542057",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "arlington"
+      },
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_d3d1a73d4ff6",
+    "slug": "environmental-collection-center",
+    "name": "Environmental Collection Center",
+    "type": "recycling",
+    "address": "6400 Bridge Street 76112",
+    "lat": 32.7625069,
+    "lng": -97.220152,
+    "website": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/environmental-collection-center/environmental-collection",
+    "osm_url": "https://www.openstreetmap.org/node/13302094101",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "arlington"
+      },
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_44d0c768acb1",
+    "slug": "environmental-services-center",
+    "name": "Environmental Services Center",
+    "type": "recycling",
+    "address": "11500 South Post Oak Road Houston TX 77035",
+    "lat": 29.649629,
+    "lng": -95.4644,
+    "website": "https://houstontx.gov/solidwaste/esc.html",
+    "osm_url": "https://www.openstreetmap.org/way/1092144490",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_8706d5c93f87",
+    "slug": "erca",
+    "name": "ERCA",
+    "type": "recycling",
+    "address": "",
+    "lat": 25.878623,
+    "lng": -97.5276678,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/4836286163",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "brownsville"
+      }
+    ]
+  },
+  {
+    "id": "f_b64310da4b46",
+    "slug": "evergro-organic-recycling",
+    "name": "EverGro Organic Recycling",
+    "type": "landfill",
+    "address": "12470 Sralla Road Crosby TX 77532",
+    "lat": 29.8680882,
+    "lng": -95.0285411,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/814716845",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_fdb0f0c84738",
+    "slug": "falcon-scrap-metal",
+    "name": "Falcon Scrap Metal",
+    "type": "recycling",
+    "address": "10202B Fulton Street Houston TX 77076",
+    "lat": 29.8536545,
+    "lng": -95.3811818,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6265708976",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_f192476853c7",
+    "slug": "fmi-recycling",
+    "name": "FMI Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7183271,
+    "lng": -96.8690925,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6296245607",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_b24f9ec67b27",
+    "slug": "fort-cavazos-recycling-center",
+    "name": "Fort Cavazos Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 31.125589,
+    "lng": -97.7868713,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1022279846",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "killeen"
+      }
+    ]
+  },
+  {
+    "id": "f_ee29ac993327",
+    "slug": "fort-worth-southeast-landfill",
+    "name": "Fort Worth Southeast Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.6485603,
+    "lng": -97.2411144,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/925930862",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_c7f898097265",
+    "slug": "frio-city-road-bulky-waste-collection-center",
+    "name": "Frio City Road Bulky Waste Collection Center",
+    "type": "transfer_station",
+    "address": "1531 Frio City Road San Antonio 78226",
+    "lat": 29.3940532,
+    "lng": -98.5358595,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/162535263",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_7073b4ee9bf9",
+    "slug": "gardner-metal-recycling",
+    "name": "Gardner Metal Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 30.3307322,
+    "lng": -97.616078,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1201742548",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_effbd939bf28",
+    "slug": "goodwill-donation-center",
+    "name": "Goodwill Donation Center",
+    "type": "recycling",
+    "address": "1214 West 43rd Street Houston TX",
+    "lat": 29.8291659,
+    "lng": -95.4304555,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/3768401994",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_c746e0cdf8af",
+    "slug": "goodwill-donation-center",
+    "name": "Goodwill Donation Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 29.7596951,
+    "lng": -95.4824094,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6917875413",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_ea098a495426",
+    "slug": "goodwill-outlet-store",
+    "name": "Goodwill Outlet Store",
+    "type": "recycling",
+    "address": "2462 Mansfield Highway Fort Worth TX",
+    "lat": 32.6881214,
+    "lng": -97.2939505,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/relation/7361794",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_ef045d9fe159",
+    "slug": "grand-prairie-landfill",
+    "name": "Grand Prairie Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7698514,
+    "lng": -96.9492464,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/317592059",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "grand-prairie"
+      },
+      {
+        "state": "texas",
+        "city": "irving"
+      }
+    ]
+  },
+  {
+    "id": "f_d01b27cca8dc",
+    "slug": "green-center",
+    "name": "Green Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 29.7211792,
+    "lng": -94.9884887,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/837714494",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "baytown"
+      },
+      {
+        "state": "texas",
+        "city": "pasadena"
+      }
+    ]
+  },
+  {
+    "id": "f_b1166d1e1fa9",
+    "slug": "green-option-recycling",
+    "name": "Green Option Recycling",
+    "type": "recycling",
+    "address": "2025 Webster Ave Waco TX 76706",
+    "lat": 31.5413949,
+    "lng": -97.1426667,
+    "website": "https://www.greenoptionrecycling.com/",
+    "osm_url": "https://www.openstreetmap.org/node/4544644594",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "waco"
+      }
+    ]
+  },
+  {
+    "id": "f_4627fcd477b4",
+    "slug": "greenbelt-landfill",
+    "name": "Greenbelt Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.6238286,
+    "lng": -95.191411,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/399714155",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      },
+      {
+        "state": "texas",
+        "city": "pasadena"
+      }
+    ]
+  },
+  {
+    "id": "f_b5cb2a4e163e",
+    "slug": "greenhouse-road-landfill",
+    "name": "Greenhouse Road Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.8249681,
+    "lng": -95.6987817,
+    "website": "https://www.houstontx.gov/solidwaste/disposal.html",
+    "osm_url": "https://www.openstreetmap.org/way/203293865",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_1f8781f6dba2",
+    "slug": "greenpath-recovery",
+    "name": "Greenpath Recovery",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7184656,
+    "lng": -96.8684796,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6296245608",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_2454b98b1295",
+    "slug": "greenshadow-landfill",
+    "name": "Greenshadow Landfill",
+    "type": "landfill",
+    "address": "710 Jana Lane Pasadena TX 77503",
+    "lat": 29.6961628,
+    "lng": -95.1474276,
+    "website": "https://www.wmsolutions.com/locations/details/id/103",
+    "osm_url": "https://www.openstreetmap.org/way/390096551",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      },
+      {
+        "state": "texas",
+        "city": "pasadena"
+      }
+    ]
+  },
+  {
+    "id": "f_b0136bc0ebfe",
+    "slug": "gulf-coast-strap-metal",
+    "name": "Gulf Coast Strap Metal",
+    "type": "recycling",
+    "address": "8770 Hempstead Road Houston TX 77008",
+    "lat": 29.7888475,
+    "lng": -95.4422886,
+    "website": "https://www.gulfcoastscrapmetal.com/",
+    "osm_url": "https://www.openstreetmap.org/way/579719819",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_9d401f9d8fee",
+    "slug": "hardy-road-landfill",
+    "name": "Hardy Road Landfill",
+    "type": "landfill",
+    "address": "18710 East Hardy Road Houston TX 77073",
+    "lat": 29.9885407,
+    "lng": -95.3838463,
+    "website": "http://wcawaste.com/locations/hardy-road-landfill",
+    "osm_url": "https://www.openstreetmap.org/way/443454761",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_c2288dae35f0",
+    "slug": "hawthorne-park-landfill",
+    "name": "Hawthorne Park Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.8541343,
+    "lng": -95.5535098,
+    "website": "https://www.wmsolutions.com/locations/details/id/275",
+    "osm_url": "https://www.openstreetmap.org/way/255867022",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_fcc6895095c6",
+    "slug": "ihaul-junk-austin",
+    "name": "iHaul Junk Austin",
+    "type": "recycling",
+    "address": "2021 Guadalupe Street Austin TX 78705",
+    "lat": 30.2832978,
+    "lng": -97.7416992,
+    "website": "https://ihauljunk.com/junk-removal-in-austin-tx",
+    "osm_url": "https://www.openstreetmap.org/node/11399466705",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_e6001fdc8a18",
+    "slug": "irving-landfill",
+    "name": "Irving Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7835313,
+    "lng": -96.9438942,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/29396471",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "grand-prairie"
+      },
+      {
+        "state": "texas",
+        "city": "irving"
+      }
+    ]
+  },
+  {
+    "id": "f_79a6cbc4f230",
+    "slug": "keeper-of-the-grumper",
+    "name": "Keeper of the Grumper",
+    "type": "recycling",
+    "address": "3704 Arapaho Road Addison TX 75001",
+    "lat": 32.9560029,
+    "lng": -96.8534502,
+    "website": "https://keeperofthegrumper.org/",
+    "osm_url": "https://www.openstreetmap.org/node/13398279164",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "carrollton"
+      },
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_4cb592e19a9d",
+    "slug": "lewisville-landfill",
+    "name": "Lewisville Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0506346,
+    "lng": -96.9741131,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/390045378",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "denton"
+      },
+      {
+        "state": "texas",
+        "city": "lewisville"
+      }
+    ]
+  },
+  {
+    "id": "f_e8578329354f",
+    "slug": "lone-star-disposal",
+    "name": "Lone Star Disposal",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.5919043,
+    "lng": -95.4372343,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/196615945",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      },
+      {
+        "state": "texas",
+        "city": "pearland"
+      }
+    ]
+  },
+  {
+    "id": "f_7593ca2a6f6d",
+    "slug": "m-lipsitz-and-company-ltd",
+    "name": "M. Lipsitz and Company LTD",
+    "type": "recycling",
+    "address": "100 Elm Avenue Waco TX 76704",
+    "lat": 31.5647805,
+    "lng": -97.128663,
+    "website": "https://www.mlipsitzco.com/",
+    "osm_url": "https://www.openstreetmap.org/way/1452694537",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "waco"
+      }
+    ]
+  },
+  {
+    "id": "f_3b35de8df82a",
+    "slug": "mccommas-bluff-sanitary-landfill",
+    "name": "McCommas Bluff Sanitary Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.6823187,
+    "lng": -96.7191789,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/30789572",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_5a6c6c2bb0ad",
+    "slug": "mesquite-creek-landfill",
+    "name": "Mesquite Creek Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.7351449,
+    "lng": -98.025443,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/532126726",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "new-braunfels"
+      }
+    ]
+  },
+  {
+    "id": "f_011ed7d4799f",
+    "slug": "metal-and-used-oil-collection-center",
+    "name": "Metal & Used Oil Collection Center",
+    "type": "recycling",
+    "address": "604 South Independence Street Amarillo TX 79106",
+    "lat": 35.2110607,
+    "lng": -101.8832934,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1278729141",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_d1fcc1292586",
+    "slug": "newport-metal-recycling",
+    "name": "Newport Metal Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 29.7200952,
+    "lng": -95.2870355,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/378862811",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_317c962ef83c",
+    "slug": "nichole-scrap-metals",
+    "name": "Nichole Scrap Metals",
+    "type": "recycling",
+    "address": "9741 Jensen Drive Houston TX",
+    "lat": 29.852636,
+    "lng": -95.3407967,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/875991778",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_e2f9b3dc4c74",
+    "slug": "north-texas-waste-and-recycling",
+    "name": "North Texas Waste & Recycling",
+    "type": "recycling",
+    "address": "4110 East Amarillo Boulevard Amarillo TX 79107",
+    "lat": 35.2211718,
+    "lng": -101.790506,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894463368",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_627e8167a3b3",
+    "slug": "northeast-fair-oaks-transfer-station",
+    "name": "Northeast (Fair Oaks) Transfer Station",
+    "type": "recycling",
+    "address": "7400 Holly Hill Drive",
+    "lat": 32.8811878,
+    "lng": -96.752371,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/468149350",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_c16629ab19ea",
+    "slug": "phoenix-recycling",
+    "name": "Phoenix Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9219174,
+    "lng": -96.6315154,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1301335674",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      },
+      {
+        "state": "texas",
+        "city": "garland"
+      }
+    ]
+  },
+  {
+    "id": "f_f820758df156",
+    "slug": "pine-hill-landfill",
+    "name": "Pine Hill Landfill",
+    "type": "landfill",
+    "address": "1102 Four S Industrial Boulevard Longview TX 75603",
+    "lat": 32.450868,
+    "lng": -94.8334337,
+    "website": "https://www.republicservices.com/",
+    "osm_url": "https://www.openstreetmap.org/way/384596715",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "longview"
+      }
+    ]
+  },
+  {
+    "id": "f_2545e1a118bc",
+    "slug": "pull-a-part",
+    "name": "Pull-A-Part",
+    "type": "recycling",
+    "address": "12000 Montana Avenue El Paso City TX",
+    "lat": 31.8018486,
+    "lng": -106.2742016,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/457772942",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ]
+  },
+  {
+    "id": "f_54abf278b987",
+    "slug": "recicladora-fenix",
+    "name": "Recicladora Fenix",
+    "type": "recycling",
+    "address": "",
+    "lat": 31.6526946,
+    "lng": -106.4297797,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/634087658",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ]
+  },
+  {
+    "id": "f_662d03f71364",
+    "slug": "recycle-and-reuse-drop-off-center",
+    "name": "Recycle & Reuse Drop-off Center",
+    "type": "recycling",
+    "address": "2514 Business Center Drive Austin TX 78744",
+    "lat": 30.2134329,
+    "lng": -97.7373612,
+    "website": "https://www.austintexas.gov/dropoff",
+    "osm_url": "https://www.openstreetmap.org/way/1179813063",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_bea07420e267",
+    "slug": "recycle-center",
+    "name": "Recycle Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 30.1868313,
+    "lng": -95.4429676,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/121502590",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "the-woodlands"
+      }
+    ]
+  },
+  {
+    "id": "f_cef05fe5ace2",
+    "slug": "recycle-revolution",
+    "name": "Recycle Revolution",
+    "type": "recycling",
+    "address": "6835 Forest Park Road 75235",
+    "lat": 32.8264799,
+    "lng": -96.8510826,
+    "website": "https://recyclerevolutiondallas.com/",
+    "osm_url": "https://www.openstreetmap.org/way/465038777",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_b2c435e9499e",
+    "slug": "recycling-center",
+    "name": "Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9520379,
+    "lng": -96.7662987,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/1567932805",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_a9aafb3fb298",
+    "slug": "recycling-center-recy",
+    "name": "Recycling Center (RECY)",
+    "type": "recycling",
+    "address": "Moore Street San Marcos TX 78666",
+    "lat": 29.8851033,
+    "lng": -97.9489507,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/relation/14627089",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-marcos"
+      }
+    ]
+  },
+  {
+    "id": "f_c1f28f77d4dd",
+    "slug": "recycling-drop-off-center",
+    "name": "Recycling Drop-Off Center",
+    "type": "recycling",
+    "address": "208 Municipal Drive Lubbock",
+    "lat": 33.6027871,
+    "lng": -101.837503,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/422848223",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "lubbock"
+      }
+    ]
+  },
+  {
+    "id": "f_b20c1d149cd2",
+    "slug": "recycling-point",
+    "name": "Recycling Point",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.1989807,
+    "lng": -97.1231056,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/1655963854",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "denton"
+      }
+    ]
+  },
+  {
+    "id": "f_fe7adc326204",
+    "slug": "republic-mccarty-road-landfill",
+    "name": "Republic McCarty Road Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.8279854,
+    "lng": -95.2395366,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/195840767",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_028f09bcaeb8",
+    "slug": "republic-services",
+    "name": "Republic Services",
+    "type": "transfer_station",
+    "address": "6425 Highway 347 Beaumont TX 77705",
+    "lat": 30.0182402,
+    "lng": -94.0428522,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/773584290",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "beaumont"
+      },
+      {
+        "state": "texas",
+        "city": "port-arthur"
+      }
+    ]
+  },
+  {
+    "id": "f_7bd252a9906d",
+    "slug": "rm-scrap-metal",
+    "name": "RM Scrap Metal",
+    "type": "recycling",
+    "address": "9703½ Fulton Street Houston TX",
+    "lat": 29.8475352,
+    "lng": -95.3789738,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/837883100",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_95d892d987f5",
+    "slug": "round-rock-recycling-center",
+    "name": "Round Rock Recycling Center",
+    "type": "recycling",
+    "address": "310 Deep Wood Drive Round Rock Texas 78681",
+    "lat": 30.5056116,
+    "lng": -97.7004439,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/333649731",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      },
+      {
+        "state": "texas",
+        "city": "round-rock"
+      }
+    ]
+  },
+  {
+    "id": "f_3fa6ca669940",
+    "slug": "san-angelo-landfil",
+    "name": "San Angelo Landfil",
+    "type": "landfill",
+    "address": "3002 Old Ballinger Highway San Angelo TX 76905",
+    "lat": 31.504444,
+    "lng": -100.3898394,
+    "website": "https://www.republicservices.com/customer-support/facilities",
+    "osm_url": "https://www.openstreetmap.org/way/1082974334",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-angelo"
+      }
+    ]
+  },
+  {
+    "id": "f_a7bb88c392b7",
+    "slug": "san-antonio-bitters-recycling-center",
+    "name": "San Antonio Bitters Recycling Center",
+    "type": "recycling",
+    "address": "1800 Wurzbach Parkway San Antonio TX 78216",
+    "lat": 29.542061,
+    "lng": -98.4673513,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/370853902",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_9cd576e24609",
+    "slug": "san-antonio-household-hazardous-waste-disposal",
+    "name": "San Antonio Household Hazardous Waste Disposal",
+    "type": "recycling",
+    "address": "7030 Culebra Road San Antonio TX 78238",
+    "lat": 29.4511168,
+    "lng": -98.6281848,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/678629305",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_91fc9c135511",
+    "slug": "san-jacinto-waste-pits",
+    "name": "San Jacinto Waste Pits",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.7946088,
+    "lng": -95.0626645,
+    "website": "https://www.epa.gov/region6/6sf/texas/san_jacinto/",
+    "osm_url": "https://www.openstreetmap.org/way/365605615",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_81f50ff220fe",
+    "slug": "scales",
+    "name": "Scales",
+    "type": "transfer_station",
+    "address": "2300 Lawrence Road Wichita Falls TX 76308",
+    "lat": 33.8731062,
+    "lng": -98.541084,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/628932505",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "wichita-falls"
+      }
+    ]
+  },
+  {
+    "id": "f_087024918dd5",
+    "slug": "scrap-processing-co",
+    "name": "Scrap Processing Co.",
+    "type": "recycling",
+    "address": "95 Browning Street Amarillo TX 79104",
+    "lat": 35.2101851,
+    "lng": -101.8076043,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/13013150932",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_bddc5dce7f66",
+    "slug": "setasa",
+    "name": "Setasa",
+    "type": "recycling",
+    "address": "",
+    "lat": 27.5449704,
+    "lng": -99.5827737,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/5774565476",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "laredo"
+      }
+    ]
+  },
+  {
+    "id": "f_fdeddd63fe1f",
+    "slug": "setasa",
+    "name": "Setasa",
+    "type": "landfill",
+    "address": "",
+    "lat": 27.5447692,
+    "lng": -99.5841188,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/609679471",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "laredo"
+      }
+    ]
+  },
+  {
+    "id": "f_e62222bb53cd",
+    "slug": "southeast-drop-off-station-fort-worth-recycling",
+    "name": "Southeast Drop-off Station - Fort Worth Recycling",
+    "type": "recycling",
+    "address": "5100 Martin Luther King Freeway Fort Worth TX 76119",
+    "lat": 32.6925272,
+    "lng": -97.2449729,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/500728932",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_37b53fe48de2",
+    "slug": "southside-recycling-center",
+    "name": "Southside Recycling Center",
+    "type": "recycling",
+    "address": "1631 84th Street Lubbock",
+    "lat": 33.5163799,
+    "lng": -101.854952,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/583388280",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "lubbock"
+      }
+    ]
+  },
+  {
+    "id": "f_4bdeef1dc029",
+    "slug": "southwaste-disposal",
+    "name": "SouthWaste Disposal",
+    "type": "transfer_station",
+    "address": "1375 Creekview San Antonio TX",
+    "lat": 29.4418252,
+    "lng": -98.419088,
+    "website": "https://southwaste.com/austin-san-antonio/",
+    "osm_url": "https://www.openstreetmap.org/way/1328596956",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_f5a2e86875aa",
+    "slug": "southwest-oak-cliff-transfer-station",
+    "name": "Southwest (Oak Cliff) Transfer Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6879484,
+    "lng": -96.8813745,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/467243383",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "dallas"
+      }
+    ]
+  },
+  {
+    "id": "f_15f2691c4afa",
+    "slug": "spring-scrap-metal-recycling",
+    "name": "Spring Scrap Metal Recycling",
+    "type": "recycling",
+    "address": "19230 Kuykendahl Road Spring TX 77379",
+    "lat": 30.04989,
+    "lng": -95.4920198,
+    "website": "https://www.springscrapmetalrecycling.com",
+    "osm_url": "https://www.openstreetmap.org/way/1375772382",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_0778433ee562",
+    "slug": "sprint-fort-bend-county-landfill",
+    "name": "Sprint Fort Bend County Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.6625806,
+    "lng": -95.6682525,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/335034838",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      },
+      {
+        "state": "texas",
+        "city": "sugar-land"
+      }
+    ]
+  },
+  {
+    "id": "f_2d782edcec01",
+    "slug": "stella-roberts-recycling-center",
+    "name": "Stella Roberts Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 29.5451264,
+    "lng": -95.3099689,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/128315697",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      },
+      {
+        "state": "texas",
+        "city": "pearland"
+      }
+    ]
+  },
+  {
+    "id": "f_5b18c22ff945",
+    "slug": "tessman-road-landfill",
+    "name": "Tessman Road Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.4354227,
+    "lng": -98.3428943,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/373704281",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_dae0d9dc37df",
+    "slug": "texas-disposal-systems-mrf",
+    "name": "Texas Disposal Systems (MRF)",
+    "type": "recycling",
+    "address": "",
+    "lat": 30.1031974,
+    "lng": -97.7500156,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/1361459853",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_08b892c6a4af",
+    "slug": "texas-disposal-systems-starcrest-transfer-station",
+    "name": "Texas Disposal Systems Starcrest Transfer Station",
+    "type": "transfer_station",
+    "address": "",
+    "lat": 29.5460284,
+    "lng": -98.457592,
+    "website": "https://www.texasdisposal.com/",
+    "osm_url": "https://www.openstreetmap.org/way/269856295",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_3e87282d5690",
+    "slug": "texas-organic-products-top",
+    "name": "Texas Organic Products (TOP)",
+    "type": "recycling",
+    "address": "",
+    "lat": 30.1109203,
+    "lng": -97.7626444,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/3789509091",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_8ec3693035f0",
+    "slug": "texas-port-recycling",
+    "name": "Texas Port Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 28.784863,
+    "lng": -96.9738615,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1330226776",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "victoria"
+      }
+    ]
+  },
+  {
+    "id": "f_77790b9f98a9",
+    "slug": "transfer-station",
+    "name": "Transfer Station",
+    "type": "transfer_station",
+    "address": "3200 Lawrence Road Wichita Falls TX 76308",
+    "lat": 33.873771,
+    "lng": -98.5424026,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/628932216",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "wichita-falls"
+      }
+    ]
+  },
+  {
+    "id": "f_a326bb50b580",
+    "slug": "travis-county-landfill",
+    "name": "Travis County Landfill",
+    "type": "landfill",
+    "address": "9600 FM 812 Austin TX 78719",
+    "lat": 30.1622743,
+    "lng": -97.6710656,
+    "website": "https://www.wasteconnections.com/travis-county-landfill/",
+    "osm_url": "https://www.openstreetmap.org/way/1185613730",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_bf529efd5253",
+    "slug": "triangle-waste-solutions",
+    "name": "Triangle Waste Solutions",
+    "type": "transfer_station",
+    "address": "",
+    "lat": 29.924018,
+    "lng": -94.0312045,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1259026914",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "port-arthur"
+      }
+    ]
+  },
+  {
+    "id": "f_9618346060ab",
+    "slug": "two-men-and-a-junk-truck",
+    "name": "Two Men and a Junk Truck",
+    "type": "transfer_station",
+    "address": "20935 US Highway 281 North San Antonio TX 78258",
+    "lat": 29.6419451,
+    "lng": -98.4556087,
+    "website": "https://twomenandajunktruck.com/locations/tx/san-antonio/junk-removal-san-antonio-north",
+    "osm_url": "https://www.openstreetmap.org/node/13005797608",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_b0611c796bc8",
+    "slug": "tyler-iron-and-metal",
+    "name": "Tyler Iron & Metal",
+    "type": "recycling",
+    "address": "1630 West Northwest Loop 323 Tyler TX 75702",
+    "lat": 32.3859439,
+    "lng": -95.3186382,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/802088567",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "tyler"
+      }
+    ]
+  },
+  {
+    "id": "f_02ce0875a275",
+    "slug": "united-electronic-recycling",
+    "name": "United Electronic Recycling",
+    "type": "recycling",
+    "address": "505 Airline Drive",
+    "lat": 32.9430728,
+    "lng": -97.003908,
+    "website": "https://unitedelectronicrecycling.com",
+    "osm_url": "https://www.openstreetmap.org/node/12110474652",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "irving"
+      }
+    ]
+  },
+  {
+    "id": "f_08c24b5569fb",
+    "slug": "united-electronic-recycling",
+    "name": "United Electronic Recycling",
+    "type": "recycling",
+    "address": "505 Airline Drive",
+    "lat": 32.9430728,
+    "lng": -97.003908,
+    "website": "https://unitedelectronicrecycling.com",
+    "osm_url": "https://www.openstreetmap.org/node/12111449066",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "irving"
+      }
+    ]
+  },
+  {
+    "id": "f_5901a964901b",
+    "slug": "f_5901a964901b",
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8256746,
+    "lng": -97.3902981,
+    "website": "bigbellysolar.com",
+    "osm_url": "https://www.openstreetmap.org/node/8241043268",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_61355e0e206e",
+    "slug": "f_61355e0e206e",
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8255902,
+    "lng": -97.3904048,
+    "website": "bigbellysolar.com",
+    "osm_url": "https://www.openstreetmap.org/node/8241067226",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_b984581622f4",
+    "slug": "f_b984581622f4",
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8267709,
+    "lng": -97.3899444,
+    "website": "bigbellysolar.com",
+    "osm_url": "https://www.openstreetmap.org/node/8241073066",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_018855d86a92",
+    "slug": "f_018855d86a92",
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "950 McCarty St Houston TX 77029",
+    "lat": 29.769904,
+    "lng": -95.2863457,
+    "website": "https://mygwservices.com/",
+    "osm_url": "https://www.openstreetmap.org/node/13204466954",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_4353a11d33a1",
+    "slug": "used-oil-collection-center",
+    "name": "Used Oil Collection Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 35.1852548,
+    "lng": -101.8311894,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/13240497571",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_d8ed2c68d082",
+    "slug": "used-oil-collection-center",
+    "name": "Used Oil Collection Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 35.2505193,
+    "lng": -101.8327615,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1279582216",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_957208b1e34d",
+    "slug": "w-silver-recycling-company",
+    "name": "W. Silver Recycling Company",
+    "type": "recycling",
+    "address": "3320 East Amarillo Boulevard Amarillo TX 79107",
+    "lat": 35.2215976,
+    "lng": -101.7985267,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12894463188",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "amarillo"
+      }
+    ]
+  },
+  {
+    "id": "f_94518be0bb59",
+    "slug": "waco-landfill",
+    "name": "Waco Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 31.4763832,
+    "lng": -97.2581486,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/4547543173",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "waco"
+      }
+    ]
+  },
+  {
+    "id": "f_f226864c4984",
+    "slug": "waste-management-austin-community-landfill",
+    "name": "Waste Management - Austin Community Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 30.3420116,
+    "lng": -97.6368123,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/195841019",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_a1909a73d41c",
+    "slug": "waste-management-fairbanks-landfill",
+    "name": "Waste Management - Fairbanks Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.9014892,
+    "lng": -95.5317364,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/603465259",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_4ea209d48eb1",
+    "slug": "waste-management-westside-transfer-station",
+    "name": "Waste Management - Westside Transfer Station",
+    "type": "landfill",
+    "address": "12220 West Freeway Fort Worth TX 76008",
+    "lat": 32.7275041,
+    "lng": -97.5332415,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/900177643",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "fort-worth"
+      }
+    ]
+  },
+  {
+    "id": "f_3cf45f7cdb27",
+    "slug": "waste-management-recycling-center",
+    "name": "Waste Management Recycling Center",
+    "type": "recycling",
+    "address": "4939 Gasmer Drive Houston TX 77035",
+    "lat": 29.650326,
+    "lng": -95.465819,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1092144890",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_b515f0df8047",
+    "slug": "west-avenue-landfill",
+    "name": "West Avenue Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.5407458,
+    "lng": -98.5120278,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/172455999",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "san-antonio"
+      }
+    ]
+  },
+  {
+    "id": "f_3a2842ff0172",
+    "slug": "westpark-consumer-recycling-center",
+    "name": "Westpark Consumer Recycling Center",
+    "type": "recycling",
+    "address": "5900 Westpark Drive Houston",
+    "lat": 29.7249754,
+    "lng": -95.4829175,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/317083336",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_58ee20acf958",
+    "slug": "whispering-pines-landfill",
+    "name": "Whispering Pines Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 29.8790184,
+    "lng": -95.2637492,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/447277349",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "houston"
+      }
+    ]
+  },
+  {
+    "id": "f_a09743dbb6ef",
+    "slug": "wright-recycling-llc",
+    "name": "Wright Recycling LLC",
+    "type": "recycling",
+    "address": "9709 Brown Lane Austin TX 78754",
+    "lat": 30.3508329,
+    "lng": -97.6693609,
+    "website": "https://wrightrecyclingllc.com",
+    "osm_url": "https://www.openstreetmap.org/node/9771186339",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "austin"
+      }
+    ]
+  },
+  {
+    "id": "f_8a7f77fa4a9b",
+    "slug": "yonke",
+    "name": "Yonke",
+    "type": "recycling",
+    "address": "",
+    "lat": 31.6907705,
+    "lng": -106.3832234,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/454932574",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "f_4627fcd477b4",
+  "slug": "greenbelt-landfill",
+  "name": "Greenbelt Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.6238286,
+  "lng": -95.191411,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/399714155",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    },
+    {
+      "state": "texas",
+      "city": "pasadena"
+    }
+  ]
+}

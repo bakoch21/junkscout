@@ -1,0 +1,17 @@
+{
+  "id": "f_b5cb2a4e163e",
+  "slug": "greenhouse-road-landfill",
+  "name": "Greenhouse Road Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.8249681,
+  "lng": -95.6987817,
+  "website": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.openstreetmap.org/way/203293865",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

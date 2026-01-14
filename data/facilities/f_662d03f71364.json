@@ -1,0 +1,17 @@
+{
+  "id": "f_662d03f71364",
+  "slug": "recycle-and-reuse-drop-off-center",
+  "name": "Recycle & Reuse Drop-off Center",
+  "type": "recycling",
+  "address": "2514 Business Center Drive Austin TX 78744",
+  "lat": 30.2134329,
+  "lng": -97.7373612,
+  "website": "https://www.austintexas.gov/dropoff",
+  "osm_url": "https://www.openstreetmap.org/way/1179813063",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

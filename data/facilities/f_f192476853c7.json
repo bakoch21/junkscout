@@ -1,0 +1,17 @@
+{
+  "id": "f_f192476853c7",
+  "slug": "fmi-recycling",
+  "name": "FMI Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.7183271,
+  "lng": -96.8690925,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6296245607",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

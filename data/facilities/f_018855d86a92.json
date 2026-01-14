@@ -1,0 +1,17 @@
+{
+  "id": "f_018855d86a92",
+  "slug": "f_018855d86a92",
+  "name": "Unnamed site",
+  "type": "recycling",
+  "address": "950 McCarty St Houston TX 77029",
+  "lat": 29.769904,
+  "lng": -95.2863457,
+  "website": "https://mygwservices.com/",
+  "osm_url": "https://www.openstreetmap.org/node/13204466954",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

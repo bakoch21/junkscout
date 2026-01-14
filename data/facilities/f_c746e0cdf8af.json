@@ -1,0 +1,17 @@
+{
+  "id": "f_c746e0cdf8af",
+  "slug": "goodwill-donation-center",
+  "name": "Goodwill Donation Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 29.7596951,
+  "lng": -95.4824094,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6917875413",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

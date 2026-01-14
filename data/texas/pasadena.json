@@ -6,7 +6,8 @@
     "lat": 29.7211792,
     "lng": -94.9884887,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/837714494"
+    "osm_url": "https://www.openstreetmap.org/node/837714494",
+    "facility_id": "f_d01b27cca8dc"
   },
   {
     "name": "Greenshadow Landfill",
@@ -15,7 +16,8 @@
     "lat": 29.6961628,
     "lng": -95.1474276,
     "website": "https://www.wmsolutions.com/locations/details/id/103",
-    "osm_url": "https://www.openstreetmap.org/way/390096551"
+    "osm_url": "https://www.openstreetmap.org/way/390096551",
+    "facility_id": "f_2454b98b1295"
   },
   {
     "name": "Greenbelt Landfill",
@@ -24,6 +26,7 @@
     "lat": 29.6238286,
     "lng": -95.191411,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/399714155"
+    "osm_url": "https://www.openstreetmap.org/way/399714155",
+    "facility_id": "f_4627fcd477b4"
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "id": "f_08c24b5569fb",
+  "slug": "united-electronic-recycling",
+  "name": "United Electronic Recycling",
+  "type": "recycling",
+  "address": "505 Airline Drive",
+  "lat": 32.9430728,
+  "lng": -97.003908,
+  "website": "https://unitedelectronicrecycling.com",
+  "osm_url": "https://www.openstreetmap.org/node/12111449066",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "irving"
+    }
+  ]
+}

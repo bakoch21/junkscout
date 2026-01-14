@@ -1,0 +1,21 @@
+{
+  "id": "f_c16629ab19ea",
+  "slug": "phoenix-recycling",
+  "name": "Phoenix Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.9219174,
+  "lng": -96.6315154,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1301335674",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "garland"
+    }
+  ]
+}

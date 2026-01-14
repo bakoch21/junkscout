@@ -6,7 +6,8 @@
     "lat": 32.9445044,
     "lng": -97.5803372,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/739751198"
+    "osm_url": "https://www.openstreetmap.org/node/739751198",
+    "facility_id": "f_ac8ec7248b1e"
   },
   {
     "name": "Best Grease Service",
@@ -15,7 +16,8 @@
     "lat": 32.8192997,
     "lng": -97.269422,
     "website": "http://oilrecyclinghaltomcity.com",
-    "osm_url": "https://www.openstreetmap.org/node/6611326408"
+    "osm_url": "https://www.openstreetmap.org/node/6611326408",
+    "facility_id": "f_b5f99587f551"
   },
   {
     "name": "",
@@ -24,7 +26,8 @@
     "lat": 32.8256746,
     "lng": -97.3902981,
     "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241043268"
+    "osm_url": "https://www.openstreetmap.org/node/8241043268",
+    "facility_id": "f_5901a964901b"
   },
   {
     "name": "",
@@ -33,7 +36,8 @@
     "lat": 32.8255902,
     "lng": -97.3904048,
     "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241067226"
+    "osm_url": "https://www.openstreetmap.org/node/8241067226",
+    "facility_id": "f_61355e0e206e"
   },
   {
     "name": "",
@@ -42,7 +46,8 @@
     "lat": 32.8267709,
     "lng": -97.3899444,
     "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241073066"
+    "osm_url": "https://www.openstreetmap.org/node/8241073066",
+    "facility_id": "f_b984581622f4"
   },
   {
     "name": "Environmental Collection Center",
@@ -51,7 +56,8 @@
     "lat": 32.7625069,
     "lng": -97.220152,
     "website": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/environmental-collection-center/environmental-collection",
-    "osm_url": "https://www.openstreetmap.org/node/13302094101"
+    "osm_url": "https://www.openstreetmap.org/node/13302094101",
+    "facility_id": "f_d3d1a73d4ff6"
   },
   {
     "name": "Southeast Drop-off Station - Fort Worth Recycling",
@@ -60,7 +66,8 @@
     "lat": 32.6925272,
     "lng": -97.2449729,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/500728932"
+    "osm_url": "https://www.openstreetmap.org/way/500728932",
+    "facility_id": "f_e62222bb53cd"
   },
   {
     "name": "DFW Recyclers",
@@ -69,7 +76,8 @@
     "lat": 32.7349087,
     "lng": -97.1470574,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/659542057"
+    "osm_url": "https://www.openstreetmap.org/way/659542057",
+    "facility_id": "f_418eb02f4bb3"
   },
   {
     "name": "Waste Management - Westside Transfer Station",
@@ -78,7 +86,8 @@
     "lat": 32.7275041,
     "lng": -97.5332415,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/900177643"
+    "osm_url": "https://www.openstreetmap.org/way/900177643",
+    "facility_id": "f_4ea209d48eb1"
   },
   {
     "name": "Fort Worth Southeast Landfill",
@@ -87,7 +96,8 @@
     "lat": 32.6485603,
     "lng": -97.2411144,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/925930862"
+    "osm_url": "https://www.openstreetmap.org/way/925930862",
+    "facility_id": "f_ee29ac993327"
   },
   {
     "name": "Goodwill Outlet Store",
@@ -96,6 +106,7 @@
     "lat": 32.6881214,
     "lng": -97.2939505,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/relation/7361794"
+    "osm_url": "https://www.openstreetmap.org/relation/7361794",
+    "facility_id": "f_ea098a495426"
   }
 ]

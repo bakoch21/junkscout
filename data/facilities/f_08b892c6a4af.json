@@ -1,0 +1,17 @@
+{
+  "id": "f_08b892c6a4af",
+  "slug": "texas-disposal-systems-starcrest-transfer-station",
+  "name": "Texas Disposal Systems Starcrest Transfer Station",
+  "type": "transfer_station",
+  "address": "",
+  "lat": 29.5460284,
+  "lng": -98.457592,
+  "website": "https://www.texasdisposal.com/",
+  "osm_url": "https://www.openstreetmap.org/way/269856295",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

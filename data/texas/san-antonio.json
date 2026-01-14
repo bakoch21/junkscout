@@ -6,7 +6,8 @@
     "lat": 29.6419451,
     "lng": -98.4556087,
     "website": "https://twomenandajunktruck.com/locations/tx/san-antonio/junk-removal-san-antonio-north",
-    "osm_url": "https://www.openstreetmap.org/node/13005797608"
+    "osm_url": "https://www.openstreetmap.org/node/13005797608",
+    "facility_id": "f_9618346060ab"
   },
   {
     "name": "Frio City Road Bulky Waste Collection Center",
@@ -15,7 +16,8 @@
     "lat": 29.3940532,
     "lng": -98.5358595,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/162535263"
+    "osm_url": "https://www.openstreetmap.org/way/162535263",
+    "facility_id": "f_c7f898097265"
   },
   {
     "name": "West Avenue Landfill",
@@ -24,7 +26,8 @@
     "lat": 29.5407458,
     "lng": -98.5120278,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/172455999"
+    "osm_url": "https://www.openstreetmap.org/way/172455999",
+    "facility_id": "f_b515f0df8047"
   },
   {
     "name": "Texas Disposal Systems Starcrest Transfer Station",
@@ -33,7 +36,8 @@
     "lat": 29.5460284,
     "lng": -98.457592,
     "website": "https://www.texasdisposal.com/",
-    "osm_url": "https://www.openstreetmap.org/way/269856295"
+    "osm_url": "https://www.openstreetmap.org/way/269856295",
+    "facility_id": "f_08b892c6a4af"
   },
   {
     "name": "San Antonio Bitters Recycling Center",
@@ -42,7 +46,8 @@
     "lat": 29.542061,
     "lng": -98.4673513,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/370853902"
+    "osm_url": "https://www.openstreetmap.org/way/370853902",
+    "facility_id": "f_a7bb88c392b7"
   },
   {
     "name": "Tessman Road Landfill",
@@ -51,7 +56,8 @@
     "lat": 29.4354227,
     "lng": -98.3428943,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/373704281"
+    "osm_url": "https://www.openstreetmap.org/way/373704281",
+    "facility_id": "f_5b18c22ff945"
   },
   {
     "name": "Covel Gardens Landfill",
@@ -60,7 +66,8 @@
     "lat": 29.3343179,
     "lng": -98.6546479,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/373704538"
+    "osm_url": "https://www.openstreetmap.org/way/373704538",
+    "facility_id": "f_f324e30ca7c5"
   },
   {
     "name": "San Antonio Household Hazardous Waste Disposal",
@@ -69,7 +76,8 @@
     "lat": 29.4511168,
     "lng": -98.6281848,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/678629305"
+    "osm_url": "https://www.openstreetmap.org/way/678629305",
+    "facility_id": "f_9cd576e24609"
   },
   {
     "name": "Beck Landfill",
@@ -78,7 +86,8 @@
     "lat": 29.5470798,
     "lng": -98.2618889,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/830189199"
+    "osm_url": "https://www.openstreetmap.org/way/830189199",
+    "facility_id": "f_8bc5076be468"
   },
   {
     "name": "Bracken Recylcing",
@@ -87,7 +96,8 @@
     "lat": 29.6185504,
     "lng": -98.3271844,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/864191752"
+    "osm_url": "https://www.openstreetmap.org/way/864191752",
+    "facility_id": "f_49e36750e008"
   },
   {
     "name": "A. G. Pickard Pecans",
@@ -96,7 +106,8 @@
     "lat": 29.4090251,
     "lng": -98.501694,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/929735081"
+    "osm_url": "https://www.openstreetmap.org/way/929735081",
+    "facility_id": "f_f9ff4782a0ed"
   },
   {
     "name": "SouthWaste Disposal",
@@ -105,6 +116,7 @@
     "lat": 29.4418252,
     "lng": -98.419088,
     "website": "https://southwaste.com/austin-san-antonio/",
-    "osm_url": "https://www.openstreetmap.org/way/1328596956"
+    "osm_url": "https://www.openstreetmap.org/way/1328596956",
+    "facility_id": "f_4bdeef1dc029"
   }
 ]

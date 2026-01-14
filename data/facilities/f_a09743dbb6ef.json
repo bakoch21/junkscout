@@ -1,0 +1,17 @@
+{
+  "id": "f_a09743dbb6ef",
+  "slug": "wright-recycling-llc",
+  "name": "Wright Recycling LLC",
+  "type": "recycling",
+  "address": "9709 Brown Lane Austin TX 78754",
+  "lat": 30.3508329,
+  "lng": -97.6693609,
+  "website": "https://wrightrecyclingllc.com",
+  "osm_url": "https://www.openstreetmap.org/node/9771186339",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

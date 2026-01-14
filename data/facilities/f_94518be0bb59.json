@@ -1,0 +1,17 @@
+{
+  "id": "f_94518be0bb59",
+  "slug": "waco-landfill",
+  "name": "Waco Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 31.4763832,
+  "lng": -97.2581486,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/4547543173",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

@@ -6,7 +6,8 @@
     "lat": 32.9579388,
     "lng": -96.5420747,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/495939892"
+    "osm_url": "https://www.openstreetmap.org/way/495939892",
+    "facility_id": "f_87e3ee3f4679"
   },
   {
     "name": "Phoenix Recycling",
@@ -15,6 +16,7 @@
     "lat": 32.9219174,
     "lng": -96.6315154,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1301335674"
+    "osm_url": "https://www.openstreetmap.org/way/1301335674",
+    "facility_id": "f_c16629ab19ea"
   }
 ]

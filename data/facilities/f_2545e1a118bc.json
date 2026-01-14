@@ -1,0 +1,17 @@
+{
+  "id": "f_2545e1a118bc",
+  "slug": "pull-a-part",
+  "name": "Pull-A-Part",
+  "type": "recycling",
+  "address": "12000 Montana Avenue El Paso City TX",
+  "lat": 31.8018486,
+  "lng": -106.2742016,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/457772942",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "el-paso"
+    }
+  ]
+}

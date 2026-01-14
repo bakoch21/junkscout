@@ -1,0 +1,17 @@
+{
+  "id": "f_91fc9c135511",
+  "slug": "san-jacinto-waste-pits",
+  "name": "San Jacinto Waste Pits",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.7946088,
+  "lng": -95.0626645,
+  "website": "https://www.epa.gov/region6/6sf/texas/san_jacinto/",
+  "osm_url": "https://www.openstreetmap.org/way/365605615",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

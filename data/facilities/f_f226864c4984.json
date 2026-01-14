@@ -1,0 +1,17 @@
+{
+  "id": "f_f226864c4984",
+  "slug": "waste-management-austin-community-landfill",
+  "name": "Waste Management - Austin Community Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 30.3420116,
+  "lng": -97.6368123,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/195841019",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_fdb0f0c84738",
+  "slug": "falcon-scrap-metal",
+  "name": "Falcon Scrap Metal",
+  "type": "recycling",
+  "address": "10202B Fulton Street Houston TX 77076",
+  "lat": 29.8536545,
+  "lng": -95.3811818,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6265708976",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

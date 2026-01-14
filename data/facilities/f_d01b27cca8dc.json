@@ -1,0 +1,21 @@
+{
+  "id": "f_d01b27cca8dc",
+  "slug": "green-center",
+  "name": "Green Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 29.7211792,
+  "lng": -94.9884887,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/837714494",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "baytown"
+    },
+    {
+      "state": "texas",
+      "city": "pasadena"
+    }
+  ]
+}

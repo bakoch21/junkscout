@@ -1,0 +1,17 @@
+{
+  "id": "f_ef0b805546ba",
+  "slug": "cmc-recycling",
+  "name": "CMC Recycling",
+  "type": "recycling",
+  "address": "1704 West Howard Lane Austin TX",
+  "lat": 30.4281445,
+  "lng": -97.6783815,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/383184775",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

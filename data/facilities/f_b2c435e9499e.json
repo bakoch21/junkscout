@@ -1,0 +1,17 @@
+{
+  "id": "f_b2c435e9499e",
+  "slug": "recycling-center",
+  "name": "Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.9520379,
+  "lng": -96.7662987,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/1567932805",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

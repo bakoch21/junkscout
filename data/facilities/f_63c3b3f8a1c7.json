@@ -1,0 +1,29 @@
+{
+  "id": "f_63c3b3f8a1c7",
+  "slug": "dfw-landfill",
+  "name": "DFW Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.0200774,
+  "lng": -96.9546189,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/336438904",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrollton"
+    },
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "denton"
+    },
+    {
+      "state": "texas",
+      "city": "lewisville"
+    }
+  ]
+}

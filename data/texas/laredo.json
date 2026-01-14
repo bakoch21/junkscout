@@ -6,7 +6,8 @@
     "lat": 27.5449704,
     "lng": -99.5827737,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/5774565476"
+    "osm_url": "https://www.openstreetmap.org/node/5774565476",
+    "facility_id": "f_bddc5dce7f66"
   },
   {
     "name": "Setasa",
@@ -15,7 +16,8 @@
     "lat": 27.5447692,
     "lng": -99.5841188,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/609679471"
+    "osm_url": "https://www.openstreetmap.org/way/609679471",
+    "facility_id": "f_fdeddd63fe1f"
   },
   {
     "name": "City of Laredo Landfill",
@@ -24,6 +26,7 @@
     "lat": 27.4929346,
     "lng": -99.4100013,
     "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
-    "osm_url": "https://www.openstreetmap.org/way/1151383582"
+    "osm_url": "https://www.openstreetmap.org/way/1151383582",
+    "facility_id": "f_72fcc822edd3"
   }
 ]

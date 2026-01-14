@@ -1,0 +1,17 @@
+{
+  "id": "f_49ea78691768",
+  "slug": "brownsville-recycling-center",
+  "name": "Brownsville Recycling Center",
+  "type": "recycling",
+  "address": "308 East Elizabeth Street Brownsville TX 78520",
+  "lat": 25.9068005,
+  "lng": -97.5045245,
+  "website": "https://www.cameroncountytx.gov/recycling-centers-directory/",
+  "osm_url": "https://www.openstreetmap.org/way/746257106",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brownsville"
+    }
+  ]
+}

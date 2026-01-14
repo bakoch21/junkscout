@@ -1,0 +1,17 @@
+{
+  "id": "f_8706d5c93f87",
+  "slug": "erca",
+  "name": "ERCA",
+  "type": "recycling",
+  "address": "",
+  "lat": 25.878623,
+  "lng": -97.5276678,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/4836286163",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brownsville"
+    }
+  ]
+}

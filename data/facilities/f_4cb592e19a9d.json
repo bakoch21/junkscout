@@ -1,0 +1,21 @@
+{
+  "id": "f_4cb592e19a9d",
+  "slug": "lewisville-landfill",
+  "name": "Lewisville Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.0506346,
+  "lng": -96.9741131,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/390045378",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "denton"
+    },
+    {
+      "state": "texas",
+      "city": "lewisville"
+    }
+  ]
+}

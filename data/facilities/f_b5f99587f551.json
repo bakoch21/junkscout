@@ -1,0 +1,17 @@
+{
+  "id": "f_b5f99587f551",
+  "slug": "best-grease-service",
+  "name": "Best Grease Service",
+  "type": "recycling",
+  "address": "5232 Nadine Drive Haltom City TX 76117",
+  "lat": 32.8192997,
+  "lng": -97.269422,
+  "website": "http://oilrecyclinghaltomcity.com",
+  "osm_url": "https://www.openstreetmap.org/node/6611326408",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

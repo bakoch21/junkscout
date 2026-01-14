@@ -1,0 +1,17 @@
+{
+  "id": "f_49e36750e008",
+  "slug": "bracken-recylcing",
+  "name": "Bracken Recylcing",
+  "type": "recycling",
+  "address": "19068 Marbach Lane San Antonio TX 78266",
+  "lat": 29.6185504,
+  "lng": -98.3271844,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/864191752",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

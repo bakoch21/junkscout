@@ -6,7 +6,8 @@
     "lat": 33.1989807,
     "lng": -97.1231056,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/1655963854"
+    "osm_url": "https://www.openstreetmap.org/node/1655963854",
+    "facility_id": "f_b20c1d149cd2"
   },
   {
     "name": "DFW Landfill",
@@ -15,7 +16,8 @@
     "lat": 33.0200774,
     "lng": -96.9546189,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/336438904"
+    "osm_url": "https://www.openstreetmap.org/way/336438904",
+    "facility_id": "f_63c3b3f8a1c7"
   },
   {
     "name": "Camelot Landfill",
@@ -24,7 +26,8 @@
     "lat": 33.0307155,
     "lng": -96.950935,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/336439435"
+    "osm_url": "https://www.openstreetmap.org/way/336439435",
+    "facility_id": "f_30d19f2ad573"
   },
   {
     "name": "Lewisville Landfill",
@@ -33,7 +36,8 @@
     "lat": 33.0506346,
     "lng": -96.9741131,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/390045378"
+    "osm_url": "https://www.openstreetmap.org/way/390045378",
+    "facility_id": "f_4cb592e19a9d"
   },
   {
     "name": "Denton Recycle Center",
@@ -42,6 +46,7 @@
     "lat": 33.2369623,
     "lng": -97.0810666,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/900166721"
+    "osm_url": "https://www.openstreetmap.org/way/900166721",
+    "facility_id": "f_f0c2ddc41085"
   }
 ]

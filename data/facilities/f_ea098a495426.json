@@ -1,0 +1,17 @@
+{
+  "id": "f_ea098a495426",
+  "slug": "goodwill-outlet-store",
+  "name": "Goodwill Outlet Store",
+  "type": "recycling",
+  "address": "2462 Mansfield Highway Fort Worth TX",
+  "lat": 32.6881214,
+  "lng": -97.2939505,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/relation/7361794",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

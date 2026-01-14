@@ -242,6 +242,7 @@ select{
   box-shadow: var(--shadowStrong);
   border-color: rgba(63,122,58,0.22);
 }
+.card--clickable { cursor: pointer; }
 .card__kicker{margin-bottom:8px}
 .card h3{margin:8px 0 8px; font-size:19px}
 .card__meta{margin:4px 0; color:#6b7280; font-size:13px}

@@ -1,0 +1,17 @@
+{
+  "id": "f_ac8ec7248b1e",
+  "slug": "cardboard-and-paper-recycling",
+  "name": "Cardboard and Paper recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.9445044,
+  "lng": -97.5803372,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/739751198",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

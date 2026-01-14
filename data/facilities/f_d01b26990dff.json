@@ -1,0 +1,21 @@
+{
+  "id": "f_d01b26990dff",
+  "slug": "custer-transfer-station",
+  "name": "Custer Transfer Station",
+  "type": "transfer_station",
+  "address": "",
+  "lat": 33.1149086,
+  "lng": -96.7351259,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/658604109",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "frisco"
+    },
+    {
+      "state": "texas",
+      "city": "plano"
+    }
+  ]
+}

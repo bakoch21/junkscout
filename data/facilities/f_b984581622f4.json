@@ -1,0 +1,17 @@
+{
+  "id": "f_b984581622f4",
+  "slug": "f_b984581622f4",
+  "name": "Unnamed site",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.8267709,
+  "lng": -97.3899444,
+  "website": "bigbellysolar.com",
+  "osm_url": "https://www.openstreetmap.org/node/8241073066",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

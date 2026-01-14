@@ -1,0 +1,17 @@
+{
+  "id": "f_d1fcc1292586",
+  "slug": "newport-metal-recycling",
+  "name": "Newport Metal Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 29.7200952,
+  "lng": -95.2870355,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/378862811",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

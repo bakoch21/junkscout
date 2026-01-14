@@ -1,0 +1,17 @@
+{
+  "id": "f_c2288dae35f0",
+  "slug": "hawthorne-park-landfill",
+  "name": "Hawthorne Park Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.8541343,
+  "lng": -95.5535098,
+  "website": "https://www.wmsolutions.com/locations/details/id/275",
+  "osm_url": "https://www.openstreetmap.org/way/255867022",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

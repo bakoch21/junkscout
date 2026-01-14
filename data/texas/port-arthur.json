@@ -6,7 +6,8 @@
     "lat": 30.0182402,
     "lng": -94.0428522,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/773584290"
+    "osm_url": "https://www.openstreetmap.org/way/773584290",
+    "facility_id": "f_028f09bcaeb8"
   },
   {
     "name": "Triangle Waste Solutions",
@@ -15,6 +16,7 @@
     "lat": 29.924018,
     "lng": -94.0312045,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1259026914"
+    "osm_url": "https://www.openstreetmap.org/way/1259026914",
+    "facility_id": "f_bf529efd5253"
   }
 ]

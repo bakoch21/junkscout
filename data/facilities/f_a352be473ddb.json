@@ -1,0 +1,17 @@
+{
+  "id": "f_a352be473ddb",
+  "slug": "cmc-recycling",
+  "name": "CMC Recycling",
+  "type": "recycling",
+  "address": "1605 Garden City Highway Midland TX 79701",
+  "lat": 31.9881391,
+  "lng": -102.0548337,
+  "website": "https://www.cmcrecycling.com/locations/midland",
+  "osm_url": "https://www.openstreetmap.org/way/1316954561",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "midland"
+    }
+  ]
+}

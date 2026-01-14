@@ -1,0 +1,17 @@
+{
+  "id": "f_025d1d2b922a",
+  "slug": "c-and-d-scrap-metal",
+  "name": "C&D Scrap Metal",
+  "type": "recycling",
+  "address": "6775 Bingle Road Houston TX",
+  "lat": 29.8641276,
+  "lng": -95.488482,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/690500603",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

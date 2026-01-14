@@ -1,0 +1,21 @@
+{
+  "id": "f_79a6cbc4f230",
+  "slug": "keeper-of-the-grumper",
+  "name": "Keeper of the Grumper",
+  "type": "recycling",
+  "address": "3704 Arapaho Road Addison TX 75001",
+  "lat": 32.9560029,
+  "lng": -96.8534502,
+  "website": "https://keeperofthegrumper.org/",
+  "osm_url": "https://www.openstreetmap.org/node/13398279164",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrollton"
+    },
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

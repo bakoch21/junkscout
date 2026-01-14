@@ -1,0 +1,17 @@
+{
+  "id": "f_a326bb50b580",
+  "slug": "travis-county-landfill",
+  "name": "Travis County Landfill",
+  "type": "landfill",
+  "address": "9600 FM 812 Austin TX 78719",
+  "lat": 30.1622743,
+  "lng": -97.6710656,
+  "website": "https://www.wasteconnections.com/travis-county-landfill/",
+  "osm_url": "https://www.openstreetmap.org/way/1185613730",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

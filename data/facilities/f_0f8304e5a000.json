@@ -1,0 +1,17 @@
+{
+  "id": "f_0f8304e5a000",
+  "slug": "city-of-longview-compost-site",
+  "name": "City of Longview Compost Site",
+  "type": "landfill",
+  "address": "2020 Swinging Bridge Road Longview TX 75604",
+  "lat": 32.4827079,
+  "lng": -94.8027422,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/391129195",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "longview"
+    }
+  ]
+}

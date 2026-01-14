@@ -1,0 +1,21 @@
+{
+  "id": "f_2d782edcec01",
+  "slug": "stella-roberts-recycling-center",
+  "name": "Stella Roberts Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 29.5451264,
+  "lng": -95.3099689,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/128315697",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    },
+    {
+      "state": "texas",
+      "city": "pearland"
+    }
+  ]
+}

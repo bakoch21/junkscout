@@ -1,0 +1,25 @@
+{
+  "id": "f_ef045d9fe159",
+  "slug": "grand-prairie-landfill",
+  "name": "Grand Prairie Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 32.7698514,
+  "lng": -96.9492464,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/317592059",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "grand-prairie"
+    },
+    {
+      "state": "texas",
+      "city": "irving"
+    }
+  ]
+}

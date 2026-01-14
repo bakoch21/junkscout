@@ -1,0 +1,21 @@
+{
+  "id": "f_fbed1f2062b4",
+  "slug": "city-of-dallas-big-blue-recycle-bin",
+  "name": "City of Dallas Big Blue Recycle Bin",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.6413269,
+  "lng": -96.9553907,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6641272910",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "grand-prairie"
+    }
+  ]
+}

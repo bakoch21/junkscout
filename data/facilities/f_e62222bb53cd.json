@@ -1,0 +1,17 @@
+{
+  "id": "f_e62222bb53cd",
+  "slug": "southeast-drop-off-station-fort-worth-recycling",
+  "name": "Southeast Drop-off Station - Fort Worth Recycling",
+  "type": "recycling",
+  "address": "5100 Martin Luther King Freeway Fort Worth TX 76119",
+  "lat": 32.6925272,
+  "lng": -97.2449729,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/500728932",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

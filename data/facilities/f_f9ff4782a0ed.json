@@ -1,0 +1,17 @@
+{
+  "id": "f_f9ff4782a0ed",
+  "slug": "a-g-pickard-pecans",
+  "name": "A. G. Pickard Pecans",
+  "type": "recycling",
+  "address": "101 Nogalitos Street San Antonio TX 78204",
+  "lat": 29.4090251,
+  "lng": -98.501694,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/929735081",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

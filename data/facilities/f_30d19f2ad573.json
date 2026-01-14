@@ -1,0 +1,25 @@
+{
+  "id": "f_30d19f2ad573",
+  "slug": "camelot-landfill",
+  "name": "Camelot Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.0307155,
+  "lng": -96.950935,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/336439435",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrollton"
+    },
+    {
+      "state": "texas",
+      "city": "denton"
+    },
+    {
+      "state": "texas",
+      "city": "lewisville"
+    }
+  ]
+}

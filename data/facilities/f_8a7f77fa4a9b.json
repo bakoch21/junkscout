@@ -1,0 +1,17 @@
+{
+  "id": "f_8a7f77fa4a9b",
+  "slug": "yonke",
+  "name": "Yonke",
+  "type": "recycling",
+  "address": "",
+  "lat": 31.6907705,
+  "lng": -106.3832234,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/454932574",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "el-paso"
+    }
+  ]
+}

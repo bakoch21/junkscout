@@ -1,0 +1,21 @@
+{
+  "id": "f_028f09bcaeb8",
+  "slug": "republic-services",
+  "name": "Republic Services",
+  "type": "transfer_station",
+  "address": "6425 Highway 347 Beaumont TX 77705",
+  "lat": 30.0182402,
+  "lng": -94.0428522,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/773584290",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "beaumont"
+    },
+    {
+      "state": "texas",
+      "city": "port-arthur"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_d01faee26bf6",
+  "slug": "cougar-landfill",
+  "name": "Cougar Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.8967004,
+  "lng": -95.2624371,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/447277173",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

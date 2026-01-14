@@ -1,0 +1,17 @@
+{
+  "id": "f_def73b03d340",
+  "slug": "customer-convenience-recycling-center-at-mccommas-bluff-landfill",
+  "name": "Customer Convenience Recycling Center at McCommas Bluff Landfill",
+  "type": "recycling",
+  "address": "5450 Simpson Stuart Road",
+  "lat": 32.6805119,
+  "lng": -96.7281282,
+  "website": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+  "osm_url": "https://www.openstreetmap.org/way/469105875",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

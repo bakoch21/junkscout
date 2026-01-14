@@ -1,0 +1,21 @@
+{
+  "id": "f_d3d1a73d4ff6",
+  "slug": "environmental-collection-center",
+  "name": "Environmental Collection Center",
+  "type": "recycling",
+  "address": "6400 Bridge Street 76112",
+  "lat": 32.7625069,
+  "lng": -97.220152,
+  "website": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/environmental-collection-center/environmental-collection",
+  "osm_url": "https://www.openstreetmap.org/node/13302094101",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "arlington"
+    },
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_fcc6895095c6",
+  "slug": "ihaul-junk-austin",
+  "name": "iHaul Junk Austin",
+  "type": "recycling",
+  "address": "2021 Guadalupe Street Austin TX 78705",
+  "lat": 30.2832978,
+  "lng": -97.7416992,
+  "website": "https://ihauljunk.com/junk-removal-in-austin-tx",
+  "osm_url": "https://www.openstreetmap.org/node/11399466705",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

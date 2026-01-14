@@ -1,0 +1,17 @@
+{
+  "id": "f_a1909a73d41c",
+  "slug": "waste-management-fairbanks-landfill",
+  "name": "Waste Management - Fairbanks Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.9014892,
+  "lng": -95.5317364,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/603465259",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

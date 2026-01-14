@@ -6,7 +6,8 @@
     "lat": 31.5413949,
     "lng": -97.1426667,
     "website": "https://www.greenoptionrecycling.com/",
-    "osm_url": "https://www.openstreetmap.org/node/4544644594"
+    "osm_url": "https://www.openstreetmap.org/node/4544644594",
+    "facility_id": "f_b1166d1e1fa9"
   },
   {
     "name": "Waco Landfill",
@@ -15,7 +16,8 @@
     "lat": 31.4763832,
     "lng": -97.2581486,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4547543173"
+    "osm_url": "https://www.openstreetmap.org/node/4547543173",
+    "facility_id": "f_94518be0bb59"
   },
   {
     "name": "Cobbs Recycling Center",
@@ -24,7 +26,8 @@
     "lat": 31.5462434,
     "lng": -97.1868365,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/13311971041"
+    "osm_url": "https://www.openstreetmap.org/node/13311971041",
+    "facility_id": "f_e75b93f7e3b9"
   },
   {
     "name": "M. Lipsitz and Company LTD",
@@ -33,6 +36,7 @@
     "lat": 31.5647805,
     "lng": -97.128663,
     "website": "https://www.mlipsitzco.com/",
-    "osm_url": "https://www.openstreetmap.org/way/1452694537"
+    "osm_url": "https://www.openstreetmap.org/way/1452694537",
+    "facility_id": "f_7593ca2a6f6d"
   }
 ]

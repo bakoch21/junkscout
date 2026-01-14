@@ -1,0 +1,17 @@
+{
+  "id": "f_aa76d5dee4b7",
+  "slug": "addicks-fairbanks-landfill",
+  "name": "Addicks Fairbanks Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.8720942,
+  "lng": -95.622773,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/148260554",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

@@ -5,7 +5,6 @@
 //   Path route:   /texas/dallas/                   -> /data/texas/dallas.json
 
 function ensureRobotsMeta(content = "noindex,follow") {
-  // If robots meta already exists, leave it alone
   if (document.querySelector('meta[name="robots"]')) return;
 
   const meta = document.createElement("meta");
@@ -23,21 +22,15 @@ function titleCaseFromSlug(slug = "") {
 }
 
 function getRouteParts() {
-  // 1) Prefer hash route: "#texas/dallas" or "#/texas/dallas"
   const hash = (window.location.hash || "").replace(/^#\/?/, "").trim();
   if (hash) {
     const [state, city] = hash.split("/").filter(Boolean);
     return { state: state || "", city: city || "" };
   }
 
-  // 2) Fallback to pathname route: "/texas/dallas/" or "/texas/dallas/index.html"
   const parts = window.location.pathname.split("/").filter(Boolean);
-
-  // If you ever mount under a subfolder, this still works as long as
-  // the first two segments are state/city.
   const state = parts[0] || "";
   const city = parts[1] || "";
-
   return { state, city };
 }
 
@@ -45,13 +38,10 @@ async function loadCityData() {
   const resultsEl = document.getElementById("results");
   if (!resultsEl) return;
 
-  // Default behavior: keep programmatic pages noindex until you "promote" them.
-  // (Later we can add a rule that flips to index for high-quality pages.)
   ensureRobotsMeta("noindex,follow");
 
   const { state, city } = getRouteParts();
 
-  // Optional: fill in heading text if template uses these IDs
   const cityName = titleCaseFromSlug(city);
   const titleEl = document.getElementById("cityTitle");
   const subEl = document.getElementById("citySubhead");
@@ -83,38 +73,76 @@ async function loadCityData() {
       return;
     }
 
-    resultsEl.innerHTML = data.map(renderCard).join("");
+    resultsEl.innerHTML = data.map((item) => renderCard(item)).join("");
+
+    // Make cards clickable (delegated)
+    attachCardClickHandler(resultsEl);
   } catch (err) {
     console.error(err);
-    resultsEl.innerHTML =
-      "<p class='muted'>Unable to load locations right now.</p>";
+    resultsEl.innerHTML = "<p class='muted'>Unable to load locations right now.</p>";
   }
+}
+
+function attachCardClickHandler(resultsEl) {
+  // Prevent double-binding if loadCityData ever runs twice
+  if (resultsEl.__cardsBound) return;
+  resultsEl.__cardsBound = true;
+
+  resultsEl.addEventListener("click", (e) => {
+    // If user clicked an inner link, don't hijack it
+    const innerLink = e.target.closest("a");
+    if (innerLink) return;
+
+    const card = e.target.closest(".card[data-href]");
+    if (!card) return;
+
+    const href = card.getAttribute("data-href");
+    if (href) window.location.href = href;
+  });
 }
 
 function renderCard(item) {
   const badges = [];
 
   if (item.type === "landfill") badges.push(badge("Landfill", "orange"));
-  if (item.type === "transfer_station")
-    badges.push(badge("Transfer station", "orange"));
+  if (item.type === "transfer_station") badges.push(badge("Transfer station", "orange"));
   if (item.type === "recycling") badges.push(badge("Recycling", "blue"));
-  if (item.type === "hazardous_waste")
-    badges.push(badge("Hazardous", "orange"));
+  if (item.type === "hazardous_waste") badges.push(badge("Hazardous", "orange"));
 
   const mapsUrl =
     item.lat && item.lng
       ? `https://www.google.com/maps/search/?api=1&query=${item.lat},${item.lng}`
       : "#";
 
+  const facilityUrl = item.facility_id ? `/facility/${item.facility_id}/` : null;
+
+  const cardAttrs = facilityUrl
+    ? `class="card card--clickable" data-href="${facilityUrl}" role="link" tabindex="0" aria-label="View details for ${escapeHtml(item.name)}"`
+    : `class="card"`;
+
+  // NOTE: no nested <a> wrapping the card anymore.
   return `
-    <article class="card">
+    <article ${cardAttrs}>
       <div class="card__kicker">${badges.join(" ")}</div>
       <h3>${escapeHtml(item.name)}</h3>
       ${item.address ? `<p class="card__meta">${escapeHtml(item.address)}</p>` : ""}
-      <div style="display:flex; gap:12px; margin-top:8px">
+      <div style="display:flex; gap:12px; margin-top:8px; flex-wrap:wrap">
         <a class="link" href="${mapsUrl}" target="_blank" rel="noopener">Directions</a>
-        ${item.website ? `<a class="link" href="${item.website}" target="_blank" rel="noopener">Website</a>` : ""}
-        ${item.osm_url ? `<a class="link" href="${item.osm_url}" target="_blank" rel="noopener">Source</a>` : ""}
+        ${
+          item.website
+            ? `<a class="link" href="${item.website}" target="_blank" rel="noopener">Website</a>`
+            : ""
+        }
+        ${
+          item.osm_url
+            ? `<a class="link" href="${item.osm_url}" target="_blank" rel="noopener">Source</a>`
+            : ""
+        }
+        ${
+          facilityUrl
+            ? `<a class="link" href="${facilityUrl}" style="margin-left:auto">Details →</a>`
+            : ""
+        }
       </div>
     </article>
   `;

@@ -1,0 +1,17 @@
+{
+  "id": "f_627e8167a3b3",
+  "slug": "northeast-fair-oaks-transfer-station",
+  "name": "Northeast (Fair Oaks) Transfer Station",
+  "type": "recycling",
+  "address": "7400 Holly Hill Drive",
+  "lat": 32.8811878,
+  "lng": -96.752371,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/468149350",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

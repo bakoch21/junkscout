@@ -1,0 +1,17 @@
+{
+  "id": "f_a9aafb3fb298",
+  "slug": "recycling-center-recy",
+  "name": "Recycling Center (RECY)",
+  "type": "recycling",
+  "address": "Moore Street San Marcos TX 78666",
+  "lat": 29.8851033,
+  "lng": -97.9489507,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/relation/14627089",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-marcos"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_bddc5dce7f66",
+  "slug": "setasa",
+  "name": "Setasa",
+  "type": "recycling",
+  "address": "",
+  "lat": 27.5449704,
+  "lng": -99.5827737,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/5774565476",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "laredo"
+    }
+  ]
+}

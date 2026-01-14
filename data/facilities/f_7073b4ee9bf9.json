@@ -1,0 +1,17 @@
+{
+  "id": "f_7073b4ee9bf9",
+  "slug": "gardner-metal-recycling",
+  "name": "Gardner Metal Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 30.3307322,
+  "lng": -97.616078,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1201742548",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

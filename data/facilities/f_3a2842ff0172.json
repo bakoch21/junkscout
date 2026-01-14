@@ -1,0 +1,17 @@
+{
+  "id": "f_3a2842ff0172",
+  "slug": "westpark-consumer-recycling-center",
+  "name": "Westpark Consumer Recycling Center",
+  "type": "recycling",
+  "address": "5900 Westpark Drive Houston",
+  "lat": 29.7249754,
+  "lng": -95.4829175,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/317083336",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

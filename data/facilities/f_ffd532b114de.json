@@ -1,0 +1,17 @@
+{
+  "id": "f_ffd532b114de",
+  "slug": "city-of-midland-landfill",
+  "name": "City of Midland Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 31.9657396,
+  "lng": -101.9325577,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/405469689",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "midland"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_3b35de8df82a",
+  "slug": "mccommas-bluff-sanitary-landfill",
+  "name": "McCommas Bluff Sanitary Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 32.6823187,
+  "lng": -96.7191789,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/30789572",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

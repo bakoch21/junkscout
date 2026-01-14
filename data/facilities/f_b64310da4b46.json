@@ -1,0 +1,17 @@
+{
+  "id": "f_b64310da4b46",
+  "slug": "evergro-organic-recycling",
+  "name": "EverGro Organic Recycling",
+  "type": "landfill",
+  "address": "12470 Sralla Road Crosby TX 77532",
+  "lat": 29.8680882,
+  "lng": -95.0285411,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/814716845",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

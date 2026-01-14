@@ -1,0 +1,21 @@
+{
+  "id": "f_0778433ee562",
+  "slug": "sprint-fort-bend-county-landfill",
+  "name": "Sprint Fort Bend County Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.6625806,
+  "lng": -95.6682525,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/335034838",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    },
+    {
+      "state": "texas",
+      "city": "sugar-land"
+    }
+  ]
+}

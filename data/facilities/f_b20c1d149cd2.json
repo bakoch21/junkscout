@@ -1,0 +1,17 @@
+{
+  "id": "f_b20c1d149cd2",
+  "slug": "recycling-point",
+  "name": "Recycling Point",
+  "type": "recycling",
+  "address": "",
+  "lat": 33.1989807,
+  "lng": -97.1231056,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/1655963854",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "denton"
+    }
+  ]
+}

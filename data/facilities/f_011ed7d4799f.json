@@ -1,0 +1,17 @@
+{
+  "id": "f_011ed7d4799f",
+  "slug": "metal-and-used-oil-collection-center",
+  "name": "Metal & Used Oil Collection Center",
+  "type": "recycling",
+  "address": "604 South Independence Street Amarillo TX 79106",
+  "lat": 35.2110607,
+  "lng": -101.8832934,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1278729141",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

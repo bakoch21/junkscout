@@ -1,0 +1,17 @@
+{
+  "id": "f_317c962ef83c",
+  "slug": "nichole-scrap-metals",
+  "name": "Nichole Scrap Metals",
+  "type": "recycling",
+  "address": "9741 Jensen Drive Houston TX",
+  "lat": 29.852636,
+  "lng": -95.3407967,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/875991778",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

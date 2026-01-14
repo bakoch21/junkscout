@@ -1,0 +1,17 @@
+{
+  "id": "f_8bc5076be468",
+  "slug": "beck-landfill",
+  "name": "Beck Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.5470798,
+  "lng": -98.2618889,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/830189199",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

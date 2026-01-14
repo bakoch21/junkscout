@@ -1,0 +1,17 @@
+{
+  "id": "f_b0136bc0ebfe",
+  "slug": "gulf-coast-strap-metal",
+  "name": "Gulf Coast Strap Metal",
+  "type": "recycling",
+  "address": "8770 Hempstead Road Houston TX 77008",
+  "lat": 29.7888475,
+  "lng": -95.4422886,
+  "website": "https://www.gulfcoastscrapmetal.com/",
+  "osm_url": "https://www.openstreetmap.org/way/579719819",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

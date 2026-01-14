@@ -1,0 +1,17 @@
+{
+  "id": "f_4353a11d33a1",
+  "slug": "used-oil-collection-center",
+  "name": "Used Oil Collection Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 35.1852548,
+  "lng": -101.8311894,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/13240497571",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

@@ -6,7 +6,8 @@
     "lat": 29.8291659,
     "lng": -95.4304555,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/3768401994"
+    "osm_url": "https://www.openstreetmap.org/node/3768401994",
+    "facility_id": "f_effbd939bf28"
   },
   {
     "name": "Falcon Scrap Metal",
@@ -15,7 +16,8 @@
     "lat": 29.8536545,
     "lng": -95.3811818,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6265708976"
+    "osm_url": "https://www.openstreetmap.org/node/6265708976",
+    "facility_id": "f_fdb0f0c84738"
   },
   {
     "name": "Goodwill Donation Center",
@@ -24,7 +26,8 @@
     "lat": 29.7596951,
     "lng": -95.4824094,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6917875413"
+    "osm_url": "https://www.openstreetmap.org/node/6917875413",
+    "facility_id": "f_c746e0cdf8af"
   },
   {
     "name": "",
@@ -33,7 +36,8 @@
     "lat": 29.769904,
     "lng": -95.2863457,
     "website": "https://mygwservices.com/",
-    "osm_url": "https://www.openstreetmap.org/node/13204466954"
+    "osm_url": "https://www.openstreetmap.org/node/13204466954",
+    "facility_id": "f_018855d86a92"
   },
   {
     "name": "Stella Roberts Recycling Center",
@@ -42,7 +46,8 @@
     "lat": 29.5451264,
     "lng": -95.3099689,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/128315697"
+    "osm_url": "https://www.openstreetmap.org/way/128315697",
+    "facility_id": "f_2d782edcec01"
   },
   {
     "name": "Addicks Fairbanks Landfill",
@@ -51,7 +56,8 @@
     "lat": 29.8720942,
     "lng": -95.622773,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/148260554"
+    "osm_url": "https://www.openstreetmap.org/way/148260554",
+    "facility_id": "f_aa76d5dee4b7"
   },
   {
     "name": "Atascocita Landfill",
@@ -60,7 +66,8 @@
     "lat": 29.9567492,
     "lng": -95.2350361,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/148331083"
+    "osm_url": "https://www.openstreetmap.org/way/148331083",
+    "facility_id": "f_925b2b601899"
   },
   {
     "name": "Republic McCarty Road Landfill",
@@ -69,7 +76,8 @@
     "lat": 29.8279854,
     "lng": -95.2395366,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195840767"
+    "osm_url": "https://www.openstreetmap.org/way/195840767",
+    "facility_id": "f_fe7adc326204"
   },
   {
     "name": "Lone Star Disposal",
@@ -78,7 +86,8 @@
     "lat": 29.5919043,
     "lng": -95.4372343,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/196615945"
+    "osm_url": "https://www.openstreetmap.org/way/196615945",
+    "facility_id": "f_e8578329354f"
   },
   {
     "name": "Greenhouse Road Landfill",
@@ -87,7 +96,8 @@
     "lat": 29.8249681,
     "lng": -95.6987817,
     "website": "https://www.houstontx.gov/solidwaste/disposal.html",
-    "osm_url": "https://www.openstreetmap.org/way/203293865"
+    "osm_url": "https://www.openstreetmap.org/way/203293865",
+    "facility_id": "f_b5cb2a4e163e"
   },
   {
     "name": "Hawthorne Park Landfill",
@@ -96,7 +106,8 @@
     "lat": 29.8541343,
     "lng": -95.5535098,
     "website": "https://www.wmsolutions.com/locations/details/id/275",
-    "osm_url": "https://www.openstreetmap.org/way/255867022"
+    "osm_url": "https://www.openstreetmap.org/way/255867022",
+    "facility_id": "f_c2288dae35f0"
   },
   {
     "name": "Westpark Consumer Recycling Center",
@@ -105,7 +116,8 @@
     "lat": 29.7249754,
     "lng": -95.4829175,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/317083336"
+    "osm_url": "https://www.openstreetmap.org/way/317083336",
+    "facility_id": "f_3a2842ff0172"
   },
   {
     "name": "Sprint Fort Bend County Landfill",
@@ -114,7 +126,8 @@
     "lat": 29.6625806,
     "lng": -95.6682525,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/335034838"
+    "osm_url": "https://www.openstreetmap.org/way/335034838",
+    "facility_id": "f_0778433ee562"
   },
   {
     "name": "San Jacinto Waste Pits",
@@ -123,7 +136,8 @@
     "lat": 29.7946088,
     "lng": -95.0626645,
     "website": "https://www.epa.gov/region6/6sf/texas/san_jacinto/",
-    "osm_url": "https://www.openstreetmap.org/way/365605615"
+    "osm_url": "https://www.openstreetmap.org/way/365605615",
+    "facility_id": "f_91fc9c135511"
   },
   {
     "name": "Newport Metal Recycling",
@@ -132,7 +146,8 @@
     "lat": 29.7200952,
     "lng": -95.2870355,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/378862811"
+    "osm_url": "https://www.openstreetmap.org/way/378862811",
+    "facility_id": "f_d1fcc1292586"
   },
   {
     "name": "Greenshadow Landfill",
@@ -141,7 +156,8 @@
     "lat": 29.6961628,
     "lng": -95.1474276,
     "website": "https://www.wmsolutions.com/locations/details/id/103",
-    "osm_url": "https://www.openstreetmap.org/way/390096551"
+    "osm_url": "https://www.openstreetmap.org/way/390096551",
+    "facility_id": "f_2454b98b1295"
   },
   {
     "name": "Greenbelt Landfill",
@@ -150,7 +166,8 @@
     "lat": 29.6238286,
     "lng": -95.191411,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/399714155"
+    "osm_url": "https://www.openstreetmap.org/way/399714155",
+    "facility_id": "f_4627fcd477b4"
   },
   {
     "name": "Hardy Road Landfill",
@@ -159,7 +176,8 @@
     "lat": 29.9885407,
     "lng": -95.3838463,
     "website": "http://wcawaste.com/locations/hardy-road-landfill",
-    "osm_url": "https://www.openstreetmap.org/way/443454761"
+    "osm_url": "https://www.openstreetmap.org/way/443454761",
+    "facility_id": "f_9d401f9d8fee"
   },
   {
     "name": "Cougar Landfill",
@@ -168,7 +186,8 @@
     "lat": 29.8967004,
     "lng": -95.2624371,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/447277173"
+    "osm_url": "https://www.openstreetmap.org/way/447277173",
+    "facility_id": "f_d01faee26bf6"
   },
   {
     "name": "Whispering Pines Landfill",
@@ -177,7 +196,8 @@
     "lat": 29.8790184,
     "lng": -95.2637492,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/447277349"
+    "osm_url": "https://www.openstreetmap.org/way/447277349",
+    "facility_id": "f_58ee20acf958"
   },
   {
     "name": "Gulf Coast Strap Metal",
@@ -186,7 +206,8 @@
     "lat": 29.7888475,
     "lng": -95.4422886,
     "website": "https://www.gulfcoastscrapmetal.com/",
-    "osm_url": "https://www.openstreetmap.org/way/579719819"
+    "osm_url": "https://www.openstreetmap.org/way/579719819",
+    "facility_id": "f_b0136bc0ebfe"
   },
   {
     "name": "Waste Management - Fairbanks Landfill",
@@ -195,7 +216,8 @@
     "lat": 29.9014892,
     "lng": -95.5317364,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/603465259"
+    "osm_url": "https://www.openstreetmap.org/way/603465259",
+    "facility_id": "f_a1909a73d41c"
   },
   {
     "name": "C&D Scrap Metal",
@@ -204,7 +226,8 @@
     "lat": 29.8641276,
     "lng": -95.488482,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/690500603"
+    "osm_url": "https://www.openstreetmap.org/way/690500603",
+    "facility_id": "f_025d1d2b922a"
   },
   {
     "name": "EverGro Organic Recycling",
@@ -213,7 +236,8 @@
     "lat": 29.8680882,
     "lng": -95.0285411,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/814716845"
+    "osm_url": "https://www.openstreetmap.org/way/814716845",
+    "facility_id": "f_b64310da4b46"
   },
   {
     "name": "RM Scrap Metal",
@@ -222,7 +246,8 @@
     "lat": 29.8475352,
     "lng": -95.3789738,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/837883100"
+    "osm_url": "https://www.openstreetmap.org/way/837883100",
+    "facility_id": "f_7bd252a9906d"
   },
   {
     "name": "Nichole Scrap Metals",
@@ -231,7 +256,8 @@
     "lat": 29.852636,
     "lng": -95.3407967,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/875991778"
+    "osm_url": "https://www.openstreetmap.org/way/875991778",
+    "facility_id": "f_317c962ef83c"
   },
   {
     "name": "Environmental Services Center",
@@ -240,7 +266,8 @@
     "lat": 29.649629,
     "lng": -95.4644,
     "website": "https://houstontx.gov/solidwaste/esc.html",
-    "osm_url": "https://www.openstreetmap.org/way/1092144490"
+    "osm_url": "https://www.openstreetmap.org/way/1092144490",
+    "facility_id": "f_44d0c768acb1"
   },
   {
     "name": "Waste Management Recycling Center",
@@ -249,7 +276,8 @@
     "lat": 29.650326,
     "lng": -95.465819,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1092144890"
+    "osm_url": "https://www.openstreetmap.org/way/1092144890",
+    "facility_id": "f_3cf45f7cdb27"
   },
   {
     "name": "Spring Scrap Metal Recycling",
@@ -258,6 +286,7 @@
     "lat": 30.04989,
     "lng": -95.4920198,
     "website": "https://www.springscrapmetalrecycling.com",
-    "osm_url": "https://www.openstreetmap.org/way/1375772382"
+    "osm_url": "https://www.openstreetmap.org/way/1375772382",
+    "facility_id": "f_15f2691c4afa"
   }
 ]

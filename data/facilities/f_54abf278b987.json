@@ -1,0 +1,17 @@
+{
+  "id": "f_54abf278b987",
+  "slug": "recicladora-fenix",
+  "name": "Recicladora Fenix",
+  "type": "recycling",
+  "address": "",
+  "lat": 31.6526946,
+  "lng": -106.4297797,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/634087658",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "el-paso"
+    }
+  ]
+}

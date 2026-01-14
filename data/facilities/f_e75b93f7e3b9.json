@@ -1,0 +1,17 @@
+{
+  "id": "f_e75b93f7e3b9",
+  "slug": "cobbs-recycling-center",
+  "name": "Cobbs Recycling Center",
+  "type": "recycling",
+  "address": "4201 Trice Avenue Waco TX 76710",
+  "lat": 31.5462434,
+  "lng": -97.1868365,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/13311971041",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

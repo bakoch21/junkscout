@@ -1,0 +1,17 @@
+{
+  "id": "f_5b18c22ff945",
+  "slug": "tessman-road-landfill",
+  "name": "Tessman Road Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.4354227,
+  "lng": -98.3428943,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/373704281",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_33e2d348d63a",
+  "slug": "austin-wood-recycling",
+  "name": "Austin Wood Recycling",
+  "type": "recycling",
+  "address": "9201 FM 812 Austin TX 78719",
+  "lat": 30.1555498,
+  "lng": -97.6873274,
+  "website": "https://www.austinwoodrecycling.com/",
+  "osm_url": "https://www.openstreetmap.org/way/1185824388",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

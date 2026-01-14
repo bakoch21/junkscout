@@ -1,0 +1,17 @@
+{
+  "id": "f_ee29ac993327",
+  "slug": "fort-worth-southeast-landfill",
+  "name": "Fort Worth Southeast Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 32.6485603,
+  "lng": -97.2411144,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/925930862",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

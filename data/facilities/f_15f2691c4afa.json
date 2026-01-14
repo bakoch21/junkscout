@@ -1,0 +1,17 @@
+{
+  "id": "f_15f2691c4afa",
+  "slug": "spring-scrap-metal-recycling",
+  "name": "Spring Scrap Metal Recycling",
+  "type": "recycling",
+  "address": "19230 Kuykendahl Road Spring TX 77379",
+  "lat": 30.04989,
+  "lng": -95.4920198,
+  "website": "https://www.springscrapmetalrecycling.com",
+  "osm_url": "https://www.openstreetmap.org/way/1375772382",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

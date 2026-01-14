@@ -1,0 +1,17 @@
+{
+  "id": "f_4bdeef1dc029",
+  "slug": "southwaste-disposal",
+  "name": "SouthWaste Disposal",
+  "type": "transfer_station",
+  "address": "1375 Creekview San Antonio TX",
+  "lat": 29.4418252,
+  "lng": -98.419088,
+  "website": "https://southwaste.com/austin-san-antonio/",
+  "osm_url": "https://www.openstreetmap.org/way/1328596956",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

@@ -6,7 +6,8 @@
     "lat": 35.2167702,
     "lng": -101.7964732,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894450479"
+    "osm_url": "https://www.openstreetmap.org/node/12894450479",
+    "facility_id": "f_1e5ec3672eef"
   },
   {
     "name": "Amarillo Recycling Company, Inc.",
@@ -15,7 +16,8 @@
     "lat": 35.2216074,
     "lng": -101.7961798,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894450500"
+    "osm_url": "https://www.openstreetmap.org/node/12894450500",
+    "facility_id": "f_ac47284f3fc5"
   },
   {
     "name": "W. Silver Recycling Company",
@@ -24,7 +26,8 @@
     "lat": 35.2215976,
     "lng": -101.7985267,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894463188"
+    "osm_url": "https://www.openstreetmap.org/node/12894463188",
+    "facility_id": "f_957208b1e34d"
   },
   {
     "name": "North Texas Waste & Recycling",
@@ -33,7 +36,8 @@
     "lat": 35.2211718,
     "lng": -101.790506,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894463368"
+    "osm_url": "https://www.openstreetmap.org/node/12894463368",
+    "facility_id": "f_e2f9b3dc4c74"
   },
   {
     "name": "Scrap Processing Co.",
@@ -42,7 +46,8 @@
     "lat": 35.2101851,
     "lng": -101.8076043,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/13013150932"
+    "osm_url": "https://www.openstreetmap.org/node/13013150932",
+    "facility_id": "f_087024918dd5"
   },
   {
     "name": "Used Oil Collection Center",
@@ -51,7 +56,8 @@
     "lat": 35.1852548,
     "lng": -101.8311894,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/13240497571"
+    "osm_url": "https://www.openstreetmap.org/node/13240497571",
+    "facility_id": "f_4353a11d33a1"
   },
   {
     "name": "Metal & Used Oil Collection Center",
@@ -60,7 +66,8 @@
     "lat": 35.2110607,
     "lng": -101.8832934,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1278729141"
+    "osm_url": "https://www.openstreetmap.org/way/1278729141",
+    "facility_id": "f_011ed7d4799f"
   },
   {
     "name": "Used Oil Collection Center",
@@ -69,7 +76,8 @@
     "lat": 35.2505193,
     "lng": -101.8327615,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1279582216"
+    "osm_url": "https://www.openstreetmap.org/way/1279582216",
+    "facility_id": "f_d8ed2c68d082"
   },
   {
     "name": "City of Amarillo Brush Site",
@@ -78,6 +86,7 @@
     "lat": 35.2461001,
     "lng": -101.8499046,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1424542195"
+    "osm_url": "https://www.openstreetmap.org/way/1424542195",
+    "facility_id": "f_b6ba5aba32a5"
   }
 ]

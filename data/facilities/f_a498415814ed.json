@@ -1,0 +1,17 @@
+{
+  "id": "f_a498415814ed",
+  "slug": "city-of-seguin-recycling-center",
+  "name": "City of Seguin Recycling Center",
+  "type": "recycling",
+  "address": "634 Fred Byrd Drive 78155",
+  "lat": 29.5583498,
+  "lng": -97.9720712,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/183001279",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "seguin"
+    }
+  ]
+}

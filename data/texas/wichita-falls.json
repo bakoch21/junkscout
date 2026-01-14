@@ -6,7 +6,8 @@
     "lat": 33.873771,
     "lng": -98.5424026,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/628932216"
+    "osm_url": "https://www.openstreetmap.org/way/628932216",
+    "facility_id": "f_77790b9f98a9"
   },
   {
     "name": "Scales",
@@ -15,6 +16,7 @@
     "lat": 33.8731062,
     "lng": -98.541084,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/628932505"
+    "osm_url": "https://www.openstreetmap.org/way/628932505",
+    "facility_id": "f_81f50ff220fe"
   }
 ]

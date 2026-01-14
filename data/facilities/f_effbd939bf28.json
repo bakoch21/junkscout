@@ -1,0 +1,17 @@
+{
+  "id": "f_effbd939bf28",
+  "slug": "goodwill-donation-center",
+  "name": "Goodwill Donation Center",
+  "type": "recycling",
+  "address": "1214 West 43rd Street Houston TX",
+  "lat": 29.8291659,
+  "lng": -95.4304555,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/3768401994",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_37b53fe48de2",
+  "slug": "southside-recycling-center",
+  "name": "Southside Recycling Center",
+  "type": "recycling",
+  "address": "1631 84th Street Lubbock",
+  "lat": 33.5163799,
+  "lng": -101.854952,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/583388280",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lubbock"
+    }
+  ]
+}

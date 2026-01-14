@@ -6,7 +6,8 @@
     "lat": 32.7625069,
     "lng": -97.220152,
     "website": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/environmental-collection-center/environmental-collection",
-    "osm_url": "https://www.openstreetmap.org/node/13302094101"
+    "osm_url": "https://www.openstreetmap.org/node/13302094101",
+    "facility_id": "f_d3d1a73d4ff6"
   },
   {
     "name": "DFW Recyclers",
@@ -15,6 +16,7 @@
     "lat": 32.7349087,
     "lng": -97.1470574,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/659542057"
+    "osm_url": "https://www.openstreetmap.org/way/659542057",
+    "facility_id": "f_418eb02f4bb3"
   }
 ]

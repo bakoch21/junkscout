@@ -1,0 +1,17 @@
+{
+  "id": "f_fdeddd63fe1f",
+  "slug": "setasa",
+  "name": "Setasa",
+  "type": "landfill",
+  "address": "",
+  "lat": 27.5447692,
+  "lng": -99.5841188,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/609679471",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "laredo"
+    }
+  ]
+}

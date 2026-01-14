@@ -1,0 +1,17 @@
+{
+  "id": "f_c1f28f77d4dd",
+  "slug": "recycling-drop-off-center",
+  "name": "Recycling Drop-Off Center",
+  "type": "recycling",
+  "address": "208 Municipal Drive Lubbock",
+  "lat": 33.6027871,
+  "lng": -101.837503,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/422848223",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lubbock"
+    }
+  ]
+}

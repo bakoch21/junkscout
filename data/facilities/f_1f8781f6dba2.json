@@ -1,0 +1,17 @@
+{
+  "id": "f_1f8781f6dba2",
+  "slug": "greenpath-recovery",
+  "name": "Greenpath Recovery",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.7184656,
+  "lng": -96.8684796,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6296245608",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

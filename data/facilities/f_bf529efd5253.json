@@ -1,0 +1,17 @@
+{
+  "id": "f_bf529efd5253",
+  "slug": "triangle-waste-solutions",
+  "name": "Triangle Waste Solutions",
+  "type": "transfer_station",
+  "address": "",
+  "lat": 29.924018,
+  "lng": -94.0312045,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1259026914",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "port-arthur"
+    }
+  ]
+}
