@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CITY OF KERRVILLE COMPOSTING FACILITY",
+    "type": "recycling",
+    "address": "3315 LOOP 534 KERRVILLE TX 78028",
+    "lat": 30.03,
+    "lng": -98.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_035d5e7f0867"
+  },
+  {
+    "name": "CITY OF KERRVILLE LANDFILL",
+    "type": "landfill",
+    "address": "3315 LOOP 534 KERRVILLE TX 78028",
+    "lat": 30.03,
+    "lng": -98.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d8a7a6774d33"
+  },
+  {
+    "name": "CITY OF KERRVILLE TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "3315 LOOP 534 KERRVILLE TX 78028",
+    "lat": 30.03,
+    "lng": -98.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_5abe10b860d6"
+  }
+]

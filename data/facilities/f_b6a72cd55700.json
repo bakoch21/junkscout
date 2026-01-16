@@ -1,0 +1,23 @@
+{
+  "id": "f_b6a72cd55700",
+  "slug": "city-of-sudan",
+  "name": "CITY OF SUDAN",
+  "type": "landfill",
+  "address": "TAKE HWY 303 N FROM HWY 84 TAKE A RIGHT AT SHANNON ST GO APPROX 4000 E THEN N 2000 TO SITE SUDAN TX 79312",
+  "lat": 34.08,
+  "lng": -102.51,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110049269",
+    "additional_id": "9020A",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "09/23/2022",
+    "county": "LAMB",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

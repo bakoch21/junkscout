@@ -1,0 +1,23 @@
+{
+  "id": "f_4de50a3ef703",
+  "slug": "upton-county-landfill",
+  "name": "UPTON COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "1.5 MILES NORTH OF RANKIN ON HWY 349 RANKIN TX 79778",
+  "lat": 31.24,
+  "lng": -101.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102843687",
+    "additional_id": "691",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/03/1990",
+    "county": "UPTON",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

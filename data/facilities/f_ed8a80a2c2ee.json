@@ -1,0 +1,23 @@
+{
+  "id": "f_ed8a80a2c2ee",
+  "slug": "commonwealth-center",
+  "name": "COMMONWEALTH CENTER",
+  "type": "landfill",
+  "address": "3131,3137 & 3141 IRVING BLVD, 3140 & 3160 COMMONWEALTH DR., & 5021 LAKAWANA ST DALLAS TX 75247",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105922918",
+    "additional_id": "65040",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/10/2021",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

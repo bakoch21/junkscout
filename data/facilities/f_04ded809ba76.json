@@ -1,0 +1,23 @@
+{
+  "id": "f_04ded809ba76",
+  "slug": "city-of-spearman-municipal-solid-waste-landfill",
+  "name": "CITY OF SPEARMAN MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": ".6 MI W OF FM HWY 760  .8 MI N SH 207 IN HANSFORD COUNTY SPEARMAN TX 79081",
+  "lat": 36.21,
+  "lng": -101.21,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102754496",
+    "additional_id": "2352",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/19/2007",
+    "county": "HANSFORD",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_53bf3172adf1",
+  "slug": "garland-renewables-rng-processing-facility",
+  "name": "GARLAND RENEWABLES RNG PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "3175 ELM GROVE RD ROWLETT TX 75089",
+  "lat": 32.95,
+  "lng": -96.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103049490",
+    "additional_id": "48049",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/02/2021",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

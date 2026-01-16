@@ -1,0 +1,23 @@
+{
+  "id": "f_18aa7cbb3b04",
+  "slug": "twin-oaks-landfill",
+  "name": "TWIN OAKS LANDFILL",
+  "type": "landfill",
+  "address": "2690 HIGHWAY 30 ANDERSON TX 77830",
+  "lat": 30.6,
+  "lng": -96.15,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100630458",
+    "additional_id": "2292",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/12/2005",
+    "county": "GRIMES",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

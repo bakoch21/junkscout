@@ -1,0 +1,23 @@
+{
+  "id": "f_0e4a5dec6f65",
+  "slug": "pro-star-waste",
+  "name": "PRO STAR WASTE",
+  "type": "landfill",
+  "address": "7118 US HIGHWAY 59 S GOODRICH TX 77335",
+  "lat": 30.49,
+  "lng": -94.94,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104786249",
+    "additional_id": "40277",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/27/2015",
+    "county": "POLK",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

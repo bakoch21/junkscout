@@ -1,0 +1,23 @@
+{
+  "id": "f_80aba4f2942b",
+  "slug": "city-of-eldorado-landfill",
+  "name": "CITY OF ELDORADO LANDFILL",
+  "type": "landfill",
+  "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
+  "lat": 30.87,
+  "lng": -100.69,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101390763",
+    "additional_id": "349",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/22/1980",
+    "county": "SCHLEICHER",
+    "region": "REGION 08 - SAN ANGELO",
+    "physical_site_status": "ACTIVE"
+  }
+}

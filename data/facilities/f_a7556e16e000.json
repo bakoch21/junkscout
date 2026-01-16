@@ -1,0 +1,23 @@
+{
+  "id": "f_a7556e16e000",
+  "slug": "san-angelo-pro-pump-compost-facility",
+  "name": "SAN ANGELO PRO PUMP COMPOST FACILITY",
+  "type": "recycling",
+  "address": "6696 GRAPE CREEK RD SAN ANGELO TX 76901",
+  "lat": 31.54,
+  "lng": -100.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105595821",
+    "additional_id": "2357",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/08/2009",
+    "county": "TOM GREEN",
+    "region": "REGION 08 - SAN ANGELO",
+    "physical_site_status": "ACTIVE"
+  }
+}

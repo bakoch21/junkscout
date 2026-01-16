@@ -1,0 +1,23 @@
+{
+  "id": "f_c28f5742aafd",
+  "slug": "east-texas-regional-landfill",
+  "name": "EAST TEXAS REGIONAL LANDFILL",
+  "type": "landfill",
+  "address": "5155 FM 2867 E HENDERSON TX 75654",
+  "lat": 32.13,
+  "lng": -94.71,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102379815",
+    "additional_id": "1249B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/19/2010",
+    "county": "RUSK",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

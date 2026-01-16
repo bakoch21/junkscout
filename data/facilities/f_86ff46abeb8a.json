@@ -1,0 +1,23 @@
+{
+  "id": "f_86ff46abeb8a",
+  "slug": "greenshadows-landfill",
+  "name": "GREENSHADOWS LANDFILL",
+  "type": "landfill",
+  "address": "710 JANA LN PASADENA TX 77503",
+  "lat": 29.7,
+  "lng": -95.15,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100210459",
+    "additional_id": "1540A",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/21/1994",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

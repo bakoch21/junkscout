@@ -1,0 +1,23 @@
+{
+  "id": "f_722e6e45c35f",
+  "slug": "city-of-temple-landfill",
+  "name": "CITY OF TEMPLE LANDFILL",
+  "type": "landfill",
+  "address": "706 LANDFILL RD TEMPLE TX 76501",
+  "lat": 31.07,
+  "lng": -97.3,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100219401",
+    "additional_id": "692B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/30/2019",
+    "county": "BELL",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

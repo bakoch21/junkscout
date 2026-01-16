@@ -1,0 +1,23 @@
+{
+  "id": "f_6a509c9de92c",
+  "slug": "gulley-hurst-llc",
+  "name": "GULLEY-HURST LLC",
+  "type": "landfill",
+  "address": "1435 COUNTY ROAD 26 CORPUS CHRISTI TEXAS 78415 CORPUS CHRISTI TX 78413",
+  "lat": 27.71,
+  "lng": -97.49,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104864608",
+    "additional_id": "2349",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/09/2008",
+    "county": "NUECES",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_53f2f1628823",
+  "slug": "csc-disposal-and-landfill",
+  "name": "CSC DISPOSAL AND LANDFILL",
+  "type": "landfill",
+  "address": "101 REPUBLIC WAY AVALON TX 76623",
+  "lat": 32.22,
+  "lng": -96.79,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100218031",
+    "additional_id": "1209B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/19/2000",
+    "county": "ELLIS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

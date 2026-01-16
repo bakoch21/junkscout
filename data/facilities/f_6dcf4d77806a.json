@@ -1,0 +1,23 @@
+{
+  "id": "f_6dcf4d77806a",
+  "slug": "security-recycling-and-disposal-facility",
+  "name": "SECURITY RECYCLING AND DISPOSAL FACILITY",
+  "type": "recycling",
+  "address": "19248 HIGHWAY 105 CLEVELAND TX 77328",
+  "lat": 30.32,
+  "lng": -95.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100218700",
+    "additional_id": "1752B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/22/2005",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

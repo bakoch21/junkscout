@@ -1,0 +1,23 @@
+{
+  "id": "f_b7140093cdf5",
+  "slug": "western-refuse-of-texas-transfer-station-facility",
+  "name": "WESTERN REFUSE OF TEXAS TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "200 FEET N OF US HIGHWAY 67  S OF MISSOURI PACIFIC RAILROAD  2708 W 7TH STREET IN TEXARKANA TEXARKANA TX",
+  "lat": 33.42,
+  "lng": -94.08,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101478246",
+    "additional_id": "1022",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/23/1977",
+    "county": "BOWIE",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

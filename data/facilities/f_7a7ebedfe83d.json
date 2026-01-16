@@ -1,0 +1,23 @@
+{
+  "id": "f_7a7ebedfe83d",
+  "slug": "lone-star-recycling-and-disposal-facility",
+  "name": "LONE STAR RECYCLING & DISPOSAL FACILITY",
+  "type": "recycling",
+  "address": "4107 S SAM HOUSTON PKWY W HOUSTON TX 77053",
+  "lat": 29.59,
+  "lng": -95.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104808498",
+    "additional_id": "40249",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/24/2011",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

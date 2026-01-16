@@ -1,0 +1,23 @@
+{
+  "id": "f_b764bdf4a71d",
+  "slug": "city-of-carthage-transfer-station-facility",
+  "name": "CITY OF CARTHAGE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "INSIDE CITY LIMITS OF CARTHAGE  ADJACENT TO AND ON THE W SIDE OF LASALLE PARKWAY AND US HIGHWAY 59  APPROXIMATELY 0.8 MILES N OF THE INTERSECTION OF LASALLE PARKWAY AND US HIGHWAY 79 IN PANOLA COUNTY CARTHAGE TX",
+  "lat": 32.18,
+  "lng": -94.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102834256",
+    "additional_id": "40172",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/27/2001",
+    "county": "PANOLA",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

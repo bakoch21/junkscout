@@ -1,0 +1,23 @@
+{
+  "id": "f_a18c5e7e1eed",
+  "slug": "city-of-fort-stockton-landfill",
+  "name": "CITY OF FORT STOCKTON LANDFILL",
+  "type": "landfill",
+  "address": "1296 DISPOSAL RD, 1 MI E OF FM 1053   2 MI N OF US 290   SE OF @ SANTE FE RR  1 MI E FORT STOCKTON FORT STOCKTON TX 79735",
+  "lat": 30.93,
+  "lng": -102.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102216165",
+    "additional_id": "976",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/31/1985",
+    "county": "PECOS",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

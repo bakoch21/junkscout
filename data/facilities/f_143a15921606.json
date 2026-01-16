@@ -1,0 +1,23 @@
+{
+  "id": "f_143a15921606",
+  "slug": "city-of-spur-house-disposal-site",
+  "name": "CITY OF SPUR HOUSE DISPOSAL SITE",
+  "type": "landfill",
+  "address": "2 MI S ON FM 261 4 MI EAST SITE LOCATED ON 207 ACRES SPUR TX 79370",
+  "lat": 33.45,
+  "lng": -100.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN108932633",
+    "additional_id": "9017B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "12/20/2022",
+    "county": "DICKENS",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

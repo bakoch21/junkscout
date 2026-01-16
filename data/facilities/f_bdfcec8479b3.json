@@ -1,0 +1,23 @@
+{
+  "id": "f_bdfcec8479b3",
+  "slug": "newton-county-regional-solid-waste-complex",
+  "name": "NEWTON COUNTY REGIONAL SOLID WASTE COMPLEX",
+  "type": "landfill",
+  "address": "2372 COUNTY RD 3870 DEWEYVILLE TX 77614 DEWEYVILLE TX 77626",
+  "lat": 30.34,
+  "lng": -93.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100222553",
+    "additional_id": "2242A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/15/2004",
+    "county": "NEWTON",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

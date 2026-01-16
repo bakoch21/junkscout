@@ -1,0 +1,23 @@
+{
+  "id": "f_ed1314bc8658",
+  "slug": "sharps-environmental-service",
+  "name": "SHARPS ENVIRONMENTAL SERVICE",
+  "type": "landfill",
+  "address": "1544 NE LOOP CARTHAGE TX 75633",
+  "lat": 32.17,
+  "lng": -94.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101849362",
+    "additional_id": "1741A",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/01/1991",
+    "county": "PANOLA",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

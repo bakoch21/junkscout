@@ -1,0 +1,23 @@
+{
+  "id": "f_a3dd7c6dedf8",
+  "slug": "liquid-environmental-solutions-of-texas-lp-waste-processing-facility",
+  "name": "LIQUID ENVIRONMENTAL SOLUTIONS OF TEXAS  LP WASTE PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "10360 W US HIGHWAY 90 SAN ANTONIO TX 78245",
+  "lat": 29.38,
+  "lng": -98.7,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102070547",
+    "additional_id": "2248",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/19/1996",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

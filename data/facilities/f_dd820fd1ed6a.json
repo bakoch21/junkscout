@@ -1,0 +1,23 @@
+{
+  "id": "f_dd820fd1ed6a",
+  "slug": "city-of-hereford-municipal-solid-waste-landfill",
+  "name": "CITY OF HEREFORD MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "3800 N PROGRESSIVE RD HEREFORD TX 79045",
+  "lat": 34.84,
+  "lng": -102.37,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102001070",
+    "additional_id": "215A",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/06/1994",
+    "county": "DEAF SMITH",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

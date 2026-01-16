@@ -1,0 +1,23 @@
+{
+  "id": "f_75a105f270af",
+  "slug": "the-outlet-shoppes-at-laredo",
+  "name": "THE OUTLET SHOPPES AT LAREDO",
+  "type": "landfill",
+  "address": "1600 WATER ST LAREDO TX 78040",
+  "lat": 27.5,
+  "lng": -99.51,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN108735812",
+    "additional_id": "65034",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/23/2015",
+    "county": "WEBB",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

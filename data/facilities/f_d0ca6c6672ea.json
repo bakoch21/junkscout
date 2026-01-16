@@ -1,0 +1,23 @@
+{
+  "id": "f_d0ca6c6672ea",
+  "slug": "trilogy-medwaste-south-central-houston",
+  "name": "TRILOGY MEDWASTE SOUTH CENTRAL HOUSTON",
+  "type": "landfill",
+  "address": "15342 VANTAGE PKWY W HOUSTON TX 77032",
+  "lat": 29.94,
+  "lng": -95.36,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111359907",
+    "additional_id": "40323",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/10/2022",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_b06cc9c5a643",
+  "slug": "southwaste-hurst-facility",
+  "name": "SOUTHWASTE HURST FACILITY",
+  "type": "landfill",
+  "address": "6407 HURST ST HOUSTON TX 77008",
+  "lat": 29.79,
+  "lng": -95.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101288603",
+    "additional_id": "2241A",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/10/1999",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

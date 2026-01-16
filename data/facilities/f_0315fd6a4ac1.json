@@ -1,0 +1,23 @@
+{
+  "id": "f_0315fd6a4ac1",
+  "slug": "greater-el-paso-landfill",
+  "name": "GREATER EL PASO LANDFILL",
+  "type": "landfill",
+  "address": "2300 DARRINGTON RD EL PASO TX 79928",
+  "lat": 31.61,
+  "lng": -106.16,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101478766",
+    "additional_id": "2284",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/14/2003",
+    "county": "EL PASO",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

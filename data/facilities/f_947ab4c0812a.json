@@ -1,0 +1,23 @@
+{
+  "id": "f_947ab4c0812a",
+  "slug": "conroe-industrial-non-hazardous-landfill",
+  "name": "CONROE INDUSTRIAL NON-HAZARDOUS LANDFILL",
+  "type": "landfill",
+  "address": "2525 N LOOP 336 E CONROE TX 77301",
+  "lat": 30.34,
+  "lng": -95.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100225911",
+    "additional_id": "39001",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/17/1992",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_b7b6f95dc8b9",
+  "slug": "fannin-county-transfer-station",
+  "name": "FANNIN COUNTY TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "2024 FM 87 BONHAM TX 75418",
+  "lat": 33.59,
+  "lng": -96.23,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109549873",
+    "additional_id": "40290",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/17/2017",
+    "county": "FANNIN",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

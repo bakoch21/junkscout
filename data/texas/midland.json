@@ -1,23 +1,23 @@
 [
   {
-    "name": "City of Midland Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 31.9657396,
-    "lng": -101.9325577,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/405469689",
-    "facility_id": "f_ffd532b114de"
-  },
-  {
     "name": "Citizens Collection Station",
     "type": "recycling",
     "address": "4100 Smith Road Midland TX 79705",
     "lat": 32.0370148,
     "lng": -102.0912537,
     "website": "https://www.midlandtexas.gov/facilities/facility/details/Citizens-Collection-Station-73",
-    "osm_url": "https://www.openstreetmap.org/way/545159404",
+    "source": null,
     "facility_id": "f_e53fbdbeddd3"
+  },
+  {
+    "name": "City of Midland Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 31.9657396,
+    "lng": -101.9325577,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ffd532b114de"
   },
   {
     "name": "CMC Recycling",
@@ -26,7 +26,7 @@
     "lat": 31.9881391,
     "lng": -102.0548337,
     "website": "https://www.cmcrecycling.com/locations/midland",
-    "osm_url": "https://www.openstreetmap.org/way/1316954561",
+    "source": null,
     "facility_id": "f_a352be473ddb"
   }
 ]

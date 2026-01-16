@@ -1,13 +1,13 @@
 [
   {
-    "name": "Republic Services",
-    "type": "transfer_station",
-    "address": "6425 Highway 347 Beaumont TX 77705",
-    "lat": 30.0182402,
-    "lng": -94.0428522,
+    "name": "CITY OF PORT ARTHUR LANDFILL",
+    "type": "landfill",
+    "address": "4732 HIGHWAY 73 PORT ARTHUR TX 77642",
+    "lat": 29.88,
+    "lng": -94.06,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/773584290",
-    "facility_id": "f_028f09bcaeb8"
+    "source": null,
+    "facility_id": "f_6ee4680a3c10"
   },
   {
     "name": "Triangle Waste Solutions",
@@ -16,7 +16,7 @@
     "lat": 29.924018,
     "lng": -94.0312045,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1259026914",
+    "source": null,
     "facility_id": "f_bf529efd5253"
   }
 ]

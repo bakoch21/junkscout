@@ -1,0 +1,23 @@
+{
+  "id": "f_94d9acf235e2",
+  "slug": "premier-bio-waste-solutions",
+  "name": "PREMIER BIO WASTE SOLUTIONS",
+  "type": "landfill",
+  "address": "2245 LIPAN ST CORPUS CHRISTI TX 78408",
+  "lat": 27.79,
+  "lng": -97.42,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110468220",
+    "additional_id": "40298",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/28/2019",
+    "county": "NUECES",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

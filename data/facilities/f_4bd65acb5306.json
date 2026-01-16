@@ -1,0 +1,23 @@
+{
+  "id": "f_4bd65acb5306",
+  "slug": "coastal-plains-renewable-energy-plant",
+  "name": "COASTAL PLAINS RENEWABLE ENERGY PLANT",
+  "type": "landfill",
+  "address": "21000-1 E HWY 6 ALVIN TX 77511 ALVIN TX 77511",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111006359",
+    "additional_id": "48047",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/27/2020",
+    "county": "GALVESTON",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

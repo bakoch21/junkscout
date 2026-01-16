@@ -1,0 +1,23 @@
+{
+  "id": "f_5b685e154935",
+  "slug": "seabreeze-environmental-landfill",
+  "name": "SEABREEZE ENVIRONMENTAL LANDFILL",
+  "type": "landfill",
+  "address": "10310 FM 523 ANGLETON TX 77515",
+  "lat": 29.04,
+  "lng": -95.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100229079",
+    "additional_id": "48040",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/08/2016",
+    "county": "BRAZORIA",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

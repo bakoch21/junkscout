@@ -1,0 +1,23 @@
+{
+  "id": "f_fcd0c6d07fcf",
+  "slug": "city-of-hempstead-transfer-station-facility",
+  "name": "CITY OF HEMPSTEAD TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1125 AUSTIN ST HEMPSTEAD TX 77445",
+  "lat": 30.08,
+  "lng": -96.09,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102291374",
+    "additional_id": "40014",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/21/1993",
+    "county": "WALLER",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

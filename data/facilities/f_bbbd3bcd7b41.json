@@ -1,0 +1,23 @@
+{
+  "id": "f_bbbd3bcd7b41",
+  "slug": "north-county-landfill",
+  "name": "NORTH COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "2015 WYOMING ST LEAGUE CITY TX 77574",
+  "lat": 29.48,
+  "lng": -95.05,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100899087",
+    "additional_id": "1849B",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/04/2009",
+    "county": "GALVESTON",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_8dfebcb61874",
+  "slug": "city-of-tulia-municipal-solid-waste-landfill",
+  "name": "CITY OF TULIA MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "APPROX 1.84 MI E OF INTX OF FM R 1318 AND FM 146 IN SWISHER COUNTY TULIA TX",
+  "lat": 34.54,
+  "lng": -101.72,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102335312",
+    "additional_id": "1009A",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/15/2001",
+    "county": "SWISHER",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

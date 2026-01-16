@@ -1,0 +1,23 @@
+{
+  "id": "f_8dd24ae694b0",
+  "slug": "lewisville-landfill",
+  "name": "LEWISVILLE LANDFILL",
+  "type": "landfill",
+  "address": "801 E COLLEGE ST LEWISVILLE TX 75057",
+  "lat": 33.05,
+  "lng": -96.98,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102006186",
+    "additional_id": "1749B",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/20/2005",
+    "county": "DENTON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GREATER EL PASO LANDFILL",
+    "type": "landfill",
+    "address": "2300 DARRINGTON RD EL PASO TX 79928",
+    "lat": 31.61,
+    "lng": -106.16,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0315fd6a4ac1"
+  },
+  {
+    "name": "GREATER EL PASO LANDFILL",
+    "type": "landfill",
+    "address": "2300 DARRINGTON RD EL PASO TX 79928",
+    "lat": 31.61,
+    "lng": -106.16,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a3f5969be927"
+  }
+]

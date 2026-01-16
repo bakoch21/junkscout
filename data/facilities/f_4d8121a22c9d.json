@@ -1,0 +1,23 @@
+{
+  "id": "f_4d8121a22c9d",
+  "slug": "warehouse-industry-gabriel-place",
+  "name": "WAREHOUSE INDUSTRY GABRIEL PLACE",
+  "type": "landfill",
+  "address": "10903 INDUSTRY DR STE 101 SAN ANTONIO TX 78217",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100708510",
+    "additional_id": "65036",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/12/2017",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

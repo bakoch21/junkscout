@@ -1,0 +1,23 @@
+{
+  "id": "f_98b8b0c8730a",
+  "slug": "perryton-municipal-solid-waste-landfill",
+  "name": "PERRYTON MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "1101 NE 14TH PERRYTON TX 79070",
+  "lat": 36.42,
+  "lng": -100.79,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101999274",
+    "additional_id": "876A",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/06/2007",
+    "county": "OCHILTREE",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

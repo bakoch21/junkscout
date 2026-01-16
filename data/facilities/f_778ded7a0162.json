@@ -1,0 +1,23 @@
+{
+  "id": "f_778ded7a0162",
+  "slug": "wm-atascocita-recycling-disposal-facility",
+  "name": "WM ATASCOCITA RECYCLING DISPOSAL FACILITY",
+  "type": "recycling",
+  "address": "3623 WILSON RD HUMBLE TX 77396",
+  "lat": 29.96,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100216142",
+    "additional_id": "1307D",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/10/2011",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

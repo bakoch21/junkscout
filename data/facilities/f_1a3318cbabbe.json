@@ -1,0 +1,23 @@
+{
+  "id": "f_1a3318cbabbe",
+  "slug": "champion-construction-recycling-materail-recovery-facility",
+  "name": "CHAMPION CONSTRUCTION RECYCLING MATERAIL RECOVERY FACILITY",
+  "type": "recycling",
+  "address": "4160 N PRESTON RD CELINA TX 75009",
+  "lat": 33.38,
+  "lng": -96.77,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105240196",
+    "additional_id": "40284",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/03/2016",
+    "county": "COLLIN",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

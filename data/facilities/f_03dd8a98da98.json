@@ -1,0 +1,23 @@
+{
+  "id": "f_03dd8a98da98",
+  "slug": "north-texas-municipal-water-district-transfer-station",
+  "name": "NORTH TEXAS MUNICIPAL WATER DISTRICT TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "4030 W PLANO PKWY PLANO TX 75093",
+  "lat": 33.01,
+  "lng": -96.77,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100535392",
+    "additional_id": "1494A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/29/2023",
+    "county": "COLLIN",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

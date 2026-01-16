@@ -1,0 +1,23 @@
+{
+  "id": "f_9b735940d2bf",
+  "slug": "city-of-stratford-transfer-station-facility",
+  "name": "CITY OF STRATFORD TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "INTERSECTION OF US HIGHWAY 287 AND US HIGHWAY 54  3100 FEET DUE S 1400 FEET E STRATFORD TX",
+  "lat": 36.33,
+  "lng": -102.06,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102328374",
+    "additional_id": "40109",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/12/1999",
+    "county": "SHERMAN",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

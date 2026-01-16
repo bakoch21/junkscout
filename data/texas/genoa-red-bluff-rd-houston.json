@@ -1,0 +1,22 @@
+[
+  {
+    "name": "KOENIG STREET TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "550 OLD GENOA RED BLUFF RD HOUSTON TX 77034",
+    "lat": 29.62,
+    "lng": -95.2,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b03fa678c3a2"
+  },
+  {
+    "name": "WCT/GREENBELT LANDFILL",
+    "type": "landfill",
+    "address": "550 GENOA RED BLUFF RD HOUSTON TX 77034",
+    "lat": 29.62,
+    "lng": -95.19,
+    "website": null,
+    "source": null,
+    "facility_id": "f_145d4d38de16"
+  }
+]

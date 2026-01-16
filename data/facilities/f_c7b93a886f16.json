@@ -1,0 +1,23 @@
+{
+  "id": "f_c7b93a886f16",
+  "slug": "margon-park-restroom-facility",
+  "name": "MARGON PARK RESTROOM FACILITY",
+  "type": "landfill",
+  "address": "NORTH OF WEST SOUTH STREET IN BRAZORIA COUNTY CITY OF ALVIN TEXAS ALVIN TX 77511",
+  "lat": 29.41,
+  "lng": -95.26,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104063409",
+    "additional_id": "62016",
+    "physical_type": "CP",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/20/2003",
+    "county": "BRAZORIA",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_0df8e175f89a",
+  "slug": "city-of-galveston-transfer-station-facility",
+  "name": "CITY OF GALVESTON TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "5515 PORT INDUSTRIAL BLVD GALVESTON TX 77554",
+  "lat": 29.3,
+  "lng": -94.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101505782",
+    "additional_id": "164",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/09/1988",
+    "county": "GALVESTON",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

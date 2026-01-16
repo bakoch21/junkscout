@@ -1,0 +1,23 @@
+{
+  "id": "f_2c25d55ae902",
+  "slug": "city-of-garland-transfer-station-facility",
+  "name": "CITY OF GARLAND TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1434 COMMERCE ST GARLAND TX 75040",
+  "lat": 32.91,
+  "lng": -96.61,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102214145",
+    "additional_id": "12A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/24/2023",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

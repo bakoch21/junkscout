@@ -1,0 +1,23 @@
+{
+  "id": "f_f0eeee96dde6",
+  "slug": "26-04-acre-tract",
+  "name": "26.04 ACRE TRACT",
+  "type": "landfill",
+  "address": "650 WEST OAKDALE RD GRAND PRAIRIE TX 75050",
+  "lat": 32.79,
+  "lng": -97.01,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109927814",
+    "additional_id": "67007",
+    "physical_type": "SUBT",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/17/2017",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

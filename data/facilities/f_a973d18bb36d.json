@@ -1,0 +1,23 @@
+{
+  "id": "f_a973d18bb36d",
+  "slug": "terrabella-environmental-services-edinburg",
+  "name": "TERRABELLA ENVIRONMENTAL SERVICES EDINBURG",
+  "type": "landfill",
+  "address": "5518 E CURVE RD EDINBURG TX 78542",
+  "lat": 26.28,
+  "lng": -98.1,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109658260",
+    "additional_id": "40312",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/01/2020",
+    "county": "HIDALGO",
+    "region": "REGION 15 - HARLINGEN",
+    "physical_site_status": "ACTIVE"
+  }
+}

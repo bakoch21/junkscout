@@ -1,0 +1,23 @@
+{
+  "id": "f_e81d71773979",
+  "slug": "taswa-solid-waste-disposal-and-recycling-facility",
+  "name": "TASWA SOLID WASTE DISPOSAL AND RECYCLING FACILITY",
+  "type": "recycling",
+  "address": "25090 STATE HIGHWAY 56 WHITESBORO TX 76273",
+  "lat": 33.72,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100629922",
+    "additional_id": "2290",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/31/2003",
+    "county": "GRAYSON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

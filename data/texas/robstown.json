@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CITY OF CORPUS CHRISTI LANDFILL",
+    "type": "landfill",
+    "address": "2397 COUNTY ROAD 20 ROBSTOWN TX 78380",
+    "lat": 27.64,
+    "lng": -97.57,
+    "website": null,
+    "source": null,
+    "facility_id": "f_fd4af7251c5d"
+  },
+  {
+    "name": "CORPUS CHRISTI RNG FACILITY",
+    "type": "landfill",
+    "address": "2397 COUNTY ROAD 20 ROBSTOWN TX 78380",
+    "lat": 27.64,
+    "lng": -97.57,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3e8ee5b35c68"
+  },
+  {
+    "name": "EL CENTRO LANDFILL",
+    "type": "landfill",
+    "address": "3189 COUNTY ROAD 69 ROBSTOWN TX 78380",
+    "lat": 27.79,
+    "lng": -97.62,
+    "website": null,
+    "source": null,
+    "facility_id": "f_20d285535e54"
+  },
+  {
+    "name": "US ECOLOGY TEXAS INC",
+    "type": "landfill",
+    "address": "3277 COUNTY ROAD 69 ROBSTOWN TX 78380",
+    "lat": 27.73,
+    "lng": -97.66,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e6e9fa29fe13"
+  }
+]

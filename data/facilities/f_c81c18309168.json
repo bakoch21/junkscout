@@ -1,0 +1,23 @@
+{
+  "id": "f_c81c18309168",
+  "slug": "tanner-road-facility",
+  "name": "TANNER ROAD FACILITY",
+  "type": "landfill",
+  "address": "10415 TANNER RD HOUSTON TX 77041",
+  "lat": 29.85,
+  "lng": -95.55,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104733506",
+    "additional_id": "40217",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/24/2006",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

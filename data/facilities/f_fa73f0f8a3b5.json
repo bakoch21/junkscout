@@ -1,0 +1,23 @@
+{
+  "id": "f_fa73f0f8a3b5",
+  "slug": "city-of-grand-prairie-lf-gas-to-energy-facility",
+  "name": "CITY OF GRAND PRAIRIE LF GAS TO ENERGY FACILITY",
+  "type": "landfill",
+  "address": "1102 MACARTHUR BLVD GRAND PRAIRIE TX 75050",
+  "lat": 32.77,
+  "lng": -96.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100542216",
+    "additional_id": "48037",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/08/2014",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

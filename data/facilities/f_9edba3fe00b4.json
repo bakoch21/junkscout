@@ -1,0 +1,23 @@
+{
+  "id": "f_9edba3fe00b4",
+  "slug": "city-of-big-lake-landfill",
+  "name": "CITY OF BIG LAKE LANDFILL",
+  "type": "landfill",
+  "address": "1901 W HWY 67 BIG LAKE TX 76932",
+  "lat": 31.19,
+  "lng": -101.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102328176",
+    "additional_id": "86B",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/16/1999",
+    "county": "REAGAN",
+    "region": "REGION 08 - SAN ANGELO",
+    "physical_site_status": "ACTIVE"
+  }
+}

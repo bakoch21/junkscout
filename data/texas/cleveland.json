@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SECURITY LFGTE FACILITY",
+    "type": "landfill",
+    "address": "19248 HIGHWAY 105 CLEVELAND TX 77328",
+    "lat": 30.32,
+    "lng": -95.27,
+    "website": null,
+    "source": null,
+    "facility_id": "f_5339440f21fb"
+  },
+  {
+    "name": "SECURITY RECYCLING AND DISPOSAL FACILITY",
+    "type": "recycling",
+    "address": "19248 HIGHWAY 105 CLEVELAND TX 77328",
+    "lat": 30.32,
+    "lng": -95.27,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6dcf4d77806a"
+  },
+  {
+    "name": "SECURITY RENEWABLE NATURAL GAS FACILITY",
+    "type": "landfill",
+    "address": "19248 HIGHWAY 105 CLEVELAND TX 77328",
+    "lat": 30.32,
+    "lng": -95.27,
+    "website": null,
+    "source": null,
+    "facility_id": "f_aefee845919a"
+  }
+]

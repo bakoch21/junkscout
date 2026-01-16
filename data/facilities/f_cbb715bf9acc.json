@@ -1,0 +1,23 @@
+{
+  "id": "f_cbb715bf9acc",
+  "slug": "city-of-sweetwater-type-iv-ae-landfill",
+  "name": "CITY OF SWEETWATER TYPE IV AE LANDFILL",
+  "type": "landfill",
+  "address": "3000 W ALABAMA SWEETWATER TX  79556 SWEETWATER TX 79556",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104772215",
+    "additional_id": "50B",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/12/2004",
+    "county": "NOLAN",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

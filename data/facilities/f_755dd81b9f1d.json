@@ -1,0 +1,23 @@
+{
+  "id": "f_755dd81b9f1d",
+  "slug": "fort-bend-regional-landfill",
+  "name": "FORT BEND REGIONAL LANDFILL",
+  "type": "landfill",
+  "address": "14115 DAVIS ESTATE RD NEEDVILLE TX 77461",
+  "lat": 29.4,
+  "lng": -95.72,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102803913",
+    "additional_id": "2270",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/02/2001",
+    "county": "FORT BEND",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

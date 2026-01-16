@@ -1,0 +1,23 @@
+{
+  "id": "f_b03fa678c3a2",
+  "slug": "koenig-street-transfer-station",
+  "name": "KOENIG STREET TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "550 OLD GENOA RED BLUFF RD HOUSTON TX 77034",
+  "lat": 29.62,
+  "lng": -95.2,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102327681",
+    "additional_id": "1483A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/16/1993",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

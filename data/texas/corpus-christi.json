@@ -6,7 +6,17 @@
     "lat": 27.8145365,
     "lng": -97.4972275,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1088184330",
+    "source": null,
     "facility_id": "f_bfe8caefedda"
+  },
+  {
+    "name": "GULLEY-HURST LLC",
+    "type": "landfill",
+    "address": "1435 COUNTY ROAD 26 CORPUS CHRISTI TEXAS 78415 CORPUS CHRISTI TX 78413",
+    "lat": 27.71,
+    "lng": -97.49,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6a509c9de92c"
   }
 ]

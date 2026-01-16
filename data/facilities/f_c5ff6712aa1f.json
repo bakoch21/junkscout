@@ -1,0 +1,23 @@
+{
+  "id": "f_c5ff6712aa1f",
+  "slug": "city-of-nacogdoches-landfill",
+  "name": "CITY OF NACOGDOCHES LANDFILL",
+  "type": "landfill",
+  "address": "4602 NW STALLINGS DR NACOGDOCHES TX 75964",
+  "lat": 31.65,
+  "lng": -94.68,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102217395",
+    "additional_id": "720",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/27/1976",
+    "county": "NACOGDOCHES",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

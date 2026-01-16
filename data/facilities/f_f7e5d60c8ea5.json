@@ -1,0 +1,23 @@
+{
+  "id": "f_f7e5d60c8ea5",
+  "slug": "panther-j-landfill",
+  "name": "PANTHER J LANDFILL",
+  "type": "landfill",
+  "address": "111 GRAPEVINE HILL RD BIG BEND NATIONAL PARK TX 79834",
+  "lat": 29.37,
+  "lng": -103.22,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103049581",
+    "additional_id": "1276",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/28/1978",
+    "county": "BREWSTER",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

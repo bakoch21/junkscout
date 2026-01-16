@@ -1,0 +1,23 @@
+{
+  "id": "f_6e9412cfebb9",
+  "slug": "stericycle-fresno",
+  "name": "STERICYCLE FRESNO",
+  "type": "landfill",
+  "address": "2725C FM 521 RD FRESNO TX 77545",
+  "lat": 29.55,
+  "lng": -95.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102820677",
+    "additional_id": "40264",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/17/2013",
+    "county": "FORT BEND",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

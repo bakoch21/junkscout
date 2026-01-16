@@ -1,0 +1,23 @@
+{
+  "id": "f_3a8944e6286a",
+  "slug": "city-of-wellington-landfill",
+  "name": "CITY OF WELLINGTON LANDFILL",
+  "type": "landfill",
+  "address": "4OO YARDS W OF FM 1035   .75 MILES SW OF WELLINGTON CITY LIMITS WELLINGTON TX",
+  "lat": 34.84,
+  "lng": -100.23,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102834934",
+    "additional_id": "955",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/25/1977",
+    "county": "COLLINGSWORTH",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_92755ccd7c1e",
+  "slug": "cougar-landfill",
+  "name": "COUGAR LANDFILL",
+  "type": "landfill",
+  "address": "8601 MOUNT HOUSTON RD HOUSTON TX 77050",
+  "lat": 29.9,
+  "lng": -95.26,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100222256",
+    "additional_id": "1921A",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/25/1997",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

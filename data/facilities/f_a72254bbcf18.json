@@ -1,0 +1,23 @@
+{
+  "id": "f_a72254bbcf18",
+  "slug": "galveston-county-landfill-tx-lp",
+  "name": "GALVESTON COUNTY LANDFILL TX LP",
+  "type": "landfill",
+  "address": "3935 AVENUE A ALTA LOMA TX 77510",
+  "lat": 29.39,
+  "lng": -95.05,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100221597",
+    "additional_id": "1149B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/04/2015",
+    "county": "GALVESTON",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

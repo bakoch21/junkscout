@@ -1,0 +1,23 @@
+{
+  "id": "f_d97a880caf5e",
+  "slug": "city-of-midland-landfill",
+  "name": "CITY OF MIDLAND LANDFILL",
+  "type": "landfill",
+  "address": "7904 S GARDEN CITY HWY MIDLAND TX 79706",
+  "lat": 31.97,
+  "lng": -101.94,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100212570",
+    "additional_id": "1605B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/10/1997",
+    "county": "MIDLAND",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_c6b1ccef1282",
+  "slug": "city-of-van-horn-landfill",
+  "name": "CITY OF VAN HORN LANDFILL",
+  "type": "landfill",
+  "address": "APPROX 1 MI SE OF THE INTERSEC OF US HWY 10 AND US HWY 90 VAN HORN CULBERSON COUNTY VAN HORN TX 79855",
+  "lat": 31.03,
+  "lng": -104.82,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102143500",
+    "additional_id": "693A",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/24/2019",
+    "county": "CULBERSON",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

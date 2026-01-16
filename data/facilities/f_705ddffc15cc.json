@@ -1,0 +1,23 @@
+{
+  "id": "f_705ddffc15cc",
+  "slug": "city-of-canton-transfer-station",
+  "name": "CITY OF CANTON TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "1810 VZ COUNTY RD 3121 CANTON TX 75103",
+  "lat": 32.59,
+  "lng": -95.87,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102118890",
+    "additional_id": "40266",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/24/2013",
+    "county": "VAN ZANDT",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

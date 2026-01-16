@@ -1,0 +1,23 @@
+{
+  "id": "f_d893e5559503",
+  "slug": "stouts-creek-compost",
+  "name": "STOUTS CREEK COMPOST",
+  "type": "recycling",
+  "address": "1000 COUNTY ROAD 3372 PICKTON TX 75471",
+  "lat": 33.12,
+  "lng": -95.37,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106341266",
+    "additional_id": "2382",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/01/2014",
+    "county": "HOPKINS",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

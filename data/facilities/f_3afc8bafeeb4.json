@@ -1,0 +1,23 @@
+{
+  "id": "f_3afc8bafeeb4",
+  "slug": "city-of-crowell-mono-field",
+  "name": "CITY OF CROWELL MONO FIELD",
+  "type": "landfill",
+  "address": "5 ACRES OF LAND WITH DRIVEWAY EASEMENT CROWELL TX 79227",
+  "lat": 33.96,
+  "lng": -99.71,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111586376",
+    "additional_id": "9024",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "10/26/2022",
+    "county": "FOARD",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

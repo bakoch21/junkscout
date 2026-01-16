@@ -1,0 +1,23 @@
+{
+  "id": "f_9c2226c24458",
+  "slug": "hunter-ferrell-landfill",
+  "name": "HUNTER FERRELL LANDFILL",
+  "type": "landfill",
+  "address": "220 W HUNTER FERRELL RD IRVING TX 75060",
+  "lat": 32.78,
+  "lng": -96.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102000924",
+    "additional_id": "1394B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/06/2011",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

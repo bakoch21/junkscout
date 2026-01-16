@@ -1,0 +1,23 @@
+{
+  "id": "f_19827e2e42e9",
+  "slug": "stericycle-san-antonio",
+  "name": "STERICYCLE SAN ANTONIO",
+  "type": "landfill",
+  "address": "6105 US HIGHWAY 87 E SAN ANTONIO TX 78222",
+  "lat": 29.28,
+  "lng": -98.69,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104567748",
+    "additional_id": "40280",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/10/2014",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

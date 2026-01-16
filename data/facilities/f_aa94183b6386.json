@@ -1,0 +1,23 @@
+{
+  "id": "f_aa94183b6386",
+  "slug": "city-of-alpine-landfill",
+  "name": "CITY OF ALPINE LANDFILL",
+  "type": "landfill",
+  "address": "100 N 13TH ST ALPINE TX 79830",
+  "lat": 30.38,
+  "lng": -103.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102000601",
+    "additional_id": "2197",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/23/1993",
+    "county": "BREWSTER",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

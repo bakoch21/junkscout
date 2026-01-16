@@ -1,0 +1,23 @@
+{
+  "id": "f_ddce178263aa",
+  "slug": "harry-hines-transfer-station",
+  "name": "HARRY HINES TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "9500 HARRY HINES BLVD DALLAS TX 75220",
+  "lat": 32.85,
+  "lng": -96.88,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103053252",
+    "additional_id": "1145",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/04/1986",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

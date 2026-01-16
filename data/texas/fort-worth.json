@@ -1,93 +1,33 @@
 [
   {
-    "name": "Cardboard and Paper recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.9445044,
-    "lng": -97.5803372,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/739751198",
-    "facility_id": "f_ac8ec7248b1e"
-  },
-  {
     "name": "Best Grease Service",
     "type": "recycling",
     "address": "5232 Nadine Drive Haltom City TX 76117",
     "lat": 32.8192997,
     "lng": -97.269422,
     "website": "http://oilrecyclinghaltomcity.com",
-    "osm_url": "https://www.openstreetmap.org/node/6611326408",
+    "source": null,
     "facility_id": "f_b5f99587f551"
   },
   {
-    "name": "",
+    "name": "Cardboard and Paper recycling",
     "type": "recycling",
     "address": "",
-    "lat": 32.8256746,
-    "lng": -97.3902981,
-    "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241043268",
-    "facility_id": "f_5901a964901b"
-  },
-  {
-    "name": "",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.8255902,
-    "lng": -97.3904048,
-    "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241067226",
-    "facility_id": "f_61355e0e206e"
-  },
-  {
-    "name": "",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.8267709,
-    "lng": -97.3899444,
-    "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241073066",
-    "facility_id": "f_b984581622f4"
-  },
-  {
-    "name": "Environmental Collection Center",
-    "type": "recycling",
-    "address": "6400 Bridge Street 76112",
-    "lat": 32.7625069,
-    "lng": -97.220152,
-    "website": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/environmental-collection-center/environmental-collection",
-    "osm_url": "https://www.openstreetmap.org/node/13302094101",
-    "facility_id": "f_d3d1a73d4ff6"
-  },
-  {
-    "name": "Southeast Drop-off Station - Fort Worth Recycling",
-    "type": "recycling",
-    "address": "5100 Martin Luther King Freeway Fort Worth TX 76119",
-    "lat": 32.6925272,
-    "lng": -97.2449729,
+    "lat": 32.9445044,
+    "lng": -97.5803372,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/500728932",
-    "facility_id": "f_e62222bb53cd"
+    "source": null,
+    "facility_id": "f_ac8ec7248b1e"
   },
   {
-    "name": "DFW Recyclers",
-    "type": "recycling",
-    "address": "2410 West Division Street Arlington TX 76012",
-    "lat": 32.7349087,
-    "lng": -97.1470574,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/659542057",
-    "facility_id": "f_418eb02f4bb3"
-  },
-  {
-    "name": "Waste Management - Westside Transfer Station",
+    "name": "COLD SPRINGS PROCESSING & DISPOSAL",
     "type": "landfill",
-    "address": "12220 West Freeway Fort Worth TX 76008",
-    "lat": 32.7275041,
-    "lng": -97.5332415,
+    "address": "1300 COLD SPRINGS RD BLDG 2 FORT WORTH TX 76102",
+    "lat": 32.77,
+    "lng": -97.33,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/900177643",
-    "facility_id": "f_4ea209d48eb1"
+    "source": null,
+    "facility_id": "f_afcfa0ae2cc7"
   },
   {
     "name": "Fort Worth Southeast Landfill",
@@ -96,7 +36,7 @@
     "lat": 32.6485603,
     "lng": -97.2411144,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/925930862",
+    "source": null,
     "facility_id": "f_ee29ac993327"
   },
   {
@@ -106,7 +46,67 @@
     "lat": 32.6881214,
     "lng": -97.2939505,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/relation/7361794",
+    "source": null,
     "facility_id": "f_ea098a495426"
+  },
+  {
+    "name": "GREEN AND GONE NORTH TEXAS",
+    "type": "landfill",
+    "address": "2588 E LONG AVE STE 200 FORT WORTH TX 76137",
+    "lat": 32.81,
+    "lng": -97.31,
+    "website": null,
+    "source": null,
+    "facility_id": "f_09fba25cae48"
+  },
+  {
+    "name": "Southeast Drop-off Station - Fort Worth Recycling",
+    "type": "recycling",
+    "address": "5100 Martin Luther King Freeway Fort Worth TX 76119",
+    "lat": 32.6925272,
+    "lng": -97.2449729,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e62222bb53cd"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8256746,
+    "lng": -97.3902981,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_5901a964901b"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8255902,
+    "lng": -97.3904048,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_61355e0e206e"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8267709,
+    "lng": -97.3899444,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_b984581622f4"
+  },
+  {
+    "name": "Waste Management - Westside Transfer Station",
+    "type": "landfill",
+    "address": "12220 West Freeway Fort Worth TX 76008",
+    "lat": 32.7275041,
+    "lng": -97.5332415,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4ea209d48eb1"
   }
 ]

@@ -1,0 +1,23 @@
+{
+  "id": "f_c6b119c50c26",
+  "slug": "new-boston-landfill",
+  "name": "NEW BOSTON LANDFILL",
+  "type": "landfill",
+  "address": "1030 W US HIGHWAY 82 NEW BOSTON TX 75570",
+  "lat": 33.47,
+  "lng": -94.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102594892",
+    "additional_id": "576C",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/12/2015",
+    "county": "BOWIE",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

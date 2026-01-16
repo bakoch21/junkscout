@@ -1,0 +1,23 @@
+{
+  "id": "f_023ce5c5cecb",
+  "slug": "city-of-pampa-landfill",
+  "name": "CITY OF PAMPA LANDFILL",
+  "type": "landfill",
+  "address": "1 MILE N OF SANTA FE RAIL ROAD  .75 MILES E OF LOOP 171  1.5 MILES NE OF PAMPA PAMPA TX 79065",
+  "lat": 35.57,
+  "lng": -100.92,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101478667",
+    "additional_id": "589A",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/02/1981",
+    "county": "GRAY",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

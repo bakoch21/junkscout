@@ -1,0 +1,23 @@
+{
+  "id": "f_27cf9790e720",
+  "slug": "city-of-weimar-transfer-station",
+  "name": "CITY OF WEIMAR TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "801 E SAINT CHARLES ST WEIMAR TX 78962",
+  "lat": 29.7,
+  "lng": -96.76,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102120680",
+    "additional_id": "40282",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/13/2015",
+    "county": "COLORADO",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

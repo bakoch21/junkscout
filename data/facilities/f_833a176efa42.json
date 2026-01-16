@@ -1,0 +1,23 @@
+{
+  "id": "f_833a176efa42",
+  "slug": "killeen-transfer-station",
+  "name": "KILLEEN TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "12200 STATE HWY 195 KILLEEN TX 76542 KILLEEN TX 76542",
+  "lat": 31.02,
+  "lng": -97.75,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101692127",
+    "additional_id": "40209",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/09/2004",
+    "county": "BELL",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

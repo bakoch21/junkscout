@@ -1,0 +1,23 @@
+{
+  "id": "f_64afc6b2a3e6",
+  "slug": "wc-weatherford-transfer-station",
+  "name": "WC WEATHERFORD TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "3306 OLD BROCK RD WEATHERFORD TX 76087",
+  "lat": 32.72,
+  "lng": -97.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104973557",
+    "additional_id": "40301",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/18/2019",
+    "county": "PARKER",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

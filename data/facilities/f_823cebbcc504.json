@@ -1,0 +1,23 @@
+{
+  "id": "f_823cebbcc504",
+  "slug": "downstream-facility",
+  "name": "DOWNSTREAM FACILITY",
+  "type": "landfill",
+  "address": "3737 WALNUT BEND LN HOUSTON TX 77042",
+  "lat": 29.72,
+  "lng": -95.57,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101662617",
+    "additional_id": "2298A",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/30/2020",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

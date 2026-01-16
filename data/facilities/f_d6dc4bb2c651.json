@@ -1,0 +1,23 @@
+{
+  "id": "f_d6dc4bb2c651",
+  "slug": "1323-n-stemmons-fwy",
+  "name": "1323 N STEMMONS FWY",
+  "type": "landfill",
+  "address": "1323 N STEMMONS FWY DALLAS TX 75207",
+  "lat": 32.79,
+  "lng": -96.81,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110732559",
+    "additional_id": "65037",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/14/2019",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

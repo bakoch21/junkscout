@@ -1,0 +1,23 @@
+{
+  "id": "f_0f60e286bc6a",
+  "slug": "wastewater-residuals-management",
+  "name": "WASTEWATER RESIDUALS MANAGEMENT",
+  "type": "landfill",
+  "address": "10217A WALLISVILLE RD HOUSTON TX 77013",
+  "lat": 29.8,
+  "lng": -95.25,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102329240",
+    "additional_id": "2370A",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/09/2022",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_e6e9fa29fe13",
+  "slug": "us-ecology-texas-inc",
+  "name": "US ECOLOGY TEXAS INC",
+  "type": "landfill",
+  "address": "3277 COUNTY ROAD 69 ROBSTOWN TX 78380",
+  "lat": 27.73,
+  "lng": -97.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101445666",
+    "additional_id": "50052",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/24/2005",
+    "county": "NUECES",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_2f5a093ef87a",
+  "slug": "terrell-county-landfill",
+  "name": "TERRELL COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "101 LANDFILL RD SANDERSON TX 79848",
+  "lat": 30.06,
+  "lng": -102.36,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101665784",
+    "additional_id": "673",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/31/1994",
+    "county": "TERRELL",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

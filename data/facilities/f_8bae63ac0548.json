@@ -1,0 +1,23 @@
+{
+  "id": "f_8bae63ac0548",
+  "slug": "blossom-prairie-landfill",
+  "name": "BLOSSOM PRAIRIE LANDFILL",
+  "type": "landfill",
+  "address": "EAST SIDE OF CR 15100 1 MI S OF SH 194 BLOSSOM TX 75416",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105608038",
+    "additional_id": "2358",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/13/2009",
+    "county": "LAMAR",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

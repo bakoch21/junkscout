@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "ABILENE ENVIRONMENTAL LANDFILL INC",
+    "type": "landfill",
+    "address": "1983 FM 3034 ABILENE TX 79601",
+    "lat": 32.53,
+    "lng": -99.76,
+    "website": null,
+    "source": null,
+    "facility_id": "f_73fb951b2840"
+  }
+]

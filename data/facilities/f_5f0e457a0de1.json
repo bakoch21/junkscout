@@ -1,0 +1,23 @@
+{
+  "id": "f_5f0e457a0de1",
+  "slug": "city-of-clarendon-transfer-station",
+  "name": "CITY OF CLARENDON TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "400 N FRONT ST CLARENDON TX 79226",
+  "lat": 34.89,
+  "lng": -99.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103009239",
+    "additional_id": "40192",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/16/2008",
+    "county": "DONLEY",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

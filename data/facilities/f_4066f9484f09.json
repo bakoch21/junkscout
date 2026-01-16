@@ -1,0 +1,23 @@
+{
+  "id": "f_4066f9484f09",
+  "slug": "city-of-eagle-pass-and-maverick-landfill",
+  "name": "CITY OF EAGLE PASS AND MAVERICK LANDFILL",
+  "type": "landfill",
+  "address": "12.72 MILES NW OF EAGLE PASS  APPROXIMATELY 2090 FEET FROM HIGHWAY 277 AND FM 131 EAGLE PASS TX",
+  "lat": 28.87,
+  "lng": -100.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101477610",
+    "additional_id": "1918",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/31/1996",
+    "county": "MAVERICK",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

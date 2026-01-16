@@ -1,0 +1,23 @@
+{
+  "id": "f_baed2a156574",
+  "slug": "tessman-road-landfill",
+  "name": "TESSMAN ROAD LANDFILL",
+  "type": "landfill",
+  "address": "7000 E IH 10 SAN ANTONIO TX 78219",
+  "lat": 29.43,
+  "lng": -98.34,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100212422",
+    "additional_id": "1410C",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/31/2000",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

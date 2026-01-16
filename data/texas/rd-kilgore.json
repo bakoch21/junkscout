@@ -1,0 +1,22 @@
+[
+  {
+    "name": "PINE HILL FARMS LANDFILL TX LP",
+    "type": "landfill",
+    "address": "1102 LANDFILL RD. KILGORE TX 75663",
+    "lat": 32.45,
+    "lng": -94.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0e52f6c7e6e1"
+  },
+  {
+    "name": "PINEHILL LFG TREATMENT FACILITY",
+    "type": "landfill",
+    "address": "1102 LANDFILL RD KILGORE TX 75663",
+    "lat": 32.45,
+    "lng": -94.84,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ce3140705bd8"
+  }
+]

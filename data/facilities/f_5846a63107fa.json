@@ -1,0 +1,23 @@
+{
+  "id": "f_5846a63107fa",
+  "slug": "dallas-disposal-interest-lp-southwaste-disposal-facility",
+  "name": "DALLAS DISPOSAL INTEREST LP SOUTHWASTE DISPOSAL FACILITY",
+  "type": "landfill",
+  "address": "525 S 6TH AVE MANSFIELD TX 76063",
+  "lat": 32.55,
+  "lng": -97.15,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102327715",
+    "additional_id": "2256B",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/10/2023",
+    "county": "TARRANT",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

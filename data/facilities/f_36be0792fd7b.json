@@ -1,0 +1,23 @@
+{
+  "id": "f_36be0792fd7b",
+  "slug": "city-fort-stockton-type-v",
+  "name": "CITY FORT STOCKTON TYPE V",
+  "type": "landfill",
+  "address": "1296 DISPOSAL RD FORT STOCKTON TX 79735",
+  "lat": 30.92,
+  "lng": -102.85,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105939342",
+    "additional_id": "43028",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/15/2011",
+    "county": "PECOS",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

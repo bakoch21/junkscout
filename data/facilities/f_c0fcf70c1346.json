@@ -1,0 +1,23 @@
+{
+  "id": "f_c0fcf70c1346",
+  "slug": "city-of-sherman-transfer-station",
+  "name": "CITY OF SHERMAN TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "811 S EAST ST SHERMAN TX 75090",
+  "lat": 33.64,
+  "lng": -96.6,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102003993",
+    "additional_id": "1136",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/03/1978",
+    "county": "GRAYSON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

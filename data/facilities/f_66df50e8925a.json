@@ -1,0 +1,23 @@
+{
+  "id": "f_66df50e8925a",
+  "slug": "conroe-medical-waste-facility",
+  "name": "CONROE MEDICAL WASTE FACILITY",
+  "type": "landfill",
+  "address": "8950 N CONROE PARK DR CONROE TX 77303",
+  "lat": 30.35,
+  "lng": -95.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101666550",
+    "additional_id": "2222",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/15/1993",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

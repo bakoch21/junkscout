@@ -1,0 +1,23 @@
+{
+  "id": "f_76a0382b5a5c",
+  "slug": "hardin-county-landfill",
+  "name": "HARDIN COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "2525 FM 770 RD KOUNTZE TX 77625",
+  "lat": 30.34,
+  "lng": -94.36,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103759643",
+    "additional_id": "2214B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/22/2018",
+    "county": "HARDIN",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

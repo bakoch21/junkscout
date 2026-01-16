@@ -1,0 +1,23 @@
+{
+  "id": "f_0732648ef7f0",
+  "slug": "austin-wastewater-processing-facility",
+  "name": "AUSTIN WASTEWATER PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "826 LINGER LN AUSTIN TX 78721",
+  "lat": 30.25,
+  "lng": -97.68,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107407124",
+    "additional_id": "2384A",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/23/2023",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

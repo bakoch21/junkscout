@@ -1,0 +1,23 @@
+{
+  "id": "f_9103e2002003",
+  "slug": "city-of-baird-monofill",
+  "name": "CITY OF BAIRD MONOFILL",
+  "type": "landfill",
+  "address": "APPRROX 3 4 MI W OF 231 LAND GRANT LANE BAIRD TX 79504 BAIRD TX 79504",
+  "lat": 32.39,
+  "lng": -99.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109997221",
+    "additional_id": "9019A",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "07/06/2023",
+    "county": "CALLAHAN",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

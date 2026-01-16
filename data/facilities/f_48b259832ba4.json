@@ -1,0 +1,23 @@
+{
+  "id": "f_48b259832ba4",
+  "slug": "city-of-canadian-transfer-station-facility",
+  "name": "CITY OF CANADIAN TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "N OF AIRPORT ROAD 800 FEET W INTERSECTION OF AIRPORT ROAD AND US HIGHWAY 60 AND US HIGHWAY 83 CANADIAN TX",
+  "lat": 35.9,
+  "lng": -100.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102003662",
+    "additional_id": "40026",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/12/1994",
+    "county": "HEMPHILL",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

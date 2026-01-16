@@ -1,0 +1,23 @@
+{
+  "id": "f_5e2e0707ee4c",
+  "slug": "stericycle-garland",
+  "name": "STERICYCLE GARLAND",
+  "type": "landfill",
+  "address": "2821 INDUSTRIAL LN GARLAND TX 75041",
+  "lat": 25.88,
+  "lng": -96.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101572063",
+    "additional_id": "40308",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/18/2020",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

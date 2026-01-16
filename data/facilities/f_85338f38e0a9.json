@@ -1,0 +1,23 @@
+{
+  "id": "f_85338f38e0a9",
+  "slug": "city-of-muleshoe-landfill",
+  "name": "CITY OF MULESHOE LANDFILL",
+  "type": "landfill",
+  "address": "S OF US HIGHWAY 84  1.25 MILES E OF STATE HIGHWAY 24 SE OF MULESHOE MULESHOE TX 79347",
+  "lat": 34.21,
+  "lng": -102.71,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102119955",
+    "additional_id": "564",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/08/1978",
+    "county": "BAILEY",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

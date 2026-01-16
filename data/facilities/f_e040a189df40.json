@@ -1,0 +1,23 @@
+{
+  "id": "f_e040a189df40",
+  "slug": "sprint-montgomery-landfill",
+  "name": "SPRINT MONTGOMERY LANDFILL",
+  "type": "landfill",
+  "address": "17851 HIGHWAY 105 E CONROE TX 77306",
+  "lat": 30.35,
+  "lng": -95.29,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104006879",
+    "additional_id": "2324",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/25/2011",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

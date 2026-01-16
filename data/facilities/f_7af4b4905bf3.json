@@ -1,0 +1,23 @@
+{
+  "id": "f_7af4b4905bf3",
+  "slug": "city-of-wichita-falls-transfer-station",
+  "name": "CITY OF WICHITA FALLS TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "3200 LAWRENCE RD WICHITA FALLS TX 76308",
+  "lat": 33.89,
+  "lng": -98.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102980687",
+    "additional_id": "1429",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/13/1980",
+    "county": "WICHITA",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

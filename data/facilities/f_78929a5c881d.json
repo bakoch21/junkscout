@@ -1,0 +1,23 @@
+{
+  "id": "f_78929a5c881d",
+  "slug": "don-tol-compost-facility",
+  "name": "DON TOL COMPOST FACILITY",
+  "type": "recycling",
+  "address": "4 MILE S OF BOLING  ALONG FM 1301 AT INTERSECTION OF FM 1301 AND WHARTON COUNTY ROAD 101 ALSO KNOW AS DON TOL ROAD VAN VLECK TX 77420",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101572915",
+    "additional_id": "2318",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/07/2005",
+    "county": "WHARTON",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

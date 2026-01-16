@@ -1,0 +1,22 @@
+[
+  {
+    "name": "MCCOMMAS BLUFF LANDFILL",
+    "type": "landfill",
+    "address": "5100 YOUNGBLOOD RD DALLAS TX 75241",
+    "lat": 32.68,
+    "lng": -96.72,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c84282aacc4c"
+  },
+  {
+    "name": "MCOMMAS BLUFF LFG PROCESSING FACILITY",
+    "type": "landfill",
+    "address": "5500 YOUNGBLOOD RD DALLAS TX 75241",
+    "lat": 32.68,
+    "lng": -96.73,
+    "website": null,
+    "source": null,
+    "facility_id": "f_cd10e3678ce0"
+  }
+]

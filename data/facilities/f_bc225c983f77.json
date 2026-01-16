@@ -1,0 +1,23 @@
+{
+  "id": "f_bc225c983f77",
+  "slug": "dougherty-arts-center",
+  "name": "DOUGHERTY ARTS CENTER",
+  "type": "landfill",
+  "address": "1110 BARTON SPRINGS RD AUSTIN TX 78704",
+  "lat": 30.26,
+  "lng": -97.76,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107144719",
+    "additional_id": "65032",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/24/2014",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

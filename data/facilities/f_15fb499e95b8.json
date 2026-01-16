@@ -1,0 +1,23 @@
+{
+  "id": "f_15fb499e95b8",
+  "slug": "aransas-county-tranfer-station-facility",
+  "name": "ARANSAS COUNTY TRANFER STATION FACILITY",
+  "type": "landfill",
+  "address": "1301 PRAIRIE FULTON TX 78358",
+  "lat": 30.39,
+  "lng": -97.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101477933",
+    "additional_id": "40027",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/15/1995",
+    "county": "ARANSAS",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

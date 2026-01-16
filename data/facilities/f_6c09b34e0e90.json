@@ -1,0 +1,23 @@
+{
+  "id": "f_6c09b34e0e90",
+  "slug": "pittsburg-transfer-station-facility",
+  "name": "PITTSBURG TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "SOUTH SIDE OF CAMP COUNTY ROAD 2212  0.7MILE W OF FM 1520 APPROXIMATELY  1.3 MILES N OF PITTSBURG CITY LIMIT PITTSBURG TX 75686",
+  "lat": 33.03,
+  "lng": -94.99,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102696168",
+    "additional_id": "40174",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/18/2001",
+    "county": "CAMP",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

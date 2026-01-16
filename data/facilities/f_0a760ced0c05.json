@@ -1,0 +1,23 @@
+{
+  "id": "f_0a760ced0c05",
+  "slug": "hawthorne-park-landfill",
+  "name": "HAWTHORNE PARK LANDFILL",
+  "type": "landfill",
+  "address": "10550 TANNER RD HOUSTON TX 77041",
+  "lat": 29.85,
+  "lng": -95.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102664232",
+    "additional_id": "2185",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/12/1994",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

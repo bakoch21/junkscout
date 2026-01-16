@@ -1,0 +1,23 @@
+{
+  "id": "f_28494a461a68",
+  "slug": "security-self-storage",
+  "name": "SECURITY SELF STORAGE",
+  "type": "landfill",
+  "address": "8600 SPRING VALLEY RD DALLAS TX 75240",
+  "lat": 32.94,
+  "lng": -96.75,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104775291",
+    "additional_id": "65044",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/28/2025",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

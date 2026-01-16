@@ -1,0 +1,23 @@
+{
+  "id": "f_a338ef9c1165",
+  "slug": "galveston-rng-facility",
+  "name": "GALVESTON RNG FACILITY",
+  "type": "landfill",
+  "address": "3925 AVENUE A ALTA LOMA TX 77510",
+  "lat": 29.38,
+  "lng": -95.06,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110456936",
+    "additional_id": "48045",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/16/2019",
+    "county": "GALVESTON",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_596ad91a5c86",
+  "slug": "tessman-road-rng-plant",
+  "name": "TESSMAN ROAD RNG PLANT",
+  "type": "landfill",
+  "address": "7000 E IH 10 SAN ANTONIO TX 78219",
+  "lat": 29.43,
+  "lng": -98.34,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100632629",
+    "additional_id": "48050",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/21/2021",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

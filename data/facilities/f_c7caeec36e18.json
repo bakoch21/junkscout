@@ -1,0 +1,23 @@
+{
+  "id": "f_c7caeec36e18",
+  "slug": "republic-maloy-landfill",
+  "name": "REPUBLIC MALOY LANDFILL",
+  "type": "landfill",
+  "address": "2811 FM 1568 CAMPBELL TX 75422",
+  "lat": 33.18,
+  "lng": -95.87,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102071032",
+    "additional_id": "1195B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/25/2020",
+    "county": "HUNT",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

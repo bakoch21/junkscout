@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CITY OF SWEETWATER LANDFILL",
+    "type": "landfill",
+    "address": "5254 NORTH IH-20 SWEETWATER TX 79556",
+    "lat": 32.49,
+    "lng": -100.32,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d09dfeb136b4"
+  },
+  {
+    "name": "CITY OF SWEETWATER TYPE IV AE LANDFILL",
+    "type": "landfill",
+    "address": "3000 W ALABAMA SWEETWATER TX  79556 SWEETWATER TX 79556",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
+    "facility_id": "f_cbb715bf9acc"
+  }
+]

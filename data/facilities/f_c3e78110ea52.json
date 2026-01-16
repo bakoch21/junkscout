@@ -1,0 +1,23 @@
+{
+  "id": "f_c3e78110ea52",
+  "slug": "piney-woods-sanitation",
+  "name": "PINEY WOODS SANITATION",
+  "type": "landfill",
+  "address": "400 N DURRETT DR CROCKETT TX CROCKETT TX 75835",
+  "lat": 31.32,
+  "lng": -95.47,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111117677",
+    "additional_id": "40318",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/02/2021",
+    "county": "HOUSTON",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

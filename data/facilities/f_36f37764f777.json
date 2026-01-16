@@ -1,0 +1,23 @@
+{
+  "id": "f_36f37764f777",
+  "slug": "city-of-crane-landfill",
+  "name": "CITY OF CRANE LANDFILL",
+  "type": "landfill",
+  "address": "115 W 6TH ST CRANE TX 79731",
+  "lat": 31.44,
+  "lng": -102.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102739968",
+    "additional_id": "2345",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/26/2007",
+    "county": "CRANE",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

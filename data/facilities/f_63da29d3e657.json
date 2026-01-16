@@ -1,0 +1,23 @@
+{
+  "id": "f_63da29d3e657",
+  "slug": "city-of-mclean-landfill",
+  "name": "CITY OF MCLEAN LANDFILL",
+  "type": "landfill",
+  "address": "6447 COUNTY ROAD 29 MCLEAN TX 79057",
+  "lat": 35.24,
+  "lng": -100.58,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101505204",
+    "additional_id": "570",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/13/1977",
+    "county": "GRAY",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

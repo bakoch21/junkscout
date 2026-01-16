@@ -1,0 +1,23 @@
+{
+  "id": "f_3f7aae1c93f6",
+  "slug": "ameresco-mccarty-rd-rng-facility",
+  "name": "AMERESCO MCCARTY RD RNG FACILITY",
+  "type": "landfill",
+  "address": "5755 OATES RD HOUSTON TX 77078",
+  "lat": 29.82,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104944392",
+    "additional_id": "48046",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/18/2020",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

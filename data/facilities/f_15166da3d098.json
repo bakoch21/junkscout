@@ -1,0 +1,23 @@
+{
+  "id": "f_15166da3d098",
+  "slug": "city-of-harlingen-transfer-station",
+  "name": "CITY OF HARLINGEN TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "404 S 54TH ST HARLINGEN TX 78550",
+  "lat": 30.39,
+  "lng": -97.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102212594",
+    "additional_id": "40248",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/13/2011",
+    "county": "CAMERON",
+    "region": "REGION 15 - HARLINGEN",
+    "physical_site_status": "ACTIVE"
+  }
+}

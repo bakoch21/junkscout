@@ -1,0 +1,23 @@
+{
+  "id": "f_5afbd72cbbad",
+  "slug": "mid-america-contractors-llc",
+  "name": "MID AMERICA CONTRACTORS LLC",
+  "type": "landfill",
+  "address": "3995 FM 1485 RD CONROE TX 77306",
+  "lat": 30.32,
+  "lng": -95.38,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104020870",
+    "additional_id": "2309",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/12/2004",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

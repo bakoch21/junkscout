@@ -1,0 +1,23 @@
+{
+  "id": "f_637ba2dd1076",
+  "slug": "holmes-road-type-v-transfer-station",
+  "name": "HOLMES ROAD TYPE V TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "1800 HOLMES RD HOUSTON TX 77045",
+  "lat": 29.67,
+  "lng": -95.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103729166",
+    "additional_id": "40274",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/07/2015",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

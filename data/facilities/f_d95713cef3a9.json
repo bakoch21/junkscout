@@ -1,0 +1,23 @@
+{
+  "id": "f_d95713cef3a9",
+  "slug": "greenhouse-road-landfill",
+  "name": "GREENHOUSE ROAD LANDFILL",
+  "type": "landfill",
+  "address": "3510 GREENHOUSE RD HOUSTON TX 77084",
+  "lat": 29.81,
+  "lng": -95.69,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102213451",
+    "additional_id": "1599B",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/10/2020",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

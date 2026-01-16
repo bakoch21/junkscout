@@ -1,0 +1,23 @@
+{
+  "id": "f_fc545449e6cb",
+  "slug": "city-of-cactus-transfer-station-facility",
+  "name": "CITY OF CACTUS TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "900 CENTER DR CACTUS TX 79013",
+  "lat": 35.84,
+  "lng": -101.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101663425",
+    "additional_id": "40031",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/04/1996",
+    "county": "MOORE",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

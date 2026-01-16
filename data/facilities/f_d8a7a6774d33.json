@@ -1,0 +1,23 @@
+{
+  "id": "f_d8a7a6774d33",
+  "slug": "city-of-kerrville-landfill",
+  "name": "CITY OF KERRVILLE LANDFILL",
+  "type": "landfill",
+  "address": "3315 LOOP 534 KERRVILLE TX 78028",
+  "lat": 30.03,
+  "lng": -98.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102000551",
+    "additional_id": "1506B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/23/2019",
+    "county": "KERR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

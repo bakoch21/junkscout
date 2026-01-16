@@ -1,0 +1,23 @@
+{
+  "id": "f_1f2d6fade76b",
+  "slug": "texas-department-of-transportation",
+  "name": "TEXAS DEPARTMENT OF TRANSPORTATION",
+  "type": "landfill",
+  "address": "I35 STEMMONS FREEWAY SB FRONTAGE RD BETWEEN HI LINE DRIVE & 1323 N STEMMONS FREEWAY DALLAS TX 75207",
+  "lat": 32.79,
+  "lng": -96.81,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109916684",
+    "additional_id": "67006",
+    "physical_type": "SUBT",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/25/2017",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

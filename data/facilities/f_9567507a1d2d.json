@@ -1,0 +1,23 @@
+{
+  "id": "f_9567507a1d2d",
+  "slug": "city-of-beaumont-landfill",
+  "name": "CITY OF BEAUMONT LANDFILL",
+  "type": "landfill",
+  "address": "5895 LAFIN DR BEAUMONT TX 77705",
+  "lat": 30.03,
+  "lng": -94.13,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102987369",
+    "additional_id": "1486B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/21/2009",
+    "county": "JEFFERSON",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

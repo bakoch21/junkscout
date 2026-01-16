@@ -1,0 +1,23 @@
+{
+  "id": "f_b53849f275e2",
+  "slug": "city-of-junction-landfill",
+  "name": "CITY OF JUNCTION LANDFILL",
+  "type": "landfill",
+  "address": "2 MILES N OF JUNCTION NORTH OF US 377 JUNCTION TX 76849",
+  "lat": 30.53,
+  "lng": -99.76,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102000387",
+    "additional_id": "26B",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/08/2015",
+    "county": "KIMBLE",
+    "region": "REGION 08 - SAN ANGELO",
+    "physical_site_status": "ACTIVE"
+  }
+}

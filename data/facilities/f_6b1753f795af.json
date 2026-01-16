@@ -1,0 +1,23 @@
+{
+  "id": "f_6b1753f795af",
+  "slug": "nelson-road-site",
+  "name": "NELSON ROAD SITE",
+  "type": "landfill",
+  "address": "8449 NELSON RD SAN ANTONIO TX 78252",
+  "lat": 29.32,
+  "lng": -98.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111157020",
+    "additional_id": "42044",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/03/2022",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

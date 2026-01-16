@@ -1,0 +1,23 @@
+{
+  "id": "f_4d00b8af42f8",
+  "slug": "osttend-landfill",
+  "name": "OSTTEND LANDFILL",
+  "type": "landfill",
+  "address": "2540 E UNIVERSITY DR MCKINNEY TX 75069",
+  "lat": 33.2,
+  "lng": -96.57,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110878030",
+    "additional_id": "2278A",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/13/2023",
+    "county": "COLLIN",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

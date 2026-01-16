@@ -1,32 +1,42 @@
 [
   {
-    "name": "DFW Landfill",
+    "name": "CAMELOT LANDFILL",
     "type": "landfill",
-    "address": "",
-    "lat": 33.0200774,
-    "lng": -96.9546189,
+    "address": "580 HUFFINES BLVD LEWISVILLE TX 75056",
+    "lat": 33.04,
+    "lng": -96.95,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/336438904",
-    "facility_id": "f_63c3b3f8a1c7"
+    "source": null,
+    "facility_id": "f_933ee60cad18"
   },
   {
-    "name": "Camelot Landfill",
+    "name": "CAMELOT LF GAS TO ENERGY FACILITY",
     "type": "landfill",
-    "address": "",
-    "lat": 33.0307155,
-    "lng": -96.950935,
+    "address": "580 HUFFINES BLVD LEWISVILLE TX 75056",
+    "lat": 33.02,
+    "lng": -96.95,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/336439435",
-    "facility_id": "f_30d19f2ad573"
+    "source": null,
+    "facility_id": "f_93885e5d21f3"
   },
   {
-    "name": "Lewisville Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.0506346,
-    "lng": -96.9741131,
+    "name": "DFW RECYCLING AND DISPOSAL FACILITY",
+    "type": "recycling",
+    "address": "1600 S RAILROAD ST LEWISVILLE TX 75057",
+    "lat": 33.02,
+    "lng": -96.96,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/390045378",
-    "facility_id": "f_4cb592e19a9d"
+    "source": null,
+    "facility_id": "f_0b679782fad5"
+  },
+  {
+    "name": "LEWISVILLE LANDFILL",
+    "type": "landfill",
+    "address": "801 E COLLEGE ST LEWISVILLE TX 75057",
+    "lat": 33.05,
+    "lng": -96.98,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8dd24ae694b0"
   }
 ]

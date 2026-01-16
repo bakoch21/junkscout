@@ -1,0 +1,23 @@
+{
+  "id": "f_3260dbd5e39b",
+  "slug": "lacoste-waste-water-treatment-plant",
+  "name": "LACOSTE WASTE WATER TREATMENT PLANT",
+  "type": "landfill",
+  "address": "11331 LYTLE-LA COSTE RD LA COSTE TX 78039",
+  "lat": 29.53,
+  "lng": -98.34,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101999290",
+    "additional_id": "43011",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/30/2002",
+    "county": "MEDINA",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

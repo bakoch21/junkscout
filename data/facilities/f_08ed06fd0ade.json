@@ -1,0 +1,23 @@
+{
+  "id": "f_08ed06fd0ade",
+  "slug": "city-of-arlington-landfill",
+  "name": "CITY OF ARLINGTON LANDFILL",
+  "type": "landfill",
+  "address": "800 MOSIER VALLEY RD ARLINGTON TX 76010",
+  "lat": 32.8,
+  "lng": -97.11,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102336039",
+    "additional_id": "358C",
+    "physical_type": "1",
+    "legal_status": "PENDING",
+    "legal_status_date": "06/06/2022",
+    "county": "TARRANT",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

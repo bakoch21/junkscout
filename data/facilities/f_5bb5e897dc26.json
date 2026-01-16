@@ -1,0 +1,23 @@
+{
+  "id": "f_5bb5e897dc26",
+  "slug": "chambers-county-landfill",
+  "name": "CHAMBERS COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "7501 HIGHWAY 65 MONROE CITY TX 77514",
+  "lat": 29.8,
+  "lng": -94.52,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101663565",
+    "additional_id": "1502A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/10/2013",
+    "county": "CHAMBERS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

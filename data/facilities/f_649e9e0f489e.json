@@ -1,0 +1,23 @@
+{
+  "id": "f_649e9e0f489e",
+  "slug": "oncore-technology",
+  "name": "ONCORE TECHNOLOGY",
+  "type": "landfill",
+  "address": "2613 SKYWAY DR GRAND PRAIRIE TX 75052",
+  "lat": 32.71,
+  "lng": -97.05,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105331318",
+    "additional_id": "40303",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/11/2019",
+    "county": "TARRANT",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

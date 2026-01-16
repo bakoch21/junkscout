@@ -1,0 +1,23 @@
+{
+  "id": "f_80116a60ffb4",
+  "slug": "fcc-materials-recovery-facility-houston",
+  "name": "FCC MATERIALS RECOVERY FACILITY HOUSTON",
+  "type": "landfill",
+  "address": "9172 LEY RD HOUSTON TX 77078",
+  "lat": 29.83,
+  "lng": -95.25,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107360141",
+    "additional_id": "40297",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/28/2018",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

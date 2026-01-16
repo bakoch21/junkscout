@@ -1,0 +1,23 @@
+{
+  "id": "f_76340096df62",
+  "slug": "fort-hood-biotreatment-facility",
+  "name": "FORT HOOD BIOTREATMENT FACILITY",
+  "type": "landfill",
+  "address": "700 N 37TH ST BLDG 1955 FORT CAVAZOS TX 76544",
+  "lat": 31.15,
+  "lng": -97.76,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105463475",
+    "additional_id": "42040",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/26/2015",
+    "county": "CORYELL",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

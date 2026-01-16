@@ -230,6 +230,7 @@ select{
   gap:14px;
 }
 .card{
+  position:relative; /* enables subtle clickable affordances */
   background:var(--panel);
   border:1px solid rgba(0,0,0,0.06);
   border-radius:var(--radius);
@@ -238,11 +239,29 @@ select{
   transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 .card:hover{
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadowStrong);
-  border-color: rgba(63,122,58,0.22);
+  border-color: rgba(46,110,166,0.35); /* subtle “link” cue */
 }
-.card--clickable { cursor: pointer; }
+.card--clickable{ cursor: pointer; }
+
+/* Make “details” look intentional, not incidental */
+.card__cta{
+  margin-left:auto;
+  font-size:13px;
+  font-weight:700;
+  color:var(--blue);
+  white-space:nowrap;
+}
+
+/* Mobile tap feedback (no hover on phones) */
+@media (hover:none){
+  .card--clickable:active{
+    transform: scale(0.985);
+    box-shadow: 0 6px 18px rgba(0,0,0,.10);
+  }
+}
+
 .card__kicker{margin-bottom:8px}
 .card h3{margin:8px 0 8px; font-size:19px}
 .card__meta{margin:4px 0; color:#6b7280; font-size:13px}

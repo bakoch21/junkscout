@@ -1,0 +1,23 @@
+{
+  "id": "f_afcfa0ae2cc7",
+  "slug": "cold-springs-processing-and-disposal",
+  "name": "COLD SPRINGS PROCESSING & DISPOSAL",
+  "type": "landfill",
+  "address": "1300 COLD SPRINGS RD BLDG 2 FORT WORTH TX 76102",
+  "lat": 32.77,
+  "lng": -97.33,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102328689",
+    "additional_id": "1225D",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/25/2011",
+    "county": "TARRANT",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

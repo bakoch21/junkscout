@@ -1,0 +1,23 @@
+{
+  "id": "f_99efc1cd9f8e",
+  "slug": "harrington-environmental-liquid-transfer-station",
+  "name": "HARRINGTON ENVIRONMENTAL LIQUID TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "6321 W FM 4 GODLEY TX 76044",
+  "lat": 32.34,
+  "lng": -97.35,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102328655",
+    "additional_id": "40080",
+    "physical_type": "5TL",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/12/1995",
+    "county": "JOHNSON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

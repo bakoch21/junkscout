@@ -1,0 +1,23 @@
+{
+  "id": "f_fd4af7251c5d",
+  "slug": "city-of-corpus-christi-landfill",
+  "name": "CITY OF CORPUS CHRISTI LANDFILL",
+  "type": "landfill",
+  "address": "2397 COUNTY ROAD 20 ROBSTOWN TX 78380",
+  "lat": 27.64,
+  "lng": -97.57,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102778123",
+    "additional_id": "2269",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/19/1999",
+    "county": "NUECES",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

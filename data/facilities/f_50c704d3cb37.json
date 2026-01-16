@@ -1,0 +1,23 @@
+{
+  "id": "f_50c704d3cb37",
+  "slug": "covel-gardens-landfill",
+  "name": "COVEL GARDENS LANDFILL",
+  "type": "landfill",
+  "address": "8611 COVEL RD SAN ANTONIO TX 78252",
+  "lat": 29.34,
+  "lng": -98.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100218338",
+    "additional_id": "2093B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/29/2006",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

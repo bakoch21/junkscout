@@ -1,0 +1,23 @@
+{
+  "id": "f_933ee60cad18",
+  "slug": "camelot-landfill",
+  "name": "CAMELOT LANDFILL",
+  "type": "landfill",
+  "address": "580 HUFFINES BLVD LEWISVILLE TX 75056",
+  "lat": 33.04,
+  "lng": -96.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101479038",
+    "additional_id": "1312B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/28/2017",
+    "county": "DENTON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

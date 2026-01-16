@@ -1,0 +1,23 @@
+{
+  "id": "f_12918eb9d402",
+  "slug": "jim-hogg-county-transfer-station",
+  "name": "JIM HOGG COUNTY TRANSFER STATION",
+  "type": "transfer_station",
+  "address": ".50 MILE E OF HEBBRONVILLE  .50 MILE E OF STATE HIGHWAY 359 ON CEMETERY ROAD HEBBRONVILLE TX",
+  "lat": 27.32,
+  "lng": -98.65,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102143203",
+    "additional_id": "40103",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/08/1997",
+    "county": "JIM HOGG",
+    "region": "REGION 15 - HARLINGEN",
+    "physical_site_status": "ACTIVE"
+  }
+}

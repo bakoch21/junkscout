@@ -1,0 +1,23 @@
+{
+  "id": "f_3a1b67887cd3",
+  "slug": "32-0297-acre-tract-of-land",
+  "name": "32.0297 ACRE TRACT OF LAND",
+  "type": "landfill",
+  "address": "2100 DESTINY LN CARROLLTON TX 75006",
+  "lat": 32.96,
+  "lng": -96.93,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110740875",
+    "additional_id": "67046",
+    "physical_type": "SUBT",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/09/2019",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

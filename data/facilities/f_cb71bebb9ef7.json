@@ -1,0 +1,23 @@
+{
+  "id": "f_cb71bebb9ef7",
+  "slug": "city-of-amarillo-landfill",
+  "name": "CITY OF AMARILLO LANDFILL",
+  "type": "landfill",
+  "address": "16250 BEZNER RD AMARILLO TX 79124",
+  "lat": 35.22,
+  "lng": -102.03,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100237551",
+    "additional_id": "73A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/22/2007",
+    "county": "POTTER",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

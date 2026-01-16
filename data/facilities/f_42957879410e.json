@@ -1,0 +1,23 @@
+{
+  "id": "f_42957879410e",
+  "slug": "safety-kleen-systems",
+  "name": "SAFETY-KLEEN SYSTEMS",
+  "type": "landfill",
+  "address": "1722 COOPER CREEK RD DENTON TX 76208",
+  "lat": 33.24,
+  "lng": -97.08,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100215441",
+    "additional_id": "40327",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/01/2022",
+    "county": "DENTON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_c47139003c85",
+  "slug": "dixie-farm-road-landfill",
+  "name": "DIXIE FARM ROAD LANDFILL",
+  "type": "landfill",
+  "address": "4649 DIXIE FARM RD PEARLAND TX 77581",
+  "lat": 29.52,
+  "lng": -95.25,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102777059",
+    "additional_id": "1708",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/09/1986",
+    "county": "BRAZORIA",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

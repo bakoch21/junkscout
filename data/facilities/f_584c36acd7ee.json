@@ -1,0 +1,23 @@
+{
+  "id": "f_584c36acd7ee",
+  "slug": "maverick-county-el-indio-msw-landfill",
+  "name": "MAVERICK COUNTY EL INDIO MSW LANDFILL",
+  "type": "landfill",
+  "address": "16179 FM 1021 EL INDIO TX 78860",
+  "lat": 28.54,
+  "lng": -100.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104154240",
+    "additional_id": "2316",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/11/2007",
+    "county": "MAVERICK",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

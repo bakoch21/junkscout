@@ -1,0 +1,23 @@
+{
+  "id": "f_84ec8d464500",
+  "slug": "austin-liquid-waste-processing-facility",
+  "name": "AUSTIN LIQUID WASTE PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "828 LINGER LN AUSTIN TX 78721",
+  "lat": 30.25,
+  "lng": -97.68,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105876601",
+    "additional_id": "2367",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/03/2010",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

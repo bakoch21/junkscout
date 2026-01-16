@@ -1,0 +1,23 @@
+{
+  "id": "f_f21cb97afaff",
+  "slug": "terrabella-environmental-services",
+  "name": "TERRABELLA ENVIRONMENTAL SERVICES",
+  "type": "landfill",
+  "address": "433 ZANDER LN PLEASANTON TX 78064",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110896578",
+    "additional_id": "43036",
+    "physical_type": "5TL",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/16/2020",
+    "county": "ATASCOSA",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

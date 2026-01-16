@@ -1,0 +1,23 @@
+{
+  "id": "f_06d8f45a62e2",
+  "slug": "dallas-facility",
+  "name": "DALLAS FACILITY",
+  "type": "landfill",
+  "address": "11115 GOODNIGHT LN DALLAS TX 75229",
+  "lat": 32.89,
+  "lng": -96.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103002713",
+    "additional_id": "2069A",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/08/2010",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

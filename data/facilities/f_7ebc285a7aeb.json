@@ -1,0 +1,23 @@
+{
+  "id": "f_7ebc285a7aeb",
+  "slug": "2011-south-town-east-blvd-llc",
+  "name": "2011 SOUTH TOWN EAST BLVD LLC",
+  "type": "landfill",
+  "address": "2011 S TOWN EAST BLVD MESQUITE TX 75149",
+  "lat": 32.79,
+  "lng": -96.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106479868",
+    "additional_id": "65030",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/30/2013",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

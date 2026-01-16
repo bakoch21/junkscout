@@ -1,0 +1,23 @@
+{
+  "id": "f_9d398401fba6",
+  "slug": "city-of-matador-landfill",
+  "name": "CITY OF MATADOR LANDFILL",
+  "type": "landfill",
+  "address": "1.5 MILES NORTH OF LOOP 94 1.6 MILES EAST OF SH-70 EASTSIDE OF 200 BLOCK OR CR-211 MATADOR TX 79244",
+  "lat": 34.04,
+  "lng": -100.82,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102143120",
+    "additional_id": "549A",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/09/2001",
+    "county": "MOTLEY",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

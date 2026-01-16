@@ -1,12 +1,22 @@
 [
   {
+    "name": "CARMAX AUTO 7115 ENCLOSED STRUCTURE OVER CLOSED LANDFILL",
+    "type": "landfill",
+    "address": "3100 SPUR 482 IRVING TX 75062",
+    "lat": 32.84,
+    "lng": -96.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_99b9213019cf"
+  },
+  {
     "name": "United Electronic Recycling",
     "type": "recycling",
     "address": "505 Airline Drive",
     "lat": 32.9430728,
     "lng": -97.003908,
     "website": "https://unitedelectronicrecycling.com",
-    "osm_url": "https://www.openstreetmap.org/node/12110474652",
+    "source": null,
     "facility_id": "f_02ce0875a275"
   },
   {
@@ -16,27 +26,7 @@
     "lat": 32.9430728,
     "lng": -97.003908,
     "website": "https://unitedelectronicrecycling.com",
-    "osm_url": "https://www.openstreetmap.org/node/12111449066",
+    "source": null,
     "facility_id": "f_08c24b5569fb"
-  },
-  {
-    "name": "Irving Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 32.7835313,
-    "lng": -96.9438942,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/29396471",
-    "facility_id": "f_e6001fdc8a18"
-  },
-  {
-    "name": "Grand Prairie Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 32.7698514,
-    "lng": -96.9492464,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/317592059",
-    "facility_id": "f_ef045d9fe159"
   }
 ]

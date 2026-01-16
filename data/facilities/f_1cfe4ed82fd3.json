@@ -1,0 +1,23 @@
+{
+  "id": "f_1cfe4ed82fd3",
+  "slug": "mason-east-msw-landfill",
+  "name": "MASON EAST MSW LANDFILL",
+  "type": "landfill",
+  "address": "2107 E SH 29 MASON TX 76856",
+  "lat": 30.74,
+  "lng": -99.21,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110372430",
+    "additional_id": "2399",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/26/2019",
+    "county": "MASON",
+    "region": "REGION 08 - SAN ANGELO",
+    "physical_site_status": "ACTIVE"
+  }
+}

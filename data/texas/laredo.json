@@ -1,12 +1,42 @@
 [
   {
+    "name": "City of Laredo Landfill",
+    "type": "landfill",
+    "address": "TX 359 Laredo TX 78046",
+    "lat": 27.4929346,
+    "lng": -99.4100013,
+    "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
+    "source": null,
+    "facility_id": "f_72fcc822edd3"
+  },
+  {
+    "name": "CITY OF LAREDO LANDFILL",
+    "type": "landfill",
+    "address": "6912 HWY 359 LAREDO TX 78043",
+    "lat": 27.49,
+    "lng": -99.41,
+    "website": null,
+    "source": null,
+    "facility_id": "f_046ba3e70bf8"
+  },
+  {
+    "name": "PONDEROSA REGIONAL LANDFILL",
+    "type": "landfill",
+    "address": "10705 STATE HIGHWAY 359 LAREDO TX 78043",
+    "lat": 27.48,
+    "lng": -99.26,
+    "website": null,
+    "source": null,
+    "facility_id": "f_03bb5d75b4e2"
+  },
+  {
     "name": "Setasa",
     "type": "recycling",
     "address": "",
     "lat": 27.5449704,
     "lng": -99.5827737,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/5774565476",
+    "source": null,
     "facility_id": "f_bddc5dce7f66"
   },
   {
@@ -16,17 +46,7 @@
     "lat": 27.5447692,
     "lng": -99.5841188,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/609679471",
+    "source": null,
     "facility_id": "f_fdeddd63fe1f"
-  },
-  {
-    "name": "City of Laredo Landfill",
-    "type": "landfill",
-    "address": "TX 359 Laredo TX 78046",
-    "lat": 27.4929346,
-    "lng": -99.4100013,
-    "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
-    "osm_url": "https://www.openstreetmap.org/way/1151383582",
-    "facility_id": "f_72fcc822edd3"
   }
 ]

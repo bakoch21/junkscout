@@ -1,0 +1,23 @@
+{
+  "id": "f_a24c5e117381",
+  "slug": "ruffino-hills-transfer-station",
+  "name": "RUFFINO HILLS TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "9720 RUFFINO RD HOUSTON TX 77031",
+  "lat": 29.66,
+  "lng": -95.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101664233",
+    "additional_id": "1355A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/20/2012",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

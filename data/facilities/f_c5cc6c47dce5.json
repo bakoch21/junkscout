@@ -1,0 +1,23 @@
+{
+  "id": "f_c5cc6c47dce5",
+  "slug": "city-of-rock-springs-transfer-station",
+  "name": "CITY OF ROCK SPRINGS TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "ONE BLOCK WEST OF THE NORTH END OF CEDAR STREET IN ROCK SPRINGS ROCKSPRINGS TX",
+  "lat": 30.02,
+  "lng": -100.21,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102335494",
+    "additional_id": "40057",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/04/1995",
+    "county": "EDWARDS",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

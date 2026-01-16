@@ -1,0 +1,23 @@
+{
+  "id": "f_a7d50bab4059",
+  "slug": "city-of-san-augustine-transfer-station-facility",
+  "name": "CITY OF SAN AUGUSTINE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "4200 FEET NE OF INTERSECTION OF US HIGHWAY 96 AND HIGHWAY 147 UNKNOWN TX",
+  "lat": 31.5,
+  "lng": -94.12,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102327780",
+    "additional_id": "40024",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/15/1994",
+    "county": "SAN AUGUSTINE",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

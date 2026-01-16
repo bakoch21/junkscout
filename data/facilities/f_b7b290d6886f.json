@@ -1,0 +1,23 @@
+{
+  "id": "f_b7b290d6886f",
+  "slug": "nucore-environmental-services",
+  "name": "NUCORE ENVIRONMENTAL SERVICES",
+  "type": "landfill",
+  "address": "6410 LONG DR HOUSTON TX 77087",
+  "lat": 29.69,
+  "lng": -95.31,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107215378",
+    "additional_id": "40310",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/23/2020",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

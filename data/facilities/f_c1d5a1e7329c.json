@@ -1,0 +1,23 @@
+{
+  "id": "f_c1d5a1e7329c",
+  "slug": "city-of-copperas-cove-composting-facility",
+  "name": "CITY OF COPPERAS COVE COMPOSTING FACILITY",
+  "type": "recycling",
+  "address": "AT CITY'S LANDFILL  INTERSECTION HWY 190 AND FM 2657  6.25 MILES OF INTERSECTION COPPERAS COVE TX",
+  "lat": 31.07,
+  "lng": -97.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102290947",
+    "additional_id": "42017",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/24/1999",
+    "county": "CORYELL",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

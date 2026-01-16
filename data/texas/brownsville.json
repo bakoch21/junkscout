@@ -1,12 +1,22 @@
 [
   {
+    "name": "Brownsville Recycling Center",
+    "type": "recycling",
+    "address": "308 East Elizabeth Street Brownsville TX 78520",
+    "lat": 25.9068005,
+    "lng": -97.5045245,
+    "website": "https://www.cameroncountytx.gov/recycling-centers-directory/",
+    "source": null,
+    "facility_id": "f_49ea78691768"
+  },
+  {
     "name": "Compra de metales",
     "type": "recycling",
     "address": "",
     "lat": 25.8540334,
     "lng": -97.4748286,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4537330292",
+    "source": null,
     "facility_id": "f_09931360ff4c"
   },
   {
@@ -16,17 +26,7 @@
     "lat": 25.878623,
     "lng": -97.5276678,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4836286163",
+    "source": null,
     "facility_id": "f_8706d5c93f87"
-  },
-  {
-    "name": "Brownsville Recycling Center",
-    "type": "recycling",
-    "address": "308 East Elizabeth Street Brownsville TX 78520",
-    "lat": 25.9068005,
-    "lng": -97.5045245,
-    "website": "https://www.cameroncountytx.gov/recycling-centers-directory/",
-    "osm_url": "https://www.openstreetmap.org/way/746257106",
-    "facility_id": "f_49ea78691768"
   }
 ]

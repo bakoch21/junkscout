@@ -1,0 +1,23 @@
+{
+  "id": "f_3013fbdc52c3",
+  "slug": "city-of-seminole-landfill",
+  "name": "CITY OF SEMINOLE LANDFILL",
+  "type": "landfill",
+  "address": "385 N SEAGRAVES HWY SEMINOLE TX 79360",
+  "lat": 32.75,
+  "lng": -102.64,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101921179",
+    "additional_id": "39",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/30/1975",
+    "county": "GAINES",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

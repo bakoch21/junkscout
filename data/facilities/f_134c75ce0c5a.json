@@ -1,0 +1,23 @@
+{
+  "id": "f_134c75ce0c5a",
+  "slug": "city-of-vernon-transfer-station-facility",
+  "name": "CITY OF VERNON TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "11053 COUNTY ROAD 97 N VERNON TX 76384",
+  "lat": 34.21,
+  "lng": -99.34,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102121308",
+    "additional_id": "40059",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/20/1995",
+    "county": "WILBARGER",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

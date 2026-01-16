@@ -1,0 +1,22 @@
+[
+  {
+    "name": "HARDY ROAD TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "18784 E HARDY RD HOUSTON TX 77073",
+    "lat": 30,
+    "lng": -95.4,
+    "website": null,
+    "source": null,
+    "facility_id": "f_acbb2caedfbd"
+  },
+  {
+    "name": "TALL PINES DISPOSAL FACILITY",
+    "type": "landfill",
+    "address": "18710 E HARDY RD HOUSTON TX 77073",
+    "lat": 29.99,
+    "lng": -95.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9b2aa8b695dd"
+  }
+]

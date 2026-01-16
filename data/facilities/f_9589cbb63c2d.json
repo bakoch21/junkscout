@@ -1,0 +1,23 @@
+{
+  "id": "f_9589cbb63c2d",
+  "slug": "bryan-composting-facility",
+  "name": "BRYAN COMPOSTING FACILITY",
+  "type": "recycling",
+  "address": "2988 PLEASANT HILL RD BRYAN TX 77807",
+  "lat": 30.39,
+  "lng": -97.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102142809",
+    "additional_id": "42003",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/04/1992",
+    "county": "BRAZOS",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

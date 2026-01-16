@@ -6,7 +6,17 @@
     "lat": 31.125589,
     "lng": -97.7868713,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1022279846",
+    "source": null,
     "facility_id": "f_b24f9ec67b27"
+  },
+  {
+    "name": "KILLEEN TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "12200 STATE HWY 195 KILLEEN TX 76542 KILLEEN TX 76542",
+    "lat": 31.02,
+    "lng": -97.75,
+    "website": null,
+    "source": null,
+    "facility_id": "f_833a176efa42"
   }
 ]

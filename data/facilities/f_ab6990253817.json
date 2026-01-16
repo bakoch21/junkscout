@@ -1,0 +1,23 @@
+{
+  "id": "f_ab6990253817",
+  "slug": "austin-country-inc",
+  "name": "AUSTIN COUNTRY INC",
+  "type": "landfill",
+  "address": "9500 E HIGHWAY 290 AUSTIN TX 78724",
+  "lat": 30.33,
+  "lng": -97.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105998108",
+    "additional_id": "65026",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/06/2013",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

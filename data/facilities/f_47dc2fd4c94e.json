@@ -1,0 +1,23 @@
+{
+  "id": "f_47dc2fd4c94e",
+  "slug": "inmar-rx-solutions",
+  "name": "INMAR RX SOLUTIONS",
+  "type": "landfill",
+  "address": "3845 GRAND LAKES WAY STE 125 GRAND PRAIRIE TX 75050",
+  "lat": 32.76,
+  "lng": -96.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110836509",
+    "additional_id": "40304",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/03/2020",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

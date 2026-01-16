@@ -1,0 +1,23 @@
+{
+  "id": "f_ffdbbed33efd",
+  "slug": "city-of-big-spring-landfill",
+  "name": "CITY OF BIG SPRING LANDFILL",
+  "type": "landfill",
+  "address": "4100 E FM 700 BIG SPRING TX 79720",
+  "lat": 32.26,
+  "lng": -101.42,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102327517",
+    "additional_id": "288A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/05/1985",
+    "county": "HOWARD",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

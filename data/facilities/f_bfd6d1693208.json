@@ -1,0 +1,23 @@
+{
+  "id": "f_bfd6d1693208",
+  "slug": "city-of-paducah",
+  "name": "CITY OF PADUCAH",
+  "type": "landfill",
+  "address": "approx. 2 miles southeast of the City of Paducah on FM 1038 in Cottle County. PADUCAH TX 79248",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101919595",
+    "additional_id": "9001B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "04/27/2022",
+    "county": "COTTLE",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

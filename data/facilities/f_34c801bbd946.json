@@ -1,0 +1,23 @@
+{
+  "id": "f_34c801bbd946",
+  "slug": "r-and-j-transfer-station",
+  "name": "R&J TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "11028 CORDOBA DR HOUSTON TX 77088",
+  "lat": 29.84,
+  "lng": -95.45,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107376162",
+    "additional_id": "2405",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/29/2020",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

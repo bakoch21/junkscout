@@ -1,0 +1,23 @@
+{
+  "id": "f_a65780624a01",
+  "slug": "city-of-childress-municipal-solid-waste-landfill",
+  "name": "CITY OF CHILDRESS MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "200 FT SE OF US HWY 287 ACROSS RR TRACK  APPROX 2 MI SE OF CHILDRESS IN CHILDRESS COUNTY CHILDRESS TX 79201",
+  "lat": 34.41,
+  "lng": -100.16,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102328101",
+    "additional_id": "2263",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/12/1997",
+    "county": "CHILDRESS",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

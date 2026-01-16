@@ -1,0 +1,23 @@
+{
+  "id": "f_03513c0d6406",
+  "slug": "city-of-huntsville-transfer-station-facility",
+  "name": "CITY OF HUNTSVILLE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "590 IH 45 N HUNTSVILLE TX 77320",
+  "lat": 30.74,
+  "lng": -95.6,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102215605",
+    "additional_id": "2387",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/04/2017",
+    "county": "WALKER",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

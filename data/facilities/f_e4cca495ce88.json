@@ -1,0 +1,23 @@
+{
+  "id": "f_e4cca495ce88",
+  "slug": "cal-farleys-boys-ranch-landfill",
+  "name": "CAL FARLEYS BOYS RANCH LANDFILL",
+  "type": "landfill",
+  "address": "1 LANDFILL DR BOYS RANCH TX 79010",
+  "lat": 35.53,
+  "lng": -102.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102290129",
+    "additional_id": "791",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/06/1998",
+    "county": "OLDHAM",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

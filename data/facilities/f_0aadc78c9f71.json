@@ -1,0 +1,23 @@
+{
+  "id": "f_0aadc78c9f71",
+  "slug": "baytown-medical-waste-facility",
+  "name": "BAYTOWN MEDICAL WASTE FACILITY",
+  "type": "landfill",
+  "address": "4200 CEDAR BLVD BAYTOWN TX 77523",
+  "lat": 29.72,
+  "lng": -94.92,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111359014",
+    "additional_id": "40326",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/12/2022",
+    "county": "CHAMBERS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

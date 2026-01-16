@@ -1,22 +1,22 @@
 [
   {
-    "name": "CM Hinton Jr. Regional Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 32.9579388,
-    "lng": -96.5420747,
+    "name": "CITY OF GARLAND TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "1434 COMMERCE ST GARLAND TX 75040",
+    "lat": 32.91,
+    "lng": -96.61,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/495939892",
-    "facility_id": "f_87e3ee3f4679"
+    "source": null,
+    "facility_id": "f_2c25d55ae902"
   },
   {
-    "name": "Phoenix Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.9219174,
-    "lng": -96.6315154,
+    "name": "STERICYCLE GARLAND",
+    "type": "landfill",
+    "address": "2821 INDUSTRIAL LN GARLAND TX 75041",
+    "lat": 25.88,
+    "lng": -96.67,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1301335674",
-    "facility_id": "f_c16629ab19ea"
+    "source": null,
+    "facility_id": "f_5e2e0707ee4c"
   }
 ]

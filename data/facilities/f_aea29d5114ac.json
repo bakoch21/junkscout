@@ -1,0 +1,23 @@
+{
+  "id": "f_aea29d5114ac",
+  "slug": "blanco-county-transfer-station",
+  "name": "BLANCO COUNTY TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "2021 N HWY 281 JOHNSON CITY TX 78636",
+  "lat": 30.25,
+  "lng": -98.38,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102560174",
+    "additional_id": "2300",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/26/2003",
+    "county": "BLANCO",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

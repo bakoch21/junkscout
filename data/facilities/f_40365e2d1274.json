@@ -1,0 +1,23 @@
+{
+  "id": "f_40365e2d1274",
+  "slug": "city-of-booker-landfill",
+  "name": "CITY OF BOOKER LANDFILL",
+  "type": "landfill",
+  "address": "2.6 MILE NNE OF INTERSECTION FM 23 AND STATE HIGHWAY 15 IN BOOKER BOOKER TX 79005",
+  "lat": 36.49,
+  "lng": -100.52,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101478121",
+    "additional_id": "1943A",
+    "physical_type": "1AE",
+    "legal_status": "PENDING",
+    "legal_status_date": "12/31/2024",
+    "county": "LIPSCOMB",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

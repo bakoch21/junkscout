@@ -1,0 +1,23 @@
+{
+  "id": "f_4050e5001f96",
+  "slug": "greenway-2051-nwh",
+  "name": "GREENWAY-2051 NWH",
+  "type": "landfill",
+  "address": "2051 W NORTHWEST HWY DALLAS TX 75220",
+  "lat": 32.87,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110437704",
+    "additional_id": "65041",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/29/2021",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

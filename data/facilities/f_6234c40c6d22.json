@@ -1,0 +1,23 @@
+{
+  "id": "f_6234c40c6d22",
+  "slug": "city-of-georgetown-transfer-station-facility",
+  "name": "CITY OF GEORGETOWN TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "250 W L WALDEN DR GEORGETOWN TX 78626",
+  "lat": 30.65,
+  "lng": -97.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101999233",
+    "additional_id": "466A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/13/1985",
+    "county": "WILLIAMSON",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

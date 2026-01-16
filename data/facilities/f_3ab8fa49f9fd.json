@@ -1,0 +1,23 @@
+{
+  "id": "f_3ab8fa49f9fd",
+  "slug": "southwaste-disposal-llc-san-antonio-facility",
+  "name": "SOUTHWASTE DISPOSAL LLC SAN ANTONIO FACILITY",
+  "type": "landfill",
+  "address": "20805 OLD LAMM RD ELMENDORF TX 78112",
+  "lat": 29.21,
+  "lng": -98.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101478071",
+    "additional_id": "2317",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/13/2006",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

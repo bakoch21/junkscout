@@ -1,0 +1,23 @@
+{
+  "id": "f_a0a0387282bc",
+  "slug": "city-of-presidio-landfill",
+  "name": "CITY OF PRESIDIO LANDFILL",
+  "type": "landfill",
+  "address": "APPROX 1 MI FROM PRESIDIO OFF AN EXTENSION OF OREILY RD PRESIDIO TX 79845",
+  "lat": 29.56,
+  "lng": -104.35,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102213733",
+    "additional_id": "1737A",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/23/2008",
+    "county": "PRESIDIO",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_0e52f6c7e6e1",
+  "slug": "pine-hill-farms-landfill-tx-lp",
+  "name": "PINE HILL FARMS LANDFILL TX LP",
+  "type": "landfill",
+  "address": "1102 LANDFILL RD. KILGORE TX 75663",
+  "lat": 32.45,
+  "lng": -94.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101909737",
+    "additional_id": "1327B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/19/1996",
+    "county": "GREGG",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

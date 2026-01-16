@@ -1,0 +1,23 @@
+{
+  "id": "f_22486381c28c",
+  "slug": "pleasant-oaks-landfill",
+  "name": "PLEASANT OAKS LANDFILL",
+  "type": "landfill",
+  "address": "3031 FARM ROAD 3417 MT PLEASANT TX 75455",
+  "lat": 33.12,
+  "lng": -95.01,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102049103",
+    "additional_id": "797B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/03/2006",
+    "county": "TITUS",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

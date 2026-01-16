@@ -1,0 +1,23 @@
+{
+  "id": "f_e565530acaa2",
+  "slug": "new-earth-inc",
+  "name": "NEW EARTH INC",
+  "type": "landfill",
+  "address": "12286 HIGHWAY 105 E CONROE TX 77306",
+  "lat": 30.33,
+  "lng": -95.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105670962",
+    "additional_id": "42037",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/20/2010",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

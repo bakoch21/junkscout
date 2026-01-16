@@ -1,0 +1,23 @@
+{
+  "id": "f_1d89ec8ee39c",
+  "slug": "city-of-memphis-landfill",
+  "name": "CITY OF MEMPHIS LANDFILL",
+  "type": "landfill",
+  "address": "APPROXIMATELY  5500 FEET SSE OF CITY OF MEMPHIS  1.3 MILES SOUTH OF INTERSECTION OF STATE HIGHWAY 287 AND FM 256 MEMPHIS TX",
+  "lat": 34.7,
+  "lng": -100.52,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102118957",
+    "additional_id": "2266",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/03/1997",
+    "county": "HALL",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

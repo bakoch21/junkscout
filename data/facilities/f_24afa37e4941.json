@@ -1,0 +1,23 @@
+{
+  "id": "f_24afa37e4941",
+  "slug": "buffalo-creek-renewable-natural-gas-facility",
+  "name": "BUFFALO CREEK RENEWABLE NATURAL GAS FACILITY",
+  "type": "landfill",
+  "address": "1499 W. SMITH AVE IOWA PARK TX 76367",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111842068",
+    "additional_id": "48057",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/21/2024",
+    "county": "WICHITA",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

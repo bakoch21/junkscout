@@ -1,0 +1,23 @@
+{
+  "id": "f_d09dfeb136b4",
+  "slug": "city-of-sweetwater-landfill",
+  "name": "CITY OF SWEETWATER LANDFILL",
+  "type": "landfill",
+  "address": "5254 NORTH IH-20 SWEETWATER TX 79556",
+  "lat": 32.49,
+  "lng": -100.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN108081720",
+    "additional_id": "2385",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/22/2016",
+    "county": "NOLAN",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

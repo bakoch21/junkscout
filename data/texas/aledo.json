@@ -1,0 +1,22 @@
+[
+  {
+    "name": "WESTSIDE LANDFILL GAS TO ELECTRIC FACILITY",
+    "type": "landfill",
+    "address": "12280 CAMP BOWIE WEST BLVD ALEDO TX 76008",
+    "lat": 32.72,
+    "lng": -97.53,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6de2913f9388"
+  },
+  {
+    "name": "WESTSIDE TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "3500 LINKCREST DR ALEDO TX 76008",
+    "lat": 32.43,
+    "lng": -97.32,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3a800173ba55"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "f_db7e40934c43",
+  "slug": "j-c-elliott-transfer-station",
+  "name": "J C ELLIOTT TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "7001 AYERS ST CORPUS CHRISTI TX 78415",
+  "lat": 27.71,
+  "lng": -97.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100224724",
+    "additional_id": "40228",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/09/2007",
+    "county": "NUECES",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

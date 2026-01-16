@@ -1,0 +1,23 @@
+{
+  "id": "f_d2d7381d4981",
+  "slug": "blue-ridge-lfg-treatment-facility",
+  "name": "BLUE RIDGE LFG TREATMENT FACILITY",
+  "type": "landfill",
+  "address": "2200 FM 521 RD FRESNO TX 77545",
+  "lat": 29.58,
+  "lng": -95.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102610102",
+    "additional_id": "48043",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/19/2018",
+    "county": "FORT BEND",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

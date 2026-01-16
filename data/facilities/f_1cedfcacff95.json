@@ -1,0 +1,23 @@
+{
+  "id": "f_1cedfcacff95",
+  "slug": "city-of-anson-abandoned-and-nuisance-building",
+  "name": "CITY OF ANSON ABANDONED & NUISANCE BUILDING",
+  "type": "landfill",
+  "address": "1314 COMMERCIAL AVE ANSON TX 79501",
+  "lat": 32.76,
+  "lng": -99.88,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106460710",
+    "additional_id": "9004B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "02/02/2023",
+    "county": "JONES",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

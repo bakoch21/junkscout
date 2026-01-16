@@ -1,0 +1,23 @@
+{
+  "id": "f_66cdc50d1555",
+  "slug": "city-of-sundown-landfill",
+  "name": "CITY OF SUNDOWN LANDFILL",
+  "type": "landfill",
+  "address": "NORTHSIDE OF 3500 BLOCK OF WAGONWHEEL RD. 2.2 MILES SOUTH & 0.75 MILES WEST OF THE INTERS SUNDOWN TX 79372",
+  "lat": 33.42,
+  "lng": -102.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102778081",
+    "additional_id": "1733",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/11/1996",
+    "county": "HOCKLEY",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

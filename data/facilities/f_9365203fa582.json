@@ -1,0 +1,23 @@
+{
+  "id": "f_9365203fa582",
+  "slug": "cobb-building",
+  "name": "COBB BUILDING",
+  "type": "landfill",
+  "address": "900 BLOCK CR 622 DIMMITT TX 79027",
+  "lat": 34.44,
+  "lng": -102.38,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111843728",
+    "additional_id": "9025",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "05/01/2024",
+    "county": "CASTRO",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_c9ac5247b3e7",
+  "slug": "texas-decon",
+  "name": "TEXAS DECON",
+  "type": "landfill",
+  "address": "122 DENNIS DR SEGUIN TX 78155",
+  "lat": 29.7,
+  "lng": -97.96,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110856143",
+    "additional_id": "40305",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/09/2020",
+    "county": "GUADALUPE",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

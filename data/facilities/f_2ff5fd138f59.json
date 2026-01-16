@@ -1,0 +1,23 @@
+{
+  "id": "f_2ff5fd138f59",
+  "slug": "security-self-storage",
+  "name": "SECURITY SELF STORAGE",
+  "type": "landfill",
+  "address": "6640 SKILLMAN ST DALLAS TX 75231",
+  "lat": 32.87,
+  "lng": -96.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104768205",
+    "additional_id": "65045",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/02/2025",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

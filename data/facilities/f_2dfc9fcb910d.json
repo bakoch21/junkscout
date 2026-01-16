@@ -1,0 +1,23 @@
+{
+  "id": "f_2dfc9fcb910d",
+  "slug": "buffalo-creek-landfill",
+  "name": "BUFFALO CREEK LANDFILL",
+  "type": "landfill",
+  "address": "1201 W SMITH AVE IOWA PARK TX 76367",
+  "lat": 33.95,
+  "lng": -98.7,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100213214",
+    "additional_id": "1571A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/28/1999",
+    "county": "WICHITA",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

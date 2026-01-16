@@ -1,0 +1,23 @@
+{
+  "id": "f_54cbdada1a48",
+  "slug": "ralston-road-landfill",
+  "name": "RALSTON ROAD LANDFILL",
+  "type": "landfill",
+  "address": "6632 JOHN RALSTON RD HOUSTON TX 77049",
+  "lat": 29.82,
+  "lng": -95.22,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101288645",
+    "additional_id": "2240C",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/09/2020",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

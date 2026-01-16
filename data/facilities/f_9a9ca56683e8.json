@@ -1,0 +1,23 @@
+{
+  "id": "f_9a9ca56683e8",
+  "slug": "ohs-telephone-rd",
+  "name": "OHS TELEPHONE RD",
+  "type": "landfill",
+  "address": "4129 TELEPHONE RD HOUSTON TX 77087",
+  "lat": 29.7,
+  "lng": -95.31,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111252888",
+    "additional_id": "40319",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/30/2021",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

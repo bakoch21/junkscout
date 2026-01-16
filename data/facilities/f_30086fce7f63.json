@@ -1,0 +1,23 @@
+{
+  "id": "f_30086fce7f63",
+  "slug": "city-of-hedley",
+  "name": "CITY OF HEDLEY",
+  "type": "landfill",
+  "address": "HWY 287 TURN RIGHT AT MAIN ST GO TO LINE ST TURN LEFT GO DOWN LINE RD BEFORE BAILEY HAS NO SIGN TURN RIGHT GO DOWN TO DEAD END TURN LEFT AND GO TO LOCKED GATE HEDLEY TX 79237",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111399739",
+    "additional_id": "9022",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "04/13/2022",
+    "county": "DONLEY",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_e7301fdf345f",
+  "slug": "lago-vista-apartments-ltd",
+  "name": "LAGO VISTA APARTMENTS LTD",
+  "type": "landfill",
+  "address": "INSIDE CITY LIMITS OF SAN ANTONIO  ADJACENT TO 4300 BLK OF W COMMERCE ST SAN ANTONIO TX",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101478055",
+    "additional_id": "62003",
+    "physical_type": "CP",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/18/1997",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

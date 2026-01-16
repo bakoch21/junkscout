@@ -1,0 +1,23 @@
+{
+  "id": "f_b6bde707f265",
+  "slug": "fairbanks-landfill",
+  "name": "FAIRBANKS LANDFILL",
+  "type": "landfill",
+  "address": "8205 FAIRBANKS N HOUSTON RD HOUSTON TX 77064",
+  "lat": 29.9,
+  "lng": -95.53,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100218544",
+    "additional_id": "1565B",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/08/2016",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

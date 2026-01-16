@@ -1,0 +1,23 @@
+{
+  "id": "f_92e606fd3272",
+  "slug": "city-of-wichita-falls-landfill",
+  "name": "CITY OF WICHITA FALLS LANDFILL",
+  "type": "landfill",
+  "address": "10984 WILEY RD WICHITA FALLS TX 76308",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103049557",
+    "additional_id": "1428A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/14/2003",
+    "county": "WICHITA",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

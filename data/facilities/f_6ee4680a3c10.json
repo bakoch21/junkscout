@@ -1,0 +1,23 @@
+{
+  "id": "f_6ee4680a3c10",
+  "slug": "city-of-port-arthur-landfill",
+  "name": "CITY OF PORT ARTHUR LANDFILL",
+  "type": "landfill",
+  "address": "4732 HIGHWAY 73 PORT ARTHUR TX 77642",
+  "lat": 29.88,
+  "lng": -94.06,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100225390",
+    "additional_id": "1815A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/22/2006",
+    "county": "JEFFERSON",
+    "region": "REGION 10 - BEAUMONT",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_9e5746568d7a",
+  "slug": "stericycle-el-paso",
+  "name": "STERICYCLE-EL PASO",
+  "type": "landfill",
+  "address": "5307 EL PASO DR EL PASO TX 79905",
+  "lat": 31.79,
+  "lng": -106.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101668812",
+    "additional_id": "40261",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/19/2013",
+    "county": "EL PASO",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

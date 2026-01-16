@@ -1,0 +1,23 @@
+{
+  "id": "f_93885e5d21f3",
+  "slug": "camelot-lf-gas-to-energy-facility",
+  "name": "CAMELOT LF GAS TO ENERGY FACILITY",
+  "type": "landfill",
+  "address": "580 HUFFINES BLVD LEWISVILLE TX 75056",
+  "lat": 33.02,
+  "lng": -96.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105890685",
+    "additional_id": "48028",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/29/2010",
+    "county": "DENTON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

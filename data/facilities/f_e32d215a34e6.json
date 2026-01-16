@@ -1,0 +1,23 @@
+{
+  "id": "f_e32d215a34e6",
+  "slug": "shinchon-grand-plaza",
+  "name": "SHINCHON GRAND PLAZA",
+  "type": "landfill",
+  "address": "SWC OF WALNUT HILL LN & GOODNIGHT LN DALLAS TX 75116",
+  "lat": 32.88,
+  "lng": -96.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105206023",
+    "additional_id": "62020",
+    "physical_type": "CP",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/01/2007",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

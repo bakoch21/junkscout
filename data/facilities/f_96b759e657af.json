@@ -1,0 +1,23 @@
+{
+  "id": "f_96b759e657af",
+  "slug": "senlac-service-center",
+  "name": "SENLAC SERVICE CENTER",
+  "type": "landfill",
+  "address": "13333 SENLAC DR FARMERS BRANCH TX 75234",
+  "lat": 32.92,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102997780",
+    "additional_id": "65021",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/01/2004",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

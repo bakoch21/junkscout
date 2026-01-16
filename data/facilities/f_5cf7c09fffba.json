@@ -1,0 +1,23 @@
+{
+  "id": "f_5cf7c09fffba",
+  "slug": "city-of-carrollton-landfill",
+  "name": "CITY OF CARROLLTON LANDFILL",
+  "type": "landfill",
+  "address": "2155 SANDY LAKE RD CARROLLTON TX 75006",
+  "lat": 32.96,
+  "lng": -96.93,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102335221",
+    "additional_id": "67012",
+    "physical_type": "SUBT",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/06/2017",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

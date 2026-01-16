@@ -1,0 +1,23 @@
+{
+  "id": "f_b879c6345587",
+  "slug": "community-waste-disposal-lp",
+  "name": "COMMUNITY WASTE DISPOSAL LP",
+  "type": "landfill",
+  "address": "2010 CALIFORNIA CROSSING RD DALLAS TX 75220",
+  "lat": 32.86,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102042926",
+    "additional_id": "40196",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/01/2003",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

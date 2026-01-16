@@ -1,0 +1,23 @@
+{
+  "id": "f_c9395afc49dd",
+  "slug": "terrabella-environmental-services",
+  "name": "TERRABELLA ENVIRONMENTAL SERVICES",
+  "type": "landfill",
+  "address": "5376 FM 1784 PLEASANTON TX 78064",
+  "lat": 29.08,
+  "lng": -98.42,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106033178",
+    "additional_id": "40314",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/20/2020",
+    "county": "ATASCOSA",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

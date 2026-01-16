@@ -1,0 +1,23 @@
+{
+  "id": "f_a20aa4a86ae1",
+  "slug": "office-warehouse",
+  "name": "OFFICE/WAREHOUSE",
+  "type": "landfill",
+  "address": "10341 FINNELL ST DALLAS TX 75220",
+  "lat": 32.86,
+  "lng": -96.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105608053",
+    "additional_id": "62023",
+    "physical_type": "CP",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/21/2008",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

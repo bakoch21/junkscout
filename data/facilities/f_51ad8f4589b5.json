@@ -1,0 +1,23 @@
+{
+  "id": "f_51ad8f4589b5",
+  "slug": "city-of-lubbock-landfill",
+  "name": "CITY OF LUBBOCK LANDFILL",
+  "type": "landfill",
+  "address": "8425 AVENUE P LUBBOCK TX 79423",
+  "lat": 33.67,
+  "lng": -101.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102304920",
+    "additional_id": "69",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/01/1995",
+    "county": "LUBBOCK",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

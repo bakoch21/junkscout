@@ -1,0 +1,23 @@
+{
+  "id": "f_2c66c5e79521",
+  "slug": "city-of-gainesville-transfer-station-facility",
+  "name": "CITY OF GAINESVILLE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "601 N INTERSTATE 35 GAINESVILLE TX 76240",
+  "lat": 33.63,
+  "lng": -97.16,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101663821",
+    "additional_id": "1030A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/09/2021",
+    "county": "COOKE",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

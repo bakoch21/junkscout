@@ -1,23 +1,13 @@
 [
   {
-    "name": "Green Option Recycling",
-    "type": "recycling",
-    "address": "2025 Webster Ave Waco TX 76706",
-    "lat": 31.5413949,
-    "lng": -97.1426667,
-    "website": "https://www.greenoptionrecycling.com/",
-    "osm_url": "https://www.openstreetmap.org/node/4544644594",
-    "facility_id": "f_b1166d1e1fa9"
-  },
-  {
-    "name": "Waco Landfill",
+    "name": "CITY OF WACO LANDFILL",
     "type": "landfill",
-    "address": "",
-    "lat": 31.4763832,
-    "lng": -97.2581486,
+    "address": "SITE ENTRANCE IS APPROX 70 FT E OF THE INTERSECTION OF HAPPY SWANER LN AND TK PKWY FM 939 NORTHERN BOUNDARY IS APPROX 0.4 MI FROM STATE ROUTE 31 W WACO TX 76624",
+    "lat": 31.7,
+    "lng": -96.93,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4547543173",
-    "facility_id": "f_94518be0bb59"
+    "source": null,
+    "facility_id": "f_13efda716b58"
   },
   {
     "name": "Cobbs Recycling Center",
@@ -26,8 +16,18 @@
     "lat": 31.5462434,
     "lng": -97.1868365,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/13311971041",
+    "source": null,
     "facility_id": "f_e75b93f7e3b9"
+  },
+  {
+    "name": "Green Option Recycling",
+    "type": "recycling",
+    "address": "2025 Webster Ave Waco TX 76706",
+    "lat": 31.5413949,
+    "lng": -97.1426667,
+    "website": "https://www.greenoptionrecycling.com/",
+    "source": null,
+    "facility_id": "f_b1166d1e1fa9"
   },
   {
     "name": "M. Lipsitz and Company LTD",
@@ -36,7 +36,17 @@
     "lat": 31.5647805,
     "lng": -97.128663,
     "website": "https://www.mlipsitzco.com/",
-    "osm_url": "https://www.openstreetmap.org/way/1452694537",
+    "source": null,
     "facility_id": "f_7593ca2a6f6d"
+  },
+  {
+    "name": "Waco Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 31.4763832,
+    "lng": -97.2581486,
+    "website": null,
+    "source": null,
+    "facility_id": "f_94518be0bb59"
   }
 ]

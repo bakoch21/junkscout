@@ -1,0 +1,23 @@
+{
+  "id": "f_09fba25cae48",
+  "slug": "green-and-gone-north-texas",
+  "name": "GREEN AND GONE NORTH TEXAS",
+  "type": "landfill",
+  "address": "2588 E LONG AVE STE 200 FORT WORTH TX 76137",
+  "lat": 32.81,
+  "lng": -97.31,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105904114",
+    "additional_id": "40300",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/24/2019",
+    "county": "TARRANT",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

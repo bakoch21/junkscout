@@ -1,0 +1,23 @@
+{
+  "id": "f_e55f3536c0e7",
+  "slug": "city-of-breckenridge-monofill",
+  "name": "CITY OF BRECKENRIDGE MONOFILL",
+  "type": "landfill",
+  "address": "1548 FM 287 BRECKENRIDGE TX 76424",
+  "lat": 32.77,
+  "lng": -98.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106058043",
+    "additional_id": "9000B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "05/13/2022",
+    "county": "STEPHENS",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_aad425d0f5b0",
+  "slug": "s-and-m-vacuum-and-waste-lwp",
+  "name": "S & M VACUUM & WASTE LWP",
+  "type": "landfill",
+  "address": "1904 E RANCIER AVE KILLEEN TX 76541",
+  "lat": 31.13,
+  "lng": -97.63,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102888872",
+    "additional_id": "2368",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/02/2011",
+    "county": "BELL",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

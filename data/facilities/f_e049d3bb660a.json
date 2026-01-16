@@ -1,0 +1,23 @@
+{
+  "id": "f_e049d3bb660a",
+  "slug": "city-of-edinburg-type-iv-landfill",
+  "name": "CITY OF EDINBURG TYPE IV LANDFILL",
+  "type": "landfill",
+  "address": "8601 NORTH JASMAN RD EDINBURG TX 78542 EDINBURG TX 78540",
+  "lat": 26.4,
+  "lng": -98.13,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102217734",
+    "additional_id": "2302",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/25/2004",
+    "county": "HIDALGO",
+    "region": "REGION 15 - HARLINGEN",
+    "physical_site_status": "ACTIVE"
+  }
+}

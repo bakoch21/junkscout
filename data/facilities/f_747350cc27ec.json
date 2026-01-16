@@ -1,0 +1,23 @@
+{
+  "id": "f_747350cc27ec",
+  "slug": "city-of-university-park-transfer-station",
+  "name": "CITY OF UNIVERSITY PARK TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "2525 UNIVERSITY BLVD DALLAS TX 75206",
+  "lat": 32.85,
+  "lng": -96.77,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100697663",
+    "additional_id": "227",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/05/1976",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

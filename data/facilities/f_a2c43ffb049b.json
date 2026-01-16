@@ -1,0 +1,23 @@
+{
+  "id": "f_a2c43ffb049b",
+  "slug": "city-of-del-rio-landfill",
+  "name": "CITY OF DEL RIO LANDFILL",
+  "type": "landfill",
+  "address": "1897 RAILWAY DEL RIO TX 78840",
+  "lat": 29.36,
+  "lng": -100.85,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102143294",
+    "additional_id": "207C",
+    "physical_type": "1",
+    "legal_status": "PENDING",
+    "legal_status_date": "03/07/2024",
+    "county": "VAL VERDE",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

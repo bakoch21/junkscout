@@ -1,0 +1,23 @@
+{
+  "id": "f_c84282aacc4c",
+  "slug": "mccommas-bluff-landfill",
+  "name": "MCCOMMAS BLUFF LANDFILL",
+  "type": "landfill",
+  "address": "5100 YOUNGBLOOD RD DALLAS TX 75241",
+  "lat": 32.68,
+  "lng": -96.72,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100752146",
+    "additional_id": "62",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/29/1975",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

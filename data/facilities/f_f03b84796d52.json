@@ -1,0 +1,23 @@
+{
+  "id": "f_f03b84796d52",
+  "slug": "ark-la-tex-shredding",
+  "name": "ARK-LA-TEX SHREDDING",
+  "type": "landfill",
+  "address": "12405 HIGHWAY 155 N TYLER TX 75708",
+  "lat": 32.44,
+  "lng": -95.19,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109988352",
+    "additional_id": "40302",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/25/2019",
+    "county": "SMITH",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

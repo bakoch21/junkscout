@@ -1,0 +1,23 @@
+{
+  "id": "f_f936a76a2ce4",
+  "slug": "city-of-austin",
+  "name": "CITY OF AUSTIN",
+  "type": "landfill",
+  "address": "1901 E 51ST ST AUSTIN TX 78723",
+  "lat": 30.3,
+  "lng": -97.7,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102246501",
+    "additional_id": "65022",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/03/2005",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

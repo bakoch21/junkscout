@@ -1,0 +1,23 @@
+{
+  "id": "f_4f57bbacdcaa",
+  "slug": "hudspeth-county-landfill",
+  "name": "HUDSPETH COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "5.50 MI SE OF DELL CITY DELL CITY TX 79851",
+  "lat": 31.89,
+  "lng": -105.12,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100627660",
+    "additional_id": "495",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/07/1996",
+    "county": "HUDSPETH",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

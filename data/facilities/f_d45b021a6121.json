@@ -1,0 +1,23 @@
+{
+  "id": "f_d45b021a6121",
+  "slug": "city-of-cross-plains",
+  "name": "CITY OF CROSS PLAINS",
+  "type": "landfill",
+  "address": "100 CR 347 CROSS PLAINS TX 76443",
+  "lat": 32.11,
+  "lng": -99.17,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101999357",
+    "additional_id": "9008B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "07/18/2024",
+    "county": "CALLAHAN",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

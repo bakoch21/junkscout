@@ -1,0 +1,23 @@
+{
+  "id": "f_0a20a3316821",
+  "slug": "coker-united-methodist-church-property",
+  "name": "COKER UNITED METHODIST CHURCH PROPERTY",
+  "type": "landfill",
+  "address": "ON SW OF INTX OF W HAUSMAN RD & UNIVERSITY HEIGHTS BLVD SAN ANTONIO TX 78255",
+  "lat": 29.57,
+  "lng": -98.6,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104853213",
+    "additional_id": "67053",
+    "physical_type": "SUBT",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/20/2019",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

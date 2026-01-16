@@ -1,0 +1,23 @@
+{
+  "id": "f_4d9b6eb94222",
+  "slug": "j-v-dirt-loam",
+  "name": "J-V DIRT + LOAM",
+  "type": "landfill",
+  "address": "3600 N FM 973 AUSTIN TX 78725",
+  "lat": 30.27,
+  "lng": -97.73,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101495976",
+    "additional_id": "2310",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/15/2005",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

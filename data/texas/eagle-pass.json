@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "CITY OF EAGLE PASS AND MAVERICK LANDFILL",
+    "type": "landfill",
+    "address": "12.72 MILES NW OF EAGLE PASS  APPROXIMATELY 2090 FEET FROM HIGHWAY 277 AND FM 131 EAGLE PASS TX",
+    "lat": 28.87,
+    "lng": -100.54,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4066f9484f09"
+  }
+]

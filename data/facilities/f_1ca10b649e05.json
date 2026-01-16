@@ -1,0 +1,23 @@
+{
+  "id": "f_1ca10b649e05",
+  "slug": "city-of-cleburne-landfill",
+  "name": "CITY OF CLEBURNE LANDFILL",
+  "type": "landfill",
+  "address": "1700 ISLAND GROVE RD CLEBURNE TX 76031",
+  "lat": 32.4,
+  "lng": -97.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100782663",
+    "additional_id": "534",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/14/1994",
+    "county": "JOHNSON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

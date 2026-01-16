@@ -1,0 +1,23 @@
+{
+  "id": "f_556571292477",
+  "slug": "city-of-monahans-landfill",
+  "name": "CITY OF MONAHANS LANDFILL",
+  "type": "landfill",
+  "address": "1 MI N OF US 80 E 1.5 MI W OF LOOP 1 MI NW OF MONAHANS TX MONAHANS TX 79756",
+  "lat": 31.6,
+  "lng": -102.96,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102289444",
+    "additional_id": "772",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/23/1977",
+    "county": "WARD",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

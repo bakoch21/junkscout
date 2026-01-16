@@ -1,0 +1,23 @@
+{
+  "id": "f_f2354e41aa3c",
+  "slug": "city-of-west-university-landfill",
+  "name": "CITY OF WEST UNIVERSITY LANDFILL",
+  "type": "landfill",
+  "address": "9610 RUFFINO ROAD HOUSTON TX 77031",
+  "lat": 29.66,
+  "lng": -95.55,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103021457",
+    "additional_id": "67058",
+    "physical_type": "SUBT",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/28/2020",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

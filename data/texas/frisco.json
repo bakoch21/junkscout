@@ -6,7 +6,7 @@
     "lat": 33.1146866,
     "lng": -96.7353896,
     "website": "https://www.plano.gov/685/Do-It-Yourself-Disposal",
-    "osm_url": "https://www.openstreetmap.org/way/452292395",
+    "source": null,
     "facility_id": "f_519e1582269b"
   },
   {
@@ -16,7 +16,7 @@
     "lat": 33.1149086,
     "lng": -96.7351259,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/658604109",
+    "source": null,
     "facility_id": "f_d01b26990dff"
   }
 ]

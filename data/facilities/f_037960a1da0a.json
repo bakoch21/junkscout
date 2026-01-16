@@ -1,0 +1,23 @@
+{
+  "id": "f_037960a1da0a",
+  "slug": "cypress-creek-golf-company",
+  "name": "CYPRESS CREEK GOLF COMPANY",
+  "type": "landfill",
+  "address": "4211 CLOW RD HOUSTON TX 77068",
+  "lat": 30,
+  "lng": -95.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101477768",
+    "additional_id": "65025",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/02/2010",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

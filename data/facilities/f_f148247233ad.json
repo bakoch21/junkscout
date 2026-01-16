@@ -1,0 +1,23 @@
+{
+  "id": "f_f148247233ad",
+  "slug": "medsharps-llc-schertz-facility",
+  "name": "MEDSHARPS LLC SCHERTZ FACILITY",
+  "type": "landfill",
+  "address": "17340 BELL NORTH DR SCHERTZ TX 78154",
+  "lat": 29.62,
+  "lng": -98.29,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105823819",
+    "additional_id": "40244",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/15/2010",
+    "county": "COMAL",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

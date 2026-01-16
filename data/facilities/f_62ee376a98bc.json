@@ -1,0 +1,23 @@
+{
+  "id": "f_62ee376a98bc",
+  "slug": "city-of-sanger-railroad-avenue-ballpark",
+  "name": "CITY OF SANGER RAILROAD AVENUE BALLPARK",
+  "type": "landfill",
+  "address": "600 RAILROAD SANGER TX 76266",
+  "lat": 33.32,
+  "lng": -97.17,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101666931",
+    "additional_id": "65043",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/30/2025",
+    "county": "DENTON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

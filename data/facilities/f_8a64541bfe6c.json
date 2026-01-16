@@ -1,0 +1,23 @@
+{
+  "id": "f_8a64541bfe6c",
+  "slug": "itasca-landfill",
+  "name": "ITASCA LANDFILL",
+  "type": "landfill",
+  "address": "2559 FM 66 ITASCA TX 76055",
+  "lat": 32.2,
+  "lng": -97.11,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100213412",
+    "additional_id": "241D",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/20/2012",
+    "county": "HILL",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

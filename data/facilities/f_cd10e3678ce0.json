@@ -1,0 +1,23 @@
+{
+  "id": "f_cd10e3678ce0",
+  "slug": "mcommas-bluff-lfg-processing-facility",
+  "name": "MCOMMAS BLUFF LFG PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "5500 YOUNGBLOOD RD DALLAS TX 75241",
+  "lat": 32.68,
+  "lng": -96.73,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100218569",
+    "additional_id": "48033",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/27/2011",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

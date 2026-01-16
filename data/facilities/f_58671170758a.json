@@ -1,0 +1,23 @@
+{
+  "id": "f_58671170758a",
+  "slug": "city-of-winters",
+  "name": "CITY OF WINTERS",
+  "type": "landfill",
+  "address": "8065 SH 153 E WINTERS TX 79567",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102184330",
+    "additional_id": "9005C",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "03/18/2022",
+    "county": "RUNNELS",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

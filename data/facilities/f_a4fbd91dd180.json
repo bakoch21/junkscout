@@ -1,0 +1,23 @@
+{
+  "id": "f_a4fbd91dd180",
+  "slug": "city-of-coleman-abandoned-and-nuisance-building-site",
+  "name": "CITY OF COLEMAN ABANDONED & NUISANCE BUILDING SITE",
+  "type": "landfill",
+  "address": "APPROX 2250 FT NORTH OF THE INTERSECTION OF US HWY AND CITIZENS CONVENIENCE CENTER RD COLEMAN TX 76834",
+  "lat": 31.86,
+  "lng": -99.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106358153",
+    "additional_id": "9002B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "04/13/2022",
+    "county": "COLEMAN",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_2786109bcff9",
+  "slug": "city-of-haskell-abandoned-building-landfill",
+  "name": "CITY OF HASKELL ABANDONED BUILDING LANDFILL",
+  "type": "landfill",
+  "address": "2.83 MI NW OF THE INTERSECTION OF STATE HWY 380 AND STATE HWY 277 THEN 0.49 MI N AND 0.31 MI E HASKELL TX 79521",
+  "lat": 33.17,
+  "lng": -99.68,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107591927",
+    "additional_id": "9011B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "10/23/2025",
+    "county": "HASKELL",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_be6f4c350cb5",
+  "slug": "blue-ridge-landfill",
+  "name": "BLUE RIDGE LANDFILL",
+  "type": "landfill",
+  "address": "2200 FM 521 RD FRESNO TX 77545",
+  "lat": 29.58,
+  "lng": -95.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102610102",
+    "additional_id": "1505A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/02/2010",
+    "county": "FORT BEND",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

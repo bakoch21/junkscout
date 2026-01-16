@@ -1,0 +1,23 @@
+{
+  "id": "f_bfa7986af72d",
+  "slug": "1959-w-northwest-highway",
+  "name": "1959 W NORTHWEST HIGHWAY",
+  "type": "landfill",
+  "address": "1959 W NORTHWEST HWY DALLAS TX 75220",
+  "lat": 32.77,
+  "lng": -96.78,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101692333",
+    "additional_id": "65029",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/14/2012",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

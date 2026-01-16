@@ -1,0 +1,23 @@
+{
+  "id": "f_7a12a5d23f70",
+  "slug": "edwards-construction-kilgore-liquid-waste-processing-fac",
+  "name": "EDWARDS CONSTRUCTION KILGORE LIQUID WASTE PROCESSING FAC",
+  "type": "landfill",
+  "address": "2821 SH HWY 42 N KILGORE TX 75662",
+  "lat": 32.41,
+  "lng": -94.87,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111033833",
+    "additional_id": "2408",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/22/2021",
+    "county": "GREGG",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

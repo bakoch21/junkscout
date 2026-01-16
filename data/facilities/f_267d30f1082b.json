@@ -1,0 +1,23 @@
+{
+  "id": "f_267d30f1082b",
+  "slug": "municipal-solid-waste-transfer-station-burnet-county",
+  "name": "MUNICIPAL SOLID WASTE TRANSFER STATION BURNET COUNTY",
+  "type": "transfer_station",
+  "address": "2411 RR 963 BURNET TX 78611",
+  "lat": 30.79,
+  "lng": -98.21,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102218286",
+    "additional_id": "40035",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/17/1994",
+    "county": "BURNET",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

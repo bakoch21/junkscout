@@ -1,0 +1,23 @@
+{
+  "id": "f_3e9b26c78eb8",
+  "slug": "baytown-landfill-facility",
+  "name": "BAYTOWN LANDFILL FACILITY",
+  "type": "landfill",
+  "address": "4791 TRI CITY BEACH RD BAYTOWN TX 77523",
+  "lat": 29.68,
+  "lng": -94.93,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100222470",
+    "additional_id": "1535B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/23/1998",
+    "county": "CHAMBERS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

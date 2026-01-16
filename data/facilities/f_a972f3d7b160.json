@@ -1,0 +1,23 @@
+{
+  "id": "f_a972f3d7b160",
+  "slug": "city-of-waco-landfill",
+  "name": "CITY OF WACO LANDFILL",
+  "type": "landfill",
+  "address": "11400 OLD MCGREGOR RD WACO TX 76712",
+  "lat": 31.47,
+  "lng": -97.26,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102804051",
+    "additional_id": "948A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/21/1987",
+    "county": "MCLENNAN",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

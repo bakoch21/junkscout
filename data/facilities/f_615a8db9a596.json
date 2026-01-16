@@ -1,0 +1,23 @@
+{
+  "id": "f_615a8db9a596",
+  "slug": "city-of-stamford-building-demolition-lf",
+  "name": "CITY OF STAMFORD BUILDING DEMOLITION LF",
+  "type": "landfill",
+  "address": "W ON TX HWY 6 FROM US HWY 277 INTERSEC FOR LESS THEN 1 MILE LOCATED AT INTERSEC OF HWY 6 & HASKELL CO RD NORTH SIDE OF HWY 6 STAMFORD TX 79663",
+  "lat": 32.97,
+  "lng": -99.8,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107328122",
+    "additional_id": "9009B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "05/16/2025",
+    "county": "HASKELL",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

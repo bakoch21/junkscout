@@ -1,0 +1,23 @@
+{
+  "id": "f_85d95d5ab967",
+  "slug": "city-of-shamrock-municipal-landfill",
+  "name": "CITY OF SHAMROCK MUNICIPAL LANDFILL",
+  "type": "landfill",
+  "address": "ABOUT 1.5 MI NW OF CITY LIMITS OF SHAMROCK IN WHEELER COUNTY SHAMROCK TX 79079",
+  "lat": 35.25,
+  "lng": -100.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101507325",
+    "additional_id": "2281A",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/13/2021",
+    "county": "WHEELER",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_aefee845919a",
+  "slug": "security-renewable-natural-gas-facility",
+  "name": "SECURITY RENEWABLE NATURAL GAS FACILITY",
+  "type": "landfill",
+  "address": "19248 HIGHWAY 105 CLEVELAND TX 77328",
+  "lat": 30.32,
+  "lng": -95.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100218700",
+    "additional_id": "48056",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/28/2024",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

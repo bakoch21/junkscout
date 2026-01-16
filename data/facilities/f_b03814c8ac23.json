@@ -1,0 +1,23 @@
+{
+  "id": "f_b03814c8ac23",
+  "slug": "biocycle",
+  "name": "BIOCYCLE",
+  "type": "landfill",
+  "address": "8783 US HWY NO 60 AMARILLO TX 79108",
+  "lat": 35.22,
+  "lng": -100.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106454895",
+    "additional_id": "40263",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/18/2013",
+    "county": "POTTER",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

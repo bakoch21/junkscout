@@ -1,0 +1,23 @@
+{
+  "id": "f_da5e1310d4c6",
+  "slug": "travis-county-landfill",
+  "name": "TRAVIS COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "9600 FM 812 AUSTIN TX 78719",
+  "lat": 30.17,
+  "lng": -97.68,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101288272",
+    "additional_id": "1841C",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/02/2024",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

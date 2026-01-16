@@ -1,0 +1,23 @@
+{
+  "id": "f_8a48306891ab",
+  "slug": "post-oak-msw-landfill",
+  "name": "POST OAK MSW LANDFILL",
+  "type": "landfill",
+  "address": "7787 FM RD 1150 SEGUIN TX 78155",
+  "lat": 29.61,
+  "lng": -97.72,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106314990",
+    "additional_id": "2378",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/23/2018",
+    "county": "GUADALUPE",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

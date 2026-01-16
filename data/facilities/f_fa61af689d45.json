@@ -1,0 +1,23 @@
+{
+  "id": "f_fa61af689d45",
+  "slug": "new-earth",
+  "name": "NEW EARTH",
+  "type": "landfill",
+  "address": "7800 E IH 10 SAN ANTONIO TX 78219",
+  "lat": 29.45,
+  "lng": -98.34,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100847409",
+    "additional_id": "42032",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/16/2008",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

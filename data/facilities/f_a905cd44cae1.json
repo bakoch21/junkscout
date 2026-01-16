@@ -1,0 +1,23 @@
+{
+  "id": "f_a905cd44cae1",
+  "slug": "city-of-stanton-landfill",
+  "name": "CITY OF STANTON LANDFILL",
+  "type": "landfill",
+  "address": "3801 INTERSTATE 20 STANTON TX 79782",
+  "lat": 32.16,
+  "lng": -101.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102000114",
+    "additional_id": "2189",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/16/1991",
+    "county": "MARTIN",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

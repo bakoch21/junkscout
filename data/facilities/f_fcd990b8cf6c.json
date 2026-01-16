@@ -1,0 +1,23 @@
+{
+  "id": "f_fcd990b8cf6c",
+  "slug": "city-of-haskell-landfill",
+  "name": "CITY OF HASKELL LANDFILL",
+  "type": "landfill",
+  "address": "4.2 MI E OF HASKELL ON SH-380  300 FT N @ FM RD 618 HASKELL TX",
+  "lat": 33.17,
+  "lng": -99.64,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102214624",
+    "additional_id": "1604B",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/10/1993",
+    "county": "HASKELL",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

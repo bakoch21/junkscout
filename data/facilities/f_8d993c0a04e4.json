@@ -1,0 +1,23 @@
+{
+  "id": "f_8d993c0a04e4",
+  "slug": "city-of-san-antonio-transfer-station",
+  "name": "CITY OF SAN ANTONIO TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "11600 BLOCK OF STARCREST DRIVE SAN ANTONIO TX",
+  "lat": 29.54,
+  "lng": -98.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103052460",
+    "additional_id": "1443",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/17/1981",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_1f6329cbc20f",
+  "slug": "vital-earth-resources-composting-facility",
+  "name": "VITAL EARTH RESOURCES COMPOSTING FACILITY",
+  "type": "recycling",
+  "address": "7940 US HIGHWAY 80 BIG SANDY TX 75755",
+  "lat": 32.57,
+  "lng": -95.05,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101477560",
+    "additional_id": "356",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/18/1976",
+    "county": "UPSHUR",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_73fb951b2840",
+  "slug": "abilene-environmental-landfill-inc",
+  "name": "ABILENE ENVIRONMENTAL LANDFILL INC",
+  "type": "landfill",
+  "address": "1983 FM 3034 ABILENE TX 79601",
+  "lat": 32.53,
+  "lng": -99.76,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104130604",
+    "additional_id": "2325",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/06/2005",
+    "county": "JONES",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

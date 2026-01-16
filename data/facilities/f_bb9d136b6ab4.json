@@ -1,0 +1,23 @@
+{
+  "id": "f_bb9d136b6ab4",
+  "slug": "liquid-environmental-solutions-of-texas-weslaco-facility",
+  "name": "LIQUID ENVIRONMENTAL SOLUTIONS OF TEXAS WESLACO FACILITY",
+  "type": "landfill",
+  "address": "1821 E SUGARCANE DR WESLACO TX 78599",
+  "lat": 26.18,
+  "lng": -97.97,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN104778501",
+    "additional_id": "2346",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/16/2006",
+    "county": "HIDALGO",
+    "region": "REGION 15 - HARLINGEN",
+    "physical_site_status": "ACTIVE"
+  }
+}

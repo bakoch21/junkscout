@@ -1,0 +1,23 @@
+{
+  "id": "f_87f8d2547e6c",
+  "slug": "city-of-stephenville-landfill",
+  "name": "CITY OF STEPHENVILLE LANDFILL",
+  "type": "landfill",
+  "address": "669 CO RD 385 STEPHENVILLE TX 76401",
+  "lat": 32.18,
+  "lng": -98.29,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102214566",
+    "additional_id": "664",
+    "physical_type": "4",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/10/1996",
+    "county": "ERATH",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

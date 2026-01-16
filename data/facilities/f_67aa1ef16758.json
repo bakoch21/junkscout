@@ -1,0 +1,23 @@
+{
+  "id": "f_67aa1ef16758",
+  "slug": "130-environmental-park",
+  "name": "130 ENVIRONMENTAL PARK",
+  "type": "landfill",
+  "address": "NORTH OF US HWY 183 APPROX 1500 FT NORTH OF FARM TO MARKET RD 1185 TO SITE ENTRANCE RD ON EAST SIDE OF US HWY 183 LOCKHART TX 78644",
+  "lat": 29.97,
+  "lng": -97.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106897036",
+    "additional_id": "2383",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/11/2017",
+    "county": "CALDWELL",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

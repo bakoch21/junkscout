@@ -1,0 +1,23 @@
+{
+  "id": "f_f5a24900e829",
+  "slug": "city-of-cleburne-transfer-station-facility",
+  "name": "CITY OF CLEBURNE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "2625 PIPELINE RD CLEBURNE TX 76031",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102521606",
+    "additional_id": "40168",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/30/2001",
+    "county": "JOHNSON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

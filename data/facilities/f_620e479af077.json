@@ -1,0 +1,23 @@
+{
+  "id": "f_620e479af077",
+  "slug": "city-of-san-saba-transfer-station",
+  "name": "CITY OF SAN SABA TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "303 S CLEAR ST SAN SABA TX 76877",
+  "lat": 31.2,
+  "lng": -98.68,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101289759",
+    "additional_id": "40160",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/18/1999",
+    "county": "SAN SABA",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

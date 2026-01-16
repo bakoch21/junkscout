@@ -1,0 +1,23 @@
+{
+  "id": "f_e5aedf141334",
+  "slug": "dallas-freightliner-3040-irving-blvd",
+  "name": "DALLAS FREIGHTLINER- 3040 IRVING BLVD",
+  "type": "landfill",
+  "address": "3040 IRVING BLVD DALLAS TX 75247",
+  "lat": 32.81,
+  "lng": -96.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101515336",
+    "additional_id": "65035",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/13/2017",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

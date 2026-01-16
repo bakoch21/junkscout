@@ -1,0 +1,23 @@
+{
+  "id": "f_2503eda3c80b",
+  "slug": "7250-fm-1346",
+  "name": "7250 FM 1346",
+  "type": "landfill",
+  "address": "7250 FM 1346 SAN ANTONIO TX 78220",
+  "lat": 29.42,
+  "lng": -98.35,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111070553",
+    "additional_id": "40316",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/09/2020",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

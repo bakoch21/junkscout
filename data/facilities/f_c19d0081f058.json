@@ -1,0 +1,23 @@
+{
+  "id": "f_c19d0081f058",
+  "slug": "river-city-recycles",
+  "name": "RIVER CITY RECYCLES",
+  "type": "recycling",
+  "address": "8000 DAFFAN LN AUSTIN TX 78724",
+  "lat": 30.32,
+  "lng": -97.62,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105380380",
+    "additional_id": "40243",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/15/2010",
+    "county": "TRAVIS",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

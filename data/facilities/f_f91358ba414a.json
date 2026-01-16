@@ -1,0 +1,23 @@
+{
+  "id": "f_f91358ba414a",
+  "slug": "city-of-mesquite-transfer-station-facility",
+  "name": "CITY OF MESQUITE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1101 E MAIN ST MESQUITE TX 75149",
+  "lat": 32.55,
+  "lng": -96.58,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100556414",
+    "additional_id": "1263",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/02/1979",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

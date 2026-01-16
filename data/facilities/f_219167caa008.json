@@ -1,0 +1,23 @@
+{
+  "id": "f_219167caa008",
+  "slug": "city-of-amarillo-transfer-station",
+  "name": "CITY OF AMARILLO TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "811 SE 27TH AVE AMARILLO TX 79103",
+  "lat": 35.19,
+  "lng": -101.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102071743",
+    "additional_id": "76A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/08/2009",
+    "county": "POTTER",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

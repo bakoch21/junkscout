@@ -1,0 +1,23 @@
+{
+  "id": "f_a4e0d01984dc",
+  "slug": "stericycle-austin-autoclave",
+  "name": "STERICYCLE AUSTIN AUTOCLAVE",
+  "type": "landfill",
+  "address": "2607 HIGHWAY 21 W DALE TX 78616",
+  "lat": 30.06,
+  "lng": -97.61,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102942885",
+    "additional_id": "2260A",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/05/2007",
+    "county": "BASTROP",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

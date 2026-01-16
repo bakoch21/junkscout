@@ -1,0 +1,23 @@
+{
+  "id": "f_0b679782fad5",
+  "slug": "dfw-recycling-and-disposal-facility",
+  "name": "DFW RECYCLING AND DISPOSAL FACILITY",
+  "type": "recycling",
+  "address": "1600 S RAILROAD ST LEWISVILLE TX 75057",
+  "lat": 33.02,
+  "lng": -96.96,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100542257",
+    "additional_id": "1025B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/04/1999",
+    "county": "DENTON",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

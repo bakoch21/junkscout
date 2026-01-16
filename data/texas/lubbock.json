@@ -1,13 +1,23 @@
 [
   {
-    "name": "Recycling Drop-Off Center",
-    "type": "recycling",
-    "address": "208 Municipal Drive Lubbock",
-    "lat": 33.6027871,
-    "lng": -101.837503,
+    "name": "Caliche Canyon Landfill",
+    "type": "landfill",
+    "address": "8425 North Avenue P Lubbock TX 79403",
+    "lat": 33.6720515,
+    "lng": -101.8580447,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/422848223",
-    "facility_id": "f_c1f28f77d4dd"
+    "source": null,
+    "facility_id": "f_446e93d212db"
+  },
+  {
+    "name": "CITY OF MULESHOE LANDFILL",
+    "type": "landfill",
+    "address": "1.0 MILES E OF THE MULESHOE CITY LIMITS ON US HIGHWAY 84 APPROXIMATELY 1.8 MILES SE OF THE INTERSECTION OF US HIGHWAY 84 AND STATE HIGHWAY 214 LUBBOCK TX 79347",
+    "lat": 34.77,
+    "lng": -102.55,
+    "website": null,
+    "source": null,
+    "facility_id": "f_db35d322e080"
   },
   {
     "name": "City Recycling Station",
@@ -16,8 +26,18 @@
     "lat": 33.5258193,
     "lng": -101.959481,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/470019657",
+    "source": null,
     "facility_id": "f_86afd4ef18ab"
+  },
+  {
+    "name": "Recycling Drop-Off Center",
+    "type": "recycling",
+    "address": "208 Municipal Drive Lubbock",
+    "lat": 33.6027871,
+    "lng": -101.837503,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c1f28f77d4dd"
   },
   {
     "name": "Southside Recycling Center",
@@ -26,17 +46,17 @@
     "lat": 33.5163799,
     "lng": -101.854952,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/583388280",
+    "source": null,
     "facility_id": "f_37b53fe48de2"
   },
   {
-    "name": "Caliche Canyon Landfill",
+    "name": "STERICYCLE LUBBOCK",
     "type": "landfill",
-    "address": "8425 North Avenue P Lubbock TX 79403",
-    "lat": 33.6720515,
-    "lng": -101.8580447,
+    "address": "2901 NE LOOP 289 LUBBOCK TX 79403",
+    "lat": 33.61,
+    "lng": -101.8,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/678974718",
-    "facility_id": "f_446e93d212db"
+    "source": null,
+    "facility_id": "f_d1026ed91194"
   }
 ]

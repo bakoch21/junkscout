@@ -1,0 +1,23 @@
+{
+  "id": "f_a25bd9eade7c",
+  "slug": "city-of-meadow-landfill",
+  "name": "CITY OF MEADOW LANDFILL",
+  "type": "landfill",
+  "address": "663 COUNTY ROAD 545 MEADOW TX 79345",
+  "lat": 33.3,
+  "lng": -102.19,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101570976",
+    "additional_id": "2293C",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "PENDING",
+    "legal_status_date": "08/09/2024",
+    "county": "TERRY",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_e7a0b183751f",
+  "slug": "nelson-gardens-energy-plant",
+  "name": "NELSON GARDENS ENERGY PLANT",
+  "type": "landfill",
+  "address": "8339 COVEL RD SAN ANTONIO TX 78252",
+  "lat": 29.34,
+  "lng": -98.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101478238",
+    "additional_id": "48039",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/20/2017",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

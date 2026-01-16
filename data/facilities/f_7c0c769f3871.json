@@ -1,0 +1,23 @@
+{
+  "id": "f_7c0c769f3871",
+  "slug": "city-of-weatherford-landfill",
+  "name": "CITY OF WEATHERFORD LANDFILL",
+  "type": "landfill",
+  "address": "3131 OLD BROCK RD WEATHERFORD TX 76087",
+  "lat": 32.72,
+  "lng": -97.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100617984",
+    "additional_id": "47A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/17/2007",
+    "county": "PARKER",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

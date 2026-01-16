@@ -1,0 +1,23 @@
+{
+  "id": "f_856b1b60c67c",
+  "slug": "fort-cavazos-landfill",
+  "name": "FORT CAVAZOS LANDFILL",
+  "type": "landfill",
+  "address": "4255 TURKEY RUN RD BLDG 56134 FORT CAVAZOS TX 76544",
+  "lat": 31.16,
+  "lng": -97.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102778149",
+    "additional_id": "1866",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/25/1991",
+    "county": "CORYELL",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

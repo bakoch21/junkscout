@@ -1,0 +1,23 @@
+{
+  "id": "f_9d48d0839b03",
+  "slug": "gw-transfer-station",
+  "name": "GW TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "950 MCCARTY ST HOUSTON TX 77029",
+  "lat": 29.77,
+  "lng": -95.28,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100679703",
+    "additional_id": "40287",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/17/2017",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

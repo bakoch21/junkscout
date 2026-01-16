@@ -1,0 +1,23 @@
+{
+  "id": "f_0edab95b6c40",
+  "slug": "triple-s-compost-facility",
+  "name": "TRIPLE-S COMPOST FACILITY",
+  "type": "recycling",
+  "address": "THE SITE IS 0.5 MI N OF TX 105 ACCESSED VIA A PRIVATE RD ROAD EXTENDS N FROM TX 105 AT A POINT 1 MI E OF THE OLD WHY 105 EAST TX 105 INTERSECTION CONROE TX 77306",
+  "lat": 33.03,
+  "lng": -95.29,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN110106093",
+    "additional_id": "42042",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/30/2018",
+    "county": "MONTGOMERY",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

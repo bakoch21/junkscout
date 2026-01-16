@@ -1,0 +1,23 @@
+{
+  "id": "f_046ba3e70bf8",
+  "slug": "city-of-laredo-landfill",
+  "name": "CITY OF LAREDO LANDFILL",
+  "type": "landfill",
+  "address": "6912 HWY 359 LAREDO TX 78043",
+  "lat": 27.49,
+  "lng": -99.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102327582",
+    "additional_id": "1693B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/04/2016",
+    "county": "WEBB",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

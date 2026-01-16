@@ -1,0 +1,23 @@
+{
+  "id": "f_f5cb3dd786ab",
+  "slug": "city-of-ballinger-abandoned-and-nuisance-building",
+  "name": "CITY OF BALLINGER ABANDONED & NUISANCE BUILDING",
+  "type": "landfill",
+  "address": "FACILITY IS LOCATED APPROX 3580 FT E OF SH 67 AND CO RD 122 INTERSECTION BALLINGER TX 76821",
+  "lat": 31.74,
+  "lng": -99.93,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107867772",
+    "additional_id": "9013B",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "11/18/2025",
+    "county": "RUNNELS",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

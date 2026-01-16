@@ -1,0 +1,23 @@
+{
+  "id": "f_bd2ee542d863",
+  "slug": "gulf-west-landfill-tx-lp",
+  "name": "GULF WEST LANDFILL TX LP",
+  "type": "landfill",
+  "address": "2601 JENKINS RD ANAHUAC TX",
+  "lat": 29.8,
+  "lng": -94.53,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102151099",
+    "additional_id": "39039",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/02/2003",
+    "county": "CHAMBERS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

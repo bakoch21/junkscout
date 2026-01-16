@@ -1,0 +1,23 @@
+{
+  "id": "f_acbb2caedfbd",
+  "slug": "hardy-road-transfer-station",
+  "name": "HARDY ROAD TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "18784 E HARDY RD HOUSTON TX 77073",
+  "lat": 30,
+  "lng": -95.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100210673",
+    "additional_id": "1578",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/14/1984",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

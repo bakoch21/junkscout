@@ -1,0 +1,23 @@
+{
+  "id": "f_2fbfc09dc587",
+  "slug": "city-of-waco-transfer-station-facility",
+  "name": "CITY OF WACO TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "6171 S UNIVERSITY PARKS DRIVE WACO TX 76706",
+  "lat": 31.5,
+  "lng": -97.08,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106117625",
+    "additional_id": "40338",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "06/13/2024",
+    "county": "MCLENNAN",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

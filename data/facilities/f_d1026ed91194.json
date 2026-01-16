@@ -1,0 +1,23 @@
+{
+  "id": "f_d1026ed91194",
+  "slug": "stericycle-lubbock",
+  "name": "STERICYCLE LUBBOCK",
+  "type": "landfill",
+  "address": "2901 NE LOOP 289 LUBBOCK TX 79403",
+  "lat": 33.61,
+  "lng": -101.8,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101287787",
+    "additional_id": "40279",
+    "physical_type": "5MWTS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/26/2015",
+    "county": "LUBBOCK",
+    "region": "REGION 02 - LUBBOCK",
+    "physical_site_status": "ACTIVE"
+  }
+}

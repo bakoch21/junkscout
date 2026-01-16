@@ -1,0 +1,23 @@
+{
+  "id": "f_47ffb41fc0d6",
+  "slug": "egbert-transfer-station",
+  "name": "EGBERT TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "5200 EGBERT ST HOUSTON TX 77007",
+  "lat": 29.78,
+  "lng": -95.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102913290",
+    "additional_id": "40189",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "11/06/2002",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

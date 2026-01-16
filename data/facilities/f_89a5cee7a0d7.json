@@ -1,0 +1,23 @@
+{
+  "id": "f_89a5cee7a0d7",
+  "slug": "city-of-fredericksburg-landfill",
+  "name": "CITY OF FREDERICKSBURG LANDFILL",
+  "type": "landfill",
+  "address": "204 LANDFILL LN FREDERICKSBURG TX 78624",
+  "lat": 30.27,
+  "lng": -98.84,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102211844",
+    "additional_id": "1995",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/08/1990",
+    "county": "GILLESPIE",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

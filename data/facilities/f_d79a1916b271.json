@@ -1,0 +1,23 @@
+{
+  "id": "f_d79a1916b271",
+  "slug": "victoria-compost-facility",
+  "name": "VICTORIA COMPOST FACILITY",
+  "type": "recycling",
+  "address": "18545 FM 1686, BLOOMINGTON, TX  77951 BLOOMINGTON TX 77951",
+  "lat": 28.69,
+  "lng": -96.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN105349252",
+    "additional_id": "42034",
+    "physical_type": "5RC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/22/2008",
+    "county": "VICTORIA",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

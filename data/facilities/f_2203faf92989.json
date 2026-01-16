@@ -1,0 +1,23 @@
+{
+  "id": "f_2203faf92989",
+  "slug": "royal-oaks-landfill",
+  "name": "ROYAL OAKS  LANDFILL",
+  "type": "landfill",
+  "address": "608 CR 4102 JACKSONVILLE TX 75766",
+  "lat": 32,
+  "lng": -95.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101927010",
+    "additional_id": "1614B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/15/2025",
+    "county": "CHEROKEE",
+    "region": "REGION 05 - TYLER",
+    "physical_site_status": "ACTIVE"
+  }
+}

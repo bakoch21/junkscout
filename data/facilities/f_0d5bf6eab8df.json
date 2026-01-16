@@ -1,0 +1,23 @@
+{
+  "id": "f_0d5bf6eab8df",
+  "slug": "north-texas-municipal-water-district-transfer-station",
+  "name": "NORTH TEXAS MUNICIPAL WATER DISTRICT TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "1601 E LOOKOUT DR RICHARDSON TX 75082",
+  "lat": 32.59,
+  "lng": -96.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102778438",
+    "additional_id": "53A",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/18/2014",
+    "county": "COLLIN",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

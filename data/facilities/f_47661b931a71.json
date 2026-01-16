@@ -1,0 +1,23 @@
+{
+  "id": "f_47661b931a71",
+  "slug": "envirotech-waste-solutions-medical-waste-processing-and-storage-facility",
+  "name": "ENVIROTECH WASTE SOLUTIONS MEDICAL WASTE PROCESSING & STORAGE FACILITY",
+  "type": "landfill",
+  "address": "722 MCKINZIE RD CORPUS CHRISTI TX 78410",
+  "lat": 27.8,
+  "lng": -97.57,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106950827",
+    "additional_id": "40270",
+    "physical_type": "5MW",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/11/2014",
+    "county": "NUECES",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

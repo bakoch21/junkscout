@@ -1,0 +1,23 @@
+{
+  "id": "f_d98330e3500b",
+  "slug": "city-of-brady-landfill",
+  "name": "CITY OF BRADY LANDFILL",
+  "type": "landfill",
+  "address": "ON US HWY 87 W 5 MI NW OF BRADY BRADY TX 76825",
+  "lat": 31.18,
+  "lng": -99.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102003811",
+    "additional_id": "1732",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/11/1986",
+    "county": "MCCULLOCH",
+    "region": "REGION 08 - SAN ANGELO",
+    "physical_site_status": "ACTIVE"
+  }
+}

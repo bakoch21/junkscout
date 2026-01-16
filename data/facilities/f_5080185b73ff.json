@@ -1,0 +1,23 @@
+{
+  "id": "f_5080185b73ff",
+  "slug": "town-of-van-horn-old-wastewater-collection-pond",
+  "name": "TOWN OF VAN HORN OLD WASTEWATER COLLECTION POND",
+  "type": "landfill",
+  "address": "806 SW FRONTAGE RD VAN HORN TX 79855",
+  "lat": 31.03,
+  "lng": -104.82,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106635220",
+    "additional_id": "9006C",
+    "physical_type": "MONOFILL",
+    "legal_status": "ACKNOWLEDGED",
+    "legal_status_date": "03/28/2025",
+    "county": "CULBERSON",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

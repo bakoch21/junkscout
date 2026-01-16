@@ -1,0 +1,23 @@
+{
+  "id": "f_54bb82a7fb39",
+  "slug": "whispering-pines-landfill",
+  "name": "WHISPERING PINES LANDFILL",
+  "type": "landfill",
+  "address": "8101 LITTLE YORK RD HOUSTON TX 77016",
+  "lat": 29.88,
+  "lng": -95.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100216878",
+    "additional_id": "1193",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/06/1984",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

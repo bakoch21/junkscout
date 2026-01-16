@@ -1,0 +1,23 @@
+{
+  "id": "f_20cbfacabaf1",
+  "slug": "southwest-landfill-tx-lp",
+  "name": "SOUTHWEST LANDFILL TX LP",
+  "type": "landfill",
+  "address": "20700 HELIUM RD CANYON TX 79015",
+  "lat": 35,
+  "lng": -101.96,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102064151",
+    "additional_id": "1663C",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/20/2020",
+    "county": "RANDALL",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

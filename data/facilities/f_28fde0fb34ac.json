@@ -1,0 +1,23 @@
+{
+  "id": "f_28fde0fb34ac",
+  "slug": "inwood-trade-center-business-park",
+  "name": "INWOOD TRADE CENTER BUSINESS PARK",
+  "type": "landfill",
+  "address": "1121 CONVEYOR LN DALLAS TX 75247",
+  "lat": 32.81,
+  "lng": -96.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111080297",
+    "additional_id": "65038",
+    "physical_type": "CR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/27/2020",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

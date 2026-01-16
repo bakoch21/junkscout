@@ -1,0 +1,23 @@
+{
+  "id": "f_6c403b1c6233",
+  "slug": "fort-clark-springs-association-inc-landfill",
+  "name": "FORT CLARK SPRINGS ASSOCIATION INC LANDFILL",
+  "type": "landfill",
+  "address": "1689 HWY 90 BRACKETTVILLE BRACKETTVILLE TX 78832",
+  "lat": 29.3,
+  "lng": -100.42,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102336302",
+    "additional_id": "2354",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/09/2008",
+    "county": "KINNEY",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

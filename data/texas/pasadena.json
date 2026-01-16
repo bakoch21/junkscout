@@ -1,32 +1,22 @@
 [
   {
-    "name": "Green Center",
+    "name": "GREENSHADOWS LANDFILL",
+    "type": "landfill",
+    "address": "710 JANA LN PASADENA TX 77503",
+    "lat": 29.7,
+    "lng": -95.15,
+    "website": null,
+    "source": null,
+    "facility_id": "f_86ff46abeb8a"
+  },
+  {
+    "name": "LONE STAR SRD SHREDDING RECYCLING DISPOSAL",
     "type": "recycling",
-    "address": "",
-    "lat": 29.7211792,
-    "lng": -94.9884887,
+    "address": "712 PASADENA FWY PASADENA TX 77506",
+    "lat": 29.71,
+    "lng": -95.2,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/837714494",
-    "facility_id": "f_d01b27cca8dc"
-  },
-  {
-    "name": "Greenshadow Landfill",
-    "type": "landfill",
-    "address": "710 Jana Lane Pasadena TX 77503",
-    "lat": 29.6961628,
-    "lng": -95.1474276,
-    "website": "https://www.wmsolutions.com/locations/details/id/103",
-    "osm_url": "https://www.openstreetmap.org/way/390096551",
-    "facility_id": "f_2454b98b1295"
-  },
-  {
-    "name": "Greenbelt Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.6238286,
-    "lng": -95.191411,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/399714155",
-    "facility_id": "f_4627fcd477b4"
+    "source": null,
+    "facility_id": "f_4d7a92fe652b"
   }
 ]

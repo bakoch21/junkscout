@@ -1,0 +1,23 @@
+{
+  "id": "f_5e002b4d4e1c",
+  "slug": "regional-landfill-of-brownwood",
+  "name": "REGIONAL LANDFILL OF BROWNWOOD",
+  "type": "landfill",
+  "address": "6800 FM 45 S BROWNWOOD TX 76801",
+  "lat": 31.65,
+  "lng": -98.96,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100216498",
+    "additional_id": "1562A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/30/1998",
+    "county": "BROWN",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}

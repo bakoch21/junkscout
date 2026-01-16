@@ -1,0 +1,23 @@
+{
+  "id": "f_08a031486a83",
+  "slug": "cactus-reclamation-services-llc",
+  "name": "CACTUS RECLAMATION SERVICES LLC",
+  "type": "landfill",
+  "address": "3851 MILLERS FERRY RD WILMER TX 75172",
+  "lat": 32.56,
+  "lng": -96.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109393413",
+    "additional_id": "2393",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/18/2017",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_f62a5d20fca5",
+  "slug": "121-rdf-lfg-treatment-facility",
+  "name": "121 RDF LFG TREATMENT FACILITY",
+  "type": "landfill",
+  "address": "3820 SAM RAYBURN HWY MELISSA TX 75454",
+  "lat": 33.3,
+  "lng": -96.53,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109503631",
+    "additional_id": "48042",
+    "physical_type": "9GR",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/04/2017",
+    "county": "COLLIN",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

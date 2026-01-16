@@ -1,0 +1,23 @@
+{
+  "id": "f_d7c12affc8a2",
+  "slug": "bastrop-transfer-station",
+  "name": "BASTROP TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "2019 SH 121 W CEDAR CREEK TX 78612",
+  "lat": 30.75,
+  "lng": -97.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN109707794",
+    "additional_id": "40291",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/29/2018",
+    "county": "BASTROP",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

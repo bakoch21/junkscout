@@ -1,0 +1,23 @@
+{
+  "id": "f_3b8bd86b0011",
+  "slug": "mediwaste-medical-waste-treatment-facility",
+  "name": "MEDIWASTE MEDICAL WASTE TREATMENT FACILITY",
+  "type": "landfill",
+  "address": "381 S DARRINGTON RD HORIZON CITY TX 79928",
+  "lat": 31.74,
+  "lng": -106.19,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN106420987",
+    "additional_id": "40262",
+    "physical_type": "5AC",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/11/2013",
+    "county": "EL PASO",
+    "region": "REGION 06 - EL PASO",
+    "physical_site_status": "ACTIVE"
+  }
+}

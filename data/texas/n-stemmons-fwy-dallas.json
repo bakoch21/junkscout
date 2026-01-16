@@ -1,0 +1,22 @@
+[
+  {
+    "name": "1323 N STEMMONS FWY",
+    "type": "landfill",
+    "address": "1323 N STEMMONS FWY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.81,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d6dc4bb2c651"
+  },
+  {
+    "name": "INFLOW INC",
+    "type": "landfill",
+    "address": "1333 N STEMMONS FWY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.82,
+    "website": null,
+    "source": null,
+    "facility_id": "f_53b89bc352cd"
+  }
+]

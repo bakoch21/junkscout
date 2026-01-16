@@ -1,0 +1,23 @@
+{
+  "id": "f_5705ca29d03a",
+  "slug": "matagorda-county-transfer-station",
+  "name": "MATAGORDA COUNTY TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "679 COUNTY ROAD 147 BAY CITY TX 77414",
+  "lat": 28.75,
+  "lng": -95.94,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101477941",
+    "additional_id": "40028",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/30/1995",
+    "county": "MATAGORDA",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_3bf8c8820085",
+  "slug": "ec-enterprises",
+  "name": "EC ENTERPRISES",
+  "type": "landfill",
+  "address": "21090 FM 1303 ELMENDORF TX 78112",
+  "lat": 29.21,
+  "lng": -98.35,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN111115069",
+    "additional_id": "2409",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/29/2022",
+    "county": "BEXAR",
+    "region": "REGION 13 - SAN ANTONIO",
+    "physical_site_status": "ACTIVE"
+  }
+}

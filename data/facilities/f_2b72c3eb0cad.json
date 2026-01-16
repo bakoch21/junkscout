@@ -1,0 +1,23 @@
+{
+  "id": "f_2b72c3eb0cad",
+  "slug": "tri-state-recycling-texline-transfer",
+  "name": "TRI-STATE RECYCLING TEXLINE TRANSFER",
+  "type": "transfer_station",
+  "address": "HWY 296 E TEXLINE TX 79087",
+  "lat": 36.38,
+  "lng": -103.03,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN107045064",
+    "additional_id": "40271",
+    "physical_type": "5TS",
+    "legal_status": "ISSUED",
+    "legal_status_date": "08/05/2014",
+    "county": "DALLAM",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

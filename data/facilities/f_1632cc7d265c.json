@@ -1,0 +1,23 @@
+{
+  "id": "f_1632cc7d265c",
+  "slug": "charles-m-hinton-jr-regional-landfill",
+  "name": "CHARLES M HINTON JR REGIONAL LANDFILL",
+  "type": "landfill",
+  "address": "3175 ELM GROVE RD ROWLETT TX 75089",
+  "lat": 32.95,
+  "lng": -96.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN103049490",
+    "additional_id": "1895A",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "04/23/1999",
+    "county": "DALLAS",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

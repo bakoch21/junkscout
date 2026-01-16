@@ -1,0 +1,23 @@
+{
+  "id": "f_fa85c9293c1e",
+  "slug": "williamson-county-recycling-and-disposal-facility-landfill",
+  "name": "WILLIAMSON COUNTY RECYCLING AND DISPOSAL FACILITY LANDFILL",
+  "type": "recycling",
+  "address": "600 LANDFILL RD HUTTO TX 78634",
+  "lat": 30.6,
+  "lng": -97.55,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100225754",
+    "additional_id": "1405B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/15/2013",
+    "county": "WILLIAMSON",
+    "region": "REGION 11 - AUSTIN",
+    "physical_site_status": "ACTIVE"
+  }
+}

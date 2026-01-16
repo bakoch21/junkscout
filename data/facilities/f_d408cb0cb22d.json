@@ -1,0 +1,23 @@
+{
+  "id": "f_d408cb0cb22d",
+  "slug": "city-of-victoria-landfill",
+  "name": "CITY OF VICTORIA LANDFILL",
+  "type": "landfill",
+  "address": "18545 FM 1686 VICTORIA TX 77905",
+  "lat": 28.69,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100212968",
+    "additional_id": "1522B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/26/2023",
+    "county": "VICTORIA",
+    "region": "REGION 14 - CORPUS CHRISTI",
+    "physical_site_status": "ACTIVE"
+  }
+}

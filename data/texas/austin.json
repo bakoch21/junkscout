@@ -1,12 +1,112 @@
 [
   {
+    "name": "ABS Metal Recycling",
+    "type": "recycling",
+    "address": "10519 McAngus Road Del Valle TX 78617",
+    "lat": 30.152656,
+    "lng": -97.6689714,
+    "website": "http://www.absrecycling.com/",
+    "source": null,
+    "facility_id": "f_b12f40977aa6"
+  },
+  {
+    "name": "AUSTIN COUNTRY INC",
+    "type": "landfill",
+    "address": "9500 E HIGHWAY 290 AUSTIN TX 78724",
+    "lat": 30.33,
+    "lng": -97.46,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ab6990253817"
+  },
+  {
+    "name": "Austin Wood Recycling",
+    "type": "recycling",
+    "address": "9201 FM 812 Austin TX 78719",
+    "lat": 30.1555498,
+    "lng": -97.6873274,
+    "website": "https://www.austinwoodrecycling.com/",
+    "source": null,
+    "facility_id": "f_33e2d348d63a"
+  },
+  {
+    "name": "Browning-Ferris Industries Sunset Farms Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 30.3432505,
+    "lng": -97.6266581,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ed9f5d68c551"
+  },
+  {
+    "name": "CMC Recycling",
+    "type": "recycling",
+    "address": "1704 West Howard Lane Austin TX",
+    "lat": 30.4281445,
+    "lng": -97.6783815,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ef0b805546ba"
+  },
+  {
+    "name": "Gardner Metal Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 30.3307322,
+    "lng": -97.616078,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7073b4ee9bf9"
+  },
+  {
+    "name": "iHaul Junk Austin",
+    "type": "recycling",
+    "address": "2021 Guadalupe Street Austin TX 78705",
+    "lat": 30.2832978,
+    "lng": -97.7416992,
+    "website": "https://ihauljunk.com/junk-removal-in-austin-tx",
+    "source": null,
+    "facility_id": "f_fcc6895095c6"
+  },
+  {
+    "name": "J-V DIRT + LOAM",
+    "type": "landfill",
+    "address": "3600 N FM 973 AUSTIN TX 78725",
+    "lat": 30.27,
+    "lng": -97.73,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4d9b6eb94222"
+  },
+  {
+    "name": "Recycle & Reuse Drop-off Center",
+    "type": "recycling",
+    "address": "2514 Business Center Drive Austin TX 78744",
+    "lat": 30.2134329,
+    "lng": -97.7373612,
+    "website": "https://www.austintexas.gov/dropoff",
+    "source": null,
+    "facility_id": "f_662d03f71364"
+  },
+  {
+    "name": "Round Rock Recycling Center",
+    "type": "recycling",
+    "address": "310 Deep Wood Drive Round Rock Texas 78681",
+    "lat": 30.5056116,
+    "lng": -97.7004439,
+    "website": null,
+    "source": null,
+    "facility_id": "f_95d892d987f5"
+  },
+  {
     "name": "Texas Disposal Systems (MRF)",
     "type": "recycling",
     "address": "",
     "lat": 30.1031974,
     "lng": -97.7500156,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/1361459853",
+    "source": null,
     "facility_id": "f_dae0d9dc37df"
   },
   {
@@ -16,88 +116,8 @@
     "lat": 30.1109203,
     "lng": -97.7626444,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/3789509091",
+    "source": null,
     "facility_id": "f_3e87282d5690"
-  },
-  {
-    "name": "Wright Recycling LLC",
-    "type": "recycling",
-    "address": "9709 Brown Lane Austin TX 78754",
-    "lat": 30.3508329,
-    "lng": -97.6693609,
-    "website": "https://wrightrecyclingllc.com",
-    "osm_url": "https://www.openstreetmap.org/node/9771186339",
-    "facility_id": "f_a09743dbb6ef"
-  },
-  {
-    "name": "iHaul Junk Austin",
-    "type": "recycling",
-    "address": "2021 Guadalupe Street Austin TX 78705",
-    "lat": 30.2832978,
-    "lng": -97.7416992,
-    "website": "https://ihauljunk.com/junk-removal-in-austin-tx",
-    "osm_url": "https://www.openstreetmap.org/node/11399466705",
-    "facility_id": "f_fcc6895095c6"
-  },
-  {
-    "name": "Browning-Ferris Industries Sunset Farms Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 30.3432505,
-    "lng": -97.6266581,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195840985",
-    "facility_id": "f_ed9f5d68c551"
-  },
-  {
-    "name": "Waste Management - Austin Community Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 30.3420116,
-    "lng": -97.6368123,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195841019",
-    "facility_id": "f_f226864c4984"
-  },
-  {
-    "name": "Round Rock Recycling Center",
-    "type": "recycling",
-    "address": "310 Deep Wood Drive Round Rock Texas 78681",
-    "lat": 30.5056116,
-    "lng": -97.7004439,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/333649731",
-    "facility_id": "f_95d892d987f5"
-  },
-  {
-    "name": "CMC Recycling",
-    "type": "recycling",
-    "address": "1704 West Howard Lane Austin TX",
-    "lat": 30.4281445,
-    "lng": -97.6783815,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/383184775",
-    "facility_id": "f_ef0b805546ba"
-  },
-  {
-    "name": "Recycle & Reuse Drop-off Center",
-    "type": "recycling",
-    "address": "2514 Business Center Drive Austin TX 78744",
-    "lat": 30.2134329,
-    "lng": -97.7373612,
-    "website": "https://www.austintexas.gov/dropoff",
-    "osm_url": "https://www.openstreetmap.org/way/1179813063",
-    "facility_id": "f_662d03f71364"
-  },
-  {
-    "name": "ABS Metal Recycling",
-    "type": "recycling",
-    "address": "10519 McAngus Road Del Valle TX 78617",
-    "lat": 30.152656,
-    "lng": -97.6689714,
-    "website": "http://www.absrecycling.com/",
-    "osm_url": "https://www.openstreetmap.org/way/1185608567",
-    "facility_id": "f_b12f40977aa6"
   },
   {
     "name": "Travis County Landfill",
@@ -106,27 +126,47 @@
     "lat": 30.1622743,
     "lng": -97.6710656,
     "website": "https://www.wasteconnections.com/travis-county-landfill/",
-    "osm_url": "https://www.openstreetmap.org/way/1185613730",
+    "source": null,
     "facility_id": "f_a326bb50b580"
   },
   {
-    "name": "Austin Wood Recycling",
-    "type": "recycling",
-    "address": "9201 FM 812 Austin TX 78719",
-    "lat": 30.1555498,
-    "lng": -97.6873274,
-    "website": "https://www.austinwoodrecycling.com/",
-    "osm_url": "https://www.openstreetmap.org/way/1185824388",
-    "facility_id": "f_33e2d348d63a"
+    "name": "TRAVIS COUNTY LANDFILL",
+    "type": "landfill",
+    "address": "9600 FM 812 AUSTIN TX 78719",
+    "lat": 30.17,
+    "lng": -97.68,
+    "website": null,
+    "source": null,
+    "facility_id": "f_da5e1310d4c6"
   },
   {
-    "name": "Gardner Metal Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 30.3307322,
-    "lng": -97.616078,
+    "name": "TRAVIS COUNTY TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "4001 RANCH RD 620 AUSTIN TX 78767",
+    "lat": 30.32,
+    "lng": -97.77,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1201742548",
-    "facility_id": "f_7073b4ee9bf9"
+    "source": null,
+    "facility_id": "f_6139b9bfdbbe"
+  },
+  {
+    "name": "Waste Management - Austin Community Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 30.3420116,
+    "lng": -97.6368123,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f226864c4984"
+  },
+  {
+    "name": "Wright Recycling LLC",
+    "type": "recycling",
+    "address": "9709 Brown Lane Austin TX 78754",
+    "lat": 30.3508329,
+    "lng": -97.6693609,
+    "website": "https://wrightrecyclingllc.com",
+    "source": null,
+    "facility_id": "f_a09743dbb6ef"
   }
 ]

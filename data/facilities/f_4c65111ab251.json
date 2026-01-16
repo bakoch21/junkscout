@@ -1,0 +1,23 @@
+{
+  "id": "f_4c65111ab251",
+  "slug": "liquid-environmental-solutions-of-texas-lp-processing-facility",
+  "name": "LIQUID ENVIRONMENTAL SOLUTIONS OF TEXAS LP PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "250 GELLHORN DR HOUSTON TX 77013",
+  "lat": 29.79,
+  "lng": -95.26,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100708841",
+    "additional_id": "2234D",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "03/18/2013",
+    "county": "HARRIS",
+    "region": "REGION 12 - HOUSTON",
+    "physical_site_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f_4fa70537898b",
+  "slug": "still-creek-liquid-waste-processing-facility",
+  "name": "STILL CREEK LIQUID WASTE PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "2028 QUALITY PARK LN BRYAN TX 77803",
+  "lat": 30.67,
+  "lng": -96.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101613297",
+    "additional_id": "43026",
+    "physical_type": "5GG",
+    "legal_status": "ISSUED",
+    "legal_status_date": "10/11/2010",
+    "county": "BRAZOS",
+    "region": "REGION 09 - WACO",
+    "physical_site_status": "ACTIVE"
+  }
+}

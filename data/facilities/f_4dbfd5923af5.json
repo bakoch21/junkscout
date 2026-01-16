@@ -1,0 +1,23 @@
+{
+  "id": "f_4dbfd5923af5",
+  "slug": "city-of-dumas-landfill",
+  "name": "CITY OF DUMAS LANDFILL",
+  "type": "landfill",
+  "address": "13 MI E OF DUMAS & 1.5 MI N OF SH 152 IN MOORE COUNTY DUMAS TX 79029",
+  "lat": 35.87,
+  "lng": -101.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102335627",
+    "additional_id": "2279",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "09/21/2000",
+    "county": "MOORE",
+    "region": "REGION 01 - AMARILLO",
+    "physical_site_status": "ACTIVE"
+  }
+}

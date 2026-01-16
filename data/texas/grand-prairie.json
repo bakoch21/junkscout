@@ -1,42 +1,12 @@
 [
   {
-    "name": "City of Dallas Big Blue Recycle Bin",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.6413269,
-    "lng": -96.9553907,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6641272910",
-    "facility_id": "f_fbed1f2062b4"
-  },
-  {
-    "name": "City of Dallas Big Blue Recycle Bin",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.6523264,
-    "lng": -96.974901,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6641272911",
-    "facility_id": "f_30014927e24d"
-  },
-  {
-    "name": "Irving Landfill",
+    "name": "INMAR RX SOLUTIONS",
     "type": "landfill",
-    "address": "",
-    "lat": 32.7835313,
-    "lng": -96.9438942,
+    "address": "3845 GRAND LAKES WAY STE 125 GRAND PRAIRIE TX 75050",
+    "lat": 32.76,
+    "lng": -96.95,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/29396471",
-    "facility_id": "f_e6001fdc8a18"
-  },
-  {
-    "name": "Grand Prairie Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 32.7698514,
-    "lng": -96.9492464,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/317592059",
-    "facility_id": "f_ef045d9fe159"
+    "source": null,
+    "facility_id": "f_47dc2fd4c94e"
   }
 ]

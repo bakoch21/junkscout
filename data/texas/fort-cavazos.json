@@ -1,0 +1,22 @@
+[
+  {
+    "name": "FORT CAVAZOS LANDFILL",
+    "type": "landfill",
+    "address": "4255 TURKEY RUN RD BLDG 56134 FORT CAVAZOS TX 76544",
+    "lat": 31.16,
+    "lng": -97.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_856b1b60c67c"
+  },
+  {
+    "name": "FORT HOOD BIOTREATMENT FACILITY",
+    "type": "landfill",
+    "address": "700 N 37TH ST BLDG 1955 FORT CAVAZOS TX 76544",
+    "lat": 31.15,
+    "lng": -97.76,
+    "website": null,
+    "source": null,
+    "facility_id": "f_76340096df62"
+  }
+]

@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 
-    "build:data:tx": "node scripts/generate-cities.js",
+    "import:tceq:msw": "node scripts/import-tceq-msw.js",
+
+    "build:data:tx": "node scripts/build-city-json-from-facilities.js",
     "build:citylist:tx": "node scripts/build-texas-city-list.js",
     "build:pages:tx": "node scripts/generate-city-pages.js",
 
@@ -16,7 +18,7 @@
     "build:facilities": "npm run build:facilities:data && npm run build:facilities:pages",
 
     "build:tx": "npm run build:data:tx && npm run build:citylist:tx && npm run build:pages:tx",
-    "build:tx:all": "npm run build:tx && npm run build:facilities"
+    "build:tx:all": "npm run import:tceq:msw && npm run build:tx && npm run build:facilities"
   },
   "keywords": [],
   "author": "",

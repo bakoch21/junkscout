@@ -1,0 +1,23 @@
+{
+  "id": "f_d68db797947e",
+  "slug": "duval-county-landfill",
+  "name": "DUVAL COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "2 MI NW OF SAN DIEGO SAN DIEGO TX",
+  "lat": 27.79,
+  "lng": -98.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101921286",
+    "additional_id": "1481",
+    "physical_type": "4AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/10/1996",
+    "county": "DUVAL",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

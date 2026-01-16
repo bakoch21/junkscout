@@ -1,0 +1,23 @@
+{
+  "id": "f_8fcb29da5d5a",
+  "slug": "odessa-landfill",
+  "name": "ODESSA LANDFILL",
+  "type": "landfill",
+  "address": "12035 W MURPHY ST ODESSA TX 79763",
+  "lat": 31.77,
+  "lng": -102.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN100542737",
+    "additional_id": "2158",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "05/26/1992",
+    "county": "ECTOR",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

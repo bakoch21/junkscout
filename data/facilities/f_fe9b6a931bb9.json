@@ -1,0 +1,23 @@
+{
+  "id": "f_fe9b6a931bb9",
+  "slug": "city-of-andrews-landfill",
+  "name": "CITY OF ANDREWS LANDFILL",
+  "type": "landfill",
+  "address": "111 LOGSDON ST ANDREWS TX 79714",
+  "lat": 32.37,
+  "lng": -102.55,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102119740",
+    "additional_id": "171",
+    "physical_type": "1 AE & 4 AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "02/10/1976",
+    "county": "ANDREWS",
+    "region": "REGION 07 - MIDLAND",
+    "physical_site_status": "ACTIVE"
+  }
+}

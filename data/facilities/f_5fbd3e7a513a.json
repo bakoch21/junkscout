@@ -1,0 +1,23 @@
+{
+  "id": "f_5fbd3e7a513a",
+  "slug": "121-regional-disposal-landfill",
+  "name": "121 REGIONAL DISPOSAL LANDFILL",
+  "type": "landfill",
+  "address": "3820 SAM RAYBURN HWY MELISSA TX 75454",
+  "lat": 33.29,
+  "lng": -96.51,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN101308781",
+    "additional_id": "2294",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "01/08/2004",
+    "county": "COLLIN",
+    "region": "REGION 04 - DFW METROPLEX",
+    "physical_site_status": "ACTIVE"
+  }
+}

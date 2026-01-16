@@ -1,0 +1,23 @@
+{
+  "id": "f_044892b72e88",
+  "slug": "city-of-crystal-city-landfill",
+  "name": "CITY OF CRYSTAL CITY LANDFILL",
+  "type": "landfill",
+  "address": "3400 FEET W US HIGHWAY 83 S OF GRAVEL ROAD  4 MILES N CRYSTAL CITY CITY LIMITS CRYSTAL CITY TX 78839",
+  "lat": 28.75,
+  "lng": -99.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102327863",
+    "additional_id": "1308A",
+    "physical_type": "1AE",
+    "legal_status": "ISSUED",
+    "legal_status_date": "12/11/2002",
+    "county": "ZAVALA",
+    "region": "REGION 16 - LAREDO",
+    "physical_site_status": "ACTIVE"
+  }
+}

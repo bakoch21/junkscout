@@ -1,0 +1,23 @@
+{
+  "id": "f_4211fbc7ca22",
+  "slug": "city-of-snyder-landfill",
+  "name": "CITY OF SNYDER LANDFILL",
+  "type": "landfill",
+  "address": "3621 S FM 1673 SNYDER TX 79549",
+  "lat": 32.67,
+  "lng": -100.81,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [],
+  "tceq": {
+    "program": "MSW",
+    "rn": "RN102290087",
+    "additional_id": "1463B",
+    "physical_type": "1",
+    "legal_status": "ISSUED",
+    "legal_status_date": "07/19/2005",
+    "county": "SCURRY",
+    "region": "REGION 03 - ABILENE",
+    "physical_site_status": "ACTIVE"
+  }
+}
