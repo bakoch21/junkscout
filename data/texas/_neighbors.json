@@ -1,494 +1,6554 @@
 {
+  "abernathy": [
+    {
+      "slug": "lubbock",
+      "distance_mi": 2.8
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 20.8
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 30.1
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 31.5
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 38.1
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 38.3
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 42
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 50.3
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 52
+    },
+    {
+      "slug": "post",
+      "distance_mi": 54.7
+    }
+  ],
+  "abilene": [
+    {
+      "slug": "baird",
+      "distance_mi": 23.1
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 44.5
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 45
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 52.7
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 65.1
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 76.7
+    },
+    {
+      "slug": "seymour",
+      "distance_mi": 77.3
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 79.9
+    }
+  ],
+  "acres-spur": [
+    {
+      "slug": "post",
+      "distance_mi": 35.7
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 43.9
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 54
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 66.9
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 68.2
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 69.7
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 70.8
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 71.2
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 77.4
+    }
+  ],
+  "alice": [
+    {
+      "slug": "kingsville",
+      "distance_mi": 29.1
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 30.9
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 37.1
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 46.3
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 84.8
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 91.2
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 96
+    },
+    {
+      "slug": "victoria",
+      "distance_mi": 96
+    },
+    {
+      "slug": "edinburg",
+      "distance_mi": 96.1
+    },
+    {
+      "slug": "bloomington",
+      "distance_mi": 96.4
+    }
+  ],
+  "alvarado": [
+    {
+      "slug": "godley",
+      "distance_mi": 8.9
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 12.2
+    },
+    {
+      "slug": "glen-rose",
+      "distance_mi": 19.9
+    },
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 25.8
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 26.9
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 31.2
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 32.2
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 36.9
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 39.1
+    }
+  ],
+  "alvin": [
+    {
+      "slug": "sweetwater",
+      "distance_mi": 201
+    },
+    {
+      "slug": "san-antonio",
+      "distance_mi": 3059.3
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 3119
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 3124.3
+    },
+    {
+      "slug": "port-arthur",
+      "distance_mi": 3125
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 3126.1
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 3152
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 3159.1
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 3178.8
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 3179
+    }
+  ],
   "amarillo": [
-    "lubbock",
-    "wichita-falls",
-    "midland",
-    "san-angelo",
-    "denton",
-    "fort-worth",
-    "lewisville",
-    "frisco",
-    "arlington",
-    "carrollton"
+    {
+      "slug": "pampa",
+      "distance_mi": 50.6
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 50.8
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 52.3
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 64.5
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 65.9
+    },
+    {
+      "slug": "mi-nw-of-dalhart-dalhart",
+      "distance_mi": 78.2
+    },
+    {
+      "slug": "miles-nw-of-dalhart-dalhart",
+      "distance_mi": 78.8
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 89.5
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 89.9
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 90.8
+    }
+  ],
+  "amherst": [
+    {
+      "slug": "littlefield",
+      "distance_mi": 9.6
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 22.1
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 29
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 29.3
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 30.1
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 36.8
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 41.9
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 51.2
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 63.1
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 69.3
+    }
+  ],
+  "anderson": [
+    {
+      "slug": "brenham",
+      "distance_mi": 33.2
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 34.1
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 50.2
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 50.9
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 53.4
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 55.9
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 71.5
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 72.4
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 72.5
+    },
+    {
+      "slug": "mexia",
+      "distance_mi": 72.8
+    }
+  ],
+  "angleton": [
+    {
+      "slug": "bay-city",
+      "distance_mi": 42.2
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 47.2
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 50.5
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 51.8
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 64.7
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 71.1
+    },
+    {
+      "slug": "edna",
+      "distance_mi": 74.7
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 78.3
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 87.4
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 88.7
+    }
   ],
   "arlington": [
-    "grand-prairie",
-    "irving",
-    "fort-worth",
-    "dallas",
-    "carrollton",
-    "lewisville",
-    "mesquite",
-    "garland",
-    "plano",
-    "denton"
+    {
+      "slug": "fort-worth",
+      "distance_mi": 10.5
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 13.6
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 16.6
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 18
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 19
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 22.4
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 22.6
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 26.9
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 29.5
+    },
+    {
+      "slug": "glen-rose",
+      "distance_mi": 29.9
+    }
   ],
   "austin": [
-    "round-rock",
-    "san-marcos",
-    "new-braunfels",
-    "seguin",
-    "killeen",
-    "san-antonio",
-    "waco",
-    "victoria",
-    "the-woodlands",
-    "sugar-land"
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 8.4
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 11.9
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 15.1
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 20.7
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 31
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 34
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 41.7
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 42.2
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 48.3
+    }
+  ],
+  "baird": [
+    {
+      "slug": "abilene",
+      "distance_mi": 23.1
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 23.6
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 39.2
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 46.3
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 56.3
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 57.3
+    },
+    {
+      "slug": "stephenville",
+      "distance_mi": 66.4
+    },
+    {
+      "slug": "seymour",
+      "distance_mi": 81.4
+    },
+    {
+      "slug": "mi-nw-of-brady-brady",
+      "distance_mi": 83.6
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 84.3
+    }
+  ],
+  "bay-city": [
+    {
+      "slug": "edna",
+      "distance_mi": 41.3
+    },
+    {
+      "slug": "angleton",
+      "distance_mi": 42.2
+    },
+    {
+      "slug": "bloomington",
+      "distance_mi": 57.7
+    },
+    {
+      "slug": "victoria",
+      "distance_mi": 61.1
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 73.4
+    },
+    {
+      "slug": "hallettsville",
+      "distance_mi": 75.5
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 76.8
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 80.2
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 88.3
+    },
+    {
+      "slug": "brenham",
+      "distance_mi": 102.9
+    }
   ],
   "baytown": [
-    "pasadena",
-    "pearland",
-    "houston",
-    "sugar-land",
-    "the-woodlands",
-    "beaumont",
-    "port-arthur",
-    "victoria",
-    "austin",
-    "round-rock"
+    {
+      "slug": "houston",
+      "distance_mi": 24.4
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 28.6
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 42.1
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 44.7
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 48.3
+    },
+    {
+      "slug": "angleton",
+      "distance_mi": 50.5
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 53.2
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 54.9
+    },
+    {
+      "slug": "port-arthur",
+      "distance_mi": 57.9
+    }
   ],
   "beaumont": [
-    "port-arthur",
-    "baytown",
-    "pasadena",
-    "houston",
-    "pearland",
-    "the-woodlands",
-    "sugar-land",
-    "longview",
-    "tyler",
-    "victoria"
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 6.8
+    },
+    {
+      "slug": "port-arthur",
+      "distance_mi": 8
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 24.8
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 32.3
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 57
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 60.3
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 62.7
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 76.2
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 76.7
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 81.7
+    }
+  ],
+  "big-lake": [
+    {
+      "slug": "rankin",
+      "distance_mi": 26.8
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 63.8
+    },
+    {
+      "slug": "stanton",
+      "distance_mi": 68.5
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 69
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 74.1
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 74.5
+    },
+    {
+      "slug": "mi-e-fort-stockton-fort-stockton",
+      "distance_mi": 80.7
+    },
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 90.6
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 92.7
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 110
+    }
+  ],
+  "big-sandy": [
+    {
+      "slug": "kilgore",
+      "distance_mi": 15.2
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 15.3
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 15.9
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 36.3
+    },
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 38.1
+    },
+    {
+      "slug": "pickton",
+      "distance_mi": 42.3
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 46
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 62.5
+    },
+    {
+      "slug": "campbell",
+      "distance_mi": 63.6
+    }
+  ],
+  "big-spring": [
+    {
+      "slug": "stanton",
+      "distance_mi": 19.9
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 34
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 39.9
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 45.5
+    },
+    {
+      "slug": "post",
+      "distance_mi": 62.9
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 74.1
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 77
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 79.9
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 84.6
+    }
+  ],
+  "bloomington": [
+    {
+      "slug": "victoria",
+      "distance_mi": 5
+    },
+    {
+      "slug": "edna",
+      "distance_mi": 27.9
+    },
+    {
+      "slug": "hallettsville",
+      "distance_mi": 52.5
+    },
+    {
+      "slug": "bay-city",
+      "distance_mi": 57.7
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 73.9
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 81.1
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 84.5
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 95.3
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 96.3
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 96.4
+    }
+  ],
+  "blossom": [
+    {
+      "slug": "cotulla",
+      "distance_mi": 0
+    },
+    {
+      "slug": "ft-west-of-aviation-way-el-paso",
+      "distance_mi": 0
+    },
+    {
+      "slug": "texas-creedmoor",
+      "distance_mi": 0
+    },
+    {
+      "slug": "winters",
+      "distance_mi": 0
+    },
+    {
+      "slug": "alvin",
+      "distance_mi": 3405.4
+    },
+    {
+      "slug": "sweetwater",
+      "distance_mi": 3595.8
+    },
+    {
+      "slug": "san-antonio",
+      "distance_mi": 6418.7
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 6448.5
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 6459.7
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 6460.2
+    }
+  ],
+  "bonham": [
+    {
+      "slug": "mckinney",
+      "distance_mi": 33.8
+    },
+    {
+      "slug": "campbell",
+      "distance_mi": 35.1
+    },
+    {
+      "slug": "whitesboro",
+      "distance_mi": 40.1
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 43.9
+    },
+    {
+      "slug": "gainesville",
+      "distance_mi": 53.6
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 56.2
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 57.3
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 57.6
+    },
+    {
+      "slug": "pickton",
+      "distance_mi": 59.3
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 62.7
+    }
+  ],
+  "bowie": [
+    {
+      "slug": "gainesville",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 41.3
+    },
+    {
+      "slug": "wichita-falls",
+      "distance_mi": 46.5
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 52.2
+    },
+    {
+      "slug": "whitesboro",
+      "distance_mi": 53.4
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 60.7
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 66.2
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 67.1
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 67.6
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 70.1
+    }
+  ],
+  "brackettville-brackettville": [
+    {
+      "slug": "railway-del-rio",
+      "distance_mi": 26.2
+    },
+    {
+      "slug": "uvalde",
+      "distance_mi": 34.8
+    },
+    {
+      "slug": "crystal-city",
+      "distance_mi": 42
+    },
+    {
+      "slug": "el-indio",
+      "distance_mi": 52.9
+    },
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 59.7
+    },
+    {
+      "slug": "junction",
+      "distance_mi": 93.7
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 104.3
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 121.6
+    },
+    {
+      "slug": "mason",
+      "distance_mi": 123
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 124.9
+    }
+  ],
+  "breckenridge": [
+    {
+      "slug": "baird",
+      "distance_mi": 39.2
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 48.2
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 52.7
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 53
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 54
+    },
+    {
+      "slug": "stephenville",
+      "distance_mi": 54.1
+    },
+    {
+      "slug": "seymour",
+      "distance_mi": 58
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 77.5
+    },
+    {
+      "slug": "wichita-falls",
+      "distance_mi": 79
+    },
+    {
+      "slug": "glen-rose",
+      "distance_mi": 83.1
+    }
+  ],
+  "brenham": [
+    {
+      "slug": "anderson",
+      "distance_mi": 33.2
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "hallettsville",
+      "distance_mi": 58.1
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 58.4
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 62.3
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 64
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 64.8
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 67.2
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 69.3
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 71.6
+    }
+  ],
+  "brookshire": [
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 26.7
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 35
+    },
+    {
+      "slug": "brenham",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 45.7
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 48.8
+    },
+    {
+      "slug": "anderson",
+      "distance_mi": 53.4
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 54.9
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 63.2
+    },
+    {
+      "slug": "angleton",
+      "distance_mi": 64.7
+    }
   ],
   "brownsville": [
-    "corpus-christi",
-    "laredo",
-    "victoria",
-    "san-antonio",
-    "seguin",
-    "new-braunfels",
-    "san-marcos",
-    "sugar-land",
-    "pearland",
-    "houston"
+    {
+      "slug": "edinburg",
+      "distance_mi": 53
+    },
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 62.7
+    },
+    {
+      "slug": "roma",
+      "distance_mi": 104.4
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 110.2
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 125.9
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 130.1
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 137
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 142.3
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 164.7
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 182.8
+    }
+  ],
+  "brownwood": [
+    {
+      "slug": "cross-plains",
+      "distance_mi": 34.1
+    },
+    {
+      "slug": "mi-nw-of-brady-brady",
+      "distance_mi": 41.6
+    },
+    {
+      "slug": "stephenville",
+      "distance_mi": 53.7
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 57.3
+    },
+    {
+      "slug": "mason",
+      "distance_mi": 64.6
+    },
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 73.5
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 74.1
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 76.7
+    },
+    {
+      "slug": "fort-cavazos",
+      "distance_mi": 76.7
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 77.5
+    }
+  ],
+  "buda": [
+    {
+      "slug": "dale",
+      "distance_mi": 9.6
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 11.4
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 11.9
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 19.2
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 20.1
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 30.4
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 36.7
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 38.3
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 45.8
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 49.3
+    }
+  ],
+  "burnet": [
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 27.7
+    },
+    {
+      "slug": "killeen",
+      "distance_mi": 32.7
+    },
+    {
+      "slug": "fort-cavazos",
+      "distance_mi": 35.2
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 42.4
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 54.1
+    },
+    {
+      "slug": "mason",
+      "distance_mi": 59.5
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 61.8
+    }
+  ],
+  "business-park-port-arthur": [
+    {
+      "slug": "port-arthur",
+      "distance_mi": 1.6
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 6.8
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 30.7
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 59.1
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 63.4
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 67.1
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 79.1
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 81.6
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 82.3
+    }
+  ],
+  "campbell": [
+    {
+      "slug": "pickton",
+      "distance_mi": 29.2
+    },
+    {
+      "slug": "bonham",
+      "distance_mi": 35.1
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 40.5
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 49.9
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 50.3
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 60.7
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 62.9
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 63.6
+    }
+  ],
+  "canton": [
+    {
+      "slug": "tyler",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "campbell",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "pickton",
+      "distance_mi": 46.7
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 47.5
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 54.2
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 55.5
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 56.7
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 57.2
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 58.2
+    }
+  ],
+  "carrizo-springs": [
+    {
+      "slug": "crystal-city",
+      "distance_mi": 23.5
+    },
+    {
+      "slug": "el-indio",
+      "distance_mi": 29.4
+    },
+    {
+      "slug": "uvalde",
+      "distance_mi": 40.1
+    },
+    {
+      "slug": "brackettville-brackettville",
+      "distance_mi": 59.7
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 79
+    },
+    {
+      "slug": "railway-del-rio",
+      "distance_mi": 80.5
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 86.2
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 92.1
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 99.5
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 111.6
+    }
   ],
   "carrollton": [
-    "lewisville",
-    "irving",
-    "plano",
-    "dallas",
-    "frisco",
-    "grand-prairie",
-    "garland",
-    "arlington",
-    "denton",
-    "mesquite"
+    {
+      "slug": "irving",
+      "distance_mi": 6.1
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 8
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 13.7
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 14.9
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 15.6
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 16.1
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 22.6
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 24.5
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 27.5
+    }
+  ],
+  "cedar-creek": [
+    {
+      "slug": "killeen",
+      "distance_mi": 25.5
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 25.7
+    },
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 31
+    },
+    {
+      "slug": "fort-cavazos",
+      "distance_mi": 31.3
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 34
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 45.8
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 54.2
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 59.8
+    }
+  ],
+  "cleveland": [
+    {
+      "slug": "conroe",
+      "distance_mi": 5.7
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 13.8
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 22.9
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 35
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 36.3
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 40.9
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 42.5
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 44.7
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 48.8
+    },
+    {
+      "slug": "anderson",
+      "distance_mi": 55.9
+    }
+  ],
+  "colorado-city": [
+    {
+      "slug": "snyder",
+      "distance_mi": 17.6
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 34
+    },
+    {
+      "slug": "stanton",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "post",
+      "distance_mi": 59.7
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 65.1
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 69.2
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 71.2
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 72.9
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 73.6
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 85.8
+    }
+  ],
+  "conroe": [
+    {
+      "slug": "cleveland",
+      "distance_mi": 5.7
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 11.6
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 27.3
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 31
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 37
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 42.6
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 42.9
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 45.7
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 48.3
+    },
+    {
+      "slug": "anderson",
+      "distance_mi": 50.2
+    }
+  ],
+  "copperas-cove": [
+    {
+      "slug": "fort-cavazos",
+      "distance_mi": 7.7
+    },
+    {
+      "slug": "killeen",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 27.7
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 31
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 50.3
+    },
+    {
+      "slug": "waco",
+      "distance_mi": 56.1
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 58.2
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 64.7
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 68.2
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 73.2
+    }
   ],
   "corpus-christi": [
-    "victoria",
-    "brownsville",
-    "seguin",
-    "laredo",
-    "san-antonio",
-    "new-braunfels",
-    "san-marcos",
-    "sugar-land",
-    "austin",
-    "pearland"
+    {
+      "slug": "robstown",
+      "distance_mi": 8.1
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 29.4
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 37.1
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 72.2
+    },
+    {
+      "slug": "bloomington",
+      "distance_mi": 73.9
+    },
+    {
+      "slug": "victoria",
+      "distance_mi": 75.3
+    },
+    {
+      "slug": "edna",
+      "distance_mi": 101.2
+    },
+    {
+      "slug": "edinburg",
+      "distance_mi": 101.9
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 107
+    },
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 107.3
+    }
+  ],
+  "cotulla": [
+    {
+      "slug": "blossom",
+      "distance_mi": 0
+    },
+    {
+      "slug": "ft-west-of-aviation-way-el-paso",
+      "distance_mi": 0
+    },
+    {
+      "slug": "texas-creedmoor",
+      "distance_mi": 0
+    },
+    {
+      "slug": "winters",
+      "distance_mi": 0
+    },
+    {
+      "slug": "alvin",
+      "distance_mi": 3405.4
+    },
+    {
+      "slug": "sweetwater",
+      "distance_mi": 3595.8
+    },
+    {
+      "slug": "san-antonio",
+      "distance_mi": 6418.7
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 6448.5
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 6459.7
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 6460.2
+    }
+  ],
+  "cross-plains": [
+    {
+      "slug": "baird",
+      "distance_mi": 23.6
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 34.1
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 45
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 48.2
+    },
+    {
+      "slug": "stephenville",
+      "distance_mi": 51.7
+    },
+    {
+      "slug": "mi-nw-of-brady-brady",
+      "distance_mi": 65.7
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 69.8
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 79
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 82.9
+    },
+    {
+      "slug": "mason",
+      "distance_mi": 94.7
+    }
+  ],
+  "crystal-city": [
+    {
+      "slug": "uvalde",
+      "distance_mi": 16.6
+    },
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 23.5
+    },
+    {
+      "slug": "el-indio",
+      "distance_mi": 39.2
+    },
+    {
+      "slug": "brackettville-brackettville",
+      "distance_mi": 42
+    },
+    {
+      "slug": "railway-del-rio",
+      "distance_mi": 66.4
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 87.5
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 93.1
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 94.1
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 94.9
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 101.9
+    }
+  ],
+  "dale": [
+    {
+      "slug": "lockhart",
+      "distance_mi": 6.9
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 9.6
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 15.1
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 23.1
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 23.6
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 33.5
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 35.8
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 53
+    }
   ],
   "dallas": [
-    "irving",
-    "mesquite",
-    "grand-prairie",
-    "garland",
-    "carrollton",
-    "plano",
-    "arlington",
-    "lewisville",
-    "frisco",
-    "mckinney"
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 8.6
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 8.8
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 9.3
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 13.7
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 16.1
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 22.4
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 23.9
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 27.8
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 30.9
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 31.9
+    }
   ],
   "denton": [
-    "lewisville",
-    "frisco",
-    "carrollton",
-    "irving",
-    "plano",
-    "mckinney",
-    "arlington",
-    "grand-prairie",
-    "fort-worth",
-    "dallas"
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 12.6
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 14.9
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 18.3
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 19
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 22
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 22.4
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 28.4
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 28.5
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 29.5
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 30.9
+    }
+  ],
+  "deweyville": [
+    {
+      "slug": "beaumont",
+      "distance_mi": 24.8
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 30.7
+    },
+    {
+      "slug": "port-arthur",
+      "distance_mi": 32.2
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 46
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 54.3
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 65.2
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 71.6
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 79.9
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 80.2
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 84.1
+    }
+  ],
+  "dimmitt": [
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 24.6
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 29
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 32.8
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 50.3
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 50.9
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 65.7
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 65.9
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 69.7
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 70.8
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 79.5
+    }
+  ],
+  "edinburg": [
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 12.4
+    },
+    {
+      "slug": "brownsville",
+      "distance_mi": 53
+    },
+    {
+      "slug": "roma",
+      "distance_mi": 58.2
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 75
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 90.2
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 95.5
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 96.1
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 101.9
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 111.8
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 138.8
+    }
+  ],
+  "edna": [
+    {
+      "slug": "bloomington",
+      "distance_mi": 27.9
+    },
+    {
+      "slug": "victoria",
+      "distance_mi": 28.3
+    },
+    {
+      "slug": "hallettsville",
+      "distance_mi": 38.1
+    },
+    {
+      "slug": "bay-city",
+      "distance_mi": 41.3
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 73.3
+    },
+    {
+      "slug": "angleton",
+      "distance_mi": 74.7
+    },
+    {
+      "slug": "brenham",
+      "distance_mi": 83.4
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 84.1
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 87.5
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 91.3
+    }
+  ],
+  "el-indio": [
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 29.4
+    },
+    {
+      "slug": "crystal-city",
+      "distance_mi": 39.2
+    },
+    {
+      "slug": "uvalde",
+      "distance_mi": 52.3
+    },
+    {
+      "slug": "brackettville-brackettville",
+      "distance_mi": 52.9
+    },
+    {
+      "slug": "railway-del-rio",
+      "distance_mi": 65.1
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 88.8
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 114.7
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 118.2
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 120.9
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 127.9
+    }
   ],
   "el-paso": [
-    "midland",
-    "lubbock",
-    "san-angelo",
-    "amarillo",
-    "wichita-falls",
-    "san-antonio",
-    "laredo",
-    "new-braunfels",
-    "killeen",
-    "san-marcos"
+    {
+      "slug": "mi-se-of-dell-city-dell-city",
+      "distance_mi": 73.9
+    },
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 200.3
+    },
+    {
+      "slug": "mi-e-fort-stockton-fort-stockton",
+      "distance_mi": 215.4
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 224
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 225.8
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 253.9
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 255.2
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 262
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 264.8
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 266.6
+    }
+  ],
+  "elmendorf": [
+    {
+      "slug": "pleasanton",
+      "distance_mi": 9.9
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 24
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 39.9
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 41.2
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 52.5
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 56.9
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 65.6
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 66.9
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 71.6
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 71.9
+    }
+  ],
+  "ennis": [
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 14.3
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 27.8
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 29.9
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 31
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 32.2
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 36
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 36.5
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 39.7
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 40.4
+    },
+    {
+      "slug": "godley",
+      "distance_mi": 41
+    }
+  ],
+  "floydada": [
+    {
+      "slug": "matador",
+      "distance_mi": 27.9
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 38.3
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 40.9
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 43.9
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "post",
+      "distance_mi": 55.5
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 63.1
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 67.8
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 69
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 69.4
+    }
+  ],
+  "fort-cavazos": [
+    {
+      "slug": "killeen",
+      "distance_mi": 5.9
+    },
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 7.7
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 31.3
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 35.2
+    },
+    {
+      "slug": "waco",
+      "distance_mi": 48.5
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 53.4
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 61.6
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 71.5
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 72.2
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 76.5
+    }
   ],
   "fort-worth": [
-    "arlington",
-    "grand-prairie",
-    "irving",
-    "lewisville",
-    "carrollton",
-    "dallas",
-    "denton",
-    "frisco",
-    "plano",
-    "garland"
+    {
+      "slug": "arlington",
+      "distance_mi": 10.5
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 23.9
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 24.4
+    },
+    {
+      "slug": "glen-rose",
+      "distance_mi": 26.1
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 26.9
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 28.1
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 29.6
+    },
+    {
+      "slug": "godley",
+      "distance_mi": 30.4
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 31.7
+    }
   ],
   "frisco": [
-    "plano",
-    "lewisville",
-    "mckinney",
-    "carrollton",
-    "denton",
-    "garland",
-    "irving",
-    "dallas",
-    "mesquite",
-    "grand-prairie"
+    {
+      "slug": "mckinney",
+      "distance_mi": 10.9
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 13.7
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 19
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 19.1
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 19.7
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 19.7
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 23.9
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 27.5
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 36.3
+    }
   ],
-  "garland": [
-    "plano",
-    "mesquite",
-    "dallas",
-    "carrollton",
-    "irving",
-    "frisco",
-    "mckinney",
-    "lewisville",
-    "grand-prairie",
-    "arlington"
+  "ft-west-of-aviation-way-el-paso": [
+    {
+      "slug": "blossom",
+      "distance_mi": 0
+    },
+    {
+      "slug": "cotulla",
+      "distance_mi": 0
+    },
+    {
+      "slug": "texas-creedmoor",
+      "distance_mi": 0
+    },
+    {
+      "slug": "winters",
+      "distance_mi": 0
+    },
+    {
+      "slug": "alvin",
+      "distance_mi": 3405.4
+    },
+    {
+      "slug": "sweetwater",
+      "distance_mi": 3595.8
+    },
+    {
+      "slug": "san-antonio",
+      "distance_mi": 6418.7
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 6448.5
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 6459.7
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 6460.2
+    }
+  ],
+  "gainesville": [
+    {
+      "slug": "whitesboro",
+      "distance_mi": 15.7
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 21.4
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 32.8
+    },
+    {
+      "slug": "bowie",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 43.2
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 45.5
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 46.8
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 51
+    },
+    {
+      "slug": "bonham",
+      "distance_mi": 53.6
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 54.5
+    }
+  ],
+  "glen-rose": [
+    {
+      "slug": "godley",
+      "distance_mi": 12.2
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 19.9
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 26.1
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 29.2
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 29.9
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 40.7
+    },
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 45.6
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 46.5
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 47.2
+    },
+    {
+      "slug": "stephenville",
+      "distance_mi": 47.6
+    }
+  ],
+  "godley": [
+    {
+      "slug": "alvarado",
+      "distance_mi": 8.9
+    },
+    {
+      "slug": "glen-rose",
+      "distance_mi": 12.2
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 17
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 29.9
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 30.4
+    },
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 33.7
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 37.2
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 41
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 43.9
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 44.7
+    }
+  ],
+  "goodrich": [
+    {
+      "slug": "cleveland",
+      "distance_mi": 22.9
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 23.5
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 27.3
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 34.1
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 36.6
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 42.9
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 53.2
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 54.3
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 54.4
+    }
   ],
   "grand-prairie": [
-    "arlington",
-    "irving",
-    "dallas",
-    "carrollton",
-    "fort-worth",
-    "lewisville",
-    "mesquite",
-    "garland",
-    "plano",
-    "frisco"
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 8.4
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 8.8
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 10.3
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 13.6
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 15.6
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 23.9
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 27.5
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 28.5
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 31
+    }
+  ],
+  "hallettsville": [
+    {
+      "slug": "edna",
+      "distance_mi": 38.1
+    },
+    {
+      "slug": "victoria",
+      "distance_mi": 49.1
+    },
+    {
+      "slug": "bloomington",
+      "distance_mi": 52.5
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 57.6
+    },
+    {
+      "slug": "brenham",
+      "distance_mi": 58.1
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 58.1
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 59.9
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 66.9
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 68.8
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 69.8
+    }
+  ],
+  "henderson": [
+    {
+      "slug": "kilgore",
+      "distance_mi": 21.5
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 24.1
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 35
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 36.3
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 57.5
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 60.8
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 65.3
+    },
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 70.6
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 74.8
+    }
+  ],
+  "hiawatha-san-antonio": [
+    {
+      "slug": "alice",
+      "distance_mi": 46.3
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 47.7
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 56.9
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 69.8
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 72.2
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 75.2
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 80.8
+    },
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 86.2
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 86.5
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 90
+    }
   ],
   "houston": [
-    "pasadena",
-    "pearland",
-    "sugar-land",
-    "baytown",
-    "the-woodlands",
-    "beaumont",
-    "port-arthur",
-    "victoria",
-    "austin",
-    "round-rock"
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 7.3
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 24.4
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 26.6
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 36.3
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 37
+    },
+    {
+      "slug": "angleton",
+      "distance_mi": 51.8
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 51.8
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 54.3
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 65.9
+    }
+  ],
+  "huntsville": [
+    {
+      "slug": "conroe",
+      "distance_mi": 31
+    },
+    {
+      "slug": "anderson",
+      "distance_mi": 34.1
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 35
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 39.3
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 42.9
+    },
+    {
+      "slug": "brenham",
+      "distance_mi": 62.3
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 63.2
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 63.9
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 65.9
+    }
+  ],
+  "in-booker-booker": [
+    {
+      "slug": "perryton",
+      "distance_mi": 15.8
+    },
+    {
+      "slug": "pampa",
+      "distance_mi": 66.9
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 67.4
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 86.8
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 110.2
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 110.9
+    },
+    {
+      "slug": "miles-nw-of-dalhart-dalhart",
+      "distance_mi": 118.2
+    },
+    {
+      "slug": "mi-nw-of-dalhart-dalhart",
+      "distance_mi": 118.4
+    },
+    {
+      "slug": "texline",
+      "distance_mi": 139.7
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 170.1
+    }
   ],
   "irving": [
-    "grand-prairie",
-    "carrollton",
-    "dallas",
-    "arlington",
-    "lewisville",
-    "garland",
-    "plano",
-    "mesquite",
-    "fort-worth",
-    "frisco"
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 4.4
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 5.3
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 6.1
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 10.3
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 13.7
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 16.6
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 18.3
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 19.7
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 24.4
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 30.3
+    }
+  ],
+  "itasca": [
+    {
+      "slug": "alvarado",
+      "distance_mi": 12.2
+    },
+    {
+      "slug": "godley",
+      "distance_mi": 17
+    },
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 18.8
+    },
+    {
+      "slug": "glen-rose",
+      "distance_mi": 29.2
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 29.9
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 39.8
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 42.7
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 43.5
+    },
+    {
+      "slug": "waco",
+      "distance_mi": 43.8
+    }
+  ],
+  "jacksonville": [
+    {
+      "slug": "palestine",
+      "distance_mi": 19.2
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 26.8
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 31.2
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "kilgore",
+      "distance_mi": 41.8
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 46
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 46.8
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 54.2
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 61.1
+    },
+    {
+      "slug": "mexia",
+      "distance_mi": 72.3
+    }
+  ],
+  "johnson-city": [
+    {
+      "slug": "kerrville",
+      "distance_mi": 34.6
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 36.1
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 38.3
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 41.4
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 41.7
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 43.4
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 47.2
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 48.8
+    }
+  ],
+  "junction": [
+    {
+      "slug": "mason",
+      "distance_mi": 35.8
+    },
+    {
+      "slug": "mi-nw-of-brady-brady",
+      "distance_mi": 49.7
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 77
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 84.5
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "uvalde",
+      "distance_mi": 93.5
+    },
+    {
+      "slug": "brackettville-brackettville",
+      "distance_mi": 93.7
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 93.9
+    },
+    {
+      "slug": "railway-del-rio",
+      "distance_mi": 103.9
+    }
+  ],
+  "kerrville": [
+    {
+      "slug": "johnson-city",
+      "distance_mi": 34.6
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 50.3
+    },
+    {
+      "slug": "mason",
+      "distance_mi": 52.4
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 56.2
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 57.8
+    },
+    {
+      "slug": "junction",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 65.6
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 66.7
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 68.4
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 70.3
+    }
+  ],
+  "kilgore": [
+    {
+      "slug": "longview",
+      "distance_mi": 5
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 15.2
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 20.6
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 21.5
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 41.8
+    },
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 49.7
+    },
+    {
+      "slug": "pickton",
+      "distance_mi": 57
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 59.6
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 60.4
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 67.4
+    }
   ],
   "killeen": [
-    "round-rock",
-    "waco",
-    "austin",
-    "san-marcos",
-    "new-braunfels",
-    "seguin",
-    "fort-worth",
-    "arlington",
-    "grand-prairie",
-    "san-antonio"
+    {
+      "slug": "fort-cavazos",
+      "distance_mi": 5.9
+    },
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 25.5
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 32.7
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 47.5
+    },
+    {
+      "slug": "waco",
+      "distance_mi": 50.8
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 55.8
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 66.5
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 67.5
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 70.6
+    }
+  ],
+  "kingsville": [
+    {
+      "slug": "robstown",
+      "distance_mi": 21.7
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 29.1
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 29.4
+    },
+    {
+      "slug": "edinburg",
+      "distance_mi": 75
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 75.2
+    },
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 79.1
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 100
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 101.9
+    },
+    {
+      "slug": "bloomington",
+      "distance_mi": 102.7
+    },
+    {
+      "slug": "victoria",
+      "distance_mi": 103.8
+    }
   ],
   "laredo": [
-    "corpus-christi",
-    "san-antonio",
-    "brownsville",
-    "seguin",
-    "new-braunfels",
-    "victoria",
-    "san-marcos",
-    "austin",
-    "round-rock",
-    "killeen"
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 33.3
+    },
+    {
+      "slug": "roma",
+      "distance_mi": 78.2
+    },
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 79
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 84.8
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 86.5
+    },
+    {
+      "slug": "el-indio",
+      "distance_mi": 88.8
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 100
+    },
+    {
+      "slug": "crystal-city",
+      "distance_mi": 101.9
+    },
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 103.1
+    },
+    {
+      "slug": "edinburg",
+      "distance_mi": 111.8
+    }
   ],
-  "lewisville": [
-    "carrollton",
-    "frisco",
-    "denton",
-    "irving",
-    "plano",
-    "grand-prairie",
-    "dallas",
-    "arlington",
-    "garland",
-    "mckinney"
+  "leggett": [
+    {
+      "slug": "goodrich",
+      "distance_mi": 23.5
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 27.7
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 31.8
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 40.9
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 42.9
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 54.3
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 71.6
+    },
+    {
+      "slug": "anderson",
+      "distance_mi": 74.8
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 75.1
+    }
+  ],
+  "littlefield": [
+    {
+      "slug": "amherst",
+      "distance_mi": 9.6
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 20.3
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 20.8
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 31.2
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 32.8
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 34.2
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 41.5
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 47.1
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 70.8
+    }
+  ],
+  "lockhart": [
+    {
+      "slug": "dale",
+      "distance_mi": 6.9
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 11.4
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 18.3
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 20.7
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 27.3
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 29
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 46.7
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 47.2
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 54.2
+    }
   ],
   "longview": [
-    "tyler",
-    "mesquite",
-    "garland",
-    "plano",
-    "mckinney",
-    "dallas",
-    "frisco",
-    "carrollton",
-    "irving",
-    "grand-prairie"
+    {
+      "slug": "kilgore",
+      "distance_mi": 5
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 15.3
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 24.1
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 24.1
+    },
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 46.5
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 46.8
+    },
+    {
+      "slug": "pickton",
+      "distance_mi": 55.4
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 65.3
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 72.3
+    }
   ],
   "lubbock": [
-    "amarillo",
-    "midland",
-    "san-angelo",
-    "wichita-falls",
-    "fort-worth",
-    "denton",
-    "arlington",
-    "lewisville",
-    "grand-prairie",
-    "irving"
+    {
+      "slug": "abernathy",
+      "distance_mi": 2.8
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 20.3
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 28.7
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 29.3
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 35.6
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 39.2
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 40.9
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 50.9
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 51.3
+    },
+    {
+      "slug": "post",
+      "distance_mi": 54.5
+    }
+  ],
+  "lufkin": [
+    {
+      "slug": "leggett",
+      "distance_mi": 31.8
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 36.7
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 54.4
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 60.8
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 61.1
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 63.9
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 65.7
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 71
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 72.6
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 74.2
+    }
+  ],
+  "mason": [
+    {
+      "slug": "mi-nw-of-brady-brady",
+      "distance_mi": 32.4
+    },
+    {
+      "slug": "junction",
+      "distance_mi": 35.8
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 52.4
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 59.5
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 59.9
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 64.6
+    },
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 81.3
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 87.5
+    },
+    {
+      "slug": "killeen",
+      "distance_mi": 88.5
+    },
+    {
+      "slug": "fort-cavazos",
+      "distance_mi": 88.6
+    }
+  ],
+  "matador": [
+    {
+      "slug": "floydada",
+      "distance_mi": 27.9
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 60.2
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 66.1
+    },
+    {
+      "slug": "post",
+      "distance_mi": 68.2
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 68.7
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 81.4
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 83.8
+    },
+    {
+      "slug": "vernon",
+      "distance_mi": 85.5
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 89
+    }
   ],
   "mckinney": [
-    "frisco",
-    "plano",
-    "garland",
-    "carrollton",
-    "lewisville",
-    "mesquite",
-    "denton",
-    "dallas",
-    "irving",
-    "grand-prairie"
+    {
+      "slug": "frisco",
+      "distance_mi": 10.9
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 24.5
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 28.4
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 29
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 29.7
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 30.3
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 31.9
+    },
+    {
+      "slug": "bonham",
+      "distance_mi": 33.8
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 35.7
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 37.1
+    }
   ],
-  "mesquite": [
-    "garland",
-    "dallas",
-    "plano",
-    "irving",
-    "carrollton",
-    "grand-prairie",
-    "frisco",
-    "arlington",
-    "mckinney",
-    "lewisville"
+  "mclean": [
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 28.1
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 30.4
+    },
+    {
+      "slug": "pampa",
+      "distance_mi": 31.3
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 64.5
+    },
+    {
+      "slug": "perryton",
+      "distance_mi": 82.8
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 83.8
+    },
+    {
+      "slug": "in-booker-booker",
+      "distance_mi": 86.8
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 96.8
+    },
+    {
+      "slug": "vernon",
+      "distance_mi": 99.5
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 116.4
+    }
+  ],
+  "meadow": [
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 15.4
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 19.7
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 35.6
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 38.1
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 47.1
+    },
+    {
+      "slug": "post",
+      "distance_mi": 47.7
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 51.2
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 69
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 69.6
+    }
+  ],
+  "mexia": [
+    {
+      "slug": "waco",
+      "distance_mi": 37.2
+    },
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 45.4
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 46
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 54.2
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 54.6
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 66.1
+    },
+    {
+      "slug": "godley",
+      "distance_mi": 70.9
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 72.3
+    },
+    {
+      "slug": "anderson",
+      "distance_mi": 72.8
+    }
+  ],
+  "mi-e-fort-stockton-fort-stockton": [
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 46.9
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 56.3
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 61.7
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 80.7
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 87.6
+    },
+    {
+      "slug": "stanton",
+      "distance_mi": 106.5
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 123.8
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 149.2
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 149.5
+    },
+    {
+      "slug": "mi-se-of-dell-city-dell-city",
+      "distance_mi": 150.4
+    }
+  ],
+  "mi-e-haskell": [
+    {
+      "slug": "stamford",
+      "distance_mi": 15.5
+    },
+    {
+      "slug": "seymour",
+      "distance_mi": 37
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 44.5
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 53
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 56.3
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 70.8
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 74.1
+    },
+    {
+      "slug": "vernon",
+      "distance_mi": 74.5
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 79
+    },
+    {
+      "slug": "wichita-falls",
+      "distance_mi": 81.6
+    }
+  ],
+  "mi-nw-of-brady-brady": [
+    {
+      "slug": "mason",
+      "distance_mi": 32.4
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 41.6
+    },
+    {
+      "slug": "junction",
+      "distance_mi": 49.7
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 62.6
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 65.7
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 75.5
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 83.6
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 84.8
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 88.3
+    },
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 88.9
+    }
+  ],
+  "mi-nw-of-dalhart-dalhart": [
+    {
+      "slug": "miles-nw-of-dalhart-dalhart",
+      "distance_mi": 0.7
+    },
+    {
+      "slug": "texline",
+      "distance_mi": 31.2
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 78.2
+    },
+    {
+      "slug": "pampa",
+      "distance_mi": 99.7
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 100.5
+    },
+    {
+      "slug": "perryton",
+      "distance_mi": 102.7
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 115.3
+    },
+    {
+      "slug": "in-booker-booker",
+      "distance_mi": 118.4
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 127
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 128.2
+    }
+  ],
+  "mi-nw-of-mcallen-mcallen": [
+    {
+      "slug": "edinburg",
+      "distance_mi": 12.4
+    },
+    {
+      "slug": "roma",
+      "distance_mi": 45.8
+    },
+    {
+      "slug": "brownsville",
+      "distance_mi": 62.7
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 79.1
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 79.6
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 97.1
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 100.3
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 103.1
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 107.3
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 137.7
+    }
+  ],
+  "mi-nw-of-monahans-tx-monahans": [
+    {
+      "slug": "odessa",
+      "distance_mi": 27.4
+    },
+    {
+      "slug": "mi-e-fort-stockton-fort-stockton",
+      "distance_mi": 46.9
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 61.3
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 64.5
+    },
+    {
+      "slug": "stanton",
+      "distance_mi": 81.4
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 90.6
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 101.2
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 103.1
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 125.7
+    },
+    {
+      "slug": "mi-se-of-dell-city-dell-city",
+      "distance_mi": 128.5
+    }
+  ],
+  "mi-se-of-dell-city-dell-city": [
+    {
+      "slug": "el-paso",
+      "distance_mi": 73.9
+    },
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 128.5
+    },
+    {
+      "slug": "mi-e-fort-stockton-fort-stockton",
+      "distance_mi": 150.4
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 151
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 156.1
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 181.5
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 185.5
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 191.9
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 196.3
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 196.4
+    }
   ],
   "midland": [
-    "san-angelo",
-    "lubbock",
-    "amarillo",
-    "wichita-falls",
-    "killeen",
-    "el-paso",
-    "san-antonio",
-    "round-rock",
-    "new-braunfels",
-    "austin"
+    {
+      "slug": "stanton",
+      "distance_mi": 20.2
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 33.9
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 39.9
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 52.5
+    },
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 61.3
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 63.8
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 73.6
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 84.9
+    },
+    {
+      "slug": "mi-e-fort-stockton-fort-stockton",
+      "distance_mi": 87.6
+    },
+    {
+      "slug": "post",
+      "distance_mi": 89.4
+    }
+  ],
+  "miles-ne-of-pampa-pampa": [
+    {
+      "slug": "pampa",
+      "distance_mi": 0.9
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 30.4
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 45.7
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 50.8
+    },
+    {
+      "slug": "perryton",
+      "distance_mi": 59.2
+    },
+    {
+      "slug": "in-booker-booker",
+      "distance_mi": 67.4
+    },
+    {
+      "slug": "mi-nw-of-dalhart-dalhart",
+      "distance_mi": 100.5
+    },
+    {
+      "slug": "miles-nw-of-dalhart-dalhart",
+      "distance_mi": 100.7
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 105.9
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 112.6
+    }
+  ],
+  "miles-nw-of-dalhart-dalhart": [
+    {
+      "slug": "mi-nw-of-dalhart-dalhart",
+      "distance_mi": 0.7
+    },
+    {
+      "slug": "texline",
+      "distance_mi": 30.8
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 78.8
+    },
+    {
+      "slug": "pampa",
+      "distance_mi": 99.9
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 100.7
+    },
+    {
+      "slug": "perryton",
+      "distance_mi": 102.5
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 116
+    },
+    {
+      "slug": "in-booker-booker",
+      "distance_mi": 118.2
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 127.4
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 128.5
+    }
+  ],
+  "miles-se-of-sa-san-ygnacio": [
+    {
+      "slug": "laredo",
+      "distance_mi": 33.3
+    },
+    {
+      "slug": "roma",
+      "distance_mi": 46.5
+    },
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 79.6
+    },
+    {
+      "slug": "edinburg",
+      "distance_mi": 90.2
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 96
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 101.9
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 111.1
+    },
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 111.6
+    },
+    {
+      "slug": "el-indio",
+      "distance_mi": 118.2
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 120
+    }
+  ],
+  "miles-west-of-the-inters-sundown": [
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 10.9
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 19.7
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 39.2
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 41.5
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 41.9
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 42
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 55.9
+    },
+    {
+      "slug": "post",
+      "distance_mi": 66.9
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 70.8
+    }
+  ],
+  "monroe-city": [
+    {
+      "slug": "baytown",
+      "distance_mi": 28.6
+    },
+    {
+      "slug": "port-arthur",
+      "distance_mi": 29.3
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 32.3
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 51.8
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 54.3
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 57.2
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 57.5
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 61.4
+    }
+  ],
+  "mt-pleasant": [
+    {
+      "slug": "pickton",
+      "distance_mi": 20.8
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 38.1
+    },
+    {
+      "slug": "new-boston",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 46.5
+    },
+    {
+      "slug": "kilgore",
+      "distance_mi": 49.7
+    },
+    {
+      "slug": "campbell",
+      "distance_mi": 49.9
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 51.8
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 70.6
+    },
+    {
+      "slug": "bonham",
+      "distance_mi": 77.5
+    }
+  ],
+  "new-boston": [
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "pickton",
+      "distance_mi": 58.9
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 71.5
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 72.7
+    },
+    {
+      "slug": "kilgore",
+      "distance_mi": 77.4
+    },
+    {
+      "slug": "campbell",
+      "distance_mi": 85
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 87.2
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 93.9
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 102.8
+    },
+    {
+      "slug": "bonham",
+      "distance_mi": 103.4
+    }
   ],
   "new-braunfels": [
-    "seguin",
-    "san-marcos",
-    "san-antonio",
-    "austin",
-    "round-rock",
-    "victoria",
-    "killeen",
-    "waco",
-    "corpus-christi",
-    "sugar-land"
+    {
+      "slug": "san-marcos",
+      "distance_mi": 11.3
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 15
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 19.5
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 27.3
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 30.4
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 33.5
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 41.2
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 41.4
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 42.2
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 50
+    }
   ],
-  "pasadena": [
-    "pearland",
-    "houston",
-    "baytown",
-    "sugar-land",
-    "the-woodlands",
-    "beaumont",
-    "port-arthur",
-    "victoria",
-    "austin",
-    "round-rock"
+  "odessa": [
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 27.4
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 33.9
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 51.9
+    },
+    {
+      "slug": "stanton",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "mi-e-fort-stockton-fort-stockton",
+      "distance_mi": 61.7
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 74.5
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 91.5
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 106.4
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 107.5
+    }
   ],
-  "pearland": [
-    "pasadena",
-    "houston",
-    "sugar-land",
-    "baytown",
-    "the-woodlands",
-    "beaumont",
-    "port-arthur",
-    "victoria",
-    "austin",
-    "round-rock"
+  "of-fountain-view-houston": [
+    {
+      "slug": "houston",
+      "distance_mi": 7.3
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 26.7
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "the-woodlands",
+      "distance_mi": 31.6
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 42.5
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 42.6
+    },
+    {
+      "slug": "angleton",
+      "distance_mi": 47.2
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 57.2
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 61.3
+    },
+    {
+      "slug": "brenham",
+      "distance_mi": 64.8
+    }
   ],
-  "plano": [
-    "garland",
-    "frisco",
-    "carrollton",
-    "mckinney",
-    "dallas",
-    "lewisville",
-    "mesquite",
-    "irving",
-    "grand-prairie",
-    "denton"
+  "on-bobwhite-levelland": [
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 10.9
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 15.4
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 28.7
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 31.5
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 34.2
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 36.8
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 54.3
+    },
+    {
+      "slug": "post",
+      "distance_mi": 59.1
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 65.7
+    }
+  ],
+  "palestine": [
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 19.2
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 46.7
+    },
+    {
+      "slug": "mexia",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 56.7
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 57.5
+    },
+    {
+      "slug": "kilgore",
+      "distance_mi": 60.4
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 62.5
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 65.3
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 65.7
+    }
+  ],
+  "pampa": [
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 0.9
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 31.3
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 46.4
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 50.6
+    },
+    {
+      "slug": "perryton",
+      "distance_mi": 58.6
+    },
+    {
+      "slug": "in-booker-booker",
+      "distance_mi": 66.9
+    },
+    {
+      "slug": "mi-nw-of-dalhart-dalhart",
+      "distance_mi": 99.7
+    },
+    {
+      "slug": "miles-nw-of-dalhart-dalhart",
+      "distance_mi": 99.9
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 106.6
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 113.2
+    }
+  ],
+  "perryton": [
+    {
+      "slug": "in-booker-booker",
+      "distance_mi": 15.8
+    },
+    {
+      "slug": "pampa",
+      "distance_mi": 58.6
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 59.2
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 82.8
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 97.7
+    },
+    {
+      "slug": "miles-nw-of-dalhart-dalhart",
+      "distance_mi": 102.5
+    },
+    {
+      "slug": "mi-nw-of-dalhart-dalhart",
+      "distance_mi": 102.7
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 104.4
+    },
+    {
+      "slug": "texline",
+      "distance_mi": 124.6
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 163.5
+    }
+  ],
+  "pickton": [
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 20.8
+    },
+    {
+      "slug": "campbell",
+      "distance_mi": 29.2
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 42.3
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 46.7
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 51.1
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 55.4
+    },
+    {
+      "slug": "kilgore",
+      "distance_mi": 57
+    },
+    {
+      "slug": "new-boston",
+      "distance_mi": 58.9
+    },
+    {
+      "slug": "bonham",
+      "distance_mi": 59.3
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 69.6
+    }
+  ],
+  "plains": [
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 40.8
+    },
+    {
+      "slug": "amherst",
+      "distance_mi": 69.3
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 69.5
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 70.8
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 72.3
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 77.8
+    },
+    {
+      "slug": "post",
+      "distance_mi": 85.2
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 89.5
+    }
+  ],
+  "pleasanton": [
+    {
+      "slug": "elmendorf",
+      "distance_mi": 9.9
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 33.7
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 47.7
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 49.1
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 51.1
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 62.4
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 71.7
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 76.6
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 80.9
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 81.5
+    }
   ],
   "port-arthur": [
-    "beaumont",
-    "baytown",
-    "pasadena",
-    "pearland",
-    "houston",
-    "the-woodlands",
-    "sugar-land",
-    "longview",
-    "tyler",
-    "victoria"
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 1.6
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 8
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 29.3
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 32.2
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 57.9
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 64.2
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 67.1
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 78.7
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 80.5
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 82.6
+    }
   ],
-  "round-rock": [
-    "austin",
-    "killeen",
-    "san-marcos",
-    "new-braunfels",
-    "seguin",
-    "waco",
-    "san-antonio",
-    "victoria",
-    "the-woodlands",
-    "sugar-land"
+  "post": [
+    {
+      "slug": "acres-spur",
+      "distance_mi": 35.7
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 47.7
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 54.5
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 54.7
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 55.5
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 59.1
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 59.7
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 62.9
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 66.9
+    }
+  ],
+  "prairie-fulton": [
+    {
+      "slug": "austin",
+      "distance_mi": 8.4
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 20.1
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 23.1
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 25.7
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 29
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "burnet",
+      "distance_mi": 42.4
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 43.4
+    },
+    {
+      "slug": "killeen",
+      "distance_mi": 47.5
+    },
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 50
+    }
+  ],
+  "railroad-sanger": [
+    {
+      "slug": "denton",
+      "distance_mi": 12.6
+    },
+    {
+      "slug": "gainesville",
+      "distance_mi": 21.4
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 27.5
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 30.7
+    },
+    {
+      "slug": "whitesboro",
+      "distance_mi": 31.4
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 34.5
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 35.1
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 35.7
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 38.9
+    }
+  ],
+  "railway-del-rio": [
+    {
+      "slug": "brackettville-brackettville",
+      "distance_mi": 26.2
+    },
+    {
+      "slug": "uvalde",
+      "distance_mi": 61
+    },
+    {
+      "slug": "el-indio",
+      "distance_mi": 65.1
+    },
+    {
+      "slug": "crystal-city",
+      "distance_mi": 66.4
+    },
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 80.5
+    },
+    {
+      "slug": "junction",
+      "distance_mi": 103.9
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 125.9
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 132.3
+    },
+    {
+      "slug": "mason",
+      "distance_mi": 136.8
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 145.5
+    }
+  ],
+  "rankin": [
+    {
+      "slug": "big-lake",
+      "distance_mi": 26.8
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 51.9
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 52.5
+    },
+    {
+      "slug": "mi-e-fort-stockton-fort-stockton",
+      "distance_mi": 56.3
+    },
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 64.5
+    },
+    {
+      "slug": "stanton",
+      "distance_mi": 64.8
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 77
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 93.8
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 103.3
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 119.3
+    }
+  ],
+  "republic-way-avalon": [
+    {
+      "slug": "ennis",
+      "distance_mi": 14.3
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 18.8
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 25.8
+    },
+    {
+      "slug": "godley",
+      "distance_mi": 33.7
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 38.5
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 43.1
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 45.3
+    },
+    {
+      "slug": "mexia",
+      "distance_mi": 45.4
+    },
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 45.5
+    }
+  ],
+  "robstown": [
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 8.1
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 21.7
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 30.9
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 69.8
+    },
+    {
+      "slug": "bloomington",
+      "distance_mi": 81.1
+    },
+    {
+      "slug": "victoria",
+      "distance_mi": 82.3
+    },
+    {
+      "slug": "edinburg",
+      "distance_mi": 95.5
+    },
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 100.3
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 107.4
+    },
+    {
+      "slug": "edna",
+      "distance_mi": 108.5
+    }
+  ],
+  "roma": [
+    {
+      "slug": "mi-nw-of-mcallen-mcallen",
+      "distance_mi": 45.8
+    },
+    {
+      "slug": "miles-se-of-sa-san-ygnacio",
+      "distance_mi": 46.5
+    },
+    {
+      "slug": "edinburg",
+      "distance_mi": 58.2
+    },
+    {
+      "slug": "laredo",
+      "distance_mi": 78.2
+    },
+    {
+      "slug": "brownsville",
+      "distance_mi": 104.4
+    },
+    {
+      "slug": "kingsville",
+      "distance_mi": 104.4
+    },
+    {
+      "slug": "alice",
+      "distance_mi": 111.3
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 125.8
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 133.7
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 140.8
+    }
   ],
   "san-angelo": [
-    "midland",
-    "killeen",
-    "lubbock",
-    "round-rock",
-    "austin",
-    "san-antonio",
-    "new-braunfels",
-    "san-marcos",
-    "waco",
-    "seguin"
+    {
+      "slug": "mi-nw-of-brady-brady",
+      "distance_mi": 62.6
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 69
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 69.2
+    },
+    {
+      "slug": "junction",
+      "distance_mi": 77
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 79.9
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 79.9
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 82.9
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 84.2
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 84.3
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 84.8
+    }
   ],
   "san-antonio": [
-    "new-braunfels",
-    "seguin",
-    "san-marcos",
-    "austin",
-    "round-rock",
-    "victoria",
-    "killeen",
-    "corpus-christi",
-    "laredo",
-    "waco"
+    {
+      "slug": "port-arthur",
+      "distance_mi": 145.2
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 146.1
+    },
+    {
+      "slug": "angleton",
+      "distance_mi": 147.9
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 150.6
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 152.8
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 162.3
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 171.5
+    },
+    {
+      "slug": "bay-city",
+      "distance_mi": 171.9
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 182.6
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 182.7
+    }
   ],
   "san-marcos": [
-    "new-braunfels",
-    "seguin",
-    "austin",
-    "san-antonio",
-    "round-rock",
-    "killeen",
-    "victoria",
-    "waco",
-    "sugar-land",
-    "the-woodlands"
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 11.3
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 18.3
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 19.2
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 21.7
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 23.6
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 30.1
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 31
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 36.1
+    },
+    {
+      "slug": "prairie-fulton",
+      "distance_mi": 38.7
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 52.5
+    }
+  ],
+  "schertz": [
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 19.5
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 24
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 25.6
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 30.1
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 33.7
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 46.7
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 48.8
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 49.3
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 50.3
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 53
+    }
+  ],
+  "se-of-muleshoe-muleshoe": [
+    {
+      "slug": "amherst",
+      "distance_mi": 22.1
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 24.6
+    },
+    {
+      "slug": "littlefield",
+      "distance_mi": 31.2
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 51.3
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 52
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "distance_mi": 54.3
+    },
+    {
+      "slug": "miles-west-of-the-inters-sundown",
+      "distance_mi": 55.9
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 69.6
+    },
+    {
+      "slug": "plains",
+      "distance_mi": 77.8
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 82.4
+    }
   ],
   "seguin": [
-    "new-braunfels",
-    "san-marcos",
-    "san-antonio",
-    "austin",
-    "round-rock",
-    "victoria",
-    "killeen",
-    "corpus-christi",
-    "sugar-land",
-    "waco"
+    {
+      "slug": "new-braunfels",
+      "distance_mi": 15
+    },
+    {
+      "slug": "san-marcos",
+      "distance_mi": 21.7
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 25.6
+    },
+    {
+      "slug": "lockhart",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "dale",
+      "distance_mi": 35.8
+    },
+    {
+      "slug": "buda",
+      "distance_mi": 36.7
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 39.9
+    },
+    {
+      "slug": "austin",
+      "distance_mi": 48.3
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 49.1
+    },
+    {
+      "slug": "johnson-city",
+      "distance_mi": 56
+    }
   ],
-  "sugar-land": [
-    "houston",
-    "pearland",
-    "pasadena",
-    "the-woodlands",
-    "baytown",
-    "beaumont",
-    "victoria",
-    "port-arthur",
-    "austin",
-    "round-rock"
+  "seymour": [
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 37
+    },
+    {
+      "slug": "vernon",
+      "distance_mi": 45.3
+    },
+    {
+      "slug": "wichita-falls",
+      "distance_mi": 45.6
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 52
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 58
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 77.3
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 81.4
+    },
+    {
+      "slug": "bowie",
+      "distance_mi": 81.8
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 93.6
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 96.6
+    }
+  ],
+  "shady-trl-dallas": [
+    {
+      "slug": "wire-way-dallas",
+      "distance_mi": 1.2
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 5.3
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 8
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 8.4
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 8.6
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 19
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 19.1
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 22.4
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 28.1
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 29
+    }
+  ],
+  "snyder": [
+    {
+      "slug": "colorado-city",
+      "distance_mi": 17.6
+    },
+    {
+      "slug": "big-spring",
+      "distance_mi": 45.5
+    },
+    {
+      "slug": "post",
+      "distance_mi": 47.8
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 54
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 62.2
+    },
+    {
+      "slug": "stanton",
+      "distance_mi": 64.7
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 74.1
+    },
+    {
+      "slug": "san-angelo",
+      "distance_mi": 84.2
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 84.4
+    }
+  ],
+  "stamford": [
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 15.5
+    },
+    {
+      "slug": "abilene",
+      "distance_mi": 30.5
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 46.3
+    },
+    {
+      "slug": "seymour",
+      "distance_mi": 52
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 54
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 62.2
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 69.7
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 69.8
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 72.9
+    },
+    {
+      "slug": "vernon",
+      "distance_mi": 89.7
+    }
+  ],
+  "stanton": [
+    {
+      "slug": "big-spring",
+      "distance_mi": 19.9
+    },
+    {
+      "slug": "midland",
+      "distance_mi": 20.2
+    },
+    {
+      "slug": "colorado-city",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "odessa",
+      "distance_mi": 53.9
+    },
+    {
+      "slug": "snyder",
+      "distance_mi": 64.7
+    },
+    {
+      "slug": "rankin",
+      "distance_mi": 64.8
+    },
+    {
+      "slug": "big-lake",
+      "distance_mi": 68.5
+    },
+    {
+      "slug": "post",
+      "distance_mi": 72.9
+    },
+    {
+      "slug": "mi-nw-of-monahans-tx-monahans",
+      "distance_mi": 81.4
+    },
+    {
+      "slug": "meadow",
+      "distance_mi": 83
+    }
+  ],
+  "stephenville": [
+    {
+      "slug": "glen-rose",
+      "distance_mi": 47.6
+    },
+    {
+      "slug": "cross-plains",
+      "distance_mi": 51.7
+    },
+    {
+      "slug": "brownwood",
+      "distance_mi": 53.7
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 54.1
+    },
+    {
+      "slug": "godley",
+      "distance_mi": 56
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 64.9
+    },
+    {
+      "slug": "baird",
+      "distance_mi": 66.4
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 68.2
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 69
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 75.5
+    }
+  ],
+  "sully-clarendon": [
+    {
+      "slug": "mclean",
+      "distance_mi": 28.1
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 45.7
+    },
+    {
+      "slug": "pampa",
+      "distance_mi": 46.4
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 52.3
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 60.2
+    },
+    {
+      "slug": "floydada",
+      "distance_mi": 69.4
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 91.7
+    },
+    {
+      "slug": "abernathy",
+      "distance_mi": 97.5
+    },
+    {
+      "slug": "vernon",
+      "distance_mi": 99.6
+    },
+    {
+      "slug": "lubbock",
+      "distance_mi": 100.3
+    }
+  ],
+  "sweetwater": [
+    {
+      "slug": "alvin",
+      "distance_mi": 201
+    },
+    {
+      "slug": "san-antonio",
+      "distance_mi": 2859.9
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 2918.4
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 2923.9
+    },
+    {
+      "slug": "port-arthur",
+      "distance_mi": 2924.6
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 2925.7
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 2951.7
+    },
+    {
+      "slug": "woodville",
+      "distance_mi": 2958.4
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 2978
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 2978.7
+    }
+  ],
+  "tennessee-colony": [
+    {
+      "slug": "palestine",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 26.8
+    },
+    {
+      "slug": "mexia",
+      "distance_mi": 46
+    },
+    {
+      "slug": "tyler",
+      "distance_mi": 52.6
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 57.2
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 65.3
+    },
+    {
+      "slug": "kilgore",
+      "distance_mi": 67.4
+    },
+    {
+      "slug": "big-sandy",
+      "distance_mi": 68.4
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 68.4
+    },
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 68.9
+    }
+  ],
+  "texas-creedmoor": [
+    {
+      "slug": "blossom",
+      "distance_mi": 0
+    },
+    {
+      "slug": "cotulla",
+      "distance_mi": 0
+    },
+    {
+      "slug": "ft-west-of-aviation-way-el-paso",
+      "distance_mi": 0
+    },
+    {
+      "slug": "winters",
+      "distance_mi": 0
+    },
+    {
+      "slug": "alvin",
+      "distance_mi": 3405.4
+    },
+    {
+      "slug": "sweetwater",
+      "distance_mi": 3595.8
+    },
+    {
+      "slug": "san-antonio",
+      "distance_mi": 6418.7
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 6448.5
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 6459.7
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 6460.2
+    }
+  ],
+  "texline": [
+    {
+      "slug": "miles-nw-of-dalhart-dalhart",
+      "distance_mi": 30.8
+    },
+    {
+      "slug": "mi-nw-of-dalhart-dalhart",
+      "distance_mi": 31.2
+    },
+    {
+      "slug": "amarillo",
+      "distance_mi": 108.9
+    },
+    {
+      "slug": "perryton",
+      "distance_mi": 124.6
+    },
+    {
+      "slug": "pampa",
+      "distance_mi": 129.8
+    },
+    {
+      "slug": "miles-ne-of-pampa-pampa",
+      "distance_mi": 130.6
+    },
+    {
+      "slug": "dimmitt",
+      "distance_mi": 138.9
+    },
+    {
+      "slug": "in-booker-booker",
+      "distance_mi": 139.7
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "distance_mi": 151
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 158.2
+    }
   ],
   "the-woodlands": [
-    "houston",
-    "pasadena",
-    "sugar-land",
-    "baytown",
-    "pearland",
-    "beaumont",
-    "port-arthur",
-    "victoria",
-    "round-rock",
-    "austin"
+    {
+      "slug": "conroe",
+      "distance_mi": 11.6
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 13.8
+    },
+    {
+      "slug": "houston",
+      "distance_mi": 26.6
+    },
+    {
+      "slug": "of-fountain-view-houston",
+      "distance_mi": 31.6
+    },
+    {
+      "slug": "brookshire",
+      "distance_mi": 35
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 36.6
+    },
+    {
+      "slug": "huntsville",
+      "distance_mi": 39.3
+    },
+    {
+      "slug": "baytown",
+      "distance_mi": 42.1
+    },
+    {
+      "slug": "anderson",
+      "distance_mi": 50.9
+    },
+    {
+      "slug": "leggett",
+      "distance_mi": 54.3
+    }
   ],
   "tyler": [
-    "longview",
-    "mesquite",
-    "garland",
-    "dallas",
-    "plano",
-    "mckinney",
-    "irving",
-    "carrollton",
-    "grand-prairie",
-    "frisco"
+    {
+      "slug": "big-sandy",
+      "distance_mi": 15.9
+    },
+    {
+      "slug": "kilgore",
+      "distance_mi": 20.6
+    },
+    {
+      "slug": "longview",
+      "distance_mi": 24.1
+    },
+    {
+      "slug": "jacksonville",
+      "distance_mi": 31.2
+    },
+    {
+      "slug": "henderson",
+      "distance_mi": 35
+    },
+    {
+      "slug": "canton",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "palestine",
+      "distance_mi": 46.7
+    },
+    {
+      "slug": "pickton",
+      "distance_mi": 51.1
+    },
+    {
+      "slug": "mt-pleasant",
+      "distance_mi": 51.8
+    },
+    {
+      "slug": "tennessee-colony",
+      "distance_mi": 52.6
+    }
+  ],
+  "uvalde": [
+    {
+      "slug": "crystal-city",
+      "distance_mi": 16.6
+    },
+    {
+      "slug": "brackettville-brackettville",
+      "distance_mi": 34.8
+    },
+    {
+      "slug": "carrizo-springs",
+      "distance_mi": 40.1
+    },
+    {
+      "slug": "el-indio",
+      "distance_mi": 52.3
+    },
+    {
+      "slug": "railway-del-rio",
+      "distance_mi": 61
+    },
+    {
+      "slug": "kerrville",
+      "distance_mi": 82.3
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 87.2
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 91.1
+    },
+    {
+      "slug": "junction",
+      "distance_mi": 93.5
+    },
+    {
+      "slug": "schertz",
+      "distance_mi": 99.1
+    }
+  ],
+  "vernon": [
+    {
+      "slug": "seymour",
+      "distance_mi": 45.3
+    },
+    {
+      "slug": "wichita-falls",
+      "distance_mi": 51.3
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 74.5
+    },
+    {
+      "slug": "matador",
+      "distance_mi": 85.5
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 89.7
+    },
+    {
+      "slug": "bowie",
+      "distance_mi": 97.8
+    },
+    {
+      "slug": "mclean",
+      "distance_mi": 99.5
+    },
+    {
+      "slug": "sully-clarendon",
+      "distance_mi": 99.6
+    },
+    {
+      "slug": "acres-spur",
+      "distance_mi": 101.8
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 102.7
+    }
   ],
   "victoria": [
-    "corpus-christi",
-    "seguin",
-    "new-braunfels",
-    "san-marcos",
-    "sugar-land",
-    "san-antonio",
-    "austin",
-    "pearland",
-    "houston",
-    "pasadena"
+    {
+      "slug": "bloomington",
+      "distance_mi": 5
+    },
+    {
+      "slug": "edna",
+      "distance_mi": 28.3
+    },
+    {
+      "slug": "hallettsville",
+      "distance_mi": 49.1
+    },
+    {
+      "slug": "bay-city",
+      "distance_mi": 61.1
+    },
+    {
+      "slug": "corpus-christi",
+      "distance_mi": 75.3
+    },
+    {
+      "slug": "seguin",
+      "distance_mi": 79.5
+    },
+    {
+      "slug": "robstown",
+      "distance_mi": 82.3
+    },
+    {
+      "slug": "elmendorf",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "pleasanton",
+      "distance_mi": 92
+    },
+    {
+      "slug": "hiawatha-san-antonio",
+      "distance_mi": 93.7
+    }
   ],
   "waco": [
-    "killeen",
-    "round-rock",
-    "arlington",
-    "grand-prairie",
-    "fort-worth",
-    "dallas",
-    "irving",
-    "mesquite",
-    "austin",
-    "carrollton"
+    {
+      "slug": "mexia",
+      "distance_mi": 37.2
+    },
+    {
+      "slug": "itasca",
+      "distance_mi": 43.8
+    },
+    {
+      "slug": "fort-cavazos",
+      "distance_mi": 48.5
+    },
+    {
+      "slug": "republic-way-avalon",
+      "distance_mi": 49.4
+    },
+    {
+      "slug": "killeen",
+      "distance_mi": 50.8
+    },
+    {
+      "slug": "alvarado",
+      "distance_mi": 55
+    },
+    {
+      "slug": "godley",
+      "distance_mi": 55
+    },
+    {
+      "slug": "copperas-cove",
+      "distance_mi": 56.1
+    },
+    {
+      "slug": "cedar-creek",
+      "distance_mi": 61.9
+    },
+    {
+      "slug": "ennis",
+      "distance_mi": 63.5
+    }
+  ],
+  "whitesboro": [
+    {
+      "slug": "gainesville",
+      "distance_mi": 15.7
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 31.4
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 39.5
+    },
+    {
+      "slug": "bonham",
+      "distance_mi": 40.1
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 41.4
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 43
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 50.9
+    },
+    {
+      "slug": "bowie",
+      "distance_mi": 53.4
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 56.2
+    },
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 58.7
+    }
   ],
   "wichita-falls": [
-    "denton",
-    "fort-worth",
-    "lewisville",
-    "frisco",
-    "carrollton",
-    "arlington",
-    "irving",
-    "grand-prairie",
-    "mckinney",
-    "plano"
+    {
+      "slug": "seymour",
+      "distance_mi": 45.6
+    },
+    {
+      "slug": "bowie",
+      "distance_mi": 46.5
+    },
+    {
+      "slug": "vernon",
+      "distance_mi": 51.3
+    },
+    {
+      "slug": "breckenridge",
+      "distance_mi": 79
+    },
+    {
+      "slug": "gainesville",
+      "distance_mi": 81.1
+    },
+    {
+      "slug": "mi-e-haskell",
+      "distance_mi": 81.6
+    },
+    {
+      "slug": "railroad-sanger",
+      "distance_mi": 87.7
+    },
+    {
+      "slug": "whitesboro",
+      "distance_mi": 94.3
+    },
+    {
+      "slug": "stamford",
+      "distance_mi": 95.7
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 98.5
+    }
+  ],
+  "winters": [
+    {
+      "slug": "blossom",
+      "distance_mi": 0
+    },
+    {
+      "slug": "cotulla",
+      "distance_mi": 0
+    },
+    {
+      "slug": "ft-west-of-aviation-way-el-paso",
+      "distance_mi": 0
+    },
+    {
+      "slug": "texas-creedmoor",
+      "distance_mi": 0
+    },
+    {
+      "slug": "alvin",
+      "distance_mi": 3405.4
+    },
+    {
+      "slug": "sweetwater",
+      "distance_mi": 3595.8
+    },
+    {
+      "slug": "san-antonio",
+      "distance_mi": 6418.7
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 6448.5
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 6459.7
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 6460.2
+    }
+  ],
+  "wire-way-dallas": [
+    {
+      "slug": "shady-trl-dallas",
+      "distance_mi": 1.2
+    },
+    {
+      "slug": "irving",
+      "distance_mi": 4.4
+    },
+    {
+      "slug": "carrollton",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "grand-prairie",
+      "distance_mi": 7.9
+    },
+    {
+      "slug": "dallas",
+      "distance_mi": 9.3
+    },
+    {
+      "slug": "arlington",
+      "distance_mi": 18
+    },
+    {
+      "slug": "frisco",
+      "distance_mi": 19.7
+    },
+    {
+      "slug": "denton",
+      "distance_mi": 22
+    },
+    {
+      "slug": "fort-worth",
+      "distance_mi": 26.9
+    },
+    {
+      "slug": "mckinney",
+      "distance_mi": 29.7
+    }
+  ],
+  "woodville": [
+    {
+      "slug": "leggett",
+      "distance_mi": 27.7
+    },
+    {
+      "slug": "goodrich",
+      "distance_mi": 34.1
+    },
+    {
+      "slug": "lufkin",
+      "distance_mi": 36.7
+    },
+    {
+      "slug": "deweyville",
+      "distance_mi": 46
+    },
+    {
+      "slug": "beaumont",
+      "distance_mi": 57
+    },
+    {
+      "slug": "cleveland",
+      "distance_mi": 57
+    },
+    {
+      "slug": "conroe",
+      "distance_mi": 61.1
+    },
+    {
+      "slug": "business-park-port-arthur",
+      "distance_mi": 63.4
+    },
+    {
+      "slug": "port-arthur",
+      "distance_mi": 64.2
+    },
+    {
+      "slug": "monroe-city",
+      "distance_mi": 66.4
+    }
   ]
 }

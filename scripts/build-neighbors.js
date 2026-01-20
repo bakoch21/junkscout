@@ -3,13 +3,13 @@
  *
  * Builds a nearest-neighbor map for cities with >= 1 location.
  *
- * Outputs:
- *  - ./data/{state}/_city-centroids.json  (cache)
- *  - ./data/{state}/_neighbors.json       (slug -> [nearest slugs])
+ * Inputs:
+ *  - ./scripts/cities-texas.json           (list of city slugs)
+ *  - ./data/{state}/{city}.json            (locations w/ lat,lng)
  *
- * Default inputs:
- *  - ./scripts/cities-texas.json
- *  - ./data/{state}/{city}.json  (location data produced by generate-cities.js)
+ * Outputs:
+ *  - ./data/{state}/_city-centroids.json   (computed from local city JSON)
+ *  - ./data/{state}/_neighbors.json        (slug -> [{slug, distance_mi}, ...])
  *
  * Usage:
  *  node scripts/build-neighbors.js --state=texas --k=10
@@ -21,17 +21,12 @@ const path = require("path");
 // --- Config defaults ---
 const DEFAULT_CITY_LIST = "./scripts/cities-texas.json";
 const OUTPUT_BASE = "./data";
-const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
 
 // --- Helpers ---
 function argVal(name, fallback = null) {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
   if (!hit) return fallback;
   return hit.split("=").slice(1).join("=");
-}
-
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
 }
 
 function safeReadJson(filePath, fallback) {
@@ -41,6 +36,13 @@ function safeReadJson(filePath, fallback) {
   } catch {
     return fallback;
   }
+}
+
+function normalizeSlug(s) {
+  return String(s || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "-");
 }
 
 function haversineKm(a, b) {
@@ -58,68 +60,42 @@ function haversineKm(a, b) {
   return 2 * R * Math.asin(Math.min(1, Math.sqrt(x)));
 }
 
-async function geocodeCityToCentroid(query) {
-  const url =
-    `${NOMINATIM_URL}?format=json&limit=1&q=` + encodeURIComponent(query);
-
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": "JunkScout/1.0 (build-neighbors)",
-      Accept: "application/json",
-    },
-  });
-
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`Nominatim failed (${res.status}): ${body.slice(0, 220)}`);
-  }
-
-  const data = await res.json();
-  if (!Array.isArray(data) || data.length === 0) {
-    throw new Error(`Nominatim returned no results for: ${query}`);
-  }
-
-  // Prefer lat/lon if present
-  const lat = parseFloat(data[0].lat);
-  const lng = parseFloat(data[0].lon);
-
-  if (Number.isFinite(lat) && Number.isFinite(lng)) {
-    return { lat, lng };
-  }
-
-  // Fallback to bbox midpoint
-  const bb = data[0].boundingbox; // [south, north, west, east] strings
-  const south = parseFloat(bb[0]);
-  const north = parseFloat(bb[1]);
-  const west = parseFloat(bb[2]);
-  const east = parseFloat(bb[3]);
-
-  return { lat: (south + north) / 2, lng: (west + east) / 2 };
-}
-
-function normalizeSlug(s) {
-  return String(s || "")
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, "-");
+function kmToMi(km) {
+  return km * 0.621371;
 }
 
 function getCityDataPath(state, city) {
   return path.join(OUTPUT_BASE, state, `${city}.json`);
 }
 
-function hasLocations(state, city) {
+function computeCentroidFromCityLocations(state, city) {
   const p = getCityDataPath(state, city);
   const data = safeReadJson(p, null);
-  if (!Array.isArray(data)) return false;
-  return data.length > 0;
+  if (!Array.isArray(data) || data.length === 0) return null;
+
+  let sumLat = 0;
+  let sumLng = 0;
+  let n = 0;
+
+  for (const item of data) {
+    const lat = typeof item.lat === "number" ? item.lat : null;
+    const lng = typeof item.lng === "number" ? item.lng : null;
+    if (lat == null || lng == null) continue;
+
+    sumLat += lat;
+    sumLng += lng;
+    n++;
+  }
+
+  if (n === 0) return null;
+
+  return { lat: sumLat / n, lng: sumLng / n, n_points: n };
 }
 
 async function run() {
   const state = normalizeSlug(argVal("state", "texas"));
   const k = parseInt(argVal("k", "10"), 10);
   const cityListPath = argVal("cityList", DEFAULT_CITY_LIST);
-  const delayMs = parseInt(argVal("delayMs", "1200"), 10);
 
   if (!fs.existsSync(cityListPath)) {
     throw new Error(`City list not found: ${cityListPath}`);
@@ -130,60 +106,47 @@ async function run() {
   // Keep only this state, normalize city slug
   const allCities = (rawList || [])
     .filter((x) => x && normalizeSlug(x.state) === state && x.city)
-    .map((x) => ({
-      state,
-      city: normalizeSlug(x.city),
-      query: String(x.query || "").trim(),
-    }))
-    .filter((x) => x.query);
+    .map((x) => normalizeSlug(x.city))
+    .filter(Boolean);
 
   if (allCities.length === 0) {
     throw new Error(`No cities found for state="${state}" in ${cityListPath}`);
   }
 
-  // Filter to cities that have >=1 location in data/{state}/{city}.json
-  const eligible = allCities.filter((c) => hasLocations(state, c.city));
-
-  console.log(`\n🧭 build-neighbors`);
+  console.log(`\n🧭 build-neighbors (local centroids, no OSM)`);
   console.log(`State: ${state}`);
   console.log(`City list: ${cityListPath}`);
-  console.log(`Eligible cities (>=1 location): ${eligible.length}/${allCities.length}`);
   console.log(`k (neighbors per city): ${k}`);
 
   const outDir = path.join(OUTPUT_BASE, state);
   fs.mkdirSync(outDir, { recursive: true });
 
-  const centroidCachePath = path.join(outDir, "_city-centroids.json");
-  const centroidCache = safeReadJson(centroidCachePath, {});
-
-  // Build centroid map for eligible cities
+  // Build centroid map from local files
   const centroids = {};
-  for (const c of eligible) {
-    const key = c.city;
+  let eligible = 0;
+  let missing = 0;
 
-    if (
-      centroidCache[key] &&
-      Number.isFinite(centroidCache[key].lat) &&
-      Number.isFinite(centroidCache[key].lng)
-    ) {
-      centroids[key] = centroidCache[key];
+  for (const city of allCities) {
+    const c = computeCentroidFromCityLocations(state, city);
+    if (!c) {
+      missing++;
       continue;
     }
-
-    console.log(`📍 Geocoding centroid: ${c.query}`);
-    try {
-      const pt = await geocodeCityToCentroid(c.query);
-      centroids[key] = pt;
-      centroidCache[key] = pt;
-
-      // Write cache progressively so reruns are cheap
-      fs.writeFileSync(centroidCachePath, JSON.stringify(centroidCache, null, 2));
-    } catch (e) {
-      console.log(`   ⚠️ Skipping centroid (failed): ${c.city} — ${e.message}`);
-    }
-
-    await sleep(delayMs); // be nice to Nominatim
+    centroids[city] = { lat: c.lat, lng: c.lng, n_points: c.n_points };
+    eligible++;
   }
+
+  console.log(`Eligible cities (>=1 location w/ coords): ${eligible}/${allCities.length}`);
+  if (eligible === 0) {
+    throw new Error(`No eligible cities found. Check that ${OUTPUT_BASE}/${state}/{city}.json exists and has lat/lng.`);
+  }
+  if (missing > 0) {
+    console.log(`ℹ️ Skipped cities missing data/coords: ${missing}`);
+  }
+
+  // Write centroid cache
+  const centroidCachePath = path.join(outDir, "_city-centroids.json");
+  fs.writeFileSync(centroidCachePath, JSON.stringify(centroids, null, 2));
 
   // Compute neighbors
   const neighborMap = {};
@@ -194,13 +157,15 @@ async function run() {
 
     const scored = keys
       .filter((other) => other !== city)
-      .map((other) => ({
-        city: other,
-        d: haversineKm(origin, centroids[other]),
-      }))
-      .sort((a, b) => a.d - b.d)
-      .slice(0, Math.max(0, k))
-      .map((x) => x.city);
+      .map((other) => {
+        const km = haversineKm(origin, centroids[other]);
+        return {
+          slug: other,
+          distance_mi: Math.round(kmToMi(km) * 10) / 10, // 0.1 mi precision
+        };
+      })
+      .sort((a, b) => a.distance_mi - b.distance_mi)
+      .slice(0, Math.max(0, k));
 
     neighborMap[city] = scored;
   }
