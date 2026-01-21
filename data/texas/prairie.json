@@ -1,0 +1,42 @@
+[
+  {
+    "name": "26.04 ACRE TRACT",
+    "type": "landfill",
+    "address": "650 WEST OAKDALE RD GRAND PRAIRIE TX 75050",
+    "lat": 32.79,
+    "lng": -97.01,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f0eeee96dde6"
+  },
+  {
+    "name": "CITY OF GRAND PRAIRIE LANDFILL",
+    "type": "landfill",
+    "address": "1102 MACARTHUR BLVD GRAND PRAIRIE TX 75050",
+    "lat": 32.77,
+    "lng": -96.95,
+    "website": null,
+    "source": null,
+    "facility_id": "f_36b0f9b15da5"
+  },
+  {
+    "name": "CITY OF GRAND PRAIRIE LF GAS TO ENERGY FACILITY",
+    "type": "landfill",
+    "address": "1102 MACARTHUR BLVD GRAND PRAIRIE TX 75050",
+    "lat": 32.77,
+    "lng": -96.95,
+    "website": null,
+    "source": null,
+    "facility_id": "f_fa73f0f8a3b5"
+  },
+  {
+    "name": "ONCORE TECHNOLOGY",
+    "type": "landfill",
+    "address": "2613 SKYWAY DR GRAND PRAIRIE TX 75052",
+    "lat": 32.71,
+    "lng": -97.05,
+    "website": null,
+    "source": null,
+    "facility_id": "f_649e9e0f489e"
+  }
+]

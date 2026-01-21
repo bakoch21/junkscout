@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "LA GLORIA RANCH LANDFILL",
+    "type": "landfill",
+    "address": "INTX OF FM 681 & MI 14 RD 6 MI NW OF MCALLEN MCALLEN TX 78572",
+    "lat": 26.4,
+    "lng": -98.33,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b93751609b31"
+  }
+]

@@ -1,5 +1,25 @@
 [
   {
+    "name": "BAYTOWN LANDFILL FACILITY",
+    "type": "landfill",
+    "address": "4791 TRI CITY BEACH RD BAYTOWN TX 77523",
+    "lat": 29.68,
+    "lng": -94.93,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3e9b26c78eb8"
+  },
+  {
+    "name": "BAYTOWN MEDICAL WASTE FACILITY",
+    "type": "landfill",
+    "address": "4200 CEDAR BLVD BAYTOWN TX 77523",
+    "lat": 29.72,
+    "lng": -94.92,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0aadc78c9f71"
+  },
+  {
     "name": "Green Center",
     "type": "recycling",
     "address": "",

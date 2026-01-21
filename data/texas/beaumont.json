@@ -1,5 +1,25 @@
 [
   {
+    "name": "CITY OF BEAUMONT LANDFILL",
+    "type": "landfill",
+    "address": "5895 LAFIN DR BEAUMONT TX 77705",
+    "lat": 30.03,
+    "lng": -94.13,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9567507a1d2d"
+  },
+  {
+    "name": "GOLDEN TRIANGLE LANDFILL",
+    "type": "landfill",
+    "address": "6433 LABELLE RD BEAUMONT TX 77705",
+    "lat": 29.99,
+    "lng": -94.17,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a2b722a408e4"
+  },
+  {
     "name": "Republic Services",
     "type": "transfer_station",
     "address": "6425 Highway 347 Beaumont TX 77705",

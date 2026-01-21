@@ -1,5 +1,15 @@
 [
   {
+    "name": "CITY OF DENTON LANDFILL",
+    "type": "landfill",
+    "address": "1527 S MAYHILL RD DENTON TX 76208",
+    "lat": 33.19,
+    "lng": -97.08,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0a314edb56ef"
+  },
+  {
     "name": "Denton Recycle Center",
     "type": "transfer_station",
     "address": "1722 Cooper Creek Road Denton TX 76208",
@@ -28,5 +38,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_b20c1d149cd2"
+  },
+  {
+    "name": "SAFETY-KLEEN SYSTEMS",
+    "type": "landfill",
+    "address": "1722 COOPER CREEK RD DENTON TX 76208",
+    "lat": 33.24,
+    "lng": -97.08,
+    "website": null,
+    "source": null,
+    "facility_id": "f_42957879410e"
   }
 ]

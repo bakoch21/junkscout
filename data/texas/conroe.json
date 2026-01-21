@@ -10,6 +10,26 @@
     "facility_id": "f_947ab4c0812a"
   },
   {
+    "name": "CONROE MEDICAL WASTE FACILITY",
+    "type": "landfill",
+    "address": "8950 N CONROE PARK DR CONROE TX 77303",
+    "lat": 30.35,
+    "lng": -95.44,
+    "website": null,
+    "source": null,
+    "facility_id": "f_66df50e8925a"
+  },
+  {
+    "name": "MID AMERICA CONTRACTORS LLC",
+    "type": "landfill",
+    "address": "3995 FM 1485 RD CONROE TX 77306",
+    "lat": 30.32,
+    "lng": -95.38,
+    "website": null,
+    "source": null,
+    "facility_id": "f_5afbd72cbbad"
+  },
+  {
     "name": "NEW EARTH INC",
     "type": "landfill",
     "address": "12286 HIGHWAY 105 E CONROE TX 77306",
@@ -28,5 +48,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_e040a189df40"
+  },
+  {
+    "name": "TRIPLE-S COMPOST FACILITY",
+    "type": "recycling",
+    "address": "THE SITE IS 0.5 MI N OF TX 105 ACCESSED VIA A PRIVATE RD ROAD EXTENDS N FROM TX 105 AT A POINT 1 MI E OF THE OLD WHY 105 EAST TX 105 INTERSECTION CONROE TX 77306",
+    "lat": 33.03,
+    "lng": -95.29,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0edab95b6c40"
   }
 ]

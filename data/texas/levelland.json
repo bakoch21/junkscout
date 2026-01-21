@@ -1,12 +1,12 @@
 [
   {
-    "name": "CITY OF LEVELLAND TRANSFER STATION FACILITY",
-    "type": "transfer_station",
-    "address": "1.5 MILES SOUTH  .3 MILES W OF INTERSECTION OF STATE HIGHWAY 114 AND ALAMO ROAD LEVELLAND TX",
-    "lat": 33.57,
-    "lng": -102.35,
+    "name": "CITY OF LEVELLAND",
+    "type": "landfill",
+    "address": "0.5 MI S OF FM 1585 ON BOBWHITE LEVELLAND TX 79336",
+    "lat": 33.49,
+    "lng": -102.33,
     "website": null,
     "source": null,
-    "facility_id": "f_b5397e39bb15"
+    "facility_id": "f_f4632552fdff"
   }
 ]

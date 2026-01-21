@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CITY OF SAN ANGELO LANDFILL",
+    "type": "landfill",
+    "address": "3002 OLD BALLINGER HWY SAN ANGELO TX 76905",
+    "lat": 31.51,
+    "lng": -100.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_96b9055d5664"
+  },
+  {
+    "name": "D'S RECYCLING",
+    "type": "recycling",
+    "address": "4275 PRUITT DR SAN ANGELO TX 76903",
+    "lat": 31.51,
+    "lng": -100.4,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0ac1f48358c9"
+  },
+  {
+    "name": "SAN ANGELO PRO PUMP COMPOST FACILITY",
+    "type": "recycling",
+    "address": "6696 GRAPE CREEK RD SAN ANGELO TX 76901",
+    "lat": 31.54,
+    "lng": -100.46,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a7556e16e000"
+  }
+]

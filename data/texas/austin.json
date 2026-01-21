@@ -10,6 +10,16 @@
     "facility_id": "f_b12f40977aa6"
   },
   {
+    "name": "AUSTIN COMMUNITY RECYCLING & DISPOSAL FACILITY",
+    "type": "recycling",
+    "address": "9900 GILES LN AUSTIN TX 78754",
+    "lat": 30.34,
+    "lng": -97.62,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f17808648ca4"
+  },
+  {
     "name": "AUSTIN COUNTRY INC",
     "type": "landfill",
     "address": "9500 E HIGHWAY 290 AUSTIN TX 78724",
@@ -18,6 +28,26 @@
     "website": null,
     "source": null,
     "facility_id": "f_ab6990253817"
+  },
+  {
+    "name": "AUSTIN LIQUID WASTE PROCESSING FACILITY",
+    "type": "landfill",
+    "address": "828 LINGER LN AUSTIN TX 78721",
+    "lat": 30.25,
+    "lng": -97.68,
+    "website": null,
+    "source": null,
+    "facility_id": "f_84ec8d464500"
+  },
+  {
+    "name": "AUSTIN WASTEWATER PROCESSING FACILITY",
+    "type": "landfill",
+    "address": "826 LINGER LN AUSTIN TX 78721",
+    "lat": 30.25,
+    "lng": -97.68,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0732648ef7f0"
   },
   {
     "name": "Austin Wood Recycling",
@@ -40,6 +70,26 @@
     "facility_id": "f_ed9f5d68c551"
   },
   {
+    "name": "BURLESON ROAD FACILITY",
+    "type": "landfill",
+    "address": "7019 BURLESON RD AUSTIN TX 78744",
+    "lat": 30.2,
+    "lng": -97.71,
+    "website": null,
+    "source": null,
+    "facility_id": "f_15adf9fc3fe1"
+  },
+  {
+    "name": "CITY OF AUSTIN",
+    "type": "landfill",
+    "address": "1901 E 51ST ST AUSTIN TX 78723",
+    "lat": 30.3,
+    "lng": -97.7,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f936a76a2ce4"
+  },
+  {
     "name": "CMC Recycling",
     "type": "recycling",
     "address": "1704 West Howard Lane Austin TX",
@@ -48,6 +98,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_ef0b805546ba"
+  },
+  {
+    "name": "DOUGHERTY ARTS CENTER",
+    "type": "landfill",
+    "address": "1110 BARTON SPRINGS RD AUSTIN TX 78704",
+    "lat": 30.26,
+    "lng": -97.76,
+    "website": null,
+    "source": null,
+    "facility_id": "f_bc225c983f77"
   },
   {
     "name": "Gardner Metal Recycling",
@@ -88,6 +148,16 @@
     "website": "https://www.austintexas.gov/dropoff",
     "source": null,
     "facility_id": "f_662d03f71364"
+  },
+  {
+    "name": "RIVER CITY RECYCLES",
+    "type": "recycling",
+    "address": "8000 DAFFAN LN AUSTIN TX 78724",
+    "lat": 30.32,
+    "lng": -97.62,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c19d0081f058"
   },
   {
     "name": "Round Rock Recycling Center",
@@ -158,6 +228,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_f226864c4984"
+  },
+  {
+    "name": "WINN ELEMENTARY SCHOOL",
+    "type": "landfill",
+    "address": "3500 SUSQUEHANNA LN AUSTIN TX 78723",
+    "lat": 30.32,
+    "lng": -97.67,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c2d0944694ac"
   },
   {
     "name": "Wright Recycling LLC",

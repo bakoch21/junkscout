@@ -1,0 +1,2 @@
+/texas/w-brownwood/*   /texas/brownwood/   301
+/texas/s-brownwood/*   /texas/brownwood/   301

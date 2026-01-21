@@ -10,6 +10,26 @@
     "facility_id": "f_446e93d212db"
   },
   {
+    "name": "CALICHE CANYON TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "8425 AVENUE P LUBBOCK TX 79423",
+    "lat": 33.67,
+    "lng": -101.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_451b764d2645"
+  },
+  {
+    "name": "CITY OF LUBBOCK LANDFILL",
+    "type": "landfill",
+    "address": "8425 AVENUE P LUBBOCK TX 79423",
+    "lat": 33.67,
+    "lng": -101.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_51ad8f4589b5"
+  },
+  {
     "name": "CITY OF MULESHOE LANDFILL",
     "type": "landfill",
     "address": "1.0 MILES E OF THE MULESHOE CITY LIMITS ON US HIGHWAY 84 APPROXIMATELY 1.8 MILES SE OF THE INTERSECTION OF US HIGHWAY 84 AND STATE HIGHWAY 214 LUBBOCK TX 79347",
@@ -40,6 +60,16 @@
     "facility_id": "f_c1f28f77d4dd"
   },
   {
+    "name": "SOUTH PLAINS DISPOSAL",
+    "type": "landfill",
+    "address": "801 N AVENUE P LUBBOCK TX 79403",
+    "lat": 33.61,
+    "lng": -101.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7d6c486bdbd9"
+  },
+  {
     "name": "Southside Recycling Center",
     "type": "recycling",
     "address": "1631 84th Street Lubbock",
@@ -58,5 +88,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_d1026ed91194"
+  },
+  {
+    "name": "ZAHN ENTERPRISES",
+    "type": "landfill",
+    "address": "7702 NORTH AVENUE P LUBBOCK TX 79403",
+    "lat": 33.67,
+    "lng": -101.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c09b7e9331c1"
   }
 ]

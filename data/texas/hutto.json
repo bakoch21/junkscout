@@ -8,5 +8,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_fa85c9293c1e"
+  },
+  {
+    "name": "WILLIAMSON TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "NEAR THE INTERSECTION OF CR 130 AND CHANDLER RD IN WILLIAMSON COUNTY TX HUTTO TX 78634",
+    "lat": 30.6,
+    "lng": -97.56,
+    "website": null,
+    "source": null,
+    "facility_id": "f_124711d89061"
   }
 ]

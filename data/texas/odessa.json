@@ -8,5 +8,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_4af3e4238cc6"
+  },
+  {
+    "name": "ODESSA LANDFILL",
+    "type": "landfill",
+    "address": "12035 W MURPHY ST ODESSA TX 79763",
+    "lat": 31.77,
+    "lng": -102.5,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8fcb29da5d5a"
   }
 ]

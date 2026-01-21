@@ -1,5 +1,15 @@
 [
   {
+    "name": "AFFORDABLE DEWATERING SERVICE",
+    "type": "landfill",
+    "address": "2201 S MIDKIFF RD MIDLAND TX 79701",
+    "lat": 31.97,
+    "lng": -102.11,
+    "website": null,
+    "source": null,
+    "facility_id": "f_841a14dc35f0"
+  },
+  {
     "name": "Citizens Collection Station",
     "type": "recycling",
     "address": "4100 Smith Road Midland TX 79705",
@@ -18,6 +28,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_ffd532b114de"
+  },
+  {
+    "name": "CITY OF MIDLAND LANDFILL",
+    "type": "landfill",
+    "address": "7904 S GARDEN CITY HWY MIDLAND TX 79706",
+    "lat": 31.97,
+    "lng": -101.94,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d97a880caf5e"
   },
   {
     "name": "CMC Recycling",

@@ -1,5 +1,15 @@
 [
   {
+    "name": "32.0297 ACRE TRACT OF LAND",
+    "type": "landfill",
+    "address": "2100 DESTINY LN CARROLLTON TX 75006",
+    "lat": 32.96,
+    "lng": -96.93,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3a1b67887cd3"
+  },
+  {
     "name": "Armstrong Archives",
     "type": "recycling",
     "address": "1515 Crescent Drive Carrollton TX 75006",
@@ -18,6 +28,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_30d19f2ad573"
+  },
+  {
+    "name": "CITY OF CARROLLTON LANDFILL",
+    "type": "landfill",
+    "address": "2155 SANDY LAKE RD CARROLLTON TX 75006",
+    "lat": 32.96,
+    "lng": -96.93,
+    "website": null,
+    "source": null,
+    "facility_id": "f_5cf7c09fffba"
   },
   {
     "name": "Clothes & Shoes Recycling Bin",

@@ -62,8 +62,9 @@ function isClearlyNotACity(cityRaw = "") {
   // Too long for a city label
   if (s.length > 32) return true;
 
-  // Street-ish tokens or weird phrases
-  const badTokens = /\b(rd|road|st|street|ave|avenue|dr|drive|blvd|boulevard|hwy|highway|fwy|freeway|ln|lane|pkwy|parkway|loop|fm|cr|county|intersection|limits|landfill|transfer|station|site|facility|easement|unimproved)\b/i;
+  // Street-ish tokens or weird phrases (expanded to catch "Mi ...", "Of ...", directions, etc.)
+  const badTokens =
+    /\b(mi|mile|miles|nw|ne|se|sw|of|on|at|and|rd|road|st|street|ave|avenue|dr|drive|blvd|boulevard|hwy|highway|fwy|freeway|ln|lane|pkwy|parkway|loop|fm|cr|county|intersection|limits|landfill|transfer|station|site|facility|easement|unimproved)\b/i;
   if (badTokens.test(s)) return true;
 
   // Sentences / directions / “Turn right at...”
@@ -91,10 +92,38 @@ function stripDirectionalPrefix(cityRaw = "") {
 }
 
 /**
+ * Salvage a “city” string when the extracted chunk contains junk like:
+ *   "Of Fountain View Houston" -> "Houston"
+ *   "Mi Nw Of Dalhart Dalhart" -> "Dalhart"
+ *
+ * Strategy: try last word, then last 2 words, only if they look like real cities.
+ */
+function salvageCityFromJunk(cityRaw = "") {
+  const s = cleanStr(cityRaw);
+  if (!s) return "";
+
+  const parts = s.split(/\s+/).filter(Boolean);
+  if (parts.length < 2) return "";
+
+  const last1 = parts.slice(-1).join(" ");
+  const last2 = parts.slice(-2).join(" ");
+
+  const c1 = stripDirectionalPrefix(last1);
+  if (c1 && !isClearlyNotACity(c1)) return c1;
+
+  const c2 = stripDirectionalPrefix(last2);
+  if (c2 && !isClearlyNotACity(c2)) return c2;
+
+  return "";
+}
+
+/**
  * Pick a plausible city name from a facility object.
  * Priority:
  *  1) appears_in mapping if present
  *  2) parse from address
+ *
+ * If the parsed city chunk looks junky, salvage the last word (often the real city).
  */
 function pickFacilityCity(fac) {
   // 1) If already mapped to a city, trust that
@@ -104,10 +133,16 @@ function pickFacilityCity(fac) {
   }
 
   // 2) Parse from address tail
-  const city = extractCityFromAddress(fac.address);
-  if (city) return city;
+  const cityChunk = extractCityFromAddress(fac.address);
+  if (!cityChunk) return "";
 
-  return "";
+  // If it looks junky, try to salvage a real city (usually last token)
+  if (isClearlyNotACity(cityChunk)) {
+    const salvaged = salvageCityFromJunk(cityChunk);
+    if (salvaged) return salvaged;
+  }
+
+  return cityChunk;
 }
 
 function pickState(f) {

@@ -40,6 +40,26 @@
     "facility_id": "f_b6ba5aba32a5"
   },
   {
+    "name": "CITY OF AMARILLO LANDFILL",
+    "type": "landfill",
+    "address": "16250 BEZNER RD AMARILLO TX 79124",
+    "lat": 35.22,
+    "lng": -102.03,
+    "website": null,
+    "source": null,
+    "facility_id": "f_cb71bebb9ef7"
+  },
+  {
+    "name": "CITY OF AMARILLO TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "811 SE 27TH AVE AMARILLO TX 79103",
+    "lat": 35.19,
+    "lng": -101.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_219167caa008"
+  },
+  {
     "name": "Metal & Used Oil Collection Center",
     "type": "recycling",
     "address": "604 South Independence Street Amarillo TX 79106",

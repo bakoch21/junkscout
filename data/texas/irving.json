@@ -10,6 +10,16 @@
     "facility_id": "f_99b9213019cf"
   },
   {
+    "name": "HUNTER FERRELL LANDFILL",
+    "type": "landfill",
+    "address": "220 W HUNTER FERRELL RD IRVING TX 75060",
+    "lat": 32.78,
+    "lng": -96.95,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9c2226c24458"
+  },
+  {
     "name": "United Electronic Recycling",
     "type": "recycling",
     "address": "505 Airline Drive",

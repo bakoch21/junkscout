@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "BIG SPRING LANDFILL",
+    "type": "landfill",
+    "address": "1 MILE S & 5 MI E OF THE INTERSECTION OF HWY 350 & OLD COLORADO CITY HWY BIG SPRING TX 79720",
+    "lat": 32.3,
+    "lng": -101.43,
+    "website": null,
+    "source": null,
+    "facility_id": "f_55ceb825f245"
+  }
+]
