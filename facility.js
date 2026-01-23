@@ -35,9 +35,23 @@ function typeLabel(type) {
   return "Drop-off site";
 }
 
+function isHoustonFacility(f) {
+  // Primary: appears_in includes houston
+  const appears = Array.isArray(f?.appears_in) ? f.appears_in : [];
+  const inHouston =
+    appears.some((x) => String(x?.city || "").toLowerCase() === "houston");
+
+  if (inHouston) return true;
+
+  // Fallback: address includes "Houston"
+  const addr = String(f?.address || "").toLowerCase();
+  if (addr.includes("houston")) return true;
+
+  return false;
+}
+
 async function loadFacility() {
   const id = getFacilityIdFromPath();
-
   if (!id) return;
 
   const dataUrl = `/data/facilities/${id}.json`;
@@ -61,6 +75,9 @@ async function loadFacility() {
     const citiesEl = document.getElementById("facilityCities");
     const aboutEl = document.getElementById("facilityAbout");
 
+    // Houston modal trigger (already in template)
+    const houBtn = document.getElementById("houstonRulesBtn");
+
     const name = f.name || "Unnamed site";
     const type = typeLabel(f.type);
     const address = f.address || "Address not provided";
@@ -74,7 +91,8 @@ async function loadFacility() {
 
     if (titleEl) titleEl.textContent = name;
     if (kickerEl) kickerEl.textContent = type;
-    if (subEl) subEl.textContent = `${type} in the area — confirm hours, fees, and accepted materials before visiting.`;
+    if (subEl)
+      subEl.textContent = `${type} in the area — confirm hours, fees, and accepted materials before visiting.`;
 
     if (addrEl) addrEl.textContent = address;
     if (coordsEl) coordsEl.textContent = lat && lng ? `Coordinates: ${lat}, ${lng}` : "";
@@ -85,11 +103,15 @@ async function loadFacility() {
     if (webEl && f.website) {
       webEl.style.display = "inline";
       webEl.href = f.website;
+    } else if (webEl) {
+      webEl.style.display = "none";
     }
 
     if (srcEl && f.osm_url) {
       srcEl.style.display = "inline";
       srcEl.href = f.osm_url;
+    } else if (srcEl) {
+      srcEl.style.display = "none";
     }
 
     if (aboutEl) {
@@ -110,6 +132,15 @@ async function loadFacility() {
           return `<a class="cityhub__pill" href="/texas/${citySlug}/">${escapeHtml(cityName)}</a>`;
         })
         .join("");
+    }
+
+    // --- Houston modal wiring (SEO-safe, UI-only) ---
+    const isHouston = isHoustonFacility(f);
+    window.__isHoustonFacility = isHouston;
+
+    if (houBtn) {
+      houBtn.style.display = isHouston ? "inline-flex" : "none";
+      // Click handler is bound inside houston-modal.js (auto-bind mode)
     }
   } catch (err) {
     console.error(err);
