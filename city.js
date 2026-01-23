@@ -78,14 +78,14 @@ function applyCitySEO({ cityName, stateName }) {
   const ansEl = document.getElementById("cityAnswer");
   if (ansEl) {
     ansEl.textContent =
-      `Find public landfills, transfer stations, and recycling drop-offs in ${pretty} — with hours, rules, and accepted materials when available.`;
+      `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, with hours, rules, and accepted materials when available.`;
   }
 
   // Supporting subhead
   const subEl = document.getElementById("citySubhead");
   if (subEl) {
     subEl.textContent =
-      `Public landfills, transfer stations, and disposal sites in ${cityName} — always confirm fees, residency rules, and accepted materials before visiting.`;
+      `Public landfills, transfer stations, and disposal sites in ${cityName}. Always confirm fees, residency rules, and accepted materials before visiting.`;
   }
 
   // Inline city mention in SEO copy
