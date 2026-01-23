@@ -11,8 +11,10 @@
   <!-- SEO CONTROL -->
   <meta name="robots" content="index,follow" />
 
-  <title>City | JunkScout</title>
-  <meta name="description" content="Find dumps, landfills, and transfer stations near you." />
+  <!-- Will be set dynamically by city.js -->
+  <title>Where to Dump Trash in City, ST | JunkScout</title>
+  <meta name="description"
+    content="Find public landfills, transfer stations, and recycling drop-offs in City, ST. Hours, fees, and accepted materials when available—always confirm before visiting." />
 
   <link rel="stylesheet" href="/styles.css" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -41,31 +43,49 @@
 
   <main class="hero">
     <div class="container">
-      <h1 id="cityTitle">Find dumps and landfills</h1>
-      <p class="subhead" id="citySubhead">
-        Public dumps, transfer stations, and disposal sites — with hours, rules, and accepted materials when available.
+      <!-- H1 gets rewritten by city.js -->
+      <h1 id="cityTitle">Where to dump trash</h1>
+
+      <!-- “Answer sentence” -->
+      <p class="subhead" id="cityAnswer">
+        Find public landfills, transfer stations, and recycling drop-offs near this city — with hours, rules, and accepted
+        materials when available.
       </p>
 
-      <p class="muted small">
-        Source-linked where possible • Community-suggested • Always confirm before visiting
+      <!-- Supporting line (also updated by city.js) -->
+      <p class="muted" id="citySubhead" style="margin-top:10px">
+        Compare drop-off options and confirm fees, residency rules, and accepted materials before you drive out.
       </p>
 
-      <!-- Results injected here (moved up for UX) -->
+      <!-- Prominent trust note -->
+      <div class="muted small" role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
+        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      </div>
+
+      <!-- Results injected here -->
       <section class="cards" id="results" style="margin-top:14px"></section>
 
-      <!-- SEO COPY START (moved below results) -->
+      <!-- SEO COPY START -->
       <section class="seo-copy" style="margin-top:26px">
         <p>
-          Need a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
-          <strong>recycling drop-off</strong> in this city?
+          Looking for a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
+          <strong>recycling drop-off</strong> near <span id="cityNameInline">this city</span>?
           JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
         </p>
 
-        <h2>Where can I dump junk in this city?</h2>
+        <h2 id="faqDumpWhere">Where can I dump trash in this city?</h2>
         <p>
           Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
           The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
           Use the listings above to confirm what’s accepted before you drive out.
+        </p>
+
+        <!-- City-specific FAQ (one only) -->
+        <h2 id="faqDumpFree">Is dumping free in this city?</h2>
+        <p id="faqDumpFreeBody">
+          Some public facilities offer free or discounted drop-off for residents with proof of address, while private landfills and
+          transfer stations typically charge by load size, weight, or material type. Always confirm rules and fees before visiting.
         </p>
 
         <h2>What items are typically accepted?</h2>

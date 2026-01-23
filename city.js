@@ -4,8 +4,9 @@
 //   Hash route:   /city-template.html#texas/dallas  -> /data/texas/dallas.json
 //   Path route:   /texas/dallas/                   -> /data/texas/dallas.json
 
-function ensureRobotsMeta(content = "noindex,follow") {
-  if (document.querySelector('meta[name="robots"]')) return;
+function ensureRobotsMeta(content = "index,follow") {
+  const existing = document.querySelector('meta[name="robots"]');
+  if (existing) return;
 
   const meta = document.createElement("meta");
   meta.setAttribute("name", "robots");
@@ -17,6 +18,16 @@ function titleCaseFromSlug(slug = "") {
   return slug
     .split("-")
     .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+// Turns "texas" -> "Texas", "new-york" -> "New York"
+function titleCaseWordsFromSlug(slug = "") {
+  return (slug || "")
+    .split("-")
+    .filter(Boolean)
+    .map((w) => w.toLowerCase())
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
 }
@@ -34,31 +45,82 @@ function getRouteParts() {
   return { state, city };
 }
 
+function setMetaDescription(desc) {
+  let meta = document.querySelector('meta[name="description"]');
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.setAttribute("name", "description");
+    document.head.appendChild(meta);
+  }
+  meta.setAttribute("content", desc);
+}
+
+function setCanonical(url) {
+  let link = document.querySelector('link[rel="canonical"]');
+  if (!link) {
+    link = document.createElement("link");
+    link.setAttribute("rel", "canonical");
+    document.head.appendChild(link);
+  }
+  link.setAttribute("href", url);
+}
+
+function applyCitySEO({ cityName, stateName }) {
+  const pretty = `${cityName}, ${stateName}`;
+
+  // H1 (query-matching)
+  const titleEl = document.getElementById("cityTitle");
+  if (titleEl) {
+    titleEl.textContent = `Where to dump trash in ${pretty}`;
+  }
+
+  // Answer sentence (optional fine-tune)
+  const ansEl = document.getElementById("cityAnswer");
+  if (ansEl) {
+    ansEl.textContent =
+      `Find public landfills, transfer stations, and recycling drop-offs in ${pretty} — with hours, rules, and accepted materials when available.`;
+  }
+
+  // Supporting subhead
+  const subEl = document.getElementById("citySubhead");
+  if (subEl) {
+    subEl.textContent =
+      `Public landfills, transfer stations, and disposal sites in ${cityName} — always confirm fees, residency rules, and accepted materials before visiting.`;
+  }
+
+  // Inline city mention in SEO copy
+  const inlineCity = document.getElementById("cityNameInline");
+  if (inlineCity) inlineCity.textContent = cityName;
+
+  // Document title + meta description (CTR)
+  document.title = `Where to Dump Trash in ${pretty} | JunkScout`;
+  setMetaDescription(
+    `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}. Hours, fees, and accepted materials when available—always confirm before visiting.`
+  );
+
+  // Canonical (prefer path URL, drop hash)
+  setCanonical(window.location.href.split("#")[0]);
+}
+
 async function loadCityData() {
   const resultsEl = document.getElementById("results");
   if (!resultsEl) return;
 
-  ensureRobotsMeta("noindex,follow");
+  // Safety: ensure robots meta exists (template already has it)
+  ensureRobotsMeta("index,follow");
 
   const { state, city } = getRouteParts();
-
   const cityName = titleCaseFromSlug(city);
-  const titleEl = document.getElementById("cityTitle");
-  const subEl = document.getElementById("citySubhead");
-
-  if (titleEl && state && city) {
-    titleEl.textContent = `Find dumps and landfills in ${cityName}, ${state.toUpperCase()}`;
-  }
-
-  if (subEl && state && city) {
-    subEl.textContent = `Public dumps, transfer stations, and disposal sites in ${cityName} — with hours, rules, and accepted materials when available.`;
-  }
+  const stateName = titleCaseWordsFromSlug(state);
 
   if (!state || !city) {
     resultsEl.innerHTML =
       "<p class='muted'>City route not detected (expected #state/city or /state/city/).</p>";
     return;
   }
+
+  // Apply SEO framing early (before fetch)
+  applyCitySEO({ cityName, stateName });
 
   const dataUrl = `/data/${state}/${city}.json`;
 
