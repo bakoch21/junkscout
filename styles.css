@@ -245,6 +245,20 @@ select{
 }
 .card--clickable{ cursor: pointer; }
 
+/* Secondary rule badges (fees, acceptance, residency) */
+.badge--rule {
+  background: rgba(0, 0, 0, 0.04);
+  color: #444;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  font-weight: 500;
+}
+
+/* Rule color accents */
+.badge--rule.green { border-color: #5fb38b; color: #2f7d57; }
+.badge--rule.blue  { border-color: #6aa8ff; color: #2b5fab; }
+.badge--rule.orange { border-color: #f0a35e; color: #8a4b10; }
+.badge--rule.gray  { border-color: #b0b0b0; color: #555; }
+
 /* Make “details” look intentional, not incidental */
 .card__cta{
   margin-left:auto;

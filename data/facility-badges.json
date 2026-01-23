@@ -1,0 +1,24 @@
+{
+  "f_778ded7a0162": ["fee_charge_likely", "accepts_garbage", "accepts_heavy_trash"],
+  "f_afbe0298047d": ["fee_charge_likely", "accepts_garbage", "accepts_heavy_trash"],
+  "f_54bb82a7fb39": ["fee_charge_likely", "accepts_garbage", "accepts_heavy_trash"],
+  "f_be6f4c350cb5": ["fee_charge_likely", "accepts_garbage", "accepts_heavy_trash"],
+  "f_4bd65acb5306": ["fee_charge_likely", "accepts_garbage", "accepts_heavy_trash"],
+
+  "f_5b50c3aca21d": ["fee_charge_likely", "accepts_heavy_trash"],
+  "f_92755ccd7c1e": ["fee_charge_likely", "accepts_heavy_trash"],
+  "f_c47139003c85": ["fee_charge_likely", "accepts_heavy_trash"],
+  "f_746f7ead4e0b": ["fee_charge_likely", "accepts_heavy_trash"],
+  "f_d95713cef3a9": ["fee_charge_likely", "accepts_heavy_trash"],
+  "f_2454b98b1295": ["fee_charge_likely", "accepts_heavy_trash"],
+  "f_b6bde707f265": ["fee_charge_likely", "accepts_heavy_trash"],
+
+  "f_8c82312c1881": ["free_to_residents"],
+  "f_3a2842ff0172": ["free_to_residents"],
+
+  "f_2545e1a118bc": ["fee_charge_likely"],
+
+  "f_556571292477": ["free_to_residents", "accepts_heavy_trash"],
+  "f_54cbdada1a48": ["free_to_residents", "accepts_heavy_trash"],
+  "f_8bae63ac0548": ["free_to_residents", "accepts_heavy_trash"]
+}

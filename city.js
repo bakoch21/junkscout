@@ -77,15 +77,13 @@ function applyCitySEO({ cityName, stateName }) {
   // Answer sentence (optional fine-tune)
   const ansEl = document.getElementById("cityAnswer");
   if (ansEl) {
-    ansEl.textContent =
-      `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, with hours, rules, and accepted materials when available.`;
+    ansEl.textContent = `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, with hours, rules, and accepted materials when available.`;
   }
 
   // Supporting subhead
   const subEl = document.getElementById("citySubhead");
   if (subEl) {
-    subEl.textContent =
-      `Public landfills, transfer stations, and disposal sites in ${cityName}. Always confirm fees, residency rules, and accepted materials before visiting.`;
+    subEl.textContent = `Public landfills, transfer stations, and disposal sites in ${cityName}. Always confirm fees, residency rules, and accepted materials before visiting.`;
   }
 
   // Inline city mention in SEO copy
@@ -101,6 +99,54 @@ function applyCitySEO({ cityName, stateName }) {
   // Canonical (prefer path URL, drop hash)
   setCanonical(window.location.href.split("#")[0]);
 }
+
+/** =========================
+ * Facility badges (for cards)
+ * ========================= */
+
+const FACILITY_BADGE_DEFS = {
+  free_to_residents: { label: "Free to residents", color: "green" },
+  accepts_garbage: { label: "Accepts garbage", color: "blue" },
+  accepts_heavy_trash: { label: "Accepts heavy trash", color: "orange" },
+  fee_charge_likely: { label: "Fee likely", color: "gray" },
+};
+
+async function loadFacilityBadges() {
+  try {
+    const res = await fetch("/data/facility-badges.json", { cache: "no-store" });
+    if (!res.ok) return {};
+    const json = await res.json();
+    return json && typeof json === "object" ? json : {};
+  } catch {
+    return {};
+  }
+}
+
+function renderFacilityBadgePills(facilityId, badgesMap) {
+  if (!facilityId || !badgesMap) return "";
+  const ids = badgesMap[facilityId];
+  if (!Array.isArray(ids) || ids.length === 0) return "";
+
+  // Cap to 3 to keep cards clean
+  const pills = ids
+    .slice(0, 3)
+    .map((id) => {
+      const def = FACILITY_BADGE_DEFS[id];
+      if (!def) return "";
+      return `<span class="badge badge--rule ${def.color}">${def.label}</span>`;
+    })
+    .filter(Boolean);
+
+  if (pills.length === 0) return "";
+
+  return `<div class="card__pills" style="margin-top:8px; display:flex; gap:6px; flex-wrap:wrap;">${pills.join(
+    " "
+  )}</div>`;
+}
+
+/** =========================
+ * Main load
+ * ========================= */
 
 async function loadCityData() {
   const resultsEl = document.getElementById("results");
@@ -125,7 +171,12 @@ async function loadCityData() {
   const dataUrl = `/data/${state}/${city}.json`;
 
   try {
-    const res = await fetch(dataUrl, { cache: "no-store" });
+    // Load both the city data and facility badges (badges load once per page)
+    const [res, facilityBadges] = await Promise.all([
+      fetch(dataUrl, { cache: "no-store" }),
+      loadFacilityBadges(),
+    ]);
+
     if (!res.ok) throw new Error(`Failed to load ${dataUrl} (${res.status})`);
 
     const data = await res.json();
@@ -135,7 +186,7 @@ async function loadCityData() {
       return;
     }
 
-    resultsEl.innerHTML = data.map((item) => renderCard(item)).join("");
+    resultsEl.innerHTML = data.map((item) => renderCard(item, facilityBadges)).join("");
 
     // Make cards clickable (delegated)
     attachCardClickHandler(resultsEl);
@@ -163,7 +214,7 @@ function attachCardClickHandler(resultsEl) {
   });
 }
 
-function renderCard(item) {
+function renderCard(item, facilityBadges) {
   const badges = [];
 
   if (item.type === "landfill") badges.push(badge("Landfill", "orange"));
@@ -179,8 +230,12 @@ function renderCard(item) {
   const facilityUrl = item.facility_id ? `/facility/${item.facility_id}/` : null;
 
   const cardAttrs = facilityUrl
-    ? `class="card card--clickable" data-href="${facilityUrl}" role="link" tabindex="0" aria-label="View details for ${escapeHtml(item.name)}"`
+    ? `class="card card--clickable" data-href="${facilityUrl}" role="link" tabindex="0" aria-label="View details for ${escapeHtml(
+        item.name
+      )}"`
     : `class="card"`;
+
+  const facilityPillsHtml = renderFacilityBadgePills(item.facility_id, facilityBadges);
 
   // NOTE: no nested <a> wrapping the card anymore.
   return `
@@ -188,6 +243,7 @@ function renderCard(item) {
       <div class="card__kicker">${badges.join(" ")}</div>
       <h3>${escapeHtml(item.name)}</h3>
       ${item.address ? `<p class="card__meta">${escapeHtml(item.address)}</p>` : ""}
+      ${facilityPillsHtml}
       <div style="display:flex; gap:12px; margin-top:8px; flex-wrap:wrap">
         <a class="link" href="${mapsUrl}" target="_blank" rel="noopener">Directions</a>
         ${
