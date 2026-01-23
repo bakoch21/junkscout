@@ -60,7 +60,7 @@
 
 </head>
 
-<body>
+<body data-state="texas" data-city="san-antonio">
   <header class="nav">
     <div class="nav__inner">
       <a class="brand" href="/index.html">
@@ -90,7 +90,10 @@
         A listed dump / landfill / transfer station / recycling site.
       </p>
 
-      <p class="muted small" style="margin:0 0 10px">
+      <!-- ✅ FACILITY BADGES (injected by facility.js) -->
+      <div id="facilityBadges"></div>
+
+      <p class="muted small" style="margin:10px 0 10px">
         Source-linked where possible • Always confirm fees/rules before visiting
       </p>
 
@@ -104,15 +107,29 @@
 
           <div>
             <div class="label">Links</div>
-            <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px">
+            <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; align-items:center">
               <a class="link" id="facilityDirections" href="#" target="_blank" rel="noopener">Directions</a>
               <a class="link" id="facilityWebsite" href="#" target="_blank" rel="noopener" style="display:none">Website</a>
               <a class="link" id="facilitySource" href="#" target="_blank" rel="noopener" style="display:none">Source</a>
+
+              <!-- Houston-only trigger (houston-modal.js will show it when appropriate) -->
+              <button
+                id="houstonRulesBtn"
+                type="button"
+                class="btn btn--ghost"
+                style="display:none; padding:8px 10px; border-radius:12px; font-weight:700"
+                aria-haspopup="dialog"
+                aria-controls="houstonModal"
+              >
+                Houston rules &amp; fees
+              </button>
             </div>
           </div>
 
           <div>
-            <a class="btn btn--primary btn--big" id="facilityCta" href="#" target="_blank" rel="noopener">Open in Maps</a>
+            <a class="btn btn--primary btn--big" id="facilityCta" href="#" target="_blank" rel="noopener">
+              Open in Maps
+            </a>
           </div>
         </div>
 
@@ -148,6 +165,10 @@
     </div>
   </main>
 
+  <!-- Modal mount point (houston-modal.js will inject the dialog here) -->
+  <div id="houstonModalRoot"></div>
+
   <script src="/facility.js"></script>
+  <script src="/houston-modal.js" defer></script>
 </body>
 </html>

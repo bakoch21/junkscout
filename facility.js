@@ -1,5 +1,6 @@
 // facility.js
 // Loads /data/facilities/{id}.json and renders into the facility template.
+// Also renders manual facility badges from /data/facility-badges.json when present.
 
 function titleCaseFromSlug(slug = "") {
   return slug
@@ -48,6 +49,72 @@ function isHoustonFacility(f) {
   if (addr.includes("houston")) return true;
 
   return false;
+}
+
+/**
+ * Manual badge rendering for facility pages (SEO-safe, UI-only).
+ * Expects /data/facility-badges.json to look like:
+ * {
+ *   "f_123": ["fee_charge_likely","accepts_heavy_trash"],
+ *   ...
+ * }
+ */
+function badgeLabel(key) {
+  const map = {
+    free_to_residents: "Free to residents",
+    accepts_garbage: "Accepts garbage",
+    accepts_heavy_trash: "Accepts heavy trash",
+    fee_charge_likely: "Fee likely",
+  };
+  return map[key] || key;
+}
+
+function badgeClass(key) {
+  // These classes already exist for the city type badges: badge--blue, badge--orange, etc.
+  // We'll reuse them so styling stays consistent with the rest of the site.
+  const map = {
+    free_to_residents: "badge--green",
+    accepts_garbage: "badge--blue",
+    accepts_heavy_trash: "badge--orange",
+    fee_charge_likely: "badge--gray",
+  };
+  return map[key] || "badge--gray";
+}
+
+function renderBadgesInto(container, badgeKeys) {
+  if (!container) return;
+  if (!Array.isArray(badgeKeys) || badgeKeys.length === 0) {
+    container.innerHTML = "";
+    container.style.display = "none";
+    return;
+  }
+
+  const html = badgeKeys
+    .map((k) => `<span class="badge ${badgeClass(k)}">${escapeHtml(badgeLabel(k))}</span>`)
+    .join(" ");
+
+  container.innerHTML = html;
+  container.style.display = "flex";
+  container.style.gap = "10px";
+  container.style.flexWrap = "wrap";
+  container.style.marginTop = "12px";
+}
+
+async function loadFacilityBadges(id) {
+  // Facility template should include: <div id="facilityBadges"></div>
+  const badgesEl = document.getElementById("facilityBadges");
+  if (!badgesEl) return;
+
+  try {
+    const res = await fetch("/data/facility-badges.json", { cache: "no-store" });
+    if (!res.ok) return; // no badges file yet, or not deployed—silent fail
+
+    const all = await res.json();
+    const badgeKeys = all?.[id];
+    renderBadgesInto(badgesEl, badgeKeys);
+  } catch (e) {
+    // Silent fail: badges are optional and should never break the page
+  }
 }
 
 async function loadFacility() {
@@ -133,6 +200,9 @@ async function loadFacility() {
         })
         .join("");
     }
+
+    // Render facility badges (UI-only)
+    loadFacilityBadges(id);
 
     // --- Houston modal wiring (SEO-safe, UI-only) ---
     const isHouston = isHoustonFacility(f);
