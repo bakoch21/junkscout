@@ -535,6 +535,28 @@ h2{font-size:28px; margin:0 0 14px}
   .nav__actions .btn:not(.btn--primary){ display:none; }
 }
 
+/* Fix mobile header vertical alignment */
+@media (max-width: 680px) {
+  .nav__inner {
+    align-items: center;
+  }
+
+  .nav__actions {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav__actions .btn {
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .brand__logo {
+    display: block;
+  }
+}
+
 /* =========================================
    Facility page mobile fix (prevents CTA overlap)
    ========================================= */
