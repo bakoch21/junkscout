@@ -534,3 +534,41 @@ h2{font-size:28px; margin:0 0 14px}
 @media (max-width: 390px){
   .nav__actions .btn:not(.btn--primary){ display:none; }
 }
+
+/* =========================================
+   Facility page mobile fix (prevents CTA overlap)
+   ========================================= */
+@media (max-width: 680px){
+
+  /* Facility H1: keep it strong but not absurdly tall */
+  #facilityTitle{
+    font-size: 40px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  /* Your facility template sets 3 columns inline — override it on mobile */
+  .wizard__row{
+    grid-template-columns: 1fr !important;
+    align-items: stretch !important;
+    gap: 12px;
+  }
+
+  /* Address wrapping: stop it from forcing weird widths */
+  #facilityAddress{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  /* Make the big CTA behave like a normal mobile button */
+  #facilityCta{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  /* Keep links from doing awkward squish */
+  .wizard__row .link{
+    white-space: nowrap;
+  }
+}
