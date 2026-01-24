@@ -478,3 +478,59 @@ h2{font-size:28px; margin:0 0 14px}
   .nav__links{ display:none; }
   .nav__inner{ justify-content:space-between; }
 }
+
+/* =========================
+   Mobile header + facility card fixes
+   ========================= */
+@media (max-width: 520px){
+
+  /* Hard stop sideways scroll */
+  html, body { overflow-x: hidden; }
+
+  /* --- Header: allow wrapping and tighten spacing --- */
+  .nav__inner{
+    height: auto;              /* was 64px */
+    padding: 10px 14px;        /* tighter */
+    gap: 10px;
+    flex-wrap: wrap;           /* KEY: stop overflow */
+  }
+
+  .brand__logo{ height: 30px; }
+
+  .nav__actions{
+    flex: 1 1 100%;            /* actions take their own row */
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .nav__actions .btn{
+    padding: 9px 10px;
+    font-size: 13px;
+    border-radius: 12px;
+  }
+
+  .nav__actions .btn--primary{
+    padding: 10px 12px;
+  }
+
+  /* If the “Suggest a correction” button is too long, keep it from blowing up layout */
+  .nav__actions .btn:not(.btn--primary){
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* --- Wizard input row: allow wrap so buttons never collide --- */
+  .combo{ flex-wrap: wrap; }
+  .combo__btn{ width: 100%; }
+
+  /* --- Facility cards: CTA buttons should stack cleanly --- */
+  .card .btn--primary{ width: 100%; }   /* makes “Maps” stop overlapping */
+  .nav .btn--primary{ width: auto; }    /* but NOT in the header */
+}
+
+/* On very small phones: drop the secondary header button entirely */
+@media (max-width: 390px){
+  .nav__actions .btn:not(.btn--primary){ display:none; }
+}
