@@ -1,0 +1,17 @@
+{
+  "id": "f_835a4cd568bc",
+  "slug": "recology-recycle-center",
+  "name": "Recology Recycle Center",
+  "type": "recycling",
+  "address": "1000 Amador Street San Francisco 94124",
+  "lat": 37.7403009,
+  "lng": -122.369822,
+  "website": "https://www.recology.com/recology-san-francisco/recycle-centralpier-96/",
+  "osm_url": "https://www.openstreetmap.org/way/264255889",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

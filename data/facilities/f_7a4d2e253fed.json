@@ -1,0 +1,17 @@
+{
+  "id": "f_7a4d2e253fed",
+  "slug": "palos-verdes-landfill",
+  "name": "Palos Verdes Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.7886843,
+  "lng": -118.3483211,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/195841959",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

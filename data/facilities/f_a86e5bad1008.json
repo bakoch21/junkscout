@@ -1,0 +1,17 @@
+{
+  "id": "f_a86e5bad1008",
+  "slug": "spring-valley-recycling",
+  "name": "Spring Valley Recycling",
+  "type": "recycling",
+  "address": "1069 Elkelton Boulevard Spring Valley CA 91977",
+  "lat": 32.7142959,
+  "lng": -117.0169997,
+  "website": "https://www.recyclingcenters.org/",
+  "osm_url": "https://www.openstreetmap.org/way/1020142447",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

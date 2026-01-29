@@ -1,0 +1,17 @@
+{
+  "id": "f_498adb937684",
+  "slug": "alco-iron-and-metal",
+  "name": "ALCO Iron & Metal",
+  "type": "recycling",
+  "address": "1788 Rogers Avenue San Jose CA 95112",
+  "lat": 37.3781431,
+  "lng": -121.909775,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/39132290",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_adf377ff7712",
+  "slug": "replanet",
+  "name": "RePlanet",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.1872277,
+  "lng": -118.6270012,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/1532946649",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

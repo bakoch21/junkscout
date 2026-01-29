@@ -1,0 +1,17 @@
+{
+  "id": "f_8430c6f590d6",
+  "slug": "mccarty-road-landfill",
+  "name": "MCCARTY ROAD LANDFILL",
+  "type": "landfill",
+  "address": "5757 OATES RD HOUSTON TX 77078",
+  "lat": 29.83,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

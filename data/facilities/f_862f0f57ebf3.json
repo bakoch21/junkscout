@@ -1,0 +1,17 @@
+{
+  "id": "f_862f0f57ebf3",
+  "slug": "sycamore-landfill",
+  "name": "Sycamore Landfill",
+  "type": "landfill",
+  "address": "8514 Mast Boulevard Santee CA 92071",
+  "lat": 32.8599783,
+  "lng": -117.0283918,
+  "website": "https://www.sandiego.gov/department/environmental-services/sycamore-landfill",
+  "osm_url": "https://www.openstreetmap.org/way/212614733",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

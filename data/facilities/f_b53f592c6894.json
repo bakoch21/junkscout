@@ -1,0 +1,17 @@
+{
+  "id": "f_b53f592c6894",
+  "slug": "ecoatm",
+  "name": "ecoATM",
+  "type": "recycling",
+  "address": "",
+  "lat": 35.341324,
+  "lng": -119.05084,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/13337804263",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "bakersfield"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_ba5fe72c02a0",
+  "slug": "household-hazardous-waste-facility",
+  "name": "Household Hazardous Waste Facility",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.3593553,
+  "lng": -121.8679698,
+  "website": "https://hhw.sccgov.org/",
+  "osm_url": "https://www.openstreetmap.org/way/1077825484",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

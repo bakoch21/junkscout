@@ -1,0 +1,17 @@
+{
+  "id": "f_f95062cad9be",
+  "slug": "waste-management-fairbanks-landfill",
+  "name": "Waste Management - Fairbanks Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.9014892,
+  "lng": -95.5317364,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

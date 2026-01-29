@@ -1,0 +1,17 @@
+{
+  "id": "f_3d79b5faf531",
+  "slug": "republic-services",
+  "name": "Republic Services",
+  "type": "transfer_station",
+  "address": "",
+  "lat": 32.8358293,
+  "lng": -117.1450523,
+  "website": "https://www.republicservices.com/",
+  "osm_url": "https://www.openstreetmap.org/way/1305283848",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

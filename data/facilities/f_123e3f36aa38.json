@@ -1,0 +1,17 @@
+{
+  "id": "f_123e3f36aa38",
+  "slug": "f_123e3f36aa38",
+  "name": "Unnamed site",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.0207873,
+  "lng": -118.4673972,
+  "website": "https://treemachine.us",
+  "osm_url": "https://www.openstreetmap.org/node/12695709799",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

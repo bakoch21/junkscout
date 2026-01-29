@@ -1,0 +1,17 @@
+{
+  "id": "f_a67120065681",
+  "slug": "greenwaste-of-palo-alto",
+  "name": "GreenWaste of Palo Alto",
+  "type": "recycling",
+  "address": "2765 Lafayette Street Santa Clara CA 95050",
+  "lat": 37.3713304,
+  "lng": -121.9488739,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/209087379",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

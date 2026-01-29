@@ -1,0 +1,17 @@
+{
+  "id": "f_8cccab9dac16",
+  "slug": "guadalupe-recycling-facility",
+  "name": "Guadalupe Recycling Facility",
+  "type": "recycling",
+  "address": "15999 Guadalupe Mines Road San Jose CA 95120",
+  "lat": 37.2130634,
+  "lng": -121.9013352,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/8208994589",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_4dd9cdd08ffa",
+  "slug": "hws-prairie-transfer-station",
+  "name": "HWS PRAIRIE TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "8919 PRAIRIE DR HOUSTON TX 77064",
+  "lat": 29.91,
+  "lng": -95.53,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

@@ -2,12 +2,20 @@
 const fs = require("fs");
 const path = require("path");
 
-const CITY_LIST_PATH = "./scripts/cities-texas.json";
+// Usage:
+//   node scripts/generate-city-pages.js texas
+//   node scripts/generate-city-pages.js california
+// If omitted, defaults to texas.
+const STATE_ARG = (process.argv[2] || "texas").toLowerCase();
+
+// City list source of truth: scripts/cities-<state>.json
+const CITY_LIST_PATH = `./scripts/cities-${STATE_ARG}.json`;
+
 const TEMPLATE_PATH = "./city-template.html";
 const OUTPUT_BASE = "."; // project root
 
 // Neighbors output (from scripts/build-neighbors.js)
-const NEIGHBORS_PATH = "./data/texas/_neighbors.json";
+const NEIGHBORS_PATH = `./data/${STATE_ARG}/_neighbors.json`;
 
 // ✅ Canonical base (used for canonical, OG, and JSON-LD)
 const BASE_URL = "https://junkscout.io";
@@ -21,7 +29,9 @@ function titleCaseFromSlug(slug = "") {
 }
 
 function stateAbbrevFromSlug(stateSlug = "") {
-  if (stateSlug.toLowerCase() === "texas") return "TX";
+  const s = String(stateSlug || "").toLowerCase();
+  if (s === "texas") return "TX";
+  if (s === "california") return "CA";
   return stateSlug.toUpperCase();
 }
 
@@ -45,7 +55,7 @@ function buildMeta({ state, city }) {
 function buildJsonLd({ state, city, meta }) {
   const cityName = titleCaseFromSlug(city);
   const stateName = titleCaseFromSlug(state); // "Texas"
-  const stateAbbrev = stateAbbrevFromSlug(state); // "TX"
+  const stateAbbrev = stateAbbrevFromSlug(state); // "TX" / "CA"
 
   const url = meta.canonicalUrl; // https://junkscout.io/texas/austin/
   const stateUrl = `${BASE_URL}/${state}/`; // https://junkscout.io/texas/
@@ -166,7 +176,6 @@ function buildNearbyHtml({ state, city, neighborsMap }) {
   const itemsRaw = neighborsMap?.[city] || neighborsMap?.[String(city).toLowerCase()] || [];
   if (!Array.isArray(itemsRaw) || itemsRaw.length === 0) return "";
 
-  // Normalize possible neighbor item shapes
   const items = itemsRaw
     .map((n) => {
       const slug =
@@ -178,7 +187,6 @@ function buildNearbyHtml({ state, city, neighborsMap }) {
       const cleanSlug = String(slug).trim().toLowerCase().replace(/\s+/g, "-");
       const label = n && (n.label || n.name) ? String(n.label || n.name) : titleCaseFromSlug(cleanSlug);
 
-      // distance could be "distance_mi" or "distanceMiles" etc
       const d =
         (n && (n.distance_mi ?? n.distanceMiles ?? n.mi ?? n.distance)) ??
         null;
@@ -217,12 +225,6 @@ function buildNearbyHtml({ state, city, neighborsMap }) {
 `.trim();
 }
 
-/**
- * Inject nearby cities section.
- * Preferred: template contains marker:
- *   <!-- NEARBY:START --><!-- NEARBY:END -->
- * Fallback: insert before </main>
- */
 function injectNearby(html, nearbyHtml) {
   if (!nearbyHtml) return html;
 
@@ -235,17 +237,113 @@ function injectNearby(html, nearbyHtml) {
     );
   }
 
-  // Fallback: insert before closing </main>
   if (html.includes("</main>")) {
     return html.replace("</main>", `\n${nearbyHtml}\n</main>`);
   }
 
-  // Last resort
   return html.replace("</body>", `\n${nearbyHtml}\n</body>`);
 }
 
-function ensureCityTitleIsGeneric(html) {
+/**
+ * ✅ 1) Back-to-state hub link
+ * Injected via markers:
+ *   <!-- STATEHUBLINK:START --><!-- STATEHUBLINK:END -->
+ */
+function buildStateHubLinkHtml(state) {
+  const stateName = titleCaseFromSlug(state);
+  return `
+<div style="margin-top:12px">
+  <a class="link" href="/${state}/">← Back to ${stateName} cities</a>
+</div>
+`.trim();
+}
+
+function injectStateHubLink(html, state) {
+  const stateHtml = buildStateHubLinkHtml(state);
+
+  const markerRegex = /<!--\s*STATEHUBLINK:START\s*-->[\s\S]*?<!--\s*STATEHUBLINK:END\s*-->/;
+
+  if (markerRegex.test(html)) {
+    return html.replace(
+      markerRegex,
+      `<!-- STATEHUBLINK:START -->\n${stateHtml}\n<!-- STATEHUBLINK:END -->`
+    );
+  }
+
+  // Fallback: inject right after <p id="citySubhead"...> block if present
+  if (html.includes('id="citySubhead"')) {
+    return html.replace(
+      /(<p[^>]*id="citySubhead"[\s\S]*?<\/p>)/,
+      `$1\n${stateHtml}`
+    );
+  }
+
+  // Last resort: before results
+  if (html.includes('id="results"')) {
+    return html.replace(
+      /(<section[^>]*id="results"[^>]*>)/,
+      `${stateHtml}\n$1`
+    );
+  }
+
   return html;
+}
+
+/**
+ * ✅ 2) Popular cities block (only for CA right now)
+ * Injected via markers:
+ *   <!-- POPULARCITIES:START --><!-- POPULARCITIES:END -->
+ */
+function buildPopularCitiesHtml(state) {
+  const s = String(state || "").toLowerCase();
+  if (s !== "california") return "";
+
+  const stateName = titleCaseFromSlug(state);
+  const popular = [
+    { slug: "los-angeles", label: "Los Angeles" },
+    { slug: "san-diego", label: "San Diego" },
+    { slug: "san-francisco", label: "San Francisco" },
+    { slug: "san-jose", label: "San Jose" },
+    { slug: "sacramento", label: "Sacramento" },
+  ];
+
+  return `
+<section class="seo-copy" aria-label="Popular California locations" style="margin-top:18px">
+  <h2>Popular ${stateName} locations</h2>
+  <p class="muted">Browse major cities while we expand coverage.</p>
+  <div class="cityhub__grid" style="margin-top:10px">
+    ${popular
+      .map(
+        (x) => `
+      <a class="cityhub__pill" href="/${state}/${x.slug}/">${x.label}</a>
+    `
+      )
+      .join("")}
+  </div>
+</section>
+`.trim();
+}
+
+function injectPopularCities(html, state) {
+  const block = buildPopularCitiesHtml(state);
+  if (!block) return html;
+
+  const markerRegex = /<!--\s*POPULARCITIES:START\s*-->[\s\S]*?<!--\s*POPULARCITIES:END\s*-->/;
+
+  if (markerRegex.test(html)) {
+    return html.replace(
+      markerRegex,
+      `<!-- POPULARCITIES:START -->\n${block}\n<!-- POPULARCITIES:END -->`
+    );
+  }
+
+  // Fallback: insert above SEO COPY section
+  if (html.includes("<!-- SEO COPY START -->")) {
+    return html.replace("<!-- SEO COPY START -->", `${block}\n\n<!-- SEO COPY START -->`);
+  }
+
+  // Last resort
+  return html.replace("</main>", `\n${block}\n</main>`);
 }
 
 function safeReadJson(filePath) {
@@ -258,6 +356,12 @@ function safeReadJson(filePath) {
 }
 
 function run() {
+  if (!fs.existsSync(CITY_LIST_PATH)) {
+    console.error(`❌ City list not found: ${CITY_LIST_PATH}`);
+    console.error(`   Create it (e.g., scripts/cities-${STATE_ARG}.json) then re-run.`);
+    process.exit(1);
+  }
+
   const cities = JSON.parse(fs.readFileSync(CITY_LIST_PATH, "utf-8"));
   let template = fs.readFileSync(TEMPLATE_PATH, "utf-8");
 
@@ -266,11 +370,16 @@ function run() {
     .replace(/<title>.*?<\/title>\s*/i, "")
     .replace(/<meta\s+name="description"[^>]*>\s*/i, "");
 
-  // Load neighbors map once
+  // Load neighbors map once (if it exists)
   const neighborsMap = safeReadJson(NEIGHBORS_PATH) || {};
 
   for (const entry of cities) {
     const { state, city } = entry;
+    if (!state || !city) continue;
+
+    // Only generate for the chosen state file
+    if (String(state).toLowerCase() !== STATE_ARG) continue;
+
     const meta = buildMeta({ state, city });
 
     let outHtml = template;
@@ -285,11 +394,15 @@ function run() {
     // 3) Add body seed attributes
     outHtml = injectBodySeed(outHtml, { state, city });
 
-    // 4) Inject Nearby cities (static links)
+    // ✅ 1) Back-to-state hub link
+    outHtml = injectStateHubLink(outHtml, state);
+
+    // ✅ 2) Popular cities block (CA only for now)
+    outHtml = injectPopularCities(outHtml, state);
+
+    // 4) Inject Nearby cities (only if neighbors map exists)
     const nearbyHtml = buildNearbyHtml({ state, city, neighborsMap });
     outHtml = injectNearby(outHtml, nearbyHtml);
-
-    outHtml = ensureCityTitleIsGeneric(outHtml);
 
     const outDir = path.join(OUTPUT_BASE, state, city);
     const outFile = path.join(outDir, "index.html");

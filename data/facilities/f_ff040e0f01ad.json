@@ -1,0 +1,17 @@
+{
+  "id": "f_ff040e0f01ad",
+  "slug": "san-jose-metals",
+  "name": "San Jose Metals",
+  "type": "recycling",
+  "address": "1032 North 10th Street San Jose CA 95112",
+  "lat": 37.3610193,
+  "lng": -121.8958102,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/756091937",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

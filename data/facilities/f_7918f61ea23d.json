@@ -1,0 +1,17 @@
+{
+  "id": "f_7918f61ea23d",
+  "slug": "story-road-recycling",
+  "name": "Story Road Recycling",
+  "type": "recycling",
+  "address": "1303 Story Road San Jose 95122",
+  "lat": 37.3347689,
+  "lng": -121.8514026,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/118247375",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

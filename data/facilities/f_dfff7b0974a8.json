@@ -1,0 +1,17 @@
+{
+  "id": "f_dfff7b0974a8",
+  "slug": "hillside-landfill",
+  "name": "Hillside Landfill",
+  "type": "landfill",
+  "address": "1 Sand Hill Road Colma 94014",
+  "lat": 37.6828514,
+  "lng": -122.4426565,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/136160103",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

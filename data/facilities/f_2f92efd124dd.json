@@ -1,0 +1,21 @@
+{
+  "id": "f_2f92efd124dd",
+  "slug": "f_2f92efd124dd",
+  "name": "Unnamed site",
+  "type": "recycling",
+  "address": "1302;1312 Kirkham Ct Oakland CA 94607",
+  "lat": 37.809913,
+  "lng": -122.289968,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1458155815",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

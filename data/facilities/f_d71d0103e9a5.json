@@ -1,0 +1,17 @@
+{
+  "id": "f_d71d0103e9a5",
+  "slug": "cougar-landfill",
+  "name": "COUGAR LANDFILL",
+  "type": "landfill",
+  "address": "8601 MOUNT HOUSTON RD HOUSTON TX 77050",
+  "lat": 29.9,
+  "lng": -95.26,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

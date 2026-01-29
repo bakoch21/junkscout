@@ -1,0 +1,17 @@
+{
+  "id": "f_c85b64e44858",
+  "slug": "danny-recycling-center",
+  "name": "Danny Recycling Center",
+  "type": "recycling",
+  "address": "1745 Walsh Avenue Santa Clara CA 95050",
+  "lat": 37.3701739,
+  "lng": -121.9578765,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/10900289620",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

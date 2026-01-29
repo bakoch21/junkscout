@@ -1,0 +1,17 @@
+{
+  "id": "f_124c46c2ae39",
+  "slug": "miguel-mendoza-recycling-center",
+  "name": "Miguel Mendoza Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.2280204,
+  "lng": -118.4684809,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/10976093091",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

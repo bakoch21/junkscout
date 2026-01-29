@@ -1,0 +1,17 @@
+{
+  "id": "f_f6bc390841fd",
+  "slug": "green-team-materials-recovery-facility",
+  "name": "Green Team Materials Recovery Facility",
+  "type": "recycling",
+  "address": "575 Charles Street San Jose CA 95112",
+  "lat": 37.3661384,
+  "lng": -121.8960656,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/44709737",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

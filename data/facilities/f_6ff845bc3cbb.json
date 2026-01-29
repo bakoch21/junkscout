@@ -1,0 +1,17 @@
+{
+  "id": "f_6ff845bc3cbb",
+  "slug": "waste-management-davis-street-recycling-center",
+  "name": "Waste Management Davis Street Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.7119876,
+  "lng": -122.1940962,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/405040261",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_6ee0d96cd452",
+  "slug": "houston-northwest-transfer-station-facility",
+  "name": "HOUSTON NORTHWEST TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "NW TS  SW OF SOMMER MEYER ROAD  200 FEET SW OF US HIGHWAY 290 HOUSTON TX 77041",
+  "lat": 29.86,
+  "lng": -95.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

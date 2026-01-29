@@ -1,0 +1,17 @@
+{
+  "id": "f_2890b764fa08",
+  "slug": "greenwaste-carpet-recycling",
+  "name": "GreenWaste Carpet Recycling",
+  "type": "recycling",
+  "address": "1201 North 15th Street San Jose CA 95112",
+  "lat": 37.3652374,
+  "lng": -121.8938636,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/44709819",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

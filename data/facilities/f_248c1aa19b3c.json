@@ -1,0 +1,17 @@
+{
+  "id": "f_248c1aa19b3c",
+  "slug": "gift-card-recycling",
+  "name": "Gift Card Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.3109543,
+  "lng": -121.8487761,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/3679715117",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

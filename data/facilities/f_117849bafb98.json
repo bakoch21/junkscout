@@ -1,0 +1,17 @@
+{
+  "id": "f_117849bafb98",
+  "slug": "sunnyvale-materials-recovery-and-transfer-station",
+  "name": "Sunnyvale Materials Recovery and Transfer Station",
+  "type": "recycling",
+  "address": "301 Carl Road Sunnyvale",
+  "lat": 37.4181514,
+  "lng": -122.0115307,
+  "website": "https://sunnyvale.ca.gov/Departments/EnvironmentalServices/GarbageRecyclingandWasteReduction/SMaRTStation.aspx",
+  "osm_url": "https://www.openstreetmap.org/way/28617622",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

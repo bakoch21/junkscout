@@ -1,0 +1,17 @@
+{
+  "id": "f_f37864c0dd58",
+  "slug": "california-metals",
+  "name": "California Metals",
+  "type": "recycling",
+  "address": "",
+  "lat": 33.9489773,
+  "lng": -118.178438,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/4010235118",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

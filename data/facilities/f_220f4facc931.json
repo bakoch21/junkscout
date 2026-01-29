@@ -1,0 +1,17 @@
+{
+  "id": "f_220f4facc931",
+  "slug": "greenwaste",
+  "name": "GreenWaste",
+  "type": "recycling",
+  "address": "625 Charles Street San Jose CA 95112",
+  "lat": 37.3673716,
+  "lng": -121.8955495,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/8212381616",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

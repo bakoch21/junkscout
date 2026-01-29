@@ -1,0 +1,17 @@
+{
+  "id": "f_84c57401754d",
+  "slug": "ruffino-hills-transfer-station",
+  "name": "RUFFINO HILLS TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "9720 RUFFINO RD HOUSTON TX 77031",
+  "lat": 29.66,
+  "lng": -95.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

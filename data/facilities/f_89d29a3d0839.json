@@ -1,0 +1,17 @@
+{
+  "id": "f_89d29a3d0839",
+  "slug": "environmental-services-center",
+  "name": "Environmental Services Center",
+  "type": "recycling",
+  "address": "11500 South Post Oak Road Houston TX 77035",
+  "lat": 29.649629,
+  "lng": -95.4644,
+  "website": "https://houstontx.gov/solidwaste/esc.html",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

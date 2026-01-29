@@ -1,0 +1,200 @@
+[
+  {
+    "name": "San Francisco Dump",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.7080093,
+    "lng": -122.399613,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/361100877",
+    "source": "osm",
+    "facility_id": "f_92cf0bf7936c"
+  },
+  {
+    "name": "City of Berkeley Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.8791787,
+    "lng": -122.3055861,
+    "website": "https://berkeleyrecycling.org/",
+    "osm_url": "https://www.openstreetmap.org/node/560189339",
+    "source": "osm",
+    "facility_id": "f_5d0fd3f12d2e"
+  },
+  {
+    "name": "USAGain",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.8477203,
+    "lng": -122.2850771,
+    "website": "https://usagain.com/",
+    "osm_url": "https://www.openstreetmap.org/node/976976158",
+    "source": "osm",
+    "facility_id": "f_79e436b749b4"
+  },
+  {
+    "name": "El Cerrito Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.9194287,
+    "lng": -122.299252,
+    "website": "http://www.el-cerrito.org/index.aspx?NID=336",
+    "osm_url": "https://www.openstreetmap.org/node/1256306250",
+    "source": "osm",
+    "facility_id": "f_6b12422f7b08"
+  },
+  {
+    "name": "Urban Ore Donations",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.8503618,
+    "lng": -122.2899934,
+    "website": "https://urbanore.com/",
+    "osm_url": "https://www.openstreetmap.org/node/4306097756",
+    "source": "osm",
+    "facility_id": "f_aae615b8a7c7"
+  },
+  {
+    "name": "ewasteCollective",
+    "type": "recycling",
+    "address": "620 CA",
+    "lat": 37.8753349,
+    "lng": -122.3051084,
+    "website": "https://ewastecollective.org/",
+    "osm_url": "https://www.openstreetmap.org/node/6471289088",
+    "source": "osm",
+    "facility_id": "f_854a09f1bea0"
+  },
+  {
+    "name": "Ecology Center Store",
+    "type": "recycling",
+    "address": "2530 San Pablo Avenue",
+    "lat": 37.8599506,
+    "lng": -122.2894355,
+    "website": "https://ecologycenter.org/store/",
+    "osm_url": "https://www.openstreetmap.org/node/8235989482",
+    "source": "osm",
+    "facility_id": "f_1368831fb48a"
+  },
+  {
+    "name": "Berkeley Recycling Center",
+    "type": "recycling",
+    "address": "669 Gilman Street Berkeley CA 94710",
+    "lat": 37.8788277,
+    "lng": -122.3050969,
+    "website": "https://berkeleyrecycling.org/",
+    "osm_url": "https://www.openstreetmap.org/node/12839053406",
+    "source": "osm",
+    "facility_id": "f_37f9966ea974"
+  },
+  {
+    "name": "Berkeley Transfer Station",
+    "type": "transfer_station",
+    "address": "1201 Second Street Berkeley CA 94710",
+    "lat": 37.8799328,
+    "lng": -122.3059418,
+    "website": "https://berkeleyca.gov/city-services/trash-recycling/transfer-station",
+    "osm_url": "https://www.openstreetmap.org/node/12839053407",
+    "source": "osm",
+    "facility_id": "f_4ff162d50e44"
+  },
+  {
+    "name": "Berkeley Transfer Station",
+    "type": "transfer_station",
+    "address": "1201 Berkeley CA",
+    "lat": 37.8801066,
+    "lng": -122.3057394,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/44073281",
+    "source": "osm",
+    "facility_id": "f_f4a224cdd4c1"
+  },
+  {
+    "name": "Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.7258946,
+    "lng": -122.4471978,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/68849269",
+    "source": "osm",
+    "facility_id": "f_39715b1d76ca"
+  },
+  {
+    "name": "Hillside Landfill",
+    "type": "landfill",
+    "address": "1 Sand Hill Road Colma 94014",
+    "lat": 37.6828514,
+    "lng": -122.4426565,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/136160103",
+    "source": "osm",
+    "facility_id": "f_dfff7b0974a8"
+  },
+  {
+    "name": "Smart Demolition & Excavation Recycling Center",
+    "type": "recycling",
+    "address": "231 Loomis Street San Francisco 94124",
+    "lat": 37.7392529,
+    "lng": -122.4052215,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/259001379",
+    "source": "osm",
+    "facility_id": "f_d72f34cdac5a"
+  },
+  {
+    "name": "Recology Recycle Center",
+    "type": "recycling",
+    "address": "1000 Amador Street San Francisco 94124",
+    "lat": 37.7403009,
+    "lng": -122.369822,
+    "website": "https://www.recology.com/recology-san-francisco/recycle-centralpier-96/",
+    "osm_url": "https://www.openstreetmap.org/way/264255889",
+    "source": "osm",
+    "facility_id": "f_835a4cd568bc"
+  },
+  {
+    "name": "California Waste Solutions",
+    "type": "recycling",
+    "address": "1820 10th Street",
+    "lat": 37.8116308,
+    "lng": -122.3021672,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/432716142",
+    "source": "osm",
+    "facility_id": "f_d6d3e1694005"
+  },
+  {
+    "name": "Circosta Iron & Metal",
+    "type": "recycling",
+    "address": "1801 Evans Avenue San Francisco 94124",
+    "lat": 37.7446125,
+    "lng": -122.393131,
+    "website": "https://www.circostametals.com/",
+    "osm_url": "https://www.openstreetmap.org/way/1168301354",
+    "source": "osm",
+    "facility_id": "f_a5b930bd5026"
+  },
+  {
+    "name": "Parcel E-2",
+    "type": "landfill",
+    "address": "",
+    "lat": 37.7241276,
+    "lng": -122.3774997,
+    "website": "https://www.bracpmo.navy.mil/BRAC-Bases/California/Former-Naval-Shipyard-Hunters-Point/",
+    "osm_url": "https://www.openstreetmap.org/way/1218977080",
+    "source": "osm",
+    "facility_id": "f_8b116a808c06"
+  },
+  {
+    "name": "",
+    "type": "recycling",
+    "address": "1302;1312 Kirkham Ct Oakland CA 94607",
+    "lat": 37.809913,
+    "lng": -122.289968,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1458155815",
+    "source": "osm",
+    "facility_id": "f_2f92efd124dd"
+  }
+]

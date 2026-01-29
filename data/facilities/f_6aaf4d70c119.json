@@ -1,0 +1,17 @@
+{
+  "id": "f_6aaf4d70c119",
+  "slug": "whispering-pines-landfill",
+  "name": "WHISPERING PINES LANDFILL",
+  "type": "landfill",
+  "address": "8101 LITTLE YORK RD HOUSTON TX 77016",
+  "lat": 29.88,
+  "lng": -95.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

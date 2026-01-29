@@ -1,0 +1,17 @@
+{
+  "id": "f_5e1d65b0b1bd",
+  "slug": "garden-city-sanitation-and-milpitas-sanitation",
+  "name": "Garden City Sanitation & Milpitas Sanitation",
+  "type": "recycling",
+  "address": "1080 Walsh Avenue Santa Clara CA 95050",
+  "lat": 37.3692491,
+  "lng": -121.953789,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/13035151861",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

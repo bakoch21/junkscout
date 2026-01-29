@@ -1,0 +1,17 @@
+{
+  "id": "f_c00346d40a2e",
+  "slug": "zero-waste-energy-development-company",
+  "name": "Zero Waste Energy Development Company",
+  "type": "recycling",
+  "address": "685 Los Esteros Road San Jose CA 95134",
+  "lat": 37.4341022,
+  "lng": -121.9507876,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/482783028",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

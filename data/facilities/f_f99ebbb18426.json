@@ -1,0 +1,17 @@
+{
+  "id": "f_f99ebbb18426",
+  "slug": "tap-inc-dba-big-k-environmental",
+  "name": "TAP INC DBA BIG K ENVIRONMENTAL",
+  "type": "landfill",
+  "address": "423 LITTLE YORK RD HOUSTON TX 77076",
+  "lat": 29.87,
+  "lng": -95.38,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

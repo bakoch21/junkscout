@@ -1,0 +1,17 @@
+{
+  "id": "f_333a08c12c73",
+  "slug": "city-of-burbank-landfill-no-3",
+  "name": "City of Burbank Landfill No. 3",
+  "type": "landfill",
+  "address": "",
+  "lat": 34.2089623,
+  "lng": -118.3122772,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/199045527",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

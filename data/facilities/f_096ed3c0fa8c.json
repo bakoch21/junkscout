@@ -1,0 +1,17 @@
+{
+  "id": "f_096ed3c0fa8c",
+  "slug": "the-city-of-glendale-recycling-center",
+  "name": "The City of Glendale Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.1330331,
+  "lng": -118.263824,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6625254250",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

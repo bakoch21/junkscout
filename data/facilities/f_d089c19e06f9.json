@@ -1,0 +1,17 @@
+{
+  "id": "f_d089c19e06f9",
+  "slug": "sun-valley-landfill",
+  "name": "Sun Valley Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 34.2445314,
+  "lng": -118.3767656,
+  "website": "https://www.vulcanmaterials.com/construction-materials/facilities/sun-valley-landfill",
+  "osm_url": "https://www.openstreetmap.org/way/731254098",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

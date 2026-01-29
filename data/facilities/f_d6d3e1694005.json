@@ -1,0 +1,21 @@
+{
+  "id": "f_d6d3e1694005",
+  "slug": "california-waste-solutions",
+  "name": "California Waste Solutions",
+  "type": "recycling",
+  "address": "1820 10th Street",
+  "lat": 37.8116308,
+  "lng": -122.3021672,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/432716142",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_3656d34e9dcc",
+  "slug": "waste-management-recycling-center",
+  "name": "Waste Management Recycling Center",
+  "type": "recycling",
+  "address": "4939 Gasmer Drive Houston TX 77035",
+  "lat": 29.650326,
+  "lng": -95.465819,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

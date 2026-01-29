@@ -1,0 +1,17 @@
+{
+  "id": "f_63b4fef10276",
+  "slug": "free-mulch-pick-up",
+  "name": "free mulch pick-up",
+  "type": "recycling",
+  "address": "",
+  "lat": 33.8074844,
+  "lng": -118.1765948,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6415540965",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_0a6289547191",
+  "slug": "safety-kleen-systems",
+  "name": "Safety Kleen Systems",
+  "type": "recycling",
+  "address": "1147 North 10th Street San Jose CA 95112",
+  "lat": 37.3630047,
+  "lng": -121.8982226,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/39019245",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

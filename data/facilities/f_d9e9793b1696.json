@@ -1,0 +1,17 @@
+{
+  "id": "f_d9e9793b1696",
+  "slug": "jado-recycling",
+  "name": "Jado Recycling",
+  "type": "recycling",
+  "address": "South Shore Center Way Alameda CA 94501",
+  "lat": 37.7592175,
+  "lng": -122.2545999,
+  "website": "+18558578020",
+  "osm_url": "https://www.openstreetmap.org/node/12332038711",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ]
+}

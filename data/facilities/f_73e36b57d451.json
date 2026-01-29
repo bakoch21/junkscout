@@ -1,0 +1,17 @@
+{
+  "id": "f_73e36b57d451",
+  "slug": "prism-electronics-asset-recovery",
+  "name": "Prism Electronics Asset Recovery",
+  "type": "recycling",
+  "address": "18305 Sutter Boulevard Morgan Hill CA 95037",
+  "lat": 37.1445121,
+  "lng": -121.6559452,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/27591118",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_4f297c716c31",
+  "slug": "premier-recycle-company",
+  "name": "Premier Recycle Company",
+  "type": "recycling",
+  "address": "348 Phelan Avenue San Jose CA 95112",
+  "lat": 37.3141956,
+  "lng": -121.8637799,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/884294958",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

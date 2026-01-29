@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,7 +16,6 @@
   <link rel="icon" href="/favicon.svg" sizes="16x16">
   <link rel="icon" href="/favicon.svg" sizes="32x32">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-
 </head>
 
 <body>
@@ -36,8 +34,8 @@
       </nav>
 
       <div class="nav__actions">
-        <a class="btn btn--ghost" href="/texas/">Drop-Off Options</a>
-        <a class="btn btn--primary" href="/texas/">Browse Texas Locations</a>
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
       </div>
 
     </div>
@@ -72,7 +70,6 @@
               </div>
 
               <datalist id="cityList"></datalist>
-
 
               <div class="filters">
                 <button class="link" id="toggleFilters" type="button">
@@ -137,62 +134,58 @@
           </div>
         </section>
 
-<!-- Preview cards -->
-<section class="cards" aria-label="Examples">
-  <article class="card">
-    <div class="card__kicker">
-      <span class="badge badge--blue">Official city drop-off</span>
-    </div>
-    <h3>Recycle &amp; Reuse Drop-off Center</h3>
-    <p class="card__meta">Accepts: Household items, recycling, reuse</p>
-    <p class="card__meta">Appointment-only • Verified Jan 2026</p>
+        <!-- Preview cards -->
+        <section class="cards" aria-label="Examples">
+          <article class="card">
+            <div class="card__kicker">
+              <span class="badge badge--blue">Official city drop-off</span>
+            </div>
+            <h3>Recycle &amp; Reuse Drop-off Center</h3>
+            <p class="card__meta">Accepts: Household items, recycling, reuse</p>
+            <p class="card__meta">Appointment-only • Verified Jan 2026</p>
 
-    <!-- NEW: Facility page -->
-    <a class="link" href="/facility/recycle-reuse-dropoff-center/">Details →</a>
+            <a class="link" href="/facility/recycle-reuse-dropoff-center/">Details →</a>
 
-    <a class="link" href="/texas/austin/">Drop-off options</a>
-    <a class="link" href="https://www.austintexas.gov/dropoff" target="_blank" rel="noopener">
-      Official site
-    </a>
-  </article>
+            <a class="link" href="/texas/austin/">Drop-off options</a>
+            <a class="link" href="https://www.austintexas.gov/dropoff" target="_blank" rel="noopener">
+              Official site
+            </a>
+          </article>
 
-  <article class="card">
-    <div class="card__kicker">
-      <span class="badge badge--green">Major landfill option</span>
-    </div>
-    <h3>Travis County Landfill</h3>
-    <p class="card__meta">Accepts: General waste, large loads</p>
-    <p class="card__meta">Check rates &amp; rules • Verified Jan 2026</p>
+          <article class="card">
+            <div class="card__kicker">
+              <span class="badge badge--green">Major landfill option</span>
+            </div>
+            <h3>Travis County Landfill</h3>
+            <p class="card__meta">Accepts: General waste, large loads</p>
+            <p class="card__meta">Check rates &amp; rules • Verified Jan 2026</p>
 
-    <!-- NEW: Facility page -->
-    <a class="link" href="/facility/travis-county-landfill/">Details →</a>
+            <a class="link" href="/facility/travis-county-landfill/">Details →</a>
 
-    <a class="link" href="/texas/austin/">View Austin landfill options</a>
-    <a class="link" href="https://www.wasteconnections.com/travis-county-landfill/" target="_blank" rel="noopener">
-      Rates &amp; hours
-    </a>
-  </article>
+            <a class="link" href="/texas/austin/">View Austin landfill options</a>
+            <a class="link" href="https://www.wasteconnections.com/travis-county-landfill/" target="_blank" rel="noopener">
+              Rates &amp; hours
+            </a>
+          </article>
 
-  <article class="card">
-    <div class="card__kicker">
-      <span class="badge badge--orange">WM facility</span>
-    </div>
-    <h3>Austin Community Landfill (WM)</h3>
-    <p class="card__meta">Accepts: Construction &amp; household debris</p>
-    <p class="card__meta">
-      <span class="pill">Check rules first</span> • Verified Jan 2026
-    </p>
+          <article class="card">
+            <div class="card__kicker">
+              <span class="badge badge--orange">WM facility</span>
+            </div>
+            <h3>Austin Community Landfill (WM)</h3>
+            <p class="card__meta">Accepts: Construction &amp; household debris</p>
+            <p class="card__meta">
+              <span class="pill">Check rules first</span> • Verified Jan 2026
+            </p>
 
-    <!-- NEW: Facility page -->
-    <a class="link" href="/facility/austin-community-landfill-wm/">Details →</a>
+            <a class="link" href="/facility/austin-community-landfill-wm/">Details →</a>
 
-    <a class="link" href="/texas/austin/">View Austin landfill options</a>
-    <a class="link" href="https://www.wm.com/us/en/facilities/austin-community-landfill" target="_blank" rel="noopener">
-      Facility info
-    </a>
-  </article>
-</section>
-
+            <a class="link" href="/texas/austin/">View Austin landfill options</a>
+            <a class="link" href="https://www.wm.com/us/en/facilities/austin-community-landfill-wm" target="_blank" rel="noopener">
+              Facility info
+            </a>
+          </article>
+        </section>
 
         <!-- Why -->
         <section class="why" aria-label="Why JunkScout">
@@ -254,20 +247,23 @@
         <section class="recent" id="browse-locations">
           <div class="recent__head">
             <h2>Browse locations</h2>
-            <a class="link" href="/texas/">Texas locations →</a>
+            <div style="display:flex; gap:12px; align-items:center">
+              <a class="link" href="/texas/">Texas locations →</a>
+              <a class="link" href="/california/">California locations →</a>
+            </div>
           </div>
           <div class="recent__list">
-            <a class="recent__item" href="#">
+            <a class="recent__item" href="/texas/austin/">
               <span class="badge badge--green">Verified</span>
-              Waco Landfill (TX) • Jan 6
+              Austin drop-off options (TX)
             </a>
-            <a class="recent__item" href="#">
+            <a class="recent__item" href="/texas/houston/">
               <span class="badge badge--green">Verified</span>
-              Cedar Park Recycling Center (TX) • Jan 5
+              Houston drop-off options (TX)
             </a>
-            <a class="recent__item" href="#">
-              <span class="badge badge--green">Verified</span>
-              Hazardous Waste Drop-Off (TX) • Jan 4
+            <a class="recent__item" href="/california/los-angeles/">
+              <span class="badge badge--green">New</span>
+              Los Angeles drop-off options (CA)
             </a>
           </div>
         </section>
@@ -300,6 +296,8 @@
         <a href="/texas/houston/">Houston</a>
         <a href="/texas/san-antonio/">San Antonio</a>
         <a href="/texas/dallas/">Dallas</a>
+        <a href="/california/los-angeles/">Los Angeles</a>
+        <a href="/california/san-diego/">San Diego</a>
       </div>
       <div>
         <div class="footer__title">Company</div>
@@ -318,6 +316,6 @@
   </footer>
 
   <script src="/app.js"></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"55450da2c3764da5b3245cf0a4abecf5","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"55450da2c3764da5b3245cf0a4abecf5","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>

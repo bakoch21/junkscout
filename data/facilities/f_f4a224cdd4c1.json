@@ -1,0 +1,21 @@
+{
+  "id": "f_f4a224cdd4c1",
+  "slug": "berkeley-transfer-station",
+  "name": "Berkeley Transfer Station",
+  "type": "transfer_station",
+  "address": "1201 Berkeley CA",
+  "lat": 37.8801066,
+  "lng": -122.3057394,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/44073281",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

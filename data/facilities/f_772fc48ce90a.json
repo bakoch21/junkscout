@@ -1,0 +1,17 @@
+{
+  "id": "f_772fc48ce90a",
+  "slug": "standard-iron-and-metals",
+  "name": "Standard Iron & Metals",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.768619,
+  "lng": -122.2156518,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/412545930",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ]
+}

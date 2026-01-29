@@ -1,0 +1,17 @@
+{
+  "id": "f_7c2964f42f8a",
+  "slug": "los-angeles-county-s-a-f-e-center",
+  "name": "Los Angeles County S.A.F.E Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.2375941,
+  "lng": -118.3714433,
+  "website": "http://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+  "osm_url": "https://www.openstreetmap.org/way/62551420",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

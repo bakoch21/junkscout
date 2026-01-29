@@ -1,0 +1,17 @@
+{
+  "id": "f_2605dcc6be75",
+  "slug": "houston-resource-renewal-complex-transfer-station-facility",
+  "name": "HOUSTON RESOURCE RENEWAL COMPLEX TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "5757 OATES RD HOUSTON TX 77078",
+  "lat": 29.83,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

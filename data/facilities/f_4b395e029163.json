@@ -1,0 +1,17 @@
+{
+  "id": "f_4b395e029163",
+  "slug": "california-waste-solutions",
+  "name": "California Waste Solutions",
+  "type": "recycling",
+  "address": "1005 Timothy Drive San Jose CA 95133",
+  "lat": 37.3652717,
+  "lng": -121.8801647,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/8925401072",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_dd079c6de50a",
+  "slug": "att-recycle",
+  "name": "ATT Recycle",
+  "type": "recycling",
+  "address": "215 Leo Avenue San Jose CA 95112",
+  "lat": 37.3111673,
+  "lng": -121.8652793,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/35677757",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

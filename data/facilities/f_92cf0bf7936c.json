@@ -1,0 +1,17 @@
+{
+  "id": "f_92cf0bf7936c",
+  "slug": "san-francisco-dump",
+  "name": "San Francisco Dump",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.7080093,
+  "lng": -122.399613,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/361100877",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

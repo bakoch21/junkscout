@@ -1,0 +1,17 @@
+{
+  "id": "f_28f355d27d5e",
+  "slug": "tall-pines-disposal-facility",
+  "name": "TALL PINES DISPOSAL FACILITY",
+  "type": "landfill",
+  "address": "18710 E HARDY RD HOUSTON TX 77073",
+  "lat": 29.99,
+  "lng": -95.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

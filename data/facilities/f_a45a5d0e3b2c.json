@@ -1,0 +1,17 @@
+{
+  "id": "f_a45a5d0e3b2c",
+  "slug": "sims-metal-management-recycling-center",
+  "name": "Sims Metal Management Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.3092052,
+  "lng": -121.8658799,
+  "website": "https://www.simsmm.com/locations/san-jose-california/",
+  "osm_url": "https://www.openstreetmap.org/way/1153091610",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

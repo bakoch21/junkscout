@@ -1,0 +1,17 @@
+{
+  "id": "f_4e4cd5837faa",
+  "slug": "usagain",
+  "name": "USAgain",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.2160224,
+  "lng": -121.7391612,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/9776004023",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

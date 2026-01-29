@@ -1,0 +1,17 @@
+{
+  "id": "f_175892eb9693",
+  "slug": "charity-thrift-store",
+  "name": "Charity Thrift Store",
+  "type": "recycling",
+  "address": "2725 Lafayette Street Santa Clara CA 95050",
+  "lat": 37.3708614,
+  "lng": -121.9492773,
+  "website": "http://www.charitycarsforkids.org/",
+  "osm_url": "https://www.openstreetmap.org/node/8219032640",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

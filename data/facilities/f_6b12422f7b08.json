@@ -1,0 +1,17 @@
+{
+  "id": "f_6b12422f7b08",
+  "slug": "el-cerrito-recycling-center",
+  "name": "El Cerrito Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.9194287,
+  "lng": -122.299252,
+  "website": "http://www.el-cerrito.org/index.aspx?NID=336",
+  "osm_url": "https://www.openstreetmap.org/node/1256306250",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

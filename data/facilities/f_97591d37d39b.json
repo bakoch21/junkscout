@@ -1,0 +1,17 @@
+{
+  "id": "f_97591d37d39b",
+  "slug": "goodwill",
+  "name": "Goodwill",
+  "type": "recycling",
+  "address": "La Costa Avenue Encinitas",
+  "lat": 33.0850663,
+  "lng": -117.2976556,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/2869782662",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

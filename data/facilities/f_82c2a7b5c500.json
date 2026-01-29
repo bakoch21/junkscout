@@ -1,0 +1,17 @@
+{
+  "id": "f_82c2a7b5c500",
+  "slug": "getty-synthetic-fuels-gas-recovery",
+  "name": "GETTY SYNTHETIC FUELS GAS RECOVERY",
+  "type": "landfill",
+  "address": "ADJACENT TO U.S. 90 AND OLD BEAUMONT HWY INTERSECTION HOUSTON TX 77078",
+  "lat": 29.83,
+  "lng": -95.25,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

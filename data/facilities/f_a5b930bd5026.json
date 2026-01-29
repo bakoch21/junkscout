@@ -1,0 +1,17 @@
+{
+  "id": "f_a5b930bd5026",
+  "slug": "circosta-iron-and-metal",
+  "name": "Circosta Iron & Metal",
+  "type": "recycling",
+  "address": "1801 Evans Avenue San Francisco 94124",
+  "lat": 37.7446125,
+  "lng": -122.393131,
+  "website": "https://www.circostametals.com/",
+  "osm_url": "https://www.openstreetmap.org/way/1168301354",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

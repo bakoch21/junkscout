@@ -1,0 +1,21 @@
+{
+  "id": "f_854a09f1bea0",
+  "slug": "ewastecollective",
+  "name": "ewasteCollective",
+  "type": "recycling",
+  "address": "620 CA",
+  "lat": 37.8753349,
+  "lng": -122.3051084,
+  "website": "https://ewastecollective.org/",
+  "osm_url": "https://www.openstreetmap.org/node/6471289088",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

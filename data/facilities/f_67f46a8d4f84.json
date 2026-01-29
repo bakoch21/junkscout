@@ -1,0 +1,17 @@
+{
+  "id": "f_67f46a8d4f84",
+  "slug": "edco-recycling",
+  "name": "EDCO Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 33.8076548,
+  "lng": -118.1820429,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/418106125",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

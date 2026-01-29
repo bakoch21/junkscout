@@ -1,0 +1,17 @@
+{
+  "id": "f_b03c78785211",
+  "slug": "guadalupe-landfill",
+  "name": "Guadalupe Landfill",
+  "type": "landfill",
+  "address": "15999 Guadalupe Mines Road San Jose CA 95120",
+  "lat": 37.2125621,
+  "lng": -121.9011661,
+  "website": "https://wmcabay.wm.com/landfills/guadalupe.htm",
+  "osm_url": "https://www.openstreetmap.org/way/124332898",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

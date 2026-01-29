@@ -1,0 +1,17 @@
+{
+  "id": "f_0ab0cb40d84d",
+  "slug": "stella-roberts-recycling-center",
+  "name": "Stella Roberts Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 29.5451264,
+  "lng": -95.3099689,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

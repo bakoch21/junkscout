@@ -1,0 +1,21 @@
+{
+  "id": "f_4ff162d50e44",
+  "slug": "berkeley-transfer-station",
+  "name": "Berkeley Transfer Station",
+  "type": "transfer_station",
+  "address": "1201 Second Street Berkeley CA 94710",
+  "lat": 37.8799328,
+  "lng": -122.3059418,
+  "website": "https://berkeleyca.gov/city-services/trash-recycling/transfer-station",
+  "osm_url": "https://www.openstreetmap.org/node/12839053407",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_3b6d8314d089",
+  "slug": "greenshadow-landfill",
+  "name": "Greenshadow Landfill",
+  "type": "landfill",
+  "address": "710 Jana Lane Pasadena TX 77503",
+  "lat": 29.6961628,
+  "lng": -95.1474276,
+  "website": "https://www.wmsolutions.com/locations/details/id/103",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

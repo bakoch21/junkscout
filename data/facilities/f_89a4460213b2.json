@@ -1,0 +1,17 @@
+{
+  "id": "f_89a4460213b2",
+  "slug": "the-salvation-army",
+  "name": "The Salvation Army",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.1869291,
+  "lng": -118.458718,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/7510039808",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

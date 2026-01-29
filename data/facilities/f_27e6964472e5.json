@@ -1,0 +1,17 @@
+{
+  "id": "f_27e6964472e5",
+  "slug": "cougar-landfill",
+  "name": "Cougar Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.8967004,
+  "lng": -95.2624371,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

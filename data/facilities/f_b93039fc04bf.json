@@ -1,0 +1,17 @@
+{
+  "id": "f_b93039fc04bf",
+  "slug": "lone-star-recycling-and-disposal",
+  "name": "LONE STAR RECYCLING & DISPOSAL",
+  "type": "recycling",
+  "address": "4107 S SAM HOUSTON PKWY W HOUSTON TX 77053",
+  "lat": 29.59,
+  "lng": -95.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

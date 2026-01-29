@@ -1,0 +1,12 @@
+[
+  { "state": "california", "city": "los-angeles", "query": "Los Angeles, CA" },
+  { "state": "california", "city": "san-diego", "query": "San Diego, CA" },
+  { "state": "california", "city": "san-jose", "query": "San Jose, CA" },
+  { "state": "california", "city": "san-francisco", "query": "San Francisco, CA" },
+  { "state": "california", "city": "fresno", "query": "Fresno, CA" },
+  { "state": "california", "city": "sacramento", "query": "Sacramento, CA" },
+  { "state": "california", "city": "long-beach", "query": "Long Beach, CA" },
+  { "state": "california", "city": "oakland", "query": "Oakland, CA" },
+  { "state": "california", "city": "bakersfield", "query": "Bakersfield, CA" },
+  { "state": "california", "city": "anaheim", "query": "Anaheim, CA" }
+]

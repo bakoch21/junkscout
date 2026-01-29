@@ -1,0 +1,17 @@
+{
+  "id": "f_28ef6388b36f",
+  "slug": "flores-recycling-center",
+  "name": "Flores Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.0803617,
+  "lng": -118.2697786,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/11390840166",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

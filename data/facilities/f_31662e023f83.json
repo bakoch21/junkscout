@@ -1,0 +1,17 @@
+{
+  "id": "f_31662e023f83",
+  "slug": "ameresco-mccarty-energy-llc",
+  "name": "AMERESCO MCCARTY ENERGY LLC",
+  "type": "landfill",
+  "address": "5755 OATES RD HOUSTON TX 77078",
+  "lat": 29.82,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

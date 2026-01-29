@@ -1,0 +1,17 @@
+{
+  "id": "f_853de71119cf",
+  "slug": "nicole-bernsone-safe-center",
+  "name": "Nicole Bernsone SAFE Center",
+  "type": "transfer_station",
+  "address": "10241 Balboa Boulevard Northridge CA 91325",
+  "lat": 34.2568956,
+  "lng": -118.5027189,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1152879487",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

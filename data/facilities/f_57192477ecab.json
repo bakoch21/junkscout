@@ -1,0 +1,17 @@
+{
+  "id": "f_57192477ecab",
+  "slug": "deniz-recycling",
+  "name": "Deniz Recycling",
+  "type": "recycling",
+  "address": "10706 Vanowen Street North Hollywood Ca 91605",
+  "lat": 34.1936032,
+  "lng": -118.3641573,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1409639503",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

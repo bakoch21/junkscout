@@ -1,0 +1,17 @@
+{
+  "id": "f_0539d9cbca34",
+  "slug": "casco-hauling-and-excavation-landfill",
+  "name": "CASCO HAULING AND EXCAVATION LANDFILL",
+  "type": "landfill",
+  "address": "1306 E ANDERSON RD HOUSTON TX 77047",
+  "lat": 29.61,
+  "lng": -95.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

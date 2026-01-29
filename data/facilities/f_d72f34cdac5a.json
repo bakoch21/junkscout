@@ -1,0 +1,17 @@
+{
+  "id": "f_d72f34cdac5a",
+  "slug": "smart-demolition-and-excavation-recycling-center",
+  "name": "Smart Demolition & Excavation Recycling Center",
+  "type": "recycling",
+  "address": "231 Loomis Street San Francisco 94124",
+  "lat": 37.7392529,
+  "lng": -122.4052215,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/259001379",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

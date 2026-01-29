@@ -1,0 +1,17 @@
+{
+  "id": "f_f60962e82045",
+  "slug": "ameresco-mccarty-rd-rng-facility",
+  "name": "AMERESCO MCCARTY RD RNG FACILITY",
+  "type": "landfill",
+  "address": "5755 OATES RD HOUSTON TX 77078",
+  "lat": 29.82,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

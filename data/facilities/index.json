@@ -1,2467 +1,2166 @@
 [
   {
-    "id": "f_050ac796ad5e",
-    "slug": "380-mckinney-c-and-d-landfill",
-    "name": "380 McKinney C&D Landfill",
-    "type": "landfill",
-    "address": "2540 East University Drive McKinney TX 75069",
-    "lat": 33.1927159,
-    "lng": -96.5705498,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1234762062",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "mckinney"
-      }
-    ]
-  },
-  {
-    "id": "f_f9ff4782a0ed",
-    "slug": "a-g-pickard-pecans",
-    "name": "A. G. Pickard Pecans",
+    "id": "f_498adb937684",
+    "slug": "alco-iron-and-metal",
+    "name": "ALCO Iron & Metal",
     "type": "recycling",
-    "address": "101 Nogalitos Street San Antonio TX 78204",
-    "lat": 29.4090251,
-    "lng": -98.501694,
+    "address": "1788 Rogers Avenue San Jose CA 95112",
+    "lat": 37.3781431,
+    "lng": -121.909775,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/929735081",
+    "osm_url": "https://www.openstreetmap.org/way/39132290",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "san-antonio"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_b12f40977aa6",
-    "slug": "abs-metal-recycling",
-    "name": "ABS Metal Recycling",
+    "id": "f_dd079c6de50a",
+    "slug": "att-recycle",
+    "name": "ATT Recycle",
     "type": "recycling",
-    "address": "10519 McAngus Road Del Valle TX 78617",
-    "lat": 30.152656,
-    "lng": -97.6689714,
-    "website": "http://www.absrecycling.com/",
-    "osm_url": "https://www.openstreetmap.org/way/1185608567",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_aa76d5dee4b7",
-    "slug": "addicks-fairbanks-landfill",
-    "name": "Addicks Fairbanks Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8720942,
-    "lng": -95.622773,
+    "address": "215 Leo Avenue San Jose CA 95112",
+    "lat": 37.3111673,
+    "lng": -121.8652793,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/148260554",
+    "osm_url": "https://www.openstreetmap.org/way/35677757",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_1e5ec3672eef",
-    "slug": "amarillo-metals-company-inc",
-    "name": "Amarillo Metals Company, Inc",
+    "id": "f_8a5376a8e9bc",
+    "slug": "auction-bdi",
+    "name": "Auction BDI",
     "type": "recycling",
-    "address": "415 North Grand Street Amarillo TX 79109",
-    "lat": 35.2167702,
-    "lng": -101.7964732,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894450479",
+    "address": "660 Vista Way Milpitas CA 95035",
+    "lat": 37.4262856,
+    "lng": -121.8881934,
+    "website": "https://auctionbdi.hibid.com/",
+    "osm_url": "https://www.openstreetmap.org/way/39041632",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "amarillo"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_ac47284f3fc5",
-    "slug": "amarillo-recycling-company-inc",
-    "name": "Amarillo Recycling Company, Inc.",
+    "id": "f_37f9966ea974",
+    "slug": "berkeley-recycling-center",
+    "name": "Berkeley Recycling Center",
     "type": "recycling",
-    "address": "5318 East Amarillo Boulevard Amarillo TX 79107",
-    "lat": 35.2216074,
-    "lng": -101.7961798,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894450500",
+    "address": "669 Gilman Street Berkeley CA 94710",
+    "lat": 37.8788277,
+    "lng": -122.3050969,
+    "website": "https://berkeleyrecycling.org/",
+    "osm_url": "https://www.openstreetmap.org/node/12839053406",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "amarillo"
-      }
-    ]
-  },
-  {
-    "id": "f_7a2eb5a73264",
-    "slug": "armstrong-archives",
-    "name": "Armstrong Archives",
-    "type": "recycling",
-    "address": "1515 Crescent Drive Carrollton TX 75006",
-    "lat": 32.9570188,
-    "lng": -96.9167122,
-    "website": "https://www.armstrongarchives.com/",
-    "osm_url": "https://www.openstreetmap.org/node/12151033543",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "carrollton"
+        "state": "california",
+        "city": "oakland"
       },
       {
-        "state": "texas",
-        "city": "dallas"
+        "state": "california",
+        "city": "san-francisco"
       }
     ]
   },
   {
-    "id": "f_925b2b601899",
-    "slug": "atascocita-landfill",
-    "name": "Atascocita Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.9567492,
-    "lng": -95.2350361,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/148331083",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_33e2d348d63a",
-    "slug": "austin-wood-recycling",
-    "name": "Austin Wood Recycling",
-    "type": "recycling",
-    "address": "9201 FM 812 Austin TX 78719",
-    "lat": 30.1555498,
-    "lng": -97.6873274,
-    "website": "https://www.austinwoodrecycling.com/",
-    "osm_url": "https://www.openstreetmap.org/way/1185824388",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_8bc5076be468",
-    "slug": "beck-landfill",
-    "name": "Beck Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.5470798,
-    "lng": -98.2618889,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/830189199",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_b5f99587f551",
-    "slug": "best-grease-service",
-    "name": "Best Grease Service",
-    "type": "recycling",
-    "address": "5232 Nadine Drive Haltom City TX 76117",
-    "lat": 32.8192997,
-    "lng": -97.269422,
-    "website": "http://oilrecyclinghaltomcity.com",
-    "osm_url": "https://www.openstreetmap.org/node/6611326408",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "fort-worth"
-      }
-    ]
-  },
-  {
-    "id": "f_49e36750e008",
-    "slug": "bracken-recylcing",
-    "name": "Bracken Recylcing",
-    "type": "recycling",
-    "address": "19068 Marbach Lane San Antonio TX 78266",
-    "lat": 29.6185504,
-    "lng": -98.3271844,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/864191752",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_ed9f5d68c551",
-    "slug": "browning-ferris-industries-sunset-farms-landfill",
-    "name": "Browning-Ferris Industries Sunset Farms Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 30.3432505,
-    "lng": -97.6266581,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195840985",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_49ea78691768",
-    "slug": "brownsville-recycling-center",
-    "name": "Brownsville Recycling Center",
-    "type": "recycling",
-    "address": "308 East Elizabeth Street Brownsville TX 78520",
-    "lat": 25.9068005,
-    "lng": -97.5045245,
-    "website": "https://www.cameroncountytx.gov/recycling-centers-directory/",
-    "osm_url": "https://www.openstreetmap.org/way/746257106",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "brownsville"
-      }
-    ]
-  },
-  {
-    "id": "f_025d1d2b922a",
-    "slug": "c-and-d-scrap-metal",
-    "name": "C&D Scrap Metal",
-    "type": "recycling",
-    "address": "6775 Bingle Road Houston TX",
-    "lat": 29.8641276,
-    "lng": -95.488482,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/690500603",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_446e93d212db",
-    "slug": "caliche-canyon-landfill",
-    "name": "Caliche Canyon Landfill",
-    "type": "landfill",
-    "address": "8425 North Avenue P Lubbock TX 79403",
-    "lat": 33.6720515,
-    "lng": -101.8580447,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/678974718",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "lubbock"
-      }
-    ]
-  },
-  {
-    "id": "f_30d19f2ad573",
-    "slug": "camelot-landfill",
-    "name": "Camelot Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.0307155,
-    "lng": -96.950935,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/336439435",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "carrollton"
-      },
-      {
-        "state": "texas",
-        "city": "denton"
-      },
-      {
-        "state": "texas",
-        "city": "lewisville"
-      }
-    ]
-  },
-  {
-    "id": "f_ac8ec7248b1e",
-    "slug": "cardboard-and-paper-recycling",
-    "name": "Cardboard and Paper recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.9445044,
-    "lng": -97.5803372,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/739751198",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "fort-worth"
-      }
-    ]
-  },
-  {
-    "id": "f_e53fbdbeddd3",
-    "slug": "citizens-collection-station",
-    "name": "Citizens Collection Station",
-    "type": "recycling",
-    "address": "4100 Smith Road Midland TX 79705",
-    "lat": 32.0370148,
-    "lng": -102.0912537,
-    "website": "https://www.midlandtexas.gov/facilities/facility/details/Citizens-Collection-Station-73",
-    "osm_url": "https://www.openstreetmap.org/way/545159404",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "midland"
-      }
-    ]
-  },
-  {
-    "id": "f_b6ba5aba32a5",
-    "slug": "city-of-amarillo-brush-site",
-    "name": "City of Amarillo Brush Site",
-    "type": "recycling",
-    "address": "3401 Broadway Drive Amarillo TX 79107",
-    "lat": 35.2461001,
-    "lng": -101.8499046,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1424542195",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "amarillo"
-      }
-    ]
-  },
-  {
-    "id": "f_fbed1f2062b4",
-    "slug": "city-of-dallas-big-blue-recycle-bin",
-    "name": "City of Dallas Big Blue Recycle Bin",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.6413269,
-    "lng": -96.9553907,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6641272910",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "grand-prairie"
-      }
-    ]
-  },
-  {
-    "id": "f_30014927e24d",
-    "slug": "city-of-dallas-big-blue-recycle-bin",
-    "name": "City of Dallas Big Blue Recycle Bin",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.6523264,
-    "lng": -96.974901,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6641272911",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "grand-prairie"
-      }
-    ]
-  },
-  {
-    "id": "f_72fcc822edd3",
-    "slug": "city-of-laredo-landfill",
-    "name": "City of Laredo Landfill",
-    "type": "landfill",
-    "address": "TX 359 Laredo TX 78046",
-    "lat": 27.4929346,
-    "lng": -99.4100013,
-    "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
-    "osm_url": "https://www.openstreetmap.org/way/1151383582",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "laredo"
-      }
-    ]
-  },
-  {
-    "id": "f_0f8304e5a000",
-    "slug": "city-of-longview-compost-site",
-    "name": "City of Longview Compost Site",
-    "type": "landfill",
-    "address": "2020 Swinging Bridge Road Longview TX 75604",
-    "lat": 32.4827079,
-    "lng": -94.8027422,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/391129195",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "longview"
-      }
-    ]
-  },
-  {
-    "id": "f_714a5d224d59",
-    "slug": "city-of-mesquite-recycling-and-compost-center",
-    "name": "City of Mesquite Recycling and Compost Center",
-    "type": "landfill",
-    "address": "3550 Lawson Road Mesquite TX 75181",
-    "lat": 32.7132744,
-    "lng": -96.5474446,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1087111669",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "mesquite"
-      }
-    ]
-  },
-  {
-    "id": "f_ffd532b114de",
-    "slug": "city-of-midland-landfill",
-    "name": "City of Midland Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 31.9657396,
-    "lng": -101.9325577,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/405469689",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "midland"
-      }
-    ]
-  },
-  {
-    "id": "f_a498415814ed",
-    "slug": "city-of-seguin-recycling-center",
-    "name": "City of Seguin Recycling Center",
-    "type": "recycling",
-    "address": "634 Fred Byrd Drive 78155",
-    "lat": 29.5583498,
-    "lng": -97.9720712,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/183001279",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "seguin"
-      }
-    ]
-  },
-  {
-    "id": "f_86afd4ef18ab",
-    "slug": "city-recycling-station",
-    "name": "City Recycling Station",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.5258193,
-    "lng": -101.959481,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/470019657",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "lubbock"
-      }
-    ]
-  },
-  {
-    "id": "f_ecb144cc9817",
-    "slug": "clothes-and-shoes-recycling-bin",
-    "name": "Clothes & Shoes Recycling Bin",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.9562142,
-    "lng": -96.8928589,
-    "website": "https://fillthebins.com",
-    "osm_url": "https://www.openstreetmap.org/node/11911146930",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "carrollton"
-      },
-      {
-        "state": "texas",
-        "city": "dallas"
-      }
-    ]
-  },
-  {
-    "id": "f_87e3ee3f4679",
-    "slug": "cm-hinton-jr-regional-landfill",
-    "name": "CM Hinton Jr. Regional Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 32.9579388,
-    "lng": -96.5420747,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/495939892",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "garland"
-      }
-    ]
-  },
-  {
-    "id": "f_ef0b805546ba",
-    "slug": "cmc-recycling",
-    "name": "CMC Recycling",
-    "type": "recycling",
-    "address": "1704 West Howard Lane Austin TX",
-    "lat": 30.4281445,
-    "lng": -97.6783815,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/383184775",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_a352be473ddb",
-    "slug": "cmc-recycling",
-    "name": "CMC Recycling",
-    "type": "recycling",
-    "address": "1605 Garden City Highway Midland TX 79701",
-    "lat": 31.9881391,
-    "lng": -102.0548337,
-    "website": "https://www.cmcrecycling.com/locations/midland",
-    "osm_url": "https://www.openstreetmap.org/way/1316954561",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "midland"
-      }
-    ]
-  },
-  {
-    "id": "f_bfe8caefedda",
-    "slug": "coal-storage",
-    "name": "Coal Storage",
-    "type": "landfill",
-    "address": "",
-    "lat": 27.8145365,
-    "lng": -97.4972275,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1088184330",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "corpus-christi"
-      }
-    ]
-  },
-  {
-    "id": "f_e75b93f7e3b9",
-    "slug": "cobbs-recycling-center",
-    "name": "Cobbs Recycling Center",
-    "type": "recycling",
-    "address": "4201 Trice Avenue Waco TX 76710",
-    "lat": 31.5462434,
-    "lng": -97.1868365,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/13311971041",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "waco"
-      }
-    ]
-  },
-  {
-    "id": "f_09931360ff4c",
-    "slug": "compra-de-metales",
-    "name": "Compra de metales",
-    "type": "recycling",
-    "address": "",
-    "lat": 25.8540334,
-    "lng": -97.4748286,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4537330292",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "brownsville"
-      }
-    ]
-  },
-  {
-    "id": "f_d01faee26bf6",
-    "slug": "cougar-landfill",
-    "name": "Cougar Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8967004,
-    "lng": -95.2624371,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/447277173",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_f324e30ca7c5",
-    "slug": "covel-gardens-landfill",
-    "name": "Covel Gardens Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.3343179,
-    "lng": -98.6546479,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/373704538",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_519e1582269b",
-    "slug": "custer-transfer-station",
-    "name": "Custer Transfer Station",
+    "id": "f_4ff162d50e44",
+    "slug": "berkeley-transfer-station",
+    "name": "Berkeley Transfer Station",
     "type": "transfer_station",
-    "address": "9901 Custer Road Plano TX 75025",
-    "lat": 33.1146866,
-    "lng": -96.7353896,
-    "website": "https://www.plano.gov/685/Do-It-Yourself-Disposal",
-    "osm_url": "https://www.openstreetmap.org/way/452292395",
+    "address": "1201 Second Street Berkeley CA 94710",
+    "lat": 37.8799328,
+    "lng": -122.3059418,
+    "website": "https://berkeleyca.gov/city-services/trash-recycling/transfer-station",
+    "osm_url": "https://www.openstreetmap.org/node/12839053407",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "frisco"
+        "state": "california",
+        "city": "oakland"
       },
       {
-        "state": "texas",
-        "city": "plano"
+        "state": "california",
+        "city": "san-francisco"
       }
     ]
   },
   {
-    "id": "f_d01b26990dff",
-    "slug": "custer-transfer-station",
-    "name": "Custer Transfer Station",
+    "id": "f_f4a224cdd4c1",
+    "slug": "berkeley-transfer-station",
+    "name": "Berkeley Transfer Station",
+    "type": "transfer_station",
+    "address": "1201 Berkeley CA",
+    "lat": 37.8801066,
+    "lng": -122.3057394,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/44073281",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_e76ce05562a8",
+    "slug": "bradley-landfill-and-sun-valley-recycling-park",
+    "name": "Bradley Landfill & Sun Valley Recycling Park",
+    "type": "landfill",
+    "address": "",
+    "lat": 34.2392547,
+    "lng": -118.3850687,
+    "website": "https://www.wmsolutions.com/locations/details/id/1105",
+    "osm_url": "https://www.openstreetmap.org/way/1074041260",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_f37864c0dd58",
+    "slug": "california-metals",
+    "name": "California Metals",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.9489773,
+    "lng": -118.178438,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/4010235118",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_d6d3e1694005",
+    "slug": "california-waste-solutions",
+    "name": "California Waste Solutions",
+    "type": "recycling",
+    "address": "1820 10th Street",
+    "lat": 37.8116308,
+    "lng": -122.3021672,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/432716142",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_4b395e029163",
+    "slug": "california-waste-solutions",
+    "name": "California Waste Solutions",
+    "type": "recycling",
+    "address": "1005 Timothy Drive San Jose CA 95133",
+    "lat": 37.3652717,
+    "lng": -121.8801647,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/8925401072",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_defd25bf721e",
+    "slug": "california-waste-solutions",
+    "name": "California Waste Solutions",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.3652172,
+    "lng": -121.8822389,
+    "website": "https://calwaste.com/",
+    "osm_url": "https://www.openstreetmap.org/way/521379111",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_696bac9c00e0",
+    "slug": "calwa-recycling",
+    "name": "Calwa Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 36.7148639,
+    "lng": -119.7500329,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/473097980",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "fresno"
+      }
+    ]
+  },
+  {
+    "id": "f_d1a84bd609e4",
+    "slug": "campanile-mall-recycling",
+    "name": "Campanile Mall Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7724678,
+    "lng": -117.071715,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/2131607153",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_61ecdd7e4371",
+    "slug": "canco-recycling",
+    "name": "Canco Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.8603832,
+    "lng": -118.1594361,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/441318937",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_b851ae715761",
+    "slug": "central-la-recycling-and-transfer-station",
+    "name": "Central LA Recycling & Transfer Station",
+    "type": "transfer_station",
+    "address": "2201 East Washington Boulevard Los Angeles CA 90021",
+    "lat": 34.0202968,
+    "lng": -118.2344926,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/48278597",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_175892eb9693",
+    "slug": "charity-thrift-store",
+    "name": "Charity Thrift Store",
+    "type": "recycling",
+    "address": "2725 Lafayette Street Santa Clara CA 95050",
+    "lat": 37.3708614,
+    "lng": -121.9492773,
+    "website": "http://www.charitycarsforkids.org/",
+    "osm_url": "https://www.openstreetmap.org/node/8219032640",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_a5b930bd5026",
+    "slug": "circosta-iron-and-metal",
+    "name": "Circosta Iron & Metal",
+    "type": "recycling",
+    "address": "1801 Evans Avenue San Francisco 94124",
+    "lat": 37.7446125,
+    "lng": -122.393131,
+    "website": "https://www.circostametals.com/",
+    "osm_url": "https://www.openstreetmap.org/way/1168301354",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_5d0fd3f12d2e",
+    "slug": "city-of-berkeley-recycling",
+    "name": "City of Berkeley Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.8791787,
+    "lng": -122.3055861,
+    "website": "https://berkeleyrecycling.org/",
+    "osm_url": "https://www.openstreetmap.org/node/560189339",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_333a08c12c73",
+    "slug": "city-of-burbank-landfill-no-3",
+    "name": "City of Burbank Landfill No. 3",
+    "type": "landfill",
+    "address": "",
+    "lat": 34.2089623,
+    "lng": -118.3122772,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/199045527",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_c85b64e44858",
+    "slug": "danny-recycling-center",
+    "name": "Danny Recycling Center",
+    "type": "recycling",
+    "address": "1745 Walsh Avenue Santa Clara CA 95050",
+    "lat": 37.3701739,
+    "lng": -121.9578765,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/10900289620",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_024d9954b4f7",
+    "slug": "de-la-cruz-recycling",
+    "name": "De la Cruz Recycling",
+    "type": "recycling",
+    "address": "15025 Roscoe Boulevard North Hills CA 91402",
+    "lat": 34.2220202,
+    "lng": -118.4600473,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/11637348505",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_57192477ecab",
+    "slug": "deniz-recycling",
+    "name": "Deniz Recycling",
+    "type": "recycling",
+    "address": "10706 Vanowen Street North Hollywood Ca 91605",
+    "lat": 34.1936032,
+    "lng": -118.3641573,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1409639503",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_753f23aeb8f7",
+    "slug": "donation-box",
+    "name": "Donation Box",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.882032,
+    "lng": -122.2689191,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/11323281933",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      }
+    ]
+  },
+  {
+    "id": "f_40b298978a13",
+    "slug": "doolittle-landfill",
+    "name": "Doolittle Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 37.7468727,
+    "lng": -122.231259,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/43985340",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      }
+    ]
+  },
+  {
+    "id": "f_6fa2a139a30c",
+    "slug": "eco-drop-spot",
+    "name": "Eco Drop Spot",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.3389745,
+    "lng": -121.8843018,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/12813500621",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_b53f592c6894",
+    "slug": "ecoatm",
+    "name": "ecoATM",
+    "type": "recycling",
+    "address": "",
+    "lat": 35.341324,
+    "lng": -119.05084,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/13337804263",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "bakersfield"
+      }
+    ]
+  },
+  {
+    "id": "f_1368831fb48a",
+    "slug": "ecology-center-store",
+    "name": "Ecology Center Store",
+    "type": "recycling",
+    "address": "2530 San Pablo Avenue",
+    "lat": 37.8599506,
+    "lng": -122.2894355,
+    "website": "https://ecologycenter.org/store/",
+    "osm_url": "https://www.openstreetmap.org/node/8235989482",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_67f46a8d4f84",
+    "slug": "edco-recycling",
+    "name": "EDCO Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.8076548,
+    "lng": -118.1820429,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/418106125",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_f8994f54f739",
+    "slug": "edco-recycling-buyback-center",
+    "name": "EDCO Recycling Buyback Center",
+    "type": "recycling",
+    "address": "6700 Federal Boulevard Lemon Grove CA 91945",
+    "lat": 32.7372317,
+    "lng": -117.0547671,
+    "website": "https://lemon-grove.edcodisposal.com/public-facilities/edco-recycling-buyback-center-lemon-grove/",
+    "osm_url": "https://www.openstreetmap.org/way/1369863831",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_6b12422f7b08",
+    "slug": "el-cerrito-recycling-center",
+    "name": "El Cerrito Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.9194287,
+    "lng": -122.299252,
+    "website": "http://www.el-cerrito.org/index.aspx?NID=336",
+    "osm_url": "https://www.openstreetmap.org/node/1256306250",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_854a09f1bea0",
+    "slug": "ewastecollective",
+    "name": "ewasteCollective",
+    "type": "recycling",
+    "address": "620 CA",
+    "lat": 37.8753349,
+    "lng": -122.3051084,
+    "website": "https://ewastecollective.org/",
+    "osm_url": "https://www.openstreetmap.org/node/6471289088",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_28ef6388b36f",
+    "slug": "flores-recycling-center",
+    "name": "Flores Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 34.0803617,
+    "lng": -118.2697786,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/11390840166",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_63b4fef10276",
+    "slug": "free-mulch-pick-up",
+    "name": "free mulch pick-up",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.8074844,
+    "lng": -118.1765948,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6415540965",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_5e1d65b0b1bd",
+    "slug": "garden-city-sanitation-and-milpitas-sanitation",
+    "name": "Garden City Sanitation & Milpitas Sanitation",
+    "type": "recycling",
+    "address": "1080 Walsh Avenue Santa Clara CA 95050",
+    "lat": 37.3692491,
+    "lng": -121.953789,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/13035151861",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_248c1aa19b3c",
+    "slug": "gift-card-recycling",
+    "name": "Gift Card Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.3109543,
+    "lng": -121.8487761,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/3679715117",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_7103e82aa05f",
+    "slug": "glendale-waste-collection-center",
+    "name": "Glendale Waste Collection Center",
     "type": "transfer_station",
     "address": "",
-    "lat": 33.1149086,
-    "lng": -96.7351259,
+    "lat": 34.1382923,
+    "lng": -118.2726631,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/658604109",
+    "osm_url": "https://www.openstreetmap.org/way/736634391",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "frisco"
-      },
-      {
-        "state": "texas",
-        "city": "plano"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_def73b03d340",
-    "slug": "customer-convenience-recycling-center-at-mccommas-bluff-landfill",
-    "name": "Customer Convenience Recycling Center at McCommas Bluff Landfill",
+    "id": "f_97591d37d39b",
+    "slug": "goodwill",
+    "name": "Goodwill",
     "type": "recycling",
-    "address": "5450 Simpson Stuart Road",
-    "lat": 32.6805119,
-    "lng": -96.7281282,
-    "website": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
-    "osm_url": "https://www.openstreetmap.org/way/469105875",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      }
-    ]
-  },
-  {
-    "id": "f_f0c2ddc41085",
-    "slug": "denton-recycle-center",
-    "name": "Denton Recycle Center",
-    "type": "transfer_station",
-    "address": "1722 Cooper Creek Road Denton TX 76208",
-    "lat": 33.2369623,
-    "lng": -97.0810666,
+    "address": "La Costa Avenue Encinitas",
+    "lat": 33.0850663,
+    "lng": -117.2976556,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/900166721",
+    "osm_url": "https://www.openstreetmap.org/node/2869782662",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "denton"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_63c3b3f8a1c7",
-    "slug": "dfw-landfill",
-    "name": "DFW Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.0200774,
-    "lng": -96.9546189,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/336438904",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "carrollton"
-      },
-      {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "denton"
-      },
-      {
-        "state": "texas",
-        "city": "lewisville"
-      }
-    ]
-  },
-  {
-    "id": "f_418eb02f4bb3",
-    "slug": "dfw-recyclers",
-    "name": "DFW Recyclers",
-    "type": "recycling",
-    "address": "2410 West Division Street Arlington TX 76012",
-    "lat": 32.7349087,
-    "lng": -97.1470574,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/659542057",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "arlington"
-      },
-      {
-        "state": "texas",
-        "city": "fort-worth"
-      }
-    ]
-  },
-  {
-    "id": "f_d3d1a73d4ff6",
-    "slug": "environmental-collection-center",
-    "name": "Environmental Collection Center",
-    "type": "recycling",
-    "address": "6400 Bridge Street 76112",
-    "lat": 32.7625069,
-    "lng": -97.220152,
-    "website": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/environmental-collection-center/environmental-collection",
-    "osm_url": "https://www.openstreetmap.org/node/13302094101",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "arlington"
-      },
-      {
-        "state": "texas",
-        "city": "fort-worth"
-      }
-    ]
-  },
-  {
-    "id": "f_44d0c768acb1",
-    "slug": "environmental-services-center",
-    "name": "Environmental Services Center",
-    "type": "recycling",
-    "address": "11500 South Post Oak Road Houston TX 77035",
-    "lat": 29.649629,
-    "lng": -95.4644,
-    "website": "https://houstontx.gov/solidwaste/esc.html",
-    "osm_url": "https://www.openstreetmap.org/way/1092144490",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_8706d5c93f87",
-    "slug": "erca",
-    "name": "ERCA",
+    "id": "f_fb9fcad4d89a",
+    "slug": "goodwill",
+    "name": "Goodwill",
     "type": "recycling",
     "address": "",
-    "lat": 25.878623,
-    "lng": -97.5276678,
+    "lat": 37.39656,
+    "lng": -121.996314,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4836286163",
+    "osm_url": "https://www.openstreetmap.org/way/391414069",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "brownsville"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_b64310da4b46",
-    "slug": "evergro-organic-recycling",
-    "name": "EverGro Organic Recycling",
-    "type": "landfill",
-    "address": "12470 Sralla Road Crosby TX 77532",
-    "lat": 29.8680882,
-    "lng": -95.0285411,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/814716845",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_fdb0f0c84738",
-    "slug": "falcon-scrap-metal",
-    "name": "Falcon Scrap Metal",
-    "type": "recycling",
-    "address": "10202B Fulton Street Houston TX 77076",
-    "lat": 29.8536545,
-    "lng": -95.3811818,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6265708976",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_f192476853c7",
-    "slug": "fmi-recycling",
-    "name": "FMI Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.7183271,
-    "lng": -96.8690925,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6296245607",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      }
-    ]
-  },
-  {
-    "id": "f_b24f9ec67b27",
-    "slug": "fort-cavazos-recycling-center",
-    "name": "Fort Cavazos Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.125589,
-    "lng": -97.7868713,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1022279846",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "killeen"
-      }
-    ]
-  },
-  {
-    "id": "f_ee29ac993327",
-    "slug": "fort-worth-southeast-landfill",
-    "name": "Fort Worth Southeast Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 32.6485603,
-    "lng": -97.2411144,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/925930862",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "fort-worth"
-      }
-    ]
-  },
-  {
-    "id": "f_c7f898097265",
-    "slug": "frio-city-road-bulky-waste-collection-center",
-    "name": "Frio City Road Bulky Waste Collection Center",
-    "type": "transfer_station",
-    "address": "1531 Frio City Road San Antonio 78226",
-    "lat": 29.3940532,
-    "lng": -98.5358595,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/162535263",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_7073b4ee9bf9",
-    "slug": "gardner-metal-recycling",
-    "name": "Gardner Metal Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 30.3307322,
-    "lng": -97.616078,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1201742548",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_effbd939bf28",
-    "slug": "goodwill-donation-center",
-    "name": "Goodwill Donation Center",
-    "type": "recycling",
-    "address": "1214 West 43rd Street Houston TX",
-    "lat": 29.8291659,
-    "lng": -95.4304555,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/3768401994",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_c746e0cdf8af",
+    "id": "f_464a76c54b32",
     "slug": "goodwill-donation-center",
     "name": "Goodwill Donation Center",
     "type": "recycling",
     "address": "",
-    "lat": 29.7596951,
-    "lng": -95.4824094,
+    "lat": 34.0512766,
+    "lng": -118.4183903,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6917875413",
+    "osm_url": "https://www.openstreetmap.org/way/391058661",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_ea098a495426",
-    "slug": "goodwill-outlet-store",
-    "name": "Goodwill Outlet Store",
+    "id": "f_c55e30d711d0",
+    "slug": "goodwill-donation-site",
+    "name": "Goodwill Donation Site",
     "type": "recycling",
-    "address": "2462 Mansfield Highway Fort Worth TX",
-    "lat": 32.6881214,
-    "lng": -97.2939505,
+    "address": "",
+    "lat": 34.0370084,
+    "lng": -118.4358631,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/relation/7361794",
+    "osm_url": "https://www.openstreetmap.org/node/8569870496",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "fort-worth"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_ef045d9fe159",
-    "slug": "grand-prairie-landfill",
-    "name": "Grand Prairie Landfill",
+    "id": "f_06b5dabcea9b",
+    "slug": "goodwill-donations",
+    "name": "Goodwill Donations",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8224165,
+    "lng": -117.1024273,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6636240799",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_459ddfc350df",
+    "slug": "goodwill-dropoff",
+    "name": "Goodwill Dropoff",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.778151,
+    "lng": -122.2296032,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/5583696550",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      }
+    ]
+  },
+  {
+    "id": "f_a0f337ddbdd2",
+    "slug": "graniterock-recycle-facility",
+    "name": "Graniterock Recycle Facility",
+    "type": "recycling",
+    "address": "100 Granite Rock Way San Jose CA 95136",
+    "lat": 37.2836675,
+    "lng": -121.8428761,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/883131242",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_f6bc390841fd",
+    "slug": "green-team-materials-recovery-facility",
+    "name": "Green Team Materials Recovery Facility",
+    "type": "recycling",
+    "address": "575 Charles Street San Jose CA 95112",
+    "lat": 37.3661384,
+    "lng": -121.8960656,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/44709737",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_8a0abefb0b52",
+    "slug": "greenfield-recycling-center",
+    "name": "Greenfield Recycling Center",
+    "type": "recycling",
+    "address": "1235 Greenfield Drive El Cajon CA 92021",
+    "lat": 32.8128769,
+    "lng": -116.9386298,
+    "website": "https://www.greenfieldrecycling.net/",
+    "osm_url": "https://www.openstreetmap.org/way/957710393",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_220f4facc931",
+    "slug": "greenwaste",
+    "name": "GreenWaste",
+    "type": "recycling",
+    "address": "625 Charles Street San Jose CA 95112",
+    "lat": 37.3673716,
+    "lng": -121.8955495,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/8212381616",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_2890b764fa08",
+    "slug": "greenwaste-carpet-recycling",
+    "name": "GreenWaste Carpet Recycling",
+    "type": "recycling",
+    "address": "1201 North 15th Street San Jose CA 95112",
+    "lat": 37.3652374,
+    "lng": -121.8938636,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/44709819",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_a67120065681",
+    "slug": "greenwaste-of-palo-alto",
+    "name": "GreenWaste of Palo Alto",
+    "type": "recycling",
+    "address": "2765 Lafayette Street Santa Clara CA 95050",
+    "lat": 37.3713304,
+    "lng": -121.9488739,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/209087379",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_8198b58afaea",
+    "slug": "greenwaste-recovery",
+    "name": "GreenWaste Recovery",
+    "type": "recycling",
+    "address": "610 East Gish Road San Jose CA 95112",
+    "lat": 37.3682185,
+    "lng": -121.8973374,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/44367381",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_b03c78785211",
+    "slug": "guadalupe-landfill",
+    "name": "Guadalupe Landfill",
+    "type": "landfill",
+    "address": "15999 Guadalupe Mines Road San Jose CA 95120",
+    "lat": 37.2125621,
+    "lng": -121.9011661,
+    "website": "https://wmcabay.wm.com/landfills/guadalupe.htm",
+    "osm_url": "https://www.openstreetmap.org/way/124332898",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_8cccab9dac16",
+    "slug": "guadalupe-recycling-facility",
+    "name": "Guadalupe Recycling Facility",
+    "type": "recycling",
+    "address": "15999 Guadalupe Mines Road San Jose CA 95120",
+    "lat": 37.2130634,
+    "lng": -121.9013352,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/8208994589",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_dfff7b0974a8",
+    "slug": "hillside-landfill",
+    "name": "Hillside Landfill",
+    "type": "landfill",
+    "address": "1 Sand Hill Road Colma 94014",
+    "lat": 37.6828514,
+    "lng": -122.4426565,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/136160103",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_ba5fe72c02a0",
+    "slug": "household-hazardous-waste-facility",
+    "name": "Household Hazardous Waste Facility",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.3593553,
+    "lng": -121.8679698,
+    "website": "https://hhw.sccgov.org/",
+    "osm_url": "https://www.openstreetmap.org/way/1077825484",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_bcdbf07a4346",
+    "slug": "household-hazardous-waste-transfer-facility",
+    "name": "Household Hazardous Waste Transfer Facility",
+    "type": "transfer_station",
+    "address": "5161 Convoy Street San Diego CA 92111",
+    "lat": 32.8392977,
+    "lng": -117.1507257,
+    "website": "https://www.sandiego.gov/environmental-services/miramar/hhwtransfac",
+    "osm_url": "https://www.openstreetmap.org/way/128819056",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_d9e9793b1696",
+    "slug": "jado-recycling",
+    "name": "Jado Recycling",
+    "type": "recycling",
+    "address": "South Shore Center Way Alameda CA 94501",
+    "lat": 37.7592175,
+    "lng": -122.2545999,
+    "website": "+18558578020",
+    "osm_url": "https://www.openstreetmap.org/node/12332038711",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      }
+    ]
+  },
+  {
+    "id": "f_1389ddee8441",
+    "slug": "kirby-canyon-sanitary-landfill",
+    "name": "Kirby Canyon Sanitary Landfill",
     "type": "landfill",
     "address": "",
-    "lat": 32.7698514,
-    "lng": -96.9492464,
+    "lat": 37.1846848,
+    "lng": -121.6727172,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/317592059",
+    "osm_url": "https://www.openstreetmap.org/way/109610207",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "grand-prairie"
-      },
-      {
-        "state": "texas",
-        "city": "irving"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_d01b27cca8dc",
-    "slug": "green-center",
-    "name": "Green Center",
+    "id": "f_7c2964f42f8a",
+    "slug": "los-angeles-county-s-a-f-e-center",
+    "name": "Los Angeles County S.A.F.E Center",
     "type": "recycling",
     "address": "",
-    "lat": 29.7211792,
-    "lng": -94.9884887,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/837714494",
+    "lat": 34.2375941,
+    "lng": -118.3714433,
+    "website": "http://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+    "osm_url": "https://www.openstreetmap.org/way/62551420",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "baytown"
-      },
-      {
-        "state": "texas",
-        "city": "pasadena"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_b1166d1e1fa9",
-    "slug": "green-option-recycling",
-    "name": "Green Option Recycling",
-    "type": "recycling",
-    "address": "2025 Webster Ave Waco TX 76706",
-    "lat": 31.5413949,
-    "lng": -97.1426667,
-    "website": "https://www.greenoptionrecycling.com/",
-    "osm_url": "https://www.openstreetmap.org/node/4544644594",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "waco"
-      }
-    ]
-  },
-  {
-    "id": "f_4627fcd477b4",
-    "slug": "greenbelt-landfill",
-    "name": "Greenbelt Landfill",
+    "id": "f_11123ccf58cc",
+    "slug": "maple-canyon-landfill",
+    "name": "Maple Canyon Landfill",
     "type": "landfill",
     "address": "",
-    "lat": 29.6238286,
-    "lng": -95.191411,
+    "lat": 34.283503,
+    "lng": -118.18512,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/399714155",
+    "osm_url": "https://www.openstreetmap.org/way/31009621",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
-      },
-      {
-        "state": "texas",
-        "city": "pasadena"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_b5cb2a4e163e",
-    "slug": "greenhouse-road-landfill",
-    "name": "Greenhouse Road Landfill",
+    "id": "f_124c46c2ae39",
+    "slug": "miguel-mendoza-recycling-center",
+    "name": "Miguel Mendoza Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 34.2280204,
+    "lng": -118.4684809,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/10976093091",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_b7dd1d3def98",
+    "slug": "miramar-landfill",
+    "name": "Miramar Landfill",
     "type": "landfill",
     "address": "",
-    "lat": 29.8249681,
-    "lng": -95.6987817,
-    "website": "https://www.houstontx.gov/solidwaste/disposal.html",
-    "osm_url": "https://www.openstreetmap.org/way/203293865",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_1f8781f6dba2",
-    "slug": "greenpath-recovery",
-    "name": "Greenpath Recovery",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.7184656,
-    "lng": -96.8684796,
+    "lat": 32.8546061,
+    "lng": -117.1553915,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6296245608",
+    "osm_url": "https://www.openstreetmap.org/relation/14514161",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "dallas"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_2454b98b1295",
-    "slug": "greenshadow-landfill",
-    "name": "Greenshadow Landfill",
-    "type": "landfill",
-    "address": "710 Jana Lane Pasadena TX 77503",
-    "lat": 29.6961628,
-    "lng": -95.1474276,
-    "website": "https://www.wmsolutions.com/locations/details/id/103",
-    "osm_url": "https://www.openstreetmap.org/way/390096551",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      },
-      {
-        "state": "texas",
-        "city": "pasadena"
-      }
-    ]
-  },
-  {
-    "id": "f_b0136bc0ebfe",
-    "slug": "gulf-coast-strap-metal",
-    "name": "Gulf Coast Strap Metal",
+    "id": "f_579625fc2a3c",
+    "slug": "miramar-recycling-center",
+    "name": "Miramar Recycling Center",
     "type": "recycling",
-    "address": "8770 Hempstead Road Houston TX 77008",
-    "lat": 29.7888475,
-    "lng": -95.4422886,
-    "website": "https://www.gulfcoastscrapmetal.com/",
-    "osm_url": "https://www.openstreetmap.org/way/579719819",
+    "address": "5165 Convoy Street San Diego CA 92111",
+    "lat": 32.8399894,
+    "lng": -117.1504429,
+    "website": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "osm_url": "https://www.openstreetmap.org/way/128818002",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_9d401f9d8fee",
-    "slug": "hardy-road-landfill",
-    "name": "Hardy Road Landfill",
+    "id": "f_a9ace00630ea",
+    "slug": "newby-island-landfill",
+    "name": "Newby Island Landfill",
     "type": "landfill",
-    "address": "18710 East Hardy Road Houston TX 77073",
-    "lat": 29.9885407,
-    "lng": -95.3838463,
-    "website": "http://wcawaste.com/locations/hardy-road-landfill",
-    "osm_url": "https://www.openstreetmap.org/way/443454761",
+    "address": "128 Dixon Landing Road San Jose 95134",
+    "lat": 37.4599815,
+    "lng": -121.9428783,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/relation/13014099",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_c2288dae35f0",
-    "slug": "hawthorne-park-landfill",
-    "name": "Hawthorne Park Landfill",
+    "id": "f_853de71119cf",
+    "slug": "nicole-bernsone-safe-center",
+    "name": "Nicole Bernsone SAFE Center",
+    "type": "transfer_station",
+    "address": "10241 Balboa Boulevard Northridge CA 91325",
+    "lat": 34.2568956,
+    "lng": -118.5027189,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1152879487",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_7a4d2e253fed",
+    "slug": "palos-verdes-landfill",
+    "name": "Palos Verdes Landfill",
     "type": "landfill",
     "address": "",
-    "lat": 29.8541343,
-    "lng": -95.5535098,
-    "website": "https://www.wmsolutions.com/locations/details/id/275",
-    "osm_url": "https://www.openstreetmap.org/way/255867022",
+    "lat": 33.7886843,
+    "lng": -118.3483211,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/195841959",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_fcc6895095c6",
-    "slug": "ihaul-junk-austin",
-    "name": "iHaul Junk Austin",
-    "type": "recycling",
-    "address": "2021 Guadalupe Street Austin TX 78705",
-    "lat": 30.2832978,
-    "lng": -97.7416992,
-    "website": "https://ihauljunk.com/junk-removal-in-austin-tx",
-    "osm_url": "https://www.openstreetmap.org/node/11399466705",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_e6001fdc8a18",
-    "slug": "irving-landfill",
-    "name": "Irving Landfill",
+    "id": "f_8b116a808c06",
+    "slug": "parcel-e-2",
+    "name": "Parcel E-2",
     "type": "landfill",
     "address": "",
-    "lat": 32.7835313,
-    "lng": -96.9438942,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/29396471",
+    "lat": 37.7241276,
+    "lng": -122.3774997,
+    "website": "https://www.bracpmo.navy.mil/BRAC-Bases/California/Former-Naval-Shipyard-Hunters-Point/",
+    "osm_url": "https://www.openstreetmap.org/way/1218977080",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "grand-prairie"
-      },
-      {
-        "state": "texas",
-        "city": "irving"
+        "state": "california",
+        "city": "san-francisco"
       }
     ]
   },
   {
-    "id": "f_79a6cbc4f230",
-    "slug": "keeper-of-the-grumper",
-    "name": "Keeper of the Grumper",
-    "type": "recycling",
-    "address": "3704 Arapaho Road Addison TX 75001",
-    "lat": 32.9560029,
-    "lng": -96.8534502,
-    "website": "https://keeperofthegrumper.org/",
-    "osm_url": "https://www.openstreetmap.org/node/13398279164",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "carrollton"
-      },
-      {
-        "state": "texas",
-        "city": "dallas"
-      }
-    ]
-  },
-  {
-    "id": "f_4cb592e19a9d",
-    "slug": "lewisville-landfill",
-    "name": "Lewisville Landfill",
+    "id": "f_d36cb725d031",
+    "slug": "pomeroy-canyon-landfill",
+    "name": "Pomeroy Canyon Landfill",
     "type": "landfill",
     "address": "",
-    "lat": 33.0506346,
-    "lng": -96.9741131,
+    "lat": 34.1869898,
+    "lng": -118.2714759,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/390045378",
+    "osm_url": "https://www.openstreetmap.org/way/31721502",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "denton"
-      },
-      {
-        "state": "texas",
-        "city": "lewisville"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_e8578329354f",
-    "slug": "lone-star-disposal",
-    "name": "Lone Star Disposal",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.5919043,
-    "lng": -95.4372343,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/196615945",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      },
-      {
-        "state": "texas",
-        "city": "pearland"
-      }
-    ]
-  },
-  {
-    "id": "f_7593ca2a6f6d",
-    "slug": "m-lipsitz-and-company-ltd",
-    "name": "M. Lipsitz and Company LTD",
+    "id": "f_5c0d829076c6",
+    "slug": "ponce-recycling",
+    "name": "Ponce Recycling",
     "type": "recycling",
-    "address": "100 Elm Avenue Waco TX 76704",
-    "lat": 31.5647805,
-    "lng": -97.128663,
-    "website": "https://www.mlipsitzco.com/",
-    "osm_url": "https://www.openstreetmap.org/way/1452694537",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "waco"
-      }
-    ]
-  },
-  {
-    "id": "f_3b35de8df82a",
-    "slug": "mccommas-bluff-sanitary-landfill",
-    "name": "McCommas Bluff Sanitary Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 32.6823187,
-    "lng": -96.7191789,
+    "address": "World Trade Drive San Diego CA 92128",
+    "lat": 32.980538,
+    "lng": -117.0754208,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/30789572",
+    "osm_url": "https://www.openstreetmap.org/node/9944351001",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "dallas"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_5a6c6c2bb0ad",
-    "slug": "mesquite-creek-landfill",
-    "name": "Mesquite Creek Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.7351449,
-    "lng": -98.025443,
+    "id": "f_d752236c3d8b",
+    "slug": "premier-recycle",
+    "name": "Premier Recycle",
+    "type": "recycling",
+    "address": "260 Leo Avenue San Jose CA 95112",
+    "lat": 37.3107967,
+    "lng": -121.8641142,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/532126726",
+    "osm_url": "https://www.openstreetmap.org/way/227011096",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "new-braunfels"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_011ed7d4799f",
-    "slug": "metal-and-used-oil-collection-center",
-    "name": "Metal & Used Oil Collection Center",
+    "id": "f_c963cd66148d",
+    "slug": "premier-recycle-company",
+    "name": "Premier Recycle Company",
     "type": "recycling",
-    "address": "604 South Independence Street Amarillo TX 79106",
-    "lat": 35.2110607,
-    "lng": -101.8832934,
+    "address": "1801 Smith Avenue San Jose CA 95112",
+    "lat": 37.3124279,
+    "lng": -121.8624127,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1278729141",
+    "osm_url": "https://www.openstreetmap.org/node/8362613682",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "amarillo"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_d1fcc1292586",
-    "slug": "newport-metal-recycling",
-    "name": "Newport Metal Recycling",
+    "id": "f_4f297c716c31",
+    "slug": "premier-recycle-company",
+    "name": "Premier Recycle Company",
     "type": "recycling",
-    "address": "",
-    "lat": 29.7200952,
-    "lng": -95.2870355,
+    "address": "348 Phelan Avenue San Jose CA 95112",
+    "lat": 37.3141956,
+    "lng": -121.8637799,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/378862811",
+    "osm_url": "https://www.openstreetmap.org/way/884294958",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_317c962ef83c",
-    "slug": "nichole-scrap-metals",
-    "name": "Nichole Scrap Metals",
+    "id": "f_73e36b57d451",
+    "slug": "prism-electronics-asset-recovery",
+    "name": "Prism Electronics Asset Recovery",
     "type": "recycling",
-    "address": "9741 Jensen Drive Houston TX",
-    "lat": 29.852636,
-    "lng": -95.3407967,
+    "address": "18305 Sutter Boulevard Morgan Hill CA 95037",
+    "lat": 37.1445121,
+    "lng": -121.6559452,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/875991778",
+    "osm_url": "https://www.openstreetmap.org/way/27591118",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_e2f9b3dc4c74",
-    "slug": "north-texas-waste-and-recycling",
-    "name": "North Texas Waste & Recycling",
+    "id": "f_e622571ec626",
+    "slug": "quality-recycling",
+    "name": "Quality Recycling",
     "type": "recycling",
-    "address": "4110 East Amarillo Boulevard Amarillo TX 79107",
-    "lat": 35.2211718,
-    "lng": -101.790506,
+    "address": "13863 Poway Road Poway CA 92064",
+    "lat": 32.9559936,
+    "lng": -117.0306792,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894463368",
+    "osm_url": "https://www.openstreetmap.org/way/544423772",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "amarillo"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_627e8167a3b3",
-    "slug": "northeast-fair-oaks-transfer-station",
-    "name": "Northeast (Fair Oaks) Transfer Station",
+    "id": "f_ff7f92e7095e",
+    "slug": "quality-recycling",
+    "name": "Quality Recycling",
     "type": "recycling",
-    "address": "7400 Holly Hill Drive",
-    "lat": 32.8811878,
-    "lng": -96.752371,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/468149350",
+    "address": "10027 Vine Street Lakeside CA 92040",
+    "lat": 32.8609774,
+    "lng": -116.9207053,
+    "website": "https://www.qualityrecycling.net/",
+    "osm_url": "https://www.openstreetmap.org/way/961157266",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "dallas"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_c16629ab19ea",
-    "slug": "phoenix-recycling",
-    "name": "Phoenix Recycling",
+    "id": "f_0e3956d3a464",
+    "slug": "ranch-town-recycling-center",
+    "name": "Ranch Town Recycling Center",
     "type": "recycling",
-    "address": "",
-    "lat": 32.9219174,
-    "lng": -96.6315154,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1301335674",
+    "address": "775 Lincoln Avenue San Jose CA 95126",
+    "lat": 37.3155399,
+    "lng": -121.9069841,
+    "website": "https://www.ranchtownrecycling.com/",
+    "osm_url": "https://www.openstreetmap.org/way/338085288",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "dallas"
-      },
-      {
-        "state": "texas",
-        "city": "garland"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_f820758df156",
-    "slug": "pine-hill-landfill",
-    "name": "Pine Hill Landfill",
-    "type": "landfill",
-    "address": "1102 Four S Industrial Boulevard Longview TX 75603",
-    "lat": 32.450868,
-    "lng": -94.8334337,
-    "website": "https://www.republicservices.com/",
-    "osm_url": "https://www.openstreetmap.org/way/384596715",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "longview"
-      }
-    ]
-  },
-  {
-    "id": "f_2545e1a118bc",
-    "slug": "pull-a-part",
-    "name": "Pull-A-Part",
+    "id": "f_835a4cd568bc",
+    "slug": "recology-recycle-center",
+    "name": "Recology Recycle Center",
     "type": "recycling",
-    "address": "12000 Montana Avenue El Paso City TX",
-    "lat": 31.8018486,
-    "lng": -106.2742016,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/457772942",
+    "address": "1000 Amador Street San Francisco 94124",
+    "lat": 37.7403009,
+    "lng": -122.369822,
+    "website": "https://www.recology.com/recology-san-francisco/recycle-centralpier-96/",
+    "osm_url": "https://www.openstreetmap.org/way/264255889",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "el-paso"
+        "state": "california",
+        "city": "san-francisco"
       }
     ]
   },
   {
-    "id": "f_54abf278b987",
-    "slug": "recicladora-fenix",
-    "name": "Recicladora Fenix",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.6526946,
-    "lng": -106.4297797,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/634087658",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "el-paso"
-      }
-    ]
-  },
-  {
-    "id": "f_662d03f71364",
-    "slug": "recycle-and-reuse-drop-off-center",
-    "name": "Recycle & Reuse Drop-off Center",
-    "type": "recycling",
-    "address": "2514 Business Center Drive Austin TX 78744",
-    "lat": 30.2134329,
-    "lng": -97.7373612,
-    "website": "https://www.austintexas.gov/dropoff",
-    "osm_url": "https://www.openstreetmap.org/way/1179813063",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_bea07420e267",
-    "slug": "recycle-center",
-    "name": "Recycle Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 30.1868313,
-    "lng": -95.4429676,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/121502590",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "the-woodlands"
-      }
-    ]
-  },
-  {
-    "id": "f_cef05fe5ace2",
-    "slug": "recycle-revolution",
-    "name": "Recycle Revolution",
-    "type": "recycling",
-    "address": "6835 Forest Park Road 75235",
-    "lat": 32.8264799,
-    "lng": -96.8510826,
-    "website": "https://recyclerevolutiondallas.com/",
-    "osm_url": "https://www.openstreetmap.org/way/465038777",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      }
-    ]
-  },
-  {
-    "id": "f_b2c435e9499e",
+    "id": "f_39715b1d76ca",
     "slug": "recycling-center",
     "name": "Recycling Center",
     "type": "recycling",
     "address": "",
-    "lat": 32.9520379,
-    "lng": -96.7662987,
+    "lat": 37.7258946,
+    "lng": -122.4471978,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/1567932805",
+    "osm_url": "https://www.openstreetmap.org/way/68849269",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "dallas"
+        "state": "california",
+        "city": "san-francisco"
       }
     ]
   },
   {
-    "id": "f_a9aafb3fb298",
-    "slug": "recycling-center-recy",
-    "name": "Recycling Center (RECY)",
-    "type": "recycling",
-    "address": "Moore Street San Marcos TX 78666",
-    "lat": 29.8851033,
-    "lng": -97.9489507,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/relation/14627089",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-marcos"
-      }
-    ]
-  },
-  {
-    "id": "f_c1f28f77d4dd",
-    "slug": "recycling-drop-off-center",
-    "name": "Recycling Drop-Off Center",
-    "type": "recycling",
-    "address": "208 Municipal Drive Lubbock",
-    "lat": 33.6027871,
-    "lng": -101.837503,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/422848223",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "lubbock"
-      }
-    ]
-  },
-  {
-    "id": "f_b20c1d149cd2",
-    "slug": "recycling-point",
-    "name": "Recycling Point",
+    "id": "f_3704696479f3",
+    "slug": "remington-grove-apartment-recycle-and-garbage",
+    "name": "Remington Grove Apartment Recycle & Garbage",
     "type": "recycling",
     "address": "",
-    "lat": 33.1989807,
-    "lng": -97.1231056,
+    "lat": 37.3593605,
+    "lng": -122.0275353,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/1655963854",
+    "osm_url": "https://www.openstreetmap.org/node/488669043",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "denton"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_fe7adc326204",
-    "slug": "republic-mccarty-road-landfill",
-    "name": "Republic McCarty Road Landfill",
-    "type": "landfill",
+    "id": "f_5f633ffd20c5",
+    "slug": "remington-grove-apartment-recycle-and-garbage",
+    "name": "Remington Grove Apartment Recycle & Garbage",
+    "type": "recycling",
     "address": "",
-    "lat": 29.8279854,
-    "lng": -95.2395366,
+    "lat": 37.3609296,
+    "lng": -122.0278357,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195840767",
+    "osm_url": "https://www.openstreetmap.org/node/488672657",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_028f09bcaeb8",
+    "id": "f_e008141cf8eb",
+    "slug": "remington-grove-apartment-recycle-and-garbage",
+    "name": "Remington Grove Apartment Recycle & Garbage",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.3602952,
+    "lng": -122.0280932,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/488679507",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_adf377ff7712",
+    "slug": "replanet",
+    "name": "RePlanet",
+    "type": "recycling",
+    "address": "",
+    "lat": 34.1872277,
+    "lng": -118.6270012,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/1532946649",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_3d79b5faf531",
     "slug": "republic-services",
     "name": "Republic Services",
     "type": "transfer_station",
-    "address": "6425 Highway 347 Beaumont TX 77705",
-    "lat": 30.0182402,
-    "lng": -94.0428522,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/773584290",
+    "address": "",
+    "lat": 32.8358293,
+    "lng": -117.1450523,
+    "website": "https://www.republicservices.com/",
+    "osm_url": "https://www.openstreetmap.org/way/1305283848",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "beaumont"
-      },
-      {
-        "state": "texas",
-        "city": "port-arthur"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_7bd252a9906d",
-    "slug": "rm-scrap-metal",
-    "name": "RM Scrap Metal",
-    "type": "recycling",
-    "address": "9703½ Fulton Street Houston TX",
-    "lat": 29.8475352,
-    "lng": -95.3789738,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/837883100",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_95d892d987f5",
-    "slug": "round-rock-recycling-center",
-    "name": "Round Rock Recycling Center",
-    "type": "recycling",
-    "address": "310 Deep Wood Drive Round Rock Texas 78681",
-    "lat": 30.5056116,
-    "lng": -97.7004439,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/333649731",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      },
-      {
-        "state": "texas",
-        "city": "round-rock"
-      }
-    ]
-  },
-  {
-    "id": "f_3fa6ca669940",
-    "slug": "san-angelo-landfil",
-    "name": "San Angelo Landfil",
-    "type": "landfill",
-    "address": "3002 Old Ballinger Highway San Angelo TX 76905",
-    "lat": 31.504444,
-    "lng": -100.3898394,
-    "website": "https://www.republicservices.com/customer-support/facilities",
-    "osm_url": "https://www.openstreetmap.org/way/1082974334",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-angelo"
-      }
-    ]
-  },
-  {
-    "id": "f_a7bb88c392b7",
-    "slug": "san-antonio-bitters-recycling-center",
-    "name": "San Antonio Bitters Recycling Center",
-    "type": "recycling",
-    "address": "1800 Wurzbach Parkway San Antonio TX 78216",
-    "lat": 29.542061,
-    "lng": -98.4673513,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/370853902",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_9cd576e24609",
-    "slug": "san-antonio-household-hazardous-waste-disposal",
-    "name": "San Antonio Household Hazardous Waste Disposal",
-    "type": "recycling",
-    "address": "7030 Culebra Road San Antonio TX 78238",
-    "lat": 29.4511168,
-    "lng": -98.6281848,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/678629305",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_91fc9c135511",
-    "slug": "san-jacinto-waste-pits",
-    "name": "San Jacinto Waste Pits",
+    "id": "f_15bbb992edb8",
+    "slug": "reuben-fleet-landfill",
+    "name": "Reuben Fleet Landfill",
     "type": "landfill",
     "address": "",
-    "lat": 29.7946088,
-    "lng": -95.0626645,
-    "website": "https://www.epa.gov/region6/6sf/texas/san_jacinto/",
-    "osm_url": "https://www.openstreetmap.org/way/365605615",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_81f50ff220fe",
-    "slug": "scales",
-    "name": "Scales",
-    "type": "transfer_station",
-    "address": "2300 Lawrence Road Wichita Falls TX 76308",
-    "lat": 33.8731062,
-    "lng": -98.541084,
+    "lat": 32.8214303,
+    "lng": -116.9852238,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/628932505",
+    "osm_url": "https://www.openstreetmap.org/way/538368988",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "wichita-falls"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_087024918dd5",
-    "slug": "scrap-processing-co",
-    "name": "Scrap Processing Co.",
-    "type": "recycling",
-    "address": "95 Browning Street Amarillo TX 79104",
-    "lat": 35.2101851,
-    "lng": -101.8076043,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/13013150932",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "amarillo"
-      }
-    ]
-  },
-  {
-    "id": "f_bddc5dce7f66",
-    "slug": "setasa",
-    "name": "Setasa",
+    "id": "f_def2f996427c",
+    "slug": "sa-recycling",
+    "name": "SA Recycling",
     "type": "recycling",
     "address": "",
-    "lat": 27.5449704,
-    "lng": -99.5827737,
+    "lat": 34.0110034,
+    "lng": -118.2421367,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/5774565476",
+    "osm_url": "https://www.openstreetmap.org/way/351913959",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "laredo"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_fdeddd63fe1f",
-    "slug": "setasa",
-    "name": "Setasa",
+    "id": "f_1863a5732ec2",
+    "slug": "sa-recycling",
+    "name": "SA Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.7593212,
+    "lng": -118.2525802,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/relation/14285490",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_0a6289547191",
+    "slug": "safety-kleen-systems",
+    "name": "Safety Kleen Systems",
+    "type": "recycling",
+    "address": "1147 North 10th Street San Jose CA 95112",
+    "lat": 37.3630047,
+    "lng": -121.8982226,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/39019245",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_81fa2ffceca0",
+    "slug": "san-diego-crv-center",
+    "name": "San Diego CRV Center",
+    "type": "recycling",
+    "address": "855 32nd Street San Diego 92102",
+    "lat": 32.714454,
+    "lng": -117.124829,
+    "website": "https://www.sandiegorecyclingleaders.com/",
+    "osm_url": "https://www.openstreetmap.org/node/597165916",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_92cf0bf7936c",
+    "slug": "san-francisco-dump",
+    "name": "San Francisco Dump",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.7080093,
+    "lng": -122.399613,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/361100877",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_ff040e0f01ad",
+    "slug": "san-jose-metals",
+    "name": "San Jose Metals",
+    "type": "recycling",
+    "address": "1032 North 10th Street San Jose CA 95112",
+    "lat": 37.3610193,
+    "lng": -121.8958102,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/756091937",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_17b5f18b3cff",
+    "slug": "san-marcos-landfill-closed",
+    "name": "San Marcos Landfill (Closed)",
     "type": "landfill",
     "address": "",
-    "lat": 27.5447692,
-    "lng": -99.5841188,
+    "lat": 33.0898849,
+    "lng": -117.1979477,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/609679471",
+    "osm_url": "https://www.openstreetmap.org/way/401746646",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "laredo"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_e62222bb53cd",
-    "slug": "southeast-drop-off-station-fort-worth-recycling",
-    "name": "Southeast Drop-off Station - Fort Worth Recycling",
+    "id": "f_6c3e1b0287d5",
+    "slug": "sanco-resource-recovery",
+    "name": "SANCO Resource Recovery",
     "type": "recycling",
-    "address": "5100 Martin Luther King Freeway Fort Worth TX 76119",
-    "lat": 32.6925272,
-    "lng": -97.2449729,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/500728932",
+    "address": "6750 Federal Boulevard Lemon Grove CA 91945",
+    "lat": 32.7385267,
+    "lng": -117.0535557,
+    "website": "https://lemon-grove.edcodisposal.com/public-facilities/sanco-resource-recovery-lemon-grove/",
+    "osm_url": "https://www.openstreetmap.org/way/1369817634",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "fort-worth"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_37b53fe48de2",
-    "slug": "southside-recycling-center",
-    "name": "Southside Recycling Center",
+    "id": "f_aada372038a5",
+    "slug": "schnitzer-san-jose",
+    "name": "Schnitzer San Jose",
     "type": "recycling",
-    "address": "1631 84th Street Lubbock",
-    "lat": 33.5163799,
-    "lng": -101.854952,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/583388280",
+    "address": "11665 Berryessa Road San Jose CA 95133",
+    "lat": 37.3686796,
+    "lng": -121.8852213,
+    "website": "https://www.schnitzersteel.com/company_locations.aspx?View=Detail&ID=144",
+    "osm_url": "https://www.openstreetmap.org/way/664008167",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "lubbock"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_4bdeef1dc029",
-    "slug": "southwaste-disposal",
-    "name": "SouthWaste Disposal",
-    "type": "transfer_station",
-    "address": "1375 Creekview San Antonio TX",
-    "lat": 29.4418252,
-    "lng": -98.419088,
-    "website": "https://southwaste.com/austin-san-antonio/",
-    "osm_url": "https://www.openstreetmap.org/way/1328596956",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_f5a2e86875aa",
-    "slug": "southwest-oak-cliff-transfer-station",
-    "name": "Southwest (Oak Cliff) Transfer Station",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.6879484,
-    "lng": -96.8813745,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/467243383",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "dallas"
-      }
-    ]
-  },
-  {
-    "id": "f_15f2691c4afa",
-    "slug": "spring-scrap-metal-recycling",
-    "name": "Spring Scrap Metal Recycling",
-    "type": "recycling",
-    "address": "19230 Kuykendahl Road Spring TX 77379",
-    "lat": 30.04989,
-    "lng": -95.4920198,
-    "website": "https://www.springscrapmetalrecycling.com",
-    "osm_url": "https://www.openstreetmap.org/way/1375772382",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_0778433ee562",
-    "slug": "sprint-fort-bend-county-landfill",
-    "name": "Sprint Fort Bend County Landfill",
+    "id": "f_39b3b6d4b2ba",
+    "slug": "scholl-canyon-landfill",
+    "name": "Scholl Canyon Landfill",
     "type": "landfill",
     "address": "",
-    "lat": 29.6625806,
-    "lng": -95.6682525,
+    "lat": 34.1582237,
+    "lng": -118.194043,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/335034838",
+    "osm_url": "https://www.openstreetmap.org/way/39515897",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
-      },
-      {
-        "state": "texas",
-        "city": "sugar-land"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_2d782edcec01",
-    "slug": "stella-roberts-recycling-center",
-    "name": "Stella Roberts Recycling Center",
+    "id": "f_74c5239574f1",
+    "slug": "scq-azevedo-plant-6",
+    "name": "SCQ Azevedo Plant 6",
     "type": "recycling",
     "address": "",
-    "lat": 29.5451264,
-    "lng": -95.3099689,
+    "lat": 37.2855589,
+    "lng": -121.8474162,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/128315697",
+    "osm_url": "https://www.openstreetmap.org/way/198658439",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
-      },
-      {
-        "state": "texas",
-        "city": "pearland"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_5b18c22ff945",
-    "slug": "tessman-road-landfill",
-    "name": "Tessman Road Landfill",
+    "id": "f_079afcbdac50",
+    "slug": "sdsu-recycling",
+    "name": "SDSU Recycling",
+    "type": "recycling",
+    "address": "5299 Campanile Mall San Diego",
+    "lat": 32.7723134,
+    "lng": -117.071728,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/2131638589",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_a45a5d0e3b2c",
+    "slug": "sims-metal-management-recycling-center",
+    "name": "Sims Metal Management Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.3092052,
+    "lng": -121.8658799,
+    "website": "https://www.simsmm.com/locations/san-jose-california/",
+    "osm_url": "https://www.openstreetmap.org/way/1153091610",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_d72f34cdac5a",
+    "slug": "smart-demolition-and-excavation-recycling-center",
+    "name": "Smart Demolition & Excavation Recycling Center",
+    "type": "recycling",
+    "address": "231 Loomis Street San Francisco 94124",
+    "lat": 37.7392529,
+    "lng": -122.4052215,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/259001379",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_30f56504b778",
+    "slug": "south-gate-transfer-station",
+    "name": "South Gate Transfer Station",
+    "type": "transfer_station",
+    "address": "",
+    "lat": 33.9426856,
+    "lng": -118.1668389,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/872765445",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_f3bf85e0adea",
+    "slug": "southwest-marine-disposal-site",
+    "name": "Southwest Marine Disposal Site",
     "type": "landfill",
     "address": "",
-    "lat": 29.4354227,
-    "lng": -98.3428943,
+    "lat": 33.729855,
+    "lng": -118.2697591,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/373704281",
+    "osm_url": "https://www.openstreetmap.org/way/1172426496",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "san-antonio"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_dae0d9dc37df",
-    "slug": "texas-disposal-systems-mrf",
-    "name": "Texas Disposal Systems (MRF)",
+    "id": "f_a86e5bad1008",
+    "slug": "spring-valley-recycling",
+    "name": "Spring Valley Recycling",
+    "type": "recycling",
+    "address": "1069 Elkelton Boulevard Spring Valley CA 91977",
+    "lat": 32.7142959,
+    "lng": -117.0169997,
+    "website": "https://www.recyclingcenters.org/",
+    "osm_url": "https://www.openstreetmap.org/way/1020142447",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-diego"
+      }
+    ]
+  },
+  {
+    "id": "f_608dd50a5bff",
+    "slug": "srdc-recycling",
+    "name": "SRDC Recycling",
+    "type": "recycling",
+    "address": "11740 Berryessa Road San Jose CA 95133",
+    "lat": 37.3664793,
+    "lng": -121.8794012,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/338602692",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_772fc48ce90a",
+    "slug": "standard-iron-and-metals",
+    "name": "Standard Iron & Metals",
     "type": "recycling",
     "address": "",
-    "lat": 30.1031974,
-    "lng": -97.7500156,
+    "lat": 37.768619,
+    "lng": -122.2156518,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/1361459853",
+    "osm_url": "https://www.openstreetmap.org/way/412545930",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "austin"
+        "state": "california",
+        "city": "oakland"
       }
     ]
   },
   {
-    "id": "f_08b892c6a4af",
-    "slug": "texas-disposal-systems-starcrest-transfer-station",
-    "name": "Texas Disposal Systems Starcrest Transfer Station",
-    "type": "transfer_station",
-    "address": "",
-    "lat": 29.5460284,
-    "lng": -98.457592,
-    "website": "https://www.texasdisposal.com/",
-    "osm_url": "https://www.openstreetmap.org/way/269856295",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_3e87282d5690",
-    "slug": "texas-organic-products-top",
-    "name": "Texas Organic Products (TOP)",
+    "id": "f_7918f61ea23d",
+    "slug": "story-road-recycling",
+    "name": "Story Road Recycling",
     "type": "recycling",
-    "address": "",
-    "lat": 30.1109203,
-    "lng": -97.7626444,
+    "address": "1303 Story Road San Jose 95122",
+    "lat": 37.3347689,
+    "lng": -121.8514026,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/3789509091",
+    "osm_url": "https://www.openstreetmap.org/way/118247375",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "austin"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_8ec3693035f0",
-    "slug": "texas-port-recycling",
-    "name": "Texas Port Recycling",
+    "id": "f_fbf8a5fc2628",
+    "slug": "suburban-miners-technologies",
+    "name": "Suburban Miners Technologies",
     "type": "recycling",
-    "address": "",
-    "lat": 28.784863,
-    "lng": -96.9738615,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1330226776",
+    "address": "1801 Smith Avenue San Jose CA 95112",
+    "lat": 37.3126225,
+    "lng": -121.8621185,
+    "website": "https://www.sm-techs.com/",
+    "osm_url": "https://www.openstreetmap.org/node/8362613681",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "victoria"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_77790b9f98a9",
-    "slug": "transfer-station",
-    "name": "Transfer Station",
-    "type": "transfer_station",
-    "address": "3200 Lawrence Road Wichita Falls TX 76308",
-    "lat": 33.873771,
-    "lng": -98.5424026,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/628932216",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "wichita-falls"
-      }
-    ]
-  },
-  {
-    "id": "f_a326bb50b580",
-    "slug": "travis-county-landfill",
-    "name": "Travis County Landfill",
+    "id": "f_d089c19e06f9",
+    "slug": "sun-valley-landfill",
+    "name": "Sun Valley Landfill",
     "type": "landfill",
-    "address": "9600 FM 812 Austin TX 78719",
-    "lat": 30.1622743,
-    "lng": -97.6710656,
-    "website": "https://www.wasteconnections.com/travis-county-landfill/",
-    "osm_url": "https://www.openstreetmap.org/way/1185613730",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_bf529efd5253",
-    "slug": "triangle-waste-solutions",
-    "name": "Triangle Waste Solutions",
-    "type": "transfer_station",
     "address": "",
-    "lat": 29.924018,
-    "lng": -94.0312045,
+    "lat": 34.2445314,
+    "lng": -118.3767656,
+    "website": "https://www.vulcanmaterials.com/construction-materials/facilities/sun-valley-landfill",
+    "osm_url": "https://www.openstreetmap.org/way/731254098",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_117849bafb98",
+    "slug": "sunnyvale-materials-recovery-and-transfer-station",
+    "name": "Sunnyvale Materials Recovery and Transfer Station",
+    "type": "recycling",
+    "address": "301 Carl Road Sunnyvale",
+    "lat": 37.4181514,
+    "lng": -122.0115307,
+    "website": "https://sunnyvale.ca.gov/Departments/EnvironmentalServices/GarbageRecyclingandWasteReduction/SMaRTStation.aspx",
+    "osm_url": "https://www.openstreetmap.org/way/28617622",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_f0ccc7ed2dc6",
+    "slug": "sunshine-canyon-landfill",
+    "name": "Sunshine Canyon Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 34.3275582,
+    "lng": -118.5150104,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1259026914",
+    "osm_url": "https://www.openstreetmap.org/way/220684352",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "port-arthur"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_9618346060ab",
-    "slug": "two-men-and-a-junk-truck",
-    "name": "Two Men and a Junk Truck",
-    "type": "transfer_station",
-    "address": "20935 US Highway 281 North San Antonio TX 78258",
-    "lat": 29.6419451,
-    "lng": -98.4556087,
-    "website": "https://twomenandajunktruck.com/locations/tx/san-antonio/junk-removal-san-antonio-north",
-    "osm_url": "https://www.openstreetmap.org/node/13005797608",
+    "id": "f_862f0f57ebf3",
+    "slug": "sycamore-landfill",
+    "name": "Sycamore Landfill",
+    "type": "landfill",
+    "address": "8514 Mast Boulevard Santee CA 92071",
+    "lat": 32.8599783,
+    "lng": -117.0283918,
+    "website": "https://www.sandiego.gov/department/environmental-services/sycamore-landfill",
+    "osm_url": "https://www.openstreetmap.org/way/212614733",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "san-antonio"
+        "state": "california",
+        "city": "san-diego"
       }
     ]
   },
   {
-    "id": "f_b0611c796bc8",
-    "slug": "tyler-iron-and-metal",
-    "name": "Tyler Iron & Metal",
+    "id": "f_096ed3c0fa8c",
+    "slug": "the-city-of-glendale-recycling-center",
+    "name": "The City of Glendale Recycling Center",
     "type": "recycling",
-    "address": "1630 West Northwest Loop 323 Tyler TX 75702",
-    "lat": 32.3859439,
-    "lng": -95.3186382,
+    "address": "",
+    "lat": 34.1330331,
+    "lng": -118.263824,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/802088567",
+    "osm_url": "https://www.openstreetmap.org/node/6625254250",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "tyler"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_02ce0875a275",
-    "slug": "united-electronic-recycling",
-    "name": "United Electronic Recycling",
+    "id": "f_89a4460213b2",
+    "slug": "the-salvation-army",
+    "name": "The Salvation Army",
     "type": "recycling",
-    "address": "505 Airline Drive",
-    "lat": 32.9430728,
-    "lng": -97.003908,
-    "website": "https://unitedelectronicrecycling.com",
-    "osm_url": "https://www.openstreetmap.org/node/12110474652",
+    "address": "",
+    "lat": 34.1869291,
+    "lng": -118.458718,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/7510039808",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "irving"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_08c24b5569fb",
-    "slug": "united-electronic-recycling",
-    "name": "United Electronic Recycling",
-    "type": "recycling",
-    "address": "505 Airline Drive",
-    "lat": 32.9430728,
-    "lng": -97.003908,
-    "website": "https://unitedelectronicrecycling.com",
-    "osm_url": "https://www.openstreetmap.org/node/12111449066",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "irving"
-      }
-    ]
-  },
-  {
-    "id": "f_5901a964901b",
-    "slug": "f_5901a964901b",
+    "id": "f_163e7ce35258",
+    "slug": "f_163e7ce35258",
     "name": "Unnamed site",
     "type": "recycling",
     "address": "",
-    "lat": 32.8256746,
-    "lng": -97.3902981,
-    "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241043268",
+    "lat": 34.0207964,
+    "lng": -118.4674062,
+    "website": "https://treemachine.us",
+    "osm_url": "https://www.openstreetmap.org/node/12695709798",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "fort-worth"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_61355e0e206e",
-    "slug": "f_61355e0e206e",
+    "id": "f_123e3f36aa38",
+    "slug": "f_123e3f36aa38",
     "name": "Unnamed site",
     "type": "recycling",
     "address": "",
-    "lat": 32.8255902,
-    "lng": -97.3904048,
-    "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241067226",
+    "lat": 34.0207873,
+    "lng": -118.4673972,
+    "website": "https://treemachine.us",
+    "osm_url": "https://www.openstreetmap.org/node/12695709799",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "fort-worth"
+        "state": "california",
+        "city": "los-angeles"
       }
     ]
   },
   {
-    "id": "f_b984581622f4",
-    "slug": "f_b984581622f4",
+    "id": "f_52cfe065e5df",
+    "slug": "f_52cfe065e5df",
     "name": "Unnamed site",
     "type": "recycling",
     "address": "",
-    "lat": 32.8267709,
-    "lng": -97.3899444,
-    "website": "bigbellysolar.com",
-    "osm_url": "https://www.openstreetmap.org/node/8241073066",
+    "lat": 37.8535714,
+    "lng": -122.2793099,
+    "website": "https://urbanfarmoasis.org/faq/used-oil-collection/",
+    "osm_url": "https://www.openstreetmap.org/node/12841003796",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "fort-worth"
+        "state": "california",
+        "city": "oakland"
       }
     ]
   },
   {
-    "id": "f_018855d86a92",
-    "slug": "f_018855d86a92",
+    "id": "f_2f92efd124dd",
+    "slug": "f_2f92efd124dd",
     "name": "Unnamed site",
     "type": "recycling",
-    "address": "950 McCarty St Houston TX 77029",
-    "lat": 29.769904,
-    "lng": -95.2863457,
-    "website": "https://mygwservices.com/",
-    "osm_url": "https://www.openstreetmap.org/node/13204466954",
+    "address": "1302;1312 Kirkham Ct Oakland CA 94607",
+    "lat": 37.809913,
+    "lng": -122.289968,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/1458155815",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
       }
     ]
   },
   {
-    "id": "f_4353a11d33a1",
-    "slug": "used-oil-collection-center",
-    "name": "Used Oil Collection Center",
+    "id": "f_e46232cf8a11",
+    "slug": "f_e46232cf8a11",
+    "name": "Unnamed site",
     "type": "recycling",
     "address": "",
-    "lat": 35.1852548,
-    "lng": -101.8311894,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/13240497571",
+    "lat": 37.352891,
+    "lng": -121.9987285,
+    "website": "http://7grecycling.com/",
+    "osm_url": "https://www.openstreetmap.org/node/627246939",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "amarillo"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_d8ed2c68d082",
-    "slug": "used-oil-collection-center",
-    "name": "Used Oil Collection Center",
+    "id": "f_679e5d590ee2",
+    "slug": "f_679e5d590ee2",
+    "name": "Unnamed site",
     "type": "recycling",
     "address": "",
-    "lat": 35.2505193,
-    "lng": -101.8327615,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1279582216",
+    "lat": 37.388607,
+    "lng": -122.0286041,
+    "website": "http://recycleforchange.org",
+    "osm_url": "https://www.openstreetmap.org/node/4875101908",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "amarillo"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_957208b1e34d",
-    "slug": "w-silver-recycling-company",
-    "name": "W. Silver Recycling Company",
+    "id": "f_aae615b8a7c7",
+    "slug": "urban-ore-donations",
+    "name": "Urban Ore Donations",
     "type": "recycling",
-    "address": "3320 East Amarillo Boulevard Amarillo TX 79107",
-    "lat": 35.2215976,
-    "lng": -101.7985267,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/12894463188",
+    "address": "",
+    "lat": 37.8503618,
+    "lng": -122.2899934,
+    "website": "https://urbanore.com/",
+    "osm_url": "https://www.openstreetmap.org/node/4306097756",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "amarillo"
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
       }
     ]
   },
   {
-    "id": "f_94518be0bb59",
-    "slug": "waco-landfill",
-    "name": "Waco Landfill",
+    "id": "f_1a8a1d202196",
+    "slug": "usagain",
+    "name": "USAgain",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.8809422,
+    "lng": -122.277739,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/10939302442",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      }
+    ]
+  },
+  {
+    "id": "f_cffa4acab1d0",
+    "slug": "usagain",
+    "name": "USAgain",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.3505674,
+    "lng": -121.897406,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6398563851",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_4e4cd5837faa",
+    "slug": "usagain",
+    "name": "USAgain",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.2160224,
+    "lng": -121.7391612,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/9776004023",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "san-jose"
+      }
+    ]
+  },
+  {
+    "id": "f_79e436b749b4",
+    "slug": "usagain",
+    "name": "USAGain",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.8477203,
+    "lng": -122.2850771,
+    "website": "https://usagain.com/",
+    "osm_url": "https://www.openstreetmap.org/node/976976158",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      },
+      {
+        "state": "california",
+        "city": "san-francisco"
+      }
+    ]
+  },
+  {
+    "id": "f_67f2fa2460b9",
+    "slug": "washington-blvd-s-a-f-e-center",
+    "name": "Washington Blvd. S.A.F.E. Center",
+    "type": "transfer_station",
+    "address": "2649 East Washington Boulevard Los Angeles CA 90021",
+    "lat": 34.0178538,
+    "lng": -118.2254111,
+    "website": "https://www.lacitysan.org/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw/s-lsh-wwd-s-c-hw-safemc?_adf.ctrl-state=vczkvt7hx_738",
+    "osm_url": "https://www.openstreetmap.org/way/1261050567",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ]
+  },
+  {
+    "id": "f_6ff845bc3cbb",
+    "slug": "waste-management-davis-street-recycling-center",
+    "name": "Waste Management Davis Street Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 37.7119876,
+    "lng": -122.1940962,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/405040261",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "oakland"
+      }
+    ]
+  },
+  {
+    "id": "f_8f1894c14b48",
+    "slug": "zanker-material-processing-facility",
+    "name": "Zanker Material Processing Facility",
     "type": "landfill",
-    "address": "",
-    "lat": 31.4763832,
-    "lng": -97.2581486,
+    "address": "675 Los Esteros Road San Jose CA 95134",
+    "lat": 37.4334932,
+    "lng": -121.9562618,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4547543173",
+    "osm_url": "https://www.openstreetmap.org/way/503235355",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "waco"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_f226864c4984",
-    "slug": "waste-management-austin-community-landfill",
-    "name": "Waste Management - Austin Community Landfill",
+    "id": "f_575006b6183f",
+    "slug": "zanker-rd-landfill",
+    "name": "Zanker Rd Landfill",
     "type": "landfill",
-    "address": "",
-    "lat": 30.3420116,
-    "lng": -97.6368123,
+    "address": "705 Los Esteros Road San Jose 95134",
+    "lat": 37.4389171,
+    "lng": -121.9491638,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195841019",
+    "osm_url": "https://www.openstreetmap.org/way/28520406",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "austin"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   },
   {
-    "id": "f_a1909a73d41c",
-    "slug": "waste-management-fairbanks-landfill",
-    "name": "Waste Management - Fairbanks Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.9014892,
-    "lng": -95.5317364,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/603465259",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_4ea209d48eb1",
-    "slug": "waste-management-westside-transfer-station",
-    "name": "Waste Management - Westside Transfer Station",
-    "type": "landfill",
-    "address": "12220 West Freeway Fort Worth TX 76008",
-    "lat": 32.7275041,
-    "lng": -97.5332415,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/900177643",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "fort-worth"
-      }
-    ]
-  },
-  {
-    "id": "f_3cf45f7cdb27",
-    "slug": "waste-management-recycling-center",
-    "name": "Waste Management Recycling Center",
+    "id": "f_c00346d40a2e",
+    "slug": "zero-waste-energy-development-company",
+    "name": "Zero Waste Energy Development Company",
     "type": "recycling",
-    "address": "4939 Gasmer Drive Houston TX 77035",
-    "lat": 29.650326,
-    "lng": -95.465819,
+    "address": "685 Los Esteros Road San Jose CA 95134",
+    "lat": 37.4341022,
+    "lng": -121.9507876,
     "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1092144890",
+    "osm_url": "https://www.openstreetmap.org/way/482783028",
     "appears_in": [
       {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_b515f0df8047",
-    "slug": "west-avenue-landfill",
-    "name": "West Avenue Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.5407458,
-    "lng": -98.5120278,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/172455999",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "san-antonio"
-      }
-    ]
-  },
-  {
-    "id": "f_3a2842ff0172",
-    "slug": "westpark-consumer-recycling-center",
-    "name": "Westpark Consumer Recycling Center",
-    "type": "recycling",
-    "address": "5900 Westpark Drive Houston",
-    "lat": 29.7249754,
-    "lng": -95.4829175,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/317083336",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_58ee20acf958",
-    "slug": "whispering-pines-landfill",
-    "name": "Whispering Pines Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8790184,
-    "lng": -95.2637492,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/447277349",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "houston"
-      }
-    ]
-  },
-  {
-    "id": "f_a09743dbb6ef",
-    "slug": "wright-recycling-llc",
-    "name": "Wright Recycling LLC",
-    "type": "recycling",
-    "address": "9709 Brown Lane Austin TX 78754",
-    "lat": 30.3508329,
-    "lng": -97.6693609,
-    "website": "https://wrightrecyclingllc.com",
-    "osm_url": "https://www.openstreetmap.org/node/9771186339",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
-      }
-    ]
-  },
-  {
-    "id": "f_8a7f77fa4a9b",
-    "slug": "yonke",
-    "name": "Yonke",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.6907705,
-    "lng": -106.3832234,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/454932574",
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "el-paso"
+        "state": "california",
+        "city": "san-jose"
       }
     ]
   }

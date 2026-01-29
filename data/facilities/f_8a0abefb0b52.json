@@ -1,0 +1,17 @@
+{
+  "id": "f_8a0abefb0b52",
+  "slug": "greenfield-recycling-center",
+  "name": "Greenfield Recycling Center",
+  "type": "recycling",
+  "address": "1235 Greenfield Drive El Cajon CA 92021",
+  "lat": 32.8128769,
+  "lng": -116.9386298,
+  "website": "https://www.greenfieldrecycling.net/",
+  "osm_url": "https://www.openstreetmap.org/way/957710393",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

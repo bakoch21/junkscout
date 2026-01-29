@@ -1,0 +1,17 @@
+{
+  "id": "f_b851ae715761",
+  "slug": "central-la-recycling-and-transfer-station",
+  "name": "Central LA Recycling & Transfer Station",
+  "type": "transfer_station",
+  "address": "2201 East Washington Boulevard Los Angeles CA 90021",
+  "lat": 34.0202968,
+  "lng": -118.2344926,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/48278597",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_74c5239574f1",
+  "slug": "scq-azevedo-plant-6",
+  "name": "SCQ Azevedo Plant 6",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.2855589,
+  "lng": -121.8474162,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/198658439",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

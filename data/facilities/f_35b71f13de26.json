@@ -1,0 +1,17 @@
+{
+  "id": "f_35b71f13de26",
+  "slug": "addicks-fairbanks-landfill",
+  "name": "Addicks Fairbanks Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.8720942,
+  "lng": -95.622773,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

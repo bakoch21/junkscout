@@ -1,0 +1,17 @@
+{
+  "id": "f_52cfe065e5df",
+  "slug": "f_52cfe065e5df",
+  "name": "Unnamed site",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.8535714,
+  "lng": -122.2793099,
+  "website": "https://urbanfarmoasis.org/faq/used-oil-collection/",
+  "osm_url": "https://www.openstreetmap.org/node/12841003796",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 // scripts/build-facilities.js
 // Build canonical facility records from city JSON files and backfill facility_id into each city record.
+//
+// Usage:
+//   node scripts/build-facilities.js texas
+//   node scripts/build-facilities.js california
+// If no arg is provided, defaults to "texas".
 
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 
-const STATE = "texas";
+const STATE = (process.argv[2] || "texas").toString().trim().toLowerCase();
 const CITY_DATA_DIR = path.join("data", STATE);
 const FACILITIES_DIR = path.join("data", "facilities");
 
@@ -71,17 +76,10 @@ function slugify(s) {
     .slice(0, 80);
 }
 
-function titleCaseFromSlug(slug = "") {
-  return slug
-    .split("-")
-    .filter(Boolean)
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
-}
-
 function main() {
   if (!fs.existsSync(CITY_DATA_DIR)) {
     console.error(`❌ City data dir not found: ${CITY_DATA_DIR}`);
+    console.error(`   Create it first (e.g., data/${STATE}/) and add city JSON files.`);
     process.exit(1);
   }
 
@@ -89,10 +87,16 @@ function main() {
 
   const cityFiles = fs
     .readdirSync(CITY_DATA_DIR)
-    .filter((f) => f.endsWith(".json"));
+    .filter((f) => f.endsWith(".json"))
+    .sort((a, b) => a.localeCompare(b));
+
+  if (cityFiles.length === 0) {
+    console.error(`❌ No city JSON files found in: ${CITY_DATA_DIR}`);
+    process.exit(1);
+  }
 
   const facilityMap = new Map(); // facility_id -> facility record
-  const keyToId = new Map(); // key -> facility_id
+  const keyToId = new Map();     // key -> facility_id
 
   // Pass 1: build facilities + rewrite city files with facility_id
   for (const file of cityFiles) {
@@ -100,7 +104,10 @@ function main() {
     const cityPath = path.join(CITY_DATA_DIR, file);
     const items = readJson(cityPath);
 
-    if (!Array.isArray(items)) continue;
+    if (!Array.isArray(items)) {
+      console.log(`⚠️ Skipping non-array JSON → ${cityPath}`);
+      continue;
+    }
 
     let changed = false;
 
@@ -152,7 +159,6 @@ function main() {
       if (!existsAppears) record.appears_in.push(appears);
 
       facilityMap.set(id, record);
-
       return item;
     });
 
@@ -174,10 +180,12 @@ function main() {
     writeJson(outPath, f);
   }
 
-  // Optional index file
+  // Optional index file (handy for debugging / quick lookups)
   writeJson(path.join(FACILITIES_DIR, "index.json"), facilities);
 
-  console.log(`\n✅ Wrote ${facilities.length} facilities → ${FACILITIES_DIR}`);
+  console.log(`\n✅ State: ${STATE}`);
+  console.log(`✅ Wrote ${facilities.length} facilities → ${FACILITIES_DIR}`);
+  console.log(`✅ Processed ${cityFiles.length} city files → ${CITY_DATA_DIR}`);
 }
 
 main();

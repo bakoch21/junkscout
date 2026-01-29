@@ -1,0 +1,17 @@
+{
+  "id": "f_d1a84bd609e4",
+  "slug": "campanile-mall-recycling",
+  "name": "Campanile Mall Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.7724678,
+  "lng": -117.071715,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/2131607153",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

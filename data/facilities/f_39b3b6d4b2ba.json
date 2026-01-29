@@ -1,0 +1,17 @@
+{
+  "id": "f_39b3b6d4b2ba",
+  "slug": "scholl-canyon-landfill",
+  "name": "Scholl Canyon Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 34.1582237,
+  "lng": -118.194043,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/39515897",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

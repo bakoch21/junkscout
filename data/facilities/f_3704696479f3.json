@@ -1,0 +1,17 @@
+{
+  "id": "f_3704696479f3",
+  "slug": "remington-grove-apartment-recycle-and-garbage",
+  "name": "Remington Grove Apartment Recycle & Garbage",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.3593605,
+  "lng": -122.0275353,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/488669043",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

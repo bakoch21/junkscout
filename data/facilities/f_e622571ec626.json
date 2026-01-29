@@ -1,0 +1,17 @@
+{
+  "id": "f_e622571ec626",
+  "slug": "quality-recycling",
+  "name": "Quality Recycling",
+  "type": "recycling",
+  "address": "13863 Poway Road Poway CA 92064",
+  "lat": 32.9559936,
+  "lng": -117.0306792,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/544423772",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

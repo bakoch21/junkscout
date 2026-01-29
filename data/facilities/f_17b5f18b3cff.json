@@ -1,0 +1,17 @@
+{
+  "id": "f_17b5f18b3cff",
+  "slug": "san-marcos-landfill-closed",
+  "name": "San Marcos Landfill (Closed)",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.0898849,
+  "lng": -117.1979477,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/401746646",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

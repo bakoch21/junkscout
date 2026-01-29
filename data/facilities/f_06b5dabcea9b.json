@@ -1,0 +1,17 @@
+{
+  "id": "f_06b5dabcea9b",
+  "slug": "goodwill-donations",
+  "name": "Goodwill Donations",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.8224165,
+  "lng": -117.1024273,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/6636240799",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_f3bf85e0adea",
+  "slug": "southwest-marine-disposal-site",
+  "name": "Southwest Marine Disposal Site",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.729855,
+  "lng": -118.2697591,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/1172426496",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

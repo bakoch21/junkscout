@@ -1,0 +1,17 @@
+{
+  "id": "f_39715b1d76ca",
+  "slug": "recycling-center",
+  "name": "Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.7258946,
+  "lng": -122.4471978,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/68849269",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

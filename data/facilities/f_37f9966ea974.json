@@ -1,0 +1,21 @@
+{
+  "id": "f_37f9966ea974",
+  "slug": "berkeley-recycling-center",
+  "name": "Berkeley Recycling Center",
+  "type": "recycling",
+  "address": "669 Gilman Street Berkeley CA 94710",
+  "lat": 37.8788277,
+  "lng": -122.3050969,
+  "website": "https://berkeleyrecycling.org/",
+  "osm_url": "https://www.openstreetmap.org/node/12839053406",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

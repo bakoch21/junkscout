@@ -1,0 +1,17 @@
+{
+  "id": "f_575006b6183f",
+  "slug": "zanker-rd-landfill",
+  "name": "Zanker Rd Landfill",
+  "type": "landfill",
+  "address": "705 Los Esteros Road San Jose 95134",
+  "lat": 37.4389171,
+  "lng": -121.9491638,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/28520406",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

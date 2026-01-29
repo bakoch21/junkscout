@@ -1,0 +1,17 @@
+{
+  "id": "f_0e3956d3a464",
+  "slug": "ranch-town-recycling-center",
+  "name": "Ranch Town Recycling Center",
+  "type": "recycling",
+  "address": "775 Lincoln Avenue San Jose CA 95126",
+  "lat": 37.3155399,
+  "lng": -121.9069841,
+  "website": "https://www.ranchtownrecycling.com/",
+  "osm_url": "https://www.openstreetmap.org/way/338085288",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

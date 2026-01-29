@@ -1,0 +1,21 @@
+{
+  "id": "f_aae615b8a7c7",
+  "slug": "urban-ore-donations",
+  "name": "Urban Ore Donations",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.8503618,
+  "lng": -122.2899934,
+  "website": "https://urbanore.com/",
+  "osm_url": "https://www.openstreetmap.org/node/4306097756",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

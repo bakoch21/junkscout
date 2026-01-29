@@ -1,0 +1,17 @@
+{
+  "id": "f_e6ff176f54b2",
+  "slug": "hardy-road-landfill",
+  "name": "Hardy Road Landfill",
+  "type": "landfill",
+  "address": "18710 East Hardy Road Houston TX 77073",
+  "lat": 29.9885407,
+  "lng": -95.3838463,
+  "website": "http://wcawaste.com/locations/hardy-road-landfill",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

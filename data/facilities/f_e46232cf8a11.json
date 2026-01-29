@@ -1,0 +1,17 @@
+{
+  "id": "f_e46232cf8a11",
+  "slug": "f_e46232cf8a11",
+  "name": "Unnamed site",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.352891,
+  "lng": -121.9987285,
+  "website": "http://7grecycling.com/",
+  "osm_url": "https://www.openstreetmap.org/node/627246939",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

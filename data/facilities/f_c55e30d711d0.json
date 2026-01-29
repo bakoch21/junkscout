@@ -1,0 +1,17 @@
+{
+  "id": "f_c55e30d711d0",
+  "slug": "goodwill-donation-site",
+  "name": "Goodwill Donation Site",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.0370084,
+  "lng": -118.4358631,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/8569870496",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

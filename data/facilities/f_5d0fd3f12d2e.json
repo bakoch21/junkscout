@@ -1,0 +1,21 @@
+{
+  "id": "f_5d0fd3f12d2e",
+  "slug": "city-of-berkeley-recycling",
+  "name": "City of Berkeley Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.8791787,
+  "lng": -122.3055861,
+  "website": "https://berkeleyrecycling.org/",
+  "osm_url": "https://www.openstreetmap.org/node/560189339",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

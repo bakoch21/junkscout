@@ -1,0 +1,17 @@
+{
+  "id": "f_def2f996427c",
+  "slug": "sa-recycling",
+  "name": "SA Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 34.0110034,
+  "lng": -118.2421367,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/351913959",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

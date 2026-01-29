@@ -1,0 +1,17 @@
+{
+  "id": "f_281d663fd483",
+  "slug": "ez-waste-inc",
+  "name": "EZ WASTE INC",
+  "type": "landfill",
+  "address": "10217 WALLISVILLE RD UNIT C HOUSTON TX 77013",
+  "lat": 29.8,
+  "lng": -95.25,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

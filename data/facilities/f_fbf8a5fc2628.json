@@ -1,0 +1,17 @@
+{
+  "id": "f_fbf8a5fc2628",
+  "slug": "suburban-miners-technologies",
+  "name": "Suburban Miners Technologies",
+  "type": "recycling",
+  "address": "1801 Smith Avenue San Jose CA 95112",
+  "lat": 37.3126225,
+  "lng": -121.8621185,
+  "website": "https://www.sm-techs.com/",
+  "osm_url": "https://www.openstreetmap.org/node/8362613681",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

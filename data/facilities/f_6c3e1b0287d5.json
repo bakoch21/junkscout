@@ -1,0 +1,17 @@
+{
+  "id": "f_6c3e1b0287d5",
+  "slug": "sanco-resource-recovery",
+  "name": "SANCO Resource Recovery",
+  "type": "recycling",
+  "address": "6750 Federal Boulevard Lemon Grove CA 91945",
+  "lat": 32.7385267,
+  "lng": -117.0535557,
+  "website": "https://lemon-grove.edcodisposal.com/public-facilities/sanco-resource-recovery-lemon-grove/",
+  "osm_url": "https://www.openstreetmap.org/way/1369817634",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

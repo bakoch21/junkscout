@@ -1,0 +1,17 @@
+{
+  "id": "f_e76ce05562a8",
+  "slug": "bradley-landfill-and-sun-valley-recycling-park",
+  "name": "Bradley Landfill & Sun Valley Recycling Park",
+  "type": "landfill",
+  "address": "",
+  "lat": 34.2392547,
+  "lng": -118.3850687,
+  "website": "https://www.wmsolutions.com/locations/details/id/1105",
+  "osm_url": "https://www.openstreetmap.org/way/1074041260",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_bcdbf07a4346",
+  "slug": "household-hazardous-waste-transfer-facility",
+  "name": "Household Hazardous Waste Transfer Facility",
+  "type": "transfer_station",
+  "address": "5161 Convoy Street San Diego CA 92111",
+  "lat": 32.8392977,
+  "lng": -117.1507257,
+  "website": "https://www.sandiego.gov/environmental-services/miramar/hhwtransfac",
+  "osm_url": "https://www.openstreetmap.org/way/128819056",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_f8994f54f739",
+  "slug": "edco-recycling-buyback-center",
+  "name": "EDCO Recycling Buyback Center",
+  "type": "recycling",
+  "address": "6700 Federal Boulevard Lemon Grove CA 91945",
+  "lat": 32.7372317,
+  "lng": -117.0547671,
+  "website": "https://lemon-grove.edcodisposal.com/public-facilities/edco-recycling-buyback-center-lemon-grove/",
+  "osm_url": "https://www.openstreetmap.org/way/1369863831",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_8f1894c14b48",
+  "slug": "zanker-material-processing-facility",
+  "name": "Zanker Material Processing Facility",
+  "type": "landfill",
+  "address": "675 Los Esteros Road San Jose CA 95134",
+  "lat": 37.4334932,
+  "lng": -121.9562618,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/503235355",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

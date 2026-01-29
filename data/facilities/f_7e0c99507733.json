@@ -1,0 +1,17 @@
+{
+  "id": "f_7e0c99507733",
+  "slug": "daniels-sharpsmart-houston-facility",
+  "name": "DANIELS SHARPSMART HOUSTON FACILITY",
+  "type": "landfill",
+  "address": "4660 WORLD HOUSTON PKWY STE 150 HOUSTON TX 77032",
+  "lat": 29.94,
+  "lng": -95.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

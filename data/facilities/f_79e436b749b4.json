@@ -1,0 +1,21 @@
+{
+  "id": "f_79e436b749b4",
+  "slug": "usagain",
+  "name": "USAGain",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.8477203,
+  "lng": -122.2850771,
+  "website": "https://usagain.com/",
+  "osm_url": "https://www.openstreetmap.org/node/976976158",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

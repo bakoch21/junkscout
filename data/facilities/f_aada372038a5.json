@@ -1,0 +1,17 @@
+{
+  "id": "f_aada372038a5",
+  "slug": "schnitzer-san-jose",
+  "name": "Schnitzer San Jose",
+  "type": "recycling",
+  "address": "11665 Berryessa Road San Jose CA 95133",
+  "lat": 37.3686796,
+  "lng": -121.8852213,
+  "website": "https://www.schnitzersteel.com/company_locations.aspx?View=Detail&ID=144",
+  "osm_url": "https://www.openstreetmap.org/way/664008167",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

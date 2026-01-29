@@ -1,0 +1,17 @@
+{
+  "id": "f_c6784ca0d629",
+  "slug": "downstream-facility",
+  "name": "DOWNSTREAM FACILITY",
+  "type": "landfill",
+  "address": "3737 WALNUT BEND LN HOUSTON TX 77042",
+  "lat": 29.72,
+  "lng": -95.57,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

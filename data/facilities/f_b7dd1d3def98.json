@@ -1,0 +1,17 @@
+{
+  "id": "f_b7dd1d3def98",
+  "slug": "miramar-landfill",
+  "name": "Miramar Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 32.8546061,
+  "lng": -117.1553915,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/relation/14514161",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

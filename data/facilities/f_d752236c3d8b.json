@@ -1,0 +1,17 @@
+{
+  "id": "f_d752236c3d8b",
+  "slug": "premier-recycle",
+  "name": "Premier Recycle",
+  "type": "recycling",
+  "address": "260 Leo Avenue San Jose CA 95112",
+  "lat": 37.3107967,
+  "lng": -121.8641142,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/227011096",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

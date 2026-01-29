@@ -1,0 +1,17 @@
+{
+  "id": "f_d36cb725d031",
+  "slug": "pomeroy-canyon-landfill",
+  "name": "Pomeroy Canyon Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 34.1869898,
+  "lng": -118.2714759,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/31721502",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

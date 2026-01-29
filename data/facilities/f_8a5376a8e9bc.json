@@ -1,0 +1,17 @@
+{
+  "id": "f_8a5376a8e9bc",
+  "slug": "auction-bdi",
+  "name": "Auction BDI",
+  "type": "recycling",
+  "address": "660 Vista Way Milpitas CA 95035",
+  "lat": 37.4262856,
+  "lng": -121.8881934,
+  "website": "https://auctionbdi.hibid.com/",
+  "osm_url": "https://www.openstreetmap.org/way/39041632",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_b788c828e135",
+  "slug": "rm-scrap-metal",
+  "name": "RM Scrap Metal",
+  "type": "recycling",
+  "address": "9703½ Fulton Street Houston TX",
+  "lat": 29.8475352,
+  "lng": -95.3789738,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

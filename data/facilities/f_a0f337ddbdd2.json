@@ -1,0 +1,17 @@
+{
+  "id": "f_a0f337ddbdd2",
+  "slug": "graniterock-recycle-facility",
+  "name": "Graniterock Recycle Facility",
+  "type": "recycling",
+  "address": "100 Granite Rock Way San Jose CA 95136",
+  "lat": 37.2836675,
+  "lng": -121.8428761,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/883131242",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

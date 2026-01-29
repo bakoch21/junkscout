@@ -1,0 +1,17 @@
+{
+  "id": "f_55034126ca63",
+  "slug": "wct-greenbelt-landfill",
+  "name": "WCT/GREENBELT LANDFILL",
+  "type": "landfill",
+  "address": "550 GENOA RED BLUFF RD HOUSTON TX 77034",
+  "lat": 29.62,
+  "lng": -95.19,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_ff7f92e7095e",
+  "slug": "quality-recycling",
+  "name": "Quality Recycling",
+  "type": "recycling",
+  "address": "10027 Vine Street Lakeside CA 92040",
+  "lat": 32.8609774,
+  "lng": -116.9207053,
+  "website": "https://www.qualityrecycling.net/",
+  "osm_url": "https://www.openstreetmap.org/way/961157266",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

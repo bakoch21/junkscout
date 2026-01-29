@@ -1,0 +1,17 @@
+{
+  "id": "f_8b116a808c06",
+  "slug": "parcel-e-2",
+  "name": "Parcel E-2",
+  "type": "landfill",
+  "address": "",
+  "lat": 37.7241276,
+  "lng": -122.3774997,
+  "website": "https://www.bracpmo.navy.mil/BRAC-Bases/California/Former-Naval-Shipyard-Hunters-Point/",
+  "osm_url": "https://www.openstreetmap.org/way/1218977080",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

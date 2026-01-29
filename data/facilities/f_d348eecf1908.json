@@ -1,0 +1,17 @@
+{
+  "id": "f_d348eecf1908",
+  "slug": "ralston-road-landfill",
+  "name": "RALSTON ROAD LANDFILL",
+  "type": "landfill",
+  "address": "6632 JOHN RALSTON RD HOUSTON TX 77049",
+  "lat": 29.82,
+  "lng": -95.22,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

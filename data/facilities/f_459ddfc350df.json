@@ -1,0 +1,17 @@
+{
+  "id": "f_459ddfc350df",
+  "slug": "goodwill-dropoff",
+  "name": "Goodwill Dropoff",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.778151,
+  "lng": -122.2296032,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/5583696550",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ]
+}

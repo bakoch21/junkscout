@@ -1,0 +1,17 @@
+{
+  "id": "f_30f56504b778",
+  "slug": "south-gate-transfer-station",
+  "name": "South Gate Transfer Station",
+  "type": "transfer_station",
+  "address": "",
+  "lat": 33.9426856,
+  "lng": -118.1668389,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/872765445",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

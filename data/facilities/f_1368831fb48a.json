@@ -1,0 +1,21 @@
+{
+  "id": "f_1368831fb48a",
+  "slug": "ecology-center-store",
+  "name": "Ecology Center Store",
+  "type": "recycling",
+  "address": "2530 San Pablo Avenue",
+  "lat": 37.8599506,
+  "lng": -122.2894355,
+  "website": "https://ecologycenter.org/store/",
+  "osm_url": "https://www.openstreetmap.org/node/8235989482",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    },
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

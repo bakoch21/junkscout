@@ -1,0 +1,17 @@
+{
+  "id": "f_67f2fa2460b9",
+  "slug": "washington-blvd-s-a-f-e-center",
+  "name": "Washington Blvd. S.A.F.E. Center",
+  "type": "transfer_station",
+  "address": "2649 East Washington Boulevard Los Angeles CA 90021",
+  "lat": 34.0178538,
+  "lng": -118.2254111,
+  "website": "https://www.lacitysan.org/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw/s-lsh-wwd-s-c-hw-safemc?_adf.ctrl-state=vczkvt7hx_738",
+  "osm_url": "https://www.openstreetmap.org/way/1261050567",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

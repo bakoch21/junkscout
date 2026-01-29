@@ -1,0 +1,17 @@
+{
+  "id": "f_2bf59be3c1ef",
+  "slug": "newport-metal-recycling",
+  "name": "Newport Metal Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 29.7200952,
+  "lng": -95.2870355,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

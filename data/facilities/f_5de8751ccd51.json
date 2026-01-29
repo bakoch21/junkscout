@@ -1,0 +1,17 @@
+{
+  "id": "f_5de8751ccd51",
+  "slug": "southwaste-hurst-facility",
+  "name": "SOUTHWASTE HURST FACILITY",
+  "type": "landfill",
+  "address": "6407 HURST ST HOUSTON TX 77008",
+  "lat": 29.79,
+  "lng": -95.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

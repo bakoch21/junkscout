@@ -1,0 +1,17 @@
+{
+  "id": "f_7103e82aa05f",
+  "slug": "glendale-waste-collection-center",
+  "name": "Glendale Waste Collection Center",
+  "type": "transfer_station",
+  "address": "",
+  "lat": 34.1382923,
+  "lng": -118.2726631,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/736634391",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

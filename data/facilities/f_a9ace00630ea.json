@@ -1,0 +1,17 @@
+{
+  "id": "f_a9ace00630ea",
+  "slug": "newby-island-landfill",
+  "name": "Newby Island Landfill",
+  "type": "landfill",
+  "address": "128 Dixon Landing Road San Jose 95134",
+  "lat": 37.4599815,
+  "lng": -121.9428783,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/relation/13014099",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

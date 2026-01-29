@@ -1,0 +1,17 @@
+{
+  "id": "f_c963cd66148d",
+  "slug": "premier-recycle-company",
+  "name": "Premier Recycle Company",
+  "type": "recycling",
+  "address": "1801 Smith Avenue San Jose CA 95112",
+  "lat": 37.3124279,
+  "lng": -121.8624127,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/8362613682",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

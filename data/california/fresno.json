@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Calwa Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 36.7148639,
+    "lng": -119.7500329,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/473097980",
+    "source": "osm",
+    "facility_id": "f_696bac9c00e0"
+  }
+]

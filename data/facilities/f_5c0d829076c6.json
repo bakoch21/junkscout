@@ -1,0 +1,17 @@
+{
+  "id": "f_5c0d829076c6",
+  "slug": "ponce-recycling",
+  "name": "Ponce Recycling",
+  "type": "recycling",
+  "address": "World Trade Drive San Diego CA 92128",
+  "lat": 32.980538,
+  "lng": -117.0754208,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/9944351001",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

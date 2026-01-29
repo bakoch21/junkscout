@@ -1,0 +1,17 @@
+{
+  "id": "f_b0c7d16486ee",
+  "slug": "lone-star-disposal",
+  "name": "Lone Star Disposal",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.5919043,
+  "lng": -95.4372343,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

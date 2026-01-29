@@ -1,0 +1,17 @@
+{
+  "id": "f_fb9fcad4d89a",
+  "slug": "goodwill",
+  "name": "Goodwill",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.39656,
+  "lng": -121.996314,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/391414069",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ]
+}

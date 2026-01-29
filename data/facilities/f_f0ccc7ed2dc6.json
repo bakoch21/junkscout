@@ -1,0 +1,17 @@
+{
+  "id": "f_f0ccc7ed2dc6",
+  "slug": "sunshine-canyon-landfill",
+  "name": "Sunshine Canyon Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 34.3275582,
+  "lng": -118.5150104,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/220684352",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

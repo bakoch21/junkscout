@@ -1,0 +1,17 @@
+{
+  "id": "f_024d9954b4f7",
+  "slug": "de-la-cruz-recycling",
+  "name": "De la Cruz Recycling",
+  "type": "recycling",
+  "address": "15025 Roscoe Boulevard North Hills CA 91402",
+  "lat": 34.2220202,
+  "lng": -118.4600473,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/11637348505",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

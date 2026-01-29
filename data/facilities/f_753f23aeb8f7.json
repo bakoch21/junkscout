@@ -1,0 +1,17 @@
+{
+  "id": "f_753f23aeb8f7",
+  "slug": "donation-box",
+  "name": "Donation Box",
+  "type": "recycling",
+  "address": "",
+  "lat": 37.882032,
+  "lng": -122.2689191,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/11323281933",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ]
+}

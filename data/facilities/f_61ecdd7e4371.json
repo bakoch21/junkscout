@@ -1,0 +1,17 @@
+{
+  "id": "f_61ecdd7e4371",
+  "slug": "canco-recycling",
+  "name": "Canco Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 33.8603832,
+  "lng": -118.1594361,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/way/441318937",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

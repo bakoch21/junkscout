@@ -1,0 +1,17 @@
+{
+  "id": "f_81fa2ffceca0",
+  "slug": "san-diego-crv-center",
+  "name": "San Diego CRV Center",
+  "type": "recycling",
+  "address": "855 32nd Street San Diego 92102",
+  "lat": 32.714454,
+  "lng": -117.124829,
+  "website": "https://www.sandiegorecyclingleaders.com/",
+  "osm_url": "https://www.openstreetmap.org/node/597165916",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}

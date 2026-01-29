@@ -1,0 +1,17 @@
+{
+  "id": "f_079afcbdac50",
+  "slug": "sdsu-recycling",
+  "name": "SDSU Recycling",
+  "type": "recycling",
+  "address": "5299 Campanile Mall San Diego",
+  "lat": 32.7723134,
+  "lng": -117.071728,
+  "website": null,
+  "osm_url": "https://www.openstreetmap.org/node/2131638589",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ]
+}
