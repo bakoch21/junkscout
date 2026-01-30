@@ -1,6 +1,8 @@
 // facility.js
 // Loads /data/facilities/{id}.json and renders into the facility template.
 // Also renders manual facility badges from /data/facility-badges.json when present.
+// PLUS: merges curated/manual override details from /data/manual/facility-overrides.json
+// into the facility view (hours/fees/rules/materials/verified_date/source).
 
 function titleCaseFromSlug(slug = "") {
   return slug
@@ -70,8 +72,6 @@ function badgeLabel(key) {
 }
 
 function badgeClass(key) {
-  // These classes already exist for the city type badges: badge--blue, badge--orange, etc.
-  // We'll reuse them so styling stays consistent with the rest of the site.
   const map = {
     free_to_residents: "badge--green",
     accepts_garbage: "badge--blue",
@@ -101,21 +101,133 @@ function renderBadgesInto(container, badgeKeys) {
 }
 
 async function loadFacilityBadges(id) {
-  // Facility template should include: <div id="facilityBadges"></div>
   const badgesEl = document.getElementById("facilityBadges");
   if (!badgesEl) return;
 
   try {
     const res = await fetch("/data/facility-badges.json", { cache: "no-store" });
-    if (!res.ok) return; // no badges file yet, or not deployed—silent fail
+    if (!res.ok) return;
 
     const all = await res.json();
     const badgeKeys = all?.[id];
     renderBadgesInto(badgesEl, badgeKeys);
-  } catch (e) {
-    // Silent fail: badges are optional and should never break the page
+  } catch {
+    // silent
   }
 }
+
+/** =========================
+ * Manual overrides (curated)
+ * =========================
+ *
+ * Expects /data/manual/facility-overrides.json:
+ * {
+ *   "f_123": {
+ *     "hours": "...",
+ *     "fees": "...",
+ *     "rules": "...",
+ *     "accepted_materials": [...],
+ *     "not_accepted": [...],
+ *     "verified_date": "YYYY-MM-DD",
+ *     "source": "https://..."
+ *   }
+ * }
+ */
+
+async function loadFacilityOverrides() {
+  try {
+    const res = await fetch("/data/manual/facility-overrides.json", { cache: "no-store" });
+    if (!res.ok) return null;
+    const json = await res.json();
+    return json && typeof json === "object" ? json : null;
+  } catch {
+    return null;
+  }
+}
+
+function coerceArray(v) {
+  return Array.isArray(v) ? v : [];
+}
+
+function hasOverrideDetails(ov) {
+  if (!ov) return false;
+  if (ov.hours) return true;
+  if (ov.fees) return true;
+  if (ov.rules) return true;
+  if (coerceArray(ov.accepted_materials).length) return true;
+  if (coerceArray(ov.not_accepted).length) return true;
+  if (ov.verified_date) return true;
+  if (ov.source) return true;
+  return false;
+}
+
+function renderVerifiedSection(ov) {
+  if (!hasOverrideDetails(ov)) return "";
+
+  const hours = ov.hours ? escapeHtml(ov.hours) : "";
+  const fees = ov.fees ? escapeHtml(ov.fees) : "";
+  const rules = ov.rules ? escapeHtml(ov.rules) : "";
+  const verified = ov.verified_date ? escapeHtml(ov.verified_date) : "";
+  const source = ov.source ? String(ov.source).trim() : "";
+
+  const accepted = coerceArray(ov.accepted_materials).map((x) => escapeHtml(String(x))).filter(Boolean);
+  const notAccepted = coerceArray(ov.not_accepted).map((x) => escapeHtml(String(x))).filter(Boolean);
+
+  return `
+    <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
+      <h2>Verified facility details</h2>
+      ${verified ? `<p class="muted" style="margin-top:6px">Verified: ${verified}</p>` : ""}
+
+      ${hours ? `<div style="margin-top:10px"><strong>Hours:</strong> ${hours}</div>` : ""}
+      ${fees ? `<div style="margin-top:8px"><strong>Fees:</strong> ${fees}</div>` : ""}
+      ${rules ? `<div style="margin-top:8px"><strong>Rules:</strong> ${rules}</div>` : ""}
+
+      ${
+        accepted.length
+          ? `<div style="margin-top:10px"><strong>Accepted:</strong><ul style="margin:6px 0 0 18px">${accepted
+              .map((x) => `<li>${x}</li>`)
+              .join("")}</ul></div>`
+          : ""
+      }
+
+      ${
+        notAccepted.length
+          ? `<div style="margin-top:10px"><strong>Not accepted:</strong><ul style="margin:6px 0 0 18px">${notAccepted
+              .map((x) => `<li>${x}</li>`)
+              .join("")}</ul></div>`
+          : ""
+      }
+
+      ${
+        source
+          ? `<div style="margin-top:12px">
+              <a class="link" href="${escapeHtml(source)}" target="_blank" rel="noopener">Verified source →</a>
+            </div>`
+          : ""
+      }
+    </section>
+  `;
+}
+
+function injectVerifiedSectionIntoPage(html) {
+  // Put it at the end of the "about" area if present; otherwise append below the about block.
+  const aboutEl = document.getElementById("facilityAbout");
+  if (!aboutEl) return;
+
+  // Avoid double-inject if load runs twice
+  if (document.getElementById("verifiedDetails")) return;
+
+  const wrap = document.createElement("div");
+  wrap.id = "verifiedDetails";
+  wrap.innerHTML = html;
+
+  // Insert AFTER the about block (clean + consistent)
+  aboutEl.parentNode.insertBefore(wrap, aboutEl.nextSibling);
+}
+
+/** =========================
+ * Main load
+ * ========================= */
 
 async function loadFacility() {
   const id = getFacilityIdFromPath();
@@ -124,10 +236,21 @@ async function loadFacility() {
   const dataUrl = `/data/facilities/${id}.json`;
 
   try {
-    const res = await fetch(dataUrl, { cache: "no-store" });
+    // Load base facility + optional overrides in parallel
+    const [res, overrides] = await Promise.all([
+      fetch(dataUrl, { cache: "no-store" }),
+      loadFacilityOverrides(),
+    ]);
+
     if (!res.ok) throw new Error(`Failed to load ${dataUrl} (${res.status})`);
 
-    const f = await res.json();
+    const base = await res.json();
+
+    // Merge override (if any)
+    const ov = overrides?.[id] || null;
+
+    // Non-destructive merge: override fields win, but we keep base data for everything else
+    const f = ov ? { ...base, ...ov } : base;
 
     const titleEl = document.getElementById("facilityTitle");
     const subEl = document.getElementById("facilitySubhead");
@@ -174,6 +297,7 @@ async function loadFacility() {
       webEl.style.display = "none";
     }
 
+    // Source link: keep OSM source behavior
     if (srcEl && f.osm_url) {
       srcEl.style.display = "inline";
       srcEl.href = f.osm_url;
@@ -204,8 +328,14 @@ async function loadFacility() {
     // Render facility badges (UI-only)
     loadFacilityBadges(id);
 
+    // ✅ Inject verified details section if overrides exist
+    if (ov) {
+      const verifiedHtml = renderVerifiedSection(ov);
+      if (verifiedHtml) injectVerifiedSectionIntoPage(verifiedHtml);
+    }
+
     // --- Houston modal wiring (SEO-safe, UI-only) ---
-    const isHouston = isHoustonFacility(f);
+    const isHouston = isHoustonFacility(base); // base record determines city-ness
     window.__isHoustonFacility = isHouston;
 
     if (houBtn) {

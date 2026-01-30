@@ -20,6 +20,9 @@ const NEIGHBORS_PATH = `./data/${STATE_ARG}/_neighbors.json`;
 // ✅ Canonical base (used for canonical, OG, and JSON-LD)
 const BASE_URL = "https://junkscout.io";
 
+// ✅ Curated overlays live here (lowercase)
+const CURATED_BASE = "./data/manual";
+
 function titleCaseFromSlug(slug = "") {
   return slug
     .split("-")
@@ -355,6 +358,49 @@ function safeReadJson(filePath) {
   }
 }
 
+/**
+ * Curated overlay injection (Option A)
+ * If ./data/manual/<state>/<city>.json exists, inject:
+ *   <script id="CURATED:JSON" type="application/json"> ...json... </script>
+ */
+function buildCuratedScriptTag({ state, city }) {
+  const stateDir = String(state || "").toLowerCase(); // "texas", "california"
+  const citySlug = String(city || "").toLowerCase(); // "houston", "los-angeles"
+  const curatedPath = path.join(CURATED_BASE, stateDir, `${citySlug}.json`);
+
+  const curated = safeReadJson(curatedPath);
+  if (!curated) return "";
+
+  // Safety: ensure state/city are present/consistent (non-fatal)
+  if (!curated.city) curated.city = titleCaseFromSlug(citySlug);
+  if (!curated.state) curated.state = stateAbbrevFromSlug(stateDir);
+
+  const json = JSON.stringify(curated);
+  return `<script id="CURATED:JSON" type="application/json">\n${json}\n</script>`;
+}
+
+function injectCuratedOverlay(html, { state, city }) {
+  const tag = buildCuratedScriptTag({ state, city });
+  if (!tag) return html;
+
+  // Prefer explicit markers if you add them later
+  const markerRegex = /<!--\s*CURATED:START\s*-->[\s\S]*?<!--\s*CURATED:END\s*-->/;
+  if (markerRegex.test(html)) {
+    return html.replace(
+      markerRegex,
+      `<!-- CURATED:START -->\n${tag}\n<!-- CURATED:END -->`
+    );
+  }
+
+  // Otherwise, inject before </body>
+  if (html.includes("</body>")) {
+    return html.replace("</body>", `\n${tag}\n</body>`);
+  }
+
+  // Last resort
+  return html + `\n${tag}\n`;
+}
+
 function run() {
   if (!fs.existsSync(CITY_LIST_PATH)) {
     console.error(`❌ City list not found: ${CITY_LIST_PATH}`);
@@ -403,6 +449,9 @@ function run() {
     // 4) Inject Nearby cities (only if neighbors map exists)
     const nearbyHtml = buildNearbyHtml({ state, city, neighborsMap });
     outHtml = injectNearby(outHtml, nearbyHtml);
+
+    // ✅ 5) Inject curated overlay JSON (Option A)
+    outHtml = injectCuratedOverlay(outHtml, { state, city });
 
     const outDir = path.join(OUTPUT_BASE, state, city);
     const outFile = path.join(outDir, "index.html");

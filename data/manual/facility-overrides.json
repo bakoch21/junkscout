@@ -1,0 +1,11 @@
+{
+  "f_123456": {
+    "fees": "Free for residents (up to 4 visits/month)",
+    "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+    "rules": "Residents only; proof required.",
+    "accepted_materials": ["Household trash", "Yard waste"],
+    "not_accepted": ["Commercial waste"],
+    "verified_date": "2026-01-29",
+    "source": "https://www.houstontx.gov/solidwaste/dropoff.html"
+  }
+}
