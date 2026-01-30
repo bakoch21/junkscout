@@ -1,8 +1,15 @@
 // city.js
-// Renders city results from a static JSON file into #results
-// Supports BOTH routing styles:
-//   Hash route:   /city-template.html#texas/dallas  -> /data/texas/dallas.json
-//   Path route:   /texas/dallas/                   -> /data/texas/dallas.json
+// Renders city results from either:
+// 1) Curated overlay JSON injected into the page (Option A), OR
+// 2) Fallback: /data/{state}/{city}.json
+//
+// Adds a filter bar for hub cities:
+// - Multi-select feature chips (derived from your manual fields)
+// - Single-select Type dropdown
+// - Inline "Details" expander per card
+//
+// Facility pages currently do NOT exist, so cards are NOT clickable
+// and we do NOT show a "View page" link.
 
 function ensureRobotsMeta(content = "index,follow") {
   const existing = document.querySelector('meta[name="robots"]');
@@ -33,6 +40,11 @@ function titleCaseWordsFromSlug(slug = "") {
 }
 
 function getRouteParts() {
+  // Prefer body data-* if present
+  const b = document.body;
+  const ds = b?.dataset || {};
+  if (ds.state && ds.city) return { state: ds.state, city: ds.city };
+
   const hash = (window.location.hash || "").replace(/^#\/?/, "").trim();
   if (hash) {
     const [state, city] = hash.split("/").filter(Boolean);
@@ -68,223 +80,450 @@ function setCanonical(url) {
 function applyCitySEO({ cityName, stateName }) {
   const pretty = `${cityName}, ${stateName}`;
 
-  // H1 (query-matching)
   const titleEl = document.getElementById("cityTitle");
-  if (titleEl) {
-    titleEl.textContent = `Where to dump trash in ${pretty}`;
-  }
+  if (titleEl) titleEl.textContent = `Where to dump trash in ${pretty}`;
 
-  // Answer sentence (optional fine-tune)
   const ansEl = document.getElementById("cityAnswer");
   if (ansEl) {
-    ansEl.textContent = `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, with hours, rules, and accepted materials when available.`;
+    ansEl.textContent =
+      `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, ` +
+      `with hours, rules, and accepted materials when available.`;
   }
 
-  // Supporting subhead
   const subEl = document.getElementById("citySubhead");
   if (subEl) {
-    subEl.textContent = `Public landfills, transfer stations, and disposal sites in ${cityName}. Always confirm fees, residency rules, and accepted materials before visiting.`;
+    subEl.textContent =
+      `Public landfills, transfer stations, and disposal sites in ${cityName}. ` +
+      `Always confirm fees, residency rules, and accepted materials before visiting.`;
   }
 
-  // Inline city mention in SEO copy
   const inlineCity = document.getElementById("cityNameInline");
   if (inlineCity) inlineCity.textContent = cityName;
 
-  // Document title + meta description (CTR)
   document.title = `Where to Dump Trash in ${pretty} | JunkScout`;
   setMetaDescription(
-    `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}. Hours, fees, and accepted materials when available—always confirm before visiting.`
+    `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}. ` +
+      `Hours, fees, and accepted materials when available—always confirm before visiting.`
   );
 
-  // Canonical (prefer path URL, drop hash)
-  setCanonical(window.location.href.split("#")[0]);
+  const canonical = window.location.origin + window.location.pathname;
+  setCanonical(canonical);
 }
 
 /** =========================
- * Facility badges (for cards)
+ * Curated overlay (Option A)
+ * ========================= */
+function readCuratedOverlay() {
+  const el = document.getElementById("CURATED:JSON");
+  if (!el) return null;
+
+  try {
+    const raw = (el.textContent || "").trim();
+    if (!raw) return null;
+    const json = JSON.parse(raw);
+    return json && typeof json === "object" ? json : null;
+  } catch {
+    return null;
+  }
+}
+
+function getCuratedItems(curated) {
+  if (!curated || typeof curated !== "object") return null;
+
+  const candidate =
+    curated.facilities || // your manual overlay key
+    curated.locations ||
+    curated.items ||
+    curated.results ||
+    curated.data ||
+    null;
+
+  if (Array.isArray(candidate)) return candidate;
+
+  if (candidate && typeof candidate === "object") {
+    if (Array.isArray(candidate.list)) return candidate.list;
+    if (Array.isArray(candidate.items)) return candidate.items;
+    if (Array.isArray(candidate.results)) return candidate.results;
+  }
+
+  return null;
+}
+
+/** =========================
+ * Helpers: normalize + derive filter flags from manual fields
  * ========================= */
 
-const FACILITY_BADGE_DEFS = {
-  free_to_residents: { label: "Free", color: "green" },
-  accepts_garbage: { label: "Garbage", color: "blue" },
-  accepts_heavy_trash: { label: "Heavy trash", color: "orange" },
+function escapeHtml(str = "") {
+  return String(str).replace(/[&<>"']/g, (m) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;",
+  }[m]));
+}
+
+function safeLower(s) {
+  return String(s || "").toLowerCase();
+}
+
+function arrLower(a) {
+  return Array.isArray(a) ? a.map((x) => safeLower(x)) : [];
+}
+
+function normalizeType(rawType) {
+  const s = safeLower(rawType);
+
+  if (s.includes("hazard")) return { key: "hazardous_waste", label: "Hazardous" };
+  if (s.includes("transfer")) return { key: "transfer_station", label: "Transfer" };
+  if (s.includes("recycl") || s.includes("reuse")) return { key: "recycling", label: "Recycling" };
+  if (s.includes("landfill")) return { key: "landfill", label: "Landfill" };
+  if (s.includes("dumpster")) return { key: "public_dumpster", label: "Public dumpster" };
+
+  const k = safeLower(rawType).replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+  const lbl = rawType ? String(rawType).trim() : "Other";
+  return { key: k || "other", label: lbl };
+}
+
+function deriveFlags(item) {
+  const fees = safeLower(item?.fees);
+  const rules = safeLower(item?.rules);
+  const accepted = arrLower(item?.accepted_materials);
+
+  const hasFree =
+    fees.includes("free") ||
+    fees.includes("no charge") ||
+    fees.includes("donation");
+
+  const hasFee =
+    fees.includes("fee") ||
+    fees.includes("by weight") ||
+    fees.includes("by load") ||
+    fees.includes("per ton") ||
+    fees.includes("charge");
+
+  const residentish =
+    rules.includes("resident") ||
+    rules.includes("proof") ||
+    rules.includes("houston residents") ||
+    rules.includes("county residents");
+
+  const acceptsGarbage =
+    accepted.some((x) =>
+      x.includes("garbage") ||
+      x.includes("household trash") ||
+      x === "trash" ||
+      x.includes("general trash")
+    );
+
+  const acceptsHeavy =
+    accepted.some((x) =>
+      x.includes("heavy trash") ||
+      x.includes("construction") ||
+      x.includes("c&d") ||
+      x.includes("bulk") ||
+      x.includes("appliances") ||
+      x.includes("furniture")
+    );
+
+  const flags = [];
+
+  if (hasFree && residentish) flags.push("free_to_residents");
+  else if (hasFree) flags.push("free");
+
+  if (acceptsGarbage) flags.push("accepts_garbage");
+  if (acceptsHeavy) flags.push("accepts_heavy_trash");
+
+  if (!hasFree && (hasFee || fees.includes("varies"))) flags.push("fee_charge_likely");
+
+  return flags;
+}
+
+const FEATURE_DEFS = {
+  free_to_residents: { label: "Free to residents", color: "green" },
+  free: { label: "Free", color: "green" },
+  accepts_garbage: { label: "Accepts garbage", color: "blue" },
+  accepts_heavy_trash: { label: "Accepts heavy trash", color: "orange" },
   fee_charge_likely: { label: "Fee likely", color: "gray" },
 };
 
-async function loadFacilityBadges() {
-  try {
-    const res = await fetch("/data/facility-badges.json", { cache: "no-store" });
-    if (!res.ok) return {};
-    const json = await res.json();
-    return json && typeof json === "object" ? json : {};
-  } catch {
-    return {};
-  }
-}
-
-function renderFacilityBadgePills(facilityId, badgesMap) {
-  if (!facilityId || !badgesMap) return "";
-  const ids = badgesMap[facilityId];
-  if (!Array.isArray(ids) || ids.length === 0) return "";
-
-  // Cap to 3 to keep cards clean
-  const pills = ids
-    .slice(0, 3)
-    .map((id) => {
-      const def = FACILITY_BADGE_DEFS[id];
-      if (!def) return "";
-      return `<span class="badge badge--rule ${def.color}">${def.label}</span>`;
-    })
-    .filter(Boolean);
-
-  if (pills.length === 0) return "";
-
-  return `<div class="card__pills" style="margin-top:8px; display:flex; gap:6px; flex-wrap:wrap;">${pills.join(
-    " "
-  )}</div>`;
+function badge(text, color) {
+  return `<span class="badge badge--${color}">${text}</span>`;
 }
 
 /** =========================
- * Filters (hub cities)
+ * Filters UI
  * ========================= */
 
-function getTypeKey(item) {
-  // item.type values seen: landfill, transfer_station, recycling, hazardous_waste
-  return String(item?.type || "").trim();
-}
+function buildFilterBar({ resultsEl, onChange }) {
+  const wrap = document.createElement("section");
+  wrap.setAttribute("aria-label", "Filters");
+  wrap.style.marginTop = "18px";
+  wrap.style.marginBottom = "10px";
+  wrap.style.padding = "14px 14px 12px";
+  wrap.style.border = "1px solid var(--border)";
+  wrap.style.borderRadius = "16px";
+  wrap.style.background = "rgba(29,29,31,0.03)";
+  wrap.style.boxShadow = "0 6px 18px rgba(0,0,0,.04)";
 
-function getFeatureKeys(item, badgesMap) {
-  const keys = new Set();
+  const topRow = document.createElement("div");
+  topRow.style.display = "flex";
+  topRow.style.alignItems = "baseline";
+  topRow.style.justifyContent = "space-between";
+  topRow.style.gap = "12px";
 
-  // Preferred: facility-badges map by facility_id
-  if (item?.facility_id && badgesMap && Array.isArray(badgesMap[item.facility_id])) {
-    for (const k of badgesMap[item.facility_id]) keys.add(k);
+  const title = document.createElement("div");
+  title.innerHTML = `
+    <div style="font-weight:800">Filter results</div>
+    <div class="muted small" style="margin-top:2px">Use Type to narrow fast, then Features to find what you need.</div>
+  `;
+
+  const rightBox = document.createElement("div");
+  rightBox.style.display = "flex";
+  rightBox.style.alignItems = "center";
+  rightBox.style.gap = "10px";
+
+  const countEl = document.createElement("div");
+  countEl.className = "muted";
+  countEl.style.fontWeight = "700";
+  countEl.textContent = "Showing 0 of 0";
+
+  const reset = document.createElement("button");
+  reset.className = "btn btn--ghost";
+  reset.type = "button";
+  reset.textContent = "Reset";
+  reset.style.padding = "8px 12px";
+  reset.style.whiteSpace = "nowrap";
+
+  rightBox.appendChild(countEl);
+  rightBox.appendChild(reset);
+
+  topRow.appendChild(title);
+  topRow.appendChild(rightBox);
+
+  const bodyRow = document.createElement("div");
+  bodyRow.style.display = "grid";
+  bodyRow.style.gridTemplateColumns = "260px 1fr";
+  bodyRow.style.gap = "14px";
+  bodyRow.style.alignItems = "start";
+  bodyRow.style.marginTop = "12px";
+
+  const typeBlock = document.createElement("div");
+  typeBlock.innerHTML = `<div class="muted small" style="font-weight:700; margin-bottom:8px">Type</div>`;
+
+  const select = document.createElement("select");
+  select.setAttribute("aria-label", "Filter by type (select one)");
+  select.style.width = "100%";
+  select.style.padding = "10px 12px";
+  select.style.borderRadius = "12px";
+  select.style.border = "1px solid var(--border)";
+  select.style.background = "rgba(255,255,255,0.9)";
+  select.style.fontWeight = "700";
+  typeBlock.appendChild(select);
+
+  const featBlock = document.createElement("div");
+  featBlock.innerHTML = `<div class="muted small" style="font-weight:700; margin-bottom:8px">Features</div>`;
+
+  const chips = document.createElement("div");
+  chips.style.display = "flex";
+  chips.style.gap = "8px";
+  chips.style.flexWrap = "wrap";
+  featBlock.appendChild(chips);
+
+  bodyRow.appendChild(typeBlock);
+  bodyRow.appendChild(featBlock);
+
+  wrap.appendChild(topRow);
+  wrap.appendChild(bodyRow);
+
+  const state = { type: "all", flags: new Set() };
+
+  function setCounts(shown, total) {
+    countEl.textContent = `Showing ${shown} of ${total}`;
   }
 
-  // Fallback: if item itself carries tags/badges
-  const arr =
-    (Array.isArray(item?.badges) && item.badges) ||
-    (Array.isArray(item?.tags) && item.tags) ||
-    [];
+  function makeChip(key, count) {
+    const def = FEATURE_DEFS[key];
+    if (!def) return null;
 
-  for (const k of arr) keys.add(String(k));
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `badge badge--rule ${def.color}`;
+    btn.textContent = `${def.label}${typeof count === "number" ? ` (${count})` : ""}`;
+    btn.style.cursor = "pointer";
+    btn.style.border = "1px solid rgba(0,0,0,0.10)";
+    btn.style.opacity = "0.55";
 
-  return keys;
+    btn.addEventListener("click", () => {
+      if (state.flags.has(key)) state.flags.delete(key);
+      else state.flags.add(key);
+
+      btn.style.opacity = state.flags.has(key) ? "1" : "0.55";
+      onChange({ type: state.type, flags: new Set(state.flags) });
+    });
+
+    return btn;
+  }
+
+  function setTypeOptions(typeOptions) {
+    const opts = [{ key: "all", label: "All types" }, ...typeOptions.map((t) => ({
+      key: t.key,
+      label: `${t.label}${typeof t.count === "number" ? ` (${t.count})` : ""}`,
+    }))];
+
+    select.innerHTML = opts.map((o) => `<option value="${o.key}">${o.label}</option>`).join("");
+    select.value = "all";
+  }
+
+  function setFeatureChips(featureCounts) {
+    chips.innerHTML = "";
+    const order = ["free_to_residents", "free", "accepts_heavy_trash", "accepts_garbage", "fee_charge_likely"];
+    order.forEach((k) => {
+      const c = featureCounts[k];
+      if (!c) return;
+      const chip = makeChip(k, c);
+      if (chip) chips.appendChild(chip);
+    });
+  }
+
+  select.addEventListener("change", () => {
+    state.type = select.value || "all";
+    onChange({ type: state.type, flags: new Set(state.flags) });
+  });
+
+  reset.addEventListener("click", () => {
+    state.type = "all";
+    state.flags = new Set();
+    select.value = "all";
+    Array.from(chips.children).forEach((el) => (el.style.opacity = "0.55"));
+    onChange({ type: "all", flags: new Set() });
+  });
+
+  resultsEl.parentNode.insertBefore(wrap, resultsEl);
+
+  return { setTypeOptions, setFeatureChips, setCounts };
 }
 
-function typeLabelFromTypeKey(type) {
-  if (type === "landfill") return "Landfill";
-  if (type === "transfer_station") return "Transfer";
-  if (type === "recycling") return "Recycling";
-  if (type === "hazardous_waste") return "Hazardous";
-  return "";
+/** =========================
+ * Inline Details expander only (no card navigation)
+ * ========================= */
+
+function attachHandlers(resultsEl) {
+  if (resultsEl.__bound) return;
+  resultsEl.__bound = true;
+
+  resultsEl.addEventListener("click", (e) => {
+    // ignore normal links
+    if (e.target.closest("a")) return;
+
+    const detailsBtn = e.target.closest("button[data-details-toggle]");
+    if (!detailsBtn) return;
+
+    const id = detailsBtn.getAttribute("data-details-toggle");
+    const panel = resultsEl.querySelector(`[data-details-panel="${CSS.escape(id)}"]`);
+    if (!panel) return;
+
+    const open = panel.getAttribute("data-open") === "1";
+    panel.setAttribute("data-open", open ? "0" : "1");
+    panel.style.display = open ? "none" : "block";
+    detailsBtn.textContent = open ? "Details" : "Hide details";
+  });
+
+  resultsEl.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const detailsBtn = e.target.closest("button[data-details-toggle]");
+    if (!detailsBtn) return;
+    e.preventDefault();
+    detailsBtn.click();
+  });
 }
 
-function buildFiltersUI({ items, badgesMap, mountAfterEl }) {
-  if (!mountAfterEl) return null;
+function renderTypeBadge(typeKey) {
+  if (typeKey === "recycling") return badge("Recycling", "blue");
+  if (typeKey === "transfer_station") return badge("Transfer", "orange");
+  if (typeKey === "landfill") return badge("Landfill", "orange");
+  if (typeKey === "hazardous_waste") return badge("Hazardous", "orange");
+  if (typeKey === "public_dumpster") return badge("Public dumpster", "gray");
+  return badge("Other", "gray");
+}
 
-  const container = document.createElement("section");
-  container.id = "filters";
-  container.setAttribute("aria-label", "Filters");
-  // more space above + less-white background
-  container.style.marginTop = "18px";
-  container.style.border = "1px solid var(--border)";
-  container.style.borderRadius = "16px";
-  container.style.background = "rgba(0,0,0,0.03)";
-  container.style.padding = "14px 14px";
-  container.style.boxShadow = "0 10px 30px rgba(0,0,0,.04)";
+function renderDetailsPanel(item, id) {
+  const rows = [];
 
-  container.innerHTML = `
-    <div style="display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap">
-      <div>
-        <div style="font-weight:800; letter-spacing:-0.01em">Filter locations</div>
-        <div class="muted small" style="margin-top:4px">Use Type to narrow fast, then Features to find what you need.</div>
+  if (item.phone) rows.push(`<div><strong>Phone:</strong> ${escapeHtml(item.phone)}</div>`);
+  if (item.hours) rows.push(`<div><strong>Hours:</strong> ${escapeHtml(item.hours)}</div>`);
+  if (item.fees) rows.push(`<div><strong>Fees:</strong> ${escapeHtml(item.fees)}</div>`);
+  if (item.rules) rows.push(`<div><strong>Rules:</strong> ${escapeHtml(item.rules)}</div>`);
+
+  if (Array.isArray(item.accepted_materials) && item.accepted_materials.length) {
+    rows.push(
+      `<div style="margin-top:8px"><strong>Accepted:</strong><ul style="margin:6px 0 0 18px">${item.accepted_materials
+        .slice(0, 12)
+        .map((x) => `<li>${escapeHtml(x)}</li>`)
+        .join("")}</ul></div>`
+    );
+  }
+
+  if (Array.isArray(item.not_accepted) && item.not_accepted.length) {
+    rows.push(
+      `<div style="margin-top:8px"><strong>Not accepted:</strong><ul style="margin:6px 0 0 18px">${item.not_accepted
+        .slice(0, 12)
+        .map((x) => `<li>${escapeHtml(x)}</li>`)
+        .join("")}</ul></div>`
+    );
+  }
+
+  const src = item.source ? `<a class="link" href="${item.source}" target="_blank" rel="noopener">Source</a>` : "";
+  const ver = item.verified_date ? `<span class="muted small">Verified: ${escapeHtml(item.verified_date)}</span>` : "";
+
+  return `
+    <div data-details-panel="${escapeHtml(id)}" data-open="0"
+         style="display:none; margin-top:10px; padding:10px 12px; border:1px solid var(--border); border-radius:12px; background:rgba(255,255,255,.65)">
+      <div class="muted small" style="display:flex; justify-content:space-between; gap:10px; align-items:baseline; margin-bottom:8px">
+        <span>Details</span>
+        <span style="display:flex; gap:10px; align-items:baseline">${ver} ${src}</span>
       </div>
-      <div id="filtersCount" class="muted" style="font-weight:700"></div>
-    </div>
-
-    <div style="margin-top:12px; display:flex; gap:18px; flex-wrap:wrap; align-items:flex-start">
-      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
-        <div class="muted" style="font-weight:800">Type</div>
-        <select id="typeSelect" class="input" style="padding:10px 12px; border-radius:999px; border:1px solid var(--border); background:rgba(255,255,255,.75)">
-          <option value="">All types</option>
-        </select>
-      </div>
-
-      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
-        <div class="muted" style="font-weight:800">Features</div>
-        <div id="featureChips" style="display:flex; gap:10px; flex-wrap:wrap"></div>
-      </div>
-
-      <div style="margin-left:auto; display:flex; gap:10px; align-items:center; flex-wrap:wrap">
-        <button id="filtersReset" class="btn btn--ghost" type="button">Reset</button>
+      <div class="small" style="line-height:1.45; display:grid; gap:6px">
+        ${rows.length ? rows.join("") : `<div class="muted">No extra details yet.</div>`}
       </div>
     </div>
   `;
-
-  // build Type options present in data
-  const typeCounts = new Map();
-  for (const it of items) {
-    const t = getTypeKey(it);
-    if (!t) continue;
-    typeCounts.set(t, (typeCounts.get(t) || 0) + 1);
-  }
-
-  const typeSelect = container.querySelector("#typeSelect");
-  const typesSorted = Array.from(typeCounts.entries()).sort((a, b) => b[1] - a[1]);
-  for (const [t, c] of typesSorted) {
-    const opt = document.createElement("option");
-    opt.value = t;
-    opt.textContent = `${typeLabelFromTypeKey(t) || titleCaseFromSlug(t)} (${c})`;
-    typeSelect.appendChild(opt);
-  }
-
-  // build feature chips (only from known badge defs)
-  const featureCounts = new Map();
-  for (const it of items) {
-    const fkeys = getFeatureKeys(it, badgesMap);
-    for (const k of fkeys) {
-      if (!FACILITY_BADGE_DEFS[k]) continue;
-      featureCounts.set(k, (featureCounts.get(k) || 0) + 1);
-    }
-  }
-
-  const featureChips = container.querySelector("#featureChips");
-  const featuresSorted = Array.from(featureCounts.entries()).sort((a, b) => b[1] - a[1]);
-  for (const [k, c] of featuresSorted) {
-    const def = FACILITY_BADGE_DEFS[k];
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "btn btn--ghost";
-    btn.dataset.key = k;
-    btn.setAttribute("aria-pressed", "false");
-    btn.style.borderRadius = "999px";
-    btn.style.padding = "10px 12px";
-    btn.style.fontWeight = "800";
-    btn.textContent = `${def.label}${c ? ` (${c})` : ""}`;
-    featureChips.appendChild(btn);
-  }
-
-  mountAfterEl.insertAdjacentElement("afterend", container);
-  return container;
 }
 
-function applyFilters({ items, badgesMap, selectedType, selectedFeatures }) {
-  return items.filter((it) => {
-    if (selectedType) {
-      const t = getTypeKey(it);
-      if (t !== selectedType) return false;
-    }
+function renderCard(item) {
+  const norm = normalizeType(item.type);
+  const typeBadge = renderTypeBadge(norm.key);
 
-    if (selectedFeatures && selectedFeatures.size > 0) {
-      const keys = getFeatureKeys(it, badgesMap);
-      for (const k of selectedFeatures) {
-        if (!keys.has(k)) return false;
-      }
-    }
+  const mapsUrl = item.address
+    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}`
+    : (item.lat && item.lng ? `https://www.google.com/maps/search/?api=1&query=${item.lat},${item.lng}` : "#");
 
-    return true;
-  });
+  const toggleId = item.facility_id || item.name || Math.random().toString(36).slice(2);
+
+  const detailsBtn = `
+    <button type="button" class="btn btn--ghost"
+            data-details-toggle="${escapeHtml(toggleId)}"
+            style="padding:8px 12px">
+      Details
+    </button>
+  `;
+
+  const detailsPanel = renderDetailsPanel(item, toggleId);
+
+  return `
+    <article class="card">
+      <div class="card__kicker">${typeBadge}</div>
+      <h3>${escapeHtml(item.name || "Unnamed location")}</h3>
+      ${item.address ? `<p class="card__meta">${escapeHtml(item.address)}</p>` : ""}
+
+      <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+        <a class="link" href="${mapsUrl}" target="_blank" rel="noopener">Directions</a>
+        ${detailsBtn}
+      </div>
+
+      ${detailsPanel}
+    </article>
+  `;
 }
 
 /** =========================
@@ -295,7 +534,6 @@ async function loadCityData() {
   const resultsEl = document.getElementById("results");
   if (!resultsEl) return;
 
-  // Safety: ensure robots meta exists (template already has it)
   ensureRobotsMeta("index,follow");
 
   const { state, city } = getRouteParts();
@@ -308,208 +546,101 @@ async function loadCityData() {
     return;
   }
 
-  // Apply SEO framing early (before fetch)
   applyCitySEO({ cityName, stateName });
 
-  const dataUrl = `/data/${state}/${city}.json`;
+  let items = null;
 
-  try {
-    // Load both the city data and facility badges (badges load once per page)
-    const [res, facilityBadges] = await Promise.all([
-      fetch(dataUrl, { cache: "no-store" }),
-      loadFacilityBadges(),
-    ]);
+  const curated = readCuratedOverlay();
+  const curatedItems = getCuratedItems(curated);
 
-    if (!res.ok) throw new Error(`Failed to load ${dataUrl} (${res.status})`);
-
-    const data = await res.json();
-
-    if (!Array.isArray(data) || data.length === 0) {
-      resultsEl.innerHTML = "<p class='muted'>No locations found.</p>";
+  if (curatedItems && curatedItems.length) {
+    items = curatedItems;
+  } else {
+    const dataUrl = `/data/${state}/${city}.json`;
+    try {
+      const res = await fetch(dataUrl, { cache: "no-store" });
+      if (!res.ok) throw new Error(`Failed to load ${dataUrl} (${res.status})`);
+      items = await res.json();
+    } catch (err) {
+      console.error(err);
+      resultsEl.innerHTML = "<p class='muted'>Unable to load locations right now.</p>";
       return;
     }
-
-    // Decide if we show filters (hub city behavior)
-    const SHOULD_SHOW_FILTERS = data.length >= 20;
-
-    let filtersEl = null;
-    if (SHOULD_SHOW_FILTERS) {
-      const houBtn = document.getElementById("houstonRulesBtn");
-      // mount filters after Houston rules button if present, else before results
-      const mountAfterEl = houBtn || resultsEl;
-      filtersEl = buildFiltersUI({ items: data, badgesMap: facilityBadges, mountAfterEl });
-    }
-
-    // render function (reusable)
-    const render = (itemsToRender) => {
-      resultsEl.innerHTML = itemsToRender.map((item) => renderCard(item, facilityBadges)).join("");
-      attachCardClickHandler(resultsEl);
-
-      if (filtersEl) {
-        const countEl = filtersEl.querySelector("#filtersCount");
-        if (countEl) countEl.textContent = `Showing ${itemsToRender.length} of ${data.length}`;
-      }
-    };
-
-    render(data);
-
-    // Wire up filters if present
-    if (filtersEl) {
-      let selectedType = "";
-      const selectedFeatures = new Set();
-
-      const typeSelect = filtersEl.querySelector("#typeSelect");
-      const featureChips = filtersEl.querySelector("#featureChips");
-      const resetBtn = filtersEl.querySelector("#filtersReset");
-
-      const runFilter = () => {
-        const filtered = applyFilters({
-          items: data,
-          badgesMap: facilityBadges,
-          selectedType: selectedType || "",
-          selectedFeatures,
-        });
-        render(filtered);
-      };
-
-      if (typeSelect) {
-        typeSelect.addEventListener("change", () => {
-          selectedType = typeSelect.value || "";
-          runFilter();
-        });
-      }
-
-      if (featureChips) {
-        featureChips.addEventListener("click", (e) => {
-          const btn = e.target.closest("button[data-key]");
-          if (!btn) return;
-
-          const key = btn.dataset.key;
-          const isOn = selectedFeatures.has(key);
-
-          if (isOn) {
-            selectedFeatures.delete(key);
-            btn.setAttribute("aria-pressed", "false");
-            btn.style.background = "";
-            btn.style.borderColor = "";
-          } else {
-            selectedFeatures.add(key);
-            btn.setAttribute("aria-pressed", "true");
-            btn.style.background = "rgba(255,255,255,.8)";
-            btn.style.borderColor = "rgba(0,0,0,.12)";
-          }
-
-          runFilter();
-        });
-      }
-
-      if (resetBtn) {
-        resetBtn.addEventListener("click", () => {
-          selectedType = "";
-          selectedFeatures.clear();
-
-          if (typeSelect) typeSelect.value = "";
-
-          // reset chip visuals
-          const btns = filtersEl.querySelectorAll("button[data-key]");
-          btns.forEach((b) => {
-            b.setAttribute("aria-pressed", "false");
-            b.style.background = "";
-            b.style.borderColor = "";
-          });
-
-          render(data);
-        });
-      }
-    }
-  } catch (err) {
-    console.error(err);
-    resultsEl.innerHTML = "<p class='muted'>Unable to load locations right now.</p>";
   }
-}
 
-function attachCardClickHandler(resultsEl) {
-  // Prevent double-binding if loadCityData ever runs twice
-  if (resultsEl.__cardsBound) return;
-  resultsEl.__cardsBound = true;
+  if (!Array.isArray(items) || items.length === 0) {
+    resultsEl.innerHTML = "<p class='muted'>No locations found.</p>";
+    return;
+  }
 
-  resultsEl.addEventListener("click", (e) => {
-    // If user clicked an inner link, don't hijack it
-    const innerLink = e.target.closest("a");
-    if (innerLink) return;
-
-    const card = e.target.closest(".card[data-href]");
-    if (!card) return;
-
-    const href = card.getAttribute("data-href");
-    if (href) window.location.href = href;
+  const enriched = items.map((it) => {
+    const t = normalizeType(it.type);
+    return { ...it, __typeKey: t.key, __typeLabel: t.label, __flags: deriveFlags(it) };
   });
-}
 
-function renderCard(item, facilityBadges) {
-  const badges = [];
+  const typeCount = new Map();
+  enriched.forEach((it) => {
+    const k = it.__typeKey || "other";
+    typeCount.set(k, (typeCount.get(k) || 0) + 1);
+  });
 
-  if (item.type === "landfill") badges.push(badge("Landfill", "orange"));
-  if (item.type === "transfer_station") badges.push(badge("Transfer station", "orange"));
-  if (item.type === "recycling") badges.push(badge("Recycling", "blue"));
-  if (item.type === "hazardous_waste") badges.push(badge("Hazardous", "orange"));
+  const typeOptions = Array.from(typeCount.entries())
+    .map(([key, count]) => {
+      const first = enriched.find((x) => x.__typeKey === key);
+      const label = first?.__typeLabel || key;
+      return { key, label, count };
+    })
+    .sort((a, b) => {
+      const rank = (k) => {
+        if (k === "landfill") return 1;
+        if (k === "transfer_station") return 2;
+        if (k === "recycling") return 3;
+        if (k === "hazardous_waste") return 4;
+        return 99;
+      };
+      const ra = rank(a.key), rb = rank(b.key);
+      if (ra !== rb) return ra - rb;
+      return a.label.localeCompare(b.label);
+    });
 
-  const mapsUrl =
-    item.lat && item.lng
-      ? `https://www.google.com/maps/search/?api=1&query=${item.lat},${item.lng}`
-      : "#";
+  const featureCounts = {};
+  enriched.forEach((it) => {
+    (it.__flags || []).forEach((f) => {
+      featureCounts[f] = (featureCounts[f] || 0) + 1;
+    });
+  });
 
-  const facilityUrl = item.facility_id ? `/facility/${item.facility_id}/` : null;
-
-  const cardAttrs = facilityUrl
-    ? `class="card card--clickable" data-href="${facilityUrl}" role="link" tabindex="0" aria-label="View details for ${escapeHtml(
-        item.name
-      )}"`
-    : `class="card"`;
-
-  const facilityPillsHtml = renderFacilityBadgePills(item.facility_id, facilityBadges);
-
-  // NOTE: no nested <a> wrapping the card anymore.
-  return `
-    <article ${cardAttrs}>
-      <div class="card__kicker">${badges.join(" ")}</div>
-      <h3>${escapeHtml(item.name)}</h3>
-      ${item.address ? `<p class="card__meta">${escapeHtml(item.address)}</p>` : ""}
-      ${facilityPillsHtml}
-      <div style="display:flex; gap:12px; margin-top:8px; flex-wrap:wrap">
-        <a class="link" href="${mapsUrl}" target="_blank" rel="noopener">Directions</a>
-        ${
-          item.website
-            ? `<a class="link" href="${item.website}" target="_blank" rel="noopener">Website</a>`
-            : ""
+  const filterBar = buildFilterBar({
+    resultsEl,
+    onChange: (filterState) => {
+      const filtered = enriched.filter((it) => {
+        if (filterState.type && filterState.type !== "all") {
+          if (it.__typeKey !== filterState.type) return false;
         }
-        ${
-          item.osm_url
-            ? `<a class="link" href="${item.osm_url}" target="_blank" rel="noopener">Source</a>`
-            : ""
+        if (filterState.flags && filterState.flags.size > 0) {
+          for (const needed of filterState.flags) {
+            if (!(it.__flags || []).includes(needed)) return false;
+          }
         }
-        ${
-          facilityUrl
-            ? `<a class="link" href="${facilityUrl}" style="margin-left:auto">Details →</a>`
-            : ""
-        }
-      </div>
-    </article>
-  `;
-}
+        return true;
+      });
 
-function badge(text, color) {
-  return `<span class="badge badge--${color}">${text}</span>`;
-}
+      filterBar.setCounts(filtered.length, enriched.length);
 
-function escapeHtml(str = "") {
-  return String(str).replace(/[&<>"']/g, (m) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#039;",
-  }[m]));
+      resultsEl.innerHTML = filtered.length
+        ? filtered.map((it) => renderCard(it)).join("")
+        : "<p class='muted'>No locations match those filters.</p>";
+
+      attachHandlers(resultsEl);
+    },
+  });
+
+  filterBar.setTypeOptions(typeOptions);
+  filterBar.setFeatureChips(featureCounts);
+  filterBar.setCounts(enriched.length, enriched.length);
+
+  resultsEl.innerHTML = enriched.map((it) => renderCard(it)).join("");
+  attachHandlers(resultsEl);
 }
 
 document.addEventListener("DOMContentLoaded", loadCityData);

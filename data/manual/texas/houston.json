@@ -10,11 +10,27 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free for residents (up to 4 visits/month)",
-      "accepted_materials": ["Household trash", "Yard waste", "Bulk items", "Recyclables (plastics, paper, glass, metals)", "Up to 5 tires/month (no rims)", "Used motor oil", "Tree waste", "Cardboard"],
-      "not_accepted": ["Commercial waste", "Hazardous materials (except at designated centers)", "Rubber materials (tubes, hoses, gloves)", "Extension cords", "Wiring/string lights"],
+      "accepted_materials": [
+        "Household trash",
+        "Yard waste",
+        "Bulk items",
+        "Recyclables (plastics, paper, glass, metals)",
+        "Up to 5 tires/month (no rims)",
+        "Used motor oil",
+        "Tree waste",
+        "Cardboard"
+      ],
+      "not_accepted": [
+        "Commercial waste",
+        "Hazardous materials (except at designated centers)",
+        "Rubber materials (tubes, hoses, gloves)",
+        "Extension cords",
+        "Wiring/string lights"
+      ],
       "rules": "Houston residents only; proof required (TX ID + utility bill/lease/tax bill/student ID); arrive 30 min before closing; no commercial vehicles.",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_ccdf62586194"
     },
     {
       "name": "Northwest Neighborhood Depository & Recycling Center",
@@ -23,11 +39,25 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free for residents",
-      "accepted_materials": ["Household trash", "Yard waste", "Bulk items", "Recyclables", "Tires (limited)", "Used oil", "Tree waste"],
-      "not_accepted": ["Commercial", "Hazardous", "Rubber items", "Cords/lights"],
+      "accepted_materials": [
+        "Household trash",
+        "Yard waste",
+        "Bulk items",
+        "Recyclables",
+        "Tires (limited)",
+        "Used oil",
+        "Tree waste"
+      ],
+      "not_accepted": [
+        "Commercial",
+        "Hazardous",
+        "Rubber items",
+        "Cords/lights"
+      ],
       "rules": "Residents only; proof required; arrive early.",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_ca074fd9f44d"
     },
     {
       "name": "Northeast Neighborhood Depository & Recycling Center",
@@ -36,11 +66,21 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free for residents",
-      "accepted_materials": ["Trash", "Yard waste", "Bulk", "Recyclables", "Tires"],
-      "not_accepted": ["Commercial", "Hazardous"],
+      "accepted_materials": [
+        "Trash",
+        "Yard waste",
+        "Bulk",
+        "Recyclables",
+        "Tires"
+      ],
+      "not_accepted": [
+        "Commercial",
+        "Hazardous"
+      ],
       "rules": "Proof of residency",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_181fb1282858"
     },
     {
       "name": "Southeast Neighborhood Depository & Recycling Center",
@@ -49,11 +89,21 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free",
-      "accepted_materials": ["Trash", "Yard waste", "Bulk", "Recyclables", "Tires"],
-      "not_accepted": ["Commercial", "Hazardous"],
+      "accepted_materials": [
+        "Trash",
+        "Yard waste",
+        "Bulk",
+        "Recyclables",
+        "Tires"
+      ],
+      "not_accepted": [
+        "Commercial",
+        "Hazardous"
+      ],
       "rules": "Residents only",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_8e273290e1cd"
     },
     {
       "name": "South Neighborhood Depository & Recycling Center",
@@ -62,11 +112,21 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free",
-      "accepted_materials": ["Trash", "Yard waste", "Bulk", "Recyclables", "Tires"],
-      "not_accepted": ["Commercial", "Hazardous"],
+      "accepted_materials": [
+        "Trash",
+        "Yard waste",
+        "Bulk",
+        "Recyclables",
+        "Tires"
+      ],
+      "not_accepted": [
+        "Commercial",
+        "Hazardous"
+      ],
       "rules": "Proof required",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_243ef4ba5b8c"
     },
     {
       "name": "Southwest Neighborhood Depository & Recycling Center",
@@ -75,11 +135,21 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free",
-      "accepted_materials": ["Trash", "Yard waste", "Bulk", "Recyclables", "Tires"],
-      "not_accepted": ["Commercial", "Hazardous"],
+      "accepted_materials": [
+        "Trash",
+        "Yard waste",
+        "Bulk",
+        "Recyclables",
+        "Tires"
+      ],
+      "not_accepted": [
+        "Commercial",
+        "Hazardous"
+      ],
       "rules": "Residents only",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_f2e83795d0d0"
     },
     {
       "name": "Westpark Recycling Center",
@@ -88,11 +158,28 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free",
-      "accepted_materials": ["Aluminum/tin/aerosol cans", "All plastics (#1-7)", "Newspapers/magazines", "Glass bottles/jars", "Used motor oil", "Tree waste", "Cardboard", "Up to 5 tires/month (no rims)"],
-      "not_accepted": ["Hazardous materials (chemicals, oil, fuel)", "Bulk items/furniture (sheds, pools)", "Rubber materials (tubes, hoses, gloves)", "Extension cords", "Wiring/string lights", "Household garbage"],
+      "accepted_materials": [
+        "Aluminum/tin/aerosol cans",
+        "All plastics (#1-7)",
+        "Newspapers/magazines",
+        "Glass bottles/jars",
+        "Used motor oil",
+        "Tree waste",
+        "Cardboard",
+        "Up to 5 tires/month (no rims)"
+      ],
+      "not_accepted": [
+        "Hazardous materials (chemicals, oil, fuel)",
+        "Bulk items/furniture (sheds, pools)",
+        "Rubber materials (tubes, hoses, gloves)",
+        "Extension cords",
+        "Wiring/string lights",
+        "Household garbage"
+      ],
       "rules": "Residents only; 4x/month limit; proof: TX ID + utility/lease/tax/student ID; arrive 30 min early; no commercial vehicles.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_b8611d1dc0a2"
     },
     {
       "name": "Clear Lake/Ellington Airport Recycling Center",
@@ -101,11 +188,27 @@
       "phone": "3-1-1",
       "hours": "Open 7 days: 8 a.m.–8 p.m.",
       "fees": "Free",
-      "accepted_materials": ["Aluminum/tin/aerosol", "All plastics", "Newspapers/magazines", "Glass", "Used oil", "Tree waste", "Cardboard", "Up to 5 tires/month"],
-      "not_accepted": ["Hazardous", "Bulk/furniture", "Rubber", "Cords/lights", "Garbage"],
+      "accepted_materials": [
+        "Aluminum/tin/aerosol",
+        "All plastics",
+        "Newspapers/magazines",
+        "Glass",
+        "Used oil",
+        "Tree waste",
+        "Cardboard",
+        "Up to 5 tires/month"
+      ],
+      "not_accepted": [
+        "Hazardous",
+        "Bulk/furniture",
+        "Rubber",
+        "Cords/lights",
+        "Garbage"
+      ],
       "rules": "Residents only; proof required; 4x/month.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_2b7ee1dc091c"
     },
     {
       "name": "Kingwood Recycling Center",
@@ -114,11 +217,27 @@
       "phone": "3-1-1",
       "hours": "Saturday–Sunday: 8 a.m.–6 p.m.",
       "fees": "Free",
-      "accepted_materials": ["Aluminum/tin", "Plastics", "Paper/magazines", "Glass", "Oil", "Tree waste", "Cardboard", "Tires (limited)"],
-      "not_accepted": ["Hazardous", "Bulk", "Rubber", "Cords", "Garbage"],
+      "accepted_materials": [
+        "Aluminum/tin",
+        "Plastics",
+        "Paper/magazines",
+        "Glass",
+        "Oil",
+        "Tree waste",
+        "Cardboard",
+        "Tires (limited)"
+      ],
+      "not_accepted": [
+        "Hazardous",
+        "Bulk",
+        "Rubber",
+        "Cords",
+        "Garbage"
+      ],
       "rules": "Residents only; proof required.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_920e903eb797"
     },
     {
       "name": "Reuse Warehouse",
@@ -127,11 +246,29 @@
       "phone": "3-1-1",
       "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
       "fees": "Free/donation-based",
-      "accepted_materials": ["Working appliances", "Furniture", "Building materials", "Household goods", "Aluminum/tin", "Plastics", "Paper", "Glass", "Oil", "Tree waste", "Cardboard", "Tires"],
-      "not_accepted": ["Broken items", "Hazardous", "Garbage"],
+      "accepted_materials": [
+        "Working appliances",
+        "Furniture",
+        "Building materials",
+        "Household goods",
+        "Aluminum/tin",
+        "Plastics",
+        "Paper",
+        "Glass",
+        "Oil",
+        "Tree waste",
+        "Cardboard",
+        "Tires"
+      ],
+      "not_accepted": [
+        "Broken items",
+        "Hazardous",
+        "Garbage"
+      ],
       "rules": "For reuse/donation; check schedule; residents only.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_9f89d3cb2b41"
     },
     {
       "name": "Environmental Service Center - North",
@@ -140,11 +277,24 @@
       "phone": "832-393-7766",
       "hours": "Tuesdays/Wednesdays 9 a.m.–3 p.m.; 2nd/4th Saturdays 9 a.m.–2 p.m. (by appointment)",
       "fees": "Free for Harris County residents (outside Houston city services)",
-      "accepted_materials": ["Aerosols (no Freon/mace)", "Automotive products (gas, oil)", "Batteries (up to car size)", "Household cleaners", "Chemicals (pool, fertilizers, pesticides)", "Propane cylinders", "Tires (up to 5/visit)", "Thermometers/mercury items"],
-      "not_accepted": ["Commercial hazardous", "Medical waste"],
+      "accepted_materials": [
+        "Aerosols (no Freon/mace)",
+        "Automotive products (gas, oil)",
+        "Batteries (up to car size)",
+        "Household cleaners",
+        "Chemicals (pool, fertilizers, pesticides)",
+        "Propane cylinders",
+        "Tires (up to 5/visit)",
+        "Thermometers/mercury items"
+      ],
+      "not_accepted": [
+        "Commercial hazardous",
+        "Medical waste"
+      ],
       "rules": "Harris County residents only (no City of Houston services/taxes); appointment required; enter at Hahl Rd (290/Gessner).",
       "source": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_8ea5daf19171"
     },
     {
       "name": "Environmental Service Center - South",
@@ -153,11 +303,20 @@
       "phone": "832-393-7766",
       "hours": "Call for schedule (similar to North)",
       "fees": "Free for residents",
-      "accepted_materials": ["Paint", "Cleaners", "Pesticides", "Batteries", "Chemicals"],
-      "not_accepted": ["Commercial"],
+      "accepted_materials": [
+        "Paint",
+        "Cleaners",
+        "Pesticides",
+        "Batteries",
+        "Chemicals"
+      ],
+      "not_accepted": [
+        "Commercial"
+      ],
       "rules": "Residents only; appointment may be required.",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_5764f3beec35"
     },
     {
       "name": "Harris County Household Hazardous Waste Facility",
@@ -166,11 +325,24 @@
       "phone": "(713) 290-3000 or similar (check site)",
       "hours": "Tues/Wed 9 a.m.–3 p.m.; 2nd/4th Sat 9 a.m.–2 p.m. (appointments)",
       "fees": "Free for Harris County residents",
-      "accepted_materials": ["Aerosols", "Auto products", "Batteries", "Cleaners", "Chemicals", "Propane", "Tires (5 max)", "Mercury items"],
-      "not_accepted": ["Commercial", "Explosives"],
+      "accepted_materials": [
+        "Aerosols",
+        "Auto products",
+        "Batteries",
+        "Cleaners",
+        "Chemicals",
+        "Propane",
+        "Tires (5 max)",
+        "Mercury items"
+      ],
+      "not_accepted": [
+        "Commercial",
+        "Explosives"
+      ],
       "rules": "Outside Houston city jurisdiction; no city taxes/services.",
       "source": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_b201a7ca6cf8"
     },
     {
       "name": "Atascocita Landfill",
@@ -179,11 +351,18 @@
       "phone": "WM service: 800-772-8653",
       "hours": "Varies; call",
       "fees": "By weight/ton (fee charge)",
-      "accepted_materials": ["Garbage", "Heavy trash", "Construction debris"],
-      "not_accepted": ["Certain hazardous"],
+      "accepted_materials": [
+        "Garbage",
+        "Heavy trash",
+        "Construction debris"
+      ],
+      "not_accepted": [
+        "Certain hazardous"
+      ],
       "rules": "Commercial/residential; fees apply; open to public.",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_e923e0f35697"
     },
     {
       "name": "BFI McCarty Landfill",
@@ -192,11 +371,17 @@
       "phone": "Republic Services: call for info",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Garbage", "Heavy trash"],
-      "not_accepted": ["Hazardous"],
+      "accepted_materials": [
+        "Garbage",
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Hazardous"
+      ],
       "rules": "Public access with fees",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_a89ff3d79246"
     },
     {
       "name": "BFI Whispering Pines Landfill",
@@ -205,11 +390,17 @@
       "phone": "Call for info",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Garbage", "Heavy trash"],
-      "not_accepted": ["Hazardous"],
+      "accepted_materials": [
+        "Garbage",
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Hazardous"
+      ],
       "rules": "Fees by load",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_3bea062a6522"
     },
     {
       "name": "BFI Blue Ridge Landfill",
@@ -218,11 +409,17 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Garbage", "Heavy trash"],
-      "not_accepted": ["Hazardous"],
+      "accepted_materials": [
+        "Garbage",
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Hazardous"
+      ],
       "rules": "Public with fees",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_422e6d19df67"
     },
     {
       "name": "Coastal Plains Landfill (Alvin)",
@@ -231,11 +428,17 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Garbage", "Heavy trash"],
-      "not_accepted": ["Hazardous"],
+      "accepted_materials": [
+        "Garbage",
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Hazardous"
+      ],
       "rules": "Fees apply",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_6f039ab2f19a"
     },
     {
       "name": "2020 Atascocita Landfill",
@@ -244,11 +447,17 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Garbage", "Heavy trash"],
-      "not_accepted": ["Hazardous"],
+      "accepted_materials": [
+        "Garbage",
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Hazardous"
+      ],
       "rules": "Public fees",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_2ce4694e1b9e"
     },
     {
       "name": "13400 Sanderford Rd Landfill",
@@ -257,11 +466,17 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge (heavy trash only)",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage", "Hazardous"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage",
+        "Hazardous"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_77776f787254"
     },
     {
       "name": "Casco Hauling Landfill",
@@ -270,11 +485,16 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_9404aa47ed81"
     },
     {
       "name": "Cougar Disposal Landfill",
@@ -283,11 +503,16 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_f106abfabc3a"
     },
     {
       "name": "Dixie Farm Landfill",
@@ -296,11 +521,16 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_8286d6be50e1"
     },
     {
       "name": "Fort Bend Landfill",
@@ -309,11 +539,16 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_b2de4af8355c"
     },
     {
       "name": "Green House Road Landfill",
@@ -322,11 +557,16 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_19ceaf00ecfb"
     },
     {
       "name": "Greenshadow Landfill (Pasadena)",
@@ -335,11 +575,16 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_c72cf05570a4"
     },
     {
       "name": "Hawthorne Park Landfill",
@@ -348,11 +593,16 @@
       "phone": "Call",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_7f576ed588f7"
     },
     {
       "name": "Waste Management Landfill",
@@ -361,11 +611,16 @@
       "phone": "713-849-2902",
       "hours": "Varies",
       "fees": "Fee charge",
-      "accepted_materials": ["Heavy trash"],
-      "not_accepted": ["Garbage"],
+      "accepted_materials": [
+        "Heavy trash"
+      ],
+      "not_accepted": [
+        "Garbage"
+      ],
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_0c1cb31b5fc1"
     },
     {
       "name": "Hardy Road Transfer Station",
@@ -374,11 +629,19 @@
       "phone": "281-443-1456",
       "hours": "Monday–Saturday: 6 a.m.–5 p.m. (call to confirm)",
       "fees": "By load/weight (commercial/residential)",
-      "accepted_materials": ["Non-hazardous solid waste", "Recycling", "General trash", "Construction debris"],
-      "not_accepted": ["Hazardous waste"],
+      "accepted_materials": [
+        "Non-hazardous solid waste",
+        "Recycling",
+        "General trash",
+        "Construction debris"
+      ],
+      "not_accepted": [
+        "Hazardous waste"
+      ],
       "rules": "Public access; fees apply; no hazardous.",
       "source": "https://www.wasteconnections.com/hardy-road-transfer-station",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_4cd79d62f9f3"
     },
     {
       "name": "1200 Brittmoore Recycling Center",
@@ -387,11 +650,16 @@
       "phone": "3-1-1",
       "hours": "Varies (call for materials)",
       "fees": "Free for residents",
-      "accepted_materials": ["Call for info"],
-      "not_accepted": ["Unknown"],
+      "accepted_materials": [
+        "Call for info"
+      ],
+      "not_accepted": [
+        "Unknown"
+      ],
       "rules": "Non-city owned; residents only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_611b16ce8c2d"
     },
     {
       "name": "The Woodlands Recycling Center",
@@ -400,11 +668,16 @@
       "phone": "Call Waste Management",
       "hours": "Varies",
       "fees": "Free for township residents",
-      "accepted_materials": ["Standard recyclables"],
-      "not_accepted": ["Hazardous"],
+      "accepted_materials": [
+        "Standard recyclables"
+      ],
+      "not_accepted": [
+        "Hazardous"
+      ],
       "rules": "Woodlands Township residents",
       "source": "https://www.thewoodlandstownship-tx.gov/Departments/Environmental-Services/Trash-Recycling/Facilities",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_8272db6f0f77"
     },
     {
       "name": "Hockley Public Dumpster (Harris County Precinct 4)",
@@ -413,11 +686,18 @@
       "phone": "Call Precinct 4",
       "hours": "Monday–Saturday: 7 a.m.–3 p.m.",
       "fees": "Free for large items/misc junk",
-      "accepted_materials": ["Large items", "Miscellaneous junk"],
-      "not_accepted": ["Hazardous", "Commercial?"],
+      "accepted_materials": [
+        "Large items",
+        "Miscellaneous junk"
+      ],
+      "not_accepted": [
+        "Hazardous",
+        "Commercial?"
+      ],
       "rules": "Public convenience; hassle-free disposal.",
       "source": "https://cp4.harriscountytx.gov/Public-Dumpsters",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_158aa20288a2"
     },
     {
       "name": "Tomball Public Dumpster (Harris County Precinct 4)",
@@ -426,11 +706,17 @@
       "phone": "Call Precinct 4",
       "hours": "Monday–Saturday: 7 a.m.–3 p.m.",
       "fees": "Free",
-      "accepted_materials": ["Large items", "Junk"],
-      "not_accepted": ["Hazardous"],
+      "accepted_materials": [
+        "Large items",
+        "Junk"
+      ],
+      "not_accepted": [
+        "Hazardous"
+      ],
       "rules": "Public use",
       "source": "https://cp4.harriscountytx.gov/Public-Dumpsters",
-      "verified_date": "2026-01-29"
+      "verified_date": "2026-01-29",
+      "facility_id": "f_manual_9a73248e106a"
     }
   ]
 }
