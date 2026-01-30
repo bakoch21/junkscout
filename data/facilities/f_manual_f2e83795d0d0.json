@@ -1,0 +1,32 @@
+{
+  "id": "f_manual_f2e83795d0d0",
+  "name": "Southwest Neighborhood Depository & Recycling Center",
+  "type": "recycling",
+  "type_label": "Neighborhood Depository & Recycling Center",
+  "address": "10785 SW Freeway, Houston, TX 77074",
+  "phone": "3-1-1",
+  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+  "fees": "Free",
+  "rules": "Residents only",
+  "accepted_materials": [
+    "Trash",
+    "Yard waste",
+    "Bulk",
+    "Recyclables",
+    "Tires"
+  ],
+  "not_accepted": [
+    "Commercial",
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

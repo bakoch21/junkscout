@@ -1,0 +1,28 @@
+{
+  "id": "f_manual_9a73248e106a",
+  "name": "Tomball Public Dumpster (Harris County Precinct 4)",
+  "type": "landfill",
+  "type_label": "Public Dumpster",
+  "address": "Service Center Rd, Tomball, TX 77377",
+  "phone": "Call Precinct 4",
+  "hours": "Monday–Saturday: 7 a.m.–3 p.m.",
+  "fees": "Free",
+  "rules": "Public use",
+  "accepted_materials": [
+    "Large items",
+    "Junk"
+  ],
+  "not_accepted": [
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://cp4.harriscountytx.gov/Public-Dumpsters",
+  "osm_url": "https://cp4.harriscountytx.gov/Public-Dumpsters",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

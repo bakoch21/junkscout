@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_e923e0f35697",
+  "name": "Atascocita Landfill",
+  "type": "landfill",
+  "type_label": "Type I Landfill",
+  "address": "3623 Wilson Rd, Humble, TX 77396 (Houston area)",
+  "phone": "WM service: 800-772-8653",
+  "hours": "Varies; call",
+  "fees": "By weight/ton (fee charge)",
+  "rules": "Commercial/residential; fees apply; open to public.",
+  "accepted_materials": [
+    "Garbage",
+    "Heavy trash",
+    "Construction debris"
+  ],
+  "not_accepted": [
+    "Certain hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

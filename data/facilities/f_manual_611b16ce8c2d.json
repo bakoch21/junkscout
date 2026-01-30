@@ -1,0 +1,27 @@
+{
+  "id": "f_manual_611b16ce8c2d",
+  "name": "1200 Brittmoore Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1200 Brittmoore Rd, Houston, TX 77043",
+  "phone": "3-1-1",
+  "hours": "Varies (call for materials)",
+  "fees": "Free for residents",
+  "rules": "Non-city owned; residents only",
+  "accepted_materials": [
+    "Call for info"
+  ],
+  "not_accepted": [
+    "Unknown"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f_manual_243ef4ba5b8c",
+  "name": "South Neighborhood Depository & Recycling Center",
+  "type": "recycling",
+  "type_label": "Neighborhood Depository & Recycling Center",
+  "address": "5100 Sunbeam St, Houston, TX 77033",
+  "phone": "3-1-1",
+  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+  "fees": "Free",
+  "rules": "Proof required",
+  "accepted_materials": [
+    "Trash",
+    "Yard waste",
+    "Bulk",
+    "Recyclables",
+    "Tires"
+  ],
+  "not_accepted": [
+    "Commercial",
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

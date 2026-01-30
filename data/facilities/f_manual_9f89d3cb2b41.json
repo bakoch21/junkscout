@@ -1,0 +1,40 @@
+{
+  "id": "f_manual_9f89d3cb2b41",
+  "name": "Reuse Warehouse",
+  "type": "drop_off",
+  "type_label": "Reuse Warehouse",
+  "address": "9003 N Main St, Houston, TX 77022",
+  "phone": "3-1-1",
+  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+  "fees": "Free/donation-based",
+  "rules": "For reuse/donation; check schedule; residents only.",
+  "accepted_materials": [
+    "Working appliances",
+    "Furniture",
+    "Building materials",
+    "Household goods",
+    "Aluminum/tin",
+    "Plastics",
+    "Paper",
+    "Glass",
+    "Oil",
+    "Tree waste",
+    "Cardboard",
+    "Tires"
+  ],
+  "not_accepted": [
+    "Broken items",
+    "Hazardous",
+    "Garbage"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

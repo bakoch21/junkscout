@@ -1,0 +1,28 @@
+{
+  "id": "f_manual_422e6d19df67",
+  "name": "BFI Blue Ridge Landfill",
+  "type": "landfill",
+  "type_label": "Type I Landfill",
+  "address": "2200 FM 521, Fresno, TX 77545 (Houston area)",
+  "phone": "Call",
+  "hours": "Varies",
+  "fees": "Fee charge",
+  "rules": "Public with fees",
+  "accepted_materials": [
+    "Garbage",
+    "Heavy trash"
+  ],
+  "not_accepted": [
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

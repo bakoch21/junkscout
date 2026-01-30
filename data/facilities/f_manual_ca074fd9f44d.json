@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_ca074fd9f44d",
+  "name": "Northwest Neighborhood Depository & Recycling Center",
+  "type": "recycling",
+  "type_label": "Neighborhood Depository & Recycling Center",
+  "address": "14400 Sommermeyer St, Houston, TX 77041",
+  "phone": "3-1-1",
+  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+  "fees": "Free for residents",
+  "rules": "Residents only; proof required; arrive early.",
+  "accepted_materials": [
+    "Household trash",
+    "Yard waste",
+    "Bulk items",
+    "Recyclables",
+    "Tires (limited)",
+    "Used oil",
+    "Tree waste"
+  ],
+  "not_accepted": [
+    "Commercial",
+    "Hazardous",
+    "Rubber items",
+    "Cords/lights"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

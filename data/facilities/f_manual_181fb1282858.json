@@ -1,0 +1,32 @@
+{
+  "id": "f_manual_181fb1282858",
+  "name": "Northeast Neighborhood Depository & Recycling Center",
+  "type": "recycling",
+  "type_label": "Neighborhood Depository & Recycling Center",
+  "address": "5565 Kirkpatrick Blvd, Houston, TX 77028",
+  "phone": "3-1-1",
+  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+  "fees": "Free for residents",
+  "rules": "Proof of residency",
+  "accepted_materials": [
+    "Trash",
+    "Yard waste",
+    "Bulk",
+    "Recyclables",
+    "Tires"
+  ],
+  "not_accepted": [
+    "Commercial",
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

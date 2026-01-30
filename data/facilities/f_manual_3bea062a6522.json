@@ -1,0 +1,28 @@
+{
+  "id": "f_manual_3bea062a6522",
+  "name": "BFI Whispering Pines Landfill",
+  "type": "landfill",
+  "type_label": "Type I Landfill",
+  "address": "8100 Little York Rd, Houston, TX 77016",
+  "phone": "Call for info",
+  "hours": "Varies",
+  "fees": "Fee charge",
+  "rules": "Fees by load",
+  "accepted_materials": [
+    "Garbage",
+    "Heavy trash"
+  ],
+  "not_accepted": [
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

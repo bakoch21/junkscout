@@ -1,0 +1,31 @@
+{
+  "id": "f_manual_5764f3beec35",
+  "name": "Environmental Service Center - South",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "11500 S Post Oak Rd, Houston, TX 77035",
+  "phone": "832-393-7766",
+  "hours": "Call for schedule (similar to North)",
+  "fees": "Free for residents",
+  "rules": "Residents only; appointment may be required.",
+  "accepted_materials": [
+    "Paint",
+    "Cleaners",
+    "Pesticides",
+    "Batteries",
+    "Chemicals"
+  ],
+  "not_accepted": [
+    "Commercial"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

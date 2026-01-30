@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_b201a7ca6cf8",
+  "name": "Harris County Household Hazardous Waste Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "6900 Hahl Rd, Houston, TX 77040",
+  "phone": "(713) 290-3000 or similar (check site)",
+  "hours": "Tues/Wed 9 a.m.–3 p.m.; 2nd/4th Sat 9 a.m.–2 p.m. (appointments)",
+  "fees": "Free for Harris County residents",
+  "rules": "Outside Houston city jurisdiction; no city taxes/services.",
+  "accepted_materials": [
+    "Aerosols",
+    "Auto products",
+    "Batteries",
+    "Cleaners",
+    "Chemicals",
+    "Propane",
+    "Tires (5 max)",
+    "Mercury items"
+  ],
+  "not_accepted": [
+    "Commercial",
+    "Explosives"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
+  "osm_url": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

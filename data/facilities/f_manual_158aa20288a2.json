@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_158aa20288a2",
+  "name": "Hockley Public Dumpster (Harris County Precinct 4)",
+  "type": "landfill",
+  "type_label": "Public Dumpster",
+  "address": "28511 Old Washington Rd, Hockley, TX 77447",
+  "phone": "Call Precinct 4",
+  "hours": "Monday–Saturday: 7 a.m.–3 p.m.",
+  "fees": "Free for large items/misc junk",
+  "rules": "Public convenience; hassle-free disposal.",
+  "accepted_materials": [
+    "Large items",
+    "Miscellaneous junk"
+  ],
+  "not_accepted": [
+    "Hazardous",
+    "Commercial?"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://cp4.harriscountytx.gov/Public-Dumpsters",
+  "osm_url": "https://cp4.harriscountytx.gov/Public-Dumpsters",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

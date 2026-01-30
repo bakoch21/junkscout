@@ -1,0 +1,28 @@
+{
+  "id": "f_manual_6f039ab2f19a",
+  "name": "Coastal Plains Landfill (Alvin)",
+  "type": "landfill",
+  "type_label": "Type I Landfill",
+  "address": "21000 East Highway 6, Alvin, TX 77511",
+  "phone": "Call",
+  "hours": "Varies",
+  "fees": "Fee charge",
+  "rules": "Fees apply",
+  "accepted_materials": [
+    "Garbage",
+    "Heavy trash"
+  ],
+  "not_accepted": [
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

@@ -1,8 +1,6 @@
 // facility.js
 // Loads /data/facilities/{id}.json and renders into the facility template.
 // Also renders manual facility badges from /data/facility-badges.json when present.
-// PLUS: merges curated/manual override details from /data/manual/facility-overrides.json
-// into the facility view (hours/fees/rules/materials/verified_date/source).
 
 function titleCaseFromSlug(slug = "") {
   return slug
@@ -23,7 +21,6 @@ function escapeHtml(str = "") {
 }
 
 function getFacilityIdFromPath() {
-  // /facility/f_xxxxxxxx/index.html OR /facility/f_xxxxxxxx/
   const parts = window.location.pathname.split("/").filter(Boolean);
   const i = parts.indexOf("facility");
   if (i === -1) return "";
@@ -39,28 +36,16 @@ function typeLabel(type) {
 }
 
 function isHoustonFacility(f) {
-  // Primary: appears_in includes houston
   const appears = Array.isArray(f?.appears_in) ? f.appears_in : [];
-  const inHouston =
-    appears.some((x) => String(x?.city || "").toLowerCase() === "houston");
-
+  const inHouston = appears.some((x) => String(x?.city || "").toLowerCase() === "houston");
   if (inHouston) return true;
 
-  // Fallback: address includes "Houston"
   const addr = String(f?.address || "").toLowerCase();
   if (addr.includes("houston")) return true;
 
   return false;
 }
 
-/**
- * Manual badge rendering for facility pages (SEO-safe, UI-only).
- * Expects /data/facility-badges.json to look like:
- * {
- *   "f_123": ["fee_charge_likely","accepts_heavy_trash"],
- *   ...
- * }
- */
 function badgeLabel(key) {
   const map = {
     free_to_residents: "Free to residents",
@@ -116,62 +101,33 @@ async function loadFacilityBadges(id) {
   }
 }
 
-/** =========================
- * Manual overrides (curated)
- * =========================
- *
- * Expects /data/manual/facility-overrides.json:
- * {
- *   "f_123": {
- *     "hours": "...",
- *     "fees": "...",
- *     "rules": "...",
- *     "accepted_materials": [...],
- *     "not_accepted": [...],
- *     "verified_date": "YYYY-MM-DD",
- *     "source": "https://..."
- *   }
- * }
- */
-
-async function loadFacilityOverrides() {
-  try {
-    const res = await fetch("/data/manual/facility-overrides.json", { cache: "no-store" });
-    if (!res.ok) return null;
-    const json = await res.json();
-    return json && typeof json === "object" ? json : null;
-  } catch {
-    return null;
-  }
-}
-
 function coerceArray(v) {
   return Array.isArray(v) ? v : [];
 }
 
-function hasOverrideDetails(ov) {
-  if (!ov) return false;
-  if (ov.hours) return true;
-  if (ov.fees) return true;
-  if (ov.rules) return true;
-  if (coerceArray(ov.accepted_materials).length) return true;
-  if (coerceArray(ov.not_accepted).length) return true;
-  if (ov.verified_date) return true;
-  if (ov.source) return true;
+function hasVerifiedDetails(f) {
+  if (!f) return false;
+  if (f.hours) return true;
+  if (f.fees) return true;
+  if (f.rules) return true;
+  if (coerceArray(f.accepted_materials).length) return true;
+  if (coerceArray(f.not_accepted).length) return true;
+  if (f.verified_date) return true;
+  if (f.source) return true;
   return false;
 }
 
-function renderVerifiedSection(ov) {
-  if (!hasOverrideDetails(ov)) return "";
+function renderVerifiedSection(f) {
+  if (!hasVerifiedDetails(f)) return "";
 
-  const hours = ov.hours ? escapeHtml(ov.hours) : "";
-  const fees = ov.fees ? escapeHtml(ov.fees) : "";
-  const rules = ov.rules ? escapeHtml(ov.rules) : "";
-  const verified = ov.verified_date ? escapeHtml(ov.verified_date) : "";
-  const source = ov.source ? String(ov.source).trim() : "";
+  const hours = f.hours ? escapeHtml(f.hours) : "";
+  const fees = f.fees ? escapeHtml(f.fees) : "";
+  const rules = f.rules ? escapeHtml(f.rules) : "";
+  const verified = f.verified_date ? escapeHtml(f.verified_date) : "";
+  const source = f.source ? String(f.source).trim() : "";
 
-  const accepted = coerceArray(ov.accepted_materials).map((x) => escapeHtml(String(x))).filter(Boolean);
-  const notAccepted = coerceArray(ov.not_accepted).map((x) => escapeHtml(String(x))).filter(Boolean);
+  const accepted = coerceArray(f.accepted_materials).map((x) => escapeHtml(String(x))).filter(Boolean);
+  const notAccepted = coerceArray(f.not_accepted).map((x) => escapeHtml(String(x))).filter(Boolean);
 
   return `
     <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
@@ -209,25 +165,18 @@ function renderVerifiedSection(ov) {
   `;
 }
 
-function injectVerifiedSectionIntoPage(html) {
-  // Put it at the end of the "about" area if present; otherwise append below the about block.
+function injectVerifiedSection(html) {
   const aboutEl = document.getElementById("facilityAbout");
   if (!aboutEl) return;
 
-  // Avoid double-inject if load runs twice
   if (document.getElementById("verifiedDetails")) return;
 
   const wrap = document.createElement("div");
   wrap.id = "verifiedDetails";
   wrap.innerHTML = html;
 
-  // Insert AFTER the about block (clean + consistent)
   aboutEl.parentNode.insertBefore(wrap, aboutEl.nextSibling);
 }
-
-/** =========================
- * Main load
- * ========================= */
 
 async function loadFacility() {
   const id = getFacilityIdFromPath();
@@ -236,21 +185,10 @@ async function loadFacility() {
   const dataUrl = `/data/facilities/${id}.json`;
 
   try {
-    // Load base facility + optional overrides in parallel
-    const [res, overrides] = await Promise.all([
-      fetch(dataUrl, { cache: "no-store" }),
-      loadFacilityOverrides(),
-    ]);
-
+    const res = await fetch(dataUrl, { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load ${dataUrl} (${res.status})`);
 
-    const base = await res.json();
-
-    // Merge override (if any)
-    const ov = overrides?.[id] || null;
-
-    // Non-destructive merge: override fields win, but we keep base data for everything else
-    const f = ov ? { ...base, ...ov } : base;
+    const f = await res.json();
 
     const titleEl = document.getElementById("facilityTitle");
     const subEl = document.getElementById("facilitySubhead");
@@ -265,7 +203,6 @@ async function loadFacility() {
     const citiesEl = document.getElementById("facilityCities");
     const aboutEl = document.getElementById("facilityAbout");
 
-    // Houston modal trigger (already in template)
     const houBtn = document.getElementById("houstonRulesBtn");
 
     const name = f.name || "Unnamed site";
@@ -281,8 +218,7 @@ async function loadFacility() {
 
     if (titleEl) titleEl.textContent = name;
     if (kickerEl) kickerEl.textContent = type;
-    if (subEl)
-      subEl.textContent = `${type} in the area — confirm hours, fees, and accepted materials before visiting.`;
+    if (subEl) subEl.textContent = `${type} in the area — confirm hours, fees, and accepted materials before visiting.`;
 
     if (addrEl) addrEl.textContent = address;
     if (coordsEl) coordsEl.textContent = lat && lng ? `Coordinates: ${lat}, ${lng}` : "";
@@ -297,7 +233,6 @@ async function loadFacility() {
       webEl.style.display = "none";
     }
 
-    // Source link: keep OSM source behavior
     if (srcEl && f.osm_url) {
       srcEl.style.display = "inline";
       srcEl.href = f.osm_url;
@@ -317,6 +252,7 @@ async function loadFacility() {
         .filter(Boolean)
         .sort((a, b) => a.localeCompare(b));
 
+      // NOTE: your existing code hardcodes /texas/. Leaving as-is for now.
       citiesEl.innerHTML = cities
         .map((citySlug) => {
           const cityName = titleCaseFromSlug(citySlug);
@@ -325,22 +261,19 @@ async function loadFacility() {
         .join("");
     }
 
-    // Render facility badges (UI-only)
+    // Badges (optional)
     loadFacilityBadges(id);
 
-    // ✅ Inject verified details section if overrides exist
-    if (ov) {
-      const verifiedHtml = renderVerifiedSection(ov);
-      if (verifiedHtml) injectVerifiedSectionIntoPage(verifiedHtml);
-    }
+    // ✅ Manual-rich section
+    const verifiedHtml = renderVerifiedSection(f);
+    if (verifiedHtml) injectVerifiedSection(verifiedHtml);
 
-    // --- Houston modal wiring (SEO-safe, UI-only) ---
-    const isHouston = isHoustonFacility(base); // base record determines city-ness
+    // Modal trigger (UI-only)
+    const isHouston = isHoustonFacility(f);
     window.__isHoustonFacility = isHouston;
 
     if (houBtn) {
       houBtn.style.display = isHouston ? "inline-flex" : "none";
-      // Click handler is bound inside houston-modal.js (auto-bind mode)
     }
   } catch (err) {
     console.error(err);

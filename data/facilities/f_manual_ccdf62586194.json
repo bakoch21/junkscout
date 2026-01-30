@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_ccdf62586194",
+  "name": "North Neighborhood Depository & Recycling Center",
+  "type": "recycling",
+  "type_label": "Neighborhood Depository & Recycling Center",
+  "address": "9003 N Main St, Houston, TX 77022",
+  "phone": "3-1-1",
+  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+  "fees": "Free for residents (up to 4 visits/month)",
+  "rules": "Houston residents only; proof required (TX ID + utility bill/lease/tax bill/student ID); arrive 30 min before closing; no commercial vehicles.",
+  "accepted_materials": [
+    "Household trash",
+    "Yard waste",
+    "Bulk items",
+    "Recyclables (plastics, paper, glass, metals)",
+    "Up to 5 tires/month (no rims)",
+    "Used motor oil",
+    "Tree waste",
+    "Cardboard"
+  ],
+  "not_accepted": [
+    "Commercial waste",
+    "Hazardous materials (except at designated centers)",
+    "Rubber materials (tubes, hoses, gloves)",
+    "Extension cords",
+    "Wiring/string lights"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

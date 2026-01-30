@@ -1,0 +1,27 @@
+{
+  "id": "f_manual_0c1cb31b5fc1",
+  "name": "Waste Management Landfill",
+  "type": "landfill",
+  "type_label": "Type IV Landfill",
+  "address": "8205 Fairbanks N Houston Rd, Houston, TX 77064",
+  "phone": "713-849-2902",
+  "hours": "Varies",
+  "fees": "Fee charge",
+  "rules": "Heavy trash only",
+  "accepted_materials": [
+    "Heavy trash"
+  ],
+  "not_accepted": [
+    "Garbage"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

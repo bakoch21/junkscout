@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_2b7ee1dc091c",
+  "name": "Clear Lake/Ellington Airport Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "246 Loop Rd, Houston, TX 77034",
+  "phone": "3-1-1",
+  "hours": "Open 7 days: 8 a.m.–8 p.m.",
+  "fees": "Free",
+  "rules": "Residents only; proof required; 4x/month.",
+  "accepted_materials": [
+    "Aluminum/tin/aerosol",
+    "All plastics",
+    "Newspapers/magazines",
+    "Glass",
+    "Used oil",
+    "Tree waste",
+    "Cardboard",
+    "Up to 5 tires/month"
+  ],
+  "not_accepted": [
+    "Hazardous",
+    "Bulk/furniture",
+    "Rubber",
+    "Cords/lights",
+    "Garbage"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

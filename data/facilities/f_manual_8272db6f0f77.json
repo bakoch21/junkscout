@@ -1,0 +1,27 @@
+{
+  "id": "f_manual_8272db6f0f77",
+  "name": "The Woodlands Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "The Woodlands area (check township site for exact)",
+  "phone": "Call Waste Management",
+  "hours": "Varies",
+  "fees": "Free for township residents",
+  "rules": "Woodlands Township residents",
+  "accepted_materials": [
+    "Standard recyclables"
+  ],
+  "not_accepted": [
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.thewoodlandstownship-tx.gov/Departments/Environmental-Services/Trash-Recycling/Facilities",
+  "osm_url": "https://www.thewoodlandstownship-tx.gov/Departments/Environmental-Services/Trash-Recycling/Facilities",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

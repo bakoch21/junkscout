@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_8ea5daf19171",
+  "name": "Environmental Service Center - North",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "5614 Neches St, Building C, Houston, TX 77026",
+  "phone": "832-393-7766",
+  "hours": "Tuesdays/Wednesdays 9 a.m.–3 p.m.; 2nd/4th Saturdays 9 a.m.–2 p.m. (by appointment)",
+  "fees": "Free for Harris County residents (outside Houston city services)",
+  "rules": "Harris County residents only (no City of Houston services/taxes); appointment required; enter at Hahl Rd (290/Gessner).",
+  "accepted_materials": [
+    "Aerosols (no Freon/mace)",
+    "Automotive products (gas, oil)",
+    "Batteries (up to car size)",
+    "Household cleaners",
+    "Chemicals (pool, fertilizers, pesticides)",
+    "Propane cylinders",
+    "Tires (up to 5/visit)",
+    "Thermometers/mercury items"
+  ],
+  "not_accepted": [
+    "Commercial hazardous",
+    "Medical waste"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
+  "osm_url": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

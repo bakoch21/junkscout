@@ -1,0 +1,27 @@
+{
+  "id": "f_manual_19ceaf00ecfb",
+  "name": "Green House Road Landfill",
+  "type": "landfill",
+  "type_label": "Type IV Landfill",
+  "address": "3510 Greenhouse Rd, Houston, TX",
+  "phone": "Call",
+  "hours": "Varies",
+  "fees": "Fee charge",
+  "rules": "Heavy trash only",
+  "accepted_materials": [
+    "Heavy trash"
+  ],
+  "not_accepted": [
+    "Garbage"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

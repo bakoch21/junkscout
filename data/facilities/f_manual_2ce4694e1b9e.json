@@ -1,0 +1,28 @@
+{
+  "id": "f_manual_2ce4694e1b9e",
+  "name": "2020 Atascocita Landfill",
+  "type": "landfill",
+  "type_label": "Type I Landfill",
+  "address": "N/A (check for update)",
+  "phone": "Call",
+  "hours": "Varies",
+  "fees": "Fee charge",
+  "rules": "Public fees",
+  "accepted_materials": [
+    "Garbage",
+    "Heavy trash"
+  ],
+  "not_accepted": [
+    "Hazardous"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "f_manual_b8611d1dc0a2",
+  "name": "Westpark Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "5900 Westpark Dr, Houston, TX 77057",
+  "phone": "3-1-1",
+  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
+  "fees": "Free",
+  "rules": "Residents only; 4x/month limit; proof: TX ID + utility/lease/tax/student ID; arrive 30 min early; no commercial vehicles.",
+  "accepted_materials": [
+    "Aluminum/tin/aerosol cans",
+    "All plastics (#1-7)",
+    "Newspapers/magazines",
+    "Glass bottles/jars",
+    "Used motor oil",
+    "Tree waste",
+    "Cardboard",
+    "Up to 5 tires/month (no rims)"
+  ],
+  "not_accepted": [
+    "Hazardous materials (chemicals, oil, fuel)",
+    "Bulk items/furniture (sheds, pools)",
+    "Rubber materials (tubes, hoses, gloves)",
+    "Extension cords",
+    "Wiring/string lights",
+    "Household garbage"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

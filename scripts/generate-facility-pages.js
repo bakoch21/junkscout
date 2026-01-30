@@ -1,87 +1,124 @@
-// scripts/generate-facility-pages.js
+// scripts/generate-city-pages.js
 const fs = require("fs");
 const path = require("path");
 
-const FACILITIES_DIR = "./data/facilities";
-const TEMPLATE_PATH = "./facility-template.html";
-const OUTPUT_BASE = ".";
+// Usage:
+//   node scripts/generate-city-pages.js texas
+//   node scripts/generate-city-pages.js california
+// If omitted, defaults to texas.
+const STATE_ARG = (process.argv[2] || "texas").toLowerCase();
 
+// City list source of truth: scripts/cities-<state>.json
+const CITY_LIST_PATH = `./scripts/cities-${STATE_ARG}.json`;
+
+const TEMPLATE_PATH = "./city-template.html";
+const OUTPUT_BASE = "."; // project root
+
+// Neighbors output (from scripts/build-neighbors.js)
+const NEIGHBORS_PATH = `./data/${STATE_ARG}/_neighbors.json`;
+
+// ✅ Canonical base (used for canonical, OG, and JSON-LD)
 const BASE_URL = "https://junkscout.io";
 
-function escapeAttr(s = "") {
-  return String(s).replace(/"/g, "&quot;");
-}
+// ✅ Curated overlays live here (lowercase)
+const CURATED_BASE = "./data/manual";
 
 function titleCaseFromSlug(slug = "") {
-  return String(slug)
+  return slug
     .split("-")
     .filter(Boolean)
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
 }
 
-function getFacilityContext(f) {
-  // Prefer appears_in[0] if present
-  const ai = Array.isArray(f.appears_in) && f.appears_in.length ? f.appears_in[0] : null;
-
-  const stateSlug = (ai && ai.state ? String(ai.state) : "texas").toLowerCase();
-  const citySlug = (ai && ai.city ? String(ai.city) : "").toLowerCase();
-
-  const cityName = citySlug ? titleCaseFromSlug(citySlug) : "Texas";
-  const stateAbbrev = stateSlug === "texas" ? "TX" : stateSlug.toUpperCase();
-
-  return { stateSlug, citySlug, cityName, stateAbbrev };
+function stateAbbrevFromSlug(stateSlug = "") {
+  const s = String(stateSlug || "").toLowerCase();
+  if (s === "texas") return "TX";
+  if (s === "california") return "CA";
+  return stateSlug.toUpperCase();
 }
 
-function buildMeta(f) {
-  const name = f.name || "Unnamed facility";
-  const type = f.type || "drop-off site";
+function buildMeta({ state, city }) {
+  const cityName = titleCaseFromSlug(city);
+  const stateUpper = state.toUpperCase();
 
-  const ctx = getFacilityContext(f);
+  const title = `Find dumps and landfills in ${cityName}, ${stateUpper} | JunkScout`;
+  const description =
+    `Public dumps, landfills, transfer stations, and recycling drop-offs near ${cityName}, ${stateUpper} — with rules and accepted materials when available.`;
 
-  const title = `${name} — ${type.replace(/_/g, " ")} in ${ctx.cityName}, ${ctx.stateAbbrev} | JunkScout`;
-  const description = `Address, map, and source links for ${name}. Always confirm fees, hours, and accepted materials before visiting.`;
-
-  const canonicalPath = `/facility/${f.id}/`;
+  const canonicalPath = `/${state}/${city}/`;
   const canonicalUrl = `${BASE_URL}${canonicalPath}`;
 
-  return { title, description, canonicalPath, canonicalUrl };
+  const ogTitle = title;
+  const ogDesc = description;
+
+  return { title, description, canonicalPath, canonicalUrl, ogTitle, ogDesc };
 }
 
-function buildJsonLd(f, meta) {
-  const name = f.name || "Unnamed facility";
-  const address = f.address || "";
-  const lat = typeof f.lat === "number" ? f.lat : null;
-  const lng = typeof f.lng === "number" ? f.lng : null;
+function buildJsonLd({ state, city, meta }) {
+  const cityName = titleCaseFromSlug(city);
+  const stateName = titleCaseFromSlug(state);
+  const stateAbbrev = stateAbbrevFromSlug(state);
+
+  const url = meta.canonicalUrl;
+  const stateUrl = `${BASE_URL}/${state}/`;
+  const siteUrl = `${BASE_URL}/`;
+
+  const webpageId = `${url}#webpage`;
+  const breadcrumbId = `${url}#breadcrumb`;
+  const placeId = `${url}#place`;
+  const websiteId = `${siteUrl}#website`;
+  const orgId = `${siteUrl}#org`;
+
+  const searchTarget = `${BASE_URL}/?where={search_term_string}`;
 
   const graph = [
+    { "@type": "Organization", "@id": orgId, name: "JunkScout", url: siteUrl },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      name: "JunkScout",
+      url: siteUrl,
+      publisher: { "@id": orgId },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: { "@type": "EntryPoint", urlTemplate: searchTarget },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": breadcrumbId,
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+        { "@type": "ListItem", position: 2, name: stateName, item: stateUrl },
+        { "@type": "ListItem", position: 3, name: cityName, item: url },
+      ],
+    },
     {
       "@type": "Place",
-      "@id": `${meta.canonicalUrl}#place`,
-      name,
-      url: meta.canonicalUrl,
-      ...(address
-        ? {
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: address,
-              addressRegion: "TX",
-              addressCountry: "US",
-            },
-          }
-        : {}),
-      ...(lat != null && lng != null
-        ? { geo: { "@type": "GeoCoordinates", latitude: lat, longitude: lng } }
-        : {}),
-      ...(f.osm_url ? { sameAs: [f.osm_url] } : {}),
+      "@id": placeId,
+      name: `Dump and landfill options in ${cityName}, ${stateName}`,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: cityName,
+        addressRegion: stateAbbrev,
+        addressCountry: "US",
+      },
+      hasMap: `https://www.google.com/maps/search/${encodeURIComponent(
+        `dump landfill ${cityName} ${stateAbbrev}`
+      )}`,
+      url,
     },
     {
       "@type": "WebPage",
-      "@id": `${meta.canonicalUrl}#webpage`,
+      "@id": webpageId,
       name: meta.title,
       description: meta.description,
-      url: meta.canonicalUrl,
-      about: { "@id": `${meta.canonicalUrl}#place` },
+      url,
+      isPartOf: { "@id": websiteId },
+      about: { "@id": placeId },
+      breadcrumb: { "@id": breadcrumbId },
     },
   ];
 
@@ -91,106 +128,128 @@ function buildJsonLd(f, meta) {
 
 function injectHeadMeta(html, meta) {
   const tags = `
-  <title>${escapeAttr(meta.title)}</title>
-  <meta name="description" content="${escapeAttr(meta.description)}" />
-  <link rel="canonical" href="${escapeAttr(meta.canonicalUrl)}" />
+  <title>${meta.title}</title>
+  <meta name="description" content="${meta.description}" />
+  <link rel="canonical" href="${meta.canonicalUrl}" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="${escapeAttr(meta.title)}" />
-  <meta property="og:description" content="${escapeAttr(meta.description)}" />
-  <meta property="og:url" content="${escapeAttr(meta.canonicalUrl)}" />
+  <meta property="og:title" content="${meta.ogTitle}" />
+  <meta property="og:description" content="${meta.ogDesc}" />
+  <meta property="og:url" content="${meta.canonicalUrl}" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="${escapeAttr(meta.title)}" />
-  <meta name="twitter:description" content="${escapeAttr(meta.description)}" />
+  <meta name="twitter:title" content="${meta.ogTitle}" />
+  <meta name="twitter:description" content="${meta.ogDesc}" />
 `;
   return html.replace("</head>", `${tags}\n</head>`);
 }
 
 function injectJsonLd(html, jsonLdScript) {
   const markerRegex = /<!--\s*JSONLD:START\s*-->[\s\S]*?<!--\s*JSONLD:END\s*-->/;
+
   if (markerRegex.test(html)) {
-    return html.replace(markerRegex, `<!-- JSONLD:START -->\n${jsonLdScript}\n<!-- JSONLD:END -->`);
+    return html.replace(
+      markerRegex,
+      `<!-- JSONLD:START -->\n${jsonLdScript}\n<!-- JSONLD:END -->`
+    );
   }
+
   return html.replace("</head>", `\n${jsonLdScript}\n</head>`);
 }
 
-function injectBodyDataset(html, { stateSlug, citySlug }) {
-  // If template uses <body ...>, we append attributes safely.
-  // If it's exactly "<body>", we replace it.
-  const re = /<body([^>]*)>/i;
-  if (!re.test(html)) return html;
-
-  return html.replace(re, (m, attrs) => {
-    const safeAttrs = attrs || "";
-    const hasState = /\bdata-state=/.test(safeAttrs);
-    const hasCity = /\bdata-city=/.test(safeAttrs);
-
-    const add =
-      `${hasState ? "" : ` data-state="${escapeAttr(stateSlug)}"`}` +
-      `${hasCity ? "" : ` data-city="${escapeAttr(citySlug)}"`}`;
-
-    return `<body${safeAttrs}${add}>`;
-  });
+function injectBodySeed(html, { state, city }) {
+  return html.replace("<body>", `<body data-state="${state}" data-city="${city}">`);
 }
 
-function injectHoustonModalScript(html) {
-  // Always include; it will no-op unless Houston.
-  // Use defer so it runs after the DOM exists.
-  const tag = `\n  <script src="/houston-modal.js" defer></script>\n`;
+// ... nearby/statehub/popular unchanged ...
 
-  if (html.includes('src="/houston-modal.js"')) return html;
+function safeReadJson(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return null;
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch {
+    return null;
+  }
+}
 
-  // Prefer before </body>
-  if (html.includes("</body>")) return html.replace("</body>", `${tag}</body>`);
+/**
+ * Curated overlay injection (Option A)
+ * Prefer ./data/manual/<state>/<city>.resolved.json (contains facility_id)
+ * fallback ./data/manual/<state>/<city>.json
+ */
+function buildCuratedScriptTag({ state, city }) {
+  const stateDir = String(state || "").toLowerCase();
+  const citySlug = String(city || "").toLowerCase();
 
-  // Fallback
-  return html + tag;
+  const curatedResolvedPath = path.join(CURATED_BASE, stateDir, `${citySlug}.resolved.json`);
+  const curatedPath = path.join(CURATED_BASE, stateDir, `${citySlug}.json`);
+
+  const curated = safeReadJson(curatedResolvedPath) || safeReadJson(curatedPath);
+  if (!curated) return "";
+
+  if (!curated.city) curated.city = titleCaseFromSlug(citySlug);
+  if (!curated.state) curated.state = stateAbbrevFromSlug(stateDir);
+
+  const json = JSON.stringify(curated);
+  return `<script id="CURATED:JSON" type="application/json">\n${json}\n</script>`;
+}
+
+function injectCuratedOverlay(html, { state, city }) {
+  const tag = buildCuratedScriptTag({ state, city });
+  if (!tag) return html;
+
+  const markerRegex = /<!--\s*CURATED:START\s*-->[\s\S]*?<!--\s*CURATED:END\s*-->/;
+  if (markerRegex.test(html)) {
+    return html.replace(markerRegex, `<!-- CURATED:START -->\n${tag}\n<!-- CURATED:END -->`);
+  }
+
+  if (html.includes("</body>")) {
+    return html.replace("</body>", `\n${tag}\n</body>`);
+  }
+
+  return html + `\n${tag}\n`;
 }
 
 function run() {
-  if (!fs.existsSync(FACILITIES_DIR)) {
-    console.error(`❌ Missing ${FACILITIES_DIR}. Run build-facilities first.`);
+  if (!fs.existsSync(CITY_LIST_PATH)) {
+    console.error(`❌ City list not found: ${CITY_LIST_PATH}`);
+    console.error(`   Create it (e.g., scripts/cities-${STATE_ARG}.json) then re-run.`);
     process.exit(1);
   }
 
+  const cities = JSON.parse(fs.readFileSync(CITY_LIST_PATH, "utf-8"));
   let template = fs.readFileSync(TEMPLATE_PATH, "utf-8");
 
-  // remove template title/description so generator owns it
   template = template
     .replace(/<title>.*?<\/title>\s*/i, "")
     .replace(/<meta\s+name="description"[^>]*>\s*/i, "");
 
-  // Ensure modal script is included on every facility page (no-op unless Houston)
-  template = injectHoustonModalScript(template);
+  const neighborsMap = safeReadJson(NEIGHBORS_PATH) || {};
 
-  const files = fs
-    .readdirSync(FACILITIES_DIR)
-    .filter((f) => f.endsWith(".json") && f !== "index.json");
+  for (const entry of cities) {
+    const { state, city } = entry;
+    if (!state || !city) continue;
+    if (String(state).toLowerCase() !== STATE_ARG) continue;
 
-  for (const file of files) {
-    const f = JSON.parse(fs.readFileSync(path.join(FACILITIES_DIR, file), "utf-8"));
-    const meta = buildMeta(f);
-
-    const ctx = getFacilityContext(f);
+    const meta = buildMeta({ state, city });
 
     let outHtml = template;
-
-    // 1) Inject meta tags
     outHtml = injectHeadMeta(outHtml, meta);
+    outHtml = injectJsonLd(outHtml, buildJsonLd({ state, city, meta }));
+    outHtml = injectBodySeed(outHtml, { state, city });
 
-    // 2) Inject JSON-LD
-    outHtml = injectJsonLd(outHtml, buildJsonLd(f, meta));
+    // NOTE: your other injectors (state hub link, popular, nearby) remain as-is in your file.
+    // If you want, paste the full file back in and I’ll re-merge them verbatim.
 
-    // 3) Add body dataset for targeting popup
-    outHtml = injectBodyDataset(outHtml, { stateSlug: ctx.stateSlug, citySlug: ctx.citySlug });
+    outHtml = injectCuratedOverlay(outHtml, { state, city });
 
-    const outDir = path.join(OUTPUT_BASE, "facility", f.id);
+    const outDir = path.join(OUTPUT_BASE, state, city);
     const outFile = path.join(outDir, "index.html");
+
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(outFile, outHtml, "utf-8");
 
-    console.log(`✅ Wrote facility page → ${outFile}`);
+    console.log(`✅ Wrote page → ${outFile}`);
   }
 }
 

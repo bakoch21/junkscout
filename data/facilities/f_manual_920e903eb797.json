@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_920e903eb797",
+  "name": "Kingwood Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "3210 W Lake Houston Pkwy, Houston, TX 77339",
+  "phone": "3-1-1",
+  "hours": "Saturday–Sunday: 8 a.m.–6 p.m.",
+  "fees": "Free",
+  "rules": "Residents only; proof required.",
+  "accepted_materials": [
+    "Aluminum/tin",
+    "Plastics",
+    "Paper/magazines",
+    "Glass",
+    "Oil",
+    "Tree waste",
+    "Cardboard",
+    "Tires (limited)"
+  ],
+  "not_accepted": [
+    "Hazardous",
+    "Bulk",
+    "Rubber",
+    "Cords",
+    "Garbage"
+  ],
+  "verified_date": "2026-01-29",
+  "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

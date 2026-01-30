@@ -3,15 +3,6 @@
 // Supports BOTH routing styles:
 //   Hash route:   /city-template.html#texas/dallas  -> /data/texas/dallas.json
 //   Path route:   /texas/dallas/                   -> /data/texas/dallas.json
-//
-// Curated overlay (Option A):
-// If the generated city page includes:
-//   <script id="CURATED:JSON" type="application/json">{"city":"...","state":"..",...}</script>
-// then we render a curated "City guide" section ABOVE the normal results.
-//
-// Behavior:
-// - If curated overlay exists, default to REPLACE mode (hide normal results list).
-// - Auto-link curated cards to facility pages when we can match address/name to city JSON.
 
 function ensureRobotsMeta(content = "index,follow") {
   const existing = document.querySelector('meta[name="robots"]');
@@ -77,314 +68,36 @@ function setCanonical(url) {
 function applyCitySEO({ cityName, stateName }) {
   const pretty = `${cityName}, ${stateName}`;
 
+  // H1 (query-matching)
   const titleEl = document.getElementById("cityTitle");
-  if (titleEl) titleEl.textContent = `Where to dump trash in ${pretty}`;
+  if (titleEl) {
+    titleEl.textContent = `Where to dump trash in ${pretty}`;
+  }
 
+  // Answer sentence (optional fine-tune)
   const ansEl = document.getElementById("cityAnswer");
   if (ansEl) {
     ansEl.textContent = `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, with hours, rules, and accepted materials when available.`;
   }
 
+  // Supporting subhead
   const subEl = document.getElementById("citySubhead");
   if (subEl) {
     subEl.textContent = `Public landfills, transfer stations, and disposal sites in ${cityName}. Always confirm fees, residency rules, and accepted materials before visiting.`;
   }
 
+  // Inline city mention in SEO copy
   const inlineCity = document.getElementById("cityNameInline");
   if (inlineCity) inlineCity.textContent = cityName;
 
+  // Document title + meta description (CTR)
   document.title = `Where to Dump Trash in ${pretty} | JunkScout`;
   setMetaDescription(
     `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}. Hours, fees, and accepted materials when available—always confirm before visiting.`
   );
 
+  // Canonical (prefer path URL, drop hash)
   setCanonical(window.location.href.split("#")[0]);
-}
-
-/** =========================
- * Curated overlay (Option A)
- * ========================= */
-
-function readCuratedOverlayFromDom() {
-  const el = document.getElementById("CURATED:JSON");
-  if (!el) return null;
-
-  try {
-    const raw = (el.textContent || "").trim();
-    if (!raw) return null;
-    const json = JSON.parse(raw);
-    if (!json || typeof json !== "object") return null;
-    return json;
-  } catch {
-    return null;
-  }
-}
-
-function normalizeStateAbbrev(stateSlugOrCode = "") {
-  const s = String(stateSlugOrCode || "").trim().toLowerCase();
-  const map = {
-    alabama: "AL",
-    alaska: "AK",
-    arizona: "AZ",
-    arkansas: "AR",
-    california: "CA",
-    colorado: "CO",
-    connecticut: "CT",
-    delaware: "DE",
-    florida: "FL",
-    georgia: "GA",
-    hawaii: "HI",
-    idaho: "ID",
-    illinois: "IL",
-    indiana: "IN",
-    iowa: "IA",
-    kansas: "KS",
-    kentucky: "KY",
-    louisiana: "LA",
-    maine: "ME",
-    maryland: "MD",
-    massachusetts: "MA",
-    michigan: "MI",
-    minnesota: "MN",
-    mississippi: "MS",
-    missouri: "MO",
-    montana: "MT",
-    nebraska: "NE",
-    nevada: "NV",
-    "new-hampshire": "NH",
-    "new-jersey": "NJ",
-    "new-mexico": "NM",
-    "new-york": "NY",
-    "north-carolina": "NC",
-    "north-dakota": "ND",
-    ohio: "OH",
-    oklahoma: "OK",
-    oregon: "OR",
-    pennsylvania: "PA",
-    "rhode-island": "RI",
-    "south-carolina": "SC",
-    "south-dakota": "SD",
-    tennessee: "TN",
-    texas: "TX",
-    utah: "UT",
-    vermont: "VT",
-    virginia: "VA",
-    washington: "WA",
-    "west-virginia": "WV",
-    wisconsin: "WI",
-    wyoming: "WY",
-  };
-  if (s.length === 2) return s.toUpperCase();
-  return map[s] || "";
-}
-
-function curatedMatchesRoute(curated, { state, city }) {
-  if (!curated) return false;
-
-  const routeCity = titleCaseFromSlug(city).toLowerCase();
-  const curatedCity = String(curated.city || "").trim().toLowerCase();
-
-  const routeStateCode = normalizeStateAbbrev(state);
-  const curatedStateCode = normalizeStateAbbrev(curated.state);
-
-  if (!routeCity || !curatedCity) return false;
-  if (routeCity !== curatedCity) return false;
-
-  if (curatedStateCode && routeStateCode && curatedStateCode !== routeStateCode) return false;
-
-  return true;
-}
-
-function mapsLinkFromAddress(address) {
-  const a = String(address || "").trim();
-  if (!a) return "#";
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(a)}`;
-}
-
-function coerceArray(v) {
-  return Array.isArray(v) ? v : [];
-}
-
-function renderCommaList(arr) {
-  const list = coerceArray(arr).map((x) => String(x)).filter(Boolean);
-  return list.length ? escapeHtml(list.join(", ")) : "";
-}
-
-function normKey(s) {
-  return String(s || "")
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim()
-    .replace(/\s+/g, " ");
-}
-
-function buildCityIndex(cityDataArray) {
-  // Index by address (best), and by name fallback.
-  const byAddr = new Map();
-  const byName = new Map();
-
-  for (const it of coerceArray(cityDataArray)) {
-    const id = it && it.facility_id ? String(it.facility_id) : "";
-    if (!id) continue;
-
-    const addr = normKey(it.address || "");
-    const name = normKey(it.name || "");
-
-    if (addr) {
-      if (!byAddr.has(addr)) byAddr.set(addr, id);
-    }
-    if (name) {
-      if (!byName.has(name)) byName.set(name, id);
-    }
-  }
-
-  return { byAddr, byName };
-}
-
-function findFacilityIdForCurated(curatedFacility, cityIndex) {
-  if (!curatedFacility || !cityIndex) return null;
-
-  // If you manually set facility_id in curated JSON, always respect it.
-  if (curatedFacility.facility_id) return String(curatedFacility.facility_id);
-
-  const addrKey = normKey(curatedFacility.address || "");
-  if (addrKey && cityIndex.byAddr.has(addrKey)) return cityIndex.byAddr.get(addrKey);
-
-  const nameKey = normKey(curatedFacility.name || "");
-  if (nameKey && cityIndex.byName.has(nameKey)) return cityIndex.byName.get(nameKey);
-
-  // Try a loose match: contains (only if we have something meaningful)
-  if (nameKey) {
-    for (const [k, v] of cityIndex.byName.entries()) {
-      if (k && (k.includes(nameKey) || nameKey.includes(k))) return v;
-    }
-  }
-
-  return null;
-}
-
-function renderCuratedFacilityCard(f, cityIndex) {
-  const facilityId = findFacilityIdForCurated(f, cityIndex);
-  const facilityUrl = facilityId ? `/facility/${facilityId}/` : null;
-
-  const name = escapeHtml(f.name || "");
-  const type = escapeHtml(f.type || "");
-  const address = escapeHtml(f.address || "");
-  const phone = escapeHtml(f.phone || "");
-  const hours = escapeHtml(f.hours || "");
-  const fees = escapeHtml(f.fees || "");
-  const rules = escapeHtml(f.rules || "");
-  const source = String(f.source || "").trim();
-  const verified = escapeHtml(f.verified_date || "");
-
-  const accepted = renderCommaList(f.accepted_materials);
-  const notAccepted = renderCommaList(f.not_accepted);
-
-  const hasDetails = !!(accepted || notAccepted || rules);
-  const dir = mapsLinkFromAddress(f.address);
-
-  const cardAttrs = facilityUrl
-    ? `class="card card--clickable" data-href="${facilityUrl}" role="link" tabindex="0" aria-label="View details for ${name}"`
-    : `class="card"`;
-
-  return `
-    <article ${cardAttrs}>
-      <div class="card__kicker">
-        ${type ? `<span class="badge badge--blue">${type}</span>` : ""}
-        ${fees && /free/i.test(fees) ? `<span class="badge badge--green">Free</span>` : ""}
-      </div>
-
-      <h3>${name || "Facility"}</h3>
-
-      ${address ? `<p class="card__meta">${address}</p>` : ""}
-
-      <div style="display:flex; gap:12px; margin-top:8px; flex-wrap:wrap">
-        ${dir !== "#" ? `<a class="link" href="${dir}" target="_blank" rel="noopener">Directions</a>` : ""}
-        ${source ? `<a class="link" href="${escapeHtml(source)}" target="_blank" rel="noopener">Source</a>` : ""}
-        ${facilityUrl ? `<a class="link" href="${facilityUrl}" style="margin-left:auto">Details →</a>` : ""}
-      </div>
-
-      ${(hours || fees || phone) ? `<p class="muted" style="margin-top:10px; line-height:1.4">
-        ${hours ? `<strong>Hours:</strong> ${hours}<br/>` : ""}
-        ${fees ? `<strong>Fees:</strong> ${fees}${verified ? ` <span class="muted">(verified ${verified})</span>` : ""}<br/>` : ""}
-        ${phone ? `<strong>Phone:</strong> ${phone}` : ""}
-      </p>` : ""}
-
-      ${
-        hasDetails
-          ? `
-        <details style="margin-top:10px">
-          <summary class="link" style="cursor:pointer">Details</summary>
-          <div style="margin-top:10px; line-height:1.5">
-            ${rules ? `<div style="margin-bottom:8px"><strong>Rules:</strong> ${rules}</div>` : ""}
-            ${accepted ? `<div style="margin-bottom:8px"><strong>Accepted:</strong> ${accepted}</div>` : ""}
-            ${notAccepted ? `<div style="margin-bottom:8px"><strong>Not accepted:</strong> ${notAccepted}</div>` : ""}
-          </div>
-        </details>
-      `
-          : ""
-      }
-    </article>
-  `;
-}
-
-function renderCuratedSection(curated, cityDataArrayForLinking) {
-  const facilities = coerceArray(curated.facilities);
-  if (!facilities.length) return "";
-
-  const cityIndex = buildCityIndex(cityDataArrayForLinking);
-
-  const groups = new Map();
-  for (const f of facilities) {
-    const key = String(f.type || "Other").trim() || "Other";
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(f);
-  }
-
-  const city = escapeHtml(curated.city || "");
-  const state = escapeHtml(curated.state || "");
-  const updated = escapeHtml(curated.last_updated || "");
-
-  const groupHtml = Array.from(groups.entries())
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([type, list]) => {
-      return `
-        <section style="margin-top:18px">
-          <h2 style="margin:0 0 10px 0; font-size:1.15rem">${escapeHtml(type)}</h2>
-          <div class="cards">
-            ${list.map((f) => renderCuratedFacilityCard(f, cityIndex)).join("")}
-          </div>
-        </section>
-      `;
-    })
-    .join("");
-
-  return `
-    <section class="seo-copy" aria-label="City guide" style="margin: 0 0 18px 0">
-      <h2 style="margin:0 0 8px 0">City guide: ${city}${state ? `, ${state}` : ""}</h2>
-      ${
-        updated
-          ? `<p class="muted" style="margin:0 0 14px 0">Last updated: ${updated}. Always confirm hours/fees before visiting.</p>`
-          : `<p class="muted" style="margin:0 0 14px 0">Always confirm hours/fees before visiting.</p>`
-      }
-      ${groupHtml}
-    </section>
-  `;
-}
-
-function insertCuratedAboveResults(curatedHtml, resultsEl) {
-  if (!curatedHtml || !resultsEl) return;
-
-  // avoid duplicating if load runs twice
-  if (document.getElementById("curatedGuide")) return;
-
-  const wrapper = document.createElement("div");
-  wrapper.id = "curatedGuide";
-  wrapper.innerHTML = curatedHtml;
-
-  // Insert before the results section (fixes layout issues when results is a grid container)
-  resultsEl.parentNode.insertBefore(wrapper, resultsEl);
 }
 
 /** =========================
@@ -392,9 +105,9 @@ function insertCuratedAboveResults(curatedHtml, resultsEl) {
  * ========================= */
 
 const FACILITY_BADGE_DEFS = {
-  free_to_residents: { label: "Free to residents", color: "green" },
-  accepts_garbage: { label: "Accepts garbage", color: "blue" },
-  accepts_heavy_trash: { label: "Accepts heavy trash", color: "orange" },
+  free_to_residents: { label: "Free", color: "green" },
+  accepts_garbage: { label: "Garbage", color: "blue" },
+  accepts_heavy_trash: { label: "Heavy trash", color: "orange" },
   fee_charge_likely: { label: "Fee likely", color: "gray" },
 };
 
@@ -414,6 +127,7 @@ function renderFacilityBadgePills(facilityId, badgesMap) {
   const ids = badgesMap[facilityId];
   if (!Array.isArray(ids) || ids.length === 0) return "";
 
+  // Cap to 3 to keep cards clean
   const pills = ids
     .slice(0, 3)
     .map((id) => {
@@ -431,6 +145,149 @@ function renderFacilityBadgePills(facilityId, badgesMap) {
 }
 
 /** =========================
+ * Filters (hub cities)
+ * ========================= */
+
+function getTypeKey(item) {
+  // item.type values seen: landfill, transfer_station, recycling, hazardous_waste
+  return String(item?.type || "").trim();
+}
+
+function getFeatureKeys(item, badgesMap) {
+  const keys = new Set();
+
+  // Preferred: facility-badges map by facility_id
+  if (item?.facility_id && badgesMap && Array.isArray(badgesMap[item.facility_id])) {
+    for (const k of badgesMap[item.facility_id]) keys.add(k);
+  }
+
+  // Fallback: if item itself carries tags/badges
+  const arr =
+    (Array.isArray(item?.badges) && item.badges) ||
+    (Array.isArray(item?.tags) && item.tags) ||
+    [];
+
+  for (const k of arr) keys.add(String(k));
+
+  return keys;
+}
+
+function typeLabelFromTypeKey(type) {
+  if (type === "landfill") return "Landfill";
+  if (type === "transfer_station") return "Transfer";
+  if (type === "recycling") return "Recycling";
+  if (type === "hazardous_waste") return "Hazardous";
+  return "";
+}
+
+function buildFiltersUI({ items, badgesMap, mountAfterEl }) {
+  if (!mountAfterEl) return null;
+
+  const container = document.createElement("section");
+  container.id = "filters";
+  container.setAttribute("aria-label", "Filters");
+  // more space above + less-white background
+  container.style.marginTop = "18px";
+  container.style.border = "1px solid var(--border)";
+  container.style.borderRadius = "16px";
+  container.style.background = "rgba(0,0,0,0.03)";
+  container.style.padding = "14px 14px";
+  container.style.boxShadow = "0 10px 30px rgba(0,0,0,.04)";
+
+  container.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap">
+      <div>
+        <div style="font-weight:800; letter-spacing:-0.01em">Filter locations</div>
+        <div class="muted small" style="margin-top:4px">Use Type to narrow fast, then Features to find what you need.</div>
+      </div>
+      <div id="filtersCount" class="muted" style="font-weight:700"></div>
+    </div>
+
+    <div style="margin-top:12px; display:flex; gap:18px; flex-wrap:wrap; align-items:flex-start">
+      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
+        <div class="muted" style="font-weight:800">Type</div>
+        <select id="typeSelect" class="input" style="padding:10px 12px; border-radius:999px; border:1px solid var(--border); background:rgba(255,255,255,.75)">
+          <option value="">All types</option>
+        </select>
+      </div>
+
+      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
+        <div class="muted" style="font-weight:800">Features</div>
+        <div id="featureChips" style="display:flex; gap:10px; flex-wrap:wrap"></div>
+      </div>
+
+      <div style="margin-left:auto; display:flex; gap:10px; align-items:center; flex-wrap:wrap">
+        <button id="filtersReset" class="btn btn--ghost" type="button">Reset</button>
+      </div>
+    </div>
+  `;
+
+  // build Type options present in data
+  const typeCounts = new Map();
+  for (const it of items) {
+    const t = getTypeKey(it);
+    if (!t) continue;
+    typeCounts.set(t, (typeCounts.get(t) || 0) + 1);
+  }
+
+  const typeSelect = container.querySelector("#typeSelect");
+  const typesSorted = Array.from(typeCounts.entries()).sort((a, b) => b[1] - a[1]);
+  for (const [t, c] of typesSorted) {
+    const opt = document.createElement("option");
+    opt.value = t;
+    opt.textContent = `${typeLabelFromTypeKey(t) || titleCaseFromSlug(t)} (${c})`;
+    typeSelect.appendChild(opt);
+  }
+
+  // build feature chips (only from known badge defs)
+  const featureCounts = new Map();
+  for (const it of items) {
+    const fkeys = getFeatureKeys(it, badgesMap);
+    for (const k of fkeys) {
+      if (!FACILITY_BADGE_DEFS[k]) continue;
+      featureCounts.set(k, (featureCounts.get(k) || 0) + 1);
+    }
+  }
+
+  const featureChips = container.querySelector("#featureChips");
+  const featuresSorted = Array.from(featureCounts.entries()).sort((a, b) => b[1] - a[1]);
+  for (const [k, c] of featuresSorted) {
+    const def = FACILITY_BADGE_DEFS[k];
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "btn btn--ghost";
+    btn.dataset.key = k;
+    btn.setAttribute("aria-pressed", "false");
+    btn.style.borderRadius = "999px";
+    btn.style.padding = "10px 12px";
+    btn.style.fontWeight = "800";
+    btn.textContent = `${def.label}${c ? ` (${c})` : ""}`;
+    featureChips.appendChild(btn);
+  }
+
+  mountAfterEl.insertAdjacentElement("afterend", container);
+  return container;
+}
+
+function applyFilters({ items, badgesMap, selectedType, selectedFeatures }) {
+  return items.filter((it) => {
+    if (selectedType) {
+      const t = getTypeKey(it);
+      if (t !== selectedType) return false;
+    }
+
+    if (selectedFeatures && selectedFeatures.size > 0) {
+      const keys = getFeatureKeys(it, badgesMap);
+      for (const k of selectedFeatures) {
+        if (!keys.has(k)) return false;
+      }
+    }
+
+    return true;
+  });
+}
+
+/** =========================
  * Main load
  * ========================= */
 
@@ -438,6 +295,7 @@ async function loadCityData() {
   const resultsEl = document.getElementById("results");
   if (!resultsEl) return;
 
+  // Safety: ensure robots meta exists (template already has it)
   ensureRobotsMeta("index,follow");
 
   const { state, city } = getRouteParts();
@@ -450,11 +308,13 @@ async function loadCityData() {
     return;
   }
 
+  // Apply SEO framing early (before fetch)
   applyCitySEO({ cityName, stateName });
 
   const dataUrl = `/data/${state}/${city}.json`;
 
   try {
+    // Load both the city data and facility badges (badges load once per page)
     const [res, facilityBadges] = await Promise.all([
       fetch(dataUrl, { cache: "no-store" }),
       loadFacilityBadges(),
@@ -464,46 +324,119 @@ async function loadCityData() {
 
     const data = await res.json();
 
-    // Curated overlay (Option A: injected JSON in the HTML)
-    const curated = readCuratedOverlayFromDom();
-    const hasCurated = curated && curatedMatchesRoute(curated, { state, city });
-
-    if (hasCurated) {
-      const curatedHtml = renderCuratedSection(curated, data);
-      insertCuratedAboveResults(curatedHtml, resultsEl);
-
-      // Default behavior for curated cities: REPLACE (hide the old list)
-      resultsEl.innerHTML = "";
-
-      // Still bind click handler so curated cards with data-href work
-      attachCardClickHandler(document.body);
-      return;
-    }
-
-    // Normal behavior (no curated)
     if (!Array.isArray(data) || data.length === 0) {
       resultsEl.innerHTML = "<p class='muted'>No locations found.</p>";
       return;
     }
 
-    resultsEl.innerHTML = data.map((item) => renderCard(item, facilityBadges)).join("");
-    attachCardClickHandler(resultsEl);
+    // Decide if we show filters (hub city behavior)
+    const SHOULD_SHOW_FILTERS = data.length >= 20;
+
+    let filtersEl = null;
+    if (SHOULD_SHOW_FILTERS) {
+      const houBtn = document.getElementById("houstonRulesBtn");
+      // mount filters after Houston rules button if present, else before results
+      const mountAfterEl = houBtn || resultsEl;
+      filtersEl = buildFiltersUI({ items: data, badgesMap: facilityBadges, mountAfterEl });
+    }
+
+    // render function (reusable)
+    const render = (itemsToRender) => {
+      resultsEl.innerHTML = itemsToRender.map((item) => renderCard(item, facilityBadges)).join("");
+      attachCardClickHandler(resultsEl);
+
+      if (filtersEl) {
+        const countEl = filtersEl.querySelector("#filtersCount");
+        if (countEl) countEl.textContent = `Showing ${itemsToRender.length} of ${data.length}`;
+      }
+    };
+
+    render(data);
+
+    // Wire up filters if present
+    if (filtersEl) {
+      let selectedType = "";
+      const selectedFeatures = new Set();
+
+      const typeSelect = filtersEl.querySelector("#typeSelect");
+      const featureChips = filtersEl.querySelector("#featureChips");
+      const resetBtn = filtersEl.querySelector("#filtersReset");
+
+      const runFilter = () => {
+        const filtered = applyFilters({
+          items: data,
+          badgesMap: facilityBadges,
+          selectedType: selectedType || "",
+          selectedFeatures,
+        });
+        render(filtered);
+      };
+
+      if (typeSelect) {
+        typeSelect.addEventListener("change", () => {
+          selectedType = typeSelect.value || "";
+          runFilter();
+        });
+      }
+
+      if (featureChips) {
+        featureChips.addEventListener("click", (e) => {
+          const btn = e.target.closest("button[data-key]");
+          if (!btn) return;
+
+          const key = btn.dataset.key;
+          const isOn = selectedFeatures.has(key);
+
+          if (isOn) {
+            selectedFeatures.delete(key);
+            btn.setAttribute("aria-pressed", "false");
+            btn.style.background = "";
+            btn.style.borderColor = "";
+          } else {
+            selectedFeatures.add(key);
+            btn.setAttribute("aria-pressed", "true");
+            btn.style.background = "rgba(255,255,255,.8)";
+            btn.style.borderColor = "rgba(0,0,0,.12)";
+          }
+
+          runFilter();
+        });
+      }
+
+      if (resetBtn) {
+        resetBtn.addEventListener("click", () => {
+          selectedType = "";
+          selectedFeatures.clear();
+
+          if (typeSelect) typeSelect.value = "";
+
+          // reset chip visuals
+          const btns = filtersEl.querySelectorAll("button[data-key]");
+          btns.forEach((b) => {
+            b.setAttribute("aria-pressed", "false");
+            b.style.background = "";
+            b.style.borderColor = "";
+          });
+
+          render(data);
+        });
+      }
+    }
   } catch (err) {
     console.error(err);
     resultsEl.innerHTML = "<p class='muted'>Unable to load locations right now.</p>";
   }
 }
 
-function attachCardClickHandler(rootEl) {
+function attachCardClickHandler(resultsEl) {
   // Prevent double-binding if loadCityData ever runs twice
-  if (rootEl.__cardsBound) return;
-  rootEl.__cardsBound = true;
+  if (resultsEl.__cardsBound) return;
+  resultsEl.__cardsBound = true;
 
-  rootEl.addEventListener("click", (e) => {
+  resultsEl.addEventListener("click", (e) => {
+    // If user clicked an inner link, don't hijack it
     const innerLink = e.target.closest("a");
     if (innerLink) return;
-
-    if (e.target && e.target.closest && e.target.closest("summary")) return;
 
     const card = e.target.closest(".card[data-href]");
     if (!card) return;
@@ -536,6 +469,7 @@ function renderCard(item, facilityBadges) {
 
   const facilityPillsHtml = renderFacilityBadgePills(item.facility_id, facilityBadges);
 
+  // NOTE: no nested <a> wrapping the card anymore.
   return `
     <article ${cardAttrs}>
       <div class="card__kicker">${badges.join(" ")}</div>
