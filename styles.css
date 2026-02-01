@@ -533,6 +533,88 @@ h2{font-size:28px; margin:0 0 14px}
   .nav .btn--primary{ width: auto; }    /* but NOT in the header */
 }
 
+/* Filter bar */
+.filterbar{
+  margin-top:18px;
+  margin-bottom:6px;
+  padding:14px 14px 12px;
+  border:1px solid var(--border);
+  border-radius:16px;
+  background: rgba(29,29,31,0.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,.04);
+}
+
+.filterbar__top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.filterbar__headline{
+  font-weight:800;
+}
+
+.filterbar__right{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-shrink:0;
+}
+
+.filterbar__count{
+  font-weight:700;
+  white-space:nowrap;
+}
+
+.filterbar__controls{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:14px;
+  margin-top:12px;
+}
+
+.filterbar__group{ min-width:0; }
+
+.filterbar__label{
+  font-weight:800;
+  margin-bottom:8px;
+}
+
+.filterbar__select{
+  width:100%;
+  max-width:420px;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,0.9);
+  font-weight:800;
+}
+
+.filterbar__chips{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  align-items:flex-start;
+}
+
+/* Mobile: stack everything */
+@media (max-width: 720px){
+  .filterbar__top{
+    flex-direction:column;
+    align-items:stretch;
+  }
+  .filterbar__right{
+    justify-content:space-between;
+  }
+  .filterbar__controls{
+    grid-template-columns: 1fr;
+  }
+  .filterbar__select{
+    max-width:none;
+  }
+}
+
 /* =========================================
    Facility page mobile fix (prevents CTA overlap)
    ========================================= */

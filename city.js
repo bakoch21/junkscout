@@ -271,8 +271,10 @@ function buildFilterBar({ resultsEl, onChange }) {
   topRow.style.alignItems = "baseline";
   topRow.style.justifyContent = "space-between";
   topRow.style.gap = "12px";
+  topRow.style.flexWrap = "wrap"; // ✅ helps on narrow widths
 
   const title = document.createElement("div");
+  title.style.minWidth = "220px";
   title.innerHTML = `
     <div style="font-weight:800">Filter results</div>
     <div class="muted small" style="margin-top:2px">Use Type to narrow fast, then Features to find what you need.</div>
@@ -282,10 +284,12 @@ function buildFilterBar({ resultsEl, onChange }) {
   rightBox.style.display = "flex";
   rightBox.style.alignItems = "center";
   rightBox.style.gap = "10px";
+  rightBox.style.flexShrink = "0";
 
   const countEl = document.createElement("div");
   countEl.className = "muted";
   countEl.style.fontWeight = "700";
+  countEl.style.whiteSpace = "nowrap";
   countEl.textContent = "Showing 0 of 0";
 
   const reset = document.createElement("button");
@@ -303,10 +307,17 @@ function buildFilterBar({ resultsEl, onChange }) {
 
   const bodyRow = document.createElement("div");
   bodyRow.style.display = "grid";
-  bodyRow.style.gridTemplateColumns = "260px 1fr";
   bodyRow.style.gap = "14px";
   bodyRow.style.alignItems = "start";
   bodyRow.style.marginTop = "12px";
+
+  // ✅ FIX: responsive columns (mobile stacks; desktop is 2 columns)
+  function setBodyColumns() {
+    const mobile = window.matchMedia && window.matchMedia("(max-width: 720px)").matches;
+    bodyRow.style.gridTemplateColumns = mobile ? "1fr" : "260px 1fr";
+  }
+  setBodyColumns();
+  window.addEventListener("resize", setBodyColumns, { passive: true });
 
   const typeBlock = document.createElement("div");
   typeBlock.innerHTML = `<div class="muted small" style="font-weight:700; margin-bottom:8px">Type</div>`;
@@ -328,6 +339,7 @@ function buildFilterBar({ resultsEl, onChange }) {
   chips.style.display = "flex";
   chips.style.gap = "8px";
   chips.style.flexWrap = "wrap";
+  chips.style.alignItems = "flex-start";
   featBlock.appendChild(chips);
 
   bodyRow.appendChild(typeBlock);
@@ -353,6 +365,7 @@ function buildFilterBar({ resultsEl, onChange }) {
     btn.style.cursor = "pointer";
     btn.style.border = "1px solid rgba(0,0,0,0.10)";
     btn.style.opacity = "0.55";
+    btn.style.maxWidth = "100%"; // ✅ prevents weird overflow on tiny screens
 
     btn.addEventListener("click", () => {
       if (state.flags.has(key)) state.flags.delete(key);
@@ -479,9 +492,9 @@ function renderDetailsPanel(item, id) {
   return `
     <div data-details-panel="${escapeHtml(id)}" data-open="0"
          style="display:none; margin-top:10px; padding:10px 12px; border:1px solid var(--border); border-radius:12px; background:rgba(255,255,255,.65)">
-      <div class="muted small" style="display:flex; justify-content:space-between; gap:10px; align-items:baseline; margin-bottom:8px">
+      <div class="muted small" style="display:flex; justify-content:space-between; gap:10px; align-items:baseline; margin-bottom:8px; flex-wrap:wrap">
         <span>Details</span>
-        <span style="display:flex; gap:10px; align-items:baseline">${ver} ${src}</span>
+        <span style="display:flex; gap:10px; align-items:baseline; flex-wrap:wrap">${ver} ${src}</span>
       </div>
       <div class="small" style="line-height:1.45; display:grid; gap:6px">
         ${rows.length ? rows.join("") : `<div class="muted">No extra details yet.</div>`}
