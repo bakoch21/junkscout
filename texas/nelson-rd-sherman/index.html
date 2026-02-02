@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://junkscout.io/#org",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://junkscout.io/#website",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/",
+      "publisher": {
+        "@id": "https://junkscout.io/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://junkscout.io/?where={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://junkscout.io/texas/nelson-rd-sherman/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://junkscout.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Texas",
+          "item": "https://junkscout.io/texas/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nelson Rd Sherman",
+          "item": "https://junkscout.io/texas/nelson-rd-sherman/"
+        }
+      ]
+    },
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/texas/nelson-rd-sherman/#place",
+      "name": "Dump and landfill options in Nelson Rd Sherman, Texas",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nelson Rd Sherman",
+        "addressRegion": "TX",
+        "addressCountry": "US"
+      },
+      "hasMap": "https://www.google.com/maps/search/dump%20landfill%20Nelson%20Rd%20Sherman%20TX",
+      "url": "https://junkscout.io/texas/nelson-rd-sherman/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/texas/nelson-rd-sherman/#webpage",
+      "name": "Find dumps and landfills in Nelson Rd Sherman, TEXAS | JunkScout",
+      "description": "Public dumps, landfills, transfer stations, and recycling drop-offs near Nelson Rd Sherman, TEXAS — with rules and accepted materials when available.",
+      "url": "https://junkscout.io/texas/nelson-rd-sherman/",
+      "isPartOf": {
+        "@id": "https://junkscout.io/#website"
+      },
+      "about": {
+        "@id": "https://junkscout.io/texas/nelson-rd-sherman/#place"
+      },
+      "breadcrumb": {
+        "@id": "https://junkscout.io/texas/nelson-rd-sherman/#breadcrumb"
+      }
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO CONTROL -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- Will be set dynamically by city.js -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <!-- ✅ Leaflet (map) -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <style>
+    /* Minimal map styling */
+    #mapWrap { margin-top: 14px; }
+    #map {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+      background: rgba(29,29,31,0.03);
+      overflow: hidden;
+    }
+    @media (max-width: 720px) {
+      #map { height: 260px; }
+    }
+  </style>
+
+  <title>Find dumps and landfills in Nelson Rd Sherman, TEXAS | JunkScout</title>
+  <meta name="description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Nelson Rd Sherman, TEXAS — with rules and accepted materials when available." />
+  <link rel="canonical" href="https://junkscout.io/texas/nelson-rd-sherman/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Find dumps and landfills in Nelson Rd Sherman, TEXAS | JunkScout" />
+  <meta property="og:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Nelson Rd Sherman, TEXAS — with rules and accepted materials when available." />
+  <meta property="og:url" content="https://junkscout.io/texas/nelson-rd-sherman/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Find dumps and landfills in Nelson Rd Sherman, TEXAS | JunkScout" />
+  <meta name="twitter:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Nelson Rd Sherman, TEXAS — with rules and accepted materials when available." />
+
+</head>
+
+<body data-state="texas" data-city="nelson-rd-sherman">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/index.html">
+        <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/index.html#browse-materials">Browse materials</a>
+        <a href="/texas/">Browse locations</a>
+        <a href="/index.html#how-it-works">How it works</a>
+        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/index.html#report">Suggest a correction</a>
+        <a class="btn btn--primary" href="/index.html">Find drop-off options</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1 id="cityTitle">Where to dump trash</h1>
+
+      <p class="subhead" id="cityAnswer">
+        Find public landfills, transfer stations, and recycling drop-offs near this city — with hours, rules, and accepted
+        materials when available.
+      </p>
+
+      <p class="muted" id="citySubhead" style="margin-top:10px">
+        Compare drop-off options and confirm fees, residency rules, and accepted materials before you drive out.
+      </p>
+
+      <!-- ✅ Injected at build time -->
+      <!-- STATEHUBLINK:START -->
+<div style="margin-top:12px">
+  <a class="link" href="/texas/">← Back to Texas cities</a>
+</div>
+<!-- STATEHUBLINK:END -->
+
+      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- POPULARCITIES:START -->
+      <!-- POPULARCITIES:END -->
+
+      <div class="muted small" role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
+        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      </div>
+
+      <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
+        Houston rules &amp; fees
+      </button>
+
+      <!-- ✅ Map -->
+      <section id="mapWrap" aria-label="Map">
+        <div id="map"></div>
+      </section>
+
+      <!-- Results injected here -->
+      <section class="cards" id="results" style="margin-top:14px"></section>
+
+      <!-- SEO COPY START -->
+      <section class="seo-copy" style="margin-top:26px">
+        <p>
+          Looking for a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
+          <strong>recycling drop-off</strong> near <span id="cityNameInline">this city</span>?
+          JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
+        </p>
+
+        <h2 id="faqDumpWhere">Where can I dump trash in this city?</h2>
+        <p>
+          Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
+          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what’s accepted before you drive out.
+        </p>
+
+        <h2 id="faqDumpFree">Is dumping free in this city?</h2>
+        <p id="faqDumpFreeBody">
+          Some public facilities offer free or discounted drop-off for residents with proof of address, while private landfills and
+          transfer stations typically charge by load size, weight, or material type. Always confirm rules and fees before visiting.
+        </p>
+
+        <h2>What items are typically accepted?</h2>
+        <p>
+          Commonly accepted items include <strong>furniture</strong>, <strong>yard waste</strong>, <strong>brush</strong>,
+          <strong>construction debris</strong> (C&amp;D), appliances (sometimes restricted), and mixed recyclables.
+          Some facilities accept only certain materials or require loads to be separated.
+        </p>
+
+        <h2>Fees, hours, and resident requirements</h2>
+        <p>
+          Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
+          Others charge based on load size, weight, or material type.
+          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+        </p>
+
+        <!-- NEARBY cities injected here at build time -->
+        <!-- NEARBY:START -->
+        <!-- NEARBY:END -->
+      </section>
+      <!-- SEO COPY END -->
+
+      <p class="muted small" style="margin-top:12px">
+        Results are sourced from public listings and community contributions. Always confirm before visiting.
+      </p>
+
+      <section class="why" style="margin-top:40px">
+        <h2>About dumping in this city</h2>
+        <div class="why__grid">
+          <div class="why__item">
+            <div class="icon">🪪</div>
+            <h3>Resident rules vary</h3>
+            <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">🧱</div>
+            <h3>Construction debris</h3>
+            <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">☎️</div>
+            <h3>Always confirm</h3>
+            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>See something wrong?</h2>
+          <p class="muted">Suggest a correction and include a link or note. We’ll update when possible.</p>
+          <div class="report__actions">
+            <a class="btn btn--primary" href="/index.html#report">Suggest a correction</a>
+            <a class="btn" href="/index.html">Back to search</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ✅ Leaflet JS must load before city.js -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+    defer
+  ></script>
+
+  <script src="/city.js" defer></script>
+  <script src="/houston-modal.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "id": "f_bd78183a8c71",
+  "slug": "la-gloria-ranch-landfill",
+  "name": "LA GLORIA RANCH LANDFILL",
+  "type": "landfill",
+  "address": "INTX OF FM 681 & MI 14 RD 6 MI NW OF MCALLEN MCALLEN TX 78572",
+  "lat": 26.4,
+  "lng": -98.33,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mcallen-mcallen"
+    },
+    {
+      "state": "texas",
+      "city": "mcallen"
+    },
+    {
+      "state": "texas",
+      "city": "mi-nw-mcallen-mcallen"
+    },
+    {
+      "state": "texas",
+      "city": "mi-nw-of-mcallen-mcallen"
+    },
+    {
+      "state": "texas",
+      "city": "of-mcallen-mcallen"
+    }
+  ]
+}

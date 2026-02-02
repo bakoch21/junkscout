@@ -1,0 +1,21 @@
+{
+  "id": "f_4dcf3ae053a8",
+  "slug": "fort-sam-houston-national-cemetery",
+  "name": "FORT SAM HOUSTON NATIONAL CEMETERY",
+  "type": "landfill",
+  "address": "1520 HARRY WURZBACH RD SAN ANTONIO TX 78209",
+  "lat": 29.48,
+  "lng": -98.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "antonio"
+    },
+    {
+      "state": "texas",
+      "city": "harry-wurzbach-rd-san-antonio"
+    }
+  ]
+}

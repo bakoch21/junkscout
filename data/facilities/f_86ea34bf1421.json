@@ -1,0 +1,25 @@
+{
+  "id": "f_86ea34bf1421",
+  "slug": "glasscock-county-landfill",
+  "name": "GLASSCOCK COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "350 DRUMRIGHT RD GARDEN CITY TX 79739",
+  "lat": 32.08,
+  "lng": -101.47,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "city"
+    },
+    {
+      "state": "texas",
+      "city": "drumright-rd-garden-city"
+    },
+    {
+      "state": "texas",
+      "city": "garden-city"
+    }
+  ]
+}

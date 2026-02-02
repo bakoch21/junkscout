@@ -6,8 +6,10 @@
     "lat": 33.72,
     "lng": -96.91,
     "website": null,
-    "source": null,
-    "facility_id": "f_ae5910690168"
+    "facility_id": "f_ae5910690168",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "TASWA SOLID WASTE DISPOSAL AND RECYCLING FACILITY",
@@ -16,7 +18,21 @@
     "lat": 33.72,
     "lng": -96.91,
     "website": null,
-    "source": null,
-    "facility_id": "f_e81d71773979"
+    "facility_id": "f_af0f3ac43586",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "TASWA SOLID WASTE DISPOSAL AND RECYCLING FACILITY",
+    "type": "recycling",
+    "address": "25090 STATE HIGHWAY 56 WHITESBORO TX 76273",
+    "lat": 33.72,
+    "lng": -96.91,
+    "website": null,
+    "facility_id": "f_e81d71773979",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

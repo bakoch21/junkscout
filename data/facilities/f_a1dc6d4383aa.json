@@ -1,0 +1,21 @@
+{
+  "id": "f_a1dc6d4383aa",
+  "slug": "nueces-county",
+  "name": "NUECES COUNTY",
+  "type": "landfill",
+  "address": "4626 WEBER RD CORPUS CHRISTI TX 78411",
+  "lat": 27.73,
+  "lng": -97.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "christi"
+    },
+    {
+      "state": "texas",
+      "city": "weber-rd-corpus-christi"
+    }
+  ]
+}

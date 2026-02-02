@@ -13,7 +13,7 @@
  *   node scripts/generate-cities.js california
  *
  * Env:
- *   SKIP_OSM=1   -> skip Overpass/Nominatim entirely
+ *   SKIP_OSM=1   -> skip Overpass/Nominatim entirely (includes reverse geocode)
  */
 
 const fs = require("fs");
@@ -24,11 +24,16 @@ const FACILITIES_DIR = "./data/facilities";
 
 const OVERPASS_URL = "https://overpass.kumi.systems/api/interpreter";
 const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
+const NOMINATIM_REVERSE_URL = "https://nominatim.openstreetmap.org/reverse";
 
 const STATE = (process.argv[2] || "texas").toLowerCase();
 const CITY_LIST_PATH = `./scripts/cities-${STATE}.json`;
 
 const SKIP_OSM = String(process.env.SKIP_OSM || "").trim() === "1";
+
+// Reverse-geocode cache (critical to avoid hammering Nominatim)
+const REVERSE_CACHE_PATH = `./scripts/reverse-cache-${STATE}.json`;
+let reverseCache = safeReadJson(REVERSE_CACHE_PATH, {});
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -48,6 +53,114 @@ function slugifyCity(city) {
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+/**
+ * Reject "city" strings that are clearly not cities:
+ * - roads/intersections/directions
+ * - "mi nw of ..."
+ * - sentence-like junk
+ */
+function isLikelyCityName(name) {
+  const s = cleanStr(name).toLowerCase();
+  if (!s) return false;
+
+  const words = s.split(/\s+/).filter(Boolean);
+  if (words.length === 0) return false;
+  if (s.length < 3) return false;
+
+  // Too many words / too long = almost always junk
+  if (words.length >= 6) return false;
+  if (s.length > 28) return false;
+
+  const badSubstrings = [
+    "intersection",
+    "hwy",
+    "highway",
+    "fm ",
+    "cr ",
+    "county road",
+    " rd",
+    " road",
+    " st",
+    " street",
+    " ave",
+    " avenue",
+    " blvd",
+    " boulevard",
+    " ln",
+    " lane",
+    " dr",
+    " drive",
+    " fwy",
+    " freeway",
+    "adjacent",
+    "adj to",
+    "near ",
+    "mi ",
+    "miles ",
+    "north of",
+    "south of",
+    "east of",
+    "west of",
+    "unknown",
+    "landfill",
+    "transfer",
+    "facility",
+    "unit ",
+    "suite ",
+    "toll",
+    "loop",
+    "parkway",
+    "pkwy",
+    "way",
+    "gate",
+    "line ",
+    "turn ",
+    "go ",
+    "before ",
+    "after ",
+    "located ",
+    "to the ",
+    "within ",
+    "of the ",
+  ];
+  if (badSubstrings.some((x) => s.includes(x))) return false;
+
+  // too much punctuation tends to be non-city
+  if (/[\/@#]|--|_|\(|\)|;|:/.test(s)) return false;
+
+  // if it has digits, it’s almost never a city name
+  if (/\d/.test(s)) return false;
+
+  // only allow reasonable characters
+  if (!/^[a-z .'-]+$/.test(s)) return false;
+
+  return true;
+}
+
+/**
+ * If raw.city is missing or junk, try pulling city from address:
+ * Common patterns:
+ * - "123 Main St, Austin, TX 78701"
+ * - "123 Main St Austin TX 78701" (less reliable)
+ */
+function parseCityFromAddress(address) {
+  const a = cleanStr(address);
+  if (!a) return null;
+
+  // Strongest: comma-separated
+  const parts = a.split(",").map((p) => p.trim()).filter(Boolean);
+  if (parts.length >= 2) {
+    const candidate = parts[parts.length - 2];
+    if (isLikelyCityName(candidate)) return candidate;
+  }
+
+  // Weak fallback: look for " TX " and take token before it
+  const m = a.match(/\b([A-Za-z][A-Za-z\s.'-]{2,40})\s+TX\b/i);
+  if (m && isLikelyCityName(m[1])) return m[1].trim();
+
+  return null;
 }
 
 function hasRealName(name) {
@@ -124,6 +237,71 @@ async function geocodeToBbox(query) {
     west: parseFloat(bb[2]),
     east: parseFloat(bb[3]),
   };
+}
+
+// Reverse geocode helpers (lat/lng -> city)
+function safeNum(x) {
+  const n = Number(x);
+  return Number.isFinite(n) ? n : null;
+}
+
+function reverseKey(lat, lng) {
+  const la = safeNum(lat);
+  const lo = safeNum(lng);
+  if (la == null || lo == null) return null;
+  return `${la.toFixed(4)},${lo.toFixed(4)}`; // 4dp = cache-friendly
+}
+
+function saveReverseCache() {
+  try {
+    fs.writeFileSync(REVERSE_CACHE_PATH, JSON.stringify(reverseCache, null, 2));
+  } catch {
+    // ignore cache write errors
+  }
+}
+
+async function reverseGeocodeCity(lat, lng) {
+  const la = safeNum(lat);
+  const lo = safeNum(lng);
+  if (la == null || lo == null) return null;
+
+  const url =
+    `${NOMINATIM_REVERSE_URL}?format=json&lat=${encodeURIComponent(la)}` +
+    `&lon=${encodeURIComponent(lo)}&zoom=10&addressdetails=1`;
+
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": "JunkScout/1.0 (local script)",
+      Accept: "application/json",
+    },
+  });
+
+  if (!res.ok) return null;
+
+  const data = await res.json().catch(() => null);
+  const a = data?.address || {};
+  const city = a.city || a.town || a.village || a.hamlet || a.municipality || null;
+  const out = cleanStr(city) || null;
+  return out;
+}
+
+async function cityFromLatLng(lat, lng) {
+  const k = reverseKey(lat, lng);
+  if (!k) return null;
+
+  if (Object.prototype.hasOwnProperty.call(reverseCache, k)) {
+    const v = reverseCache[k];
+    return v ? v : null;
+  }
+
+  const city = await reverseGeocodeCity(lat, lng);
+  reverseCache[k] = city || ""; // cache negative results too
+  saveReverseCache();
+
+  // be polite to Nominatim
+  await sleep(1100);
+
+  return city || null;
 }
 
 async function fetchOverpassByBbox(bbox) {
@@ -241,29 +419,58 @@ function filterCityResults(results) {
 
 /**
  * TEXAS-only: build cityMap from ./data/facilities
- * (This is what you originally wrote for TCEQ.)
+ * Fix: if raw.city is junk, fall back to address parse, then lat/lng reverse-geocode.
  */
-function buildCityMapFromFacilities_TexasOnly() {
+async function buildCityMapFromFacilities_TexasOnly() {
   if (!fs.existsSync(FACILITIES_DIR)) return new Map();
 
   const files = fs.readdirSync(FACILITIES_DIR).filter((f) => f.endsWith(".json"));
-
   const cityMap = new Map(); // citySlug -> { cityName, items[] }
 
+  let skippedNoCity = 0;
+  let usedRawCity = 0;
+  let usedAddrCity = 0;
+  let usedReverseCity = 0;
+
   for (const file of files) {
-    // Avoid reading the huge index.json (it is an array of many facilities)
     if (file.toLowerCase() === "index.json") continue;
 
     const full = path.join(FACILITIES_DIR, file);
     const raw = safeReadJson(full, null);
     if (!raw || !isPlainObject(raw)) continue;
 
-    // only TX here
     const stateGuess = cleanStr(raw.state || "TX").toUpperCase();
     if (stateGuess !== "TX") continue;
 
-    const cityName = cleanStr(raw.city);
-    if (!cityName) continue;
+    // Choose canonical city:
+    // 1) raw.city if legit
+    // 2) else parse from address
+    // 3) else reverse-geocode from lat/lng (BEST FIX for your dataset)
+    const rawCity = cleanStr(raw.city);
+    let cityName = null;
+
+    if (rawCity && isLikelyCityName(rawCity)) {
+      cityName = rawCity;
+      usedRawCity++;
+    } else {
+      const fromAddr = parseCityFromAddress(raw.address);
+      if (fromAddr && isLikelyCityName(fromAddr)) {
+        cityName = fromAddr;
+        usedAddrCity++;
+      } else if (!SKIP_OSM) {
+        // SKIP_OSM disables ALL nominatim usage (search + reverse)
+        const fromReverse = await cityFromLatLng(raw.lat, raw.lng);
+        if (fromReverse && isLikelyCityName(fromReverse)) {
+          cityName = fromReverse;
+          usedReverseCity++;
+        }
+      }
+    }
+
+    if (!cityName) {
+      skippedNoCity++;
+      continue;
+    }
 
     const citySlug = slugifyCity(cityName);
     if (!citySlug) continue;
@@ -282,6 +489,13 @@ function buildCityMapFromFacilities_TexasOnly() {
       source_url: raw.source_url || null,
       osm_url: raw.osm_url || null,
     });
+  }
+
+  console.log(
+    `ℹ️ Facilities city cleanup: used raw.city=${usedRawCity}, address=${usedAddrCity}, reverse=${usedReverseCity}, skipped(no city)=${skippedNoCity}`
+  );
+  if (SKIP_OSM) {
+    console.log("ℹ️ Note: SKIP_OSM=1 disables reverse-geocoding too, so city recovery will be weaker.");
   }
 
   return cityMap;
@@ -343,7 +557,12 @@ async function fetchOsmForSeedCities() {
           return okName || okAddr || okWeb;
         });
 
-      const citySlug = cleanStr(city);
+      const citySlug = slugifyCity(city);
+      if (!citySlug) {
+        console.log(`⚠️ (OSM) Skipping seed with bad city value: "${cleanStr(city)}"`);
+        continue;
+      }
+
       resultsByCitySlug.set(citySlug, items);
 
       console.log(`✅ (OSM) Found ${items.length} for ${citySlug}`);
@@ -365,7 +584,7 @@ async function run() {
   let cityMap = new Map();
   if (STATE === "texas") {
     console.log("🧱 Building from facilities dataset (Texas mode)...");
-    cityMap = buildCityMapFromFacilities_TexasOnly();
+    cityMap = await buildCityMapFromFacilities_TexasOnly();
     console.log(`✅ Found ${cityMap.size} Texas cities in facilities dataset.`);
   } else {
     console.log("🧱 Non-Texas mode: OSM-only for now (prevents cross-state mixing).");
@@ -374,7 +593,7 @@ async function run() {
   // 2) Optional OSM
   let osmMap = new Map();
   if (SKIP_OSM) {
-    console.log("\n⏭️ SKIP_OSM=1 so we are skipping OSM fetch (faster).");
+    console.log("\n⏭️ SKIP_OSM=1 so we are skipping OSM fetch (and reverse-geocode).");
   } else {
     console.log("\n🌍 Fetching OSM for seed cities (optional)...");
     osmMap = await fetchOsmForSeedCities();
@@ -413,7 +632,9 @@ async function run() {
       const writtenPath = writeCityFile(STATE, citySlug, finalResults);
       totalWritten++;
 
-      console.log(`✅ Wrote ${finalResults.length} locations → ${writtenPath} (osm:${(items || []).length})`);
+      console.log(
+        `✅ Wrote ${finalResults.length} locations → ${writtenPath} (osm:${(items || []).length})`
+      );
     }
   }
 

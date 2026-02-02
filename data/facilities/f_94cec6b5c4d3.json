@@ -1,0 +1,17 @@
+{
+  "id": "f_94cec6b5c4d3",
+  "slug": "yoakum-county-landfill",
+  "name": "YOAKUM COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "2050 CR 295 PLAINS TX 79355",
+  "lat": 33.09,
+  "lng": -102.85,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "plains"
+    }
+  ]
+}

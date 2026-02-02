@@ -1,0 +1,21 @@
+{
+  "id": "f_20cbef2a48ea",
+  "slug": "atascocita-lfgte-facility",
+  "name": "ATASCOCITA LFGTE FACILITY",
+  "type": "landfill",
+  "address": "3623 WILSON RD HUMBLE TX 77396",
+  "lat": 29.95,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "humble"
+    },
+    {
+      "state": "texas",
+      "city": "wilson-rd-humble"
+    }
+  ]
+}

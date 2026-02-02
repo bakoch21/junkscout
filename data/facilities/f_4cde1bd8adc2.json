@@ -1,0 +1,21 @@
+{
+  "id": "f_4cde1bd8adc2",
+  "slug": "security-self-storage",
+  "name": "SECURITY SELF STORAGE",
+  "type": "landfill",
+  "address": "8600 SPRING VALLEY RD DALLAS TX 75240",
+  "lat": 32.94,
+  "lng": -96.75,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "spring-valley-rd-dallas"
+    }
+  ]
+}

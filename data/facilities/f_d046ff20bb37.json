@@ -1,0 +1,17 @@
+{
+  "id": "f_d046ff20bb37",
+  "slug": "terrabella-environmental-services",
+  "name": "TERRABELLA ENVIRONMENTAL SERVICES",
+  "type": "landfill",
+  "address": "5376 FM 1784 PLEASANTON TX 78064",
+  "lat": 29.08,
+  "lng": -98.42,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "pleasanton"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "f_7d6e9f75af8e",
+  "slug": "e20-wurzbach-parkway-project",
+  "name": "E20 WURZBACH PARKWAY PROJECT",
+  "type": "landfill",
+  "address": "EXISTING SEWER LINE ROW FROM NORTH OF SAN ANTONIO INTERNATIONAL AIRPORT TO S OF NACOGDOCHES ROAD SAN ANTONIO TX 78216",
+  "lat": 29.55,
+  "lng": -98.45,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "antonio"
+    },
+    {
+      "state": "texas",
+      "city": "existing-sewer-line-row-from-north-of-san-antonio-international-airport-to-s-of-nacogdoches-road-san-antonio"
+    },
+    {
+      "state": "texas",
+      "city": "nacogdoches-road-san-antonio"
+    }
+  ]
+}

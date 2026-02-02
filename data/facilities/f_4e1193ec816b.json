@@ -1,0 +1,21 @@
+{
+  "id": "f_4e1193ec816b",
+  "slug": "city-of-san-angelo-landfill",
+  "name": "CITY OF SAN ANGELO LANDFILL",
+  "type": "landfill",
+  "address": "3002 OLD BALLINGER HWY SAN ANGELO TX 76905",
+  "lat": 31.51,
+  "lng": -100.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "angelo"
+    },
+    {
+      "state": "texas",
+      "city": "old-ballinger-hwy-san-angelo"
+    }
+  ]
+}

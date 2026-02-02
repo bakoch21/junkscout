@@ -1,0 +1,17 @@
+{
+  "id": "f_a93a089e18a3",
+  "slug": "mason-east-msw-landfill",
+  "name": "MASON EAST MSW LANDFILL",
+  "type": "landfill",
+  "address": "2107 E SH 29 MASON TX 76856",
+  "lat": 30.74,
+  "lng": -99.21,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mason"
+    }
+  ]
+}

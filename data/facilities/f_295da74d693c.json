@@ -1,0 +1,21 @@
+{
+  "id": "f_295da74d693c",
+  "slug": "wm-atascocita-recycling-disposal-facility",
+  "name": "WM ATASCOCITA RECYCLING DISPOSAL FACILITY",
+  "type": "recycling",
+  "address": "3623 WILSON RD HUMBLE TX 77396",
+  "lat": 29.96,
+  "lng": -95.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "humble"
+    },
+    {
+      "state": "texas",
+      "city": "wilson-rd-humble"
+    }
+  ]
+}

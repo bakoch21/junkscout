@@ -1,0 +1,17 @@
+{
+  "id": "f_70f70d76e45d",
+  "slug": "san-antonio-household-hazardous-waste-disposal",
+  "name": "San Antonio Household Hazardous Waste Disposal",
+  "type": "recycling",
+  "address": "7030 Culebra Road San Antonio TX 78238",
+  "lat": 29.4511168,
+  "lng": -98.6281848,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

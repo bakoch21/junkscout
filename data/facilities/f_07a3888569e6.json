@@ -1,0 +1,21 @@
+{
+  "id": "f_07a3888569e6",
+  "slug": "sharps-environmental-service",
+  "name": "SHARPS ENVIRONMENTAL SERVICE",
+  "type": "landfill",
+  "address": "1544 NE LOOP CARTHAGE TX 75633",
+  "lat": 32.17,
+  "lng": -94.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carthage"
+    },
+    {
+      "state": "texas",
+      "city": "ne-loop-carthage"
+    }
+  ]
+}

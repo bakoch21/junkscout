@@ -6,8 +6,10 @@
     "lat": 32.55,
     "lng": -97.15,
     "website": null,
-    "source": null,
-    "facility_id": "f_3883fb6c8cdc"
+    "facility_id": "f_3883fb6c8cdc",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "DALLAS DISPOSAL INTEREST LP SOUTHWASTE DISPOSAL FACILITY",
@@ -16,7 +18,21 @@
     "lat": 32.55,
     "lng": -97.15,
     "website": null,
-    "source": null,
-    "facility_id": "f_5846a63107fa"
+    "facility_id": "f_5846a63107fa",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "DALLAS DISPOSAL INTEREST LP SOUTHWASTE DISPOSAL FACILITY",
+    "type": "landfill",
+    "address": "525 S 6TH AVE MANSFIELD TX 76063",
+    "lat": 32.55,
+    "lng": -97.15,
+    "website": null,
+    "facility_id": "f_de819e140f91",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

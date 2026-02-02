@@ -1,0 +1,21 @@
+{
+  "id": "f_7d85f006cae1",
+  "slug": "imc-waste-disposal",
+  "name": "IMC WASTE DISPOSAL",
+  "type": "landfill",
+  "address": "1908 WAURIKA FWY WICHITA FALLS TX 76305",
+  "lat": 33.89,
+  "lng": -98.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "falls"
+    },
+    {
+      "state": "texas",
+      "city": "waurika-fwy-wichita-falls"
+    }
+  ]
+}

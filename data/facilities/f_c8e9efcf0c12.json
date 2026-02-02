@@ -1,0 +1,17 @@
+{
+  "id": "f_c8e9efcf0c12",
+  "slug": "phoenix-recycling",
+  "name": "Phoenix Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.9219174,
+  "lng": -96.6315154,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

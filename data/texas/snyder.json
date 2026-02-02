@@ -6,7 +6,21 @@
     "lat": 32.67,
     "lng": -100.81,
     "website": null,
-    "source": null,
-    "facility_id": "f_4211fbc7ca22"
+    "facility_id": "f_2461202eec34",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF SNYDER LANDFILL",
+    "type": "landfill",
+    "address": "3621 S FM 1673 SNYDER TX 79549",
+    "lat": 32.67,
+    "lng": -100.81,
+    "website": null,
+    "facility_id": "f_4211fbc7ca22",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

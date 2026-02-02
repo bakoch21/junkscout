@@ -1,0 +1,17 @@
+{
+  "id": "f_af7b062d53cb",
+  "slug": "dfw-recyclers",
+  "name": "DFW Recyclers",
+  "type": "recycling",
+  "address": "2410 West Division Street Arlington TX 76012",
+  "lat": 32.7349087,
+  "lng": -97.1470574,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "arlington"
+    }
+  ]
+}

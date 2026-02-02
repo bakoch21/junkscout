@@ -1,0 +1,21 @@
+{
+  "id": "f_8e664663eb6b",
+  "slug": "winn-elementary-school",
+  "name": "WINN ELEMENTARY SCHOOL",
+  "type": "landfill",
+  "address": "3500 SUSQUEHANNA LN AUSTIN TX 78723",
+  "lat": 30.32,
+  "lng": -97.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    },
+    {
+      "state": "texas",
+      "city": "susquehanna-ln-austin"
+    }
+  ]
+}

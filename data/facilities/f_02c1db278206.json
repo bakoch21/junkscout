@@ -1,0 +1,17 @@
+{
+  "id": "f_02c1db278206",
+  "slug": "armstrong-archives",
+  "name": "Armstrong Archives",
+  "type": "recycling",
+  "address": "1515 Crescent Drive Carrollton TX 75006",
+  "lat": 32.9570188,
+  "lng": -96.9167122,
+  "website": "https://www.armstrongarchives.com/",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrollton"
+    }
+  ]
+}

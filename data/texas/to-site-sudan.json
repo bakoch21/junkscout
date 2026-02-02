@@ -6,7 +6,21 @@
     "lat": 34.08,
     "lng": -102.51,
     "website": null,
-    "source": null,
-    "facility_id": "f_b6a72cd55700"
+    "facility_id": "f_3ce708a05b24",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF SUDAN",
+    "type": "landfill",
+    "address": "TAKE HWY 303 N FROM HWY 84 TAKE A RIGHT AT SHANNON ST GO APPROX 4000 E THEN N 2000 TO SITE SUDAN TX 79312",
+    "lat": 34.08,
+    "lng": -102.51,
+    "website": null,
+    "facility_id": "f_b6a72cd55700",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

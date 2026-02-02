@@ -1,0 +1,17 @@
+{
+  "id": "f_571186d9a26a",
+  "slug": "city-of-edinburg-landfill",
+  "name": "CITY OF EDINBURG LANDFILL",
+  "type": "landfill",
+  "address": "8601 NORTH JASMAN RD EDINBURG TX 78542 EDINBURG TX 78540",
+  "lat": 26.4,
+  "lng": -98.13,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "edinburg"
+    }
+  ]
+}

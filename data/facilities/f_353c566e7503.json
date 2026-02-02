@@ -1,0 +1,21 @@
+{
+  "id": "f_353c566e7503",
+  "slug": "city-of-nacogdoches-landfill",
+  "name": "CITY OF NACOGDOCHES LANDFILL",
+  "type": "landfill",
+  "address": "4602 NW STALLINGS DR NACOGDOCHES TX 75964",
+  "lat": 31.65,
+  "lng": -94.68,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "nacogdoches"
+    },
+    {
+      "state": "texas",
+      "city": "nw-stallings-dr-nacogdoches"
+    }
+  ]
+}

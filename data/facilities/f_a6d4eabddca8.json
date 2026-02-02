@@ -1,0 +1,21 @@
+{
+  "id": "f_a6d4eabddca8",
+  "slug": "city-of-sweetwater-type-iv-ae-landfill",
+  "name": "CITY OF SWEETWATER TYPE IV AE LANDFILL",
+  "type": "landfill",
+  "address": "3000 W ALABAMA SWEETWATER TX  79556 SWEETWATER TX 79556",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "sweetwater"
+    },
+    {
+      "state": "texas",
+      "city": "w-alabama-sweetwater"
+    }
+  ]
+}

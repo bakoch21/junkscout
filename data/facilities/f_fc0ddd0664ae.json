@@ -1,0 +1,25 @@
+{
+  "id": "f_fc0ddd0664ae",
+  "slug": "mediwaste-medical-waste-treatment-facility",
+  "name": "MEDIWASTE MEDICAL WASTE TREATMENT FACILITY",
+  "type": "landfill",
+  "address": "381 S DARRINGTON RD HORIZON CITY TX 79928",
+  "lat": 31.74,
+  "lng": -106.19,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "city"
+    },
+    {
+      "state": "texas",
+      "city": "horizon-city"
+    },
+    {
+      "state": "texas",
+      "city": "s-darrington-rd-horizon-city"
+    }
+  ]
+}

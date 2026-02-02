@@ -1,0 +1,25 @@
+{
+  "id": "f_734c4076b2a2",
+  "slug": "fort-bend-county-landfill",
+  "name": "FORT BEND COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "16007 W BELLFORT ST SUGAR LAND TX 77498",
+  "lat": 29.66,
+  "lng": -95.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "land"
+    },
+    {
+      "state": "texas",
+      "city": "sugar-land"
+    },
+    {
+      "state": "texas",
+      "city": "w-bellfort-st-sugar-land"
+    }
+  ]
+}

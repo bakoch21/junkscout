@@ -1,0 +1,21 @@
+{
+  "id": "f_f8e2d57bf524",
+  "slug": "jc-elliott-rng-compression-station",
+  "name": "JC ELLIOTT RNG COMPRESSION STATION",
+  "type": "landfill",
+  "address": "7001 AYERS ST CORPUS CHRISTI TX 78415",
+  "lat": 27.71,
+  "lng": -97.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "ayers-st-corpus-christi"
+    },
+    {
+      "state": "texas",
+      "city": "christi"
+    }
+  ]
+}

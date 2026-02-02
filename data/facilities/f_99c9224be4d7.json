@@ -1,0 +1,17 @@
+{
+  "id": "f_99c9224be4d7",
+  "slug": "grand-prairie-landfill",
+  "name": "Grand Prairie Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 32.7698514,
+  "lng": -96.9492464,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

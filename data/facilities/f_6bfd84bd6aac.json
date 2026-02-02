@@ -1,0 +1,21 @@
+{
+  "id": "f_6bfd84bd6aac",
+  "slug": "city-of-el-paso-transfer-station-facility",
+  "name": "CITY OF EL PASO TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "4200 DELTA DR EL PASO TX 79905",
+  "lat": 31.76,
+  "lng": -106.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "delta-dr-el-paso"
+    },
+    {
+      "state": "texas",
+      "city": "paso"
+    }
+  ]
+}

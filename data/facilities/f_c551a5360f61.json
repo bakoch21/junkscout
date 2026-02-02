@@ -1,0 +1,25 @@
+{
+  "id": "f_c551a5360f61",
+  "slug": "bgico-rng-facility",
+  "name": "BGICO RNG FACILITY",
+  "type": "landfill",
+  "address": "LOCATED 0.4 MILES NORTHEAST OF THE INTERSECTION OF FM 1327 AND CARL ROAD IN CREEDMOOR, TEXAS CREEDMOOR TX 78610",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "creedmoor-texas-creedmoor"
+    },
+    {
+      "state": "texas",
+      "city": "road-creedmoor-texas-creedmoor"
+    },
+    {
+      "state": "texas",
+      "city": "texas-creedmoor"
+    }
+  ]
+}

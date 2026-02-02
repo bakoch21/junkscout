@@ -6,7 +6,21 @@
     "lat": 35.19,
     "lng": -101.83,
     "website": null,
-    "source": null,
-    "facility_id": "f_219167caa008"
+    "facility_id": "f_219167caa008",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF AMARILLO TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "811 SE 27TH AVE AMARILLO TX 79103",
+    "lat": 35.19,
+    "lng": -101.83,
+    "website": null,
+    "facility_id": "f_7924913007bd",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

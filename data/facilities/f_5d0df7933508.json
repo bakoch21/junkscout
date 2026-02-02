@@ -1,0 +1,17 @@
+{
+  "id": "f_5d0df7933508",
+  "slug": "texas-department-of-criminal-justice-beto-i-transfer-station-facility",
+  "name": "TEXAS DEPARTMENT OF CRIMINAL JUSTICE BETO I TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1391 FM 3328 TENNESSEE COLONY TX 75880",
+  "lat": 31.74,
+  "lng": -95.82,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "tennessee-colony"
+    }
+  ]
+}

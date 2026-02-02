@@ -1,0 +1,25 @@
+{
+  "id": "f_5766f645bece",
+  "slug": "city-of-fort-stockton-municipal-solid-waste-landfill",
+  "name": "CITY OF FORT STOCKTON MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "256 MOODY RD FORT STOCKTON TX 79735",
+  "lat": 30.91,
+  "lng": -102.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-stockton"
+    },
+    {
+      "state": "texas",
+      "city": "moody-rd-fort-stockton"
+    },
+    {
+      "state": "texas",
+      "city": "stockton"
+    }
+  ]
+}

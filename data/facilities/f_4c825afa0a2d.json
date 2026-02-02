@@ -1,0 +1,17 @@
+{
+  "id": "f_4c825afa0a2d",
+  "slug": "city-of-kerrville-transfer-station",
+  "name": "CITY OF KERRVILLE TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "3315 LOOP 534 KERRVILLE TX 78028",
+  "lat": 30.03,
+  "lng": -98.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "kerrville"
+    }
+  ]
+}

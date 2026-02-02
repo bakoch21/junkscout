@@ -1,0 +1,33 @@
+{
+  "id": "f_e8b8a5fbd075",
+  "slug": "city-of-sundown-landfill",
+  "name": "CITY OF SUNDOWN LANDFILL",
+  "type": "landfill",
+  "address": "NORTHSIDE OF 3500 BLOCK OF WAGONWHEEL RD. 2.2 MILES SOUTH & 0.75 MILES WEST OF THE INTERS SUNDOWN TX 79372",
+  "lat": 33.42,
+  "lng": -102.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "miles-west-of-the-inters-sundown"
+    },
+    {
+      "state": "texas",
+      "city": "of-the-inters-sundown"
+    },
+    {
+      "state": "texas",
+      "city": "sundown"
+    },
+    {
+      "state": "texas",
+      "city": "the-inters-sundown"
+    },
+    {
+      "state": "texas",
+      "city": "west-the-inters-sundown"
+    }
+  ]
+}

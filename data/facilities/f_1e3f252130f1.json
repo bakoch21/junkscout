@@ -1,0 +1,17 @@
+{
+  "id": "f_1e3f252130f1",
+  "slug": "city-of-brackettville-transfer-station-facility",
+  "name": "CITY OF BRACKETTVILLE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "2 MILES W OF BRACKETTVILLE ON STATE HIGHWAY 90  0.3 MILES E OF THE INTERSECTION OF US HIGHWAY 90 AND STATE ROUTE 693 BRACKETTVILLE TX",
+  "lat": 29.07,
+  "lng": -100.3,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brackettville"
+    }
+  ]
+}

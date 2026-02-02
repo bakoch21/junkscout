@@ -1,0 +1,25 @@
+{
+  "id": "f_992175aa196b",
+  "slug": "abilene-landfill-tx-lp",
+  "name": "ABILENE LANDFILL TX LP",
+  "type": "landfill",
+  "address": "US HWY 277 & FM 3034 IN JONES COUNTY ABILENE TX 79604",
+  "lat": 32.52,
+  "lng": -99.75,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "abilene"
+    },
+    {
+      "state": "texas",
+      "city": "in-jones-county-abilene"
+    },
+    {
+      "state": "texas",
+      "city": "jones-abilene"
+    }
+  ]
+}

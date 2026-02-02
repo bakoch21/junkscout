@@ -1,0 +1,21 @@
+{
+  "id": "f_f28bdd45388c",
+  "slug": "city-of-deer-park-transfer-station-facility",
+  "name": "CITY OF DEER PARK TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "AT INTERSECTION OF EXISTING UNDERWOOD ROAD AND UNIMPROVED X STREET DEER PARK TX",
+  "lat": 29.7,
+  "lng": -95.09,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "deer-park"
+    },
+    {
+      "state": "texas",
+      "city": "unimproved-x-street-deer-park"
+    }
+  ]
+}

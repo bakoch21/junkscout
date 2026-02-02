@@ -6,7 +6,21 @@
     "lat": 30.79,
     "lng": -98.21,
     "website": null,
-    "source": null,
-    "facility_id": "f_267d30f1082b"
+    "facility_id": "f_267d30f1082b",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "MUNICIPAL SOLID WASTE TRANSFER STATION BURNET COUNTY",
+    "type": "transfer_station",
+    "address": "2411 RR 963 BURNET TX 78611",
+    "lat": 30.79,
+    "lng": -98.21,
+    "website": null,
+    "facility_id": "f_7dd0c8a23b23",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

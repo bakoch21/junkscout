@@ -1,0 +1,21 @@
+{
+  "id": "f_a219d4b271dc",
+  "slug": "city-of-cactus-transfer-station-facility",
+  "name": "CITY OF CACTUS TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "900 CENTER DR CACTUS TX 79013",
+  "lat": 35.84,
+  "lng": -101.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "cactus"
+    },
+    {
+      "state": "texas",
+      "city": "center-dr-cactus"
+    }
+  ]
+}

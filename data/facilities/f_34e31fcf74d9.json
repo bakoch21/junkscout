@@ -1,0 +1,21 @@
+{
+  "id": "f_34e31fcf74d9",
+  "slug": "city-of-huntsville-transfer-station-facility",
+  "name": "CITY OF HUNTSVILLE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "590 IH 45 N HUNTSVILLE TX 77320",
+  "lat": 30.74,
+  "lng": -95.6,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "huntsville"
+    },
+    {
+      "state": "texas",
+      "city": "n-huntsville"
+    }
+  ]
+}

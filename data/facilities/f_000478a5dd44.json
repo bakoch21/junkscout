@@ -1,0 +1,17 @@
+{
+  "id": "f_000478a5dd44",
+  "slug": "waco-landfill",
+  "name": "Waco Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 31.4763832,
+  "lng": -97.2581486,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "f_ee95994f1831",
+  "slug": "el-paso-c-and-d-recycling-plant",
+  "name": "EL PASO C&D RECYCLING PLANT",
+  "type": "recycling",
+  "address": "1290 FT SOUTH OF FM ROAD 659/PELLICANO DR AND 900 FT WEST OF AVIATION WAY EL PASO TX 79928",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "aviation-way-el-paso"
+    },
+    {
+      "state": "texas",
+      "city": "ft-west-of-aviation-way-el-paso"
+    },
+    {
+      "state": "texas",
+      "city": "paso"
+    }
+  ]
+}

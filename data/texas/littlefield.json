@@ -6,7 +6,21 @@
     "lat": 33.98,
     "lng": -102.24,
     "website": null,
-    "source": null,
-    "facility_id": "f_cf0517505a56"
+    "facility_id": "f_7cc1c60dde22",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "LITTLEFIELD MUNICIPAL LANDFILL",
+    "type": "landfill",
+    "address": "2182 FM 2197 LITTLEFIELD TX 79339",
+    "lat": 33.98,
+    "lng": -102.24,
+    "website": null,
+    "facility_id": "f_cf0517505a56",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Two Men and a Junk Truck",
+    "type": "transfer_station",
+    "address": "20935 US Highway 281 North San Antonio TX 78258",
+    "lat": 29.6419451,
+    "lng": -98.4556087,
+    "website": "https://twomenandajunktruck.com/locations/tx/san-antonio/junk-removal-san-antonio-north",
+    "facility_id": "f_70de6990deff",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "Two Men and a Junk Truck",
+    "type": "transfer_station",
+    "address": "20935 US Highway 281 North San Antonio TX 78258",
+    "lat": 29.6419451,
+    "lng": -98.4556087,
+    "website": "https://twomenandajunktruck.com/locations/tx/san-antonio/junk-removal-san-antonio-north",
+    "facility_id": "f_9618346060ab",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": "https://www.openstreetmap.org/node/13005797608"
+  }
+]

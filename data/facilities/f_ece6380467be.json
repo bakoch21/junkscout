@@ -1,0 +1,17 @@
+{
+  "id": "f_ece6380467be",
+  "slug": "lewisville-landfill",
+  "name": "Lewisville Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.0506346,
+  "lng": -96.9741131,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "denton"
+    }
+  ]
+}

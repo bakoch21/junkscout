@@ -1,0 +1,17 @@
+{
+  "id": "f_f564765ee4e0",
+  "slug": "ponderosa-regional-landfill",
+  "name": "PONDEROSA REGIONAL LANDFILL",
+  "type": "landfill",
+  "address": "10705 STATE HIGHWAY 359 LAREDO TX 78043",
+  "lat": 27.48,
+  "lng": -99.26,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "laredo"
+    }
+  ]
+}

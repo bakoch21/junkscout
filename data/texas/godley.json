@@ -6,7 +6,21 @@
     "lat": 32.34,
     "lng": -97.35,
     "website": null,
-    "source": null,
-    "facility_id": "f_99efc1cd9f8e"
+    "facility_id": "f_0ceae46b674e",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "HARRINGTON ENVIRONMENTAL LIQUID TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "6321 W FM 4 GODLEY TX 76044",
+    "lat": 32.34,
+    "lng": -97.35,
+    "website": null,
+    "facility_id": "f_99efc1cd9f8e",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

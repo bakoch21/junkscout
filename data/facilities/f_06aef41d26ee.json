@@ -1,0 +1,21 @@
+{
+  "id": "f_06aef41d26ee",
+  "slug": "austin-community-recycling-and-disposal-facility",
+  "name": "AUSTIN COMMUNITY RECYCLING & DISPOSAL FACILITY",
+  "type": "recycling",
+  "address": "9900 GILES LN AUSTIN TX 78754",
+  "lat": 30.34,
+  "lng": -97.62,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    },
+    {
+      "state": "texas",
+      "city": "giles-ln-austin"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_d22e976e8d49",
+  "slug": "j-v-dirt-loam",
+  "name": "J-V DIRT + LOAM",
+  "type": "landfill",
+  "address": "3600 N FM 973 AUSTIN TX 78725",
+  "lat": 30.27,
+  "lng": -97.73,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

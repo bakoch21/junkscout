@@ -1,0 +1,21 @@
+{
+  "id": "f_17f6c98f97df",
+  "slug": "golden-triangle-landfill",
+  "name": "GOLDEN TRIANGLE LANDFILL",
+  "type": "landfill",
+  "address": "6433 LABELLE RD BEAUMONT TX 77705",
+  "lat": 29.99,
+  "lng": -94.17,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "beaumont"
+    },
+    {
+      "state": "texas",
+      "city": "labelle-rd-beaumont"
+    }
+  ]
+}

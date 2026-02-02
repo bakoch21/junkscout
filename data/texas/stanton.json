@@ -6,7 +6,21 @@
     "lat": 32.16,
     "lng": -101.74,
     "website": null,
-    "source": null,
-    "facility_id": "f_a905cd44cae1"
+    "facility_id": "f_2218dd7e8f3d",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF STANTON LANDFILL",
+    "type": "landfill",
+    "address": "3801 INTERSTATE 20 STANTON TX 79782",
+    "lat": 32.16,
+    "lng": -101.74,
+    "website": null,
+    "facility_id": "f_a905cd44cae1",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

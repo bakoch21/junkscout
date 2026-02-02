@@ -1,0 +1,21 @@
+{
+  "id": "f_0b9b670d6b30",
+  "slug": "city-of-panhandle-municipal-solid-waste-landfill",
+  "name": "CITY OF PANHANDLE MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "2.25 MILES W OF STATE HIGHWAY 207  2.25 MILES S OF US HIGHWAY 60 SW OF PANHANDLE CITY LIMITS IN CARSON COUNTY PANHANDLE TX",
+  "lat": 35.29,
+  "lng": -101.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "in-carson-county-panhandle"
+    },
+    {
+      "state": "texas",
+      "city": "limits-carson-panhandle"
+    }
+  ]
+}

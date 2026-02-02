@@ -1,0 +1,17 @@
+{
+  "id": "f_0339733503e8",
+  "slug": "city-of-amherst-landfill",
+  "name": "CITY OF AMHERST LANDFILL",
+  "type": "landfill",
+  "address": ".4 MILES E OF AMHERST  .3 MILES N OF FM 37 AMHERST TX 79312",
+  "lat": 34.02,
+  "lng": -102.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amherst"
+    }
+  ]
+}

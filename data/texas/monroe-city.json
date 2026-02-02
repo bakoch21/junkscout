@@ -6,7 +6,21 @@
     "lat": 29.8,
     "lng": -94.52,
     "website": null,
-    "source": null,
-    "facility_id": "f_5bb5e897dc26"
+    "facility_id": "f_5bb5e897dc26",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CHAMBERS COUNTY LANDFILL",
+    "type": "landfill",
+    "address": "7501 HIGHWAY 65 MONROE CITY TX 77514",
+    "lat": 29.8,
+    "lng": -94.52,
+    "website": null,
+    "facility_id": "f_de1dfb6a877c",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

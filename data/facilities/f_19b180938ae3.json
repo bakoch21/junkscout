@@ -1,0 +1,17 @@
+{
+  "id": "f_19b180938ae3",
+  "slug": "custer-transfer-station",
+  "name": "Custer Transfer Station",
+  "type": "transfer_station",
+  "address": "",
+  "lat": 33.1149086,
+  "lng": -96.7351259,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "frisco"
+    }
+  ]
+}

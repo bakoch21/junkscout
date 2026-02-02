@@ -1,0 +1,29 @@
+{
+  "id": "f_c6583cbf4033",
+  "slug": "city-of-carrizo-springs-landfill",
+  "name": "CITY OF CARRIZO SPRINGS LANDFILL",
+  "type": "landfill",
+  "address": "1.6 MILE SE OF INTERSECTION OF US HIGHWAY 83 AND FM 1917 IN DIMMIT COUNTY CARRIZO SPRINGS TX 78834",
+  "lat": 28.5,
+  "lng": -99.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dimmit-carrizo-springs"
+    },
+    {
+      "state": "texas",
+      "city": "dimmit-county-carrizo-springs"
+    },
+    {
+      "state": "texas",
+      "city": "in-dimmit-county-carrizo-springs"
+    },
+    {
+      "state": "texas",
+      "city": "springs"
+    }
+  ]
+}

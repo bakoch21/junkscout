@@ -1,0 +1,17 @@
+{
+  "id": "f_507f295f4ad7",
+  "slug": "pine-hill-landfill",
+  "name": "Pine Hill Landfill",
+  "type": "landfill",
+  "address": "1102 Four S Industrial Boulevard Longview TX 75603",
+  "lat": 32.450868,
+  "lng": -94.8334337,
+  "website": "https://www.republicservices.com/",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "longview"
+    }
+  ]
+}

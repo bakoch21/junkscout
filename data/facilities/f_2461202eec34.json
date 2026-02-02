@@ -1,0 +1,17 @@
+{
+  "id": "f_2461202eec34",
+  "slug": "city-of-snyder-landfill",
+  "name": "CITY OF SNYDER LANDFILL",
+  "type": "landfill",
+  "address": "3621 S FM 1673 SNYDER TX 79549",
+  "lat": 32.67,
+  "lng": -100.81,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "snyder"
+    }
+  ]
+}

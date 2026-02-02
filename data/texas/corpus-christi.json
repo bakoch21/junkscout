@@ -1,13 +1,15 @@
 [
   {
-    "name": "Coal Storage",
+    "name": "GULLEY-HURST LLC",
     "type": "landfill",
-    "address": "",
-    "lat": 27.8145365,
-    "lng": -97.4972275,
+    "address": "1435 COUNTY ROAD 26 CORPUS CHRISTI TEXAS 78415 CORPUS CHRISTI TX 78413",
+    "lat": 27.71,
+    "lng": -97.49,
     "website": null,
-    "source": null,
-    "facility_id": "f_bfe8caefedda"
+    "facility_id": "f_6a509c9de92c",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "GULLEY-HURST LLC",
@@ -16,7 +18,9 @@
     "lat": 27.71,
     "lng": -97.49,
     "website": null,
-    "source": null,
-    "facility_id": "f_6a509c9de92c"
+    "facility_id": "f_74f820a2d6d2",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

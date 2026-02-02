@@ -1,0 +1,21 @@
+{
+  "id": "f_e76498cdb3c8",
+  "slug": "city-of-colorado-city-landfill",
+  "name": "CITY OF COLORADO CITY LANDFILL",
+  "type": "landfill",
+  "address": "222 W COUNTY ROAD 141 COLORADO CITY TX 79512",
+  "lat": 32.42,
+  "lng": -100.87,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "colorado-city"
+    },
+    {
+      "state": "texas",
+      "city": "colorado"
+    }
+  ]
+}

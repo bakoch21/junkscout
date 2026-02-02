@@ -6,7 +6,21 @@
     "lat": 32.76,
     "lng": -96.95,
     "website": null,
-    "source": null,
-    "facility_id": "f_47dc2fd4c94e"
+    "facility_id": "f_3976cd18726d",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "INMAR RX SOLUTIONS",
+    "type": "landfill",
+    "address": "3845 GRAND LAKES WAY STE 125 GRAND PRAIRIE TX 75050",
+    "lat": 32.76,
+    "lng": -96.95,
+    "website": null,
+    "facility_id": "f_47dc2fd4c94e",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

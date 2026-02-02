@@ -1,0 +1,17 @@
+{
+  "id": "f_af7a171abbcf",
+  "slug": "city-of-amarillo-brush-site",
+  "name": "City of Amarillo Brush Site",
+  "type": "recycling",
+  "address": "3401 Broadway Drive Amarillo TX 79107",
+  "lat": 35.2461001,
+  "lng": -101.8499046,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

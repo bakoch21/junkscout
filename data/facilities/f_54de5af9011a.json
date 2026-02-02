@@ -1,0 +1,21 @@
+{
+  "id": "f_54de5af9011a",
+  "slug": "greenway-2051-nwh",
+  "name": "GREENWAY-2051 NWH",
+  "type": "landfill",
+  "address": "2051 W NORTHWEST HWY DALLAS TX 75220",
+  "lat": 32.87,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "w-northwest-hwy-dallas"
+    }
+  ]
+}

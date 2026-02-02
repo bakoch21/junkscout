@@ -1,0 +1,21 @@
+{
+  "id": "f_da24e56b6fd5",
+  "slug": "city-of-eldorado-landfill",
+  "name": "CITY OF ELDORADO LANDFILL",
+  "type": "landfill",
+  "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
+  "lat": 30.9,
+  "lng": -100.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "eldorado"
+    },
+    {
+      "state": "texas",
+      "city": "s-cottonwood-st-eldorado"
+    }
+  ]
+}

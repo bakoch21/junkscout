@@ -1,0 +1,17 @@
+{
+  "id": "f_43b018472fd3",
+  "slug": "green-center",
+  "name": "Green Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 29.7211792,
+  "lng": -94.9884887,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "baytown"
+    }
+  ]
+}

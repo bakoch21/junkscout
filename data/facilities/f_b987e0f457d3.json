@@ -1,0 +1,21 @@
+{
+  "id": "f_b987e0f457d3",
+  "slug": "office-warehouse",
+  "name": "OFFICE/WAREHOUSE",
+  "type": "landfill",
+  "address": "10341 FINNELL ST DALLAS TX 75220",
+  "lat": 32.86,
+  "lng": -96.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "finnell-st-dallas"
+    }
+  ]
+}

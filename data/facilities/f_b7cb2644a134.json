@@ -1,0 +1,21 @@
+{
+  "id": "f_b7cb2644a134",
+  "slug": "city-of-stratford-transfer-station-facility",
+  "name": "CITY OF STRATFORD TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "INTERSECTION OF US HIGHWAY 287 AND US HIGHWAY 54  3100 FEET DUE S 1400 FEET E STRATFORD TX",
+  "lat": 36.33,
+  "lng": -102.06,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "feet-e-stratford"
+    },
+    {
+      "state": "texas",
+      "city": "stratford"
+    }
+  ]
+}

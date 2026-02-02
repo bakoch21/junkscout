@@ -1,0 +1,21 @@
+{
+  "id": "f_6ad584974a25",
+  "slug": "csc-disposal-and-landfill",
+  "name": "CSC DISPOSAL AND LANDFILL",
+  "type": "landfill",
+  "address": "101 REPUBLIC WAY AVALON TX 76623",
+  "lat": 32.22,
+  "lng": -96.79,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "avalon"
+    },
+    {
+      "state": "texas",
+      "city": "republic-way-avalon"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_205b55626f45",
+  "slug": "city-of-denton-landfill",
+  "name": "CITY OF DENTON LANDFILL",
+  "type": "landfill",
+  "address": "1527 S MAYHILL RD DENTON TX 76208",
+  "lat": 33.19,
+  "lng": -97.08,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "denton"
+    },
+    {
+      "state": "texas",
+      "city": "s-mayhill-rd-denton"
+    }
+  ]
+}

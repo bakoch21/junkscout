@@ -1,0 +1,21 @@
+{
+  "id": "f_d8d0f1082218",
+  "slug": "city-of-brownsville-landfill",
+  "name": "CITY OF BROWNSVILLE LANDFILL",
+  "type": "landfill",
+  "address": "9000 RUBEN TORRES SR BLVD BROWNSVILLE TX 78526",
+  "lat": 25.94,
+  "lng": -97.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brownsville"
+    },
+    {
+      "state": "texas",
+      "city": "ruben-torres-sr-blvd-brownsville"
+    }
+  ]
+}

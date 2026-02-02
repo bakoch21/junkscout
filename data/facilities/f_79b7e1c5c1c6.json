@@ -1,0 +1,17 @@
+{
+  "id": "f_79b7e1c5c1c6",
+  "slug": "caliche-canyon-landfill",
+  "name": "Caliche Canyon Landfill",
+  "type": "landfill",
+  "address": "8425 North Avenue P Lubbock TX 79403",
+  "lat": 33.6720515,
+  "lng": -101.8580447,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lubbock"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_457ccd61a1f3",
+  "slug": "citizens-collection-station",
+  "name": "Citizens Collection Station",
+  "type": "recycling",
+  "address": "4100 Smith Road Midland TX 79705",
+  "lat": 32.0370148,
+  "lng": -102.0912537,
+  "website": "https://www.midlandtexas.gov/facilities/facility/details/Citizens-Collection-Station-73",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "midland"
+    }
+  ]
+}

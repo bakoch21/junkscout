@@ -1,0 +1,21 @@
+{
+  "id": "f_2f98ea1f76e3",
+  "slug": "skyline-landfill-and-recycling-facility",
+  "name": "SKYLINE LANDFILL & RECYCLING FACILITY",
+  "type": "recycling",
+  "address": "1201 N CENTRAL ST FERRIS TX 75125",
+  "lat": 32.55,
+  "lng": -96.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "ferris"
+    },
+    {
+      "state": "texas",
+      "city": "n-central-st-ferris"
+    }
+  ]
+}

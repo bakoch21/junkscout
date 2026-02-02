@@ -1,0 +1,21 @@
+{
+  "id": "f_a91205509a1c",
+  "slug": "covel-gardens-landfill-gas-power-station",
+  "name": "COVEL GARDENS LANDFILL GAS POWER STATION",
+  "type": "landfill",
+  "address": "8611 COVEL RD SAN ANTONIO TX 78252",
+  "lat": 29.34,
+  "lng": -98.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "antonio"
+    },
+    {
+      "state": "texas",
+      "city": "covel-rd-san-antonio"
+    }
+  ]
+}

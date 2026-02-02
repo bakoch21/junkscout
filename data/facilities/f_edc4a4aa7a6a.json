@@ -1,0 +1,25 @@
+{
+  "id": "f_edc4a4aa7a6a",
+  "slug": "zahn-enterprises",
+  "name": "ZAHN ENTERPRISES",
+  "type": "landfill",
+  "address": "7702 NORTH AVENUE P LUBBOCK TX 79403",
+  "lat": 33.67,
+  "lng": -101.85,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lubbock"
+    },
+    {
+      "state": "texas",
+      "city": "north-avenue-p-lubbock"
+    },
+    {
+      "state": "texas",
+      "city": "p-lubbock"
+    }
+  ]
+}

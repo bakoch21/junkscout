@@ -1,0 +1,17 @@
+{
+  "id": "f_0804a74fc16e",
+  "slug": "camelot-landfill",
+  "name": "Camelot Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.0307155,
+  "lng": -96.950935,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrollton"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_066b293fd772",
+  "slug": "wire-way-llc",
+  "name": "WIRE WAY LLC",
+  "type": "landfill",
+  "address": "10495 WIRE WAY DALLAS TX 75207",
+  "lat": 32.87,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "wire-way-dallas"
+    }
+  ]
+}

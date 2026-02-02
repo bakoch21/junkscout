@@ -1,0 +1,17 @@
+{
+  "id": "f_03bfc8e4a971",
+  "slug": "cm-hinton-jr-regional-landfill",
+  "name": "CM Hinton Jr. Regional Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 32.9579388,
+  "lng": -96.5420747,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

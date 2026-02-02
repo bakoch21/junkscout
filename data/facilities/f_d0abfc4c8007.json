@@ -1,0 +1,17 @@
+{
+  "id": "f_d0abfc4c8007",
+  "slug": "mesquite-creek-landfill",
+  "name": "Mesquite Creek Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 29.7351449,
+  "lng": -98.025443,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "new-braunfels"
+    }
+  ]
+}

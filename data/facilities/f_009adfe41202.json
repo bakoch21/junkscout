@@ -1,0 +1,25 @@
+{
+  "id": "f_009adfe41202",
+  "slug": "tm-deer-park-services",
+  "name": "TM DEER PARK SERVICES",
+  "type": "landfill",
+  "address": "2525 INDEPENDENCE RD DEER PARK TX 77536",
+  "lat": 29.74,
+  "lng": -95.09,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "deer-park"
+    },
+    {
+      "state": "texas",
+      "city": "independence-rd-deer-park"
+    },
+    {
+      "state": "texas",
+      "city": "park"
+    }
+  ]
+}

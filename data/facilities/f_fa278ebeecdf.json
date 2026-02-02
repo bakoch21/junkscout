@@ -1,0 +1,21 @@
+{
+  "id": "f_fa278ebeecdf",
+  "slug": "angelina-and-neches-river-authority-composting-facility",
+  "name": "ANGELINA  AND NECHES RIVER AUTHORITY COMPOSTING FACILITY",
+  "type": "recycling",
+  "address": "609 HWY 79 NORTH JACKSONVILLE TX 75766",
+  "lat": 31.9,
+  "lng": -95.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "jacksonville"
+    },
+    {
+      "state": "texas",
+      "city": "north-jacksonville"
+    }
+  ]
+}

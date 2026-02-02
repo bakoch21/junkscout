@@ -1,0 +1,17 @@
+{
+  "id": "f_1c4931be8147",
+  "slug": "coal-storage",
+  "name": "Coal Storage",
+  "type": "landfill",
+  "address": "",
+  "lat": 27.8145365,
+  "lng": -97.4972275,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "corpus-christi"
+    }
+  ]
+}

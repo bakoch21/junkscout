@@ -1,0 +1,33 @@
+{
+  "id": "f_ce597bf9b9e4",
+  "slug": "city-of-pampa-liquid-waste-processing-facility",
+  "name": "CITY OF PAMPA LIQUID WASTE PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "PAMPA GRAY COUNTY TEXAS PAMPA TX 79066",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "gray-county-texas-pampa"
+    },
+    {
+      "state": "texas",
+      "city": "pampa-gray-county-texas-pampa"
+    },
+    {
+      "state": "texas",
+      "city": "pampa-gray-texas-pampa"
+    },
+    {
+      "state": "texas",
+      "city": "pampa"
+    },
+    {
+      "state": "texas",
+      "city": "texas-pampa"
+    }
+  ]
+}

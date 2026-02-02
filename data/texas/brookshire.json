@@ -6,7 +6,21 @@
     "lat": 29.86,
     "lng": -95.89,
     "website": null,
-    "source": null,
-    "facility_id": "f_6e863e55e699"
+    "facility_id": "f_23a25f871bcd",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "NEW EARTH GRAND PARKWAY COMPOSTING",
+    "type": "recycling",
+    "address": "6205 FM 2855 BROOKSHIRE TX 77423",
+    "lat": 29.86,
+    "lng": -95.89,
+    "website": null,
+    "facility_id": "f_6e863e55e699",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

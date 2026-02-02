@@ -1,0 +1,21 @@
+{
+  "id": "f_b455ee88de67",
+  "slug": "city-of-waco-landfill",
+  "name": "CITY OF WACO LANDFILL",
+  "type": "landfill",
+  "address": "SITE ENTRANCE IS APPROX 70 FT E OF THE INTERSECTION OF HAPPY SWANER LN AND TK PKWY FM 939 NORTHERN BOUNDARY IS APPROX 0.4 MI FROM STATE ROUTE 31 W WACO TX 76624",
+  "lat": 31.7,
+  "lng": -96.93,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "w-waco"
+    },
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

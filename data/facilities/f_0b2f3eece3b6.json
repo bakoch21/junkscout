@@ -1,0 +1,17 @@
+{
+  "id": "f_0b2f3eece3b6",
+  "slug": "texas-organic-products-top",
+  "name": "Texas Organic Products (TOP)",
+  "type": "recycling",
+  "address": "",
+  "lat": 30.1109203,
+  "lng": -97.7626444,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

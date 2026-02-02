@@ -1,0 +1,17 @@
+{
+  "id": "f_bf76dba3adc8",
+  "slug": "scales",
+  "name": "Scales",
+  "type": "transfer_station",
+  "address": "2300 Lawrence Road Wichita Falls TX 76308",
+  "lat": 33.8731062,
+  "lng": -98.541084,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "wichita-falls"
+    }
+  ]
+}

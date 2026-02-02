@@ -1,0 +1,21 @@
+{
+  "id": "f_32e4e01fadfd",
+  "slug": "polk-county-landfill",
+  "name": "POLK COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "3477 FM 942 W LEGGETT TX 77350",
+  "lat": 30.83,
+  "lng": -94.92,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "leggett"
+    },
+    {
+      "state": "texas",
+      "city": "w-leggett"
+    }
+  ]
+}

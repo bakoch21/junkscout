@@ -1,0 +1,17 @@
+{
+  "id": "f_aa7324b16cb5",
+  "slug": "city-of-cross-plains",
+  "name": "CITY OF CROSS PLAINS",
+  "type": "landfill",
+  "address": "100 CR 347 CROSS PLAINS TX 76443",
+  "lat": 32.11,
+  "lng": -99.17,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "cross-plains"
+    }
+  ]
+}

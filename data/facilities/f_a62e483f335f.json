@@ -1,0 +1,17 @@
+{
+  "id": "f_a62e483f335f",
+  "slug": "coastal-plains-recycling-and-landfill-facility",
+  "name": "COASTAL PLAINS RECYCLING  AND LANDFILL FACILITY",
+  "type": "recycling",
+  "address": "21000 E HIGHWAY 6 ALVIN TX 77511",
+  "lat": 29.42,
+  "lng": -95.19,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "alvin"
+    }
+  ]
+}

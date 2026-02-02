@@ -1,0 +1,21 @@
+{
+  "id": "f_53a7e7840943",
+  "slug": "city-of-clarendon-transfer-station",
+  "name": "CITY OF CLARENDON TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "400 N FRONT ST CLARENDON TX 79226",
+  "lat": 34.89,
+  "lng": -99.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "clarendon"
+    },
+    {
+      "state": "texas",
+      "city": "n-front-st-clarendon"
+    }
+  ]
+}

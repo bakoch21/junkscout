@@ -41,20 +41,38 @@ function titleCaseWordsFromSlug(slug = "") {
 }
 
 function getRouteParts() {
+  // 1) Prefer explicit dataset if generator injects it
   const b = document.body;
   const ds = b?.dataset || {};
-  if (ds.state && ds.city) return { state: ds.state, city: ds.city };
+  if (ds.state && ds.city) return { state: String(ds.state), city: String(ds.city) };
 
+  // 2) Support hash routes like #texas/houston or #/texas/houston
   const hash = (window.location.hash || "").replace(/^#\/?/, "").trim();
   if (hash) {
-    const [state, city] = hash.split("/").filter(Boolean);
-    return { state: state || "", city: city || "" };
+    const parts = hash.split("/").filter(Boolean);
+    const state = parts[0] || "";
+    const city = parts[1] || "";
+
+    // If someone uses #houston, assume texas
+    if (!city && state) return { state: "texas", city: state };
+
+    return { state, city };
   }
 
-  const parts = window.location.pathname.split("/").filter(Boolean);
-  const state = parts[0] || "";
-  const city = parts[1] || "";
-  return { state, city };
+  // 3) Path routes:
+  // - /texas/houston/  -> state=texas, city=houston
+  // - /houston/        -> DEFAULT state=texas, city=houston
+  const parts = window.location.pathname.replace(/^\/|\/$/g, "").split("/").filter(Boolean);
+
+  if (parts.length >= 2) {
+    return { state: parts[0] || "", city: parts[1] || "" };
+  }
+
+  if (parts.length === 1) {
+    return { state: "texas", city: parts[0] || "" };
+  }
+
+  return { state: "", city: "" };
 }
 
 function setMetaDescription(desc) {
@@ -328,6 +346,153 @@ function badge(text, color) {
 }
 
 /** =========================
+ * Map (Leaflet)
+ * ========================= */
+
+function toNum(v) {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+}
+
+// ✅ Once-and-for-all coordinate normalization:
+// accept lat|latitude and lng|lon|longitude
+function getLat(item) {
+  return toNum(item?.lat ?? item?.latitude);
+}
+function getLng(item) {
+  return toNum(item?.lng ?? item?.lon ?? item?.longitude);
+}
+
+function getIdForItem(item) {
+  return item?.facility_id || item?.id || item?.name || "";
+}
+
+function hasCoords(item) {
+  const lat = getLat(item);
+  const lng = getLng(item);
+  return lat !== null && lng !== null;
+}
+
+function buildPopupHtml(item) {
+  const name = escapeHtml(item?.name || "Location");
+  const address = item?.address ? `<div class="muted small" style="margin-top:2px">${escapeHtml(item.address)}</div>` : "";
+
+  const lat = getLat(item);
+  const lng = getLng(item);
+
+  const dirs = item?.address
+    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}`
+    : (lat !== null && lng !== null ? `https://www.google.com/maps/search/?api=1&query=${lat},${lng}` : "#");
+
+  return `
+    <div style="min-width:180px">
+      <div style="font-weight:800; line-height:1.2">${name}</div>
+      ${address}
+      <div style="margin-top:8px">
+        <a class="link" href="${dirs}" target="_blank" rel="noopener">Directions</a>
+      </div>
+    </div>
+  `;
+}
+
+// ✅ Robust Leaflet wait (handles script ordering changes / slow CDN)
+async function waitForLeaflet({ timeoutMs = 3500, stepMs = 50 } = {}) {
+  const start = Date.now();
+  while (!window.L) {
+    if (Date.now() - start > timeoutMs) return false;
+    await new Promise((r) => setTimeout(r, stepMs));
+  }
+  return true;
+}
+
+function makeMapController() {
+  const mapEl = document.getElementById("map");
+  const wrap = document.getElementById("mapWrap") || mapEl?.parentElement;
+
+  const hasLeaflet = typeof window !== "undefined" && window.L;
+  if (!mapEl || !wrap || !hasLeaflet) {
+    if (wrap) wrap.style.display = "none";
+    return {
+      enabled: false,
+      setMarkers: () => {},
+      panToId: () => false,
+    };
+  }
+
+  const L = window.L;
+
+  const map = L.map(mapEl, {
+    scrollWheelZoom: false, // less annoying on long pages
+  });
+
+  // OSM tiles
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors',
+  }).addTo(map);
+
+  const group = L.layerGroup().addTo(map);
+  const markerById = new Map();
+
+  function fitToMarkers() {
+    const markers = Array.from(markerById.values());
+    if (!markers.length) return;
+
+    const bounds = L.latLngBounds(markers.map((m) => m.getLatLng()));
+    map.fitBounds(bounds.pad(0.15), { animate: false });
+  }
+
+  function setMarkers(items, onMarkerClick) {
+    group.clearLayers();
+    markerById.clear();
+
+    const withCoords = (items || []).filter(hasCoords);
+
+    if (!withCoords.length) {
+      // If a city has zero coords, hide map rather than show an empty gray box
+      wrap.style.display = "none";
+      return;
+    }
+
+    wrap.style.display = "";
+    withCoords.forEach((item) => {
+      const id = getIdForItem(item);
+      const lat = getLat(item);
+      const lng = getLng(item);
+      if (!id || lat === null || lng === null) return;
+
+      const m = L.marker([lat, lng]).addTo(group);
+      m.bindPopup(buildPopupHtml(item));
+
+      m.on("click", () => {
+        if (typeof onMarkerClick === "function") onMarkerClick(id);
+      });
+
+      markerById.set(id, m);
+    });
+
+    fitToMarkers();
+  }
+
+  function panToId(id) {
+    const m = markerById.get(id);
+    if (!m) return false;
+    map.setView(m.getLatLng(), Math.max(map.getZoom(), 13), { animate: true });
+    try { m.openPopup(); } catch {}
+    return true;
+  }
+
+  // Default view (will be overridden by fitBounds)
+  map.setView([31.0, -99.0], 5);
+
+  return {
+    enabled: true,
+    setMarkers,
+    panToId,
+  };
+}
+
+/** =========================
  * Filters UI (uniform pills)
  * ========================= */
 
@@ -381,13 +546,11 @@ function buildFilterBar({ resultsEl, onChange }) {
   topRow.appendChild(title);
   topRow.appendChild(rightBox);
 
-  // Body: single column (cleaner, less busy)
   const body = document.createElement("div");
   body.style.display = "grid";
   body.style.gap = "12px";
   body.style.marginTop = "12px";
 
-  // Type pills (visible)
   const typeBlock = document.createElement("div");
   typeBlock.innerHTML = `<div class="muted small" style="font-weight:700; margin-bottom:8px">Type</div>`;
 
@@ -398,7 +561,6 @@ function buildFilterBar({ resultsEl, onChange }) {
   typeChips.style.alignItems = "flex-start";
   typeBlock.appendChild(typeChips);
 
-  // Advanced filters (collapsed)
   const adv = document.createElement("details");
   adv.style.borderTop = "1px solid rgba(0,0,0,0.06)";
   adv.style.paddingTop = "10px";
@@ -429,7 +591,6 @@ function buildFilterBar({ resultsEl, onChange }) {
   advBody.style.display = "grid";
   advBody.style.gap = "12px";
 
-  // Materials (collapsed inside Advanced)
   const matsDetails = document.createElement("details");
   matsDetails.open = false;
 
@@ -453,7 +614,6 @@ function buildFilterBar({ resultsEl, onChange }) {
 
   matsDetails.appendChild(matsBody);
 
-  // Features (collapsed inside Advanced)
   const featsDetails = document.createElement("details");
   featsDetails.open = false;
 
@@ -494,7 +654,6 @@ function buildFilterBar({ resultsEl, onChange }) {
   wrap.appendChild(topRow);
   wrap.appendChild(body);
 
-  // State
   const state = {
     type: "all",
     flags: new Set(),
@@ -521,12 +680,10 @@ function buildFilterBar({ resultsEl, onChange }) {
     btn.style.cursor = "pointer";
     btn.style.border = "1px solid rgba(0,0,0,0.10)";
     btn.style.maxWidth = "100%";
-
     btn.textContent = label;
 
     btn.addEventListener("click", () => {
       state.type = key;
-      // single-select: flip all
       for (const [k, b] of state.typeBtnByKey.entries()) {
         stylePill(b, k === key);
       }
@@ -602,7 +759,6 @@ function buildFilterBar({ resultsEl, onChange }) {
       state.typeBtnByKey.set(t.key, pill);
     });
 
-    // default selection
     state.type = "all";
     for (const [k, b] of state.typeBtnByKey.entries()) {
       stylePill(b, k === "all");
@@ -641,16 +797,13 @@ function buildFilterBar({ resultsEl, onChange }) {
     state.flags = new Set();
     state.materials = new Set();
 
-    // reset type
     for (const [k, b] of state.typeBtnByKey.entries()) {
       stylePill(b, k === "all");
     }
 
-    // rebuild materials + features to clear ✓ and pressed states
     setMaterialsCounts(state.materialCounts);
     setFeatureChips(state.featureCounts);
 
-    // keep Advanced collapsed (calmer)
     adv.open = false;
     matsDetails.open = false;
     featsDetails.open = false;
@@ -669,13 +822,14 @@ function buildFilterBar({ resultsEl, onChange }) {
 }
 
 /** =========================
- * Inline Details expander only (no card navigation)
+ * Inline Details expander + card→map
  * ========================= */
 
-function attachHandlers(resultsEl) {
+function attachHandlers(resultsEl, mapCtl) {
   if (resultsEl.__bound) return;
   resultsEl.__bound = true;
 
+  // Details toggle
   resultsEl.addEventListener("click", (e) => {
     if (e.target.closest("a")) return;
 
@@ -698,6 +852,21 @@ function attachHandlers(resultsEl) {
     if (!detailsBtn) return;
     e.preventDefault();
     detailsBtn.click();
+  });
+
+  // Card click → pan to marker (ignore clicks on links/buttons)
+  resultsEl.addEventListener("click", (e) => {
+    if (!mapCtl || !mapCtl.enabled) return;
+    if (e.target.closest("a")) return;
+    if (e.target.closest("button")) return;
+
+    const card = e.target.closest("article.card");
+    if (!card) return;
+
+    const id = card.getAttribute("data-id") || "";
+    if (!id) return;
+
+    mapCtl.panToId(id);
   });
 }
 
@@ -757,31 +926,29 @@ function renderCard(item) {
   const norm = normalizeType(item.type);
   const typeBadge = renderTypeBadge(norm.key);
 
+  const lat = getLat(item);
+  const lng = getLng(item);
+
   const mapsUrl = item.address
     ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}`
-    : (item.lat && item.lng ? `https://www.google.com/maps/search/?api=1&query=${item.lat},${item.lng}` : "#");
+    : (lat !== null && lng !== null ? `https://www.google.com/maps/search/?api=1&query=${lat},${lng}` : "#");
 
-  const toggleId = item.facility_id || item.name || Math.random().toString(36).slice(2);
-
-  const detailsBtn = `
-    <button type="button" class="btn btn--ghost"
-            data-details-toggle="${escapeHtml(toggleId)}"
-            style="padding:8px 12px">
-      Details
-    </button>
-  `;
-
+  const toggleId = getIdForItem(item) || Math.random().toString(36).slice(2);
   const detailsPanel = renderDetailsPanel(item, toggleId);
 
+  const dataId = escapeHtml(toggleId);
+
   return `
-    <article class="card">
+    <article class="card" data-id="${dataId}">
       <div class="card__kicker">${typeBadge}</div>
       <h3>${escapeHtml(item.name || "Unnamed location")}</h3>
       ${item.address ? `<p class="card__meta">${escapeHtml(item.address)}</p>` : ""}
 
       <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
         <a class="link" href="${mapsUrl}" target="_blank" rel="noopener">Directions</a>
-        ${detailsBtn}
+        <button type="button" class="btn btn--ghost" data-details-toggle="${dataId}" style="padding:8px 12px">
+          Details
+        </button>
       </div>
 
       ${detailsPanel}
@@ -794,8 +961,15 @@ function renderCard(item) {
  * ========================= */
 
 async function loadCityData() {
-  const resultsEl = document.getElementById("results");
-  if (!resultsEl) return;
+  const resultsEl =
+    document.getElementById("results") ||
+    document.querySelector("[data-results]") ||
+    document.querySelector("main");
+
+  if (!resultsEl) {
+    console.warn("[city.js] No results container found. Expected #results.");
+    return;
+  }
 
   ensureRobotsMeta("index,follow");
 
@@ -831,6 +1005,11 @@ async function loadCityData() {
     }
   }
 
+  // Normalize "city object" JSON -> array
+  if (items && !Array.isArray(items) && Array.isArray(items.facilities)) {
+    items = items.facilities;
+  }
+
   if (!Array.isArray(items) || items.length === 0) {
     resultsEl.innerHTML = "<p class='muted'>No locations found.</p>";
     return;
@@ -845,10 +1024,17 @@ async function loadCityData() {
       __typeLabel: t.label,
       __flags: deriveFlags(it),
       __materials: mats,
+      __id: getIdForItem(it),
     };
   });
 
-  // Type options (for type pills)
+  // ✅ Ensure Leaflet is ready (even if CDN slow)
+  await waitForLeaflet({ timeoutMs: 3500, stepMs: 50 });
+
+  // Map controller
+  const mapCtl = makeMapController();
+
+  // Type options
   const typeCount = new Map();
   enriched.forEach((it) => {
     const k = it.__typeKey || "other";
@@ -891,23 +1077,37 @@ async function loadCityData() {
     });
   });
 
+  function render(itemsToRender) {
+    resultsEl.innerHTML = itemsToRender.length
+      ? itemsToRender.map((it) => renderCard(it)).join("")
+      : "<p class='muted'>No locations match those filters.</p>";
+
+    // Map markers
+    mapCtl.setMarkers(itemsToRender, (id) => {
+      const card = resultsEl.querySelector(`article.card[data-id="${CSS.escape(id)}"]`);
+      if (card) {
+        card.scrollIntoView({ behavior: "smooth", block: "start" });
+        card.style.outline = "2px solid rgba(46,110,166,0.35)";
+        card.style.outlineOffset = "4px";
+        setTimeout(() => { card.style.outline = ""; card.style.outlineOffset = ""; }, 1200);
+      }
+    });
+  }
+
   const filterBar = buildFilterBar({
     resultsEl,
     onChange: (filterState) => {
       const filtered = enriched.filter((it) => {
-        // Type
         if (filterState.type && filterState.type !== "all") {
           if (it.__typeKey !== filterState.type) return false;
         }
 
-        // Features (AND)
         if (filterState.flags && filterState.flags.size > 0) {
           for (const needed of filterState.flags) {
             if (!(it.__flags || []).includes(needed)) return false;
           }
         }
 
-        // Materials (OR)
         if (filterState.materials && filterState.materials.size > 0) {
           const mats = it.__materials || [];
           let any = false;
@@ -921,12 +1121,8 @@ async function loadCityData() {
       });
 
       filterBar.setCounts(filtered.length, enriched.length);
-
-      resultsEl.innerHTML = filtered.length
-        ? filtered.map((it) => renderCard(it)).join("")
-        : "<p class='muted'>No locations match those filters.</p>";
-
-      attachHandlers(resultsEl);
+      render(filtered);
+      attachHandlers(resultsEl, mapCtl);
     },
   });
 
@@ -935,8 +1131,8 @@ async function loadCityData() {
   filterBar.setFeatureChips(featureCounts);
   filterBar.setCounts(enriched.length, enriched.length);
 
-  resultsEl.innerHTML = enriched.map((it) => renderCard(it)).join("");
-  attachHandlers(resultsEl);
+  render(enriched);
+  attachHandlers(resultsEl, mapCtl);
 }
 
 document.addEventListener("DOMContentLoaded", loadCityData);

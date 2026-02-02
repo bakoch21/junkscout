@@ -1,0 +1,33 @@
+{
+  "id": "f_705383a1ed5f",
+  "slug": "city-of-pecos-landfill",
+  "name": "CITY OF PECOS LANDFILL",
+  "type": "landfill",
+  "address": "1.3 MILES S INTERSTATE HIGHWAY 20  0.4 MILES E STATE HIGHWAY 17  ADJACENT S EDGE PECOS MUNICIPAL AIRPORT PECOS CITY TX 79772",
+  "lat": 31.38,
+  "lng": -103.52,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "adjacent-s-edge-pecos-municipal-airport-pecos-city"
+    },
+    {
+      "state": "texas",
+      "city": "city"
+    },
+    {
+      "state": "texas",
+      "city": "municipal-airport-pecos-city"
+    },
+    {
+      "state": "texas",
+      "city": "pecos-pecos-city"
+    },
+    {
+      "state": "texas",
+      "city": "pecos"
+    }
+  ]
+}

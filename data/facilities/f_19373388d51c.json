@@ -1,0 +1,17 @@
+{
+  "id": "f_19373388d51c",
+  "slug": "mexia-landfill",
+  "name": "MEXIA LANDFILL",
+  "type": "landfill",
+  "address": "3048 LCR 460 MEXIA TX 76667",
+  "lat": 31.61,
+  "lng": -96.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mexia"
+    }
+  ]
+}

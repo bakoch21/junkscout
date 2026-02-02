@@ -1,23 +1,15 @@
 [
   {
-    "name": "Amarillo Metals Company, Inc",
-    "type": "recycling",
-    "address": "415 North Grand Street Amarillo TX 79109",
-    "lat": 35.2167702,
-    "lng": -101.7964732,
+    "name": "BIOCYCLE",
+    "type": "landfill",
+    "address": "8783 US HWY NO 60 AMARILLO TX 79108",
+    "lat": 35.22,
+    "lng": -100.74,
     "website": null,
-    "source": null,
-    "facility_id": "f_1e5ec3672eef"
-  },
-  {
-    "name": "Amarillo Recycling Company, Inc.",
-    "type": "recycling",
-    "address": "5318 East Amarillo Boulevard Amarillo TX 79107",
-    "lat": 35.2216074,
-    "lng": -101.7961798,
-    "website": null,
-    "source": null,
-    "facility_id": "f_ac47284f3fc5"
+    "facility_id": "f_8bb6cfea0c29",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "BIOCYCLE",
@@ -26,97 +18,9 @@
     "lat": 35.22,
     "lng": -100.74,
     "website": null,
-    "source": null,
-    "facility_id": "f_b03814c8ac23"
-  },
-  {
-    "name": "City of Amarillo Brush Site",
-    "type": "recycling",
-    "address": "3401 Broadway Drive Amarillo TX 79107",
-    "lat": 35.2461001,
-    "lng": -101.8499046,
-    "website": null,
-    "source": null,
-    "facility_id": "f_b6ba5aba32a5"
-  },
-  {
-    "name": "CITY OF AMARILLO LANDFILL",
-    "type": "landfill",
-    "address": "16250 BEZNER RD AMARILLO TX 79124",
-    "lat": 35.22,
-    "lng": -102.03,
-    "website": null,
-    "source": null,
-    "facility_id": "f_cb71bebb9ef7"
-  },
-  {
-    "name": "CITY OF AMARILLO TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "811 SE 27TH AVE AMARILLO TX 79103",
-    "lat": 35.19,
-    "lng": -101.83,
-    "website": null,
-    "source": null,
-    "facility_id": "f_219167caa008"
-  },
-  {
-    "name": "Metal & Used Oil Collection Center",
-    "type": "recycling",
-    "address": "604 South Independence Street Amarillo TX 79106",
-    "lat": 35.2110607,
-    "lng": -101.8832934,
-    "website": null,
-    "source": null,
-    "facility_id": "f_011ed7d4799f"
-  },
-  {
-    "name": "North Texas Waste & Recycling",
-    "type": "recycling",
-    "address": "4110 East Amarillo Boulevard Amarillo TX 79107",
-    "lat": 35.2211718,
-    "lng": -101.790506,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e2f9b3dc4c74"
-  },
-  {
-    "name": "Scrap Processing Co.",
-    "type": "recycling",
-    "address": "95 Browning Street Amarillo TX 79104",
-    "lat": 35.2101851,
-    "lng": -101.8076043,
-    "website": null,
-    "source": null,
-    "facility_id": "f_087024918dd5"
-  },
-  {
-    "name": "Used Oil Collection Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 35.1852548,
-    "lng": -101.8311894,
-    "website": null,
-    "source": null,
-    "facility_id": "f_4353a11d33a1"
-  },
-  {
-    "name": "Used Oil Collection Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 35.2505193,
-    "lng": -101.8327615,
-    "website": null,
-    "source": null,
-    "facility_id": "f_d8ed2c68d082"
-  },
-  {
-    "name": "W. Silver Recycling Company",
-    "type": "recycling",
-    "address": "3320 East Amarillo Boulevard Amarillo TX 79107",
-    "lat": 35.2215976,
-    "lng": -101.7985267,
-    "website": null,
-    "source": null,
-    "facility_id": "f_957208b1e34d"
+    "facility_id": "f_b03814c8ac23",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

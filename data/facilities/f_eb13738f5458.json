@@ -1,0 +1,21 @@
+{
+  "id": "f_eb13738f5458",
+  "slug": "bastrop-transfer-station",
+  "name": "BASTROP TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "2019 SH 121 W CEDAR CREEK TX 78612",
+  "lat": 30.75,
+  "lng": -97.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "cedar-creek"
+    },
+    {
+      "state": "texas",
+      "city": "w-cedar-creek"
+    }
+  ]
+}

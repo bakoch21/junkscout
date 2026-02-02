@@ -1,0 +1,17 @@
+{
+  "id": "f_1e337e54e4d3",
+  "slug": "w-silver-recycling-company",
+  "name": "W. Silver Recycling Company",
+  "type": "recycling",
+  "address": "3320 East Amarillo Boulevard Amarillo TX 79107",
+  "lat": 35.2215976,
+  "lng": -101.7985267,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

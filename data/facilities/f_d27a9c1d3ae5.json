@@ -1,0 +1,33 @@
+{
+  "id": "f_d27a9c1d3ae5",
+  "slug": "city-of-crowell-mono-field",
+  "name": "CITY OF CROWELL MONO FIELD",
+  "type": "landfill",
+  "address": "5 ACRES OF LAND WITH DRIVEWAY EASEMENT CROWELL TX 79227",
+  "lat": 33.96,
+  "lng": -99.71,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "acres-of-land-with-driveway-easement-crowell"
+    },
+    {
+      "state": "texas",
+      "city": "crowell"
+    },
+    {
+      "state": "texas",
+      "city": "driveway-easement-crowell"
+    },
+    {
+      "state": "texas",
+      "city": "land-driveway-easement-crowell"
+    },
+    {
+      "state": "texas",
+      "city": "with-driveway-easement-crowell"
+    }
+  ]
+}

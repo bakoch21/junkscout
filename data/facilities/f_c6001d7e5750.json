@@ -1,0 +1,21 @@
+{
+  "id": "f_c6001d7e5750",
+  "slug": "security-self-storage",
+  "name": "SECURITY SELF STORAGE",
+  "type": "landfill",
+  "address": "6640 SKILLMAN ST DALLAS TX 75231",
+  "lat": 32.87,
+  "lng": -96.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "skillman-st-dallas"
+    }
+  ]
+}

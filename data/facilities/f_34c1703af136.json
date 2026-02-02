@@ -1,0 +1,21 @@
+{
+  "id": "f_34c1703af136",
+  "slug": "burleson-road-facility",
+  "name": "BURLESON ROAD FACILITY",
+  "type": "landfill",
+  "address": "7019 BURLESON RD AUSTIN TX 78744",
+  "lat": 30.2,
+  "lng": -97.71,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    },
+    {
+      "state": "texas",
+      "city": "burleson-rd-austin"
+    }
+  ]
+}

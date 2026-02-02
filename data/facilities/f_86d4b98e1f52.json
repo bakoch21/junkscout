@@ -1,0 +1,21 @@
+{
+  "id": "f_86d4b98e1f52",
+  "slug": "greater-el-paso-landfill",
+  "name": "GREATER EL PASO LANDFILL",
+  "type": "landfill",
+  "address": "2300 DARRINGTON RD EL PASO TX 79928",
+  "lat": 31.61,
+  "lng": -106.16,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "darrington-rd-el-paso"
+    },
+    {
+      "state": "texas",
+      "city": "paso"
+    }
+  ]
+}

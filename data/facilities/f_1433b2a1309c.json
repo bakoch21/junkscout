@@ -1,0 +1,21 @@
+{
+  "id": "f_1433b2a1309c",
+  "slug": "city-of-wellington-landfill",
+  "name": "CITY OF WELLINGTON LANDFILL",
+  "type": "landfill",
+  "address": "4OO YARDS W OF FM 1035   .75 MILES SW OF WELLINGTON CITY LIMITS WELLINGTON TX",
+  "lat": 34.84,
+  "lng": -100.23,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "wellington-city-limits-wellington"
+    },
+    {
+      "state": "texas",
+      "city": "wellington-wellington"
+    }
+  ]
+}

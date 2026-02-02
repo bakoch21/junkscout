@@ -1,0 +1,21 @@
+{
+  "id": "f_39705ca76483",
+  "slug": "city-of-dimmitt-municipal-solid-waste-landfill",
+  "name": "CITY OF DIMMITT MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "NE OF DIMMITT 1 MILE NE OF THE INTERSECTION OF STATE HIGHWAY 86 AND US HIGHWAY 385 INTERSECTION IN CASTRO COUNTY DIMMITT TX",
+  "lat": 34.56,
+  "lng": -102.3,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "castro-dimmitt"
+    },
+    {
+      "state": "texas",
+      "city": "in-castro-county-dimmitt"
+    }
+  ]
+}

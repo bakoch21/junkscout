@@ -1,0 +1,17 @@
+{
+  "id": "f_1c33d9e43317",
+  "slug": "fort-clark-springs-association-inc-landfill",
+  "name": "FORT CLARK SPRINGS ASSOCIATION INC LANDFILL",
+  "type": "landfill",
+  "address": "1689 HWY 90 BRACKETTVILLE BRACKETTVILLE TX 78832",
+  "lat": 29.3,
+  "lng": -100.42,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brackettville-brackettville"
+    }
+  ]
+}

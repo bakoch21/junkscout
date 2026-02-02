@@ -1,0 +1,17 @@
+{
+  "id": "f_1eb3c22d1631",
+  "slug": "compra-de-metales",
+  "name": "Compra de metales",
+  "type": "recycling",
+  "address": "",
+  "lat": 25.8540334,
+  "lng": -97.4748286,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brownsville"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_619ee65458fe",
+  "slug": "us-ecology-texas-inc",
+  "name": "US ECOLOGY TEXAS INC",
+  "type": "landfill",
+  "address": "3277 COUNTY ROAD 69 ROBSTOWN TX 78380",
+  "lat": 27.73,
+  "lng": -97.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "robstown"
+    }
+  ]
+}

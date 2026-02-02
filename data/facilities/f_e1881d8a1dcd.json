@@ -1,0 +1,17 @@
+{
+  "id": "f_e1881d8a1dcd",
+  "slug": "city-of-menard-landfill",
+  "name": "CITY OF MENARD LANDFILL",
+  "type": "landfill",
+  "address": "1.9 MI W OF CITY LIMITS 500 FEET N OF US HWY 190 MENARD TX",
+  "lat": 30.93,
+  "lng": -99.82,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "menard"
+    }
+  ]
+}

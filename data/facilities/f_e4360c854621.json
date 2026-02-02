@@ -1,0 +1,17 @@
+{
+  "id": "f_e4360c854621",
+  "slug": "denton-recycle-center",
+  "name": "Denton Recycle Center",
+  "type": "transfer_station",
+  "address": "1722 Cooper Creek Road Denton TX 76208",
+  "lat": 33.2369623,
+  "lng": -97.0810666,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "denton"
+    }
+  ]
+}

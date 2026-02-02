@@ -1,0 +1,21 @@
+{
+  "id": "f_fa7546fdc677",
+  "slug": "city-of-cleburne-landfill",
+  "name": "CITY OF CLEBURNE LANDFILL",
+  "type": "landfill",
+  "address": "1700 ISLAND GROVE RD CLEBURNE TX 76031",
+  "lat": 32.4,
+  "lng": -97.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "cleburne"
+    },
+    {
+      "state": "texas",
+      "city": "island-grove-rd-cleburne"
+    }
+  ]
+}

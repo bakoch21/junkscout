@@ -1,0 +1,33 @@
+{
+  "id": "f_8a1404964be6",
+  "slug": "city-of-dalhart-landfill",
+  "name": "CITY OF DALHART LANDFILL",
+  "type": "landfill",
+  "address": "3 MILES NW OF US HIGHWAY 87 AND FM  1727  SW OF FORT WORTH DENVER RAILROAD 3.9 MILES NW OF DALHART DALHART TX 79022",
+  "lat": 36.11,
+  "lng": -102.59,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dalhart-dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "miles-nw-dalhart-dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "miles-nw-of-dalhart-dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "of-dalhart-dalhart"
+    }
+  ]
+}

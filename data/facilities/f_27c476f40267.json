@@ -1,0 +1,17 @@
+{
+  "id": "f_27c476f40267",
+  "slug": "san-angelo-landfil",
+  "name": "San Angelo Landfil",
+  "type": "landfill",
+  "address": "3002 Old Ballinger Highway San Angelo TX 76905",
+  "lat": 31.504444,
+  "lng": -100.3898394,
+  "website": "https://www.republicservices.com/customer-support/facilities",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-angelo"
+    }
+  ]
+}

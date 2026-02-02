@@ -6,7 +6,21 @@
     "lat": 36.38,
     "lng": -103.03,
     "website": null,
-    "source": null,
-    "facility_id": "f_2b72c3eb0cad"
+    "facility_id": "f_2b72c3eb0cad",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "TRI-STATE RECYCLING TEXLINE TRANSFER",
+    "type": "transfer_station",
+    "address": "HWY 296 E TEXLINE TX 79087",
+    "lat": 36.38,
+    "lng": -103.03,
+    "website": null,
+    "facility_id": "f_97b4d7b18d6e",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

@@ -1,0 +1,21 @@
+{
+  "id": "f_2b8e62c43b4a",
+  "slug": "nueva-plaza-mexico-salon-rio-nilo",
+  "name": "NUEVA PLAZA MEXICO SALON RIO NILO",
+  "type": "landfill",
+  "address": "37.487 ACRE SW CORNER OF THE PROPERTY LOCATED APPROX 500 FT N OF THE NE CORNER OF MANANA DR AND NEWKIR ST DALLAS TX TX",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "and-newkir-st-dallas-tx"
+    },
+    {
+      "state": "texas",
+      "city": "dallas-tx"
+    }
+  ]
+}

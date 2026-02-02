@@ -1,0 +1,25 @@
+{
+  "id": "f_bf0458dd5722",
+  "slug": "suite-stay-inc",
+  "name": "SUITE STAY INC",
+  "type": "landfill",
+  "address": "5147 OAKHURST AVE, CORPUS CHRISTI\nTract 10 Oakhurst Plaza-Tiger CORPUE CHRISTI TX 78411",
+  "lat": 27.72,
+  "lng": -97.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "christi"
+    },
+    {
+      "state": "texas",
+      "city": "oakhurst-plaza-tiger-corpue-christi"
+    },
+    {
+      "state": "texas",
+      "city": "plaza-tiger-corpue-christi"
+    }
+  ]
+}

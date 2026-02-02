@@ -1,0 +1,17 @@
+{
+  "id": "f_307d7bb3e9c8",
+  "slug": "north-texas-waste-and-recycling",
+  "name": "North Texas Waste & Recycling",
+  "type": "recycling",
+  "address": "4110 East Amarillo Boulevard Amarillo TX 79107",
+  "lat": 35.2211718,
+  "lng": -101.790506,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

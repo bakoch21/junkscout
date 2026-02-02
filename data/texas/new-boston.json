@@ -6,7 +6,21 @@
     "lat": 33.47,
     "lng": -94.44,
     "website": null,
-    "source": null,
-    "facility_id": "f_c6b119c50c26"
+    "facility_id": "f_645791d15fd6",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "NEW BOSTON LANDFILL",
+    "type": "landfill",
+    "address": "1030 W US HIGHWAY 82 NEW BOSTON TX 75570",
+    "lat": 33.47,
+    "lng": -94.44,
+    "website": null,
+    "facility_id": "f_c6b119c50c26",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

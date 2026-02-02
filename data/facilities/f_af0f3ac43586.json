@@ -1,0 +1,17 @@
+{
+  "id": "f_af0f3ac43586",
+  "slug": "taswa-solid-waste-disposal-and-recycling-facility",
+  "name": "TASWA SOLID WASTE DISPOSAL AND RECYCLING FACILITY",
+  "type": "recycling",
+  "address": "25090 STATE HIGHWAY 56 WHITESBORO TX 76273",
+  "lat": 33.72,
+  "lng": -96.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "whitesboro"
+    }
+  ]
+}

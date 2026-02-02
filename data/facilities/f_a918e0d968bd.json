@@ -1,0 +1,21 @@
+{
+  "id": "f_a918e0d968bd",
+  "slug": "medsharps-llc-schertz-facility",
+  "name": "MEDSHARPS LLC SCHERTZ FACILITY",
+  "type": "landfill",
+  "address": "17340 BELL NORTH DR SCHERTZ TX 78154",
+  "lat": 29.62,
+  "lng": -98.29,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "bell-north-dr-schertz"
+    },
+    {
+      "state": "texas",
+      "city": "schertz"
+    }
+  ]
+}

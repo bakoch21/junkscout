@@ -1,0 +1,21 @@
+{
+  "id": "f_4e8a2aca8df5",
+  "slug": "blue-ridge-landfill",
+  "name": "BLUE RIDGE LANDFILL",
+  "type": "landfill",
+  "address": "2200 FM 521 RD FRESNO TX 77545",
+  "lat": 29.58,
+  "lng": -95.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fresno"
+    },
+    {
+      "state": "texas",
+      "city": "rd-fresno"
+    }
+  ]
+}

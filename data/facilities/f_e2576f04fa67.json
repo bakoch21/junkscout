@@ -1,0 +1,33 @@
+{
+  "id": "f_e2576f04fa67",
+  "slug": "city-of-dumas-landfill",
+  "name": "CITY OF DUMAS LANDFILL",
+  "type": "landfill",
+  "address": "APPROX .25  MI E OF DUMAS AT INTX OF MADDOX ST & 19TH ST ON S SIDE OF 19TH ST DUMAS TX IN MOORE COUNTY DUMAS TX 79029",
+  "lat": 35.84,
+  "lng": -101.89,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dumas"
+    },
+    {
+      "state": "texas",
+      "city": "in-moore-county-dumas"
+    },
+    {
+      "state": "texas",
+      "city": "moore-dumas"
+    },
+    {
+      "state": "texas",
+      "city": "st-dumas-tx-in-moore-county-dumas"
+    },
+    {
+      "state": "texas",
+      "city": "tx-moore-dumas"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_d6fc1d16bb80",
+  "slug": "city-of-midland-landfill",
+  "name": "CITY OF MIDLAND LANDFILL",
+  "type": "landfill",
+  "address": "7904 S GARDEN CITY HWY MIDLAND TX 79706",
+  "lat": 31.97,
+  "lng": -101.94,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "midland"
+    },
+    {
+      "state": "texas",
+      "city": "s-garden-city-hwy-midland"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "f_d25ab8ed4e1e",
+  "slug": "zapata-county-landfill",
+  "name": "ZAPATA  COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "350 YARDS E OF US HIGHWAY 83  2 MILES SE OF SAN YGNACIO CITY LIMITS  2 MILES SE OF SA SAN YGNACIO TX 78076",
+  "lat": 27.03,
+  "lng": -99.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "miles-se-of-sa-san-ygnacio"
+    },
+    {
+      "state": "texas",
+      "city": "of-sa-san-ygnacio"
+    },
+    {
+      "state": "texas",
+      "city": "sa-san-ygnacio"
+    },
+    {
+      "state": "texas",
+      "city": "se-sa-san-ygnacio"
+    },
+    {
+      "state": "texas",
+      "city": "ygnacio"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "f_3b0b6da89238",
+  "slug": "texas-sludge-disposal-composting-facility",
+  "name": "TEXAS SLUDGE DISPOSAL COMPOSTING FACILITY",
+  "type": "recycling",
+  "address": "7136 CR 3561 NEAR TAFT 78390 APPROX 1.4 MILES EAST NORTHEAST OF THE INTERSECTION OF FARM TO MARKET RDS 631 AND 102 ADJACENT TO THE CITY OF TAFT WASTEWATER TREATMENT PLANT IN SAN PATRICIO COUNTY TX BAY CITY TX 77404",
+  "lat": 28,
+  "lng": -97.36,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "adjacent-to-the-city-of-taft-wastewater-treatment-plant-in-san-patricio-county-tx-bay-city"
+    },
+    {
+      "state": "texas",
+      "city": "city"
+    },
+    {
+      "state": "texas",
+      "city": "county-tx-bay-city"
+    },
+    {
+      "state": "texas",
+      "city": "patricio-tx-bay-city"
+    },
+    {
+      "state": "texas",
+      "city": "tx-bay"
+    }
+  ]
+}

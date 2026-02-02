@@ -1,0 +1,21 @@
+{
+  "id": "f_58e6ba1fa20b",
+  "slug": "westside-transfer-station",
+  "name": "WESTSIDE TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "3500 LINKCREST DR ALEDO TX 76008",
+  "lat": 32.43,
+  "lng": -97.32,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "aledo"
+    },
+    {
+      "state": "texas",
+      "city": "linkcrest-dr-aledo"
+    }
+  ]
+}

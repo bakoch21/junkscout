@@ -1,0 +1,17 @@
+{
+  "id": "f_5427a2f4719d",
+  "slug": "texas-disposal-systems-landfill",
+  "name": "TEXAS DISPOSAL SYSTEMS LANDFILL",
+  "type": "landfill",
+  "address": "3606 FM 1327 BUDA TX 78610",
+  "lat": 30.11,
+  "lng": -97.76,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "buda"
+    }
+  ]
+}

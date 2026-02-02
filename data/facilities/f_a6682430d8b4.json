@@ -1,0 +1,21 @@
+{
+  "id": "f_a6682430d8b4",
+  "slug": "city-of-grand-prairie-landfill",
+  "name": "CITY OF GRAND PRAIRIE LANDFILL",
+  "type": "landfill",
+  "address": "1102 MACARTHUR BLVD GRAND PRAIRIE TX 75050",
+  "lat": 32.77,
+  "lng": -96.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "macarthur-blvd-grand-prairie"
+    },
+    {
+      "state": "texas",
+      "city": "prairie"
+    }
+  ]
+}

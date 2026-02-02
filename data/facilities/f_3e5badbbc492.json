@@ -1,0 +1,17 @@
+{
+  "id": "f_3e5badbbc492",
+  "slug": "carmax-auto-7115-enclosed-structure-over-closed-landfill",
+  "name": "CARMAX AUTO 7115 ENCLOSED STRUCTURE OVER CLOSED LANDFILL",
+  "type": "landfill",
+  "address": "3100 SPUR 482 IRVING TX 75062",
+  "lat": 32.84,
+  "lng": -96.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "irving"
+    }
+  ]
+}

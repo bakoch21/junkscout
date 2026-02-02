@@ -1,0 +1,21 @@
+{
+  "id": "f_2e9216d931c4",
+  "slug": "commercial-warehouse-facility",
+  "name": "COMMERCIAL WAREHOUSE FACILITY",
+  "type": "landfill",
+  "address": "3191 COMMONWEALTH DR DALLAS TX 75247",
+  "lat": 32.48,
+  "lng": -96.52,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "commonwealth-dr-dallas"
+    },
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

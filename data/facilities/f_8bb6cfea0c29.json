@@ -1,0 +1,17 @@
+{
+  "id": "f_8bb6cfea0c29",
+  "slug": "biocycle",
+  "name": "BIOCYCLE",
+  "type": "landfill",
+  "address": "8783 US HWY NO 60 AMARILLO TX 79108",
+  "lat": 35.22,
+  "lng": -100.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

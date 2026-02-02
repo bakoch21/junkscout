@@ -1,0 +1,21 @@
+{
+  "id": "f_b6537b4d69e1",
+  "slug": "nelson-road-site",
+  "name": "NELSON ROAD SITE",
+  "type": "landfill",
+  "address": "8449 NELSON RD SAN ANTONIO TX 78252",
+  "lat": 29.32,
+  "lng": -98.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "antonio"
+    },
+    {
+      "state": "texas",
+      "city": "nelson-rd-san-antonio"
+    }
+  ]
+}

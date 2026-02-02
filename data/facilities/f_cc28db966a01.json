@@ -1,0 +1,17 @@
+{
+  "id": "f_cc28db966a01",
+  "slug": "city-of-port-arthur-landfill",
+  "name": "CITY OF PORT ARTHUR LANDFILL",
+  "type": "landfill",
+  "address": "4732 HIGHWAY 73 PORT ARTHUR TX 77642",
+  "lat": 29.88,
+  "lng": -94.06,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "port-arthur"
+    }
+  ]
+}

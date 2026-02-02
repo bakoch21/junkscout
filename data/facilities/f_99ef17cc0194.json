@@ -1,0 +1,21 @@
+{
+  "id": "f_99ef17cc0194",
+  "slug": "stericycle-garland",
+  "name": "STERICYCLE GARLAND",
+  "type": "landfill",
+  "address": "2821 INDUSTRIAL LN GARLAND TX 75041",
+  "lat": 25.88,
+  "lng": -96.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "garland"
+    },
+    {
+      "state": "texas",
+      "city": "industrial-ln-garland"
+    }
+  ]
+}

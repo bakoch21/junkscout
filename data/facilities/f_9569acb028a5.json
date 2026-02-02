@@ -1,0 +1,21 @@
+{
+  "id": "f_9569acb028a5",
+  "slug": "city-of-mesquite-transfer-station-facility",
+  "name": "CITY OF MESQUITE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1101 E MAIN ST MESQUITE TX 75149",
+  "lat": 32.55,
+  "lng": -96.58,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "e-main-st-mesquite"
+    },
+    {
+      "state": "texas",
+      "city": "mesquite"
+    }
+  ]
+}

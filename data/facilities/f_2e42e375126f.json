@@ -1,0 +1,21 @@
+{
+  "id": "f_2e42e375126f",
+  "slug": "conroe-medical-waste-facility",
+  "name": "CONROE MEDICAL WASTE FACILITY",
+  "type": "landfill",
+  "address": "8950 N CONROE PARK DR CONROE TX 77303",
+  "lat": 30.35,
+  "lng": -95.44,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "conroe"
+    },
+    {
+      "state": "texas",
+      "city": "n-conroe-park-dr-conroe"
+    }
+  ]
+}

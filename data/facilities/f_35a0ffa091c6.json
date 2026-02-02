@@ -1,0 +1,17 @@
+{
+  "id": "f_35a0ffa091c6",
+  "slug": "itasca-landfill",
+  "name": "ITASCA LANDFILL",
+  "type": "landfill",
+  "address": "2559 FM 66 ITASCA TX 76055",
+  "lat": 32.2,
+  "lng": -97.11,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "itasca"
+    }
+  ]
+}

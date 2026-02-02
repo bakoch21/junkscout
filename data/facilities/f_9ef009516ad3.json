@@ -1,0 +1,21 @@
+{
+  "id": "f_9ef009516ad3",
+  "slug": "armstrong-county-landfill",
+  "name": "ARMSTRONG COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "4.5 MILES S OF CLAUDE ON STATE HIGHWAY 207 AND JULIET ROAD CLAUDE TX",
+  "lat": 35.05,
+  "lng": -101.36,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "and-juliet-road-claude"
+    },
+    {
+      "state": "texas",
+      "city": "claude"
+    }
+  ]
+}

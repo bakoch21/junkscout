@@ -1,0 +1,17 @@
+{
+  "id": "f_7055a70af39f",
+  "slug": "city-of-woodville-transfer-station-facility",
+  "name": "CITY OF WOODVILLE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "WINGATE STREET WOODVILLE TEXAS  ABOUT 1000 FEET FROM US HIGHWAY 69 S WOODVILLE TX",
+  "lat": 30.78,
+  "lng": -94.36,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "s-woodville"
+    }
+  ]
+}

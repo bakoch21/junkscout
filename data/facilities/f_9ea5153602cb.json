@@ -1,0 +1,17 @@
+{
+  "id": "f_9ea5153602cb",
+  "slug": "city-of-mesquite-recycling-and-compost-center",
+  "name": "City of Mesquite Recycling and Compost Center",
+  "type": "landfill",
+  "address": "3550 Lawson Road Mesquite TX 75181",
+  "lat": 32.7132744,
+  "lng": -96.5474446,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_c208cc023313",
+  "slug": "biomedical-waste-solutions-llc",
+  "name": "BIOMEDICAL WASTE SOLUTIONS LLC",
+  "type": "landfill",
+  "address": "9665 JADE AVE PORT ARTHUR TX 77640",
+  "lat": 29.93,
+  "lng": -94.03,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "arthur"
+    },
+    {
+      "state": "texas",
+      "city": "jade-ave-port-arthur"
+    }
+  ]
+}

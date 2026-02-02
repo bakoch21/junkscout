@@ -1,0 +1,17 @@
+{
+  "id": "f_dac93178120b",
+  "slug": "city-of-spur-house-disposal-site",
+  "name": "CITY OF SPUR HOUSE DISPOSAL SITE",
+  "type": "landfill",
+  "address": "2 MI S ON FM 261 4 MI EAST SITE LOCATED ON 207 ACRES SPUR TX 79370",
+  "lat": 33.45,
+  "lng": -100.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "acres-spur"
+    }
+  ]
+}

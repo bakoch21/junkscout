@@ -1,0 +1,21 @@
+{
+  "id": "f_91e97e86f01c",
+  "slug": "pinehill-lfg-treatment-facility",
+  "name": "PINEHILL LFG TREATMENT FACILITY",
+  "type": "landfill",
+  "address": "1102 LANDFILL RD KILGORE TX 75663",
+  "lat": 32.45,
+  "lng": -94.84,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "kilgore"
+    },
+    {
+      "state": "texas",
+      "city": "rd-kilgore"
+    }
+  ]
+}

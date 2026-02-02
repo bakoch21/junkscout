@@ -1,0 +1,17 @@
+{
+  "id": "f_6cf9cb5fb62a",
+  "slug": "austin-country-inc",
+  "name": "AUSTIN COUNTRY INC",
+  "type": "landfill",
+  "address": "9500 E HIGHWAY 290 AUSTIN TX 78724",
+  "lat": 30.33,
+  "lng": -97.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

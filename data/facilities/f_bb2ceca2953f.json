@@ -1,0 +1,21 @@
+{
+  "id": "f_bb2ceca2953f",
+  "slug": "city-of-mclean-landfill",
+  "name": "CITY OF MCLEAN LANDFILL",
+  "type": "landfill",
+  "address": "1.75 MILES E OF THE CITY LIMITS OF MCLEAN N OF INTERSTATE HIGHWAY 40 FRONTAGE ROAD 1 MILE W OF COUNTY LINE RD 79057 IN GRAY COUNTY TX 79057 MCLEAN TX 79057",
+  "lat": 35.23,
+  "lng": -100.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "gray"
+    },
+    {
+      "state": "texas",
+      "city": "mclean"
+    }
+  ]
+}

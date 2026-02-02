@@ -6,7 +6,21 @@
     "lat": 34.04,
     "lng": -100.82,
     "website": null,
-    "source": null,
-    "facility_id": "f_9d398401fba6"
+    "facility_id": "f_9d398401fba6",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF MATADOR LANDFILL",
+    "type": "landfill",
+    "address": "1.5 MILES NORTH OF LOOP 94 1.6 MILES EAST OF SH-70 EASTSIDE OF 200 BLOCK OR CR-211 MATADOR TX 79244",
+    "lat": 34.04,
+    "lng": -100.82,
+    "website": null,
+    "facility_id": "f_ca3d5b329046",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

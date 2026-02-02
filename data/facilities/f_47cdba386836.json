@@ -1,0 +1,17 @@
+{
+  "id": "f_47cdba386836",
+  "slug": "city-of-post-landfill",
+  "name": "CITY OF POST LANDFILL",
+  "type": "landfill",
+  "address": "1637 CR 225 POST TX 79356",
+  "lat": 33.17,
+  "lng": -101.38,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "post"
+    }
+  ]
+}

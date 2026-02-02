@@ -1,0 +1,33 @@
+{
+  "id": "f_6a8823da28b7",
+  "slug": "city-of-dalhart-msw-lf-transfer-station",
+  "name": "CITY OF DALHART MSW LF TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "MACKY RD NORTEX RD & US HWY 87 N 3.9 MI NW OF DALHART DALHART TX 79022",
+  "lat": 36.1,
+  "lng": -102.59,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dalhart-dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "mi-nw-dalhart-dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "mi-nw-of-dalhart-dalhart"
+    },
+    {
+      "state": "texas",
+      "city": "of-dalhart-dalhart"
+    }
+  ]
+}

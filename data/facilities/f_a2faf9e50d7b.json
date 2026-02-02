@@ -1,0 +1,17 @@
+{
+  "id": "f_a2faf9e50d7b",
+  "slug": "tessman-road-rng-plant",
+  "name": "TESSMAN ROAD RNG PLANT",
+  "type": "landfill",
+  "address": "7000 E IH 10 SAN ANTONIO TX 78219",
+  "lat": 29.43,
+  "lng": -98.34,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

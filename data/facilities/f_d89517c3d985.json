@@ -1,0 +1,17 @@
+{
+  "id": "f_d89517c3d985",
+  "slug": "city-of-floydada-landfill",
+  "name": "CITY OF FLOYDADA LANDFILL",
+  "type": "landfill",
+  "address": "2130 U S HIGHWAY 70 FLOYDADA TX 79235",
+  "lat": 33.97,
+  "lng": -101.3,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "floydada"
+    }
+  ]
+}

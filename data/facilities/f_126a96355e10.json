@@ -1,0 +1,17 @@
+{
+  "id": "f_126a96355e10",
+  "slug": "city-recycling-station",
+  "name": "City Recycling Station",
+  "type": "recycling",
+  "address": "",
+  "lat": 33.5258193,
+  "lng": -101.959481,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lubbock"
+    }
+  ]
+}

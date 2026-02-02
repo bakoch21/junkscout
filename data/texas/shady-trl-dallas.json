@@ -6,7 +6,21 @@
     "lat": 32.87,
     "lng": -96.89,
     "website": null,
-    "source": null,
-    "facility_id": "f_3470f7a349c6"
+    "facility_id": "f_3470f7a349c6",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "SHADY TRAIL WAREHOUSE",
+    "type": "landfill",
+    "address": "10465 SHADY TRL DALLAS TX 75220",
+    "lat": 32.87,
+    "lng": -96.89,
+    "website": null,
+    "facility_id": "f_eb5408782fe3",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

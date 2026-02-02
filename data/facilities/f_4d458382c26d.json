@@ -1,0 +1,17 @@
+{
+  "id": "f_4d458382c26d",
+  "slug": "texas-port-recycling",
+  "name": "Texas Port Recycling",
+  "type": "recycling",
+  "address": "",
+  "lat": 28.784863,
+  "lng": -96.9738615,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "victoria"
+    }
+  ]
+}

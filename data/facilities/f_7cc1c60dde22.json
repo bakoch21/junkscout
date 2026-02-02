@@ -1,0 +1,17 @@
+{
+  "id": "f_7cc1c60dde22",
+  "slug": "littlefield-municipal-landfill",
+  "name": "LITTLEFIELD MUNICIPAL LANDFILL",
+  "type": "landfill",
+  "address": "2182 FM 2197 LITTLEFIELD TX 79339",
+  "lat": 33.98,
+  "lng": -102.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "littlefield"
+    }
+  ]
+}

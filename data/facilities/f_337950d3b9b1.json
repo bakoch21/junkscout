@@ -1,0 +1,17 @@
+{
+  "id": "f_337950d3b9b1",
+  "slug": "angelina-county-landfill",
+  "name": "ANGELINA COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "7521 FM 58 LUFKIN TX 75901",
+  "lat": 31.25,
+  "lng": -94.7,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lufkin"
+    }
+  ]
+}

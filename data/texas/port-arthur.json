@@ -6,17 +6,21 @@
     "lat": 29.88,
     "lng": -94.06,
     "website": null,
-    "source": null,
-    "facility_id": "f_6ee4680a3c10"
+    "facility_id": "f_6ee4680a3c10",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
-    "name": "Triangle Waste Solutions",
-    "type": "transfer_station",
-    "address": "",
-    "lat": 29.924018,
-    "lng": -94.0312045,
+    "name": "CITY OF PORT ARTHUR LANDFILL",
+    "type": "landfill",
+    "address": "4732 HIGHWAY 73 PORT ARTHUR TX 77642",
+    "lat": 29.88,
+    "lng": -94.06,
     "website": null,
-    "source": null,
-    "facility_id": "f_bf529efd5253"
+    "facility_id": "f_cc28db966a01",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

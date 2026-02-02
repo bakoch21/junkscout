@@ -6,7 +6,21 @@
     "lat": 33.12,
     "lng": -95.01,
     "website": null,
-    "source": null,
-    "facility_id": "f_22486381c28c"
+    "facility_id": "f_22486381c28c",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "PLEASANT OAKS LANDFILL",
+    "type": "landfill",
+    "address": "3031 FARM ROAD 3417 MT PLEASANT TX 75455",
+    "lat": 33.12,
+    "lng": -95.01,
+    "website": null,
+    "facility_id": "f_92d5a79721fb",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

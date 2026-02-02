@@ -98,6 +98,31 @@
   <link rel="stylesheet" href="/styles.css" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
+  <!-- ✅ Leaflet (map) -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <style>
+    /* Minimal map styling */
+    #mapWrap { margin-top: 14px; }
+    #map {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+      background: rgba(29,29,31,0.03);
+      overflow: hidden;
+    }
+    @media (max-width: 720px) {
+      #map { height: 260px; }
+    }
+  </style>
+
   <title>Find dumps and landfills in Celina, TEXAS | JunkScout</title>
   <meta name="description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Celina, TEXAS — with rules and accepted materials when available." />
   <link rel="canonical" href="https://junkscout.io/texas/celina/" />
@@ -136,16 +161,13 @@
 
   <main class="hero">
     <div class="container">
-      <!-- H1 gets rewritten by city.js -->
       <h1 id="cityTitle">Where to dump trash</h1>
 
-      <!-- “Answer sentence” -->
       <p class="subhead" id="cityAnswer">
         Find public landfills, transfer stations, and recycling drop-offs near this city — with hours, rules, and accepted
         materials when available.
       </p>
 
-      <!-- Supporting line (also updated by city.js) -->
       <p class="muted" id="citySubhead" style="margin-top:10px">
         Compare drop-off options and confirm fees, residency rules, and accepted materials before you drive out.
       </p>
@@ -161,7 +183,6 @@
       <!-- POPULARCITIES:START -->
       <!-- POPULARCITIES:END -->
 
-      <!-- Prominent trust note -->
       <div class="muted small" role="note"
         style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
         Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
@@ -170,6 +191,11 @@
       <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
         Houston rules &amp; fees
       </button>
+
+      <!-- ✅ Map -->
+      <section id="mapWrap" aria-label="Map">
+        <div id="map"></div>
+      </section>
 
       <!-- Results injected here -->
       <section class="cards" id="results" style="margin-top:14px"></section>
@@ -189,7 +215,6 @@
           Use the listings above to confirm what’s accepted before you drive out.
         </p>
 
-        <!-- City-specific FAQ (one only) -->
         <h2 id="faqDumpFree">Is dumping free in this city?</h2>
         <p id="faqDumpFreeBody">
           Some public facilities offer free or discounted drop-off for residents with proof of address, while private landfills and
@@ -212,57 +237,7 @@
 
         <!-- NEARBY cities injected here at build time -->
         <!-- NEARBY:START -->
-<section class="seo-copy" aria-label="Nearby locations">
-  <h2>Nearby dump & landfill locations</h2>
-  <p class="muted">
-    If you don’t see the right option in Celina, check these nearby cities in Texas.
-  </p>
-
-  <div class="cityhub__grid" style="margin-top:10px">
-    
-      <a class="cityhub__pill" href="/texas/melissa/">
-        Melissa <span class="muted" style="font-weight:600">· 16 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/mckinney/">
-        Mckinney <span class="muted" style="font-weight:600">· 17 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/frisco/">
-        Frisco <span class="muted" style="font-weight:600">· 18 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/sherman/">
-        Sherman <span class="muted" style="font-weight:600">· 20 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/plano/">
-        Plano <span class="muted" style="font-weight:600">· 20 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/denton/">
-        Denton <span class="muted" style="font-weight:600">· 22 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/railroad-sanger/">
-        Railroad Sanger <span class="muted" style="font-weight:600">· 24 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/whitesboro/">
-        Whitesboro <span class="muted" style="font-weight:600">· 25 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/lewisville/">
-        Lewisville <span class="muted" style="font-weight:600">· 26 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/gainesville/">
-        Gainesville <span class="muted" style="font-weight:600">· 28 mi</span>
-      </a>
-    
-  </div>
-</section>
-<!-- NEARBY:END -->
+        <!-- NEARBY:END -->
       </section>
       <!-- SEO COPY END -->
 
@@ -304,7 +279,15 @@
     </div>
   </main>
 
-  <script src="/city.js"></script>
+  <!-- ✅ Leaflet JS must load before city.js -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+    defer
+  ></script>
+
+  <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>
 </html>

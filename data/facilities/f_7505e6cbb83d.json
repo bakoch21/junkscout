@@ -1,0 +1,17 @@
+{
+  "id": "f_7505e6cbb83d",
+  "slug": "city-of-laredo-landfill",
+  "name": "City of Laredo Landfill",
+  "type": "landfill",
+  "address": "TX 359 Laredo TX 78046",
+  "lat": 27.4929346,
+  "lng": -99.4100013,
+  "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "laredo"
+    }
+  ]
+}

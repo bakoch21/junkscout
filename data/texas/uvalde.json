@@ -6,7 +6,21 @@
     "lat": 29.18,
     "lng": -99.86,
     "website": null,
-    "source": null,
-    "facility_id": "f_3846ad6d0b51"
+    "facility_id": "f_3846ad6d0b51",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF UVALDE LANDFILL",
+    "type": "landfill",
+    "address": "3774 FM 481 UVALDE TX 78801",
+    "lat": 29.18,
+    "lng": -99.86,
+    "website": null,
+    "facility_id": "f_4a564e32f5ff",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

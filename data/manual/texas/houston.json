@@ -30,7 +30,11 @@
       "rules": "Houston residents only; proof required (TX ID + utility bill/lease/tax bill/student ID); arrive 30 min before closing; no commercial vehicles.",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_ccdf62586194"
+      "facility_id": "f_manual_ccdf62586194",
+      "lat": 29.829676422271,
+      "lng": -95.39839197378,
+      "geocode_match": "9003 N MAIN ST, HOUSTON, TX, 77022",
+      "geocode_source": "census"
     },
     {
       "name": "Northwest Neighborhood Depository & Recycling Center",
@@ -80,7 +84,11 @@
       "rules": "Proof of residency",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_181fb1282858"
+      "facility_id": "f_manual_181fb1282858",
+      "lat": 29.80804452191,
+      "lng": -95.291732899968,
+      "geocode_match": "5565 KIRKPATRICK BLVD, HOUSTON, TX, 77028",
+      "geocode_source": "census"
     },
     {
       "name": "Southeast Neighborhood Depository & Recycling Center",
@@ -103,7 +111,11 @@
       "rules": "Residents only",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_8e273290e1cd"
+      "facility_id": "f_manual_8e273290e1cd",
+      "lat": 29.702432957312,
+      "lng": -95.267759743923,
+      "geocode_match": "2240 CENTRAL ST, HOUSTON, TX, 77017",
+      "geocode_source": "census"
     },
     {
       "name": "South Neighborhood Depository & Recycling Center",
@@ -126,7 +138,11 @@
       "rules": "Proof required",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_243ef4ba5b8c"
+      "facility_id": "f_manual_243ef4ba5b8c",
+      "lat": 29.650878031961,
+      "lng": -95.347430386139,
+      "geocode_match": "5100 SUNBEAM ST, HOUSTON, TX, 77033",
+      "geocode_source": "census"
     },
     {
       "name": "Southwest Neighborhood Depository & Recycling Center",
@@ -268,7 +284,11 @@
       "rules": "For reuse/donation; check schedule; residents only.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_9f89d3cb2b41"
+      "facility_id": "f_manual_9f89d3cb2b41",
+      "lat": 29.829676422271,
+      "lng": -95.39839197378,
+      "geocode_match": "9003 N MAIN ST, HOUSTON, TX, 77022",
+      "geocode_source": "census"
     },
     {
       "name": "Environmental Service Center - North",
@@ -316,7 +336,11 @@
       "rules": "Residents only; appointment may be required.",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_5764f3beec35"
+      "facility_id": "f_manual_5764f3beec35",
+      "lat": 29.64879099457,
+      "lng": -95.463835075515,
+      "geocode_match": "11500 S POST OAK RD, HOUSTON, TX, 77035",
+      "geocode_source": "census"
     },
     {
       "name": "Harris County Household Hazardous Waste Facility",
@@ -342,7 +366,11 @@
       "rules": "Outside Houston city jurisdiction; no city taxes/services.",
       "source": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_b201a7ca6cf8"
+      "facility_id": "f_manual_b201a7ca6cf8",
+      "lat": 29.868588490982,
+      "lng": -95.542360875681,
+      "geocode_match": "6900 HAHL RD, HOUSTON, TX, 77040",
+      "geocode_source": "census"
     },
     {
       "name": "Atascocita Landfill",
@@ -362,7 +390,11 @@
       "rules": "Commercial/residential; fees apply; open to public.",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_e923e0f35697"
+      "facility_id": "f_manual_e923e0f35697",
+      "lat": 29.955084727439,
+      "lng": -95.248167375904,
+      "geocode_match": "3623 WILSON RD, HUMBLE, TX, 77396",
+      "geocode_source": "census"
     },
     {
       "name": "BFI McCarty Landfill",
@@ -381,7 +413,11 @@
       "rules": "Public access with fees",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_a89ff3d79246"
+      "facility_id": "f_manual_a89ff3d79246",
+      "lat": 29.821452383999,
+      "lng": -95.240754782167,
+      "geocode_match": "5757 OATES RD, HOUSTON, TX, 77078",
+      "geocode_source": "census"
     },
     {
       "name": "BFI Whispering Pines Landfill",
@@ -400,7 +436,11 @@
       "rules": "Fees by load",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_3bea062a6522"
+      "facility_id": "f_manual_3bea062a6522",
+      "lat": 29.871658448668,
+      "lng": -95.274074344916,
+      "geocode_match": "8100 LITTLE YORK RD, HOUSTON, TX, 77016",
+      "geocode_source": "census"
     },
     {
       "name": "BFI Blue Ridge Landfill",
@@ -476,7 +516,11 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_77776f787254"
+      "facility_id": "f_manual_77776f787254",
+      "lat": 29.685856287287,
+      "lng": -95.616045495447,
+      "geocode_match": "13400 SANDERFORD LN, HOUSTON, TX, 77083",
+      "geocode_source": "census"
     },
     {
       "name": "Casco Hauling Landfill",
@@ -494,7 +538,11 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_9404aa47ed81"
+      "facility_id": "f_manual_9404aa47ed81",
+      "lat": 29.606544539855,
+      "lng": -95.402518803197,
+      "geocode_match": "1306 E ANDERSON RD, HOUSTON, TX, 77047",
+      "geocode_source": "census"
     },
     {
       "name": "Cougar Disposal Landfill",
@@ -512,7 +560,11 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_f106abfabc3a"
+      "facility_id": "f_manual_f106abfabc3a",
+      "lat": 29.891761521202,
+      "lng": -95.263797164596,
+      "geocode_match": "8601 MOUNT HOUSTON RD, HOUSTON, TX, 77050",
+      "geocode_source": "census"
     },
     {
       "name": "Dixie Farm Landfill",
@@ -530,7 +582,11 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_8286d6be50e1"
+      "facility_id": "f_manual_8286d6be50e1",
+      "lat": 29.522871231081,
+      "lng": -95.258389508584,
+      "geocode_match": "4649 DIXIE FARM RD, PEARLAND, TX, 77581",
+      "geocode_source": "census"
     },
     {
       "name": "Fort Bend Landfill",
@@ -566,7 +622,11 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_19ceaf00ecfb"
+      "facility_id": "f_manual_19ceaf00ecfb",
+      "lat": 29.820450144099,
+      "lng": -95.703377973925,
+      "geocode_match": "3510 GREENHOUSE RD, HOUSTON, TX, 77084",
+      "geocode_source": "census"
     },
     {
       "name": "Greenshadow Landfill (Pasadena)",
@@ -602,7 +662,11 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_7f576ed588f7"
+      "facility_id": "f_manual_7f576ed588f7",
+      "lat": 29.850227629469,
+      "lng": -95.550260967299,
+      "geocode_match": "10332 TANNER RD, HOUSTON, TX, 77041",
+      "geocode_source": "census"
     },
     {
       "name": "Waste Management Landfill",
@@ -620,7 +684,11 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_0c1cb31b5fc1"
+      "facility_id": "f_manual_0c1cb31b5fc1",
+      "lat": 29.899553145234,
+      "lng": -95.525006847178,
+      "geocode_match": "8205 FAIRBANKS N HOUSTON RD, HOUSTON, TX, 77064",
+      "geocode_source": "census"
     },
     {
       "name": "Hardy Road Transfer Station",
@@ -641,7 +709,11 @@
       "rules": "Public access; fees apply; no hazardous.",
       "source": "https://www.wasteconnections.com/hardy-road-transfer-station",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_4cd79d62f9f3"
+      "facility_id": "f_manual_4cd79d62f9f3",
+      "lat": 29.991141854633,
+      "lng": -95.394603844283,
+      "geocode_match": "18784 HARDY RD, HOUSTON, TX, 77073",
+      "geocode_source": "census"
     },
     {
       "name": "1200 Brittmoore Recycling Center",
@@ -659,7 +731,11 @@
       "rules": "Non-city owned; residents only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_611b16ce8c2d"
+      "facility_id": "f_manual_611b16ce8c2d",
+      "lat": 29.810949514122,
+      "lng": -95.569832746515,
+      "geocode_match": "1200 BRITTMOORE RD, HOUSTON, TX, 77043",
+      "geocode_source": "census"
     },
     {
       "name": "The Woodlands Recycling Center",
@@ -697,7 +773,11 @@
       "rules": "Public convenience; hassle-free disposal.",
       "source": "https://cp4.harriscountytx.gov/Public-Dumpsters",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_158aa20288a2"
+      "facility_id": "f_manual_158aa20288a2",
+      "lat": 30.034813601696,
+      "lng": -95.867063235605,
+      "geocode_match": "28511 OLD WASHINGTON RD, HOCKLEY, TX, 77447",
+      "geocode_source": "census"
     },
     {
       "name": "Tomball Public Dumpster (Harris County Precinct 4)",

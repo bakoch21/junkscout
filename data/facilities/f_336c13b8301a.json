@@ -1,0 +1,17 @@
+{
+  "id": "f_336c13b8301a",
+  "slug": "transfer-station",
+  "name": "Transfer Station",
+  "type": "transfer_station",
+  "address": "3200 Lawrence Road Wichita Falls TX 76308",
+  "lat": 33.873771,
+  "lng": -98.5424026,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "wichita-falls"
+    }
+  ]
+}

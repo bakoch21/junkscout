@@ -1,0 +1,29 @@
+{
+  "id": "f_972798ecbe64",
+  "slug": "city-of-hedley",
+  "name": "CITY OF HEDLEY",
+  "type": "landfill",
+  "address": "HWY 287 TURN RIGHT AT MAIN ST GO TO LINE ST TURN LEFT GO DOWN LINE RD BEFORE BAILEY HAS NO SIGN TURN RIGHT GO DOWN TO DEAD END TURN LEFT AND GO TO LOCKED GATE HEDLEY TX 79237",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "go-locked-gate-hedley"
+    },
+    {
+      "state": "texas",
+      "city": "hedley"
+    },
+    {
+      "state": "texas",
+      "city": "locked-gate-hedley"
+    },
+    {
+      "state": "texas",
+      "city": "turn-right-at-main-st-go-to-line-st-turn-left-go-down-line-rd-before-bailey-has-no-sign-turn-right-go-down-to-dead-end-turn-left-and-go-to-locked-gate-hedley"
+    }
+  ]
+}

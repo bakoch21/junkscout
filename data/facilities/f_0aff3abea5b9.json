@@ -1,0 +1,21 @@
+{
+  "id": "f_0aff3abea5b9",
+  "slug": "26-04-acre-tract",
+  "name": "26.04 ACRE TRACT",
+  "type": "landfill",
+  "address": "650 WEST OAKDALE RD GRAND PRAIRIE TX 75050",
+  "lat": 32.79,
+  "lng": -97.01,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "prairie"
+    },
+    {
+      "state": "texas",
+      "city": "west-oakdale-rd-grand-prairie"
+    }
+  ]
+}

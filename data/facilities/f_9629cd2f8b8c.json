@@ -1,0 +1,21 @@
+{
+  "id": "f_9629cd2f8b8c",
+  "slug": "stericycle-harlingen-processing-facility",
+  "name": "STERICYCLE HARLINGEN PROCESSING FACILITY",
+  "type": "landfill",
+  "address": "5710 E GRIMES ST HARLINGEN TX 78550",
+  "lat": 26.2,
+  "lng": -97.64,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "e-grimes-st-harlingen"
+    },
+    {
+      "state": "texas",
+      "city": "harlingen"
+    }
+  ]
+}

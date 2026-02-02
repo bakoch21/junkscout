@@ -1,0 +1,25 @@
+{
+  "id": "f_d63670697d2b",
+  "slug": "north-county-landfill",
+  "name": "NORTH COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "2015 WYOMING ST LEAGUE CITY TX 77574",
+  "lat": 29.48,
+  "lng": -95.05,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "city"
+    },
+    {
+      "state": "texas",
+      "city": "league-city"
+    },
+    {
+      "state": "texas",
+      "city": "wyoming-st-league-city"
+    }
+  ]
+}

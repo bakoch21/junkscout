@@ -1,0 +1,17 @@
+{
+  "id": "f_c88db4dde515",
+  "slug": "amarillo-recycling-company-inc",
+  "name": "Amarillo Recycling Company, Inc.",
+  "type": "recycling",
+  "address": "5318 East Amarillo Boulevard Amarillo TX 79107",
+  "lat": 35.2216074,
+  "lng": -101.7961798,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

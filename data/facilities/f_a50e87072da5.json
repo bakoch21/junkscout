@@ -1,0 +1,29 @@
+{
+  "id": "f_a50e87072da5",
+  "slug": "hudspeth-county-landfill",
+  "name": "HUDSPETH COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "5.50 MI SE OF DELL CITY DELL CITY TX 79851",
+  "lat": 31.89,
+  "lng": -105.12,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "city"
+    },
+    {
+      "state": "texas",
+      "city": "dell-city-dell-city"
+    },
+    {
+      "state": "texas",
+      "city": "dell"
+    },
+    {
+      "state": "texas",
+      "city": "mi-se-of-dell-city-dell-city"
+    }
+  ]
+}

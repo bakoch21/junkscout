@@ -1,0 +1,17 @@
+{
+  "id": "f_393ecacf0d69",
+  "slug": "tyler-county-transfer-station-facility",
+  "name": "TYLER COUNTY TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1921 CR 1010 WOODVILLE TX 75979",
+  "lat": 30.76,
+  "lng": -94.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "woodville"
+    }
+  ]
+}

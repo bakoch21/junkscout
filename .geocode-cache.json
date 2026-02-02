@@ -1,0 +1,168 @@
+{
+  "9003 N Main St, Houston, TX 77022": null,
+  "14400 Sommermeyer St, Houston, TX 77041": null,
+  "North Neighborhood Depository & Recycling Center||9003 N Main St, Houston, TX 77022": {
+    "lat": 29.829676422271,
+    "lng": -95.39839197378,
+    "geocode_match": "9003 N MAIN ST, HOUSTON, TX, 77022",
+    "geocode_source": "census"
+  },
+  "Northwest Neighborhood Depository & Recycling Center||14400 Sommermeyer St, Houston, TX 77041": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Northeast Neighborhood Depository & Recycling Center||5565 Kirkpatrick Blvd, Houston, TX 77028": {
+    "lat": 29.80804452191,
+    "lng": -95.291732899968,
+    "geocode_match": "5565 KIRKPATRICK BLVD, HOUSTON, TX, 77028",
+    "geocode_source": "census"
+  },
+  "Southeast Neighborhood Depository & Recycling Center||2240 Central St, Houston, TX 77017": {
+    "lat": 29.702432957312,
+    "lng": -95.267759743923,
+    "geocode_match": "2240 CENTRAL ST, HOUSTON, TX, 77017",
+    "geocode_source": "census"
+  },
+  "South Neighborhood Depository & Recycling Center||5100 Sunbeam St, Houston, TX 77033": {
+    "lat": 29.650878031961,
+    "lng": -95.347430386139,
+    "geocode_match": "5100 SUNBEAM ST, HOUSTON, TX, 77033",
+    "geocode_source": "census"
+  },
+  "Southwest Neighborhood Depository & Recycling Center||10785 SW Freeway, Houston, TX 77074": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Westpark Recycling Center||5900 Westpark Dr, Houston, TX 77057": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Clear Lake/Ellington Airport Recycling Center||246 Loop Rd, Houston, TX 77034": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Kingwood Recycling Center||3210 W Lake Houston Pkwy, Houston, TX 77339": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Reuse Warehouse||9003 N Main St, Houston, TX 77022": {
+    "lat": 29.829676422271,
+    "lng": -95.39839197378,
+    "geocode_match": "9003 N MAIN ST, HOUSTON, TX, 77022",
+    "geocode_source": "census"
+  },
+  "Environmental Service Center - North||5614 Neches St, Building C, Houston, TX 77026": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Environmental Service Center - South||11500 S Post Oak Rd, Houston, TX 77035": {
+    "lat": 29.64879099457,
+    "lng": -95.463835075515,
+    "geocode_match": "11500 S POST OAK RD, HOUSTON, TX, 77035",
+    "geocode_source": "census"
+  },
+  "Harris County Household Hazardous Waste Facility||6900 Hahl Rd, Houston, TX 77040": {
+    "lat": 29.868588490982,
+    "lng": -95.542360875681,
+    "geocode_match": "6900 HAHL RD, HOUSTON, TX, 77040",
+    "geocode_source": "census"
+  },
+  "Atascocita Landfill||3623 Wilson Rd, Humble, TX 77396 (Houston area)": {
+    "lat": 29.955084727439,
+    "lng": -95.248167375904,
+    "geocode_match": "3623 WILSON RD, HUMBLE, TX, 77396",
+    "geocode_source": "census"
+  },
+  "BFI McCarty Landfill||5757 Oates Rd, Houston, TX 77078": {
+    "lat": 29.821452383999,
+    "lng": -95.240754782167,
+    "geocode_match": "5757 OATES RD, HOUSTON, TX, 77078",
+    "geocode_source": "census"
+  },
+  "BFI Whispering Pines Landfill||8100 Little York Rd, Houston, TX 77016": {
+    "lat": 29.871658448668,
+    "lng": -95.274074344916,
+    "geocode_match": "8100 LITTLE YORK RD, HOUSTON, TX, 77016",
+    "geocode_source": "census"
+  },
+  "BFI Blue Ridge Landfill||2200 FM 521, Fresno, TX 77545 (Houston area)": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Coastal Plains Landfill (Alvin)||21000 East Highway 6, Alvin, TX 77511": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "13400 Sanderford Rd Landfill||13400 Sanderford Rd, Houston, TX": {
+    "lat": 29.685856287287,
+    "lng": -95.616045495447,
+    "geocode_match": "13400 SANDERFORD LN, HOUSTON, TX, 77083",
+    "geocode_source": "census"
+  },
+  "Casco Hauling Landfill||1306 East Anderson Rd, Houston, TX": {
+    "lat": 29.606544539855,
+    "lng": -95.402518803197,
+    "geocode_match": "1306 E ANDERSON RD, HOUSTON, TX, 77047",
+    "geocode_source": "census"
+  },
+  "Cougar Disposal Landfill||8601 E Mount Houston Rd, Houston, TX": {
+    "lat": 29.891761521202,
+    "lng": -95.263797164596,
+    "geocode_match": "8601 MOUNT HOUSTON RD, HOUSTON, TX, 77050",
+    "geocode_source": "census"
+  },
+  "Dixie Farm Landfill||4649 Dixie Farm Rd, Pearland, TX 77581 (Houston area)": {
+    "lat": 29.522871231081,
+    "lng": -95.258389508584,
+    "geocode_match": "4649 DIXIE FARM RD, PEARLAND, TX, 77581",
+    "geocode_source": "census"
+  },
+  "Fort Bend Landfill||16007 Boss Gaston Rd, Sugar Land, TX 77498 (Houston area)": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Green House Road Landfill||3510 Greenhouse Rd, Houston, TX": {
+    "lat": 29.820450144099,
+    "lng": -95.703377973925,
+    "geocode_match": "3510 GREENHOUSE RD, HOUSTON, TX, 77084",
+    "geocode_source": "census"
+  },
+  "Greenshadow Landfill (Pasadena)||710 Jana Ln, Pasadena, TX 77506": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Hawthorne Park Landfill||10332 Tanner Rd, Houston, TX 77041": {
+    "lat": 29.850227629469,
+    "lng": -95.550260967299,
+    "geocode_match": "10332 TANNER RD, HOUSTON, TX, 77041",
+    "geocode_source": "census"
+  },
+  "Waste Management Landfill||8205 Fairbanks N Houston Rd, Houston, TX 77064": {
+    "lat": 29.899553145234,
+    "lng": -95.525006847178,
+    "geocode_match": "8205 FAIRBANKS N HOUSTON RD, HOUSTON, TX, 77064",
+    "geocode_source": "census"
+  },
+  "Hardy Road Transfer Station||18784 Hardy Rd, Houston, TX 77373": {
+    "lat": 29.991141854633,
+    "lng": -95.394603844283,
+    "geocode_match": "18784 HARDY RD, HOUSTON, TX, 77073",
+    "geocode_source": "census"
+  },
+  "1200 Brittmoore Recycling Center||1200 Brittmoore Rd, Houston, TX 77043": {
+    "lat": 29.810949514122,
+    "lng": -95.569832746515,
+    "geocode_match": "1200 BRITTMOORE RD, HOUSTON, TX, 77043",
+    "geocode_source": "census"
+  },
+  "Hockley Public Dumpster (Harris County Precinct 4)||28511 Old Washington Rd, Hockley, TX 77447": {
+    "lat": 30.034813601696,
+    "lng": -95.867063235605,
+    "geocode_match": "28511 OLD WASHINGTON RD, HOCKLEY, TX, 77447",
+    "geocode_source": "census"
+  },
+  "Tomball Public Dumpster (Harris County Precinct 4)||Service Center Rd, Tomball, TX 77377": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  }
+}

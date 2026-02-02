@@ -6,8 +6,10 @@
     "lat": 29.08,
     "lng": -98.42,
     "website": null,
-    "source": null,
-    "facility_id": "f_aea4c6bb1df4"
+    "facility_id": "f_aea4c6bb1df4",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "TERRABELLA ENVIRONMENTAL SERVICES",
@@ -16,17 +18,21 @@
     "lat": 29.08,
     "lng": -98.42,
     "website": null,
-    "source": null,
-    "facility_id": "f_c9395afc49dd"
+    "facility_id": "f_c9395afc49dd",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "TERRABELLA ENVIRONMENTAL SERVICES",
     "type": "landfill",
-    "address": "433 ZANDER LN PLEASANTON TX 78064",
-    "lat": 0,
-    "lng": 0,
+    "address": "5376 FM 1784 PLEASANTON TX 78064",
+    "lat": 29.08,
+    "lng": -98.42,
     "website": null,
-    "source": null,
-    "facility_id": "f_f21cb97afaff"
+    "facility_id": "f_d046ff20bb37",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

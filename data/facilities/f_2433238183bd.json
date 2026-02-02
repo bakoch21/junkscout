@@ -1,0 +1,21 @@
+{
+  "id": "f_2433238183bd",
+  "slug": "city-of-clarendon-landfill-smiley-johnson-airport",
+  "name": "CITY OF CLARENDON LANDFILL SMILEY JOHNSON AIRPORT",
+  "type": "landfill",
+  "address": "119 S SULLY CLARENDON TX 79226",
+  "lat": 34.91,
+  "lng": -100.87,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "s-sully-clarendon"
+    },
+    {
+      "state": "texas",
+      "city": "sully-clarendon"
+    }
+  ]
+}

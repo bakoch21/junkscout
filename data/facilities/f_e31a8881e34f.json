@@ -10,8 +10,12 @@
   "osm_url": null,
   "appears_in": [
     {
-      "state": "california",
-      "city": "los-angeles"
+      "state": "texas",
+      "city": "houston"
+    },
+    {
+      "state": "texas",
+      "city": "mccarty-st-houston"
     }
   ]
 }

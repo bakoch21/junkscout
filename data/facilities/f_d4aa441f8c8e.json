@@ -1,0 +1,21 @@
+{
+  "id": "f_d4aa441f8c8e",
+  "slug": "east-texas-regional-landfill",
+  "name": "EAST TEXAS REGIONAL LANDFILL",
+  "type": "landfill",
+  "address": "5155 FM 2867 E HENDERSON TX 75654",
+  "lat": 32.13,
+  "lng": -94.71,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "e-henderson"
+    },
+    {
+      "state": "texas",
+      "city": "henderson"
+    }
+  ]
+}

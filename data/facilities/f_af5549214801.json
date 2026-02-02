@@ -1,0 +1,21 @@
+{
+  "id": "f_af5549214801",
+  "slug": "southwest-paper-stock-transfer-station",
+  "name": "SOUTHWEST PAPER STOCK TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "400 W JESSAMINE ST FORT WORTH TX 76110",
+  "lat": 32.52,
+  "lng": -97.1,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "w-jessamine-st-fort-worth"
+    },
+    {
+      "state": "texas",
+      "city": "worth"
+    }
+  ]
+}

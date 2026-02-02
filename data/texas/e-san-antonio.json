@@ -6,7 +6,21 @@
     "lat": 29.28,
     "lng": -98.69,
     "website": null,
-    "source": null,
-    "facility_id": "f_19827e2e42e9"
+    "facility_id": "f_15924c10e657",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "STERICYCLE SAN ANTONIO",
+    "type": "landfill",
+    "address": "6105 US HIGHWAY 87 E SAN ANTONIO TX 78222",
+    "lat": 29.28,
+    "lng": -98.69,
+    "website": null,
+    "facility_id": "f_19827e2e42e9",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

@@ -1,0 +1,21 @@
+{
+  "id": "f_12001d603e8f",
+  "slug": "d-s-recycling",
+  "name": "D'S RECYCLING",
+  "type": "recycling",
+  "address": "4275 PRUITT DR SAN ANGELO TX 76903",
+  "lat": 31.51,
+  "lng": -100.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "angelo"
+    },
+    {
+      "state": "texas",
+      "city": "pruitt-dr-san-angelo"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_57f89c53f1b0",
+  "slug": "turkey-creek-landfill-gas-treatment-facility",
+  "name": "TURKEY CREEK LANDFILL GAS TREATMENT FACILITY",
+  "type": "landfill",
+  "address": "9100 S INTERSTATE 35 W ALVARADO TX 76009",
+  "lat": 32.36,
+  "lng": -97.2,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "alvarado"
+    },
+    {
+      "state": "texas",
+      "city": "w-alvarado"
+    }
+  ]
+}

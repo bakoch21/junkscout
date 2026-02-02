@@ -1,0 +1,17 @@
+{
+  "id": "f_76685497eb65",
+  "slug": "frio-city-road-bulky-waste-collection-center",
+  "name": "Frio City Road Bulky Waste Collection Center",
+  "type": "transfer_station",
+  "address": "1531 Frio City Road San Antonio 78226",
+  "lat": 29.3940532,
+  "lng": -98.5358595,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

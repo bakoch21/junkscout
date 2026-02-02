@@ -1,0 +1,21 @@
+{
+  "id": "f_b2539bf5c7ab",
+  "slug": "fort-worth-c-and-d-landfill",
+  "name": "FORT WORTH C AND D LANDFILL",
+  "type": "landfill",
+  "address": "4144 DICK PRICE RD FORT WORTH TX 76140",
+  "lat": 32.63,
+  "lng": -97.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dick-price-rd-fort-worth"
+    },
+    {
+      "state": "texas",
+      "city": "worth"
+    }
+  ]
+}

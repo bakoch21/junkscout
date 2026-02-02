@@ -1,0 +1,21 @@
+{
+  "id": "f_51de9e958d04",
+  "slug": "mccombs-landfill",
+  "name": "MCCOMBS LANDFILL",
+  "type": "landfill",
+  "address": "13600 MCCOMBS ST EL PASO TX 79934",
+  "lat": 31.99,
+  "lng": -106.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mccombs-st-el-paso"
+    },
+    {
+      "state": "texas",
+      "city": "paso"
+    }
+  ]
+}

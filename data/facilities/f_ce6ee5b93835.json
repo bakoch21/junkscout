@@ -1,0 +1,21 @@
+{
+  "id": "f_ce6ee5b93835",
+  "slug": "valley-dewatering-services-inc",
+  "name": "VALLEY DEWATERING SERVICES INC",
+  "type": "landfill",
+  "address": "100 CAPISALLO RD MERCEDES TX 78570",
+  "lat": 26.15,
+  "lng": -97.91,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "capisallo-rd-mercedes"
+    },
+    {
+      "state": "texas",
+      "city": "mercedes"
+    }
+  ]
+}

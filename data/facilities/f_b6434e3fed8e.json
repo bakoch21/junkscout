@@ -1,0 +1,21 @@
+{
+  "id": "f_b6434e3fed8e",
+  "slug": "baylor-marina-closed-landfill",
+  "name": "BAYLOR MARINA CLOSED LANDFILL",
+  "type": "landfill",
+  "address": "1202 S UNIVERSITY PARKS DR WACO TX 76706",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "s-university-parks-dr-waco"
+    },
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

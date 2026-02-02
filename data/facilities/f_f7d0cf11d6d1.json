@@ -1,0 +1,21 @@
+{
+  "id": "f_f7d0cf11d6d1",
+  "slug": "city-of-waco-landfill",
+  "name": "CITY OF WACO LANDFILL",
+  "type": "landfill",
+  "address": "11400 OLD MCGREGOR RD WACO TX 76712",
+  "lat": 31.47,
+  "lng": -97.26,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "old-mcgregor-rd-waco"
+    },
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

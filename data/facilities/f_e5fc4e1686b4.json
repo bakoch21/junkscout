@@ -1,0 +1,17 @@
+{
+  "id": "f_e5fc4e1686b4",
+  "slug": "city-of-alice-landfill",
+  "name": "CITY OF ALICE LANDFILL",
+  "type": "landfill",
+  "address": "3217 N US HIGHWAY 281 ALICE TX 78332",
+  "lat": 27.79,
+  "lng": -98.1,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "alice"
+    }
+  ]
+}

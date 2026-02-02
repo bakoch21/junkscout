@@ -6,7 +6,21 @@
     "lat": 32.74,
     "lng": -97.04,
     "website": null,
-    "source": null,
-    "facility_id": "f_acc6dec698fb"
+    "facility_id": "f_a9f1135f0373",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "LIQUITEK ARLINGTON LIQUID WASTE PROC FAC",
+    "type": "landfill",
+    "address": "408 113TH ST ARLINGTON TX 76011",
+    "lat": 32.74,
+    "lng": -97.04,
+    "website": null,
+    "facility_id": "f_acc6dec698fb",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

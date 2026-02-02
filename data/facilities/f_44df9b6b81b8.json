@@ -1,0 +1,17 @@
+{
+  "id": "f_44df9b6b81b8",
+  "slug": "stouts-creek-compost",
+  "name": "STOUTS CREEK COMPOST",
+  "type": "recycling",
+  "address": "1000 COUNTY ROAD 3372 PICKTON TX 75471",
+  "lat": 33.12,
+  "lng": -95.37,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "pickton"
+    }
+  ]
+}

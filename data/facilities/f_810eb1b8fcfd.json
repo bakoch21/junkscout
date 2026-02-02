@@ -1,0 +1,21 @@
+{
+  "id": "f_810eb1b8fcfd",
+  "slug": "el-paso-facility",
+  "name": "EL PASO FACILITY",
+  "type": "landfill",
+  "address": "11961 RAILROAD DR EL PASO TX 79934",
+  "lat": 31.95,
+  "lng": -106.36,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "paso"
+    },
+    {
+      "state": "texas",
+      "city": "railroad-dr-el-paso"
+    }
+  ]
+}

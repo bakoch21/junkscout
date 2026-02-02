@@ -1,0 +1,21 @@
+{
+  "id": "f_16b4c221cdd0",
+  "slug": "mesquite-creek-landfill",
+  "name": "MESQUITE CREEK LANDFILL",
+  "type": "landfill",
+  "address": "1000 KOHLENBERG RD NEW BRAUNFELS TX 78130",
+  "lat": 29.74,
+  "lng": -98.02,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "braunfels"
+    },
+    {
+      "state": "texas",
+      "city": "kohlenberg-rd-new-braunfels"
+    }
+  ]
+}

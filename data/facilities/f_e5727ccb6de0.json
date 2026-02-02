@@ -1,0 +1,21 @@
+{
+  "id": "f_e5727ccb6de0",
+  "slug": "town-of-van-horn-old-wastewater-collection-pond",
+  "name": "TOWN OF VAN HORN OLD WASTEWATER COLLECTION POND",
+  "type": "landfill",
+  "address": "806 SW FRONTAGE RD VAN HORN TX 79855",
+  "lat": 31.03,
+  "lng": -104.82,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "horn"
+    },
+    {
+      "state": "texas",
+      "city": "sw-frontage-rd-van-horn"
+    }
+  ]
+}

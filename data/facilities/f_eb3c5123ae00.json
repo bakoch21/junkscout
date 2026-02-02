@@ -1,0 +1,21 @@
+{
+  "id": "f_eb3c5123ae00",
+  "slug": "hillside-landfill-and-recycling-center",
+  "name": "HILLSIDE LANDFILL AND RECYCLING CENTER",
+  "type": "recycling",
+  "address": "1100 NELSON RD SHERMAN TX 75090",
+  "lat": 33.59,
+  "lng": -96.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "nelson-rd-sherman"
+    },
+    {
+      "state": "texas",
+      "city": "sherman"
+    }
+  ]
+}

@@ -6,7 +6,21 @@
     "lat": 33.12,
     "lng": -95.37,
     "website": null,
-    "source": null,
-    "facility_id": "f_d893e5559503"
+    "facility_id": "f_44df9b6b81b8",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "STOUTS CREEK COMPOST",
+    "type": "recycling",
+    "address": "1000 COUNTY ROAD 3372 PICKTON TX 75471",
+    "lat": 33.12,
+    "lng": -95.37,
+    "website": null,
+    "facility_id": "f_d893e5559503",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

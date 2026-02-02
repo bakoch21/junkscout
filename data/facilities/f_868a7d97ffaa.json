@@ -1,0 +1,17 @@
+{
+  "id": "f_868a7d97ffaa",
+  "slug": "clothes-and-shoes-recycling-bin",
+  "name": "Clothes & Shoes Recycling Bin",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.9562142,
+  "lng": -96.8928589,
+  "website": "https://fillthebins.com",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrollton"
+    }
+  ]
+}

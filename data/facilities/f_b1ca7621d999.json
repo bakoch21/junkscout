@@ -1,0 +1,25 @@
+{
+  "id": "f_b1ca7621d999",
+  "slug": "big-spring-landfill",
+  "name": "BIG SPRING LANDFILL",
+  "type": "landfill",
+  "address": "1 MILE S & 5 MI E OF THE INTERSECTION OF HWY 350 & OLD COLORADO CITY HWY BIG SPRING TX 79720",
+  "lat": 32.3,
+  "lng": -101.43,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "colorado-city-hwy-big-spring"
+    },
+    {
+      "state": "texas",
+      "city": "old-colorado-city-hwy-big-spring"
+    },
+    {
+      "state": "texas",
+      "city": "spring"
+    }
+  ]
+}

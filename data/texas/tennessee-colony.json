@@ -1,13 +1,39 @@
 [
   {
+    "name": "TEXAS DEPARTMENT OF CRIMINAL JUSTICE COFFIELD TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "2661 FM 5054 TENNESSEE COLONY TX 75884",
+    "lat": 31.8,
+    "lng": -95.66,
+    "website": null,
+    "facility_id": "f_11d87aa2c47a",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
     "name": "TEXAS DEPARTMENT OF CRIMINAL JUSTICE BETO I TRANSFER STATION FACILITY",
     "type": "transfer_station",
     "address": "1391 FM 3328 TENNESSEE COLONY TX 75880",
     "lat": 31.74,
     "lng": -95.82,
     "website": null,
-    "source": null,
-    "facility_id": "f_398b42268329"
+    "facility_id": "f_398b42268329",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "TEXAS DEPARTMENT OF CRIMINAL JUSTICE BETO I TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "1391 FM 3328 TENNESSEE COLONY TX 75880",
+    "lat": 31.74,
+    "lng": -95.82,
+    "website": null,
+    "facility_id": "f_5d0df7933508",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "TEXAS DEPARTMENT OF CRIMINAL JUSTICE COFFIELD TRANSFER STATION FACILITY",
@@ -16,7 +42,9 @@
     "lat": 31.8,
     "lng": -95.66,
     "website": null,
-    "source": null,
-    "facility_id": "f_11d87aa2c47a"
+    "facility_id": "f_8c96ec3bb041",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

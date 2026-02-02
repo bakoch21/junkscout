@@ -1,0 +1,33 @@
+{
+  "id": "f_753c6605b013",
+  "slug": "williamson-transfer-station",
+  "name": "WILLIAMSON TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "NEAR THE INTERSECTION OF CR 130 AND CHANDLER RD IN WILLIAMSON COUNTY TX HUTTO TX 78634",
+  "lat": 30.6,
+  "lng": -97.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "and-chandler-rd-in-williamson-county-tx-hutto"
+    },
+    {
+      "state": "texas",
+      "city": "hutto"
+    },
+    {
+      "state": "texas",
+      "city": "tx-hutto"
+    },
+    {
+      "state": "texas",
+      "city": "williamson-county-tx-hutto"
+    },
+    {
+      "state": "texas",
+      "city": "williamson-tx-hutto"
+    }
+  ]
+}

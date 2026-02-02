@@ -1,0 +1,21 @@
+{
+  "id": "f_f8c6be1aa819",
+  "slug": "utmb-galveston-solid-waste-incineration-facility",
+  "name": "UTMB GALVESTON SOLID WASTE INCINERATION FACILITY",
+  "type": "landfill",
+  "address": "301 UNIVERSITY BLVD GALVESTON TX 77555",
+  "lat": 29.31,
+  "lng": -94.78,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "galveston"
+    },
+    {
+      "state": "texas",
+      "city": "university-blvd-galveston"
+    }
+  ]
+}

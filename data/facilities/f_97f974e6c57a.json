@@ -1,0 +1,21 @@
+{
+  "id": "f_97f974e6c57a",
+  "slug": "zavala-county-mswf-landfill",
+  "name": "ZAVALA COUNTY MSWF LANDFILL",
+  "type": "landfill",
+  "address": "ADJACENT TO US HWY 57 APPROXIMATELY 1 MILE SW OF INTERSECTION US HWY 57 AND US HWY 83 CRYSTAL CITY TX 78741",
+  "lat": 28.94,
+  "lng": -99.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "crystal-city"
+    },
+    {
+      "state": "texas",
+      "city": "crystal"
+    }
+  ]
+}

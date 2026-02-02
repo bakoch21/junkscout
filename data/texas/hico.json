@@ -6,7 +6,21 @@
     "lat": 31.98,
     "lng": -98.03,
     "website": null,
-    "source": null,
-    "facility_id": "f_d5792010b2fd"
+    "facility_id": "f_2f301912a750",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF HICO TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "0.2 MILE SE OF THE STATE HIGHWAY 6 AND STATE HIGHWAY 220 INTERSECTION\n401 UTILITY STREET, HICO, TX 76457 HICO TX",
+    "lat": 31.98,
+    "lng": -98.03,
+    "website": null,
+    "facility_id": "f_d5792010b2fd",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

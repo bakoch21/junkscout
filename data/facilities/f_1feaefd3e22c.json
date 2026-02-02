@@ -1,0 +1,21 @@
+{
+  "id": "f_1feaefd3e22c",
+  "slug": "tm-corpus-christi-services",
+  "name": "TM CORPUS CHRISTI SERVICES",
+  "type": "landfill",
+  "address": "6901A GREENWOOD DR CORPUS CHRISTI TX 78415",
+  "lat": 27.71,
+  "lng": -97.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "christi"
+    },
+    {
+      "state": "texas",
+      "city": "greenwood-dr-corpus-christi"
+    }
+  ]
+}

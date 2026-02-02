@@ -6,7 +6,21 @@
     "lat": 32.11,
     "lng": -99.17,
     "website": null,
-    "source": null,
-    "facility_id": "f_d45b021a6121"
+    "facility_id": "f_aa7324b16cb5",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF CROSS PLAINS",
+    "type": "landfill",
+    "address": "100 CR 347 CROSS PLAINS TX 76443",
+    "lat": 32.11,
+    "lng": -99.17,
+    "website": null,
+    "facility_id": "f_d45b021a6121",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

@@ -2,736 +2,431 @@
   "abernathy": {
     "lat": 33.81,
     "lng": -101.94,
-    "n_points": 1
+    "n_points": 2
   },
   "abilene": {
-    "lat": 32.525000000000006,
-    "lng": -99.755,
+    "lat": 32.53,
+    "lng": -99.76,
     "n_points": 2
   },
   "acres-spur": {
     "lat": 33.45,
     "lng": -100.86,
-    "n_points": 1
-  },
-  "aledo": {
-    "lat": 32.575,
-    "lng": -97.425,
     "n_points": 2
   },
   "alice": {
     "lat": 27.79,
     "lng": -98.1,
-    "n_points": 1
-  },
-  "alpine": {
-    "lat": 30.38,
-    "lng": -103.5,
-    "n_points": 1
-  },
-  "alvarado": {
-    "lat": 32.36,
-    "lng": -97.2,
     "n_points": 2
   },
   "alvin": {
-    "lat": 19.61,
-    "lng": -63.48333333333333,
-    "n_points": 3
+    "lat": 29.42,
+    "lng": -95.19,
+    "n_points": 2
   },
   "amarillo": {
-    "lat": 35.21785558333333,
-    "lng": -101.74886990833333,
-    "n_points": 12
+    "lat": 35.22,
+    "lng": -100.74,
+    "n_points": 2
   },
   "amherst": {
     "lat": 34.02,
     "lng": -102.4,
-    "n_points": 1
-  },
-  "anderson": {
-    "lat": 15.3,
-    "lng": -48.075,
     "n_points": 2
   },
-  "andrews": {
-    "lat": 32.37,
-    "lng": -102.55,
-    "n_points": 1
-  },
-  "angelo": {
-    "lat": 31.52,
-    "lng": -100.41666666666667,
-    "n_points": 3
+  "anderson": {
+    "lat": 30.6,
+    "lng": -96.15,
+    "n_points": 2
   },
   "angleton": {
-    "lat": 29.05666666666666,
-    "lng": -95.33666666666666,
-    "n_points": 3
-  },
-  "anson": {
-    "lat": 32.76,
-    "lng": -99.88,
-    "n_points": 1
-  },
-  "antonio": {
-    "lat": 29.42125,
-    "lng": -98.58374999999998,
-    "n_points": 8
-  },
-  "arlington": {
-    "lat": 27.306235933333337,
-    "lng": -80.93786823333333,
-    "n_points": 6
-  },
-  "arthur": {
-    "lat": 29.93,
-    "lng": -94.03,
-    "n_points": 1
+    "lat": 29.060000000000002,
+    "lng": -95.34,
+    "n_points": 5
   },
   "austin": {
-    "lat": 30.272476471999997,
-    "lng": -97.68107278000001,
-    "n_points": 25
+    "lat": 30.234637349999996,
+    "lng": -97.66639883333335,
+    "n_points": 12
   },
-  "baird": {
-    "lat": 32.39,
-    "lng": -99.4,
-    "n_points": 1
+  "ave-amarillo": {
+    "lat": 35.19,
+    "lng": -101.83,
+    "n_points": 2
   },
-  "ballinger": {
-    "lat": 31.74,
-    "lng": -99.93,
-    "n_points": 1
+  "ave-mansfield": {
+    "lat": 32.55,
+    "lng": -97.15000000000002,
+    "n_points": 3
+  },
+  "avenue-a-alta-loma": {
+    "lat": 29.385,
+    "lng": -95.055,
+    "n_points": 4
+  },
+  "avenue-p-lubbock": {
+    "lat": 33.67,
+    "lng": -101.86,
+    "n_points": 4
   },
   "bay-city": {
     "lat": 28.75,
     "lng": -95.94,
-    "n_points": 1
-  },
-  "baytown": {
-    "lat": 29.707059733333335,
-    "lng": -94.9461629,
-    "n_points": 3
+    "n_points": 2
   },
   "beaumont": {
-    "lat": 30.01274673333333,
-    "lng": -94.11428406666668,
-    "n_points": 3
+    "lat": 30.0182402,
+    "lng": -94.0428522,
+    "n_points": 2
   },
   "big-lake": {
     "lat": 31.19,
     "lng": -101.5,
-    "n_points": 1
+    "n_points": 2
   },
   "big-sandy": {
     "lat": 32.57,
     "lng": -95.05,
-    "n_points": 1
+    "n_points": 2
   },
   "big-spring": {
     "lat": 32.26,
     "lng": -101.42,
-    "n_points": 1
-  },
-  "bliss": {
-    "lat": 31.88,
-    "lng": -106.38,
-    "n_points": 1
+    "n_points": 2
   },
   "bloomington": {
     "lat": 28.69,
     "lng": -96.89,
-    "n_points": 1
-  },
-  "blossom": {
-    "lat": 0,
-    "lng": 0,
-    "n_points": 1
+    "n_points": 2
   },
   "bonham": {
     "lat": 33.59,
     "lng": -96.23,
-    "n_points": 1
+    "n_points": 2
   },
   "bowie": {
     "lat": 33.57,
     "lng": -97.82,
-    "n_points": 1
+    "n_points": 2
+  },
+  "brackettville": {
+    "lat": 29.07,
+    "lng": -100.3,
+    "n_points": 2
   },
   "brackettville-brackettville": {
     "lat": 29.3,
     "lng": -100.42,
-    "n_points": 1
-  },
-  "brady": {
-    "lat": 31.18,
-    "lng": -99.4,
-    "n_points": 1
-  },
-  "branch": {
-    "lat": 32.92,
-    "lng": -96.91,
-    "n_points": 1
-  },
-  "braunfels": {
-    "lat": 29.74,
-    "lng": -98.02,
     "n_points": 2
   },
   "breckenridge": {
     "lat": 32.77,
     "lng": -98.9,
-    "n_points": 1
-  },
-  "brenham": {
-    "lat": 30.175,
-    "lng": -96.39500000000001,
     "n_points": 2
   },
   "brookshire": {
     "lat": 29.86,
     "lng": -95.89,
-    "n_points": 1
-  },
-  "brownfield": {
-    "lat": 33.16,
-    "lng": -102.27,
-    "n_points": 1
+    "n_points": 2
   },
   "brownsville": {
-    "lat": 25.894864225,
-    "lng": -97.47425522500001,
-    "n_points": 4
-  },
-  "brownwood": {
-    "lat": 31.65,
-    "lng": -98.96,
+    "lat": 25.94,
+    "lng": -97.39,
     "n_points": 1
-  },
-  "bryan": {
-    "lat": 30.53,
-    "lng": -97.03999999999999,
-    "n_points": 2
   },
   "buda": {
     "lat": 30.11,
     "lng": -97.76,
-    "n_points": 1
+    "n_points": 2
   },
   "burnet": {
     "lat": 30.79,
     "lng": -98.21,
-    "n_points": 1
-  },
-  "business-park-port-arthur": {
-    "lat": 29.92,
-    "lng": -94.03,
-    "n_points": 1
-  },
-  "cactus": {
-    "lat": 35.84,
-    "lng": -101.89,
-    "n_points": 1
+    "n_points": 2
   },
   "campbell": {
     "lat": 33.18,
     "lng": -95.87,
-    "n_points": 1
+    "n_points": 2
+  },
+  "canadian": {
+    "lat": 35.9,
+    "lng": -100.4,
+    "n_points": 2
   },
   "canton": {
     "lat": 32.59,
     "lng": -95.87,
-    "n_points": 1
-  },
-  "canyon": {
-    "lat": 35,
-    "lng": -101.96,
-    "n_points": 1
+    "n_points": 2
   },
   "carrizo-springs": {
     "lat": 28.6,
     "lng": -99.84,
-    "n_points": 1
-  },
-  "carrollton": {
-    "lat": 32.97714697142857,
-    "lng": -96.91836788571429,
-    "n_points": 7
-  },
-  "carthage": {
-    "lat": 32.17,
-    "lng": -94.32,
-    "n_points": 2
-  },
-  "cedar-creek": {
-    "lat": 30.75,
-    "lng": -97.56,
-    "n_points": 1
-  },
-  "celina": {
-    "lat": 33.38,
-    "lng": -96.77,
-    "n_points": 1
-  },
-  "center": {
-    "lat": 31.81,
-    "lng": -94.18,
-    "n_points": 1
-  },
-  "childress": {
-    "lat": 34.41,
-    "lng": -100.16,
-    "n_points": 1
-  },
-  "christi": {
-    "lat": 27.736250000000002,
-    "lng": -97.4425,
-    "n_points": 8
-  },
-  "city": {
-    "lat": 30.282222222222217,
-    "lng": -100.51555555555557,
-    "n_points": 9
-  },
-  "clarendon": {
-    "lat": 34.89,
-    "lng": -99.89,
-    "n_points": 1
-  },
-  "cleburne": {
-    "lat": 16.2,
-    "lng": -48.7,
     "n_points": 2
   },
   "cleveland": {
-    "lat": 30.320000000000004,
+    "lat": 30.319999999999997,
     "lng": -95.27,
-    "n_points": 3
-  },
-  "coleman": {
-    "lat": 31.86,
-    "lng": -99.43,
-    "n_points": 1
+    "n_points": 6
   },
   "colorado-city": {
     "lat": 32.42,
     "lng": -100.87,
-    "n_points": 1
-  },
-  "conroe": {
-    "lat": 30.786666666666665,
-    "lng": -95.36666666666667,
-    "n_points": 6
+    "n_points": 2
   },
   "copperas-cove": {
     "lat": 31.09,
     "lng": -97.9,
-    "n_points": 1
-  },
-  "corpus-christi": {
-    "lat": 27.762268249999998,
-    "lng": -97.49361375,
     "n_points": 2
   },
-  "corsicana": {
-    "lat": 32.1,
-    "lng": -96.42,
-    "n_points": 1
+  "corpus-christi": {
+    "lat": 27.71,
+    "lng": -97.49,
+    "n_points": 2
   },
-  "coste": {
-    "lat": 29.53,
-    "lng": -98.34,
-    "n_points": 1
-  },
-  "cotulla": {
-    "lat": 0,
-    "lng": 0,
-    "n_points": 1
-  },
-  "crane": {
-    "lat": 31.44,
-    "lng": -102.39,
-    "n_points": 1
-  },
-  "creedmoor": {
-    "lat": 30.04,
-    "lng": -97.73,
-    "n_points": 1
-  },
-  "crockett": {
-    "lat": 31.32,
-    "lng": -95.47,
-    "n_points": 1
+  "creekview-san-antonio": {
+    "lat": 29.4418252,
+    "lng": -98.419088,
+    "n_points": 2
   },
   "cross-plains": {
     "lat": 32.11,
     "lng": -99.17,
-    "n_points": 1
-  },
-  "crowell": {
-    "lat": 33.96,
-    "lng": -99.71,
-    "n_points": 1
+    "n_points": 2
   },
   "crystal-city": {
     "lat": 28.94,
     "lng": -99.86,
-    "n_points": 1
-  },
-  "dale": {
-    "lat": 30.06,
-    "lng": -97.61,
-    "n_points": 1
-  },
-  "dalhart": {
-    "lat": 36.105000000000004,
-    "lng": -102.59,
     "n_points": 2
-  },
-  "dallas": {
-    "lat": 31.878540108333336,
-    "lng": -94.11584647222222,
-    "n_points": 36
-  },
-  "denton": {
-    "lat": 33.18331552,
-    "lng": -97.06765706,
-    "n_points": 5
   },
   "deweyville": {
     "lat": 30.34,
     "lng": -93.86,
-    "n_points": 1
+    "n_points": 2
   },
   "dimmitt": {
     "lat": 34.44,
     "lng": -102.38,
-    "n_points": 1
-  },
-  "dumas": {
-    "lat": 35.855000000000004,
-    "lng": -101.815,
     "n_points": 2
   },
-  "edinburg": {
-    "lat": 26.3275,
-    "lng": -98.10749999999999,
-    "n_points": 4
+  "e-conroe": {
+    "lat": 30.340000000000003,
+    "lng": -95.36333333333334,
+    "n_points": 6
+  },
+  "e-henderson": {
+    "lat": 32.13,
+    "lng": -94.71,
+    "n_points": 2
+  },
+  "e-of-fountain-view-houston": {
+    "lat": 29.73,
+    "lng": -95.47,
+    "n_points": 2
+  },
+  "e-san-antonio": {
+    "lat": 29.28,
+    "lng": -98.69,
+    "n_points": 2
+  },
+  "e-texline": {
+    "lat": 36.38,
+    "lng": -103.03,
+    "n_points": 2
+  },
+  "eagle-pass": {
+    "lat": 28.87,
+    "lng": -100.54,
+    "n_points": 2
   },
   "edna": {
     "lat": 28.98,
     "lng": -96.57,
-    "n_points": 1
+    "n_points": 2
   },
   "el-indio": {
     "lat": 28.54,
     "lng": -100.32,
-    "n_points": 1
-  },
-  "el-paso": {
-    "lat": 31.715104566666668,
-    "lng": -106.36240156666668,
-    "n_points": 3
-  },
-  "eldorado": {
-    "lat": 30.884999999999998,
-    "lng": -100.61500000000001,
     "n_points": 2
   },
   "elmendorf": {
     "lat": 29.21,
-    "lng": -98.38,
+    "lng": -98.35,
     "n_points": 2
   },
   "ennis": {
     "lat": 32.39,
     "lng": -96.65,
-    "n_points": 1
-  },
-  "falfurrias": {
-    "lat": 27.24,
-    "lng": -98.18,
-    "n_points": 1
-  },
-  "falls": {
-    "lat": 22.593333333333334,
-    "lng": -65.66000000000001,
-    "n_points": 3
-  },
-  "feria": {
-    "lat": 26.17,
-    "lng": -97.85,
-    "n_points": 1
-  },
-  "ferris": {
-    "lat": 32.55,
-    "lng": -96.67,
-    "n_points": 3
+    "n_points": 2
   },
   "floydada": {
     "lat": 33.97,
     "lng": -101.3,
-    "n_points": 1
+    "n_points": 2
   },
   "fort-cavazos": {
     "lat": 31.155,
     "lng": -97.795,
-    "n_points": 2
+    "n_points": 4
   },
   "fort-worth": {
-    "lat": 32.779868436363635,
-    "lng": -97.36124416363636,
-    "n_points": 11
-  },
-  "fredericksburg": {
-    "lat": 30.27,
-    "lng": -98.84,
-    "n_points": 1
-  },
-  "fresno": {
-    "lat": 29.569999999999997,
-    "lng": -95.43333333333334,
-    "n_points": 3
-  },
-  "frisco": {
-    "lat": 33.1147976,
-    "lng": -96.73525775,
-    "n_points": 2
+    "lat": 32.790000000000006,
+    "lng": -97.32,
+    "n_points": 4
   },
   "gainesville": {
     "lat": 33.63,
     "lng": -97.16,
-    "n_points": 1
-  },
-  "galveston": {
-    "lat": 29.305,
-    "lng": -94.805,
     "n_points": 2
-  },
-  "garland": {
-    "lat": 29.394999999999996,
-    "lng": -96.64,
-    "n_points": 2
-  },
-  "georgetown": {
-    "lat": 30.65,
-    "lng": -97.66,
-    "n_points": 1
   },
   "glen-rose": {
     "lat": 32.43,
     "lng": -97.53,
-    "n_points": 1
+    "n_points": 2
   },
   "godley": {
     "lat": 32.34,
     "lng": -97.35,
-    "n_points": 1
-  },
-  "goodrich": {
-    "lat": 30.49,
-    "lng": -94.94,
-    "n_points": 1
+    "n_points": 2
   },
   "grand-prairie": {
     "lat": 32.76,
     "lng": -96.95,
-    "n_points": 1
+    "n_points": 2
   },
   "hallettsville": {
     "lat": 29.45,
     "lng": -96.9,
-    "n_points": 1
+    "n_points": 2
   },
   "harlingen": {
-    "lat": 28.295,
-    "lng": -97.655,
-    "n_points": 2
+    "lat": 26.19,
+    "lng": -97.66,
+    "n_points": 1
   },
   "haskell": {
     "lat": 33.17,
-    "lng": -99.68,
-    "n_points": 1
-  },
-  "hedley": {
-    "lat": 0,
-    "lng": 0,
-    "n_points": 1
-  },
-  "hempstead": {
-    "lat": 30.08,
-    "lng": -96.09,
-    "n_points": 1
-  },
-  "henderson": {
-    "lat": 32.13,
-    "lng": -94.71,
-    "n_points": 1
-  },
-  "hereford": {
-    "lat": 34.84,
-    "lng": -102.37,
+    "lng": -99.64,
     "n_points": 1
   },
   "hiawatha-san-antonio": {
     "lat": 28.39,
     "lng": -98.44,
-    "n_points": 1
+    "n_points": 2
   },
-  "hill": {
-    "lat": 32.63,
-    "lng": -97.23,
-    "n_points": 1
-  },
-  "horn": {
-    "lat": 31.03,
-    "lng": -104.82,
+  "hico": {
+    "lat": 31.98,
+    "lng": -98.03,
     "n_points": 2
   },
   "houston": {
-    "lat": 29.79783973611111,
-    "lng": -95.38027821388893,
-    "n_points": 72
-  },
-  "humble": {
-    "lat": 29.955,
-    "lng": -95.24,
-    "n_points": 2
-  },
-  "huntsville": {
-    "lat": 30.74,
-    "lng": -95.6,
-    "n_points": 1
-  },
-  "hutto": {
-    "lat": 30.6,
-    "lng": -97.555,
-    "n_points": 2
+    "lat": 29.9,
+    "lng": -95.43,
+    "n_points": 4
   },
   "in-booker-booker": {
     "lat": 36.49,
     "lng": -100.52,
+    "n_points": 3
+  },
+  "in-gray-county": {
+    "lat": 35.23,
+    "lng": -100.56,
+    "n_points": 2
+  },
+  "in-hansford-county-spearman": {
+    "lat": 36.21,
+    "lng": -101.21,
+    "n_points": 2
+  },
+  "in-jones-county-abilene": {
+    "lat": 32.52,
+    "lng": -99.75,
+    "n_points": 2
+  },
+  "in-moore-county-dumas": {
+    "lat": 35.87,
+    "lng": -101.74,
+    "n_points": 2
+  },
+  "in-panola-county-carthage": {
+    "lat": 32.18,
+    "lng": -94.32,
+    "n_points": 2
+  },
+  "in-shelby-co": {
+    "lat": 31.81,
+    "lng": -94.18,
+    "n_points": 2
+  },
+  "in-swisher-county-tulia": {
+    "lat": 34.54,
+    "lng": -101.72,
     "n_points": 2
   },
   "irving": {
-    "lat": 32.876536400000006,
-    "lng": -96.96445400000002,
-    "n_points": 4
+    "lat": 32.84,
+    "lng": -96.9,
+    "n_points": 2
   },
   "itasca": {
     "lat": 32.2,
     "lng": -97.11,
-    "n_points": 1
-  },
-  "jacksonville": {
-    "lat": 31.95,
-    "lng": -95.33500000000001,
     "n_points": 2
   },
-  "jasper": {
-    "lat": 30.94,
-    "lng": -94,
-    "n_points": 1
+  "jacksonville": {
+    "lat": 32,
+    "lng": -95.27,
+    "n_points": 2
   },
   "johnson-city": {
     "lat": 30.25,
     "lng": -98.38,
-    "n_points": 1
+    "n_points": 2
   },
   "junction": {
     "lat": 30.53,
     "lng": -99.76,
-    "n_points": 1
+    "n_points": 2
   },
   "kerrville": {
     "lat": 30.03,
-    "lng": -98.90000000000002,
-    "n_points": 3
-  },
-  "kilgore": {
-    "lat": 32.43666666666667,
-    "lng": -94.84666666666665,
-    "n_points": 3
+    "lng": -98.89999999999999,
+    "n_points": 6
   },
   "killeen": {
-    "lat": 31.07139725,
-    "lng": -97.726717825,
-    "n_points": 4
+    "lat": 31.02,
+    "lng": -97.75,
+    "n_points": 2
   },
   "kingsville": {
     "lat": 27.45,
     "lng": -97.82,
-    "n_points": 1
-  },
-  "kountze": {
-    "lat": 30.34,
-    "lng": -94.36,
-    "n_points": 1
-  },
-  "lamesa": {
-    "lat": 32.7,
-    "lng": -101.94,
-    "n_points": 1
-  },
-  "land": {
-    "lat": 29.66,
-    "lng": -95.67,
-    "n_points": 1
+    "n_points": 2
   },
   "laredo": {
-    "lat": 27.50877903333333,
-    "lng": -99.4594823,
+    "lat": 27.487644866666667,
+    "lng": -99.36000043333333,
     "n_points": 6
-  },
-  "leggett": {
-    "lat": 30.83,
-    "lng": -94.92,
-    "n_points": 1
-  },
-  "levelland": {
-    "lat": 33.49,
-    "lng": -102.33,
-    "n_points": 1
-  },
-  "lewisville": {
-    "lat": 33.0325,
-    "lng": -96.96000000000001,
-    "n_points": 4
   },
   "littlefield": {
     "lat": 33.98,
     "lng": -102.24,
-    "n_points": 1
+    "n_points": 2
   },
   "lockhart": {
     "lat": 29.97,
     "lng": -97.66,
-    "n_points": 1
-  },
-  "loma": {
-    "lat": 29.384999999999998,
-    "lng": -95.055,
-    "n_points": 2
-  },
-  "longview": {
-    "lat": 32.46678795,
-    "lng": -94.81808795,
     "n_points": 2
   },
   "lubbock": {
-    "lat": 33.731703780000004,
-    "lng": -101.92799807,
-    "n_points": 10
+    "lat": 34.190000000000005,
+    "lng": -102.175,
+    "n_points": 4
   },
   "lufkin": {
     "lat": 31.25,
     "lng": -94.7,
-    "n_points": 1
-  },
-  "mansfield": {
-    "lat": 32.55,
-    "lng": -97.15,
     "n_points": 2
   },
   "mason": {
@@ -742,501 +437,371 @@
   "matador": {
     "lat": 34.04,
     "lng": -100.82,
-    "n_points": 1
+    "n_points": 2
   },
-  "mcallen": {
-    "lat": 26.4,
-    "lng": -98.33,
-    "n_points": 1
-  },
-  "mckinney": {
-    "lat": 33.19635795000001,
-    "lng": -96.57027489999999,
+  "mccamey-tx-mccamey": {
+    "lat": 31.11,
+    "lng": -102.2,
     "n_points": 2
   },
   "mclean": {
-    "lat": 35.235,
-    "lng": -100.57,
+    "lat": 35.24,
+    "lng": -100.58,
     "n_points": 2
   },
   "meadow": {
     "lat": 33.3,
     "lng": -102.19,
+    "n_points": 3
+  },
+  "memphis": {
+    "lat": 34.7,
+    "lng": -100.52,
     "n_points": 2
   },
-  "melissa": {
-    "lat": 33.295,
-    "lng": -96.52000000000001,
-    "n_points": 2
-  },
-  "mercedes": {
-    "lat": 26.15,
-    "lng": -97.91,
-    "n_points": 1
-  },
-  "mesquite": {
-    "lat": 32.67,
-    "lng": -96.62,
+  "menard": {
+    "lat": 30.93,
+    "lng": -99.82,
     "n_points": 2
   },
   "mexia": {
     "lat": 31.61,
     "lng": -96.5,
-    "n_points": 1
+    "n_points": 2
   },
-  "midland": {
-    "lat": 31.986178700000004,
-    "lng": -102.02572902,
-    "n_points": 5
-  },
-  "monahans": {
-    "lat": 31.6,
-    "lng": -102.96,
-    "n_points": 1
+  "mile-of-morton-morton": {
+    "lat": 33.74,
+    "lng": -102.74,
+    "n_points": 2
   },
   "monroe-city": {
     "lat": 29.8,
     "lng": -94.52,
-    "n_points": 1
+    "n_points": 2
   },
   "mt-pleasant": {
     "lat": 33.12,
     "lng": -95.01,
-    "n_points": 1
+    "n_points": 2
   },
-  "muleshoe": {
+  "n-brenham": {
+    "lat": 30.18,
+    "lng": -96.42,
+    "n_points": 2
+  },
+  "n-huntsville": {
+    "lat": 30.74,
+    "lng": -95.6,
+    "n_points": 2
+  },
+  "n-kilgore": {
+    "lat": 32.41,
+    "lng": -94.87,
+    "n_points": 2
+  },
+  "n-tyler": {
+    "lat": 32.44,
+    "lng": -95.19,
+    "n_points": 2
+  },
+  "n-vernon": {
     "lat": 34.21,
-    "lng": -102.71,
-    "n_points": 1
+    "lng": -99.34,
+    "n_points": 2
+  },
+  "n-victoria": {
+    "lat": 28.79,
+    "lng": -96.94,
+    "n_points": 2
   },
   "nacogdoches": {
-    "lat": 31.65,
-    "lng": -94.68,
+    "lat": 31.56,
+    "lng": -94.65,
     "n_points": 1
-  },
-  "needville": {
-    "lat": 29.4,
-    "lng": -95.72,
-    "n_points": 2
   },
   "new-boston": {
     "lat": 33.47,
     "lng": -94.44,
-    "n_points": 1
-  },
-  "new-braunfels": {
-    "lat": 29.7351449,
-    "lng": -98.025443,
-    "n_points": 1
-  },
-  "odessa": {
-    "lat": 31.78,
-    "lng": -102.525,
     "n_points": 2
   },
-  "olton": {
-    "lat": 34.09,
-    "lng": -102.13,
-    "n_points": 1
+  "north-jacksonville": {
+    "lat": 31.9,
+    "lng": -95.4,
+    "n_points": 2
   },
-  "paducah": {
-    "lat": 0,
-    "lng": 0,
-    "n_points": 1
+  "north-san-antonio": {
+    "lat": 29.6419451,
+    "lng": -98.4556087,
+    "n_points": 2
+  },
+  "odessa": {
+    "lat": 31.79,
+    "lng": -102.55,
+    "n_points": 2
+  },
+  "on-bobwhite-levelland": {
+    "lat": 33.49,
+    "lng": -102.33,
+    "n_points": 2
   },
   "palestine": {
     "lat": 31.8,
     "lng": -95.61,
-    "n_points": 1
-  },
-  "pampa": {
-    "lat": 23.71666666666667,
-    "lng": -67.28333333333335,
-    "n_points": 3
-  },
-  "park": {
-    "lat": 23.265,
-    "lng": -74.2525,
-    "n_points": 4
-  },
-  "pasadena": {
-    "lat": 29.705,
-    "lng": -95.17500000000001,
     "n_points": 2
   },
-  "paso": {
-    "lat": 27.244285714285713,
-    "lng": -91.13714285714286,
-    "n_points": 7
-  },
-  "pearland": {
-    "lat": 29.52,
-    "lng": -95.25,
-    "n_points": 1
+  "pampa": {
+    "lat": 35.58,
+    "lng": -100.93,
+    "n_points": 2
   },
   "perryton": {
     "lat": 36.42,
     "lng": -100.79,
-    "n_points": 1
+    "n_points": 2
   },
   "pickton": {
     "lat": 33.12,
     "lng": -95.37,
-    "n_points": 1
-  },
-  "pittsburg": {
-    "lat": 33.03,
-    "lng": -94.99,
-    "n_points": 1
+    "n_points": 2
   },
   "plains": {
     "lat": 33.09,
     "lng": -102.85,
-    "n_points": 1
-  },
-  "plainview": {
-    "lat": 34.18,
-    "lng": -101.67,
-    "n_points": 1
-  },
-  "plano": {
-    "lat": 33.099999999999994,
-    "lng": -96.66499999999999,
     "n_points": 2
   },
   "pleasanton": {
-    "lat": 19.386666666666667,
-    "lng": -65.61333333333333,
+    "lat": 29.08,
+    "lng": -98.42,
     "n_points": 3
   },
   "port-arthur": {
-    "lat": 29.902009,
-    "lng": -94.04560225,
+    "lat": 29.88,
+    "lng": -94.06,
     "n_points": 2
-  },
-  "porte": {
-    "lat": 29.71,
-    "lng": -95.09,
-    "n_points": 1
   },
   "post": {
     "lat": 33.17,
     "lng": -101.38,
-    "n_points": 1
+    "n_points": 3
   },
   "prairie-fulton": {
     "lat": 30.39,
     "lng": -97.67,
-    "n_points": 1
-  },
-  "prairie": {
-    "lat": 32.760000000000005,
-    "lng": -96.99000000000001,
-    "n_points": 4
-  },
-  "presidio": {
-    "lat": 29.56,
-    "lng": -104.35,
-    "n_points": 1
-  },
-  "quanah": {
-    "lat": 34.31,
-    "lng": -99.72,
-    "n_points": 1
+    "n_points": 2
   },
   "railroad-sanger": {
     "lat": 33.32,
     "lng": -97.17,
-    "n_points": 1
-  },
-  "railway-del-rio": {
-    "lat": 29.36,
-    "lng": -100.85,
     "n_points": 2
-  },
-  "ranch": {
-    "lat": 35.53,
-    "lng": -102.24,
-    "n_points": 1
   },
   "rankin": {
     "lat": 31.24,
     "lng": -101.95,
-    "n_points": 1
+    "n_points": 2
   },
-  "republic-way-avalon": {
-    "lat": 32.22,
-    "lng": -96.79,
-    "n_points": 1
+  "rd-conroe": {
+    "lat": 30.32,
+    "lng": -95.38,
+    "n_points": 2
   },
-  "richardson": {
-    "lat": 32.59,
-    "lng": -96.41,
-    "n_points": 1
+  "rd-fresno": {
+    "lat": 29.569999999999993,
+    "lng": -95.43333333333334,
+    "n_points": 6
+  },
+  "rd-kountze": {
+    "lat": 30.34,
+    "lng": -94.36,
+    "n_points": 2
   },
   "robstown": {
-    "lat": 27.7,
+    "lat": 27.699999999999996,
     "lng": -97.60499999999999,
-    "n_points": 4
+    "n_points": 8
   },
   "roma": {
     "lat": 26.43,
     "lng": -99.07,
-    "n_points": 1
-  },
-  "rosenberg": {
-    "lat": 29.58,
-    "lng": -95.79,
-    "n_points": 1
-  },
-  "rowlett": {
-    "lat": 32.95,
-    "lng": -96.54,
     "n_points": 2
   },
-  "saba": {
-    "lat": 31.2,
-    "lng": -98.68,
-    "n_points": 1
+  "s-brownwood": {
+    "lat": 31.65,
+    "lng": -98.96,
+    "n_points": 2
   },
-  "san-angelo": {
-    "lat": 31.504444,
-    "lng": -100.3898394,
-    "n_points": 1
+  "s-business-park-port-arthur": {
+    "lat": 29.92,
+    "lng": -94.03,
+    "n_points": 2
+  },
+  "s-goodrich": {
+    "lat": 30.49,
+    "lng": -94.94,
+    "n_points": 2
+  },
+  "s-sully-clarendon": {
+    "lat": 34.91,
+    "lng": -100.87,
+    "n_points": 2
+  },
+  "s-woodville": {
+    "lat": 30.78,
+    "lng": -94.36,
+    "n_points": 2
   },
   "san-antonio": {
-    "lat": 27.91011428421053,
-    "lng": -93.28021166315789,
-    "n_points": 19
-  },
-  "san-marcos": {
-    "lat": 29.8851033,
-    "lng": -97.9489507,
-    "n_points": 1
-  },
-  "sanderson": {
-    "lat": 30.06,
-    "lng": -102.36,
-    "n_points": 1
+    "lat": 29.421999999999997,
+    "lng": -98.41400000000002,
+    "n_points": 10
   },
   "schertz": {
-    "lat": 29.585,
-    "lng": -98.28,
+    "lat": 29.55,
+    "lng": -98.27,
+    "n_points": 2
+  },
+  "se-of-muleshoe-muleshoe": {
+    "lat": 34.21,
+    "lng": -102.71,
     "n_points": 2
   },
   "seguin": {
-    "lat": 29.62278326666667,
-    "lng": -97.88402373333332,
-    "n_points": 3
-  },
-  "seminole": {
-    "lat": 32.75,
-    "lng": -102.64,
-    "n_points": 1
+    "lat": 29.61,
+    "lng": -97.72,
+    "n_points": 2
   },
   "seymour": {
     "lat": 33.56,
     "lng": -99.24,
-    "n_points": 1
+    "n_points": 2
   },
   "shady-trl-dallas": {
     "lat": 32.87,
     "lng": -96.89,
-    "n_points": 1
-  },
-  "shamrock": {
-    "lat": 35.25,
-    "lng": -100.27,
-    "n_points": 1
-  },
-  "sherman": {
-    "lat": 33.615,
-    "lng": -96.57,
     "n_points": 2
   },
   "snyder": {
     "lat": 32.67,
     "lng": -100.81,
-    "n_points": 1
+    "n_points": 2
   },
-  "spearman": {
-    "lat": 36.21,
-    "lng": -101.21,
-    "n_points": 1
+  "south-victoria": {
+    "lat": 28.75,
+    "lng": -97.01,
+    "n_points": 2
   },
-  "spring": {
-    "lat": 32.3,
-    "lng": -101.43,
-    "n_points": 1
+  "st-alpine": {
+    "lat": 30.38,
+    "lng": -103.5,
+    "n_points": 2
   },
-  "springs": {
-    "lat": 28.5,
-    "lng": -99.83,
-    "n_points": 1
+  "st-arlington": {
+    "lat": 32.74,
+    "lng": -97.04,
+    "n_points": 2
   },
-  "stamford": {
-    "lat": 32.97,
-    "lng": -99.8,
-    "n_points": 1
+  "st-austin": {
+    "lat": 30.3,
+    "lng": -97.7,
+    "n_points": 2
+  },
+  "st-crane": {
+    "lat": 31.44,
+    "lng": -102.39,
+    "n_points": 2
+  },
+  "st-harlingen": {
+    "lat": 30.39,
+    "lng": -97.67,
+    "n_points": 2
+  },
+  "st-lamesa": {
+    "lat": 32.7,
+    "lng": -101.94,
+    "n_points": 2
   },
   "stanton": {
     "lat": 32.16,
     "lng": -101.74,
-    "n_points": 1
+    "n_points": 2
   },
   "stephenville": {
     "lat": 32.18,
     "lng": -98.29,
-    "n_points": 1
-  },
-  "stockton": {
-    "lat": 30.92,
-    "lng": -102.83666666666666,
-    "n_points": 3
-  },
-  "sudan": {
-    "lat": 34.08,
-    "lng": -102.51,
-    "n_points": 1
-  },
-  "sully-clarendon": {
-    "lat": 34.91,
-    "lng": -100.87,
-    "n_points": 1
-  },
-  "sundown": {
-    "lat": 33.42,
-    "lng": -102.5,
-    "n_points": 1
-  },
-  "sweetwater": {
-    "lat": 16.245,
-    "lng": -50.16,
     "n_points": 2
   },
-  "tahoka": {
-    "lat": 33.2,
-    "lng": -101.79,
-    "n_points": 1
+  "street-houston": {
+    "lat": 29.8291659,
+    "lng": -95.4304555,
+    "n_points": 2
   },
-  "temple": {
-    "lat": 31.07,
-    "lng": -97.3,
+  "sweetwater": {
+    "lat": 32.49,
+    "lng": -100.32,
     "n_points": 2
   },
   "tennessee-colony": {
     "lat": 31.77,
-    "lng": -95.74,
+    "lng": -95.73999999999998,
+    "n_points": 4
+  },
+  "to-site-sudan": {
+    "lat": 34.08,
+    "lng": -102.51,
     "n_points": 2
   },
-  "texas-creedmoor": {
-    "lat": 0,
-    "lng": 0,
-    "n_points": 1
-  },
-  "texline": {
-    "lat": 36.38,
-    "lng": -103.03,
-    "n_points": 1
-  },
-  "the-woodlands": {
-    "lat": 30.1868313,
-    "lng": -95.4429676,
-    "n_points": 1
-  },
-  "tilden": {
-    "lat": 28.45,
-    "lng": -98.54,
-    "n_points": 1
-  },
   "tyler": {
-    "lat": 32.391485975,
-    "lng": -95.22215955,
-    "n_points": 4
+    "lat": 32.37531463333334,
+    "lng": -95.2328794,
+    "n_points": 6
   },
   "uvalde": {
     "lat": 29.18,
     "lng": -99.86,
-    "n_points": 1
-  },
-  "vernon": {
-    "lat": 34.21,
-    "lng": -99.34,
-    "n_points": 1
+    "n_points": 2
   },
   "victoria": {
-    "lat": 28.7409726,
-    "lng": -96.9487723,
-    "n_points": 5
+    "lat": 28.69,
+    "lng": -96.91,
+    "n_points": 4
   },
-  "vleck": {
-    "lat": 0,
-    "lng": 0,
-    "n_points": 1
+  "w-alvarado": {
+    "lat": 32.36,
+    "lng": -97.2,
+    "n_points": 4
   },
-  "waco": {
-    "lat": 28.26764466666667,
-    "lng": -86.33847942222222,
-    "n_points": 9
+  "w-cedar-creek": {
+    "lat": 30.75,
+    "lng": -97.56,
+    "n_points": 2
   },
-  "weatherford": {
-    "lat": 21.813333333333333,
-    "lng": -65.24,
-    "n_points": 3
+  "w-dale": {
+    "lat": 30.06,
+    "lng": -97.61,
+    "n_points": 2
   },
-  "weimar": {
-    "lat": 29.7,
-    "lng": -96.76,
-    "n_points": 1
+  "w-leggett": {
+    "lat": 30.83,
+    "lng": -94.92,
+    "n_points": 2
   },
-  "weslaco": {
-    "lat": 26.18,
-    "lng": -97.97,
-    "n_points": 1
+  "w-on": {
+    "lat": 32.97,
+    "lng": -99.8,
+    "n_points": 2
+  },
+  "w-waco": {
+    "lat": 31.7,
+    "lng": -96.93,
+    "n_points": 2
   },
   "whitesboro": {
     "lat": 33.72,
-    "lng": -96.91,
-    "n_points": 2
-  },
-  "wichita-falls": {
-    "lat": 33.8734386,
-    "lng": -98.54174330000001,
-    "n_points": 2
-  },
-  "wilmer": {
-    "lat": 32.56,
-    "lng": -96.67,
-    "n_points": 1
-  },
-  "wimberley": {
-    "lat": 29.99,
-    "lng": -98.11,
-    "n_points": 1
-  },
-  "winters": {
-    "lat": 0,
-    "lng": 0,
-    "n_points": 1
-  },
-  "wire-way-dallas": {
-    "lat": 32.87,
-    "lng": -96.91,
-    "n_points": 1
+    "lng": -96.91000000000001,
+    "n_points": 3
   },
   "woodville": {
     "lat": 30.76,
     "lng": -94.46,
-    "n_points": 1
-  },
-  "worth": {
-    "lat": 32.6775,
-    "lng": -97.21000000000001,
-    "n_points": 4
-  },
-  "ygnacio": {
-    "lat": 27.03,
-    "lng": -99.41,
-    "n_points": 1
+    "n_points": 2
   }
 }

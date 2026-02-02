@@ -1,0 +1,21 @@
+{
+  "id": "f_7924913007bd",
+  "slug": "city-of-amarillo-transfer-station",
+  "name": "CITY OF AMARILLO TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "811 SE 27TH AVE AMARILLO TX 79103",
+  "lat": 35.19,
+  "lng": -101.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    },
+    {
+      "state": "texas",
+      "city": "ave-amarillo"
+    }
+  ]
+}

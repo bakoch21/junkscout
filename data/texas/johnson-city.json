@@ -6,7 +6,21 @@
     "lat": 30.25,
     "lng": -98.38,
     "website": null,
-    "source": null,
-    "facility_id": "f_aea29d5114ac"
+    "facility_id": "f_21313bdd5a7e",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "BLANCO COUNTY TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "2021 N HWY 281 JOHNSON CITY TX 78636",
+    "lat": 30.25,
+    "lng": -98.38,
+    "website": null,
+    "facility_id": "f_aea29d5114ac",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

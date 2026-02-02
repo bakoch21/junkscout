@@ -1,0 +1,21 @@
+{
+  "id": "f_2b97116e6194",
+  "slug": "fort-bend-landfill-gas-treatment-facility",
+  "name": "FORT BEND LANDFILL GAS TREATMENT FACILITY",
+  "type": "landfill",
+  "address": "14115 DAVIS ESTATE RD NEEDVILLE TX 77461",
+  "lat": 29.4,
+  "lng": -95.72,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "davis-estate-rd-needville"
+    },
+    {
+      "state": "texas",
+      "city": "needville"
+    }
+  ]
+}

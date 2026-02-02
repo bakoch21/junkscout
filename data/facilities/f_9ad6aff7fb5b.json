@@ -1,0 +1,17 @@
+{
+  "id": "f_9ad6aff7fb5b",
+  "slug": "city-of-pampa-landfill",
+  "name": "CITY OF PAMPA LANDFILL",
+  "type": "landfill",
+  "address": "LOCATED NORTHEAST OF THE CITY OF PAMPA ON LOOP 171 APPROXIMATELY 3 MILES NORTH OF THE INTERSECTION OF US HWY 60 AND LOOP 171 PAMPA TX 79066",
+  "lat": 35.58,
+  "lng": -100.93,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "pampa"
+    }
+  ]
+}

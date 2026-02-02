@@ -1,0 +1,17 @@
+{
+  "id": "f_8fafcbad51f7",
+  "slug": "republic-services",
+  "name": "Republic Services",
+  "type": "transfer_station",
+  "address": "6425 Highway 347 Beaumont TX 77705",
+  "lat": 30.0182402,
+  "lng": -94.0428522,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "beaumont"
+    }
+  ]
+}

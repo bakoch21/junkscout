@@ -6,7 +6,21 @@
     "lat": 33.97,
     "lng": -101.3,
     "website": null,
-    "source": null,
-    "facility_id": "f_f7ae4a0a89d6"
+    "facility_id": "f_d89517c3d985",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF FLOYDADA LANDFILL",
+    "type": "landfill",
+    "address": "2130 U S HIGHWAY 70 FLOYDADA TX 79235",
+    "lat": 33.97,
+    "lng": -101.3,
+    "website": null,
+    "facility_id": "f_f7ae4a0a89d6",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

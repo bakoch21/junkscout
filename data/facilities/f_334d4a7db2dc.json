@@ -1,0 +1,17 @@
+{
+  "id": "f_334d4a7db2dc",
+  "slug": "royal-oaks-landfill",
+  "name": "ROYAL OAKS  LANDFILL",
+  "type": "landfill",
+  "address": "608 CR 4102 JACKSONVILLE TX 75766",
+  "lat": 32,
+  "lng": -95.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "jacksonville"
+    }
+  ]
+}

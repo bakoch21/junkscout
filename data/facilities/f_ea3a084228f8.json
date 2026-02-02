@@ -1,0 +1,17 @@
+{
+  "id": "f_ea3a084228f8",
+  "slug": "city-of-hallettsville-transfer-station-facility",
+  "name": "CITY OF HALLETTSVILLE TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "804 COUNTY ROAD 201 HALLETTSVILLE TX 77964",
+  "lat": 29.45,
+  "lng": -96.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "hallettsville"
+    }
+  ]
+}

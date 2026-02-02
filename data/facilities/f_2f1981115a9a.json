@@ -1,0 +1,17 @@
+{
+  "id": "f_2f1981115a9a",
+  "slug": "republic-maloy-landfill",
+  "name": "REPUBLIC MALOY LANDFILL",
+  "type": "landfill",
+  "address": "2811 FM 1568 CAMPBELL TX 75422",
+  "lat": 33.18,
+  "lng": -95.87,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "campbell"
+    }
+  ]
+}

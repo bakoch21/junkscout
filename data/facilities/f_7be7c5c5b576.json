@@ -1,0 +1,17 @@
+{
+  "id": "f_7be7c5c5b576",
+  "slug": "ecd-landfill",
+  "name": "ECD LANDFILL",
+  "type": "landfill",
+  "address": "5703 N INTERSTATE HIGHWAY 45 ENNIS TX 75119",
+  "lat": 32.39,
+  "lng": -96.65,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "ennis"
+    }
+  ]
+}

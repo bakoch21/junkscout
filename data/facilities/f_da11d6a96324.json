@@ -1,0 +1,17 @@
+{
+  "id": "f_da11d6a96324",
+  "slug": "city-of-muleshoe-landfill",
+  "name": "CITY OF MULESHOE LANDFILL",
+  "type": "landfill",
+  "address": "1.0 MILES E OF THE MULESHOE CITY LIMITS ON US HIGHWAY 84 APPROXIMATELY 1.8 MILES SE OF THE INTERSECTION OF US HIGHWAY 84 AND STATE HIGHWAY 214 LUBBOCK TX 79347",
+  "lat": 34.77,
+  "lng": -102.55,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lubbock"
+    }
+  ]
+}

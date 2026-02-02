@@ -1,0 +1,17 @@
+{
+  "id": "f_45ecfa5e05b2",
+  "slug": "recycle-revolution",
+  "name": "Recycle Revolution",
+  "type": "recycling",
+  "address": "6835 Forest Park Road 75235",
+  "lat": 32.8264799,
+  "lng": -96.8510826,
+  "website": "https://recyclerevolutiondallas.com/",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

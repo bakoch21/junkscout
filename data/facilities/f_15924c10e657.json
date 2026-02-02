@@ -1,0 +1,21 @@
+{
+  "id": "f_15924c10e657",
+  "slug": "stericycle-san-antonio",
+  "name": "STERICYCLE SAN ANTONIO",
+  "type": "landfill",
+  "address": "6105 US HIGHWAY 87 E SAN ANTONIO TX 78222",
+  "lat": 29.28,
+  "lng": -98.69,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "e-san-antonio"
+    },
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_bd4887115417",
+  "slug": "texas-decon",
+  "name": "TEXAS DECON",
+  "type": "landfill",
+  "address": "122 DENNIS DR SEGUIN TX 78155",
+  "lat": 29.7,
+  "lng": -97.96,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dennis-dr-seguin"
+    },
+    {
+      "state": "texas",
+      "city": "seguin"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_d0e72cca5ea0",
+  "slug": "lone-star-srd-shredding-recycling-disposal",
+  "name": "LONE STAR SRD SHREDDING RECYCLING DISPOSAL",
+  "type": "recycling",
+  "address": "712 PASADENA FWY PASADENA TX 77506",
+  "lat": 29.71,
+  "lng": -95.2,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "pasadena-fwy-pasadena"
+    },
+    {
+      "state": "texas",
+      "city": "pasadena"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_c5dc127c8ea9",
+  "slug": "city-of-tulia-municipal-solid-waste-landfill",
+  "name": "CITY OF TULIA MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "APPROX 1.84 MI E OF INTX OF FM R 1318 AND FM 146 IN SWISHER COUNTY TULIA TX",
+  "lat": 34.54,
+  "lng": -101.72,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "in-swisher-county-tulia"
+    },
+    {
+      "state": "texas",
+      "city": "swisher-tulia"
+    }
+  ]
+}

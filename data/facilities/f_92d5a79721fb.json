@@ -1,0 +1,17 @@
+{
+  "id": "f_92d5a79721fb",
+  "slug": "pleasant-oaks-landfill",
+  "name": "PLEASANT OAKS LANDFILL",
+  "type": "landfill",
+  "address": "3031 FARM ROAD 3417 MT PLEASANT TX 75455",
+  "lat": 33.12,
+  "lng": -95.01,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mt-pleasant"
+    }
+  ]
+}

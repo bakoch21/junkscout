@@ -1,0 +1,17 @@
+{
+  "id": "f_3fcb4dd7fe72",
+  "slug": "twin-oaks-landfill",
+  "name": "TWIN OAKS LANDFILL",
+  "type": "landfill",
+  "address": "2690 HIGHWAY 30 ANDERSON TX 77830",
+  "lat": 30.6,
+  "lng": -96.15,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "anderson"
+    }
+  ]
+}

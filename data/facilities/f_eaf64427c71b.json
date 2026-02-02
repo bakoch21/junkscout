@@ -1,0 +1,21 @@
+{
+  "id": "f_eaf64427c71b",
+  "slug": "north-texas-municipal-water-district-transfer-station",
+  "name": "NORTH TEXAS MUNICIPAL WATER DISTRICT TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "9901 CUSTER RD PLANO TX 75025",
+  "lat": 33.19,
+  "lng": -96.56,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "custer-rd-plano"
+    },
+    {
+      "state": "texas",
+      "city": "plano"
+    }
+  ]
+}

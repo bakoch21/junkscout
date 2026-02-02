@@ -1,0 +1,29 @@
+{
+  "id": "f_255ed7c82650",
+  "slug": "city-of-olton-landfill",
+  "name": "CITY OF OLTON LANDFILL",
+  "type": "landfill",
+  "address": "E OF FM 1685 .5 MILE S OF OLTON CITY LIMITS OLTON TX 79064",
+  "lat": 34.09,
+  "lng": -102.13,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mile-s-of-olton-city-limits-olton"
+    },
+    {
+      "state": "texas",
+      "city": "olton-city-limits-olton"
+    },
+    {
+      "state": "texas",
+      "city": "olton-olton"
+    },
+    {
+      "state": "texas",
+      "city": "olton"
+    }
+  ]
+}

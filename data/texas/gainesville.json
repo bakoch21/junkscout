@@ -6,7 +6,21 @@
     "lat": 33.63,
     "lng": -97.16,
     "website": null,
-    "source": null,
-    "facility_id": "f_2c66c5e79521"
+    "facility_id": "f_2c66c5e79521",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF GAINESVILLE TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "601 N INTERSTATE 35 GAINESVILLE TX 76240",
+    "lat": 33.63,
+    "lng": -97.16,
+    "website": null,
+    "facility_id": "f_b99415398d0b",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

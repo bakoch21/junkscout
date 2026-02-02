@@ -1,0 +1,25 @@
+{
+  "id": "f_eca8be85b815",
+  "slug": "city-of-temple-landfill",
+  "name": "CITY OF TEMPLE LANDFILL",
+  "type": "landfill",
+  "address": "706 LANDFILL RD TEMPLE TX 76501",
+  "lat": 31.07,
+  "lng": -97.3,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "landfill-rd-temple"
+    },
+    {
+      "state": "texas",
+      "city": "rd-temple"
+    },
+    {
+      "state": "texas",
+      "city": "temple"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_eb25fe67c5cb",
+  "slug": "morton-municipal-solid-waste-landfill",
+  "name": "MORTON MUNICIPAL SOLID WASTE LANDFILL",
+  "type": "landfill",
+  "address": "1000 FEET E OF 8TH ST  3121 FEET N OF FM 1780 .25 MILE OF MORTON MORTON TX",
+  "lat": 33.74,
+  "lng": -102.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mile-of-morton-morton"
+    }
+  ]
+}

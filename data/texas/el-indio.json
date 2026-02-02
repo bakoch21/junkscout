@@ -6,7 +6,21 @@
     "lat": 28.54,
     "lng": -100.32,
     "website": null,
-    "source": null,
-    "facility_id": "f_584c36acd7ee"
+    "facility_id": "f_584c36acd7ee",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "MAVERICK COUNTY EL INDIO MSW LANDFILL",
+    "type": "landfill",
+    "address": "16179 FM 1021 EL INDIO TX 78860",
+    "lat": 28.54,
+    "lng": -100.32,
+    "website": null,
+    "facility_id": "f_749b74cc3e62",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

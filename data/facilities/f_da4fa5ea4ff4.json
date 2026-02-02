@@ -1,0 +1,25 @@
+{
+  "id": "f_da4fa5ea4ff4",
+  "slug": "minnis-drive-transfer-station",
+  "name": "MINNIS DRIVE TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "2120 MINNIS DR HALTOM CITY TX 76117",
+  "lat": 32.79,
+  "lng": -97.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "city"
+    },
+    {
+      "state": "texas",
+      "city": "haltom-city"
+    },
+    {
+      "state": "texas",
+      "city": "minnis-dr-haltom-city"
+    }
+  ]
+}

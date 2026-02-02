@@ -1,0 +1,21 @@
+{
+  "id": "f_47e0870c9451",
+  "slug": "oncore-technology",
+  "name": "ONCORE TECHNOLOGY",
+  "type": "landfill",
+  "address": "2613 SKYWAY DR GRAND PRAIRIE TX 75052",
+  "lat": 32.71,
+  "lng": -97.05,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "prairie"
+    },
+    {
+      "state": "texas",
+      "city": "skyway-dr-grand-prairie"
+    }
+  ]
+}

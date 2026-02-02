@@ -6,7 +6,21 @@
     "lat": 33.49,
     "lng": -102.33,
     "website": null,
-    "source": null,
-    "facility_id": "f_f4632552fdff"
+    "facility_id": "f_ca85a5619dd5",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF LEVELLAND",
+    "type": "landfill",
+    "address": "0.5 MI S OF FM 1585 ON BOBWHITE LEVELLAND TX 79336",
+    "lat": 33.49,
+    "lng": -102.33,
+    "website": null,
+    "facility_id": "f_f4632552fdff",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

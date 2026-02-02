@@ -1,0 +1,17 @@
+{
+  "id": "f_8ae76ca48c68",
+  "slug": "vital-earth-resources-composting-facility",
+  "name": "VITAL EARTH RESOURCES COMPOSTING FACILITY",
+  "type": "recycling",
+  "address": "7940 US HIGHWAY 80 BIG SANDY TX 75755",
+  "lat": 32.57,
+  "lng": -95.05,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "big-sandy"
+    }
+  ]
+}

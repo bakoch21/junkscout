@@ -1,0 +1,21 @@
+{
+  "id": "f_bf7ea305f60f",
+  "slug": "gulf-west-landfill-tx-lp",
+  "name": "GULF WEST LANDFILL TX LP",
+  "type": "landfill",
+  "address": "2601 JENKINS RD ANAHUAC TX",
+  "lat": 29.8,
+  "lng": -94.53,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "anahuac"
+    },
+    {
+      "state": "texas",
+      "city": "jenkins-rd-anahuac"
+    }
+  ]
+}

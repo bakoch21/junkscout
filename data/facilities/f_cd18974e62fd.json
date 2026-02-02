@@ -1,0 +1,17 @@
+{
+  "id": "f_cd18974e62fd",
+  "slug": "m-lipsitz-and-company-ltd",
+  "name": "M. Lipsitz and Company LTD",
+  "type": "recycling",
+  "address": "100 Elm Avenue Waco TX 76704",
+  "lat": 31.5647805,
+  "lng": -97.128663,
+  "website": "https://www.mlipsitzco.com/",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

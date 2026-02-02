@@ -1,0 +1,17 @@
+{
+  "id": "f_b3b853eea193",
+  "slug": "greenwood-farms-landfill",
+  "name": "GREENWOOD FARMS LANDFILL",
+  "type": "landfill",
+  "address": "SS FM 2767 AT 4.8 MI E OF LOOP 323 TYLER TX 75708",
+  "lat": 32.37,
+  "lng": -95.19,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "tyler"
+    }
+  ]
+}

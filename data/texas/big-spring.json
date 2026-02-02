@@ -6,7 +6,21 @@
     "lat": 32.26,
     "lng": -101.42,
     "website": null,
-    "source": null,
-    "facility_id": "f_ffdbbed33efd"
+    "facility_id": "f_a3907e416d12",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF BIG SPRING LANDFILL",
+    "type": "landfill",
+    "address": "4100 E FM 700 BIG SPRING TX 79720",
+    "lat": 32.26,
+    "lng": -101.42,
+    "website": null,
+    "facility_id": "f_ffdbbed33efd",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

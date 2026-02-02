@@ -1,0 +1,21 @@
+{
+  "id": "f_17f8245f1841",
+  "slug": "city-of-university-park-transfer-station",
+  "name": "CITY OF UNIVERSITY PARK TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "2525 UNIVERSITY BLVD DALLAS TX 75206",
+  "lat": 32.85,
+  "lng": -96.77,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "university-blvd-dallas"
+    }
+  ]
+}

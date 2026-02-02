@@ -1,0 +1,25 @@
+{
+  "id": "f_e42b0ee672ff",
+  "slug": "city-of-fort-worth-se-landfill",
+  "name": "CITY OF FORT WORTH SE  LANDFILL",
+  "type": "landfill",
+  "address": "6288 SALT RD FOREST HILL TX 76140",
+  "lat": 32.63,
+  "lng": -97.23,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "forest-hill"
+    },
+    {
+      "state": "texas",
+      "city": "hill"
+    },
+    {
+      "state": "texas",
+      "city": "salt-rd-forest-hill"
+    }
+  ]
+}

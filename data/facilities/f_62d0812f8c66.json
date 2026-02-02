@@ -1,0 +1,21 @@
+{
+  "id": "f_62d0812f8c66",
+  "slug": "westside-landfill-gas-to-electric-facility",
+  "name": "WESTSIDE LANDFILL GAS TO ELECTRIC FACILITY",
+  "type": "landfill",
+  "address": "12280 CAMP BOWIE WEST BLVD ALEDO TX 76008",
+  "lat": 32.72,
+  "lng": -97.53,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "aledo"
+    },
+    {
+      "state": "texas",
+      "city": "camp-bowie-west-blvd-aledo"
+    }
+  ]
+}

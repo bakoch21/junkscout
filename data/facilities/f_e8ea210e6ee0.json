@@ -1,0 +1,17 @@
+{
+  "id": "f_e8ea210e6ee0",
+  "slug": "fort-cavazos-recycling-center",
+  "name": "Fort Cavazos Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 31.125589,
+  "lng": -97.7868713,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "killeen"
+    }
+  ]
+}

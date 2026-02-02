@@ -6,7 +6,21 @@
     "lat": 31.11,
     "lng": -102.2,
     "website": null,
-    "source": null,
-    "facility_id": "f_ffdbc3a34b3a"
+    "facility_id": "f_c8a721ab26bd",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF MCCAMEY LANDFILL",
+    "type": "landfill",
+    "address": "1.25 MILES SE OF FM 305 AND FM 1901 INTERSECTION 1000 FEET  E OF FM 305 MCCAMEY TX MCCAMEY TX",
+    "lat": 31.11,
+    "lng": -102.2,
+    "website": null,
+    "facility_id": "f_ffdbc3a34b3a",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

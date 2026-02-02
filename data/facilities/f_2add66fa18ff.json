@@ -1,0 +1,21 @@
+{
+  "id": "f_2add66fa18ff",
+  "slug": "city-of-weatherford-landfill",
+  "name": "CITY OF WEATHERFORD LANDFILL",
+  "type": "landfill",
+  "address": "3131 OLD BROCK RD WEATHERFORD TX 76087",
+  "lat": 32.72,
+  "lng": -97.86,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "old-brock-rd-weatherford"
+    },
+    {
+      "state": "texas",
+      "city": "weatherford"
+    }
+  ]
+}

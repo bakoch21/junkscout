@@ -1,0 +1,17 @@
+{
+  "id": "f_edf5bc84e93c",
+  "slug": "dimmit-county-type-1ae-msw-facility",
+  "name": "DIMMIT COUNTY TYPE 1AE MSW FACILITY",
+  "type": "landfill",
+  "address": "6681 US HWY 83 CARRIZO SPRINGS TX 78834",
+  "lat": 28.6,
+  "lng": -99.84,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrizo-springs"
+    }
+  ]
+}

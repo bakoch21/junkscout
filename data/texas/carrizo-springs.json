@@ -6,7 +6,21 @@
     "lat": 28.6,
     "lng": -99.84,
     "website": null,
-    "source": null,
-    "facility_id": "f_aa5beea4295b"
+    "facility_id": "f_aa5beea4295b",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "DIMMIT COUNTY TYPE 1AE MSW FACILITY",
+    "type": "landfill",
+    "address": "6681 US HWY 83 CARRIZO SPRINGS TX 78834",
+    "lat": 28.6,
+    "lng": -99.84,
+    "website": null,
+    "facility_id": "f_edf5bc84e93c",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

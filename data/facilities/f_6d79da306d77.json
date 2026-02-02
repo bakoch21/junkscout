@@ -1,0 +1,17 @@
+{
+  "id": "f_6d79da306d77",
+  "slug": "waste-management-westside-transfer-station",
+  "name": "Waste Management - Westside Transfer Station",
+  "type": "landfill",
+  "address": "12220 West Freeway Fort Worth TX 76008",
+  "lat": 32.7275041,
+  "lng": -97.5332415,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

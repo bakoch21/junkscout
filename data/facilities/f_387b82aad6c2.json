@@ -1,0 +1,25 @@
+{
+  "id": "f_387b82aad6c2",
+  "slug": "south-plains-disposal",
+  "name": "SOUTH PLAINS DISPOSAL",
+  "type": "landfill",
+  "address": "801 N AVENUE P LUBBOCK TX 79403",
+  "lat": 33.61,
+  "lng": -101.85,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lubbock"
+    },
+    {
+      "state": "texas",
+      "city": "n-avenue-p-lubbock"
+    },
+    {
+      "state": "texas",
+      "city": "p-lubbock"
+    }
+  ]
+}

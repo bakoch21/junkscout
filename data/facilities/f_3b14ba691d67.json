@@ -1,0 +1,17 @@
+{
+  "id": "f_3b14ba691d67",
+  "slug": "green-option-recycling",
+  "name": "Green Option Recycling",
+  "type": "recycling",
+  "address": "2025 Webster Ave Waco TX 76706",
+  "lat": 31.5413949,
+  "lng": -97.1426667,
+  "website": "https://www.greenoptionrecycling.com/",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "waco"
+    }
+  ]
+}

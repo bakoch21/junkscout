@@ -1,0 +1,29 @@
+{
+  "id": "f_d1412cf9d81f",
+  "slug": "bcwcid-1-regional-compost-facility",
+  "name": "BCWCID 1 REGIONAL COMPOST FACILITY",
+  "type": "recycling",
+  "address": "S OF KILLEEN ALONG SH 195,  APPROX 3 MI SO OF CITY LIMITS. APPROX 1/2 MI N OF INTX OF SH 195 & FM 2482 & ADJ TO TRANSFER STATION. KILLEEN TX 76540",
+  "lat": 31.01,
+  "lng": -97.74,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "adj-killeen"
+    },
+    {
+      "state": "texas",
+      "city": "adj-to-transfer-station-killeen"
+    },
+    {
+      "state": "texas",
+      "city": "killeen"
+    },
+    {
+      "state": "texas",
+      "city": "to-transfer-station-killeen"
+    }
+  ]
+}

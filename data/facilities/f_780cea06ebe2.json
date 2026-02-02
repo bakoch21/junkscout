@@ -1,0 +1,21 @@
+{
+  "id": "f_780cea06ebe2",
+  "slug": "camelot-landfill",
+  "name": "CAMELOT LANDFILL",
+  "type": "landfill",
+  "address": "580 HUFFINES BLVD LEWISVILLE TX 75056",
+  "lat": 33.04,
+  "lng": -96.95,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "huffines-blvd-lewisville"
+    },
+    {
+      "state": "texas",
+      "city": "lewisville"
+    }
+  ]
+}

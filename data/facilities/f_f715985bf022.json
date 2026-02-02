@@ -1,0 +1,17 @@
+{
+  "id": "f_f715985bf022",
+  "slug": "browning-ferris-industries-sunset-farms-landfill",
+  "name": "Browning-Ferris Industries Sunset Farms Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 30.3432505,
+  "lng": -97.6266581,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

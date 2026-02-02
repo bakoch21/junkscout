@@ -6,7 +6,21 @@
     "lat": 28.79,
     "lng": -96.94,
     "website": null,
-    "source": null,
-    "facility_id": "f_8ca3dc16431e"
+    "facility_id": "f_2d3b0db2c1c8",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "VICTORIA ENVIRONMENTAL",
+    "type": "landfill",
+    "address": "6910 US HIGHWAY 59 N VICTORIA TX 77905",
+    "lat": 28.79,
+    "lng": -96.94,
+    "website": null,
+    "facility_id": "f_8ca3dc16431e",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

@@ -1,0 +1,21 @@
+{
+  "id": "f_9e6f660ba5d7",
+  "slug": "odessa-landfill",
+  "name": "ODESSA LANDFILL",
+  "type": "landfill",
+  "address": "12035 W MURPHY ST ODESSA TX 79763",
+  "lat": 31.77,
+  "lng": -102.5,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "odessa"
+    },
+    {
+      "state": "texas",
+      "city": "w-murphy-st-odessa"
+    }
+  ]
+}

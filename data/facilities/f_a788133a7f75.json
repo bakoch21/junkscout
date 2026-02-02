@@ -1,0 +1,17 @@
+{
+  "id": "f_a788133a7f75",
+  "slug": "diamond-back-solid-waste-facility-and-recycling-center",
+  "name": "DIAMOND BACK SOLID WASTE FACILITY AND RECYCLING CENTER",
+  "type": "recycling",
+  "address": "2301 FM 866 ODESSA TX 79763",
+  "lat": 31.79,
+  "lng": -102.55,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "odessa"
+    }
+  ]
+}

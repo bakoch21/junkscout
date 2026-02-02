@@ -1,0 +1,33 @@
+{
+  "id": "f_b547da339c9c",
+  "slug": "brooks-county-landfill",
+  "name": "BROOKS COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "AT END OF WEST TRAVIS ST  W OF CITY OF FALFURRIAS FALFURRIAS TX 78355",
+  "lat": 27.24,
+  "lng": -98.18,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "at-end-of-west-travis-st-w-of-city-of-falfurrias-falfurrias"
+    },
+    {
+      "state": "texas",
+      "city": "city-falfurrias-falfurrias"
+    },
+    {
+      "state": "texas",
+      "city": "city-of-falfurrias-falfurrias"
+    },
+    {
+      "state": "texas",
+      "city": "falfurrias-falfurrias"
+    },
+    {
+      "state": "texas",
+      "city": "falfurrias"
+    }
+  ]
+}

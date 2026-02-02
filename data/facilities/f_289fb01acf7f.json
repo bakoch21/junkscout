@@ -1,0 +1,21 @@
+{
+  "id": "f_289fb01acf7f",
+  "slug": "mcmullen-county-landfill",
+  "name": "MCMULLEN COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "2000 HACKBERRY ST TILDEN TX 78072",
+  "lat": 28.45,
+  "lng": -98.54,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "hackberry-st-tilden"
+    },
+    {
+      "state": "texas",
+      "city": "tilden"
+    }
+  ]
+}

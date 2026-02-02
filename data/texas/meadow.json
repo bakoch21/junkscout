@@ -6,8 +6,10 @@
     "lat": 33.3,
     "lng": -102.19,
     "website": null,
-    "source": null,
-    "facility_id": "f_a25bd9eade7c"
+    "facility_id": "f_1d17694f093f",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "CITY OF MEADOW LANDFILL",
@@ -16,7 +18,21 @@
     "lat": 33.3,
     "lng": -102.19,
     "website": null,
-    "source": null,
-    "facility_id": "f_b02f7abf9f6d"
+    "facility_id": "f_a25bd9eade7c",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF MEADOW LANDFILL",
+    "type": "landfill",
+    "address": "663 COUNTY ROAD 545 MEADOW TX 79345",
+    "lat": 33.3,
+    "lng": -102.19,
+    "website": null,
+    "facility_id": "f_b02f7abf9f6d",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

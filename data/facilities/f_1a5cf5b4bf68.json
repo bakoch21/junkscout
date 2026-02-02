@@ -1,0 +1,21 @@
+{
+  "id": "f_1a5cf5b4bf68",
+  "slug": "north-texas-municipal-water-district-transfer-station",
+  "name": "NORTH TEXAS MUNICIPAL WATER DISTRICT TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "1601 E LOOKOUT DR RICHARDSON TX 75082",
+  "lat": 32.59,
+  "lng": -96.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "e-lookout-dr-richardson"
+    },
+    {
+      "state": "texas",
+      "city": "richardson"
+    }
+  ]
+}

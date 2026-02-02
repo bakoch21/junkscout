@@ -1,0 +1,17 @@
+{
+  "id": "f_5fcff1327ed7",
+  "slug": "duval-county-landfill",
+  "name": "DUVAL COUNTY LANDFILL",
+  "type": "landfill",
+  "address": "2 MI NW OF SAN DIEGO SAN DIEGO TX",
+  "lat": 27.79,
+  "lng": -98.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-diego-san-diego"
+    }
+  ]
+}

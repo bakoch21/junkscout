@@ -1,0 +1,29 @@
+{
+  "id": "f_4074d14773ca",
+  "slug": "cal-farleys-boys-ranch-landfill",
+  "name": "CAL FARLEYS BOYS RANCH LANDFILL",
+  "type": "landfill",
+  "address": "1 LANDFILL DR BOYS RANCH TX 79010",
+  "lat": 35.53,
+  "lng": -102.24,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "boys-ranch"
+    },
+    {
+      "state": "texas",
+      "city": "dr-boys-ranch"
+    },
+    {
+      "state": "texas",
+      "city": "landfill-dr-boys-ranch"
+    },
+    {
+      "state": "texas",
+      "city": "ranch"
+    }
+  ]
+}

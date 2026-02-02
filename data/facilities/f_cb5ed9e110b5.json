@@ -1,0 +1,17 @@
+{
+  "id": "f_cb5ed9e110b5",
+  "slug": "dfw-landfill",
+  "name": "DFW Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 33.0200774,
+  "lng": -96.9546189,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "carrollton"
+    }
+  ]
+}

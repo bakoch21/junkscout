@@ -6,7 +6,21 @@
     "lat": 27.45,
     "lng": -97.82,
     "website": null,
-    "source": null,
-    "facility_id": "f_1417050e27f8"
+    "facility_id": "f_1417050e27f8",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF KINGSVILLE LANDFILL",
+    "type": "landfill",
+    "address": "348 E COUNTY ROAD 2130 KINGSVILLE TX 78363",
+    "lat": 27.45,
+    "lng": -97.82,
+    "website": null,
+    "facility_id": "f_f24a5c9b0af6",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

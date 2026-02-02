@@ -1,0 +1,21 @@
+{
+  "id": "f_97b4d7b18d6e",
+  "slug": "tri-state-recycling-texline-transfer",
+  "name": "TRI-STATE RECYCLING TEXLINE TRANSFER",
+  "type": "transfer_station",
+  "address": "HWY 296 E TEXLINE TX 79087",
+  "lat": 36.38,
+  "lng": -103.03,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "e-texline"
+    },
+    {
+      "state": "texas",
+      "city": "texline"
+    }
+  ]
+}

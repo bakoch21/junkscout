@@ -1,0 +1,17 @@
+{
+  "id": "f_b6489ada4326",
+  "slug": "city-of-cotulla-transfer-station",
+  "name": "CITY OF COTULLA TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "857 FM 624 COTULLA TX 78014",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "cotulla"
+    }
+  ]
+}

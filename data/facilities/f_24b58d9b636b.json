@@ -1,0 +1,21 @@
+{
+  "id": "f_24b58d9b636b",
+  "slug": "1323-n-stemmons-fwy",
+  "name": "1323 N STEMMONS FWY",
+  "type": "landfill",
+  "address": "1323 N STEMMONS FWY DALLAS TX 75207",
+  "lat": 32.79,
+  "lng": -96.81,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "n-stemmons-fwy-dallas"
+    }
+  ]
+}

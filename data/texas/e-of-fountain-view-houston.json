@@ -6,7 +6,21 @@
     "lat": 29.73,
     "lng": -95.47,
     "website": null,
-    "source": null,
-    "facility_id": "f_898dcbe2bd6f"
+    "facility_id": "f_7ef5cd6fd611",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "HOUSTON SOUTHWEST TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "SW TS  N OF WESTPARK DRIVE  S OF US HIGHWAY 59  E OF FOUNTAIN VIEW HOUSTON TX 77057",
+    "lat": 29.73,
+    "lng": -95.47,
+    "website": null,
+    "facility_id": "f_898dcbe2bd6f",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

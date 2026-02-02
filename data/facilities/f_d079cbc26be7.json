@@ -1,0 +1,17 @@
+{
+  "id": "f_d079cbc26be7",
+  "slug": "7250-fm-1346",
+  "name": "7250 FM 1346",
+  "type": "landfill",
+  "address": "7250 FM 1346 SAN ANTONIO TX 78220",
+  "lat": 29.42,
+  "lng": -98.35,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

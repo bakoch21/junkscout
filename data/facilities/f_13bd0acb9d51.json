@@ -1,0 +1,21 @@
+{
+  "id": "f_13bd0acb9d51",
+  "slug": "baytown-medical-waste-facility",
+  "name": "BAYTOWN MEDICAL WASTE FACILITY",
+  "type": "landfill",
+  "address": "4200 CEDAR BLVD BAYTOWN TX 77523",
+  "lat": 29.72,
+  "lng": -94.92,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "baytown"
+    },
+    {
+      "state": "texas",
+      "city": "cedar-blvd-baytown"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_5aa9464622e9",
+  "slug": "north-texas-recycling-complex",
+  "name": "NORTH TEXAS RECYCLING COMPLEX",
+  "type": "recycling",
+  "address": "6100 ELLIOTT REEDER RD FORT WORTH TX 76117",
+  "lat": 32.78,
+  "lng": -97.25,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "elliott-reeder-rd-fort-worth"
+    },
+    {
+      "state": "texas",
+      "city": "worth"
+    }
+  ]
+}

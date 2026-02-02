@@ -1,0 +1,25 @@
+{
+  "id": "f_ca85a5619dd5",
+  "slug": "city-of-levelland",
+  "name": "CITY OF LEVELLAND",
+  "type": "landfill",
+  "address": "0.5 MI S OF FM 1585 ON BOBWHITE LEVELLAND TX 79336",
+  "lat": 33.49,
+  "lng": -102.33,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "bobwhite-levelland"
+    },
+    {
+      "state": "texas",
+      "city": "levelland"
+    },
+    {
+      "state": "texas",
+      "city": "on-bobwhite-levelland"
+    }
+  ]
+}

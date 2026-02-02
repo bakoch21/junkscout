@@ -1,0 +1,29 @@
+{
+  "id": "f_c6866c296b7a",
+  "slug": "city-of-plainview-landfill",
+  "name": "CITY OF PLAINVIEW LANDFILL",
+  "type": "landfill",
+  "address": "1031 COUNTY ROAD Y PLAINVIEW TX 79072",
+  "lat": 34.18,
+  "lng": -101.67,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "county-road-y-plainview"
+    },
+    {
+      "state": "texas",
+      "city": "plainview"
+    },
+    {
+      "state": "texas",
+      "city": "road-y-plainview"
+    },
+    {
+      "state": "texas",
+      "city": "y-plainview"
+    }
+  ]
+}

@@ -6,7 +6,21 @@
     "lat": 27.79,
     "lng": -98.1,
     "website": null,
-    "source": null,
-    "facility_id": "f_dab19cc2cfae"
+    "facility_id": "f_dab19cc2cfae",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF ALICE LANDFILL",
+    "type": "landfill",
+    "address": "3217 N US HIGHWAY 281 ALICE TX 78332",
+    "lat": 27.79,
+    "lng": -98.1,
+    "website": null,
+    "facility_id": "f_e5fc4e1686b4",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

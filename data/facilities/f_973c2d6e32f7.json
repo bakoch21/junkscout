@@ -1,0 +1,17 @@
+{
+  "id": "f_973c2d6e32f7",
+  "slug": "texas-disposal-systems-mrf",
+  "name": "Texas Disposal Systems (MRF)",
+  "type": "recycling",
+  "address": "",
+  "lat": 30.1031974,
+  "lng": -97.7500156,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

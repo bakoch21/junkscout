@@ -1,0 +1,25 @@
+{
+  "id": "f_72ff930586a7",
+  "slug": "paradise-pool-billiards-enclosed-structure-over-closed-landfill",
+  "name": "PARADISE POOL BILLIARDS ENCLOSED STRUCTURE OVER CLOSED LANDFILL",
+  "type": "landfill",
+  "address": "4221 S PADRE ISLAND DR CORPUS CHRISTI TX 78411",
+  "lat": 27.72,
+  "lng": -97.39,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "christi"
+    },
+    {
+      "state": "texas",
+      "city": "padre-island-dr-corpus-christi"
+    },
+    {
+      "state": "texas",
+      "city": "s-padre-island-dr-corpus-christi"
+    }
+  ]
+}

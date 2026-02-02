@@ -1,0 +1,21 @@
+{
+  "id": "f_8700277d19a4",
+  "slug": "weatherford-renewalbe-natural-gas-facility",
+  "name": "WEATHERFORD RENEWALBE NATURAL GAS FACILITY",
+  "type": "landfill",
+  "address": "3131 OLD BROCK ROAD WEATHERFORD TX 76087",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "old-brock-road-weatherford"
+    },
+    {
+      "state": "texas",
+      "city": "weatherford"
+    }
+  ]
+}

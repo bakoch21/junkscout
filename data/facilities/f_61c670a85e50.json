@@ -1,0 +1,21 @@
+{
+  "id": "f_61c670a85e50",
+  "slug": "2011-south-town-east-blvd-llc",
+  "name": "2011 SOUTH TOWN EAST BLVD LLC",
+  "type": "landfill",
+  "address": "2011 S TOWN EAST BLVD MESQUITE TX 75149",
+  "lat": 32.79,
+  "lng": -96.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mesquite"
+    },
+    {
+      "state": "texas",
+      "city": "s-town-east-blvd-mesquite"
+    }
+  ]
+}

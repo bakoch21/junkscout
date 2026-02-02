@@ -1,0 +1,21 @@
+{
+  "id": "f_764819c83161",
+  "slug": "city-of-galveston-transfer-station-facility",
+  "name": "CITY OF GALVESTON TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "5515 PORT INDUSTRIAL BLVD GALVESTON TX 77554",
+  "lat": 29.3,
+  "lng": -94.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "galveston"
+    },
+    {
+      "state": "texas",
+      "city": "port-industrial-blvd-galveston"
+    }
+  ]
+}

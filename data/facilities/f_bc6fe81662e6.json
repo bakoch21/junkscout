@@ -1,0 +1,17 @@
+{
+  "id": "f_bc6fe81662e6",
+  "slug": "recycling-center",
+  "name": "Recycling Center",
+  "type": "recycling",
+  "address": "",
+  "lat": 32.9520379,
+  "lng": -96.7662987,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_fa62e11113da",
+  "slug": "city-of-baird-monofill",
+  "name": "CITY OF BAIRD MONOFILL",
+  "type": "landfill",
+  "address": "APPRROX 3 4 MI W OF 231 LAND GRANT LANE BAIRD TX 79504 BAIRD TX 79504",
+  "lat": 32.39,
+  "lng": -99.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "baird"
+    }
+  ]
+}

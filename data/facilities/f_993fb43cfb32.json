@@ -1,0 +1,21 @@
+{
+  "id": "f_993fb43cfb32",
+  "slug": "city-of-lamesa-landfill",
+  "name": "CITY OF LAMESA LANDFILL",
+  "type": "landfill",
+  "address": "601 S 1ST ST LAMESA TX 79331",
+  "lat": 32.7,
+  "lng": -101.94,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "lamesa"
+    },
+    {
+      "state": "texas",
+      "city": "st-lamesa"
+    }
+  ]
+}

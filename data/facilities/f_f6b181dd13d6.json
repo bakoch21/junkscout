@@ -1,0 +1,25 @@
+{
+  "id": "f_f6b181dd13d6",
+  "slug": "city-of-paducah",
+  "name": "CITY OF PADUCAH",
+  "type": "landfill",
+  "address": "approx. 2 miles southeast of the City of Paducah on FM 1038 in Cottle County. PADUCAH TX 79248",
+  "lat": 0,
+  "lng": 0,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "cottle-paducah"
+    },
+    {
+      "state": "texas",
+      "city": "in-cottle-county-paducah"
+    },
+    {
+      "state": "texas",
+      "city": "paducah"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f_f7cd5e3aa91c",
+  "slug": "city-of-vernon-transfer-station-facility",
+  "name": "CITY OF VERNON TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "11053 COUNTY ROAD 97 N VERNON TX 76384",
+  "lat": 34.21,
+  "lng": -99.34,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "n-vernon"
+    },
+    {
+      "state": "texas",
+      "city": "vernon"
+    }
+  ]
+}

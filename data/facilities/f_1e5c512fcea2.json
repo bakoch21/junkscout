@@ -1,0 +1,33 @@
+{
+  "id": "f_1e5c512fcea2",
+  "slug": "city-of-brady-landfill",
+  "name": "CITY OF BRADY LANDFILL",
+  "type": "landfill",
+  "address": "ON US HWY 87 W 5 MI NW OF BRADY BRADY TX 76825",
+  "lat": 31.18,
+  "lng": -99.4,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brady-brady"
+    },
+    {
+      "state": "texas",
+      "city": "brady"
+    },
+    {
+      "state": "texas",
+      "city": "mi-nw-brady-brady"
+    },
+    {
+      "state": "texas",
+      "city": "mi-nw-of-brady-brady"
+    },
+    {
+      "state": "texas",
+      "city": "of-brady-brady"
+    }
+  ]
+}

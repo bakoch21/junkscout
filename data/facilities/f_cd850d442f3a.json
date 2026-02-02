@@ -1,0 +1,21 @@
+{
+  "id": "f_cd850d442f3a",
+  "slug": "city-of-dallas-transfer-station-facility",
+  "name": "CITY OF DALLAS TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "7677 FAIR OAKS AVE DALLAS TX 75231",
+  "lat": 32.88,
+  "lng": -96.75,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "fair-oaks-ave-dallas"
+    }
+  ]
+}

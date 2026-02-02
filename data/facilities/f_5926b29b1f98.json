@@ -1,0 +1,21 @@
+{
+  "id": "f_5926b29b1f98",
+  "slug": "city-of-corsicana-landfill",
+  "name": "CITY OF CORSICANA LANDFILL",
+  "type": "landfill",
+  "address": "2050 JESTER DR CORSICANA TX 75110",
+  "lat": 32.1,
+  "lng": -96.42,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "corsicana"
+    },
+    {
+      "state": "texas",
+      "city": "jester-dr-corsicana"
+    }
+  ]
+}

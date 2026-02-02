@@ -1,0 +1,17 @@
+{
+  "id": "f_0e4d2a60dc62",
+  "slug": "fort-cavazos-landfill",
+  "name": "FORT CAVAZOS LANDFILL",
+  "type": "landfill",
+  "address": "4255 TURKEY RUN RD BLDG 56134 FORT CAVAZOS TX 76544",
+  "lat": 31.16,
+  "lng": -97.83,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-cavazos"
+    }
+  ]
+}

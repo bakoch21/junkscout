@@ -6,17 +6,21 @@
     "lat": 30.6,
     "lng": -96.15,
     "website": null,
-    "source": null,
-    "facility_id": "f_18aa7cbb3b04"
+    "facility_id": "f_18aa7cbb3b04",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
-    "name": "TWIN OAKS RENEWABLE NATURAL GAS FACILITY",
+    "name": "TWIN OAKS LANDFILL",
     "type": "landfill",
-    "address": "FROM ROANS PRAIRIE, HEAD WEST ON HWY 30 FOR 13 MILES. SITE IS TO THE LEFT LOCATED WITHIN BVSWMA TWIN OAKS LANDFILL. ANDERSON TX 77830",
-    "lat": 0,
-    "lng": 0,
+    "address": "2690 HIGHWAY 30 ANDERSON TX 77830",
+    "lat": 30.6,
+    "lng": -96.15,
     "website": null,
-    "source": null,
-    "facility_id": "f_72a293f97ad2"
+    "facility_id": "f_3fcb4dd7fe72",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

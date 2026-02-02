@@ -1,83 +1,15 @@
 [
   {
-    "name": "Caliche Canyon Landfill",
+    "name": "STERICYCLE LUBBOCK",
     "type": "landfill",
-    "address": "8425 North Avenue P Lubbock TX 79403",
-    "lat": 33.6720515,
-    "lng": -101.8580447,
-    "website": null,
-    "source": null,
-    "facility_id": "f_446e93d212db"
-  },
-  {
-    "name": "CALICHE CANYON TRANSFER STATION FACILITY",
-    "type": "transfer_station",
-    "address": "8425 AVENUE P LUBBOCK TX 79423",
-    "lat": 33.67,
-    "lng": -101.86,
-    "website": null,
-    "source": null,
-    "facility_id": "f_451b764d2645"
-  },
-  {
-    "name": "CITY OF LUBBOCK LANDFILL",
-    "type": "landfill",
-    "address": "8425 AVENUE P LUBBOCK TX 79423",
-    "lat": 33.67,
-    "lng": -101.86,
-    "website": null,
-    "source": null,
-    "facility_id": "f_51ad8f4589b5"
-  },
-  {
-    "name": "CITY OF MULESHOE LANDFILL",
-    "type": "landfill",
-    "address": "1.0 MILES E OF THE MULESHOE CITY LIMITS ON US HIGHWAY 84 APPROXIMATELY 1.8 MILES SE OF THE INTERSECTION OF US HIGHWAY 84 AND STATE HIGHWAY 214 LUBBOCK TX 79347",
-    "lat": 34.77,
-    "lng": -102.55,
-    "website": null,
-    "source": null,
-    "facility_id": "f_db35d322e080"
-  },
-  {
-    "name": "City Recycling Station",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.5258193,
-    "lng": -101.959481,
-    "website": null,
-    "source": null,
-    "facility_id": "f_86afd4ef18ab"
-  },
-  {
-    "name": "Recycling Drop-Off Center",
-    "type": "recycling",
-    "address": "208 Municipal Drive Lubbock",
-    "lat": 33.6027871,
-    "lng": -101.837503,
-    "website": null,
-    "source": null,
-    "facility_id": "f_c1f28f77d4dd"
-  },
-  {
-    "name": "SOUTH PLAINS DISPOSAL",
-    "type": "landfill",
-    "address": "801 N AVENUE P LUBBOCK TX 79403",
+    "address": "2901 NE LOOP 289 LUBBOCK TX 79403",
     "lat": 33.61,
-    "lng": -101.85,
+    "lng": -101.8,
     "website": null,
-    "source": null,
-    "facility_id": "f_7d6c486bdbd9"
-  },
-  {
-    "name": "Southside Recycling Center",
-    "type": "recycling",
-    "address": "1631 84th Street Lubbock",
-    "lat": 33.5163799,
-    "lng": -101.854952,
-    "website": null,
-    "source": null,
-    "facility_id": "f_37b53fe48de2"
+    "facility_id": "f_bd7a8e0acce6",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "STERICYCLE LUBBOCK",
@@ -86,17 +18,33 @@
     "lat": 33.61,
     "lng": -101.8,
     "website": null,
-    "source": null,
-    "facility_id": "f_d1026ed91194"
+    "facility_id": "f_d1026ed91194",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
-    "name": "ZAHN ENTERPRISES",
+    "name": "CITY OF MULESHOE LANDFILL",
     "type": "landfill",
-    "address": "7702 NORTH AVENUE P LUBBOCK TX 79403",
-    "lat": 33.67,
-    "lng": -101.85,
+    "address": "1.0 MILES E OF THE MULESHOE CITY LIMITS ON US HIGHWAY 84 APPROXIMATELY 1.8 MILES SE OF THE INTERSECTION OF US HIGHWAY 84 AND STATE HIGHWAY 214 LUBBOCK TX 79347",
+    "lat": 34.77,
+    "lng": -102.55,
     "website": null,
-    "source": null,
-    "facility_id": "f_c09b7e9331c1"
+    "facility_id": "f_da11d6a96324",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF MULESHOE LANDFILL",
+    "type": "landfill",
+    "address": "1.0 MILES E OF THE MULESHOE CITY LIMITS ON US HIGHWAY 84 APPROXIMATELY 1.8 MILES SE OF THE INTERSECTION OF US HIGHWAY 84 AND STATE HIGHWAY 214 LUBBOCK TX 79347",
+    "lat": 34.77,
+    "lng": -102.55,
+    "website": null,
+    "facility_id": "f_db35d322e080",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "id": "f_8c96ec3bb041",
+  "slug": "texas-department-of-criminal-justice-coffield-transfer-station-facility",
+  "name": "TEXAS DEPARTMENT OF CRIMINAL JUSTICE COFFIELD TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "2661 FM 5054 TENNESSEE COLONY TX 75884",
+  "lat": 31.8,
+  "lng": -95.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "tennessee-colony"
+    }
+  ]
+}

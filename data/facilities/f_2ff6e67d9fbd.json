@@ -1,0 +1,17 @@
+{
+  "id": "f_2ff6e67d9fbd",
+  "slug": "security-lfgte-facility",
+  "name": "SECURITY LFGTE FACILITY",
+  "type": "landfill",
+  "address": "19248 HIGHWAY 105 CLEVELAND TX 77328",
+  "lat": 30.32,
+  "lng": -95.27,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "cleveland"
+    }
+  ]
+}

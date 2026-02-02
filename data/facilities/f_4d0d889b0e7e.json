@@ -1,0 +1,21 @@
+{
+  "id": "f_4d0d889b0e7e",
+  "slug": "city-of-yoakum-transfer-station-facility",
+  "name": "CITY OF YOAKUM TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1501 DUNN STREET IN YOAKUM IN DEWITT COUNTY IN TEXAS YOAKUM TX",
+  "lat": 29.28,
+  "lng": -97.15,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "county-in-texas-yoakum"
+    },
+    {
+      "state": "texas",
+      "city": "dewitt-texas-yoakum"
+    }
+  ]
+}

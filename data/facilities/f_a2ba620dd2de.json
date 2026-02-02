@@ -1,0 +1,17 @@
+{
+  "id": "f_a2ba620dd2de",
+  "slug": "setasa",
+  "name": "Setasa",
+  "type": "landfill",
+  "address": "",
+  "lat": 27.5447692,
+  "lng": -99.5841188,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "laredo"
+    }
+  ]
+}

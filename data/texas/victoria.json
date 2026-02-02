@@ -6,8 +6,10 @@
     "lat": 28.69,
     "lng": -96.91,
     "website": null,
-    "source": null,
-    "facility_id": "f_d408cb0cb22d"
+    "facility_id": "f_36e5b31e1352",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "CITY OF VICTORIA LANDFILL GAS TREATMENT FACILITY",
@@ -16,37 +18,33 @@
     "lat": 28.69,
     "lng": -96.91,
     "website": null,
-    "source": null,
-    "facility_id": "f_89ad1a5ed904"
+    "facility_id": "f_50dfe6b57f34",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
-    "name": "Texas Port Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 28.784863,
-    "lng": -96.9738615,
-    "website": null,
-    "source": null,
-    "facility_id": "f_8ec3693035f0"
-  },
-  {
-    "name": "VICTORIA ENVIRONMENTAL",
+    "name": "CITY OF VICTORIA LANDFILL GAS TREATMENT FACILITY",
     "type": "landfill",
-    "address": "6910 US HIGHWAY 59 N VICTORIA TX 77905",
-    "lat": 28.79,
-    "lng": -96.94,
+    "address": "18545 FM 1686 VICTORIA TX 77905",
+    "lat": 28.69,
+    "lng": -96.91,
     "website": null,
-    "source": null,
-    "facility_id": "f_8ca3dc16431e"
+    "facility_id": "f_89ad1a5ed904",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
-    "name": "VICTORIA REGIONAL WASTEWATER TREATMENT PLANT",
+    "name": "CITY OF VICTORIA LANDFILL",
     "type": "landfill",
-    "address": "923 US HWY 59 SOUTH VICTORIA TX 77905",
-    "lat": 28.75,
-    "lng": -97.01,
+    "address": "18545 FM 1686 VICTORIA TX 77905",
+    "lat": 28.69,
+    "lng": -96.91,
     "website": null,
-    "source": null,
-    "facility_id": "f_637b4300c309"
+    "facility_id": "f_d408cb0cb22d",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

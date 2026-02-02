@@ -1,0 +1,21 @@
+{
+  "id": "f_e09177ae1fec",
+  "slug": "city-of-hempstead-transfer-station-facility",
+  "name": "CITY OF HEMPSTEAD TRANSFER STATION FACILITY",
+  "type": "transfer_station",
+  "address": "1125 AUSTIN ST HEMPSTEAD TX 77445",
+  "lat": 30.08,
+  "lng": -96.09,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin-st-hempstead"
+    },
+    {
+      "state": "texas",
+      "city": "hempstead"
+    }
+  ]
+}

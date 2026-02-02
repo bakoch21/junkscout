@@ -1,0 +1,17 @@
+{
+  "id": "f_18fbed68b8af",
+  "slug": "city-of-laredo-landfill",
+  "name": "CITY OF LAREDO LANDFILL",
+  "type": "landfill",
+  "address": "6912 HWY 359 LAREDO TX 78043",
+  "lat": 27.49,
+  "lng": -99.41,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "laredo"
+    }
+  ]
+}

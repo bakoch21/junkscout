@@ -6,7 +6,21 @@
     "lat": 30.39,
     "lng": -97.67,
     "website": null,
-    "source": null,
-    "facility_id": "f_15166da3d098"
+    "facility_id": "f_15166da3d098",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF HARLINGEN TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "404 S 54TH ST HARLINGEN TX 78550",
+    "lat": 30.39,
+    "lng": -97.67,
+    "website": null,
+    "facility_id": "f_7e5c050215cd",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

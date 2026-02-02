@@ -1,0 +1,21 @@
+{
+  "id": "f_51b7d3900491",
+  "slug": "donaldson-roy-eugene-resource-recovery-facility",
+  "name": "DONALDSON ROY EUGENE RESOURCE RECOVERY FACILITY",
+  "type": "landfill",
+  "address": "15500 GOFORTH RD CREEDMOOR TX 78610",
+  "lat": 30.04,
+  "lng": -97.73,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "creedmoor"
+    },
+    {
+      "state": "texas",
+      "city": "goforth-rd-creedmoor"
+    }
+  ]
+}

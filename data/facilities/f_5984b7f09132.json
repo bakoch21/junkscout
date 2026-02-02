@@ -1,0 +1,17 @@
+{
+  "id": "f_5984b7f09132",
+  "slug": "scrap-processing-co",
+  "name": "Scrap Processing Co.",
+  "type": "recycling",
+  "address": "95 Browning Street Amarillo TX 79104",
+  "lat": 35.2101851,
+  "lng": -101.8076043,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ]
+}

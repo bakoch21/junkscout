@@ -1,0 +1,29 @@
+{
+  "id": "f_c1f778082e23",
+  "slug": "city-of-tahoka",
+  "name": "CITY OF TAHOKA",
+  "type": "landfill",
+  "address": "1.5 MILES NORTH OF THE CITY LIMITS AT THE INTERSECTION OF FARM TO MARKET ROAD 400 & COUNTY ROAD R. TAHOKA TX 79373",
+  "lat": 33.2,
+  "lng": -101.79,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "and-road-r-tahoka"
+    },
+    {
+      "state": "texas",
+      "city": "county-road-r-tahoka"
+    },
+    {
+      "state": "texas",
+      "city": "r-tahoka"
+    },
+    {
+      "state": "texas",
+      "city": "tahoka"
+    }
+  ]
+}

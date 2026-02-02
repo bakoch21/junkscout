@@ -1,0 +1,21 @@
+{
+  "id": "f_865f1742bf10",
+  "slug": "dallas-facility",
+  "name": "DALLAS FACILITY",
+  "type": "landfill",
+  "address": "11115 GOODNIGHT LN DALLAS TX 75229",
+  "lat": 32.89,
+  "lng": -96.9,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    },
+    {
+      "state": "texas",
+      "city": "goodnight-ln-dallas"
+    }
+  ]
+}

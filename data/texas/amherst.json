@@ -6,7 +6,21 @@
     "lat": 34.02,
     "lng": -102.4,
     "website": null,
-    "source": null,
-    "facility_id": "f_3a42bbd18160"
+    "facility_id": "f_0339733503e8",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "CITY OF AMHERST LANDFILL",
+    "type": "landfill",
+    "address": ".4 MILES E OF AMHERST  .3 MILES N OF FM 37 AMHERST TX 79312",
+    "lat": 34.02,
+    "lng": -102.4,
+    "website": null,
+    "facility_id": "f_3a42bbd18160",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

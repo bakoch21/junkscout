@@ -1,13 +1,15 @@
 [
   {
-    "name": "BLUE RIDGE LANDFILL",
+    "name": "STERICYCLE FRESNO",
     "type": "landfill",
-    "address": "2200 FM 521 RD FRESNO TX 77545",
-    "lat": 29.58,
-    "lng": -95.43,
+    "address": "2725C FM 521 RD FRESNO TX 77545",
+    "lat": 29.55,
+    "lng": -95.44,
     "website": null,
-    "source": null,
-    "facility_id": "f_be6f4c350cb5"
+    "facility_id": "f_0c52c6af9600",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "BLUE RIDGE LFG TREATMENT FACILITY",
@@ -16,8 +18,22 @@
     "lat": 29.58,
     "lng": -95.43,
     "website": null,
-    "source": null,
-    "facility_id": "f_d2d7381d4981"
+    "facility_id": "f_35b2325d4070",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "BLUE RIDGE LANDFILL",
+    "type": "landfill",
+    "address": "2200 FM 521 RD FRESNO TX 77545",
+    "lat": 29.58,
+    "lng": -95.43,
+    "website": null,
+    "facility_id": "f_4e8a2aca8df5",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "STERICYCLE FRESNO",
@@ -26,7 +42,33 @@
     "lat": 29.55,
     "lng": -95.44,
     "website": null,
-    "source": null,
-    "facility_id": "f_6e9412cfebb9"
+    "facility_id": "f_6e9412cfebb9",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "BLUE RIDGE LANDFILL",
+    "type": "landfill",
+    "address": "2200 FM 521 RD FRESNO TX 77545",
+    "lat": 29.58,
+    "lng": -95.43,
+    "website": null,
+    "facility_id": "f_be6f4c350cb5",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
+  },
+  {
+    "name": "BLUE RIDGE LFG TREATMENT FACILITY",
+    "type": "landfill",
+    "address": "2200 FM 521 RD FRESNO TX 77545",
+    "lat": 29.58,
+    "lng": -95.43,
+    "website": null,
+    "facility_id": "f_d2d7381d4981",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

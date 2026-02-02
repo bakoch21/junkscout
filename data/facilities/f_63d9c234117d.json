@@ -1,0 +1,17 @@
+{
+  "id": "f_63d9c234117d",
+  "slug": "irving-landfill",
+  "name": "Irving Landfill",
+  "type": "landfill",
+  "address": "",
+  "lat": 32.7835313,
+  "lng": -96.9438942,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f_46be4e9dfef0",
+  "slug": "abs-metal-recycling",
+  "name": "ABS Metal Recycling",
+  "type": "recycling",
+  "address": "10519 McAngus Road Del Valle TX 78617",
+  "lat": 30.152656,
+  "lng": -97.6689714,
+  "website": "http://www.absrecycling.com/",
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

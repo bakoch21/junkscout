@@ -1,0 +1,21 @@
+{
+  "id": "f_a9f1135f0373",
+  "slug": "liquitek-arlington-liquid-waste-proc-fac",
+  "name": "LIQUITEK ARLINGTON LIQUID WASTE PROC FAC",
+  "type": "landfill",
+  "address": "408 113TH ST ARLINGTON TX 76011",
+  "lat": 32.74,
+  "lng": -97.04,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "arlington"
+    },
+    {
+      "state": "texas",
+      "city": "st-arlington"
+    }
+  ]
+}

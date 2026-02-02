@@ -1,0 +1,21 @@
+{
+  "id": "f_7508860c5727",
+  "slug": "city-of-quanah-landfill",
+  "name": "CITY OF QUANAH LANDFILL",
+  "type": "landfill",
+  "address": "109 KING ST QUANAH TX 79252",
+  "lat": 34.31,
+  "lng": -99.72,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "king-st-quanah"
+    },
+    {
+      "state": "texas",
+      "city": "quanah"
+    }
+  ]
+}

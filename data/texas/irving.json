@@ -6,37 +6,21 @@
     "lat": 32.84,
     "lng": -96.9,
     "website": null,
-    "source": null,
-    "facility_id": "f_99b9213019cf"
+    "facility_id": "f_3e5badbbc492",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
-    "name": "HUNTER FERRELL LANDFILL",
+    "name": "CARMAX AUTO 7115 ENCLOSED STRUCTURE OVER CLOSED LANDFILL",
     "type": "landfill",
-    "address": "220 W HUNTER FERRELL RD IRVING TX 75060",
-    "lat": 32.78,
-    "lng": -96.95,
+    "address": "3100 SPUR 482 IRVING TX 75062",
+    "lat": 32.84,
+    "lng": -96.9,
     "website": null,
-    "source": null,
-    "facility_id": "f_9c2226c24458"
-  },
-  {
-    "name": "United Electronic Recycling",
-    "type": "recycling",
-    "address": "505 Airline Drive",
-    "lat": 32.9430728,
-    "lng": -97.003908,
-    "website": "https://unitedelectronicrecycling.com",
-    "source": null,
-    "facility_id": "f_02ce0875a275"
-  },
-  {
-    "name": "United Electronic Recycling",
-    "type": "recycling",
-    "address": "505 Airline Drive",
-    "lat": 32.9430728,
-    "lng": -97.003908,
-    "website": "https://unitedelectronicrecycling.com",
-    "source": null,
-    "facility_id": "f_08c24b5569fb"
+    "facility_id": "f_99b9213019cf",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

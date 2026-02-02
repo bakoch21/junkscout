@@ -6,17 +6,21 @@
     "lat": 35.87,
     "lng": -101.74,
     "website": null,
-    "source": null,
-    "facility_id": "f_4dbfd5923af5"
+    "facility_id": "f_32dce4e6c0f9",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   },
   {
     "name": "CITY OF DUMAS LANDFILL",
     "type": "landfill",
-    "address": "APPROX .25  MI E OF DUMAS AT INTX OF MADDOX ST & 19TH ST ON S SIDE OF 19TH ST DUMAS TX IN MOORE COUNTY DUMAS TX 79029",
-    "lat": 35.84,
-    "lng": -101.89,
+    "address": "13 MI E OF DUMAS & 1.5 MI N OF SH 152 IN MOORE COUNTY DUMAS TX 79029",
+    "lat": 35.87,
+    "lng": -101.74,
     "website": null,
-    "source": null,
-    "facility_id": "f_e749e4f9f2ff"
+    "facility_id": "f_4dbfd5923af5",
+    "source": "tceq",
+    "source_url": null,
+    "osm_url": null
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "id": "f_cf366ae19b9e",
+  "slug": "green-and-gone-north-texas",
+  "name": "GREEN AND GONE NORTH TEXAS",
+  "type": "landfill",
+  "address": "2588 E LONG AVE STE 200 FORT WORTH TX 76137",
+  "lat": 32.81,
+  "lng": -97.31,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

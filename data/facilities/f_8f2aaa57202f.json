@@ -1,0 +1,17 @@
+{
+  "id": "f_8f2aaa57202f",
+  "slug": "city-of-san-antonio-transfer-station",
+  "name": "CITY OF SAN ANTONIO TRANSFER STATION",
+  "type": "transfer_station",
+  "address": "11600 BLOCK OF STARCREST DRIVE SAN ANTONIO TX",
+  "lat": 29.54,
+  "lng": -98.46,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "starcrest-drive-san-antonio"
+    }
+  ]
+}
