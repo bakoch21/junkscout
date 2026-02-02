@@ -99,12 +99,7 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
   <!-- ✅ Leaflet (map) -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""
-  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
     /* Minimal map styling */
@@ -174,7 +169,10 @@
 
       <!-- ✅ Injected at build time -->
       <!-- STATEHUBLINK:START -->
-      <!-- STATEHUBLINK:END -->
+<div style="margin-top:12px">
+  <a class="link" href="/texas/">← Back to Texas cities</a>
+</div>
+<!-- STATEHUBLINK:END -->
 
       <!-- ✅ Injected at build time (CA only for now) -->
       <!-- POPULARCITIES:START -->
@@ -234,7 +232,57 @@
 
         <!-- NEARBY cities injected here at build time -->
         <!-- NEARBY:START -->
-        <!-- NEARBY:END -->
+<section class="seo-copy" aria-label="Nearby locations">
+  <h2>Nearby dump & landfill locations</h2>
+  <p class="muted">
+    If you don’t see the right option in Roma, check these nearby cities in Texas.
+  </p>
+
+  <div class="cityhub__grid" style="margin-top:10px">
+    
+      <a class="cityhub__pill" href="/texas/laredo/">
+        Laredo <span class="muted" style="font-weight:600">· 75 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/harlingen/">
+        Harlingen <span class="muted" style="font-weight:600">· 89 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/kingsville/">
+        Kingsville <span class="muted" style="font-weight:600">· 104 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/brownsville/">
+        Brownsville <span class="muted" style="font-weight:600">· 110 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/alice/">
+        Alice <span class="muted" style="font-weight:600">· 111 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/robstown/">
+        Robstown <span class="muted" style="font-weight:600">· 126 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/corpus-christi/">
+        Corpus Christi <span class="muted" style="font-weight:600">· 131 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/hiawatha-san-antonio/">
+        Hiawatha San Antonio <span class="muted" style="font-weight:600">· 141 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/carrizo-springs/">
+        Carrizo Springs <span class="muted" style="font-weight:600">· 157 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/el-indio/">
+        El Indio <span class="muted" style="font-weight:600">· 165 mi</span>
+      </a>
+    
+  </div>
+</section>
+<!-- NEARBY:END -->
       </section>
       <!-- SEO COPY END -->
 
@@ -277,12 +325,7 @@
   </main>
 
   <!-- ✅ Leaflet JS must load before city.js -->
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""
-    defer
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>

@@ -99,12 +99,7 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
   <!-- ✅ Leaflet (map) -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""
-  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
     /* Minimal map styling */
@@ -174,7 +169,10 @@
 
       <!-- ✅ Injected at build time -->
       <!-- STATEHUBLINK:START -->
-      <!-- STATEHUBLINK:END -->
+<div style="margin-top:12px">
+  <a class="link" href="/texas/">← Back to Texas cities</a>
+</div>
+<!-- STATEHUBLINK:END -->
 
       <!-- ✅ Injected at build time (CA only for now) -->
       <!-- POPULARCITIES:START -->
@@ -234,7 +232,57 @@
 
         <!-- NEARBY cities injected here at build time -->
         <!-- NEARBY:START -->
-        <!-- NEARBY:END -->
+<section class="seo-copy" aria-label="Nearby locations">
+  <h2>Nearby dump & landfill locations</h2>
+  <p class="muted">
+    If you don’t see the right option in Snyder, check these nearby cities in Texas.
+  </p>
+
+  <div class="cityhub__grid" style="margin-top:10px">
+    
+      <a class="cityhub__pill" href="/texas/colorado-city/">
+        Colorado City <span class="muted" style="font-weight:600">· 18 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/sweetwater/">
+        Sweetwater <span class="muted" style="font-weight:600">· 31 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/big-spring/">
+        Big Spring <span class="muted" style="font-weight:600">· 46 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/post/">
+        Post <span class="muted" style="font-weight:600">· 48 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/acres-spur/">
+        Acres Spur <span class="muted" style="font-weight:600">· 54 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/abilene/">
+        Abilene <span class="muted" style="font-weight:600">· 62 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/w-on/">
+        W On <span class="muted" style="font-weight:600">· 62 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/in-jones-county-abilene/">
+        In Jones County Abilene <span class="muted" style="font-weight:600">· 63 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/stanton/">
+        Stanton <span class="muted" style="font-weight:600">· 65 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/st-lamesa/">
+        St Lamesa <span class="muted" style="font-weight:600">· 66 mi</span>
+      </a>
+    
+  </div>
+</section>
+<!-- NEARBY:END -->
       </section>
       <!-- SEO COPY END -->
 
@@ -277,12 +325,7 @@
   </main>
 
   <!-- ✅ Leaflet JS must load before city.js -->
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""
-    defer
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>

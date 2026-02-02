@@ -24,7 +24,7 @@ function ensureRobotsMeta(content = "index,follow") {
 }
 
 function titleCaseFromSlug(slug = "") {
-  return slug
+  return String(slug || "")
     .split("-")
     .filter(Boolean)
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
@@ -32,7 +32,7 @@ function titleCaseFromSlug(slug = "") {
 }
 
 function titleCaseWordsFromSlug(slug = "") {
-  return (slug || "")
+  return String(slug || "")
     .split("-")
     .filter(Boolean)
     .map((w) => w.toLowerCase())
@@ -121,7 +121,7 @@ function applyCitySEO({ cityName, stateName }) {
   document.title = `Where to Dump Trash in ${pretty} | JunkScout`;
   setMetaDescription(
     `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}. ` +
-      `Hours, fees, and accepted materials when available—always confirm before visiting.`
+    `Hours, fees, and accepted materials when available—always confirm before visiting.`
   );
 
   const canonical = window.location.origin + window.location.pathname;
@@ -354,8 +354,7 @@ function toNum(v) {
   return Number.isFinite(n) ? n : null;
 }
 
-// ✅ Once-and-for-all coordinate normalization:
-// accept lat|latitude and lng|lon|longitude
+// Coordinate normalization: accept lat|latitude and lng|lon|longitude
 function getLat(item) {
   return toNum(item?.lat ?? item?.latitude);
 }
@@ -375,7 +374,9 @@ function hasCoords(item) {
 
 function buildPopupHtml(item) {
   const name = escapeHtml(item?.name || "Location");
-  const address = item?.address ? `<div class="muted small" style="margin-top:2px">${escapeHtml(item.address)}</div>` : "";
+  const address = item?.address
+    ? `<div class="muted small" style="margin-top:2px">${escapeHtml(item.address)}</div>`
+    : "";
 
   const lat = getLat(item);
   const lng = getLng(item);
@@ -395,8 +396,8 @@ function buildPopupHtml(item) {
   `;
 }
 
-// ✅ Robust Leaflet wait (handles script ordering changes / slow CDN)
-async function waitForLeaflet({ timeoutMs = 3500, stepMs = 50 } = {}) {
+// Robust Leaflet wait (handles slow CDN + caching weirdness)
+async function waitForLeaflet({ timeoutMs = 5000, stepMs = 50 } = {}) {
   const start = Date.now();
   while (!window.L) {
     if (Date.now() - start > timeoutMs) return false;
@@ -421,11 +422,17 @@ function makeMapController() {
 
   const L = window.L;
 
-  const map = L.map(mapEl, {
-    scrollWheelZoom: false, // less annoying on long pages
-  });
+  // Guard against "Map container is already initialized."
+  // (happens if scripts get executed twice due to caching/hot reload)
+  try {
+    if (mapEl._leaflet_id) {
+      wrap.style.display = "none";
+      return { enabled: false, setMarkers: () => {}, panToId: () => false };
+    }
+  } catch {}
 
-  // OSM tiles
+  const map = L.map(mapEl, { scrollWheelZoom: false });
+
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution: '&copy; OpenStreetMap contributors',
@@ -449,7 +456,6 @@ function makeMapController() {
     const withCoords = (items || []).filter(hasCoords);
 
     if (!withCoords.length) {
-      // If a city has zero coords, hide map rather than show an empty gray box
       wrap.style.display = "none";
       return;
     }
@@ -482,14 +488,9 @@ function makeMapController() {
     return true;
   }
 
-  // Default view (will be overridden by fitBounds)
   map.setView([31.0, -99.0], 5);
 
-  return {
-    enabled: true,
-    setMarkers,
-    panToId,
-  };
+  return { enabled: true, setMarkers, panToId };
 }
 
 /** =========================
@@ -611,7 +612,6 @@ function buildFilterBar({ resultsEl, onChange }) {
   materialsChips.style.flexWrap = "wrap";
   materialsChips.style.alignItems = "flex-start";
   matsBody.appendChild(materialsChips);
-
   matsDetails.appendChild(matsBody);
 
   const featsDetails = document.createElement("details");
@@ -634,7 +634,6 @@ function buildFilterBar({ resultsEl, onChange }) {
   featureChips.style.flexWrap = "wrap";
   featureChips.style.alignItems = "flex-start";
   featsBody.appendChild(featureChips);
-
   featsDetails.appendChild(featsBody);
 
   const tip = document.createElement("div");
@@ -684,9 +683,7 @@ function buildFilterBar({ resultsEl, onChange }) {
 
     btn.addEventListener("click", () => {
       state.type = key;
-      for (const [k, b] of state.typeBtnByKey.entries()) {
-        stylePill(b, k === key);
-      }
+      for (const [k, b] of state.typeBtnByKey.entries()) stylePill(b, k === key);
       onChange({ type: state.type, flags: new Set(state.flags), materials: new Set(state.materials) });
     });
 
@@ -760,9 +757,7 @@ function buildFilterBar({ resultsEl, onChange }) {
     });
 
     state.type = "all";
-    for (const [k, b] of state.typeBtnByKey.entries()) {
-      stylePill(b, k === "all");
-    }
+    for (const [k, b] of state.typeBtnByKey.entries()) stylePill(b, k === "all");
   }
 
   function setFeatureChips(featureCounts) {
@@ -797,9 +792,7 @@ function buildFilterBar({ resultsEl, onChange }) {
     state.flags = new Set();
     state.materials = new Set();
 
-    for (const [k, b] of state.typeBtnByKey.entries()) {
-      stylePill(b, k === "all");
-    }
+    for (const [k, b] of state.typeBtnByKey.entries()) stylePill(b, k === "all");
 
     setMaterialsCounts(state.materialCounts);
     setFeatureChips(state.featureCounts);
@@ -813,12 +806,7 @@ function buildFilterBar({ resultsEl, onChange }) {
 
   resultsEl.parentNode.insertBefore(wrap, resultsEl);
 
-  return {
-    setTypeOptions,
-    setFeatureChips,
-    setMaterialsCounts,
-    setCounts,
-  };
+  return { setTypeOptions, setFeatureChips, setMaterialsCounts, setCounts };
 }
 
 /** =========================
@@ -1028,10 +1016,9 @@ async function loadCityData() {
     };
   });
 
-  // ✅ Ensure Leaflet is ready (even if CDN slow)
-  await waitForLeaflet({ timeoutMs: 3500, stepMs: 50 });
+  // Ensure Leaflet is ready (CDN/cache can be weird on live)
+  await waitForLeaflet({ timeoutMs: 5000, stepMs: 50 });
 
-  // Map controller
   const mapCtl = makeMapController();
 
   // Type options
@@ -1082,7 +1069,6 @@ async function loadCityData() {
       ? itemsToRender.map((it) => renderCard(it)).join("")
       : "<p class='muted'>No locations match those filters.</p>";
 
-    // Map markers
     mapCtl.setMarkers(itemsToRender, (id) => {
       const card = resultsEl.querySelector(`article.card[data-id="${CSS.escape(id)}"]`);
       if (card) {
