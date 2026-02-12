@@ -1,0 +1,1978 @@
+{
+  "state": "texas",
+  "generated_at": "2026-02-12T04:54:27.405Z",
+  "source_file_count": 346,
+  "accepted_count": 279,
+  "rejected_count": 67,
+  "trusted_seed_count": 95,
+  "accepted": [
+    {
+      "state": "texas",
+      "city": "abernathy",
+      "query": "Abernathy, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "abilene",
+      "query": "Abilene, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "acres-spur",
+      "query": "Acres Spur, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "aledo",
+      "query": "Aledo, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "alice",
+      "query": "Alice, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "alpine",
+      "query": "Alpine, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "alvarado",
+      "query": "Alvarado, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "alvin",
+      "query": "Alvin, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "alvin-texas-alvin",
+      "query": "Alvin Texas Alvin, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "amarillo",
+      "query": "Amarillo, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "amherst",
+      "query": "Amherst, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "anahuac",
+      "query": "Anahuac, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "anderson",
+      "query": "Anderson, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "andrews",
+      "query": "Andrews, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "angelo",
+      "query": "Angelo, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "angleton",
+      "query": "Angleton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "anson",
+      "query": "Anson, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "antonio",
+      "query": "Antonio, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "arlington",
+      "query": "Arlington, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "arthur",
+      "query": "Arthur, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "austin",
+      "query": "Austin, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "avalon",
+      "query": "Avalon, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "aviation-way-el-paso",
+      "query": "Aviation Way El Paso, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "baird",
+      "query": "Baird, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "ballinger",
+      "query": "Ballinger, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "bay-city",
+      "query": "Bay City, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "baytown",
+      "query": "Baytown, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "beaumont",
+      "query": "Beaumont, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "bend-national",
+      "query": "Bend National, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "big-lake",
+      "query": "Big Lake, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "big-sandy",
+      "query": "Big Sandy, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "big-spring",
+      "query": "Big Spring, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "blanca-sierra-blanca",
+      "query": "Blanca Sierra Blanca, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "bliss",
+      "query": "Bliss, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "bloomington",
+      "query": "Bloomington, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "blossom",
+      "query": "Blossom, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "bonham",
+      "query": "Bonham, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "borger",
+      "query": "Borger, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "bowie",
+      "query": "Bowie, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "boys-ranch",
+      "query": "Boys Ranch, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brackettville",
+      "query": "Brackettville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brackettville-brackettville",
+      "query": "Brackettville Brackettville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brady",
+      "query": "Brady, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brady-brady",
+      "query": "Brady Brady, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "branch",
+      "query": "Branch, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "braunfels",
+      "query": "Braunfels, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "breckenridge",
+      "query": "Breckenridge, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brenham",
+      "query": "Brenham, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brookshire",
+      "query": "Brookshire, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brownfield",
+      "query": "Brownfield, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "brownsville",
+      "query": "Brownsville, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "brownwood",
+      "query": "Brownwood, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "bryan",
+      "query": "Bryan, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "buda",
+      "query": "Buda, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "burnet",
+      "query": "Burnet, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "business-park-port-arthur",
+      "query": "Business Park Port Arthur, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "cactus",
+      "query": "Cactus, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "campbell",
+      "query": "Campbell, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "canadian",
+      "query": "Canadian, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "canton",
+      "query": "Canton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "canyon",
+      "query": "Canyon, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "carrizo-springs",
+      "query": "Carrizo Springs, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "carrollton",
+      "query": "Carrollton, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "carthage",
+      "query": "Carthage, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "castro-dimmitt",
+      "query": "Castro Dimmitt, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "cedar-creek",
+      "query": "Cedar Creek, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "celina",
+      "query": "Celina, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "center",
+      "query": "Center, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "childress",
+      "query": "Childress, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "childress-childress-childress",
+      "query": "Childress Childress Childress, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "christi",
+      "query": "Christi, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "city",
+      "query": "City, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "clarendon",
+      "query": "Clarendon, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "cleburne",
+      "query": "Cleburne, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "cleveland",
+      "query": "Cleveland, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "coleman",
+      "query": "Coleman, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "colorado-city",
+      "query": "Colorado City, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "conroe",
+      "query": "Conroe, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "copperas-cove",
+      "query": "Copperas Cove, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "corpus-christi",
+      "query": "Corpus Christi, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "corsicana",
+      "query": "Corsicana, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "coste",
+      "query": "Coste, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "cottle-paducah",
+      "query": "Cottle Paducah, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "cotulla",
+      "query": "Cotulla, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "crane",
+      "query": "Crane, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "creedmoor",
+      "query": "Creedmoor, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "creedmoor-texas-creedmoor",
+      "query": "Creedmoor Texas Creedmoor, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "creekview-san-antonio",
+      "query": "Creekview San Antonio, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "crockett",
+      "query": "Crockett, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "crockett-tx-crockett",
+      "query": "Crockett Tx Crockett, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "cross-plains",
+      "query": "Cross Plains, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "crowell",
+      "query": "Crowell, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "crystal-city",
+      "query": "Crystal City, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "dale",
+      "query": "Dale, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "dalhart",
+      "query": "Dalhart, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "dalhart-dalhart",
+      "query": "Dalhart Dalhart, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "dallas",
+      "query": "Dallas, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "deer-park",
+      "query": "Deer Park, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "denton",
+      "query": "Denton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "deweyville",
+      "query": "Deweyville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "dimmit-carrizo-springs",
+      "query": "Dimmit Carrizo Springs, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "dimmitt",
+      "query": "Dimmitt, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "dumas",
+      "query": "Dumas, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "eagle-pass",
+      "query": "Eagle Pass, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "edinburg",
+      "query": "Edinburg, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "edna",
+      "query": "Edna, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "el-indio",
+      "query": "El Indio, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "el-paso",
+      "query": "El Paso, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "eldorado",
+      "query": "Eldorado, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "elmendorf",
+      "query": "Elmendorf, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "ennis",
+      "query": "Ennis, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "falfurrias",
+      "query": "Falfurrias, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "falls",
+      "query": "Falls, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "feria",
+      "query": "Feria, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "ferris",
+      "query": "Ferris, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "floydada",
+      "query": "Floydada, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "forest-hill",
+      "query": "Forest Hill, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "fort-cavazos",
+      "query": "Fort Cavazos, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "fort-stockton",
+      "query": "Fort Stockton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "fort-worth",
+      "query": "Fort Worth, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "fredericksburg",
+      "query": "Fredericksburg, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "fresno",
+      "query": "Fresno, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "frisco",
+      "query": "Frisco, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "gainesville",
+      "query": "Gainesville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "galveston",
+      "query": "Galveston, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "garland",
+      "query": "Garland, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "georgetown",
+      "query": "Georgetown, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "glen-rose",
+      "query": "Glen Rose, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "godley",
+      "query": "Godley, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "goodrich",
+      "query": "Goodrich, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "grand-prairie",
+      "query": "Grand Prairie, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hallettsville",
+      "query": "Hallettsville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "harlingen",
+      "query": "Harlingen, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "haskell",
+      "query": "Haskell, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hebbronville",
+      "query": "Hebbronville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hedley",
+      "query": "Hedley, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hempstead",
+      "query": "Hempstead, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "henderson",
+      "query": "Henderson, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hereford",
+      "query": "Hereford, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hiawatha-san-antonio",
+      "query": "Hiawatha San Antonio, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hico",
+      "query": "Hico, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hill",
+      "query": "Hill, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "horn",
+      "query": "Horn, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "houston",
+      "query": "Houston, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "humble",
+      "query": "Humble, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "huntsville",
+      "query": "Huntsville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "hutto",
+      "query": "Hutto, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "iowa-park",
+      "query": "Iowa Park, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "irving",
+      "query": "Irving, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "itasca",
+      "query": "Itasca, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "jacksonville",
+      "query": "Jacksonville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "jasper",
+      "query": "Jasper, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "johnson-city",
+      "query": "Johnson City, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "junction",
+      "query": "Junction, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "kerrville",
+      "query": "Kerrville, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "kilgore",
+      "query": "Kilgore, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "killeen",
+      "query": "Killeen, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "kingsville",
+      "query": "Kingsville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "kountze",
+      "query": "Kountze, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "lamesa",
+      "query": "Lamesa, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "land",
+      "query": "Land, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "laredo",
+      "query": "Laredo, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "leggett",
+      "query": "Leggett, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "levelland",
+      "query": "Levelland, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "lewisville",
+      "query": "Lewisville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "littlefield",
+      "query": "Littlefield, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "lockhart",
+      "query": "Lockhart, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "loma",
+      "query": "Loma, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "longview",
+      "query": "Longview, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "lubbock",
+      "query": "Lubbock, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "lufkin",
+      "query": "Lufkin, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "mansfield",
+      "query": "Mansfield, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mason",
+      "query": "Mason, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "matador",
+      "query": "Matador, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mcallen",
+      "query": "Mcallen, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mcallen-mcallen",
+      "query": "Mcallen Mcallen, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mccamey-tx-mccamey",
+      "query": "Mccamey Tx Mccamey, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mckinney",
+      "query": "Mckinney, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "mclean",
+      "query": "Mclean, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "meadow",
+      "query": "Meadow, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "melissa",
+      "query": "Melissa, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "memphis",
+      "query": "Memphis, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "menard",
+      "query": "Menard, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mercedes",
+      "query": "Mercedes, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mesquite",
+      "query": "Mesquite, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "mexia",
+      "query": "Mexia, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "midland",
+      "query": "Midland, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "monahans",
+      "query": "Monahans, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "monroe-city",
+      "query": "Monroe City, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "mt-pleasant",
+      "query": "Mt Pleasant, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "muleshoe",
+      "query": "Muleshoe, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "nacogdoches",
+      "query": "Nacogdoches, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "needville",
+      "query": "Needville, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "new-boston",
+      "query": "New Boston, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "new-braunfels",
+      "query": "New Braunfels, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "odessa",
+      "query": "Odessa, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "olton",
+      "query": "Olton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "paducah",
+      "query": "Paducah, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "palestine",
+      "query": "Palestine, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "pampa",
+      "query": "Pampa, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "park",
+      "query": "Park, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "pasadena",
+      "query": "Pasadena, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "paso",
+      "query": "Paso, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "pearland",
+      "query": "Pearland, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "perryton",
+      "query": "Perryton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "pickton",
+      "query": "Pickton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "pittsburg",
+      "query": "Pittsburg, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "plains",
+      "query": "Plains, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "plainview",
+      "query": "Plainview, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "plano",
+      "query": "Plano, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "pleasanton",
+      "query": "Pleasanton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "port-arthur",
+      "query": "Port Arthur, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "porte",
+      "query": "Porte, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "post",
+      "query": "Post, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "prairie",
+      "query": "Prairie, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "prairie-fulton",
+      "query": "Prairie Fulton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "presidio",
+      "query": "Presidio, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "quanah",
+      "query": "Quanah, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "railroad-sanger",
+      "query": "Railroad Sanger, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "railway-del-rio",
+      "query": "Railway Del Rio, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "ranch",
+      "query": "Ranch, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "rankin",
+      "query": "Rankin, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "republic-way-avalon",
+      "query": "Republic Way Avalon, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "richardson",
+      "query": "Richardson, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "robstown",
+      "query": "Robstown, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "roma",
+      "query": "Roma, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "rosenberg",
+      "query": "Rosenberg, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "round-rock",
+      "query": "Round Rock, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "rowlett",
+      "query": "Rowlett, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "saba",
+      "query": "Saba, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "san-angelo",
+      "query": "San Angelo, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "san-antonio",
+      "query": "San Antonio, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "san-diego-san-diego",
+      "query": "San Diego San Diego, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "san-marcos",
+      "query": "San Marcos, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "sanderson",
+      "query": "Sanderson, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "schertz",
+      "query": "Schertz, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "seguin",
+      "query": "Seguin, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "seminole",
+      "query": "Seminole, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "seymour",
+      "query": "Seymour, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "shady-trl-dallas",
+      "query": "Shady Trl Dallas, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "shamrock",
+      "query": "Shamrock, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "sherman",
+      "query": "Sherman, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "snyder",
+      "query": "Snyder, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "spearman",
+      "query": "Spearman, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "spring",
+      "query": "Spring, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "springs",
+      "query": "Springs, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "stamford",
+      "query": "Stamford, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "stanton",
+      "query": "Stanton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "stephenville",
+      "query": "Stephenville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "stockton",
+      "query": "Stockton, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "sudan",
+      "query": "Sudan, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "sully-clarendon",
+      "query": "Sully Clarendon, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "sundown",
+      "query": "Sundown, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "sweetwater",
+      "query": "Sweetwater, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "tahoka",
+      "query": "Tahoka, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "temple",
+      "query": "Temple, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "tennessee-colony",
+      "query": "Tennessee Colony, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "texas-creedmoor",
+      "query": "Texas Creedmoor, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "texline",
+      "query": "Texline, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "the-woodlands",
+      "query": "The Woodlands, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "tilden",
+      "query": "Tilden, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "tyler",
+      "query": "Tyler, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "uvalde",
+      "query": "Uvalde, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "vernon",
+      "query": "Vernon, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "victoria",
+      "query": "Victoria, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "vleck",
+      "query": "Vleck, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "waco",
+      "query": "Waco, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "weatherford",
+      "query": "Weatherford, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "weimar",
+      "query": "Weimar, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "weslaco",
+      "query": "Weslaco, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "whitesboro",
+      "query": "Whitesboro, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "wichita-falls",
+      "query": "Wichita Falls, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "wilmer",
+      "query": "Wilmer, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "wimberley",
+      "query": "Wimberley, Texas",
+      "confidence": "trusted"
+    },
+    {
+      "state": "texas",
+      "city": "winters",
+      "query": "Winters, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "wire-way-dallas",
+      "query": "Wire Way Dallas, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "woodville",
+      "query": "Woodville, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "worth",
+      "query": "Worth, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "ygnacio",
+      "query": "Ygnacio, Texas",
+      "confidence": "heuristic"
+    }
+  ],
+  "rejected": [
+    {
+      "slug": "adj-killeen",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "ave-amarillo",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "ave-mansfield",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "avenue-a-alta-loma",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "avenue-p-lubbock",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "city-crystal-city",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "city-rio-grande-city",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "e-conroe",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "e-fort-stockton-fort-stockton",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "e-henderson",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "e-of-fountain-view-houston",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "e-san-antonio",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "e-texline",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "e-winters",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "feet-e-stratford",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "from-roans-prairie",
+      "reason": "no_usable_rows",
+      "analysis": {
+        "isArray": true,
+        "totalRows": 0,
+        "usableRows": 0,
+        "uniqueFacilityIds": 0
+      }
+    },
+    {
+      "slug": "hockley",
+      "reason": "no_usable_rows",
+      "analysis": {
+        "isArray": true,
+        "totalRows": 0,
+        "usableRows": 0,
+        "uniqueFacilityIds": 0
+      }
+    },
+    {
+      "slug": "in-booker-booker",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-cottle-county-paducah",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-gray-county",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-hansford-county-spearman",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-jones-county-abilene",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-moore-county-dumas",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-panola-county-carthage",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-rock-springs-rocksprings",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-shelby-co",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-swisher-county-tulia",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "in-texarkana-texarkana",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "mile-of-morton-morton",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "n-brenham",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "n-huntsville",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "n-kilgore",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "n-tyler",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "n-vernon",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "n-victoria",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "north-jacksonville",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "north-san-antonio",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "on-bobwhite-levelland",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "rd-conroe",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "rd-fresno",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "rd-kountze",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "s-brownwood",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "s-business-park-port-arthur",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "s-goodrich",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "s-sully-clarendon",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "s-woodville",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "se-of-muleshoe-muleshoe",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "south-victoria",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "st-alpine",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "st-arlington",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "st-austin",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "st-crane",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "st-harlingen",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "st-lamesa",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "street-houston",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "sugar-land",
+      "reason": "no_usable_rows",
+      "analysis": {
+        "isArray": true,
+        "totalRows": 0,
+        "usableRows": 0,
+        "uniqueFacilityIds": 0
+      }
+    },
+    {
+      "slug": "to-site-sudan",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "tomball",
+      "reason": "no_usable_rows",
+      "analysis": {
+        "isArray": true,
+        "totalRows": 0,
+        "usableRows": 0,
+        "uniqueFacilityIds": 0
+      }
+    },
+    {
+      "slug": "unknown",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "w-alabama-sweetwater",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "w-alvarado",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "w-cedar-creek",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "w-dale",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "w-leggett",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "w-on",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "w-waco",
+      "reason": "slug_failed_quality_gate"
+    },
+    {
+      "slug": "_citylist-quality-report",
+      "reason": "slug_failed_quality_gate"
+    }
+  ]
+}

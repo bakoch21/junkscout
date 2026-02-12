@@ -7,6 +7,16 @@
     "lng": -96.6,
     "website": null,
     "source": null,
+    "facility_id": "f_208476d2eb32"
+  },
+  {
+    "name": "CITY OF SHERMAN TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "811 S EAST ST SHERMAN TX 75090",
+    "lat": 33.64,
+    "lng": -96.6,
+    "website": null,
+    "source": null,
     "facility_id": "f_c0fcf70c1346"
   },
   {
@@ -18,5 +28,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_d090ac857c77"
+  },
+  {
+    "name": "HILLSIDE LANDFILL AND RECYCLING CENTER",
+    "type": "recycling",
+    "address": "1100 NELSON RD SHERMAN TX 75090",
+    "lat": 33.59,
+    "lng": -96.54,
+    "website": null,
+    "source": null,
+    "facility_id": "f_eb3c5123ae00"
   }
 ]

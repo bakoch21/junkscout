@@ -11,19 +11,7 @@
   "appears_in": [
     {
       "state": "texas",
-      "city": "county-road-y-plainview"
-    },
-    {
-      "state": "texas",
       "city": "plainview"
-    },
-    {
-      "state": "texas",
-      "city": "road-y-plainview"
-    },
-    {
-      "state": "texas",
-      "city": "y-plainview"
     }
   ]
 }

@@ -7,6 +7,16 @@
     "lng": -106.44,
     "website": null,
     "source": null,
+    "facility_id": "f_6bfd84bd6aac"
+  },
+  {
+    "name": "CITY OF EL PASO TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "4200 DELTA DR EL PASO TX 79905",
+    "lat": 31.76,
+    "lng": -106.44,
+    "website": null,
+    "source": null,
     "facility_id": "f_7caeb64bd068"
   },
   {
@@ -57,7 +67,27 @@
     "lng": -106.16,
     "website": null,
     "source": null,
+    "facility_id": "f_86d4b98e1f52"
+  },
+  {
+    "name": "GREATER EL PASO LANDFILL",
+    "type": "landfill",
+    "address": "2300 DARRINGTON RD EL PASO TX 79928",
+    "lat": 31.61,
+    "lng": -106.16,
+    "website": null,
+    "source": null,
     "facility_id": "f_a3f5969be927"
+  },
+  {
+    "name": "MCCOMBS LANDFILL",
+    "type": "landfill",
+    "address": "13600 MCCOMBS ST EL PASO TX 79934",
+    "lat": 31.99,
+    "lng": -106.41,
+    "website": null,
+    "source": null,
+    "facility_id": "f_51de9e958d04"
   },
   {
     "name": "MCCOMBS LANDFILL",
@@ -78,5 +108,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_9e5746568d7a"
+  },
+  {
+    "name": "STERICYCLE-EL PASO",
+    "type": "landfill",
+    "address": "5307 EL PASO DR EL PASO TX 79905",
+    "lat": 31.79,
+    "lng": -106.43,
+    "website": null,
+    "source": null,
+    "facility_id": "f_fc8ffeeeedaf"
   }
 ]

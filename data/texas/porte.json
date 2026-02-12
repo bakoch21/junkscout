@@ -8,5 +8,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_76c7ec10658c"
+  },
+  {
+    "name": "CLEAN HARBORS LA PORTE",
+    "type": "landfill",
+    "address": "500 INDEPENDENCE PKWY S LA PORTE TX 77571",
+    "lat": 29.71,
+    "lng": -95.09,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f2ae7cb3f033"
   }
 ]

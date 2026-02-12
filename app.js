@@ -12,7 +12,6 @@ const ctaStart = document.getElementById("ctaStart");
 
 const whereInput = document.getElementById("whereInput");
 const cityList = document.getElementById("cityList");
-const useLocationBtn = document.getElementById("useLocationBtn");
 
 // Optional filters (exist on homepage)
 const loadSelect = document.getElementById("loadSelect");
@@ -84,7 +83,7 @@ function runSearch() {
   const key = whereRaw.toLowerCase();
 
   if (!whereRaw) {
-    alert("Enter a location (e.g., Austin, TX) or use your location.");
+    window.location.href = "/texas/";
     return;
   }
 
@@ -128,11 +127,38 @@ function useMyLocation() {
   );
 }
 
+function wireHomepageCards() {
+  const cards = document.querySelectorAll(".cards .card[data-href]");
+  if (!cards.length) return;
+
+  cards.forEach((card) => {
+    const href = String(card.getAttribute("data-href") || "").trim();
+    if (!href) return;
+
+    card.setAttribute("role", "link");
+    card.setAttribute("tabindex", "0");
+
+    const go = () => {
+      window.location.href = href;
+    };
+
+    card.addEventListener("click", (e) => {
+      if (e.target.closest("a, button, input, select, textarea, label")) return;
+      go();
+    });
+
+    card.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      e.preventDefault();
+      go();
+    });
+  });
+}
+
 // Wire up events
 if (toggleFilters) toggleFilters.addEventListener("click", toggleFiltersPanel);
 if (searchBtn) searchBtn.addEventListener("click", runSearch);
 if (ctaStart) ctaStart.addEventListener("click", focusWhere);
-if (useLocationBtn) useLocationBtn.addEventListener("click", useMyLocation);
 
 // Enter key triggers search
 if (whereInput) {
@@ -147,5 +173,6 @@ if (whereInput) {
 // Init
 document.addEventListener("DOMContentLoaded", () => {
   populateCityDatalist();
+  wireHomepageCards();
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 });

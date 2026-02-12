@@ -7,6 +7,16 @@
     "lng": -95.41,
     "website": null,
     "source": null,
+    "facility_id": "f_13660b20dfef"
+  },
+  {
+    "name": "CONROE INDUSTRIAL NON-HAZARDOUS LANDFILL",
+    "type": "landfill",
+    "address": "2525 N LOOP 336 E CONROE TX 77301",
+    "lat": 30.34,
+    "lng": -95.41,
+    "website": null,
+    "source": null,
     "facility_id": "f_947ab4c0812a"
   },
   {
@@ -40,6 +50,26 @@
     "facility_id": "f_5afbd72cbbad"
   },
   {
+    "name": "MID AMERICA CONTRACTORS LLC",
+    "type": "landfill",
+    "address": "3995 FM 1485 RD CONROE TX 77306",
+    "lat": 30.32,
+    "lng": -95.38,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e4a640478f3b"
+  },
+  {
+    "name": "NEW EARTH INC",
+    "type": "landfill",
+    "address": "12286 HIGHWAY 105 E CONROE TX 77306",
+    "lat": 30.33,
+    "lng": -95.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b680f6846ac7"
+  },
+  {
     "name": "NEW EARTH INC",
     "type": "landfill",
     "address": "12286 HIGHWAY 105 E CONROE TX 77306",
@@ -48,6 +78,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_e565530acaa2"
+  },
+  {
+    "name": "SPRINT MONTGOMERY LANDFILL",
+    "type": "landfill",
+    "address": "17851 HIGHWAY 105 E CONROE TX 77306",
+    "lat": 30.35,
+    "lng": -95.29,
+    "website": null,
+    "source": null,
+    "facility_id": "f_79dd2e4b74cf"
   },
   {
     "name": "SPRINT MONTGOMERY LANDFILL",

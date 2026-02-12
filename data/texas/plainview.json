@@ -7,6 +7,16 @@
     "lng": -101.67,
     "website": null,
     "source": null,
+    "facility_id": "f_c6866c296b7a"
+  },
+  {
+    "name": "CITY OF PLAINVIEW LANDFILL",
+    "type": "landfill",
+    "address": "1031 COUNTY ROAD Y PLAINVIEW TX 79072",
+    "lat": 34.18,
+    "lng": -101.67,
+    "website": null,
+    "source": null,
     "facility_id": "f_dc7c699f212b"
   }
 ]

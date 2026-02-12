@@ -7,7 +7,27 @@
     "lng": -96.95,
     "website": null,
     "source": null,
+    "facility_id": "f_780cea06ebe2"
+  },
+  {
+    "name": "CAMELOT LANDFILL",
+    "type": "landfill",
+    "address": "580 HUFFINES BLVD LEWISVILLE TX 75056",
+    "lat": 33.04,
+    "lng": -96.95,
+    "website": null,
+    "source": null,
     "facility_id": "f_933ee60cad18"
+  },
+  {
+    "name": "CAMELOT LF GAS TO ENERGY FACILITY",
+    "type": "landfill",
+    "address": "580 HUFFINES BLVD LEWISVILLE TX 75056",
+    "lat": 33.02,
+    "lng": -96.95,
+    "website": null,
+    "source": null,
+    "facility_id": "f_534ced1d54ef"
   },
   {
     "name": "CAMELOT LF GAS TO ENERGY FACILITY",
@@ -38,6 +58,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_fc59d152e5bd"
+  },
+  {
+    "name": "LEWISVILLE LANDFILL",
+    "type": "landfill",
+    "address": "801 E COLLEGE ST LEWISVILLE TX 75057",
+    "lat": 33.05,
+    "lng": -96.98,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6fcaa245f6a7"
   },
   {
     "name": "LEWISVILLE LANDFILL",

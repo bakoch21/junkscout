@@ -1,0 +1,24 @@
+﻿<svg width="240" height="56" viewBox="0 0 240 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="d-bg" x1="8" y1="8" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F5FA0"/>
+      <stop offset="1" stop-color="#2F7652"/>
+    </linearGradient>
+    <linearGradient id="d-word" x1="58" y1="14" x2="208" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1F5FA0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="40" height="40" rx="11" fill="url(#d-bg)"/>
+  <path d="M18.2 33.4L24.4 28.1L29 32.2L37.8 23.4" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 19.5H36" stroke="#DCEEFF" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M20 24H30.5" stroke="#DCEEFF" stroke-width="2.1" stroke-linecap="round"/>
+
+  <text x="58" y="34"
+        font-family="Avenir Next, Montserrat, Segoe UI, Arial, sans-serif"
+        font-size="25"
+        font-weight="800"
+        letter-spacing="0.15"
+        fill="url(#d-word)">JunkScout</text>
+</svg>

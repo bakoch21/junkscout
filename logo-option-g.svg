@@ -1,0 +1,24 @@
+﻿<svg width="240" height="56" viewBox="0 0 240 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g-bg" x1="8" y1="8" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2F7652"/>
+      <stop offset="1" stop-color="#1F5FA0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="40" height="40" rx="10" fill="url(#g-bg)"/>
+  <path d="M28 15.5L31.3 24.7L41 28L31.3 31.3L28 40.5L24.7 31.3L15 28L24.7 24.7L28 15.5Z" fill="#FFFFFF"/>
+  <circle cx="28" cy="28" r="2.6" fill="#2F7652"/>
+
+  <text x="58" y="33"
+        font-family="Avenir Next, Segoe UI, Arial, sans-serif"
+        font-size="24"
+        font-weight="800"
+        fill="#0F172A">Junk<tspan fill="#2F7652">Scout</tspan></text>
+  <text x="59" y="44"
+        font-family="Avenir Next, Segoe UI, Arial, sans-serif"
+        font-size="8.2"
+        font-weight="700"
+        letter-spacing="1.0"
+        fill="#64748B">LOCAL DISPOSAL DIRECTORY</text>
+</svg>

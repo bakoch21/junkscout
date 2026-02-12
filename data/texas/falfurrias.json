@@ -8,5 +8,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_a4611ae1171b"
+  },
+  {
+    "name": "BROOKS COUNTY LANDFILL",
+    "type": "landfill",
+    "address": "AT END OF WEST TRAVIS ST  W OF CITY OF FALFURRIAS FALFURRIAS TX 78355",
+    "lat": 27.24,
+    "lng": -98.18,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b547da339c9c"
   }
 ]

@@ -77,7 +77,15 @@ Open key pages:
 - `/texas/houston/`
 - one facility page
 
-## 8) Push
+## 8) Run smoke gate
+
+```cmd
+npm run verify:smoke
+```
+
+If this fails, fix before push.
+
+## 9) Push
 
 ```cmd
 npm run push -- "build: <what changed>"

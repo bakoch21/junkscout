@@ -10,6 +10,16 @@
     "facility_id": "f_36be0792fd7b"
   },
   {
+    "name": "CITY FORT STOCKTON TYPE V",
+    "type": "landfill",
+    "address": "1296 DISPOSAL RD FORT STOCKTON TX 79735",
+    "lat": 30.92,
+    "lng": -102.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a4ae11986f4d"
+  },
+  {
     "name": "CITY OF FORT STOCKTON LANDFILL",
     "type": "landfill",
     "address": "1296 DISPOSAL RD, 1 MI E OF FM 1053   2 MI N OF US 290   SE OF @ SANTE FE RR  1 MI E FORT STOCKTON FORT STOCKTON TX 79735",

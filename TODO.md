@@ -8,8 +8,9 @@ Persistent project backlog for JunkScout.
 - [x] Fix `scripts/generate-sitemap.js` to use city records correctly and include facility URLs.
 - [x] Add deterministic CMD-friendly scripts: `build`, `build:texas`, `build:houston`, `preview`, `push`.
 - [x] Add build and deploy documentation (`README.md`, `BUILD_SANITY_CHECKLIST.md`).
-- [ ] Add automated smoke check script for key URLs and canonical tags.
-- [ ] Add stale output pruning strategy for old city directories not in current city list.
+- [x] Add automated smoke check script for key URLs and canonical tags.
+- [x] Add stale output pruning strategy for old city directories not in current city list.
+- [x] Add quality gate to Texas city list generation to reject junk slugs.
 
 ## Next (Phase B: Houston depth)
 

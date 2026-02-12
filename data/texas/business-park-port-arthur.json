@@ -7,6 +7,16 @@
     "lng": -94.03,
     "website": null,
     "source": null,
+    "facility_id": "f_d8aa87003051"
+  },
+  {
+    "name": "SPRINT RECYCLING CENTER - PORT ARTHUR",
+    "type": "recycling",
+    "address": "1000 S BUSINESS PARK PORT ARTHUR TX 77640",
+    "lat": 29.92,
+    "lng": -94.03,
+    "website": null,
+    "source": null,
     "facility_id": "f_f08c12319543"
   }
 ]

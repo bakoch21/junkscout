@@ -1,0 +1,19 @@
+﻿<svg width="220" height="52" viewBox="0 0 220 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hexC" x1="8" y1="8" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F4C81"/>
+      <stop offset="1" stop-color="#1F5FA0"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M26 6L41.6 15V33L26 42L10.4 33V15L26 6Z" fill="url(#hexC)"/>
+  <path d="M16 30.5C17.9 28.2 20.3 27 23.3 27C26.2 27 28.5 28.2 30.2 30.5C31.4 32.2 32.9 33 34.8 33" stroke="#DDEFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M17.4 22.8L21.9 26.8L34.8 16.8" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="58" y="31"
+        font-family="Montserrat, Avenir Next, Segoe UI, Arial, sans-serif"
+        font-size="23"
+        font-weight="800"
+        fill="#111827">Junk<tspan fill="#235D9E">Scout</tspan></text>
+  <rect x="58" y="35" width="116" height="2" rx="1" fill="#CBD5E1"/>
+</svg>

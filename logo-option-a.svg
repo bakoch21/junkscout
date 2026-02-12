@@ -1,0 +1,24 @@
+﻿<svg width="220" height="52" viewBox="0 0 220 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgA" x1="6" y1="6" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#215F9E"/>
+      <stop offset="1" stop-color="#2F7652"/>
+    </linearGradient>
+    <linearGradient id="tickA" x1="16" y1="30" x2="36" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D9F4E6"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="40" height="40" rx="12" fill="url(#bgA)"/>
+  <circle cx="26" cy="26" r="10.5" stroke="#FFFFFF" stroke-opacity="0.38" stroke-width="1.5"/>
+  <path d="M26 13.5L28.9 25.6L26 38.5L23.1 25.6L26 13.5Z" fill="#FFFFFF"/>
+  <path d="M16 30.3L21.3 35L35.8 20.8" stroke="url(#tickA)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="58" y="32"
+        font-family="Montserrat, Avenir Next, Segoe UI, Arial, sans-serif"
+        font-size="24"
+        font-weight="800"
+        letter-spacing="0.2"
+        fill="#111827">Junk<tspan fill="#1F5FA0">Scout</tspan></text>
+</svg>

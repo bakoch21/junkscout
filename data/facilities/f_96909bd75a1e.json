@@ -11,6 +11,10 @@
   "appears_in": [
     {
       "state": "texas",
+      "city": "brenham"
+    },
+    {
+      "state": "texas",
       "city": "n-brenham"
     }
   ]

@@ -20,6 +20,16 @@
     "facility_id": "f_15166da3d098"
   },
   {
+    "name": "CITY OF HARLINGEN TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "404 S 54TH ST HARLINGEN TX 78550",
+    "lat": 30.39,
+    "lng": -97.67,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7e5c050215cd"
+  },
+  {
     "name": "STERICYCLE HARLINGEN PROCESSING FACILITY",
     "type": "landfill",
     "address": "5710 E GRIMES ST HARLINGEN TX 78550",
@@ -28,5 +38,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_7f49ef42e583"
+  },
+  {
+    "name": "STERICYCLE HARLINGEN PROCESSING FACILITY",
+    "type": "landfill",
+    "address": "5710 E GRIMES ST HARLINGEN TX 78550",
+    "lat": 26.2,
+    "lng": -97.64,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9629cd2f8b8c"
   }
 ]

@@ -28,7 +28,7 @@
 
       <nav class="nav__links" aria-label="Primary">
         <a href="#browse-materials">Browse materials</a>
-        <a href="/texas/">Browse locations</a>
+        <a href="#browse-locations">Browse locations</a>
         <a href="#how-it-works">How it works</a>
         <a href="#pro" class="muted">Pro (coming soon)</a>
       </nav>
@@ -45,7 +45,7 @@
     <!-- Hero -->
     <section class="hero">
       <div class="container">
-        <h1>Dump your junk. The right way.</h1>
+        <h1>Know Before You Go</h1>
         <p class="subhead">
           Find verified drop-off locations for couches, construction debris, tires, yard waste,
           and more, with rules, hours, and fees when available.
@@ -64,9 +64,6 @@
                   autocomplete="off"
                   list="cityList"
                 />
-                <button class="combo__btn" id="useLocationBtn" type="button">
-                  Use my location
-                </button>
               </div>
 
               <datalist id="cityList"></datalist>
@@ -81,7 +78,7 @@
             <div class="field field--cta">
               <span class="label" aria-hidden="true">&nbsp;</span>
               <button
-                class="btn btn--primary btn--big"
+                class="btn btn--primary btn--big btn--search-primary"
                 id="searchBtn"
                 type="button"
               >
@@ -135,7 +132,7 @@
         </section>
 
 <section class="cards" aria-label="Examples">
-  <article class="card">
+  <article class="card card--clickable" data-href="/facility/f_3a2842ff0172/">
     <div class="card__kicker">
       <span class="badge badge--blue">Official city drop-off</span>
     </div>
@@ -143,7 +140,7 @@
     <p class="card__meta">Accepts: Recycling, household items</p>
     <p class="card__meta">City of Houston • Verified Jan 2026</p>
 
-    <a class="link" href="/texas/houston/#westpark-recycling-center">Details →</a>
+    <a class="link" href="/facility/f_3a2842ff0172/">Details →</a>
 
     <a class="link" href="/texas/houston/">Drop-off options</a>
     <a class="link" href="https://houstontx.gov/solidwaste//pdf_files/008_Westpark_rules_04092019(v6).pdf" target="_blank" rel="noopener">
@@ -151,7 +148,7 @@
     </a>
   </article>
 
-  <article class="card">
+  <article class="card card--clickable" data-href="/facility/f_44d0c768acb1/">
     <div class="card__kicker">
       <span class="badge badge--blue">Official city drop-off</span>
     </div>
@@ -159,7 +156,7 @@
     <p class="card__meta">Accepts: Recycling, bulky household items</p>
     <p class="card__meta">City of Houston • Verified Jan 2026</p>
 
-    <a class="link" href="/texas/houston/#south-post-oak-recycling-center">Details →</a>
+    <a class="link" href="/facility/f_44d0c768acb1/">Details →</a>
 
     <a class="link" href="/texas/houston/">Drop-off options</a>
     <a class="link" href="https://www.houstontx.gov/solidwaste/" target="_blank" rel="noopener">
@@ -167,7 +164,7 @@
     </a>
   </article>
 
-  <article class="card">
+  <article class="card card--clickable" data-href="/facility/f_8430c6f590d6/">
     <div class="card__kicker">
       <span class="badge badge--green">Major landfill option</span>
     </div>
@@ -175,7 +172,7 @@
     <p class="card__meta">Accepts: General waste, large loads</p>
     <p class="card__meta">Commercial landfill • Verified Jan 2026</p>
 
-    <a class="link" href="/texas/houston/#mccarty-road-landfill">Details →</a>
+    <a class="link" href="/facility/f_8430c6f590d6/">Details →</a>
 
     <a class="link" href="/texas/houston/">View Houston landfill options</a>
     <a class="link" href="https://www.wm.com/us/en/facilities/mccarty-road-landfill" target="_blank" rel="noopener">
@@ -214,17 +211,17 @@
         <section class="browse" id="browse-materials">
           <h2>Browse by what you have</h2>
           <div class="tiles">
-            <a class="tile" href="#"><span class="tile__emoji">🛋️</span> Furniture</a>
-            <a class="tile" href="#"><span class="tile__emoji">🛏️</span> Mattresses</a>
-            <a class="tile" href="#"><span class="tile__emoji">🧱</span> Construction debris</a>
-            <a class="tile" href="#"><span class="tile__emoji">🛞</span> Tires</a>
-            <a class="tile" href="#"><span class="tile__emoji">🧊</span> Appliances</a>
-            <a class="tile" href="#"><span class="tile__emoji">💻</span> Electronics</a>
-            <a class="tile" href="#"><span class="tile__emoji">🎨</span> Paint / chemicals</a>
-            <a class="tile" href="#"><span class="tile__emoji">🔩</span> Scrap metal</a>
+            <a class="tile" href="/texas/houston/?material=furniture"><span class="tile__emoji">🛋️</span> Furniture</a>
+            <a class="tile" href="/texas/houston/?material=mattresses"><span class="tile__emoji">🛏️</span> Mattresses</a>
+            <a class="tile" href="/texas/houston/?material=construction-debris"><span class="tile__emoji">🧱</span> Construction debris</a>
+            <a class="tile" href="/texas/houston/?material=tires"><span class="tile__emoji">🛞</span> Tires</a>
+            <a class="tile" href="/texas/houston/?material=appliances"><span class="tile__emoji">🧊</span> Appliances</a>
+            <a class="tile" href="/texas/houston/?material=electronics"><span class="tile__emoji">💻</span> Electronics</a>
+            <a class="tile" href="/texas/houston/?material=paint-chemicals"><span class="tile__emoji">🎨</span> Paint / chemicals</a>
+            <a class="tile" href="/texas/houston/?material=scrap-metal"><span class="tile__emoji">🔩</span> Scrap metal</a>
           </div>
           <div class="center">
-            <a class="link" href="#">View all materials →</a>
+            <a class="link" href="/texas/houston/">View all materials →</a>
           </div>
         </section>
 
@@ -245,9 +242,9 @@
         <section class="recent" id="browse-locations">
           <div class="recent__head">
             <h2>Browse locations</h2>
-            <div style="display:flex; gap:12px; align-items:center">
-              <a class="link" href="/texas/">Texas locations →</a>
-              <a class="link" href="/california/">California locations →</a>
+            <div class="state-shortcuts">
+              <a class="btn btn--ghost" href="/texas/">Texas</a>
+              <a class="btn btn--primary" href="/california/">California</a>
             </div>
           </div>
           <div class="recent__list">
@@ -283,10 +280,10 @@
     <div class="container footer__grid">
       <div>
         <div class="footer__title">Materials</div>
-        <a href="#">Furniture</a>
-        <a href="#">Construction debris</a>
-        <a href="#">Tires</a>
-        <a href="#">Yard waste</a>
+        <a href="/texas/houston/?material=furniture">Furniture</a>
+        <a href="/texas/houston/?material=construction-debris">Construction debris</a>
+        <a href="/texas/houston/?material=tires">Tires</a>
+        <a href="/texas/houston/?material=yard-waste">Yard waste</a>
       </div>
       <div>
         <div class="footer__title">Locations</div>
@@ -300,9 +297,9 @@
       <div>
         <div class="footer__title">Company</div>
         <a href="#how-it-works">How it works</a>
-        <a href="#">Contact</a>
-        <a href="#">Disclaimer</a>
-        <a href="#">Data sources</a>
+        <a href="#report">Contact</a>
+        <a href="#report">Disclaimer</a>
+        <a href="/texas/houston/">Data sources</a>
       </div>
       <div class="footer__note">
         <div class="footer__brand">

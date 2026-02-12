@@ -7,6 +7,16 @@
     "lng": 0,
     "website": null,
     "source": null,
+    "facility_id": "f_b6434e3fed8e"
+  },
+  {
+    "name": "BAYLOR MARINA CLOSED LANDFILL",
+    "type": "landfill",
+    "address": "1202 S UNIVERSITY PARKS DR WACO TX 76706",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
     "facility_id": "f_fef300db9b7d"
   },
   {
@@ -30,6 +40,16 @@
     "facility_id": "f_a972f3d7b160"
   },
   {
+    "name": "CITY OF WACO LANDFILL",
+    "type": "landfill",
+    "address": "11400 OLD MCGREGOR RD WACO TX 76712",
+    "lat": 31.47,
+    "lng": -97.26,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f7d0cf11d6d1"
+  },
+  {
     "name": "CITY OF WACO TRANSFER STATION FACILITY",
     "type": "transfer_station",
     "address": "6171 S UNIVERSITY PARKS DRIVE WACO TX 76706",
@@ -38,6 +58,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_2fbfc09dc587"
+  },
+  {
+    "name": "CITY OF WACO TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "6171 S UNIVERSITY PARKS DRIVE WACO TX 76706",
+    "lat": 31.5,
+    "lng": -97.08,
+    "website": null,
+    "source": null,
+    "facility_id": "f_56d0256c031e"
   },
   {
     "name": "Cobbs Recycling Center",
@@ -78,6 +108,16 @@
     "website": "https://www.greenoptionrecycling.com/",
     "source": null,
     "facility_id": "f_b1166d1e1fa9"
+  },
+  {
+    "name": "LACY-LAKEVIEW RECYCLING AND DISPOSAL FACILITY",
+    "type": "recycling",
+    "address": "677 SELBY LN WACO TX 76705",
+    "lat": 33.61,
+    "lng": -97.06,
+    "website": null,
+    "source": null,
+    "facility_id": "f_063c28a47555"
   },
   {
     "name": "LACY-LAKEVIEW RECYCLING AND DISPOSAL FACILITY",

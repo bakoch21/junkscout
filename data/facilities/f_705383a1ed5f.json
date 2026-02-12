@@ -11,23 +11,7 @@
   "appears_in": [
     {
       "state": "texas",
-      "city": "adjacent-s-edge-pecos-municipal-airport-pecos-city"
-    },
-    {
-      "state": "texas",
       "city": "city"
-    },
-    {
-      "state": "texas",
-      "city": "municipal-airport-pecos-city"
-    },
-    {
-      "state": "texas",
-      "city": "pecos-pecos-city"
-    },
-    {
-      "state": "texas",
-      "city": "pecos"
     }
   ]
 }

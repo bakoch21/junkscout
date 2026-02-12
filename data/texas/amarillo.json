@@ -110,6 +110,16 @@
     "facility_id": "f_219167caa008"
   },
   {
+    "name": "CITY OF AMARILLO TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "811 SE 27TH AVE AMARILLO TX 79103",
+    "lat": 35.19,
+    "lng": -101.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7924913007bd"
+  },
+  {
     "name": "Metal & Used Oil Collection Center",
     "type": "recycling",
     "address": "604 South Independence Street Amarillo TX 79106",

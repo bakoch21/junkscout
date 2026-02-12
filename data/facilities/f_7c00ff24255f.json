@@ -11,6 +11,10 @@
   "appears_in": [
     {
       "state": "texas",
+      "city": "goodrich"
+    },
+    {
+      "state": "texas",
       "city": "s-goodrich"
     }
   ]

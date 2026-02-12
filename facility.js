@@ -247,16 +247,29 @@ async function loadFacility() {
     }
 
     if (citiesEl && Array.isArray(f.appears_in)) {
+      const seen = new Set();
       const cities = f.appears_in
-        .map((x) => x.city)
-        .filter(Boolean)
-        .sort((a, b) => a.localeCompare(b));
+        .map((x) => ({
+          state: String(x?.state || "texas").toLowerCase().trim(),
+          city: String(x?.city || "").toLowerCase().trim(),
+        }))
+        .filter((x) => x.city)
+        .filter((x) => {
+          const key = `${x.state}/${x.city}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        })
+        .sort((a, b) => {
+          const sa = `${a.state}/${a.city}`;
+          const sb = `${b.state}/${b.city}`;
+          return sa.localeCompare(sb);
+        });
 
-      // NOTE: your existing code hardcodes /texas/. Leaving as-is for now.
       citiesEl.innerHTML = cities
-        .map((citySlug) => {
-          const cityName = titleCaseFromSlug(citySlug);
-          return `<a class="cityhub__pill" href="/texas/${citySlug}/">${escapeHtml(cityName)}</a>`;
+        .map((entry) => {
+          const cityName = titleCaseFromSlug(entry.city);
+          return `<a class="cityhub__pill" href="/${escapeHtml(entry.state)}/${escapeHtml(entry.city)}/">${escapeHtml(cityName)}</a>`;
         })
         .join("");
     }

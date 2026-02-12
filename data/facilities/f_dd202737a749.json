@@ -11,6 +11,10 @@
   "appears_in": [
     {
       "state": "texas",
+      "city": "austin"
+    },
+    {
+      "state": "texas",
       "city": "st-austin"
     }
   ]

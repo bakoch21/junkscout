@@ -47,6 +47,16 @@
     "lng": -97.96,
     "website": null,
     "source": null,
+    "facility_id": "f_bd4887115417"
+  },
+  {
+    "name": "TEXAS DECON",
+    "type": "landfill",
+    "address": "122 DENNIS DR SEGUIN TX 78155",
+    "lat": 29.7,
+    "lng": -97.96,
+    "website": null,
+    "source": null,
     "facility_id": "f_c9ac5247b3e7"
   }
 ]

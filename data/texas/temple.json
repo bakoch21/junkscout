@@ -10,6 +10,26 @@
     "facility_id": "f_722e6e45c35f"
   },
   {
+    "name": "CITY OF TEMPLE LANDFILL",
+    "type": "landfill",
+    "address": "706 LANDFILL RD TEMPLE TX 76501",
+    "lat": 31.07,
+    "lng": -97.3,
+    "website": null,
+    "source": null,
+    "facility_id": "f_eca8be85b815"
+  },
+  {
+    "name": "TEMPLE RENEWABLE NATURAL GAS FACILTY",
+    "type": "landfill",
+    "address": "706 LANDFILL RD TEMPLE TX 76501",
+    "lat": 31.07,
+    "lng": -97.3,
+    "website": null,
+    "source": null,
+    "facility_id": "f_603f54e3f026"
+  },
+  {
     "name": "TEMPLE RENEWABLE NATURAL GAS FACILTY",
     "type": "landfill",
     "address": "706 LANDFILL RD TEMPLE TX 76501",

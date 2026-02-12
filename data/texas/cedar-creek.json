@@ -8,5 +8,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_d7c12affc8a2"
+  },
+  {
+    "name": "BASTROP TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "2019 SH 121 W CEDAR CREEK TX 78612",
+    "lat": 30.75,
+    "lng": -97.56,
+    "website": null,
+    "source": null,
+    "facility_id": "f_eb13738f5458"
   }
 ]

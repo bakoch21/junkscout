@@ -8,5 +8,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_aa94183b6386"
+  },
+  {
+    "name": "CITY OF ALPINE LANDFILL",
+    "type": "landfill",
+    "address": "100 N 13TH ST ALPINE TX 79830",
+    "lat": 30.38,
+    "lng": -103.5,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b6163a2eae75"
   }
 ]

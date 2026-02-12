@@ -11,23 +11,7 @@
   "appears_in": [
     {
       "state": "texas",
-      "city": "adjacent-to-the-city-of-taft-wastewater-treatment-plant-in-san-patricio-county-tx-bay-city"
-    },
-    {
-      "state": "texas",
       "city": "city"
-    },
-    {
-      "state": "texas",
-      "city": "county-tx-bay-city"
-    },
-    {
-      "state": "texas",
-      "city": "patricio-tx-bay-city"
-    },
-    {
-      "state": "texas",
-      "city": "tx-bay"
     }
   ]
 }

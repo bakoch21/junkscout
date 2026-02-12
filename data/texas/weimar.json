@@ -8,5 +8,15 @@
     "website": null,
     "source": null,
     "facility_id": "f_27cf9790e720"
+  },
+  {
+    "name": "CITY OF WEIMAR TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "801 E SAINT CHARLES ST WEIMAR TX 78962",
+    "lat": 29.7,
+    "lng": -96.76,
+    "website": null,
+    "source": null,
+    "facility_id": "f_dcdb6605ed69"
   }
 ]

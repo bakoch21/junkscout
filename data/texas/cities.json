@@ -18,11 +18,6 @@
     },
     {
       "state": "texas",
-      "city": "adj-killeen",
-      "query": "Adj Killeen, Texas"
-    },
-    {
-      "state": "texas",
       "city": "aledo",
       "query": "Aledo, Texas"
     },
@@ -115,26 +110,6 @@
       "state": "texas",
       "city": "avalon",
       "query": "Avalon, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "ave-amarillo",
-      "query": "Ave Amarillo, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "ave-mansfield",
-      "query": "Ave Mansfield, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "avenue-a-alta-loma",
-      "query": "Avenue A Alta Loma, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "avenue-p-lubbock",
-      "query": "Avenue P Lubbock, Texas"
     },
     {
       "state": "texas",
@@ -388,16 +363,6 @@
     },
     {
       "state": "texas",
-      "city": "city-crystal-city",
-      "query": "City Crystal City, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "city-rio-grande-city",
-      "query": "City Rio Grande City, Texas"
-    },
-    {
-      "state": "texas",
       "city": "clarendon",
       "query": "Clarendon, Texas"
     },
@@ -553,41 +518,6 @@
     },
     {
       "state": "texas",
-      "city": "e-conroe",
-      "query": "E Conroe, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "e-fort-stockton-fort-stockton",
-      "query": "E Fort Stockton Fort Stockton, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "e-henderson",
-      "query": "E Henderson, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "e-of-fountain-view-houston",
-      "query": "E Of Fountain View Houston, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "e-san-antonio",
-      "query": "E San Antonio, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "e-texline",
-      "query": "E Texline, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "e-winters",
-      "query": "E Winters, Texas"
-    },
-    {
-      "state": "texas",
       "city": "eagle-pass",
       "query": "Eagle Pass, Texas"
     },
@@ -635,11 +565,6 @@
       "state": "texas",
       "city": "falls",
       "query": "Falls, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "feet-e-stratford",
-      "query": "Feet E Stratford, Texas"
     },
     {
       "state": "texas",
@@ -810,56 +735,6 @@
       "state": "texas",
       "city": "hutto",
       "query": "Hutto, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-booker-booker",
-      "query": "In Booker Booker, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-gray-county",
-      "query": "In Gray County, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-hansford-county-spearman",
-      "query": "In Hansford County Spearman, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-jones-county-abilene",
-      "query": "In Jones County Abilene, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-moore-county-dumas",
-      "query": "In Moore County Dumas, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-panola-county-carthage",
-      "query": "In Panola County Carthage, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-rock-springs-rocksprings",
-      "query": "In Rock Springs Rocksprings, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-shelby-co",
-      "query": "In Shelby Co, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-swisher-county-tulia",
-      "query": "In Swisher County Tulia, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "in-texarkana-texarkana",
-      "query": "In Texarkana Texarkana, Texas"
     },
     {
       "state": "texas",
@@ -1063,11 +938,6 @@
     },
     {
       "state": "texas",
-      "city": "mile-of-morton-morton",
-      "query": "Mile Of Morton Morton, Texas"
-    },
-    {
-      "state": "texas",
       "city": "monahans",
       "query": "Monahans, Texas"
     },
@@ -1085,36 +955,6 @@
       "state": "texas",
       "city": "muleshoe",
       "query": "Muleshoe, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "n-brenham",
-      "query": "N Brenham, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "n-huntsville",
-      "query": "N Huntsville, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "n-kilgore",
-      "query": "N Kilgore, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "n-tyler",
-      "query": "N Tyler, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "n-vernon",
-      "query": "N Vernon, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "n-victoria",
-      "query": "N Victoria, Texas"
     },
     {
       "state": "texas",
@@ -1138,16 +978,6 @@
     },
     {
       "state": "texas",
-      "city": "north-jacksonville",
-      "query": "North Jacksonville, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "north-san-antonio",
-      "query": "North San Antonio, Texas"
-    },
-    {
-      "state": "texas",
       "city": "odessa",
       "query": "Odessa, Texas"
     },
@@ -1155,11 +985,6 @@
       "state": "texas",
       "city": "olton",
       "query": "Olton, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "on-bobwhite-levelland",
-      "query": "On Bobwhite Levelland, Texas"
     },
     {
       "state": "texas",
@@ -1288,21 +1113,6 @@
     },
     {
       "state": "texas",
-      "city": "rd-conroe",
-      "query": "Rd Conroe, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "rd-fresno",
-      "query": "Rd Fresno, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "rd-kountze",
-      "query": "Rd Kountze, Texas"
-    },
-    {
-      "state": "texas",
       "city": "republic-way-avalon",
       "query": "Republic Way Avalon, Texas"
     },
@@ -1335,31 +1145,6 @@
       "state": "texas",
       "city": "rowlett",
       "query": "Rowlett, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "s-brownwood",
-      "query": "S Brownwood, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "s-business-park-port-arthur",
-      "query": "S Business Park Port Arthur, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "s-goodrich",
-      "query": "S Goodrich, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "s-sully-clarendon",
-      "query": "S Sully Clarendon, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "s-woodville",
-      "query": "S Woodville, Texas"
     },
     {
       "state": "texas",
@@ -1398,11 +1183,6 @@
     },
     {
       "state": "texas",
-      "city": "se-of-muleshoe-muleshoe",
-      "query": "Se Of Muleshoe Muleshoe, Texas"
-    },
-    {
-      "state": "texas",
       "city": "seguin",
       "query": "Seguin, Texas"
     },
@@ -1438,11 +1218,6 @@
     },
     {
       "state": "texas",
-      "city": "south-victoria",
-      "query": "South Victoria, Texas"
-    },
-    {
-      "state": "texas",
       "city": "spearman",
       "query": "Spearman, Texas"
     },
@@ -1455,36 +1230,6 @@
       "state": "texas",
       "city": "springs",
       "query": "Springs, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "st-alpine",
-      "query": "St Alpine, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "st-arlington",
-      "query": "St Arlington, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "st-austin",
-      "query": "St Austin, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "st-crane",
-      "query": "St Crane, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "st-harlingen",
-      "query": "St Harlingen, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "st-lamesa",
-      "query": "St Lamesa, Texas"
     },
     {
       "state": "texas",
@@ -1505,11 +1250,6 @@
       "state": "texas",
       "city": "stockton",
       "query": "Stockton, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "street-houston",
-      "query": "Street Houston, Texas"
     },
     {
       "state": "texas",
@@ -1568,18 +1308,8 @@
     },
     {
       "state": "texas",
-      "city": "to-site-sudan",
-      "query": "To Site Sudan, Texas"
-    },
-    {
-      "state": "texas",
       "city": "tyler",
       "query": "Tyler, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "unknown",
-      "query": "Unknown, Texas"
     },
     {
       "state": "texas",
@@ -1600,36 +1330,6 @@
       "state": "texas",
       "city": "vleck",
       "query": "Vleck, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "w-alvarado",
-      "query": "W Alvarado, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "w-cedar-creek",
-      "query": "W Cedar Creek, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "w-dale",
-      "query": "W Dale, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "w-leggett",
-      "query": "W Leggett, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "w-on",
-      "query": "W On, Texas"
-    },
-    {
-      "state": "texas",
-      "city": "w-waco",
-      "query": "W Waco, Texas"
     },
     {
       "state": "texas",

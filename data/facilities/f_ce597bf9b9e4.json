@@ -11,23 +11,7 @@
   "appears_in": [
     {
       "state": "texas",
-      "city": "gray-county-texas-pampa"
-    },
-    {
-      "state": "texas",
-      "city": "pampa-gray-county-texas-pampa"
-    },
-    {
-      "state": "texas",
-      "city": "pampa-gray-texas-pampa"
-    },
-    {
-      "state": "texas",
       "city": "pampa"
-    },
-    {
-      "state": "texas",
-      "city": "texas-pampa"
     }
   ]
 }

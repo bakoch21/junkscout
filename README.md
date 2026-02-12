@@ -53,6 +53,32 @@ npm run push -- "your commit message"
 
 If there are no local changes, this runs `git push` only.
 
+### 6) Run quality gate
+
+```cmd
+npm run verify:smoke
+```
+
+Or run full build plus gate:
+
+```cmd
+npm run build:verified
+```
+
+### 7) Stale output pruning (safe by default)
+
+Report only:
+
+```cmd
+npm run prune:report
+```
+
+Apply deletions:
+
+```cmd
+npm run prune:apply
+```
+
 ## Build outputs
 
 Generated static pages are written directly into the repo:

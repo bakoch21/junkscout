@@ -11,19 +11,7 @@
   "appears_in": [
     {
       "state": "texas",
-      "city": "go-locked-gate-hedley"
-    },
-    {
-      "state": "texas",
       "city": "hedley"
-    },
-    {
-      "state": "texas",
-      "city": "locked-gate-hedley"
-    },
-    {
-      "state": "texas",
-      "city": "turn-right-at-main-st-go-to-line-st-turn-left-go-down-line-rd-before-bailey-has-no-sign-turn-right-go-down-to-dead-end-turn-left-and-go-to-locked-gate-hedley"
     }
   ]
 }

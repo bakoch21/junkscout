@@ -187,6 +187,16 @@
     "lng": -96.52,
     "website": null,
     "source": null,
+    "facility_id": "f_2e9216d931c4"
+  },
+  {
+    "name": "COMMERCIAL WAREHOUSE FACILITY",
+    "type": "landfill",
+    "address": "3191 COMMONWEALTH DR DALLAS TX 75247",
+    "lat": 32.48,
+    "lng": -96.52,
+    "website": null,
+    "source": null,
     "facility_id": "f_97b5bde9c7d3"
   },
   {
@@ -208,6 +218,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_ed8a80a2c2ee"
+  },
+  {
+    "name": "COMMUNITY WASTE DISPOSAL LP",
+    "type": "landfill",
+    "address": "2010 CALIFORNIA CROSSING RD DALLAS TX 75220",
+    "lat": 32.86,
+    "lng": -96.91,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4c4ca5fdcfaf"
   },
   {
     "name": "COMMUNITY WASTE DISPOSAL LP",
@@ -398,6 +418,16 @@
     "website": null,
     "source": null,
     "facility_id": "f_dd980d08c6e8"
+  },
+  {
+    "name": "INWOOD TRADE CENTER BUSINESS PARK",
+    "type": "landfill",
+    "address": "1121 CONVEYOR LN DALLAS TX 75247",
+    "lat": 32.81,
+    "lng": -96.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_21eea8635171"
   },
   {
     "name": "INWOOD TRADE CENTER BUSINESS PARK",

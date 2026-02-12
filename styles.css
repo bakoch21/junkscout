@@ -1,16 +1,18 @@
-:root{
-  --bg:#fbf7f2;
+﻿:root{
+  --bg:#f3f7fc;
+  --bgSoft:#edf3fb;
+  --bgWarm:#f9f4ec;
   --panel:#ffffff;
   --text:#1d1d1f;
   --muted:#6b7280;
-  --border:#e6e2dc;
-  --shadow: 0 10px 30px rgba(0,0,0,.06);
-  --shadowStrong: 0 14px 40px rgba(0,0,0,.08);
+  --border:#dde5f0;
+  --shadow: 0 10px 30px rgba(20,37,63,.08);
+  --shadowStrong: 0 16px 44px rgba(20,37,63,.14);
 
-  --green:#3f7a3a;
-  --green2:#2f6a31;
-  --blue:#2e6ea6;
-  --orange:#b26b2f;
+  --green:#2f7652;
+  --green2:#225d3f;
+  --blue:#235d9e;
+  --orange:#a56226;
 
   --radius:16px;
   --radius2:22px;
@@ -22,7 +24,11 @@ body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
   color:var(--text);
-  background:var(--bg);
+  background:
+    radial-gradient(1200px 600px at 0% -10%, rgba(35,93,158,.13), transparent 65%),
+    radial-gradient(1000px 500px at 100% -5%, rgba(47,118,82,.11), transparent 62%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bgSoft) 55%, var(--bgWarm) 100%);
+  min-height:100vh;
 }
 a{color:inherit; text-decoration:none}
 .container{max-width:var(--max); margin:0 auto; padding:0 20px}
@@ -34,8 +40,9 @@ a{color:inherit; text-decoration:none}
 .nav{
   position:sticky; top:0; z-index:50;
   backdrop-filter:saturate(180%) blur(8px);
-  background:rgba(251,247,242,.86);
-  border-bottom:1px solid rgba(230,226,220,.7);
+  background:rgba(245,249,255,.82);
+  border-bottom:1px solid rgba(192,206,224,.65);
+  box-shadow: 0 8px 24px rgba(23,42,67,.08);
 }
 .nav__inner{
   height:64px;
@@ -93,16 +100,30 @@ a{color:inherit; text-decoration:none}
   border-radius:12px;
   cursor:pointer;
   font-weight:600;
+  transition: transform .14s ease, box-shadow .14s ease, border-color .14s ease;
 }
 .btn--primary{
-  background:var(--green);
+  background:#1f5fa0;
   border-color:transparent;
   color:white;
   font-size:15px;
   padding:12px 18px;
-  box-shadow:0 8px 18px rgba(63,122,58,0.25);
+  box-shadow:0 10px 24px rgba(31,95,160,0.32);
 }
-.btn--primary:hover{background:var(--green2)}
+.btn--primary:hover{
+  background:#174f86;
+  transform: translateY(-1px);
+}
+.btn--search-primary{
+  background:#1f5fa0;
+  box-shadow:0 10px 24px rgba(31,95,160,0.32);
+}
+.btn--search-primary:hover{
+  background:#174f86;
+}
+.btn:hover{
+  border-color: rgba(35,93,158,.28);
+}
 .btn--ghost{background:transparent}
 .btn--big{
   padding:13px 18px;
@@ -110,17 +131,53 @@ a{color:inherit; text-decoration:none}
 }
 
 /* Hero */
-.hero{padding:64px 0 72px}
+.hero{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:64px 0 72px;
+}
+.hero::before,
+.hero::after{
+  content:"";
+  position:absolute;
+  z-index:0;
+  pointer-events:none;
+  border-radius:999px;
+  filter: blur(3px);
+}
+.hero::before{
+  width:520px;
+  height:520px;
+  right:-180px;
+  top:-190px;
+  background: radial-gradient(circle at 30% 30%, rgba(35,93,158,.21), rgba(35,93,158,0) 70%);
+  animation: drift 20s ease-in-out infinite;
+}
+.hero::after{
+  width:420px;
+  height:420px;
+  left:-140px;
+  bottom:-220px;
+  background: radial-gradient(circle at 70% 30%, rgba(47,118,82,.20), rgba(47,118,82,0) 72%);
+  animation: drift 24s ease-in-out infinite reverse;
+}
+.hero .container{
+  position:relative;
+  z-index:1;
+}
 .hero h1{
   margin:0;
   max-width:820px;
   font-size:46px;
   letter-spacing:-.9px;
   line-height:1.06;
+  text-wrap:balance;
+  text-shadow: 0 1px 0 rgba(255,255,255,.6);
 }
 .subhead{
   max-width:680px;
-  color:#4b5563;
+  color:#475569;
   font-size:17px;
   line-height:1.55;
   margin:16px 0 12px; /* tightened */
@@ -134,7 +191,8 @@ a{color:inherit; text-decoration:none}
 
 /* Wizard */
 .wizard{
-  background: linear-gradient(180deg, #ffffff 0%, #fdfaf6 100%);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.96) 0%, rgba(245,249,255,.90) 100%);
   border:1px solid var(--border);
   border-radius:var(--radius2);
   padding:22px;
@@ -154,6 +212,7 @@ a{color:inherit; text-decoration:none}
   background:#fff;
   padding:10px 12px;
   border-radius:14px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.75);
 }
 .combo input{
   border:0; outline:0; width:100%;
@@ -231,17 +290,17 @@ select{
 }
 .card{
   position:relative; /* enables subtle clickable affordances */
-  background:var(--panel);
-  border:1px solid rgba(0,0,0,0.06);
+  background:linear-gradient(180deg, rgba(255,255,255,.98), rgba(249,252,255,.95));
+  border:1px solid rgba(35,93,158,0.12);
   border-radius:var(--radius);
   padding:18px;
-  box-shadow:0 10px 26px rgba(0,0,0,.06);
+  box-shadow:0 12px 28px rgba(20,37,63,.08);
   transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 .card:hover{
   transform: translateY(-3px);
   box-shadow: var(--shadowStrong);
-  border-color: rgba(46,110,166,0.35); /* subtle “link” cue */
+  border-color: rgba(35,93,158,0.34);
 }
 .card--clickable{ cursor: pointer; }
 
@@ -259,7 +318,7 @@ select{
 .badge--rule.orange { border-color: #f0a35e; color: #8a4b10; }
 .badge--rule.gray  { border-color: #b0b0b0; color: #555; }
 
-/* Make “details” look intentional, not incidental */
+/* Make â€œdetailsâ€ look intentional, not incidental */
 .card__cta{
   margin-left:auto;
   font-size:13px;
@@ -300,7 +359,8 @@ select{
 
 /* Texas hub (city directory) */
 .cityhub{
-  background: linear-gradient(180deg, #ffffff 0%, #fdfaf6 100%);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.96) 0%, rgba(245,249,255,.90) 100%);
   border:1px solid var(--border);
   border-radius: var(--radius2);
   padding:18px;
@@ -322,14 +382,14 @@ select{
   font-size:14px;
   background:#fff;
   outline:none;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+  box-shadow: 0 10px 20px rgba(20,37,63,0.06);
 }
 .cityhub__search:focus{
   border-color: rgba(46,110,166,0.55);
   box-shadow: 0 10px 22px rgba(46,110,166,0.10);
 }
 
-/* ✅ List-style layout: clean, scannable, responsive */
+/* âœ… List-style layout: clean, scannable, responsive */
 .cityhub__grid{
   margin-top: 6px;
   display:grid;
@@ -344,10 +404,10 @@ select{
   padding:10px 12px;
   border-radius:12px;
   border:1px solid rgba(0,0,0,0.08);
-  background:#ffffff;
+  background:linear-gradient(180deg,#ffffff,#f8fbff);
   font-weight:700;
   font-size:13px;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+  box-shadow: 0 10px 20px rgba(20,37,63,0.06);
   transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 .cityhub__pill:hover{
@@ -359,7 +419,7 @@ select{
 
 /* Nice little affordance: a subtle arrow on hover */
 .cityhub__pill::after{
-  content:"→";
+  content:"->";
   color:#9ca3af;
   font-weight:900;
   transition: transform .12s ease, color .12s ease;
@@ -379,10 +439,10 @@ h2{font-size:28px; margin:0 0 14px}
 }
 .why__item{
   background:rgba(255,255,255,0.82);
-  border:1px solid rgba(0,0,0,0.04);
+  border:1px solid rgba(35,93,158,.10);
   border-radius:var(--radius);
   padding:20px;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.04);
+  box-shadow: 0 10px 24px rgba(20,37,63,0.06);
 }
 .why__item h3{margin:12px 0 8px}
 .why__item p{margin:0; color:#4b5563; line-height:1.5}
@@ -399,11 +459,11 @@ h2{font-size:28px; margin:0 0 14px}
 }
 .tile{
   background:var(--panel);
-  border:1px solid rgba(0,0,0,0.06);
+  border:1px solid rgba(35,93,158,.10);
   border-radius:14px;
   padding:14px;
   display:flex; gap:10px; align-items:center;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  box-shadow: 0 10px 22px rgba(20,37,63,0.06);
   transition: transform .12s ease, box-shadow .12s ease;
 }
 .tile:hover{transform:translateY(-1px); box-shadow:var(--shadowStrong)}
@@ -422,18 +482,25 @@ h2{font-size:28px; margin:0 0 14px}
 }
 
 .recent__head{display:flex; justify-content:space-between; align-items:end; gap:12px}
+.state-shortcuts{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap:wrap;
+}
 .recent__list{display:flex; flex-direction:column; gap:10px}
 .recent__item{
   background:var(--panel);
-  border:1px solid rgba(0,0,0,0.06);
+  border:1px solid rgba(35,93,158,.10);
   border-radius:14px;
   padding:12px 14px;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+  box-shadow: 0 10px 20px rgba(20,37,63,0.06);
 }
 
 .report__box{
-  background:linear-gradient(180deg, rgba(63,122,58,.10), rgba(255,255,255,.86));
-  border:1px solid rgba(0,0,0,0.06);
+  background:
+    linear-gradient(180deg, rgba(47,118,82,.12), rgba(255,255,255,.90));
+  border:1px solid rgba(35,93,158,.10);
   border-radius:var(--radius2);
   padding:20px;
   box-shadow: var(--shadowStrong);
@@ -443,7 +510,7 @@ h2{font-size:28px; margin:0 0 14px}
 /* Footer */
 .footer{
   margin-top:48px;
-  background:#2f3a40;
+  background:linear-gradient(180deg,#243241,#1e2b39);
   color:#e5e7eb;
   padding:28px 0;
 }
@@ -492,7 +559,7 @@ h2{font-size:28px; margin:0 0 14px}
     height:56px;                 /* stable row height */
     padding: 10px 14px;
     gap: 12px;
-    flex-wrap: nowrap;           /* <-- THIS fixes the “button lower” issue */
+    flex-wrap: nowrap;           /* <-- THIS fixes the â€œbutton lowerâ€ issue */
     align-items: center;
   }
 
@@ -508,7 +575,7 @@ h2{font-size:28px; margin:0 0 14px}
     gap: 10px;
   }
   .nav__actions .btn:not(.btn--primary){
-    display:none;                /* remove "Suggest a correction" on mobile */
+    display:none;                /* keep only one state shortcut button on mobile */
   }
 
   /* Make primary CTA consistent + vertically centered */
@@ -529,7 +596,7 @@ h2{font-size:28px; margin:0 0 14px}
   .combo__btn{ width: 100%; }
 
   /* --- Facility cards: CTA buttons should stack cleanly --- */
-  .card .btn--primary{ width: 100%; }   /* makes “Maps” stop overlapping */
+  .card .btn--primary{ width: 100%; }   /* makes â€œMapsâ€ stop overlapping */
   .nav .btn--primary{ width: auto; }    /* but NOT in the header */
 }
 
@@ -627,7 +694,7 @@ h2{font-size:28px; margin:0 0 14px}
     letter-spacing: -0.02em;
   }
 
-  /* Your facility template sets 3 columns inline — override it on mobile */
+  /* Your facility template sets 3 columns inline â€” override it on mobile */
   .wizard__row{
     grid-template-columns: 1fr !important;
     align-items: stretch !important;
@@ -652,3 +719,11 @@ h2{font-size:28px; margin:0 0 14px}
     white-space: nowrap;
   }
 }
+
+
+@keyframes drift{
+  0%, 100% { transform: translate3d(0,0,0) scale(1); }
+  50% { transform: translate3d(0,-10px,0) scale(1.03); }
+}
+
+

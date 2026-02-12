@@ -11,23 +11,7 @@
   "appears_in": [
     {
       "state": "texas",
-      "city": "culberson-county-van-horn"
-    },
-    {
-      "state": "texas",
-      "city": "horn-culberson-van-horn"
-    },
-    {
-      "state": "texas",
       "city": "horn"
-    },
-    {
-      "state": "texas",
-      "city": "van-horn-culberson-county-van-horn"
-    },
-    {
-      "state": "texas",
-      "city": "van-horn"
     }
   ]
 }

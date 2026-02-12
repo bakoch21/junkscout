@@ -11,6 +11,10 @@
   "appears_in": [
     {
       "state": "texas",
+      "city": "fresno"
+    },
+    {
+      "state": "texas",
       "city": "rd-fresno"
     }
   ]

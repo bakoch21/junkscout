@@ -27,6 +27,16 @@
     "lng": -99.75,
     "website": null,
     "source": null,
+    "facility_id": "f_992175aa196b"
+  },
+  {
+    "name": "ABILENE LANDFILL TX LP",
+    "type": "landfill",
+    "address": "US HWY 277 & FM 3034 IN JONES COUNTY ABILENE TX 79604",
+    "lat": 32.52,
+    "lng": -99.75,
+    "website": null,
+    "source": null,
     "facility_id": "f_f1ec7c1db862"
   }
 ]

@@ -385,12 +385,16 @@ function buildPopupHtml(item) {
     ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}`
     : (lat !== null && lng !== null ? `https://www.google.com/maps/search/?api=1&query=${lat},${lng}` : "#");
 
+  const facilityId = String(item?.facility_id || item?.id || "").trim();
+  const facilityHref = facilityId ? `/facility/${encodeURIComponent(facilityId)}/` : "";
+
   return `
     <div style="min-width:180px">
       <div style="font-weight:800; line-height:1.2">${name}</div>
       ${address}
-      <div style="margin-top:8px">
+      <div style="margin-top:8px; display:flex; gap:10px; align-items:center; flex-wrap:wrap">
         <a class="link" href="${dirs}" target="_blank" rel="noopener">Directions</a>
+        ${facilityHref ? `<a class="link" href="${facilityHref}">Facility page</a>` : ""}
       </div>
     </div>
   `;
@@ -921,6 +925,9 @@ function renderCard(item) {
     ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}`
     : (lat !== null && lng !== null ? `https://www.google.com/maps/search/?api=1&query=${lat},${lng}` : "#");
 
+  const facilityId = String(item.facility_id || item.id || "").trim();
+  const facilityHref = facilityId ? `/facility/${encodeURIComponent(facilityId)}/` : "";
+
   const toggleId = getIdForItem(item) || Math.random().toString(36).slice(2);
   const detailsPanel = renderDetailsPanel(item, toggleId);
 
@@ -934,6 +941,7 @@ function renderCard(item) {
 
       <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
         <a class="link" href="${mapsUrl}" target="_blank" rel="noopener">Directions</a>
+        ${facilityHref ? `<a class="link" href="${facilityHref}">Facility page</a>` : ""}
         <button type="button" class="btn btn--ghost" data-details-toggle="${dataId}" style="padding:8px 12px">
           Details
         </button>
