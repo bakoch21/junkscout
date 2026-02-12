@@ -6,10 +6,8 @@
     "lat": 36.42,
     "lng": -100.79,
     "website": null,
-    "facility_id": "f_129b3638e2e5",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_129b3638e2e5"
   },
   {
     "name": "PERRYTON MUNICIPAL SOLID WASTE LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 36.42,
     "lng": -100.79,
     "website": null,
-    "facility_id": "f_98b8b0c8730a",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_98b8b0c8730a"
   }
 ]

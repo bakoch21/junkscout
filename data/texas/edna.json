@@ -6,10 +6,8 @@
     "lat": 28.98,
     "lng": -96.57,
     "website": null,
-    "facility_id": "f_45ef513dc968",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_45ef513dc968"
   },
   {
     "name": "JACKSON COUNTY TRANSFER STATION FACILITY",
@@ -18,9 +16,7 @@
     "lat": 28.98,
     "lng": -96.57,
     "website": null,
-    "facility_id": "f_c9ad956c3a0e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_c9ad956c3a0e"
   }
 ]

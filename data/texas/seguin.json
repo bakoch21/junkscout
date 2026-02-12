@@ -1,15 +1,23 @@
 [
   {
-    "name": "POST OAK MSW LANDFILL",
-    "type": "landfill",
-    "address": "7787 FM RD 1150 SEGUIN TX 78155",
-    "lat": 29.61,
-    "lng": -97.72,
+    "name": "City of Seguin Recycling Center",
+    "type": "recycling",
+    "address": "634 Fred Byrd Drive 78155",
+    "lat": 29.5583498,
+    "lng": -97.9720712,
     "website": null,
-    "facility_id": "f_636318c14411",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_9954372ea29b"
+  },
+  {
+    "name": "City of Seguin Recycling Center",
+    "type": "recycling",
+    "address": "634 Fred Byrd Drive 78155",
+    "lat": 29.5583498,
+    "lng": -97.9720712,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a498415814ed"
   },
   {
     "name": "POST OAK MSW LANDFILL",
@@ -18,9 +26,27 @@
     "lat": 29.61,
     "lng": -97.72,
     "website": null,
-    "facility_id": "f_8a48306891ab",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_636318c14411"
+  },
+  {
+    "name": "POST OAK MSW LANDFILL",
+    "type": "landfill",
+    "address": "7787 FM RD 1150 SEGUIN TX 78155",
+    "lat": 29.61,
+    "lng": -97.72,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8a48306891ab"
+  },
+  {
+    "name": "TEXAS DECON",
+    "type": "landfill",
+    "address": "122 DENNIS DR SEGUIN TX 78155",
+    "lat": 29.7,
+    "lng": -97.96,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c9ac5247b3e7"
   }
 ]

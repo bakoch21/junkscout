@@ -6,10 +6,8 @@
     "lat": 36.49,
     "lng": -100.52,
     "website": null,
-    "facility_id": "f_021d8368637b",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_021d8368637b"
   },
   {
     "name": "CITY OF BOOKER LANDFILL",
@@ -18,10 +16,8 @@
     "lat": 36.49,
     "lng": -100.52,
     "website": null,
-    "facility_id": "f_40365e2d1274",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_40365e2d1274"
   },
   {
     "name": "CITY OF BOOKER LANDFILL",
@@ -30,9 +26,7 @@
     "lat": 36.49,
     "lng": -100.52,
     "website": null,
-    "facility_id": "f_e4cc50e737d1",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_e4cc50e737d1"
   }
 ]

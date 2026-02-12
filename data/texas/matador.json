@@ -6,10 +6,8 @@
     "lat": 34.04,
     "lng": -100.82,
     "website": null,
-    "facility_id": "f_9d398401fba6",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_9d398401fba6"
   },
   {
     "name": "CITY OF MATADOR LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 34.04,
     "lng": -100.82,
     "website": null,
-    "facility_id": "f_ca3d5b329046",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_ca3d5b329046"
   }
 ]

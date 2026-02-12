@@ -6,10 +6,8 @@
     "lat": 28.39,
     "lng": -98.44,
     "website": null,
-    "facility_id": "f_0dd69592f707",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_0dd69592f707"
   },
   {
     "name": "SOUTHSIDE LIONS PARK",
@@ -18,9 +16,7 @@
     "lat": 28.39,
     "lng": -98.44,
     "website": null,
-    "facility_id": "f_ef07270934eb",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_ef07270934eb"
   }
 ]

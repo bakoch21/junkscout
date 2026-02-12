@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CITY OF GALVESTON TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "5515 PORT INDUSTRIAL BLVD GALVESTON TX 77554",
+    "lat": 29.3,
+    "lng": -94.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0df8e175f89a"
+  },
+  {
+    "name": "CITY OF GALVESTON TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "5515 PORT INDUSTRIAL BLVD GALVESTON TX 77554",
+    "lat": 29.3,
+    "lng": -94.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_764819c83161"
+  },
+  {
+    "name": "UTMB GALVESTON SOLID WASTE INCINERATION FACILITY",
+    "type": "landfill",
+    "address": "301 UNIVERSITY BLVD GALVESTON TX 77555",
+    "lat": 29.31,
+    "lng": -94.78,
+    "website": null,
+    "source": null,
+    "facility_id": "f_107ed6fc4f1b"
+  },
+  {
+    "name": "UTMB GALVESTON SOLID WASTE INCINERATION FACILITY",
+    "type": "landfill",
+    "address": "301 UNIVERSITY BLVD GALVESTON TX 77555",
+    "lat": 29.31,
+    "lng": -94.78,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f8c6be1aa819"
+  }
+]

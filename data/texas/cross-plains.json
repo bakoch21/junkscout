@@ -6,10 +6,8 @@
     "lat": 32.11,
     "lng": -99.17,
     "website": null,
-    "facility_id": "f_aa7324b16cb5",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_aa7324b16cb5"
   },
   {
     "name": "CITY OF CROSS PLAINS",
@@ -18,9 +16,7 @@
     "lat": 32.11,
     "lng": -99.17,
     "website": null,
-    "facility_id": "f_d45b021a6121",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_d45b021a6121"
   }
 ]

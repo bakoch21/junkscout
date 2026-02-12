@@ -1,39 +1,13 @@
 [
   {
-    "name": "SEABREEZE ENVIRONMENTAL LANDFILL",
-    "type": "landfill",
-    "address": "10310 FM 523 ANGLETON TX 77515",
-    "lat": 29.04,
-    "lng": -95.32,
+    "name": "BRAZORIA COUNTY RECYCLING CENTER TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "10315 FM 523 ANGLETON TX 77515",
+    "lat": 29.09,
+    "lng": -95.37,
     "website": null,
-    "facility_id": "f_18e0149dca95",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "SEABREEZE ENVIRONMENTAL LANDFILL",
-    "type": "landfill",
-    "address": "10310 FM 523 ANGLETON TX 77515",
-    "lat": 29.04,
-    "lng": -95.32,
-    "website": null,
-    "facility_id": "f_5b685e154935",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "SEABREEZE ENVIRONMENTAL LANDFILL",
-    "type": "landfill",
-    "address": "10310 FM 523 ANGLETON TX 77515",
-    "lat": 29.04,
-    "lng": -95.32,
-    "website": null,
-    "facility_id": "f_b00b29b1e154",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_deae3f663b7b"
   },
   {
     "name": "BRAZORIA COUNTY RECYCLING CENTER TRANSFER STATION FACILITY",
@@ -42,21 +16,37 @@
     "lat": 29.09,
     "lng": -95.37,
     "website": null,
-    "facility_id": "f_deae3f663b7b",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_ee527d06d3ab"
   },
   {
-    "name": "BRAZORIA COUNTY RECYCLING CENTER TRANSFER STATION FACILITY",
-    "type": "transfer_station",
-    "address": "10315 FM 523 ANGLETON TX 77515",
-    "lat": 29.09,
-    "lng": -95.37,
+    "name": "SEABREEZE ENVIRONMENTAL LANDFILL",
+    "type": "landfill",
+    "address": "10310 FM 523 ANGLETON TX 77515",
+    "lat": 29.04,
+    "lng": -95.32,
     "website": null,
-    "facility_id": "f_ee527d06d3ab",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_18e0149dca95"
+  },
+  {
+    "name": "SEABREEZE ENVIRONMENTAL LANDFILL",
+    "type": "landfill",
+    "address": "10310 FM 523 ANGLETON TX 77515",
+    "lat": 29.04,
+    "lng": -95.32,
+    "website": null,
+    "source": null,
+    "facility_id": "f_5b685e154935"
+  },
+  {
+    "name": "SEABREEZE ENVIRONMENTAL LANDFILL",
+    "type": "landfill",
+    "address": "10310 FM 523 ANGLETON TX 77515",
+    "lat": 29.04,
+    "lng": -95.32,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b00b29b1e154"
   }
 ]

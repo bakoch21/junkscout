@@ -1,0 +1,17 @@
+{
+  "id": "f_4859f942e684",
+  "slug": "city-of-harlingen",
+  "name": "CITY OF HARLINGEN",
+  "type": "landfill",
+  "address": "E OF LOOP 499 ED CAREY DR AND S OF HARRISON ST FM 106 HARLINGEN TX",
+  "lat": 26.19,
+  "lng": -97.66,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "harlingen"
+    }
+  ]
+}

@@ -6,10 +6,8 @@
     "lat": 31.79,
     "lng": -102.55,
     "website": null,
-    "facility_id": "f_4af3e4238cc6",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_4af3e4238cc6"
   },
   {
     "name": "DIAMOND BACK SOLID WASTE FACILITY AND RECYCLING CENTER",
@@ -18,9 +16,27 @@
     "lat": 31.79,
     "lng": -102.55,
     "website": null,
-    "facility_id": "f_a788133a7f75",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_a788133a7f75"
+  },
+  {
+    "name": "ODESSA LANDFILL",
+    "type": "landfill",
+    "address": "12035 W MURPHY ST ODESSA TX 79763",
+    "lat": 31.77,
+    "lng": -102.5,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8fcb29da5d5a"
+  },
+  {
+    "name": "ODESSA LANDFILL",
+    "type": "landfill",
+    "address": "12035 W MURPHY ST ODESSA TX 79763",
+    "lat": 31.77,
+    "lng": -102.5,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9e6f660ba5d7"
   }
 ]

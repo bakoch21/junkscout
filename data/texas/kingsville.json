@@ -6,10 +6,8 @@
     "lat": 27.45,
     "lng": -97.82,
     "website": null,
-    "facility_id": "f_1417050e27f8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_1417050e27f8"
   },
   {
     "name": "CITY OF KINGSVILLE LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 27.45,
     "lng": -97.82,
     "website": null,
-    "facility_id": "f_f24a5c9b0af6",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_f24a5c9b0af6"
   }
 ]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CITY OF ELDORADO LANDFILL",
+    "type": "landfill",
+    "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
+    "lat": 30.87,
+    "lng": -100.69,
+    "website": null,
+    "source": null,
+    "facility_id": "f_80aba4f2942b"
+  },
+  {
+    "name": "CITY OF ELDORADO LANDFILL",
+    "type": "landfill",
+    "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
+    "lat": 30.9,
+    "lng": -100.54,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8ade9b1ccadf"
+  },
+  {
+    "name": "CITY OF ELDORADO LANDFILL",
+    "type": "landfill",
+    "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
+    "lat": 30.9,
+    "lng": -100.54,
+    "website": null,
+    "source": null,
+    "facility_id": "f_da24e56b6fd5"
+  },
+  {
+    "name": "CITY OF ELDORADO LANDFILL",
+    "type": "landfill",
+    "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
+    "lat": 30.87,
+    "lng": -100.69,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f3223b1f95e4"
+  }
+]

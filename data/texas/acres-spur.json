@@ -6,10 +6,8 @@
     "lat": 33.45,
     "lng": -100.86,
     "website": null,
-    "facility_id": "f_143a15921606",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_143a15921606"
   },
   {
     "name": "CITY OF SPUR HOUSE DISPOSAL SITE",
@@ -18,9 +16,7 @@
     "lat": 33.45,
     "lng": -100.86,
     "website": null,
-    "facility_id": "f_dac93178120b",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_dac93178120b"
   }
 ]

@@ -6,10 +6,8 @@
     "lat": 32.42,
     "lng": -100.87,
     "website": null,
-    "facility_id": "f_159b1a5711b8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_159b1a5711b8"
   },
   {
     "name": "CITY OF COLORADO CITY LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 32.42,
     "lng": -100.87,
     "website": null,
-    "facility_id": "f_e76498cdb3c8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_e76498cdb3c8"
   }
 ]

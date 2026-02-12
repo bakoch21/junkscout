@@ -6,10 +6,8 @@
     "lat": 32.76,
     "lng": -96.95,
     "website": null,
-    "facility_id": "f_3976cd18726d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_3976cd18726d"
   },
   {
     "name": "INMAR RX SOLUTIONS",
@@ -18,9 +16,7 @@
     "lat": 32.76,
     "lng": -96.95,
     "website": null,
-    "facility_id": "f_47dc2fd4c94e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_47dc2fd4c94e"
   }
 ]

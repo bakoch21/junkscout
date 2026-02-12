@@ -1,0 +1,22 @@
+[
+  {
+    "name": "LA FERIA TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "APPROXIMATELY 0.5 MILES NORTH OF US HIGHWAY 83 ON FM 2556 W CANTU RD LA FERIA TX 78559",
+    "lat": 26.17,
+    "lng": -97.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0519f840daad"
+  },
+  {
+    "name": "LA FERIA TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "APPROXIMATELY 0.5 MILES NORTH OF US HIGHWAY 83 ON FM 2556 W CANTU RD LA FERIA TX 78559",
+    "lat": 26.17,
+    "lng": -97.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d376d9944033"
+  }
+]

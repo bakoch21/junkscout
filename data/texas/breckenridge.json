@@ -6,10 +6,8 @@
     "lat": 32.77,
     "lng": -98.9,
     "website": null,
-    "facility_id": "f_445ef7b67c54",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_445ef7b67c54"
   },
   {
     "name": "CITY OF BRECKENRIDGE MONOFILL",
@@ -18,9 +16,7 @@
     "lat": 32.77,
     "lng": -98.9,
     "website": null,
-    "facility_id": "f_e55f3536c0e7",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_e55f3536c0e7"
   }
 ]

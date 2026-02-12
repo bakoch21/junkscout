@@ -6,10 +6,8 @@
     "lat": 31.19,
     "lng": -101.5,
     "website": null,
-    "facility_id": "f_453a21ac05b5",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_453a21ac05b5"
   },
   {
     "name": "CITY OF BIG LAKE LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 31.19,
     "lng": -101.5,
     "website": null,
-    "facility_id": "f_9edba3fe00b4",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_9edba3fe00b4"
   }
 ]

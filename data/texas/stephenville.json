@@ -6,10 +6,8 @@
     "lat": 32.18,
     "lng": -98.29,
     "website": null,
-    "facility_id": "f_2f88785a125d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_2f88785a125d"
   },
   {
     "name": "CITY OF STEPHENVILLE LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 32.18,
     "lng": -98.29,
     "website": null,
-    "facility_id": "f_87f8d2547e6c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_87f8d2547e6c"
   }
 ]

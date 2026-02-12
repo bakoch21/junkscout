@@ -6,10 +6,8 @@
     "lat": 32.2,
     "lng": -97.11,
     "website": null,
-    "facility_id": "f_35a0ffa091c6",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_35a0ffa091c6"
   },
   {
     "name": "ITASCA LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 32.2,
     "lng": -97.11,
     "website": null,
-    "facility_id": "f_8a64541bfe6c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_8a64541bfe6c"
   }
 ]

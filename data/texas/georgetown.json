@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CITY OF GEORGETOWN TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "250 W L WALDEN DR GEORGETOWN TX 78626",
+    "lat": 30.65,
+    "lng": -97.66,
+    "website": null,
+    "source": null,
+    "facility_id": "f_44607dec80f2"
+  },
+  {
+    "name": "CITY OF GEORGETOWN TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "250 W L WALDEN DR GEORGETOWN TX 78626",
+    "lat": 30.65,
+    "lng": -97.66,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6234c40c6d22"
+  }
+]

@@ -6,10 +6,8 @@
     "lat": 29.18,
     "lng": -99.86,
     "website": null,
-    "facility_id": "f_3846ad6d0b51",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_3846ad6d0b51"
   },
   {
     "name": "CITY OF UVALDE LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 29.18,
     "lng": -99.86,
     "website": null,
-    "facility_id": "f_4a564e32f5ff",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_4a564e32f5ff"
   }
 ]

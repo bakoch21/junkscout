@@ -6,10 +6,8 @@
     "lat": 32.16,
     "lng": -101.74,
     "website": null,
-    "facility_id": "f_2218dd7e8f3d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_2218dd7e8f3d"
   },
   {
     "name": "CITY OF STANTON LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 32.16,
     "lng": -101.74,
     "website": null,
-    "facility_id": "f_a905cd44cae1",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_a905cd44cae1"
   }
 ]

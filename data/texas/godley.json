@@ -6,10 +6,8 @@
     "lat": 32.34,
     "lng": -97.35,
     "website": null,
-    "facility_id": "f_0ceae46b674e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_0ceae46b674e"
   },
   {
     "name": "HARRINGTON ENVIRONMENTAL LIQUID TRANSFER STATION",
@@ -18,9 +16,7 @@
     "lat": 32.34,
     "lng": -97.35,
     "website": null,
-    "facility_id": "f_99efc1cd9f8e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_99efc1cd9f8e"
   }
 ]

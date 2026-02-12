@@ -1,15 +1,13 @@
 [
   {
-    "name": "MASON EAST MSW LANDFILL",
+    "name": "CITY OF MASON LANDFILL",
     "type": "landfill",
-    "address": "2107 E SH 29 MASON TX 76856",
+    "address": "1605 LANDFILL RD MASON TX 76856",
     "lat": 30.74,
     "lng": -99.21,
     "website": null,
-    "facility_id": "f_1cfe4ed82fd3",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_d1bd4106ef04"
   },
   {
     "name": "MASON EAST MSW LANDFILL",
@@ -18,9 +16,17 @@
     "lat": 30.74,
     "lng": -99.21,
     "website": null,
-    "facility_id": "f_a93a089e18a3",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_1cfe4ed82fd3"
+  },
+  {
+    "name": "MASON EAST MSW LANDFILL",
+    "type": "landfill",
+    "address": "2107 E SH 29 MASON TX 76856",
+    "lat": 30.74,
+    "lng": -99.21,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a93a089e18a3"
   }
 ]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "EDWARDS CONSTRUCTION KILGORE LIQUID WASTE PROCESSING FAC",
+    "type": "landfill",
+    "address": "2821 SH HWY 42 N KILGORE TX 75662",
+    "lat": 32.41,
+    "lng": -94.87,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7a12a5d23f70"
+  },
+  {
+    "name": "PINE HILL FARMS LANDFILL TX LP",
+    "type": "landfill",
+    "address": "1102 LANDFILL RD. KILGORE TX 75663",
+    "lat": 32.45,
+    "lng": -94.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0e52f6c7e6e1"
+  },
+  {
+    "name": "PINE HILL FARMS LANDFILL TX LP",
+    "type": "landfill",
+    "address": "1102 LANDFILL RD. KILGORE TX 75663",
+    "lat": 32.45,
+    "lng": -94.83,
+    "website": null,
+    "source": null,
+    "facility_id": "f_5098638f3a81"
+  },
+  {
+    "name": "PINEHILL LFG TREATMENT FACILITY",
+    "type": "landfill",
+    "address": "1102 LANDFILL RD KILGORE TX 75663",
+    "lat": 32.45,
+    "lng": -94.84,
+    "website": null,
+    "source": null,
+    "facility_id": "f_91e97e86f01c"
+  },
+  {
+    "name": "PINEHILL LFG TREATMENT FACILITY",
+    "type": "landfill",
+    "address": "1102 LANDFILL RD KILGORE TX 75663",
+    "lat": 32.45,
+    "lng": -94.84,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ce3140705bd8"
+  }
+]

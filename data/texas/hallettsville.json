@@ -6,10 +6,8 @@
     "lat": 29.45,
     "lng": -96.9,
     "website": null,
-    "facility_id": "f_3fae758d0493",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_3fae758d0493"
   },
   {
     "name": "CITY OF HALLETTSVILLE TRANSFER STATION FACILITY",
@@ -18,9 +16,7 @@
     "lat": 29.45,
     "lng": -96.9,
     "website": null,
-    "facility_id": "f_ea3a084228f8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_ea3a084228f8"
   }
 ]

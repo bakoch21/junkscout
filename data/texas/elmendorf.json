@@ -6,10 +6,8 @@
     "lat": 29.21,
     "lng": -98.35,
     "website": null,
-    "facility_id": "f_2a86530fc941",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_2a86530fc941"
   },
   {
     "name": "EC ENTERPRISES",
@@ -18,9 +16,27 @@
     "lat": 29.21,
     "lng": -98.35,
     "website": null,
-    "facility_id": "f_3bf8c8820085",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_3bf8c8820085"
+  },
+  {
+    "name": "SOUTHWASTE DISPOSAL LLC SAN ANTONIO FACILITY",
+    "type": "landfill",
+    "address": "20805 OLD LAMM RD ELMENDORF TX 78112",
+    "lat": 29.21,
+    "lng": -98.41,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3ab8fa49f9fd"
+  },
+  {
+    "name": "SOUTHWASTE DISPOSAL LLC SAN ANTONIO FACILITY",
+    "type": "landfill",
+    "address": "20805 OLD LAMM RD ELMENDORF TX 78112",
+    "lat": 29.21,
+    "lng": -98.41,
+    "website": null,
+    "source": null,
+    "facility_id": "f_638f146d41e9"
   }
 ]

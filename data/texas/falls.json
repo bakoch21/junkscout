@@ -1,0 +1,62 @@
+[
+  {
+    "name": "CITY OF WICHITA FALLS LANDFILL",
+    "type": "landfill",
+    "address": "10984 WILEY RD WICHITA FALLS TX 76308",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
+    "facility_id": "f_92e606fd3272"
+  },
+  {
+    "name": "CITY OF WICHITA FALLS LANDFILL",
+    "type": "landfill",
+    "address": "10984 WILEY RD WICHITA FALLS TX 76308",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
+    "facility_id": "f_afd1e922afd1"
+  },
+  {
+    "name": "CITY OF WICHITA FALLS TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "3200 LAWRENCE RD WICHITA FALLS TX 76308",
+    "lat": 33.89,
+    "lng": -98.54,
+    "website": null,
+    "source": null,
+    "facility_id": "f_239e91b5d03b"
+  },
+  {
+    "name": "CITY OF WICHITA FALLS TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "3200 LAWRENCE RD WICHITA FALLS TX 76308",
+    "lat": 33.89,
+    "lng": -98.54,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7af4b4905bf3"
+  },
+  {
+    "name": "IMC WASTE DISPOSAL",
+    "type": "landfill",
+    "address": "1908 WAURIKA FWY WICHITA FALLS TX 76305",
+    "lat": 33.89,
+    "lng": -98.44,
+    "website": null,
+    "source": null,
+    "facility_id": "f_5b50c3aca21d"
+  },
+  {
+    "name": "IMC WASTE DISPOSAL",
+    "type": "landfill",
+    "address": "1908 WAURIKA FWY WICHITA FALLS TX 76305",
+    "lat": 33.89,
+    "lng": -98.44,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7d85f006cae1"
+  }
+]

@@ -6,10 +6,8 @@
     "lat": 28.75,
     "lng": -95.94,
     "website": null,
-    "facility_id": "f_5705ca29d03a",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5705ca29d03a"
   },
   {
     "name": "MATAGORDA COUNTY TRANSFER STATION",
@@ -18,9 +16,7 @@
     "lat": 28.75,
     "lng": -95.94,
     "website": null,
-    "facility_id": "f_a9d6ffcf5fce",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_a9d6ffcf5fce"
   }
 ]

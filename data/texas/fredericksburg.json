@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CITY OF FREDERICKSBURG LANDFILL",
+    "type": "landfill",
+    "address": "204 LANDFILL LN FREDERICKSBURG TX 78624",
+    "lat": 30.27,
+    "lng": -98.84,
+    "website": null,
+    "source": null,
+    "facility_id": "f_17a44c93d07e"
+  },
+  {
+    "name": "CITY OF FREDERICKSBURG LANDFILL",
+    "type": "landfill",
+    "address": "204 LANDFILL LN FREDERICKSBURG TX 78624",
+    "lat": 30.27,
+    "lng": -98.84,
+    "website": null,
+    "source": null,
+    "facility_id": "f_89a5cee7a0d7"
+  }
+]

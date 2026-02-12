@@ -1,0 +1,22 @@
+[
+  {
+    "name": "BUFFALO CREEK LANDFILL",
+    "type": "landfill",
+    "address": "1201 W SMITH AVE IOWA PARK TX 76367",
+    "lat": 33.95,
+    "lng": -98.7,
+    "website": null,
+    "source": null,
+    "facility_id": "f_cda1e80f5e85"
+  },
+  {
+    "name": "BUFFALO CREEK RENEWABLE NATURAL GAS FACILITY",
+    "type": "landfill",
+    "address": "1499 W. SMITH AVE IOWA PARK TX 76367",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8e524b4d3b6b"
+  }
+]

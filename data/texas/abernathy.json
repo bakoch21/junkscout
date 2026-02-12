@@ -6,10 +6,8 @@
     "lat": 33.81,
     "lng": -101.94,
     "website": null,
-    "facility_id": "f_0ddbdad3a7da",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_0ddbdad3a7da"
   },
   {
     "name": "WEST TEXAS REGIONAL DISPOSAL LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 33.81,
     "lng": -101.94,
     "website": null,
-    "facility_id": "f_d0739247d894",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_d0739247d894"
   }
 ]

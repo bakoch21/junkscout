@@ -6,10 +6,8 @@
     "lat": 29.8,
     "lng": -94.52,
     "website": null,
-    "facility_id": "f_5bb5e897dc26",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5bb5e897dc26"
   },
   {
     "name": "CHAMBERS COUNTY LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 29.8,
     "lng": -94.52,
     "website": null,
-    "facility_id": "f_de1dfb6a877c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_de1dfb6a877c"
   }
 ]

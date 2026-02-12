@@ -6,10 +6,8 @@
     "lat": 32.57,
     "lng": -95.05,
     "website": null,
-    "facility_id": "f_1f6329cbc20f",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_1f6329cbc20f"
   },
   {
     "name": "VITAL EARTH RESOURCES COMPOSTING FACILITY",
@@ -18,9 +16,7 @@
     "lat": 32.57,
     "lng": -95.05,
     "website": null,
-    "facility_id": "f_8ae76ca48c68",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_8ae76ca48c68"
   }
 ]

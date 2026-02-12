@@ -2,14 +2,22 @@
   {
     "name": "CITY OF POST LANDFILL",
     "type": "landfill",
+    "address": "1637 CR 225 POST TX 79356",
+    "lat": 33.17,
+    "lng": -101.38,
+    "website": null,
+    "source": null,
+    "facility_id": "f_47cdba386836"
+  },
+  {
+    "name": "CITY OF POST LANDFILL",
+    "type": "landfill",
     "address": "1.3 MILES S OF US HIGHWAY 380 IN POST  0.4 MILES E OF FM 669 POST TX",
     "lat": 33.17,
     "lng": -101.38,
     "website": null,
-    "facility_id": "f_1e131df4c17f",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_738f92de8e7b"
   },
   {
     "name": "CITY OF POST LANDFILL",
@@ -18,21 +26,7 @@
     "lat": 33.17,
     "lng": -101.38,
     "website": null,
-    "facility_id": "f_47cdba386836",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "CITY OF POST LANDFILL",
-    "type": "landfill",
-    "address": "1637 CR 225 POST TX 79356",
-    "lat": 33.17,
-    "lng": -101.38,
-    "website": null,
-    "facility_id": "f_9a79f0c8d047",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_9a79f0c8d047"
   }
 ]

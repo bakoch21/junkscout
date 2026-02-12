@@ -6,10 +6,8 @@
     "lat": 31.09,
     "lng": -97.9,
     "website": null,
-    "facility_id": "f_30d0e0b02d29",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_30d0e0b02d29"
   },
   {
     "name": "CITY OF COPPERAS COVE TRANSFER STATION FACILITY",
@@ -18,9 +16,7 @@
     "lat": 31.09,
     "lng": -97.9,
     "website": null,
-    "facility_id": "f_b8d1bf6590c0",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_b8d1bf6590c0"
   }
 ]

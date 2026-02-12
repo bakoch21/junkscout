@@ -6,10 +6,8 @@
     "lat": 29.55,
     "lng": -98.27,
     "website": null,
-    "facility_id": "f_15ebcf94df65",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_15ebcf94df65"
   },
   {
     "name": "BECK LANDFILL NIDO LTD",
@@ -18,9 +16,17 @@
     "lat": 29.55,
     "lng": -98.27,
     "website": null,
-    "facility_id": "f_5092d84d6d10",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5092d84d6d10"
+  },
+  {
+    "name": "MEDSHARPS LLC SCHERTZ FACILITY",
+    "type": "landfill",
+    "address": "17340 BELL NORTH DR SCHERTZ TX 78154",
+    "lat": 29.62,
+    "lng": -98.29,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f148247233ad"
   }
 ]

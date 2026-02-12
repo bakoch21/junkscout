@@ -6,9 +6,27 @@
     "lat": 31.56,
     "lng": -94.65,
     "website": null,
-    "facility_id": "f_151ef6ba5a35",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5ed52102f31b"
+  },
+  {
+    "name": "CITY OF NACOGDOCHES LANDFILL",
+    "type": "landfill",
+    "address": "4602 NW STALLINGS DR NACOGDOCHES TX 75964",
+    "lat": 31.65,
+    "lng": -94.68,
+    "website": null,
+    "source": null,
+    "facility_id": "f_353c566e7503"
+  },
+  {
+    "name": "CITY OF NACOGDOCHES LANDFILL",
+    "type": "landfill",
+    "address": "4602 NW STALLINGS DR NACOGDOCHES TX 75964",
+    "lat": 31.65,
+    "lng": -94.68,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c5ff6712aa1f"
   }
 ]

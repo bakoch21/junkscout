@@ -6,21 +6,7 @@
     "lat": 30.18,
     "lng": -96.42,
     "website": null,
-    "facility_id": "f_96909bd75a1e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "WASHINGTION COUNTY TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "1709 HIGHWAY 36 N BRENHAM TX 77833 9135 BRENHAM TX 77833",
-    "lat": 30.18,
-    "lng": -96.42,
-    "website": null,
-    "facility_id": "f_ac510c29d63e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_96909bd75a1e"
   }
 ]

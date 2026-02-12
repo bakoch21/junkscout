@@ -6,21 +6,7 @@
     "lat": 30.06,
     "lng": -97.61,
     "website": null,
-    "facility_id": "f_a29660bd01d7",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "STERICYCLE AUSTIN AUTOCLAVE",
-    "type": "landfill",
-    "address": "2607 HIGHWAY 21 W DALE TX 78616",
-    "lat": 30.06,
-    "lng": -97.61,
-    "website": null,
-    "facility_id": "f_a4e0d01984dc",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_a29660bd01d7"
   }
 ]

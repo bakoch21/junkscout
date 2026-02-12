@@ -6,10 +6,8 @@
     "lat": 33.47,
     "lng": -94.44,
     "website": null,
-    "facility_id": "f_645791d15fd6",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_645791d15fd6"
   },
   {
     "name": "NEW BOSTON LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 33.47,
     "lng": -94.44,
     "website": null,
-    "facility_id": "f_c6b119c50c26",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_c6b119c50c26"
   }
 ]

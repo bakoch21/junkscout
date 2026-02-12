@@ -6,10 +6,8 @@
     "lat": 31.8,
     "lng": -95.61,
     "website": null,
-    "facility_id": "f_233e111469a9",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_233e111469a9"
   },
   {
     "name": "PALESTINE TRANSFER STATION",
@@ -18,9 +16,7 @@
     "lat": 31.8,
     "lng": -95.61,
     "website": null,
-    "facility_id": "f_60618614b1b7",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_60618614b1b7"
   }
 ]

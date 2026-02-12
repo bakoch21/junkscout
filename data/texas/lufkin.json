@@ -6,10 +6,8 @@
     "lat": 31.25,
     "lng": -94.7,
     "website": null,
-    "facility_id": "f_337950d3b9b1",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_337950d3b9b1"
   },
   {
     "name": "ANGELINA COUNTY LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 31.25,
     "lng": -94.7,
     "website": null,
-    "facility_id": "f_c4f3e319b31d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_c4f3e319b31d"
   }
 ]

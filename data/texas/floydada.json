@@ -6,10 +6,8 @@
     "lat": 33.97,
     "lng": -101.3,
     "website": null,
-    "facility_id": "f_d89517c3d985",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_d89517c3d985"
   },
   {
     "name": "CITY OF FLOYDADA LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 33.97,
     "lng": -101.3,
     "website": null,
-    "facility_id": "f_f7ae4a0a89d6",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_f7ae4a0a89d6"
   }
 ]

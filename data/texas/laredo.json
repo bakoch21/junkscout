@@ -1,39 +1,13 @@
 [
   {
-    "name": "PONDEROSA REGIONAL LANDFILL",
+    "name": "City of Laredo Landfill",
     "type": "landfill",
-    "address": "10705 STATE HIGHWAY 359 LAREDO TX 78043",
-    "lat": 27.48,
-    "lng": -99.26,
-    "website": null,
-    "facility_id": "f_03bb5d75b4e2",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "CITY OF LAREDO LANDFILL",
-    "type": "landfill",
-    "address": "6912 HWY 359 LAREDO TX 78043",
-    "lat": 27.49,
-    "lng": -99.41,
-    "website": null,
-    "facility_id": "f_046ba3e70bf8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "CITY OF LAREDO LANDFILL",
-    "type": "landfill",
-    "address": "6912 HWY 359 LAREDO TX 78043",
-    "lat": 27.49,
-    "lng": -99.41,
-    "website": null,
-    "facility_id": "f_18fbed68b8af",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "address": "TX 359 Laredo TX 78046",
+    "lat": 27.4929346,
+    "lng": -99.4100013,
+    "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
+    "source": null,
+    "facility_id": "f_72fcc822edd3"
   },
   {
     "name": "City of Laredo Landfill",
@@ -42,22 +16,28 @@
     "lat": 27.4929346,
     "lng": -99.4100013,
     "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
-    "facility_id": "f_72fcc822edd3",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": "https://www.openstreetmap.org/way/1151383582"
+    "source": null,
+    "facility_id": "f_7505e6cbb83d"
   },
   {
-    "name": "City of Laredo Landfill",
+    "name": "CITY OF LAREDO LANDFILL",
     "type": "landfill",
-    "address": "TX 359 Laredo TX 78046",
-    "lat": 27.4929346,
-    "lng": -99.4100013,
-    "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
-    "facility_id": "f_7505e6cbb83d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "address": "6912 HWY 359 LAREDO TX 78043",
+    "lat": 27.49,
+    "lng": -99.41,
+    "website": null,
+    "source": null,
+    "facility_id": "f_046ba3e70bf8"
+  },
+  {
+    "name": "CITY OF LAREDO LANDFILL",
+    "type": "landfill",
+    "address": "6912 HWY 359 LAREDO TX 78043",
+    "lat": 27.49,
+    "lng": -99.41,
+    "website": null,
+    "source": null,
+    "facility_id": "f_18fbed68b8af"
   },
   {
     "name": "PONDEROSA REGIONAL LANDFILL",
@@ -66,9 +46,77 @@
     "lat": 27.48,
     "lng": -99.26,
     "website": null,
-    "facility_id": "f_f564765ee4e0",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_03bb5d75b4e2"
+  },
+  {
+    "name": "PONDEROSA REGIONAL LANDFILL",
+    "type": "landfill",
+    "address": "10705 STATE HIGHWAY 359 LAREDO TX 78043",
+    "lat": 27.48,
+    "lng": -99.26,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f564765ee4e0"
+  },
+  {
+    "name": "Setasa",
+    "type": "recycling",
+    "address": "",
+    "lat": 27.5449704,
+    "lng": -99.5827737,
+    "website": null,
+    "source": null,
+    "facility_id": "f_0be6ebb63233"
+  },
+  {
+    "name": "Setasa",
+    "type": "landfill",
+    "address": "",
+    "lat": 27.5447692,
+    "lng": -99.5841188,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a2ba620dd2de"
+  },
+  {
+    "name": "Setasa",
+    "type": "recycling",
+    "address": "",
+    "lat": 27.5449704,
+    "lng": -99.5827737,
+    "website": null,
+    "source": null,
+    "facility_id": "f_bddc5dce7f66"
+  },
+  {
+    "name": "Setasa",
+    "type": "landfill",
+    "address": "",
+    "lat": 27.5447692,
+    "lng": -99.5841188,
+    "website": null,
+    "source": null,
+    "facility_id": "f_fdeddd63fe1f"
+  },
+  {
+    "name": "THE OUTLET SHOPPES AT LAREDO",
+    "type": "landfill",
+    "address": "1600 WATER ST LAREDO TX 78040",
+    "lat": 27.5,
+    "lng": -99.51,
+    "website": null,
+    "source": null,
+    "facility_id": "f_75a105f270af"
+  },
+  {
+    "name": "THE OUTLET SHOPPES AT LAREDO",
+    "type": "landfill",
+    "address": "1600 WATER ST LAREDO TX 78040",
+    "lat": 27.5,
+    "lng": -99.51,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9f70e4c707fc"
   }
 ]

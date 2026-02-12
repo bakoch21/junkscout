@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "junkscout",
   "version": "1.0.0",
   "description": "",
@@ -11,14 +11,29 @@
 
     "build:data:tx": "node scripts/build-city-json-from-facilities.js",
     "build:citylist:tx": "node scripts/build-texas-city-list.js",
-    "build:pages:tx": "node scripts/generate-city-pages.js",
 
-    "build:facilities:data": "node scripts/build-facilities.js",
-    "build:facilities:pages": "node scripts/generate-facility-pages.js",
-    "build:facilities": "npm run build:facilities:data && npm run build:facilities:pages",
+    "build:pages:tx": "node scripts/generate-city-pages.js texas",
+    "build:pages:ca": "node scripts/generate-city-pages.js california",
+    "build:pages:states": "npm run build:pages:tx && npm run build:pages:ca",
 
-    "build:tx": "npm run build:data:tx && npm run build:citylist:tx && npm run build:pages:tx",
-    "build:tx:all": "npm run import:tceq:msw && npm run build:tx && npm run build:facilities"
+    "build:facilities:data": "node scripts/build-facilities.js texas",
+    "build:facilities:manual:houston": "node scripts/build-manual-facilities.js texas houston",
+    "build:facilities:pages": "node scripts/generate-facility-pages.js texas",
+    "build:facilities": "npm run build:facilities:data && npm run build:facilities:manual:houston && npm run build:facilities:pages",
+
+    "build:sitemap": "node scripts/generate-sitemap.js",
+
+    "build:data": "npm run build:facilities:data && npm run build:data:tx && npm run build:citylist:tx && npm run build:facilities:manual:houston",
+    "build:pages": "npm run build:pages:states && npm run build:facilities:pages && npm run build:sitemap",
+    "build": "npm run build:data && npm run build:pages",
+
+    "build:texas": "npm run build",
+    "build:houston": "node scripts/build-houston.js",
+
+    "preview": "node scripts/preview.js",
+    "push": "node scripts/push.js",
+
+    "build:tx:all": "npm run import:tceq:msw && npm run build"
   },
   "keywords": [],
   "author": "",

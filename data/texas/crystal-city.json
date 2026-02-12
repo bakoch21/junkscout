@@ -6,10 +6,8 @@
     "lat": 28.94,
     "lng": -99.86,
     "website": null,
-    "facility_id": "f_88a9d7fd7099",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_88a9d7fd7099"
   },
   {
     "name": "ZAVALA COUNTY MSWF LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 28.94,
     "lng": -99.86,
     "website": null,
-    "facility_id": "f_97f974e6c57a",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_97f974e6c57a"
   }
 ]

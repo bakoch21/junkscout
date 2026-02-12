@@ -6,34 +6,8 @@
     "lat": 30.34,
     "lng": -95.41,
     "website": null,
-    "facility_id": "f_13660b20dfef",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "SPRINT MONTGOMERY LANDFILL",
-    "type": "landfill",
-    "address": "17851 HIGHWAY 105 E CONROE TX 77306",
-    "lat": 30.35,
-    "lng": -95.29,
-    "website": null,
-    "facility_id": "f_79dd2e4b74cf",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "CONROE INDUSTRIAL NON-HAZARDOUS LANDFILL",
-    "type": "landfill",
-    "address": "2525 N LOOP 336 E CONROE TX 77301",
-    "lat": 30.34,
-    "lng": -95.41,
-    "website": null,
-    "facility_id": "f_947ab4c0812a",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_13660b20dfef"
   },
   {
     "name": "NEW EARTH INC",
@@ -42,10 +16,8 @@
     "lat": 30.33,
     "lng": -95.39,
     "website": null,
-    "facility_id": "f_b680f6846ac7",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_b680f6846ac7"
   },
   {
     "name": "SPRINT MONTGOMERY LANDFILL",
@@ -54,21 +26,7 @@
     "lat": 30.35,
     "lng": -95.29,
     "website": null,
-    "facility_id": "f_e040a189df40",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "NEW EARTH INC",
-    "type": "landfill",
-    "address": "12286 HIGHWAY 105 E CONROE TX 77306",
-    "lat": 30.33,
-    "lng": -95.39,
-    "website": null,
-    "facility_id": "f_e565530acaa2",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_79dd2e4b74cf"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CITY OF DALHART LANDFILL",
+    "type": "landfill",
+    "address": "3 MILES NW OF US HIGHWAY 87 AND FM  1727  SW OF FORT WORTH DENVER RAILROAD 3.9 MILES NW OF DALHART DALHART TX 79022",
+    "lat": 36.11,
+    "lng": -102.59,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8a1404964be6"
+  },
+  {
+    "name": "CITY OF DALHART MSW LF TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "MACKY RD NORTEX RD & US HWY 87 N 3.9 MI NW OF DALHART DALHART TX 79022",
+    "lat": 36.1,
+    "lng": -102.59,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6a8823da28b7"
+  }
+]

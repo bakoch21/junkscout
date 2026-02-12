@@ -6,10 +6,8 @@
     "lat": 32.39,
     "lng": -96.65,
     "website": null,
-    "facility_id": "f_7be7c5c5b576",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_7be7c5c5b576"
   },
   {
     "name": "ECD LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 32.39,
     "lng": -96.65,
     "website": null,
-    "facility_id": "f_c7e7ffd8a765",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_c7e7ffd8a765"
   }
 ]

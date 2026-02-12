@@ -6,10 +6,8 @@
     "lat": 29.4418252,
     "lng": -98.419088,
     "website": "https://southwaste.com/austin-san-antonio/",
-    "facility_id": "f_290d72fe9c07",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_290d72fe9c07"
   },
   {
     "name": "SouthWaste Disposal",
@@ -18,9 +16,7 @@
     "lat": 29.4418252,
     "lng": -98.419088,
     "website": "https://southwaste.com/austin-san-antonio/",
-    "facility_id": "f_4bdeef1dc029",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": "https://www.openstreetmap.org/way/1328596956"
+    "source": null,
+    "facility_id": "f_4bdeef1dc029"
   }
 ]

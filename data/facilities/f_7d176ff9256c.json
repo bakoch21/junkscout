@@ -1,0 +1,17 @@
+{
+  "id": "f_7d176ff9256c",
+  "slug": "city-of-haskell-landfill",
+  "name": "CITY OF HASKELL LANDFILL",
+  "type": "landfill",
+  "address": "4.2 MI E OF HASKELL ON SH-380  300 FT N @ FM RD 618 HASKELL TX",
+  "lat": 33.17,
+  "lng": -99.64,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "haskell"
+    }
+  ]
+}

@@ -2,14 +2,12 @@
   {
     "name": "CITY OF PAMPA LANDFILL",
     "type": "landfill",
-    "address": "LOCATED NORTHEAST OF THE CITY OF PAMPA ON LOOP 171 APPROXIMATELY 3 MILES NORTH OF THE INTERSECTION OF US HWY 60 AND LOOP 171 PAMPA TX 79066",
-    "lat": 35.58,
-    "lng": -100.93,
+    "address": "1 MILE N OF SANTA FE RAIL ROAD  .75 MILES E OF LOOP 171  1.5 MILES NE OF PAMPA PAMPA TX 79065",
+    "lat": 35.57,
+    "lng": -100.92,
     "website": null,
-    "facility_id": "f_1bce967e0c4c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_023ce5c5cecb"
   },
   {
     "name": "CITY OF PAMPA LANDFILL",
@@ -18,9 +16,27 @@
     "lat": 35.58,
     "lng": -100.93,
     "website": null,
-    "facility_id": "f_9ad6aff7fb5b",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_1bce967e0c4c"
+  },
+  {
+    "name": "CITY OF PAMPA LANDFILL",
+    "type": "landfill",
+    "address": "LOCATED NORTHEAST OF THE CITY OF PAMPA ON LOOP 171 APPROXIMATELY 3 MILES NORTH OF THE INTERSECTION OF US HWY 60 AND LOOP 171 PAMPA TX 79066",
+    "lat": 35.58,
+    "lng": -100.93,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9ad6aff7fb5b"
+  },
+  {
+    "name": "CITY OF PAMPA LIQUID WASTE PROCESSING FACILITY",
+    "type": "landfill",
+    "address": "PAMPA GRAY COUNTY TEXAS PAMPA TX 79066",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
+    "facility_id": "f_fdc01db6b8b6"
   }
 ]

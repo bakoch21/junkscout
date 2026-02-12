@@ -6,10 +6,8 @@
     "lat": 30.25,
     "lng": -98.38,
     "website": null,
-    "facility_id": "f_21313bdd5a7e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_21313bdd5a7e"
   },
   {
     "name": "BLANCO COUNTY TRANSFER STATION",
@@ -18,9 +16,7 @@
     "lat": 30.25,
     "lng": -98.38,
     "website": null,
-    "facility_id": "f_aea29d5114ac",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_aea29d5114ac"
   }
 ]

@@ -6,10 +6,8 @@
     "lat": 32.59,
     "lng": -95.87,
     "website": null,
-    "facility_id": "f_6aefd491d76a",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_6aefd491d76a"
   },
   {
     "name": "CITY OF CANTON TRANSFER STATION",
@@ -18,9 +16,7 @@
     "lat": 32.59,
     "lng": -95.87,
     "website": null,
-    "facility_id": "f_705ddffc15cc",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_705ddffc15cc"
   }
 ]

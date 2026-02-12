@@ -6,10 +6,8 @@
     "lat": 30.32,
     "lng": -95.27,
     "website": null,
-    "facility_id": "f_2ff6e67d9fbd",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_2ff6e67d9fbd"
   },
   {
     "name": "SECURITY LFGTE FACILITY",
@@ -18,10 +16,8 @@
     "lat": 30.32,
     "lng": -95.27,
     "website": null,
-    "facility_id": "f_5339440f21fb",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5339440f21fb"
   },
   {
     "name": "SECURITY RECYCLING AND DISPOSAL FACILITY",
@@ -30,10 +26,8 @@
     "lat": 30.32,
     "lng": -95.27,
     "website": null,
-    "facility_id": "f_6dcf4d77806a",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_6dcf4d77806a"
   },
   {
     "name": "SECURITY RECYCLING AND DISPOSAL FACILITY",
@@ -42,10 +36,8 @@
     "lat": 30.32,
     "lng": -95.27,
     "website": null,
-    "facility_id": "f_6dfab17dbbaa",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_6dfab17dbbaa"
   },
   {
     "name": "SECURITY RENEWABLE NATURAL GAS FACILITY",
@@ -54,10 +46,8 @@
     "lat": 30.32,
     "lng": -95.27,
     "website": null,
-    "facility_id": "f_9e079f4c073f",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_9e079f4c073f"
   },
   {
     "name": "SECURITY RENEWABLE NATURAL GAS FACILITY",
@@ -66,9 +56,7 @@
     "lat": 30.32,
     "lng": -95.27,
     "website": null,
-    "facility_id": "f_aefee845919a",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_aefee845919a"
   }
 ]

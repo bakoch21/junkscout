@@ -1,0 +1,692 @@
+[
+  {
+    "name": "1323 N STEMMONS FWY",
+    "type": "landfill",
+    "address": "1323 N STEMMONS FWY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.81,
+    "website": null,
+    "source": null,
+    "facility_id": "f_24b58d9b636b"
+  },
+  {
+    "name": "1323 N STEMMONS FWY",
+    "type": "landfill",
+    "address": "1323 N STEMMONS FWY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.81,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d6dc4bb2c651"
+  },
+  {
+    "name": "1959 W NORTHWEST HIGHWAY",
+    "type": "landfill",
+    "address": "1959 W NORTHWEST HWY DALLAS TX 75220",
+    "lat": 32.77,
+    "lng": -96.78,
+    "website": null,
+    "source": null,
+    "facility_id": "f_87c4db69ea2d"
+  },
+  {
+    "name": "1959 W NORTHWEST HIGHWAY",
+    "type": "landfill",
+    "address": "1959 W NORTHWEST HWY DALLAS TX 75220",
+    "lat": 32.77,
+    "lng": -96.78,
+    "website": null,
+    "source": null,
+    "facility_id": "f_bfa7986af72d"
+  },
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6523264,
+    "lng": -96.974901,
+    "website": null,
+    "source": null,
+    "facility_id": "f_30014927e24d"
+  },
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6413269,
+    "lng": -96.9553907,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4b5ae2aa368b"
+  },
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6523264,
+    "lng": -96.974901,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d2cf5b4da3d5"
+  },
+  {
+    "name": "City of Dallas Big Blue Recycle Bin",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6413269,
+    "lng": -96.9553907,
+    "website": null,
+    "source": null,
+    "facility_id": "f_fbed1f2062b4"
+  },
+  {
+    "name": "CITY OF DALLAS TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "7677 FAIR OAKS AVE DALLAS TX 75231",
+    "lat": 32.88,
+    "lng": -96.75,
+    "website": null,
+    "source": null,
+    "facility_id": "f_1f8c8577f627"
+  },
+  {
+    "name": "CITY OF DALLAS TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "4610 S WESTMORELAND RD DALLAS TX 75237",
+    "lat": 32.69,
+    "lng": -96.88,
+    "website": null,
+    "source": null,
+    "facility_id": "f_64cfa2677887"
+  },
+  {
+    "name": "CITY OF DALLAS TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "4610 S WESTMORELAND RD DALLAS TX 75237",
+    "lat": 32.69,
+    "lng": -96.88,
+    "website": null,
+    "source": null,
+    "facility_id": "f_8b32efcdc458"
+  },
+  {
+    "name": "CITY OF DALLAS TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "7677 FAIR OAKS AVE DALLAS TX 75231",
+    "lat": 32.88,
+    "lng": -96.75,
+    "website": null,
+    "source": null,
+    "facility_id": "f_cd850d442f3a"
+  },
+  {
+    "name": "City of Mesquite Recycling and Compost Center",
+    "type": "landfill",
+    "address": "3550 Lawson Road Mesquite TX 75181",
+    "lat": 32.7132744,
+    "lng": -96.5474446,
+    "website": null,
+    "source": null,
+    "facility_id": "f_714a5d224d59"
+  },
+  {
+    "name": "City of Mesquite Recycling and Compost Center",
+    "type": "landfill",
+    "address": "3550 Lawson Road Mesquite TX 75181",
+    "lat": 32.7132744,
+    "lng": -96.5474446,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9ea5153602cb"
+  },
+  {
+    "name": "CITY OF UNIVERSITY PARK TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "2525 UNIVERSITY BLVD DALLAS TX 75206",
+    "lat": 32.85,
+    "lng": -96.77,
+    "website": null,
+    "source": null,
+    "facility_id": "f_17f8245f1841"
+  },
+  {
+    "name": "CITY OF UNIVERSITY PARK TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "2525 UNIVERSITY BLVD DALLAS TX 75206",
+    "lat": 32.85,
+    "lng": -96.77,
+    "website": null,
+    "source": null,
+    "facility_id": "f_747350cc27ec"
+  },
+  {
+    "name": "CM Hinton Jr. Regional Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.9579388,
+    "lng": -96.5420747,
+    "website": null,
+    "source": null,
+    "facility_id": "f_03bfc8e4a971"
+  },
+  {
+    "name": "CM Hinton Jr. Regional Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.9579388,
+    "lng": -96.5420747,
+    "website": null,
+    "source": null,
+    "facility_id": "f_87e3ee3f4679"
+  },
+  {
+    "name": "COMMERCIAL WAREHOUSE FACILITY",
+    "type": "landfill",
+    "address": "3191 COMMONWEALTH DR DALLAS TX 75247",
+    "lat": 32.48,
+    "lng": -96.52,
+    "website": null,
+    "source": null,
+    "facility_id": "f_97b5bde9c7d3"
+  },
+  {
+    "name": "COMMONWEALTH CENTER",
+    "type": "landfill",
+    "address": "3131,3137 & 3141 IRVING BLVD, 3140 & 3160 COMMONWEALTH DR., & 5021 LAKAWANA ST DALLAS TX 75247",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b7da9256ad6e"
+  },
+  {
+    "name": "COMMONWEALTH CENTER",
+    "type": "landfill",
+    "address": "3131,3137 & 3141 IRVING BLVD, 3140 & 3160 COMMONWEALTH DR., & 5021 LAKAWANA ST DALLAS TX 75247",
+    "lat": 0,
+    "lng": 0,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ed8a80a2c2ee"
+  },
+  {
+    "name": "COMMUNITY WASTE DISPOSAL LP",
+    "type": "landfill",
+    "address": "2010 CALIFORNIA CROSSING RD DALLAS TX 75220",
+    "lat": 32.86,
+    "lng": -96.91,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b879c6345587"
+  },
+  {
+    "name": "Customer Convenience Recycling Center at McCommas Bluff Landfill",
+    "type": "recycling",
+    "address": "5450 Simpson Stuart Road",
+    "lat": 32.6805119,
+    "lng": -96.7281282,
+    "website": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+    "source": null,
+    "facility_id": "f_48d309b208f7"
+  },
+  {
+    "name": "Customer Convenience Recycling Center at McCommas Bluff Landfill",
+    "type": "recycling",
+    "address": "5450 Simpson Stuart Road",
+    "lat": 32.6805119,
+    "lng": -96.7281282,
+    "website": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+    "source": null,
+    "facility_id": "f_def73b03d340"
+  },
+  {
+    "name": "DALLAS FACILITY",
+    "type": "landfill",
+    "address": "11115 GOODNIGHT LN DALLAS TX 75229",
+    "lat": 32.89,
+    "lng": -96.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_06d8f45a62e2"
+  },
+  {
+    "name": "DALLAS FACILITY",
+    "type": "landfill",
+    "address": "11115 GOODNIGHT LN DALLAS TX 75229",
+    "lat": 32.89,
+    "lng": -96.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_865f1742bf10"
+  },
+  {
+    "name": "DALLAS FREIGHTLINER- 3040 IRVING BLVD",
+    "type": "landfill",
+    "address": "3040 IRVING BLVD DALLAS TX 75247",
+    "lat": 32.81,
+    "lng": -96.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7c10ee62bbb8"
+  },
+  {
+    "name": "DALLAS FREIGHTLINER- 3040 IRVING BLVD",
+    "type": "landfill",
+    "address": "3040 IRVING BLVD DALLAS TX 75247",
+    "lat": 32.81,
+    "lng": -96.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e5aedf141334"
+  },
+  {
+    "name": "FMI Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7183271,
+    "lng": -96.8690925,
+    "website": null,
+    "source": null,
+    "facility_id": "f_bfa46e46772a"
+  },
+  {
+    "name": "FMI Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7183271,
+    "lng": -96.8690925,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f192476853c7"
+  },
+  {
+    "name": "Grand Prairie Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7698514,
+    "lng": -96.9492464,
+    "website": null,
+    "source": null,
+    "facility_id": "f_99c9224be4d7"
+  },
+  {
+    "name": "Grand Prairie Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7698514,
+    "lng": -96.9492464,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ef045d9fe159"
+  },
+  {
+    "name": "Greenpath Recovery",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7184656,
+    "lng": -96.8684796,
+    "website": null,
+    "source": null,
+    "facility_id": "f_1f8781f6dba2"
+  },
+  {
+    "name": "Greenpath Recovery",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7184656,
+    "lng": -96.8684796,
+    "website": null,
+    "source": null,
+    "facility_id": "f_db738bb61450"
+  },
+  {
+    "name": "GREENWAY-2051 NWH",
+    "type": "landfill",
+    "address": "2051 W NORTHWEST HWY DALLAS TX 75220",
+    "lat": 32.87,
+    "lng": -96.91,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4050e5001f96"
+  },
+  {
+    "name": "GREENWAY-2051 NWH",
+    "type": "landfill",
+    "address": "2051 W NORTHWEST HWY DALLAS TX 75220",
+    "lat": 32.87,
+    "lng": -96.91,
+    "website": null,
+    "source": null,
+    "facility_id": "f_54de5af9011a"
+  },
+  {
+    "name": "HARRY HINES TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "9500 HARRY HINES BLVD DALLAS TX 75220",
+    "lat": 32.85,
+    "lng": -96.88,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a81fce5b7135"
+  },
+  {
+    "name": "HARRY HINES TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "9500 HARRY HINES BLVD DALLAS TX 75220",
+    "lat": 32.85,
+    "lng": -96.88,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ddce178263aa"
+  },
+  {
+    "name": "INFLOW INC",
+    "type": "landfill",
+    "address": "1333 N STEMMONS FWY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.82,
+    "website": null,
+    "source": null,
+    "facility_id": "f_53b89bc352cd"
+  },
+  {
+    "name": "INFLOW INC",
+    "type": "landfill",
+    "address": "1333 N STEMMONS FWY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.82,
+    "website": null,
+    "source": null,
+    "facility_id": "f_dd980d08c6e8"
+  },
+  {
+    "name": "INWOOD TRADE CENTER BUSINESS PARK",
+    "type": "landfill",
+    "address": "1121 CONVEYOR LN DALLAS TX 75247",
+    "lat": 32.81,
+    "lng": -96.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_28fde0fb34ac"
+  },
+  {
+    "name": "Irving Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7835313,
+    "lng": -96.9438942,
+    "website": null,
+    "source": null,
+    "facility_id": "f_63d9c234117d"
+  },
+  {
+    "name": "Irving Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.7835313,
+    "lng": -96.9438942,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e6001fdc8a18"
+  },
+  {
+    "name": "MCCOMMAS BLUFF LANDFILL",
+    "type": "landfill",
+    "address": "5100 YOUNGBLOOD RD DALLAS TX 75241",
+    "lat": 32.68,
+    "lng": -96.72,
+    "website": null,
+    "source": null,
+    "facility_id": "f_218412845860"
+  },
+  {
+    "name": "MCCOMMAS BLUFF LANDFILL",
+    "type": "landfill",
+    "address": "5100 YOUNGBLOOD RD DALLAS TX 75241",
+    "lat": 32.68,
+    "lng": -96.72,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c84282aacc4c"
+  },
+  {
+    "name": "McCommas Bluff Sanitary Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.6823187,
+    "lng": -96.7191789,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3b35de8df82a"
+  },
+  {
+    "name": "McCommas Bluff Sanitary Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.6823187,
+    "lng": -96.7191789,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c72c28d8cc0c"
+  },
+  {
+    "name": "MCOMMAS BLUFF LFG PROCESSING FACILITY",
+    "type": "landfill",
+    "address": "5500 YOUNGBLOOD RD DALLAS TX 75241",
+    "lat": 32.68,
+    "lng": -96.73,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b6c624b93b1c"
+  },
+  {
+    "name": "MCOMMAS BLUFF LFG PROCESSING FACILITY",
+    "type": "landfill",
+    "address": "5500 YOUNGBLOOD RD DALLAS TX 75241",
+    "lat": 32.68,
+    "lng": -96.73,
+    "website": null,
+    "source": null,
+    "facility_id": "f_cd10e3678ce0"
+  },
+  {
+    "name": "Northeast (Fair Oaks) Transfer Station",
+    "type": "recycling",
+    "address": "7400 Holly Hill Drive",
+    "lat": 32.8811878,
+    "lng": -96.752371,
+    "website": null,
+    "source": null,
+    "facility_id": "f_55e989b7aced"
+  },
+  {
+    "name": "Northeast (Fair Oaks) Transfer Station",
+    "type": "recycling",
+    "address": "7400 Holly Hill Drive",
+    "lat": 32.8811878,
+    "lng": -96.752371,
+    "website": null,
+    "source": null,
+    "facility_id": "f_627e8167a3b3"
+  },
+  {
+    "name": "OFFICE/WAREHOUSE",
+    "type": "landfill",
+    "address": "10341 FINNELL ST DALLAS TX 75220",
+    "lat": 32.86,
+    "lng": -96.89,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a20aa4a86ae1"
+  },
+  {
+    "name": "OFFICE/WAREHOUSE",
+    "type": "landfill",
+    "address": "10341 FINNELL ST DALLAS TX 75220",
+    "lat": 32.86,
+    "lng": -96.89,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b987e0f457d3"
+  },
+  {
+    "name": "Phoenix Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9219174,
+    "lng": -96.6315154,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c16629ab19ea"
+  },
+  {
+    "name": "Phoenix Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9219174,
+    "lng": -96.6315154,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c8e9efcf0c12"
+  },
+  {
+    "name": "Recycle Revolution",
+    "type": "recycling",
+    "address": "6835 Forest Park Road 75235",
+    "lat": 32.8264799,
+    "lng": -96.8510826,
+    "website": "https://recyclerevolutiondallas.com/",
+    "source": null,
+    "facility_id": "f_45ecfa5e05b2"
+  },
+  {
+    "name": "Recycle Revolution",
+    "type": "recycling",
+    "address": "6835 Forest Park Road 75235",
+    "lat": 32.8264799,
+    "lng": -96.8510826,
+    "website": "https://recyclerevolutiondallas.com/",
+    "source": null,
+    "facility_id": "f_cef05fe5ace2"
+  },
+  {
+    "name": "Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9520379,
+    "lng": -96.7662987,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b2c435e9499e"
+  },
+  {
+    "name": "Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9520379,
+    "lng": -96.7662987,
+    "website": null,
+    "source": null,
+    "facility_id": "f_bc6fe81662e6"
+  },
+  {
+    "name": "SECURITY SELF STORAGE",
+    "type": "landfill",
+    "address": "8600 SPRING VALLEY RD DALLAS TX 75240",
+    "lat": 32.94,
+    "lng": -96.75,
+    "website": null,
+    "source": null,
+    "facility_id": "f_28494a461a68"
+  },
+  {
+    "name": "SECURITY SELF STORAGE",
+    "type": "landfill",
+    "address": "6640 SKILLMAN ST DALLAS TX 75231",
+    "lat": 32.87,
+    "lng": -96.74,
+    "website": null,
+    "source": null,
+    "facility_id": "f_2ff5fd138f59"
+  },
+  {
+    "name": "SECURITY SELF STORAGE",
+    "type": "landfill",
+    "address": "8600 SPRING VALLEY RD DALLAS TX 75240",
+    "lat": 32.94,
+    "lng": -96.75,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4cde1bd8adc2"
+  },
+  {
+    "name": "SECURITY SELF STORAGE",
+    "type": "landfill",
+    "address": "6640 SKILLMAN ST DALLAS TX 75231",
+    "lat": 32.87,
+    "lng": -96.74,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c6001d7e5750"
+  },
+  {
+    "name": "SHINCHON GRAND PLAZA",
+    "type": "landfill",
+    "address": "SWC OF WALNUT HILL LN & GOODNIGHT LN DALLAS TX 75116",
+    "lat": 32.88,
+    "lng": -96.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_18ea78c7865f"
+  },
+  {
+    "name": "SHINCHON GRAND PLAZA",
+    "type": "landfill",
+    "address": "SWC OF WALNUT HILL LN & GOODNIGHT LN DALLAS TX 75116",
+    "lat": 32.88,
+    "lng": -96.9,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e32d215a34e6"
+  },
+  {
+    "name": "Southwest (Oak Cliff) Transfer Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6879484,
+    "lng": -96.8813745,
+    "website": null,
+    "source": null,
+    "facility_id": "f_091456775b97"
+  },
+  {
+    "name": "Southwest (Oak Cliff) Transfer Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.6879484,
+    "lng": -96.8813745,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f5a2e86875aa"
+  },
+  {
+    "name": "TEXAS DEPARTMENT OF TRANSPORTATION",
+    "type": "landfill",
+    "address": "I35 STEMMONS FREEWAY SB FRONTAGE RD BETWEEN HI LINE DRIVE & 1323 N STEMMONS FREEWAY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.81,
+    "website": null,
+    "source": null,
+    "facility_id": "f_1f2d6fade76b"
+  },
+  {
+    "name": "TEXAS DEPARTMENT OF TRANSPORTATION",
+    "type": "landfill",
+    "address": "I35 STEMMONS FREEWAY SB FRONTAGE RD BETWEEN HI LINE DRIVE & 1323 N STEMMONS FREEWAY DALLAS TX 75207",
+    "lat": 32.79,
+    "lng": -96.81,
+    "website": null,
+    "source": null,
+    "facility_id": "f_2a0536c2a63f"
+  }
+]

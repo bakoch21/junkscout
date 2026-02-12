@@ -6,22 +6,8 @@
     "lat": 31.16,
     "lng": -97.83,
     "website": null,
-    "facility_id": "f_0e4d2a60dc62",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "FORT HOOD BIOTREATMENT FACILITY",
-    "type": "landfill",
-    "address": "700 N 37TH ST BLDG 1955 FORT CAVAZOS TX 76544",
-    "lat": 31.15,
-    "lng": -97.76,
-    "website": null,
-    "facility_id": "f_76340096df62",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_0e4d2a60dc62"
   },
   {
     "name": "FORT CAVAZOS LANDFILL",
@@ -30,10 +16,8 @@
     "lat": 31.16,
     "lng": -97.83,
     "website": null,
-    "facility_id": "f_856b1b60c67c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_856b1b60c67c"
   },
   {
     "name": "FORT HOOD BIOTREATMENT FACILITY",
@@ -42,9 +26,17 @@
     "lat": 31.15,
     "lng": -97.76,
     "website": null,
-    "facility_id": "f_f03b23ada5fe",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_76340096df62"
+  },
+  {
+    "name": "FORT HOOD BIOTREATMENT FACILITY",
+    "type": "landfill",
+    "address": "700 N 37TH ST BLDG 1955 FORT CAVAZOS TX 76544",
+    "lat": 31.15,
+    "lng": -97.76,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f03b23ada5fe"
   }
 ]

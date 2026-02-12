@@ -1,30 +1,31 @@
-// scripts/generate-city-pages.js
-const fs = require("fs");
+﻿const fs = require("fs");
 const path = require("path");
 
 // Usage:
 //   node scripts/generate-city-pages.js texas
 //   node scripts/generate-city-pages.js california
-// If omitted, defaults to texas.
-const STATE_ARG = (process.argv[2] || "texas").toLowerCase();
+//   node scripts/generate-city-pages.js texas houston
+const STATE_ARG = String(process.argv[2] || "texas").trim().toLowerCase();
+const CITY_FILTER_ARG = String(process.argv[3] || "").trim().toLowerCase();
 
-// City list source of truth: scripts/cities-<state>.json
-const CITY_LIST_PATH = `./scripts/cities-${STATE_ARG}.json`;
-
-const TEMPLATE_PATH = "./city-template.html";
-const OUTPUT_BASE = "."; // project root
-
-// Neighbors output (from scripts/build-neighbors.js)
-const NEIGHBORS_PATH = `./data/${STATE_ARG}/_neighbors.json`;
-
-// ✅ Canonical base (used for canonical, OG, and JSON-LD)
+const CITY_LIST_PATH = path.join("scripts", `cities-${STATE_ARG}.json`);
+const TEMPLATE_PATH = "city-template.html";
+const OUTPUT_BASE = ".";
+const NEIGHBORS_PATH = path.join("data", STATE_ARG, "_neighbors.json");
+const CURATED_BASE = path.join("data", "manual");
 const BASE_URL = "https://junkscout.io";
 
-// ✅ Curated overlays live here (lowercase)
-const CURATED_BASE = "./data/manual";
+function safeReadJson(filePath, fallback = null) {
+  try {
+    if (!fs.existsSync(filePath)) return fallback;
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch {
+    return fallback;
+  }
+}
 
 function titleCaseFromSlug(slug = "") {
-  return slug
+  return String(slug || "")
     .split("-")
     .filter(Boolean)
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
@@ -32,27 +33,39 @@ function titleCaseFromSlug(slug = "") {
 }
 
 function stateAbbrevFromSlug(stateSlug = "") {
-  const s = String(stateSlug || "").toLowerCase();
-  if (s === "texas") return "TX";
-  if (s === "california") return "CA";
-  return stateSlug.toUpperCase();
+  const state = String(stateSlug || "").toLowerCase();
+  if (state === "texas") return "TX";
+  if (state === "california") return "CA";
+  return state.toUpperCase();
+}
+
+function escapeHtml(value = "") {
+  return String(value).replace(/[&<>"']/g, (ch) => {
+    if (ch === "&") return "&amp;";
+    if (ch === "<") return "&lt;";
+    if (ch === ">") return "&gt;";
+    if (ch === '"') return "&quot;";
+    return "&#39;";
+  });
 }
 
 function buildMeta({ state, city }) {
   const cityName = titleCaseFromSlug(city);
-  const stateUpper = state.toUpperCase();
-
-  const title = `Find dumps and landfills in ${cityName}, ${stateUpper} | JunkScout`;
+  const stateAbbrev = stateAbbrevFromSlug(state);
+  const title = `Find dumps and landfills in ${cityName}, ${stateAbbrev} | JunkScout`;
   const description =
-    `Public dumps, landfills, transfer stations, and recycling drop-offs near ${cityName}, ${stateUpper} — with rules and accepted materials when available.`;
-
+    `Public dumps, landfills, transfer stations, and recycling drop-offs near ${cityName}, ${stateAbbrev} with rules and accepted materials when available.`;
   const canonicalPath = `/${state}/${city}/`;
   const canonicalUrl = `${BASE_URL}${canonicalPath}`;
 
-  const ogTitle = title;
-  const ogDesc = description;
-
-  return { title, description, canonicalPath, canonicalUrl, ogTitle, ogDesc };
+  return {
+    title,
+    description,
+    canonicalPath,
+    canonicalUrl,
+    ogTitle: title,
+    ogDesc: description,
+  };
 }
 
 function buildJsonLd({ state, city, meta }) {
@@ -64,36 +77,31 @@ function buildJsonLd({ state, city, meta }) {
   const stateUrl = `${BASE_URL}/${state}/`;
   const siteUrl = `${BASE_URL}/`;
 
-  const webpageId = `${url}#webpage`;
-  const breadcrumbId = `${url}#breadcrumb`;
-  const placeId = `${url}#place`;
-  const websiteId = `${siteUrl}#website`;
-  const orgId = `${siteUrl}#org`;
-
-  const searchTarget = `${BASE_URL}/?where={search_term_string}`;
-
   const graph = [
     {
       "@type": "Organization",
-      "@id": orgId,
+      "@id": `${siteUrl}#org`,
       name: "JunkScout",
       url: siteUrl,
     },
     {
       "@type": "WebSite",
-      "@id": websiteId,
+      "@id": `${siteUrl}#website`,
       name: "JunkScout",
       url: siteUrl,
-      publisher: { "@id": orgId },
+      publisher: { "@id": `${siteUrl}#org` },
       potentialAction: {
         "@type": "SearchAction",
-        target: { "@type": "EntryPoint", urlTemplate: searchTarget },
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${BASE_URL}/?where={search_term_string}`,
+        },
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "BreadcrumbList",
-      "@id": breadcrumbId,
+      "@id": `${url}#breadcrumb`,
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
         { "@type": "ListItem", position: 2, name: stateName, item: stateUrl },
@@ -102,7 +110,7 @@ function buildJsonLd({ state, city, meta }) {
     },
     {
       "@type": "Place",
-      "@id": placeId,
+      "@id": `${url}#place`,
       name: `Dump and landfill options in ${cityName}, ${stateName}`,
       address: {
         "@type": "PostalAddress",
@@ -110,70 +118,58 @@ function buildJsonLd({ state, city, meta }) {
         addressRegion: stateAbbrev,
         addressCountry: "US",
       },
-      hasMap: `https://www.google.com/maps/search/${encodeURIComponent(
-        `dump landfill ${cityName} ${stateAbbrev}`
-      )}`,
+      hasMap: `https://www.google.com/maps/search/${encodeURIComponent(`dump landfill ${cityName} ${stateAbbrev}`)}`,
       url,
     },
     {
       "@type": "WebPage",
-      "@id": webpageId,
+      "@id": `${url}#webpage`,
       name: meta.title,
       description: meta.description,
       url,
-      isPartOf: { "@id": websiteId },
-      about: { "@id": placeId },
-      breadcrumb: { "@id": breadcrumbId },
+      isPartOf: { "@id": `${siteUrl}#website` },
+      about: { "@id": `${url}#place` },
+      breadcrumb: { "@id": `${url}#breadcrumb` },
     },
   ];
 
-  const json = JSON.stringify(
-    { "@context": "https://schema.org", "@graph": graph },
-    null,
-    2
-  );
-
+  const json = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }, null, 2);
   return `<script type="application/ld+json">\n${json}\n</script>`;
 }
 
 function injectHeadMeta(html, meta) {
   const tags = `
-  <title>${meta.title}</title>
-  <meta name="description" content="${meta.description}" />
-  <link rel="canonical" href="${meta.canonicalUrl}" />
+  <title>${escapeHtml(meta.title)}</title>
+  <meta name="description" content="${escapeHtml(meta.description)}" />
+  <link rel="canonical" href="${escapeHtml(meta.canonicalUrl)}" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="${meta.ogTitle}" />
-  <meta property="og:description" content="${meta.ogDesc}" />
-  <meta property="og:url" content="${meta.canonicalUrl}" />
+  <meta property="og:title" content="${escapeHtml(meta.ogTitle)}" />
+  <meta property="og:description" content="${escapeHtml(meta.ogDesc)}" />
+  <meta property="og:url" content="${escapeHtml(meta.canonicalUrl)}" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="${meta.ogTitle}" />
-  <meta name="twitter:description" content="${meta.ogDesc}" />
+  <meta name="twitter:title" content="${escapeHtml(meta.ogTitle)}" />
+  <meta name="twitter:description" content="${escapeHtml(meta.ogDesc)}" />
 `;
+
   return html.replace("</head>", `${tags}\n</head>`);
 }
 
 function injectJsonLd(html, jsonLdScript) {
   const markerRegex = /<!--\s*JSONLD:START\s*-->[\s\S]*?<!--\s*JSONLD:END\s*-->/;
-
   if (markerRegex.test(html)) {
-    return html.replace(
-      markerRegex,
-      `<!-- JSONLD:START -->\n${jsonLdScript}\n<!-- JSONLD:END -->`
-    );
+    return html.replace(markerRegex, `<!-- JSONLD:START -->\n${jsonLdScript}\n<!-- JSONLD:END -->`);
   }
-
   return html.replace("</head>", `\n${jsonLdScript}\n</head>`);
 }
 
-function injectBodySeed(html, { state, city }) {
-  return html.replace("<body>", `<body data-state="${state}" data-city="${city}">`);
+function injectBodySeed(html, state, city) {
+  return html.replace("<body>", `<body data-state="${escapeHtml(state)}" data-city="${escapeHtml(city)}">`);
 }
 
 function buildNearbyHtml({ state, city, neighborsMap }) {
-  const itemsRaw =
-    neighborsMap?.[city] || neighborsMap?.[String(city).toLowerCase()] || [];
+  const itemsRaw = neighborsMap?.[city] || neighborsMap?.[String(city).toLowerCase()] || [];
   if (!Array.isArray(itemsRaw) || itemsRaw.length === 0) return "";
 
   const items = itemsRaw
@@ -181,7 +177,6 @@ function buildNearbyHtml({ state, city, neighborsMap }) {
       const slug =
         (n && (n.slug || n.city || n.city_slug || n.to)) ||
         (typeof n === "string" ? n : null);
-
       if (!slug) return null;
 
       const cleanSlug = String(slug).trim().toLowerCase().replace(/\s+/g, "-");
@@ -192,9 +187,8 @@ function buildNearbyHtml({ state, city, neighborsMap }) {
 
       const d =
         (n && (n.distance_mi ?? n.distanceMiles ?? n.mi ?? n.distance)) ?? null;
-
       const distanceText =
-        typeof d === "number" && isFinite(d) ? `${Math.round(d)} mi` : "";
+        typeof d === "number" && Number.isFinite(d) ? `${Math.round(d)} mi` : "";
 
       return { slug: cleanSlug, label, distanceText };
     })
@@ -207,20 +201,18 @@ function buildNearbyHtml({ state, city, neighborsMap }) {
 
   return `
 <section class="seo-copy" aria-label="Nearby locations">
-  <h2>Nearby dump & landfill locations</h2>
+  <h2>Nearby dump and landfill locations</h2>
   <p class="muted">
-    If you don’t see the right option in ${cityName}, check these nearby cities in ${stateName}.
+    If you do not see the right option in ${escapeHtml(cityName)}, check these nearby cities in ${escapeHtml(stateName)}.
   </p>
 
   <div class="cityhub__grid" style="margin-top:10px">
     ${items
-      .map(
-        (x) => `
-      <a class="cityhub__pill" href="/${state}/${x.slug}/">
-        ${x.label}${x.distanceText ? ` <span class="muted" style="font-weight:600">· ${x.distanceText}</span>` : ""}
+      .map((x) => `
+      <a class="cityhub__pill" href="/${escapeHtml(state)}/${escapeHtml(x.slug)}/">
+        ${escapeHtml(x.label)}${x.distanceText ? ` <span class="muted" style="font-weight:600">&middot; ${escapeHtml(x.distanceText)}</span>` : ""}
       </a>
-    `
-      )
+    `)
       .join("")}
   </div>
 </section>
@@ -231,18 +223,11 @@ function injectNearby(html, nearbyHtml) {
   if (!nearbyHtml) return html;
 
   const markerRegex = /<!--\s*NEARBY:START\s*-->[\s\S]*?<!--\s*NEARBY:END\s*-->/;
-
   if (markerRegex.test(html)) {
-    return html.replace(
-      markerRegex,
-      `<!-- NEARBY:START -->\n${nearbyHtml}\n<!-- NEARBY:END -->`
-    );
+    return html.replace(markerRegex, `<!-- NEARBY:START -->\n${nearbyHtml}\n<!-- NEARBY:END -->`);
   }
 
-  if (html.includes("</main>")) {
-    return html.replace("</main>", `\n${nearbyHtml}\n</main>`);
-  }
-
+  if (html.includes("</main>")) return html.replace("</main>", `\n${nearbyHtml}\n</main>`);
   return html.replace("</body>", `\n${nearbyHtml}\n</body>`);
 }
 
@@ -250,44 +235,32 @@ function buildStateHubLinkHtml(state) {
   const stateName = titleCaseFromSlug(state);
   return `
 <div style="margin-top:12px">
-  <a class="link" href="/${state}/">← Back to ${stateName} cities</a>
+  <a class="link" href="/${escapeHtml(state)}/">&larr; Back to ${escapeHtml(stateName)} cities</a>
 </div>
 `.trim();
 }
 
 function injectStateHubLink(html, state) {
   const stateHtml = buildStateHubLinkHtml(state);
-
-  const markerRegex =
-    /<!--\s*STATEHUBLINK:START\s*-->[\s\S]*?<!--\s*STATEHUBLINK:END\s*-->/;
+  const markerRegex = /<!--\s*STATEHUBLINK:START\s*-->[\s\S]*?<!--\s*STATEHUBLINK:END\s*-->/;
 
   if (markerRegex.test(html)) {
-    return html.replace(
-      markerRegex,
-      `<!-- STATEHUBLINK:START -->\n${stateHtml}\n<!-- STATEHUBLINK:END -->`
-    );
+    return html.replace(markerRegex, `<!-- STATEHUBLINK:START -->\n${stateHtml}\n<!-- STATEHUBLINK:END -->`);
   }
 
   if (html.includes('id="citySubhead"')) {
-    return html.replace(
-      /(<p[^>]*id="citySubhead"[\s\S]*?<\/p>)/,
-      `$1\n${stateHtml}`
-    );
+    return html.replace(/(<p[^>]*id="citySubhead"[\s\S]*?<\/p>)/, `$1\n${stateHtml}`);
   }
 
   if (html.includes('id="results"')) {
-    return html.replace(
-      /(<section[^>]*id="results"[^>]*>)/,
-      `${stateHtml}\n$1`
-    );
+    return html.replace(/(<section[^>]*id="results"[^>]*>)/, `${stateHtml}\n$1`);
   }
 
   return html;
 }
 
 function buildPopularCitiesHtml(state) {
-  const s = String(state || "").toLowerCase();
-  if (s !== "california") return "";
+  if (String(state || "").toLowerCase() !== "california") return "";
 
   const stateName = titleCaseFromSlug(state);
   const popular = [
@@ -300,11 +273,11 @@ function buildPopularCitiesHtml(state) {
 
   return `
 <section class="seo-copy" aria-label="Popular California locations" style="margin-top:18px">
-  <h2>Popular ${stateName} locations</h2>
+  <h2>Popular ${escapeHtml(stateName)} locations</h2>
   <p class="muted">Browse major cities while we expand coverage.</p>
   <div class="cityhub__grid" style="margin-top:10px">
     ${popular
-      .map((x) => `<a class="cityhub__pill" href="/${state}/${x.slug}/">${x.label}</a>`)
+      .map((x) => `<a class="cityhub__pill" href="/${escapeHtml(state)}/${escapeHtml(x.slug)}/">${escapeHtml(x.label)}</a>`)
       .join("")}
   </div>
 </section>
@@ -315,14 +288,9 @@ function injectPopularCities(html, state) {
   const block = buildPopularCitiesHtml(state);
   if (!block) return html;
 
-  const markerRegex =
-    /<!--\s*POPULARCITIES:START\s*-->[\s\S]*?<!--\s*POPULARCITIES:END\s*-->/;
-
+  const markerRegex = /<!--\s*POPULARCITIES:START\s*-->[\s\S]*?<!--\s*POPULARCITIES:END\s*-->/;
   if (markerRegex.test(html)) {
-    return html.replace(
-      markerRegex,
-      `<!-- POPULARCITIES:START -->\n${block}\n<!-- POPULARCITIES:END -->`
-    );
+    return html.replace(markerRegex, `<!-- POPULARCITIES:START -->\n${block}\n<!-- POPULARCITIES:END -->`);
   }
 
   if (html.includes("<!-- SEO COPY START -->")) {
@@ -332,29 +300,16 @@ function injectPopularCities(html, state) {
   return html.replace("</main>", `\n${block}\n</main>`);
 }
 
-function safeReadJson(filePath) {
-  try {
-    if (!fs.existsSync(filePath)) return null;
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  } catch {
-    return null;
-  }
-}
-
-/**
- * ✅ Curated overlay injection (Option A)
- * If ./data/manual/<state>/<city>.resolved.json exists, inject:
- *   <script id="CURATED:JSON" type="application/json"> ...json... </script>
- */
-function buildCuratedScriptTag({ state, city }) {
+function buildCuratedScriptTag(state, city) {
   const stateDir = String(state || "").toLowerCase();
   const citySlug = String(city || "").toLowerCase();
-  const curatedPath = path.join(CURATED_BASE, stateDir, `${citySlug}.resolved.json`);
 
-  const curated = safeReadJson(curatedPath);
+  const resolvedPath = path.join(CURATED_BASE, stateDir, `${citySlug}.resolved.json`);
+  const rawPath = path.join(CURATED_BASE, stateDir, `${citySlug}.json`);
+
+  const curated = safeReadJson(resolvedPath) || safeReadJson(rawPath);
   if (!curated) return "";
 
-  // Non-fatal: add helpful fields if missing
   if (!curated.city) curated.city = titleCaseFromSlug(citySlug);
   if (!curated.state) curated.state = stateAbbrevFromSlug(stateDir);
 
@@ -362,65 +317,81 @@ function buildCuratedScriptTag({ state, city }) {
   return `<script id="CURATED:JSON" type="application/json">\n${json}\n</script>`;
 }
 
-function injectCuratedOverlay(html, { state, city }) {
-  const tag = buildCuratedScriptTag({ state, city });
-  if (!tag) return html;
+function injectCuratedOverlay(html, state, city) {
+  const scriptTag = buildCuratedScriptTag(state, city);
+  if (!scriptTag) return html;
 
   const markerRegex = /<!--\s*CURATED:START\s*-->[\s\S]*?<!--\s*CURATED:END\s*-->/;
   if (markerRegex.test(html)) {
-    return html.replace(markerRegex, `<!-- CURATED:START -->\n${tag}\n<!-- CURATED:END -->`);
+    return html.replace(markerRegex, `<!-- CURATED:START -->\n${scriptTag}\n<!-- CURATED:END -->`);
   }
 
-  if (html.includes("</body>")) return html.replace("</body>", `\n${tag}\n</body>`);
-  return html + `\n${tag}\n`;
+  if (html.includes("</body>")) return html.replace("</body>", `\n${scriptTag}\n</body>`);
+  return `${html}\n${scriptTag}\n`;
 }
 
 function run() {
   if (!fs.existsSync(CITY_LIST_PATH)) {
-    console.error(`❌ City list not found: ${CITY_LIST_PATH}`);
-    console.error(`   Create it (e.g., scripts/cities-${STATE_ARG}.json) then re-run.`);
+    console.error(`City list not found: ${CITY_LIST_PATH}`);
     process.exit(1);
   }
 
-  const cities = JSON.parse(fs.readFileSync(CITY_LIST_PATH, "utf-8"));
-  let template = fs.readFileSync(TEMPLATE_PATH, "utf-8");
+  const cityList = safeReadJson(CITY_LIST_PATH, []);
+  if (!Array.isArray(cityList)) {
+    console.error(`Invalid city list JSON: ${CITY_LIST_PATH}`);
+    process.exit(1);
+  }
 
-  // Remove any hardcoded <title> or meta description in template to avoid duplicates.
+  let template = fs.readFileSync(TEMPLATE_PATH, "utf-8");
   template = template
     .replace(/<title>.*?<\/title>\s*/i, "")
-    .replace(/<meta\s+name="description"[^>]*>\s*/i, "");
+    .replace(/<meta\s+name="description"[^>]*>\s*/i, "")
+    .replace(/<link\s+rel="canonical"[^>]*>\s*/i, "");
 
-  const neighborsMap = safeReadJson(NEIGHBORS_PATH) || {};
+  const neighborsMap = safeReadJson(NEIGHBORS_PATH, {});
 
-  for (const entry of cities) {
-    const { state, city } = entry;
-    if (!state || !city) continue;
-    if (String(state).toLowerCase() !== STATE_ARG) continue;
+  const filtered = cityList.filter((entry) => {
+    const state = String(entry?.state || "").toLowerCase();
+    const city = String(entry?.city || "").toLowerCase();
+    if (!state || !city) return false;
+    if (state !== STATE_ARG) return false;
+    if (CITY_FILTER_ARG && city !== CITY_FILTER_ARG) return false;
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    const cityMsg = CITY_FILTER_ARG ? ` city=${CITY_FILTER_ARG}` : "";
+    console.error(`No city pages matched state=${STATE_ARG}${cityMsg}`);
+    process.exit(1);
+  }
+
+  for (const entry of filtered) {
+    const state = String(entry.state).toLowerCase();
+    const city = String(entry.city).toLowerCase();
 
     const meta = buildMeta({ state, city });
-    let outHtml = template;
 
-    outHtml = injectHeadMeta(outHtml, meta);
-    outHtml = injectJsonLd(outHtml, buildJsonLd({ state, city, meta }));
-    outHtml = injectBodySeed(outHtml, { state, city });
-
-    outHtml = injectStateHubLink(outHtml, state);
-    outHtml = injectPopularCities(outHtml, state);
+    let outputHtml = template;
+    outputHtml = injectHeadMeta(outputHtml, meta);
+    outputHtml = injectJsonLd(outputHtml, buildJsonLd({ state, city, meta }));
+    outputHtml = injectBodySeed(outputHtml, state, city);
+    outputHtml = injectStateHubLink(outputHtml, state);
+    outputHtml = injectPopularCities(outputHtml, state);
 
     const nearbyHtml = buildNearbyHtml({ state, city, neighborsMap });
-    outHtml = injectNearby(outHtml, nearbyHtml);
-
-    // ✅ inject manual overlay JSON (resolved)
-    outHtml = injectCuratedOverlay(outHtml, { state, city });
+    outputHtml = injectNearby(outputHtml, nearbyHtml);
+    outputHtml = injectCuratedOverlay(outputHtml, state, city);
 
     const outDir = path.join(OUTPUT_BASE, state, city);
     const outFile = path.join(outDir, "index.html");
 
     fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(outFile, outHtml, "utf-8");
+    fs.writeFileSync(outFile, outputHtml, "utf-8");
 
-    console.log(`✅ Wrote page → ${outFile}`);
+    console.log(`Wrote city page: ${outFile}`);
   }
+
+  console.log(`Generated ${filtered.length} city page(s).`);
 }
 
 run();

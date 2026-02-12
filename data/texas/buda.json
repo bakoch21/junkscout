@@ -6,10 +6,8 @@
     "lat": 30.11,
     "lng": -97.76,
     "website": null,
-    "facility_id": "f_5427a2f4719d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5427a2f4719d"
   },
   {
     "name": "TEXAS DISPOSAL SYSTEMS LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 30.11,
     "lng": -97.76,
     "website": null,
-    "facility_id": "f_6b7b29fa0652",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_6b7b29fa0652"
   }
 ]

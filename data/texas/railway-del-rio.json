@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CITY OF DEL RIO LANDFILL",
+    "type": "landfill",
+    "address": "1897 RAILWAY DEL RIO TX 78840",
+    "lat": 29.36,
+    "lng": -100.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9689e5a848b2"
+  },
+  {
+    "name": "CITY OF DEL RIO LANDFILL",
+    "type": "landfill",
+    "address": "1897 RAILWAY DEL RIO TX 78840",
+    "lat": 29.36,
+    "lng": -100.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a2c43ffb049b"
+  },
+  {
+    "name": "CITY OF DEL RIO LANDFILL",
+    "type": "landfill",
+    "address": "1897 RAILWAY DEL RIO TX 78840",
+    "lat": 29.36,
+    "lng": -100.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_fa3ef1fe2e4a"
+  }
+]

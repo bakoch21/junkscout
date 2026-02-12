@@ -6,10 +6,8 @@
     "lat": 27.79,
     "lng": -98.1,
     "website": null,
-    "facility_id": "f_dab19cc2cfae",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_dab19cc2cfae"
   },
   {
     "name": "CITY OF ALICE LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 27.79,
     "lng": -98.1,
     "website": null,
-    "facility_id": "f_e5fc4e1686b4",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_e5fc4e1686b4"
   }
 ]

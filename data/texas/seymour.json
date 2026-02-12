@@ -6,10 +6,8 @@
     "lat": 33.56,
     "lng": -99.24,
     "website": null,
-    "facility_id": "f_29a1ffb23a71",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_29a1ffb23a71"
   },
   {
     "name": "CITY OF SEYMOUR TRANSFER STATION FACILITY",
@@ -18,9 +16,7 @@
     "lat": 33.56,
     "lng": -99.24,
     "website": null,
-    "facility_id": "f_6264f744e34c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_6264f744e34c"
   }
 ]

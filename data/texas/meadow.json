@@ -6,10 +6,8 @@
     "lat": 33.3,
     "lng": -102.19,
     "website": null,
-    "facility_id": "f_1d17694f093f",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_1d17694f093f"
   },
   {
     "name": "CITY OF MEADOW LANDFILL",
@@ -18,10 +16,8 @@
     "lat": 33.3,
     "lng": -102.19,
     "website": null,
-    "facility_id": "f_a25bd9eade7c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_a25bd9eade7c"
   },
   {
     "name": "CITY OF MEADOW LANDFILL",
@@ -30,9 +26,7 @@
     "lat": 33.3,
     "lng": -102.19,
     "website": null,
-    "facility_id": "f_b02f7abf9f6d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_b02f7abf9f6d"
   }
 ]

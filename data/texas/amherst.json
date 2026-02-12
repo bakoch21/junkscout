@@ -6,10 +6,8 @@
     "lat": 34.02,
     "lng": -102.4,
     "website": null,
-    "facility_id": "f_0339733503e8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_0339733503e8"
   },
   {
     "name": "CITY OF AMHERST LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 34.02,
     "lng": -102.4,
     "website": null,
-    "facility_id": "f_3a42bbd18160",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_3a42bbd18160"
   }
 ]

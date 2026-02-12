@@ -1,15 +1,43 @@
 [
   {
-    "name": "GREEN AND GONE NORTH TEXAS",
-    "type": "landfill",
-    "address": "2588 E LONG AVE STE 200 FORT WORTH TX 76137",
-    "lat": 32.81,
-    "lng": -97.31,
+    "name": "Best Grease Service",
+    "type": "recycling",
+    "address": "5232 Nadine Drive Haltom City TX 76117",
+    "lat": 32.8192997,
+    "lng": -97.269422,
+    "website": "http://oilrecyclinghaltomcity.com",
+    "source": null,
+    "facility_id": "f_03722a00642e"
+  },
+  {
+    "name": "Best Grease Service",
+    "type": "recycling",
+    "address": "5232 Nadine Drive Haltom City TX 76117",
+    "lat": 32.8192997,
+    "lng": -97.269422,
+    "website": "http://oilrecyclinghaltomcity.com",
+    "source": null,
+    "facility_id": "f_b5f99587f551"
+  },
+  {
+    "name": "Cardboard and Paper recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9445044,
+    "lng": -97.5803372,
     "website": null,
-    "facility_id": "f_09fba25cae48",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_30122790653f"
+  },
+  {
+    "name": "Cardboard and Paper recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.9445044,
+    "lng": -97.5803372,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ac8ec7248b1e"
   },
   {
     "name": "COLD SPRINGS PROCESSING & DISPOSAL",
@@ -18,10 +46,8 @@
     "lat": 32.77,
     "lng": -97.33,
     "website": null,
-    "facility_id": "f_698598a16820",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_698598a16820"
   },
   {
     "name": "COLD SPRINGS PROCESSING & DISPOSAL",
@@ -30,10 +56,48 @@
     "lat": 32.77,
     "lng": -97.33,
     "website": null,
-    "facility_id": "f_afcfa0ae2cc7",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_afcfa0ae2cc7"
+  },
+  {
+    "name": "Fort Worth Southeast Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.6485603,
+    "lng": -97.2411144,
+    "website": null,
+    "source": null,
+    "facility_id": "f_171dc7f056d6"
+  },
+  {
+    "name": "Fort Worth Southeast Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.6485603,
+    "lng": -97.2411144,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ee29ac993327"
+  },
+  {
+    "name": "Goodwill Outlet Store",
+    "type": "recycling",
+    "address": "2462 Mansfield Highway Fort Worth TX",
+    "lat": 32.6881214,
+    "lng": -97.2939505,
+    "website": null,
+    "source": null,
+    "facility_id": "f_1da37384c20c"
+  },
+  {
+    "name": "Goodwill Outlet Store",
+    "type": "recycling",
+    "address": "2462 Mansfield Highway Fort Worth TX",
+    "lat": 32.6881214,
+    "lng": -97.2939505,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ea098a495426"
   },
   {
     "name": "GREEN AND GONE NORTH TEXAS",
@@ -42,9 +106,117 @@
     "lat": 32.81,
     "lng": -97.31,
     "website": null,
-    "facility_id": "f_cf366ae19b9e",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_09fba25cae48"
+  },
+  {
+    "name": "GREEN AND GONE NORTH TEXAS",
+    "type": "landfill",
+    "address": "2588 E LONG AVE STE 200 FORT WORTH TX 76137",
+    "lat": 32.81,
+    "lng": -97.31,
+    "website": null,
+    "source": null,
+    "facility_id": "f_cf366ae19b9e"
+  },
+  {
+    "name": "Southeast Drop-off Station - Fort Worth Recycling",
+    "type": "recycling",
+    "address": "5100 Martin Luther King Freeway Fort Worth TX 76119",
+    "lat": 32.6925272,
+    "lng": -97.2449729,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a7c9d2ff7cbc"
+  },
+  {
+    "name": "Southeast Drop-off Station - Fort Worth Recycling",
+    "type": "recycling",
+    "address": "5100 Martin Luther King Freeway Fort Worth TX 76119",
+    "lat": 32.6925272,
+    "lng": -97.2449729,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e62222bb53cd"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8255902,
+    "lng": -97.3904048,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_019922c0a3d6"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8256746,
+    "lng": -97.3902981,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_4455c9f6163b"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8256746,
+    "lng": -97.3902981,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_5901a964901b"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8255902,
+    "lng": -97.3904048,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_61355e0e206e"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8267709,
+    "lng": -97.3899444,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_79a2cddf7445"
+  },
+  {
+    "name": "Unnamed site",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8267709,
+    "lng": -97.3899444,
+    "website": "bigbellysolar.com",
+    "source": null,
+    "facility_id": "f_b984581622f4"
+  },
+  {
+    "name": "Waste Management - Westside Transfer Station",
+    "type": "landfill",
+    "address": "12220 West Freeway Fort Worth TX 76008",
+    "lat": 32.7275041,
+    "lng": -97.5332415,
+    "website": null,
+    "source": null,
+    "facility_id": "f_4ea209d48eb1"
+  },
+  {
+    "name": "Waste Management - Westside Transfer Station",
+    "type": "landfill",
+    "address": "12220 West Freeway Fort Worth TX 76008",
+    "lat": 32.7275041,
+    "lng": -97.5332415,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6d79da306d77"
   }
 ]

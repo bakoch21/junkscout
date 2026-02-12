@@ -6,10 +6,8 @@
     "lat": 30.76,
     "lng": -94.46,
     "website": null,
-    "facility_id": "f_393ecacf0d69",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_393ecacf0d69"
   },
   {
     "name": "TYLER COUNTY TRANSFER STATION FACILITY",
@@ -18,9 +16,7 @@
     "lat": 30.76,
     "lng": -94.46,
     "website": null,
-    "facility_id": "f_c4f4d6af3af8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_c4f4d6af3af8"
   }
 ]

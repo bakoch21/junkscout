@@ -1,14 +1,32 @@
 [
   {
+    "name": "CITY OF HASKELL ABANDONED BUILDING LANDFILL",
+    "type": "landfill",
+    "address": "2.83 MI NW OF THE INTERSECTION OF STATE HWY 380 AND STATE HWY 277 THEN 0.49 MI N AND 0.31 MI E HASKELL TX 79521",
+    "lat": 33.17,
+    "lng": -99.68,
+    "website": null,
+    "source": null,
+    "facility_id": "f_2786109bcff9"
+  },
+  {
+    "name": "CITY OF HASKELL ABANDONED BUILDING LANDFILL",
+    "type": "landfill",
+    "address": "2.83 MI NW OF THE INTERSECTION OF STATE HWY 380 AND STATE HWY 277 THEN 0.49 MI N AND 0.31 MI E HASKELL TX 79521",
+    "lat": 33.17,
+    "lng": -99.68,
+    "website": null,
+    "source": null,
+    "facility_id": "f_6cb883aa4c34"
+  },
+  {
     "name": "CITY OF HASKELL LANDFILL",
     "type": "landfill",
     "address": "4.2 MI E OF HASKELL ON SH-380  300 FT N @ FM RD 618 HASKELL TX",
     "lat": 33.17,
     "lng": -99.64,
     "website": null,
-    "facility_id": "f_fcd990b8cf6c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_7d176ff9256c"
   }
 ]

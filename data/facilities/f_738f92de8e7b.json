@@ -1,0 +1,17 @@
+{
+  "id": "f_738f92de8e7b",
+  "slug": "city-of-post-landfill",
+  "name": "CITY OF POST LANDFILL",
+  "type": "landfill",
+  "address": "1.3 MILES S OF US HIGHWAY 380 IN POST  0.4 MILES E OF FM 669 POST TX",
+  "lat": 33.17,
+  "lng": -101.38,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "post"
+    }
+  ]
+}

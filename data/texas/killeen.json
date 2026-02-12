@@ -1,15 +1,33 @@
 [
   {
-    "name": "KILLEEN TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "12200 STATE HWY 195 KILLEEN TX 76542 KILLEEN TX 76542",
-    "lat": 31.02,
-    "lng": -97.75,
+    "name": "BCWCID 1 REGIONAL COMPOST FACILITY",
+    "type": "recycling",
+    "address": "S OF KILLEEN ALONG SH 195,  APPROX 3 MI SO OF CITY LIMITS. APPROX 1/2 MI N OF INTX OF SH 195 & FM 2482 & ADJ TO TRANSFER STATION. KILLEEN TX 76540",
+    "lat": 31.01,
+    "lng": -97.74,
     "website": null,
-    "facility_id": "f_833a176efa42",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_3eaf2e03802e"
+  },
+  {
+    "name": "Fort Cavazos Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 31.125589,
+    "lng": -97.7868713,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b24f9ec67b27"
+  },
+  {
+    "name": "Fort Cavazos Recycling Center",
+    "type": "recycling",
+    "address": "",
+    "lat": 31.125589,
+    "lng": -97.7868713,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e8ea210e6ee0"
   },
   {
     "name": "KILLEEN TRANSFER STATION",
@@ -18,9 +36,27 @@
     "lat": 31.02,
     "lng": -97.75,
     "website": null,
-    "facility_id": "f_ea6556cc808c",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_833a176efa42"
+  },
+  {
+    "name": "KILLEEN TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "12200 STATE HWY 195 KILLEEN TX 76542 KILLEEN TX 76542",
+    "lat": 31.02,
+    "lng": -97.75,
+    "website": null,
+    "source": null,
+    "facility_id": "f_ea6556cc808c"
+  },
+  {
+    "name": "S & M VACUUM & WASTE LWP",
+    "type": "landfill",
+    "address": "1904 E RANCIER AVE KILLEEN TX 76541",
+    "lat": 31.13,
+    "lng": -97.63,
+    "website": null,
+    "source": null,
+    "facility_id": "f_aad425d0f5b0"
   }
 ]

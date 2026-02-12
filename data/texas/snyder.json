@@ -6,10 +6,8 @@
     "lat": 32.67,
     "lng": -100.81,
     "website": null,
-    "facility_id": "f_2461202eec34",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_2461202eec34"
   },
   {
     "name": "CITY OF SNYDER LANDFILL",
@@ -18,9 +16,7 @@
     "lat": 32.67,
     "lng": -100.81,
     "website": null,
-    "facility_id": "f_4211fbc7ca22",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_4211fbc7ca22"
   }
 ]

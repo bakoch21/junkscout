@@ -69,8 +69,8 @@
     {
       "@type": "WebPage",
       "@id": "https://junkscout.io/california/fresno/#webpage",
-      "name": "Find dumps and landfills in Fresno, CALIFORNIA | JunkScout",
-      "description": "Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CALIFORNIA — with rules and accepted materials when available.",
+      "name": "Find dumps and landfills in Fresno, CA | JunkScout",
+      "description": "Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CA with rules and accepted materials when available.",
       "url": "https://junkscout.io/california/fresno/",
       "isPartOf": {
         "@id": "https://junkscout.io/#website"
@@ -98,18 +98,38 @@
   <link rel="stylesheet" href="/styles.css" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-  <title>Find dumps and landfills in Fresno, CALIFORNIA | JunkScout</title>
-  <meta name="description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CALIFORNIA — with rules and accepted materials when available." />
+  <!-- ✅ Leaflet (map) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    /* Minimal map styling */
+    #mapWrap { margin-top: 14px; }
+    #map {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+      background: rgba(29,29,31,0.03);
+      overflow: hidden;
+    }
+    @media (max-width: 720px) {
+      #map { height: 260px; }
+    }
+  </style>
+
+  <title>Find dumps and landfills in Fresno, CA | JunkScout</title>
+  <meta name="description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CA with rules and accepted materials when available." />
   <link rel="canonical" href="https://junkscout.io/california/fresno/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Find dumps and landfills in Fresno, CALIFORNIA | JunkScout" />
-  <meta property="og:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CALIFORNIA — with rules and accepted materials when available." />
+  <meta property="og:title" content="Find dumps and landfills in Fresno, CA | JunkScout" />
+  <meta property="og:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CA with rules and accepted materials when available." />
   <meta property="og:url" content="https://junkscout.io/california/fresno/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Find dumps and landfills in Fresno, CALIFORNIA | JunkScout" />
-  <meta name="twitter:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CALIFORNIA — with rules and accepted materials when available." />
+  <meta name="twitter:title" content="Find dumps and landfills in Fresno, CA | JunkScout" />
+  <meta name="twitter:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near Fresno, CA with rules and accepted materials when available." />
 
 </head>
 
@@ -136,16 +156,13 @@
 
   <main class="hero">
     <div class="container">
-      <!-- H1 gets rewritten by city.js -->
       <h1 id="cityTitle">Where to dump trash</h1>
 
-      <!-- “Answer sentence” -->
       <p class="subhead" id="cityAnswer">
         Find public landfills, transfer stations, and recycling drop-offs near this city — with hours, rules, and accepted
         materials when available.
       </p>
 
-      <!-- Supporting line (also updated by city.js) -->
       <p class="muted" id="citySubhead" style="margin-top:10px">
         Compare drop-off options and confirm fees, residency rules, and accepted materials before you drive out.
       </p>
@@ -153,7 +170,7 @@
       <!-- ✅ Injected at build time -->
       <!-- STATEHUBLINK:START -->
 <div style="margin-top:12px">
-  <a class="link" href="/california/">← Back to California cities</a>
+  <a class="link" href="/california/">&larr; Back to California cities</a>
 </div>
 <!-- STATEHUBLINK:END -->
 
@@ -163,22 +180,11 @@
   <h2>Popular California locations</h2>
   <p class="muted">Browse major cities while we expand coverage.</p>
   <div class="cityhub__grid" style="margin-top:10px">
-    
-      <a class="cityhub__pill" href="/california/los-angeles/">Los Angeles</a>
-    
-      <a class="cityhub__pill" href="/california/san-diego/">San Diego</a>
-    
-      <a class="cityhub__pill" href="/california/san-francisco/">San Francisco</a>
-    
-      <a class="cityhub__pill" href="/california/san-jose/">San Jose</a>
-    
-      <a class="cityhub__pill" href="/california/sacramento/">Sacramento</a>
-    
+    <a class="cityhub__pill" href="/california/los-angeles/">Los Angeles</a><a class="cityhub__pill" href="/california/san-diego/">San Diego</a><a class="cityhub__pill" href="/california/san-francisco/">San Francisco</a><a class="cityhub__pill" href="/california/san-jose/">San Jose</a><a class="cityhub__pill" href="/california/sacramento/">Sacramento</a>
   </div>
 </section>
 <!-- POPULARCITIES:END -->
 
-      <!-- Prominent trust note -->
       <div class="muted small" role="note"
         style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
         Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
@@ -187,6 +193,11 @@
       <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
         Houston rules &amp; fees
       </button>
+
+      <!-- ✅ Map -->
+      <section id="mapWrap" aria-label="Map">
+        <div id="map"></div>
+      </section>
 
       <!-- Results injected here -->
       <section class="cards" id="results" style="margin-top:14px"></section>
@@ -206,7 +217,6 @@
           Use the listings above to confirm what’s accepted before you drive out.
         </p>
 
-        <!-- City-specific FAQ (one only) -->
         <h2 id="faqDumpFree">Is dumping free in this city?</h2>
         <p id="faqDumpFreeBody">
           Some public facilities offer free or discounted drop-off for residents with proof of address, while private landfills and
@@ -271,7 +281,10 @@
     </div>
   </main>
 
-  <script src="/city.js"></script>
+  <!-- ✅ Leaflet JS must load before city.js -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
+
+  <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>
 </html>

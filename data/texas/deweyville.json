@@ -6,10 +6,8 @@
     "lat": 30.34,
     "lng": -93.86,
     "website": null,
-    "facility_id": "f_bdfcec8479b3",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_bdfcec8479b3"
   },
   {
     "name": "NEWTON COUNTY REGIONAL SOLID WASTE COMPLEX",
@@ -18,9 +16,7 @@
     "lat": 30.34,
     "lng": -93.86,
     "website": null,
-    "facility_id": "f_fbf3d7dcd2a2",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_fbf3d7dcd2a2"
   }
 ]

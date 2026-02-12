@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CITY OF JASPER TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "210 TEMPLE DR JASPER TX 75951",
+    "lat": 30.94,
+    "lng": -94,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7c69aedc31f9"
+  },
+  {
+    "name": "CITY OF JASPER TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "210 TEMPLE DR JASPER TX 75951",
+    "lat": 30.94,
+    "lng": -94,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e2c25fd6325d"
+  }
+]

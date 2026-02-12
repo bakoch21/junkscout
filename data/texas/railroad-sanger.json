@@ -6,10 +6,8 @@
     "lat": 33.32,
     "lng": -97.17,
     "website": null,
-    "facility_id": "f_2827172cd966",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_2827172cd966"
   },
   {
     "name": "CITY OF SANGER RAILROAD AVENUE BALLPARK",
@@ -18,9 +16,7 @@
     "lat": 33.32,
     "lng": -97.17,
     "website": null,
-    "facility_id": "f_62ee376a98bc",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_62ee376a98bc"
   }
 ]

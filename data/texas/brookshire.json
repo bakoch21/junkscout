@@ -6,10 +6,8 @@
     "lat": 29.86,
     "lng": -95.89,
     "website": null,
-    "facility_id": "f_23a25f871bcd",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_23a25f871bcd"
   },
   {
     "name": "NEW EARTH GRAND PARKWAY COMPOSTING",
@@ -18,9 +16,7 @@
     "lat": 29.86,
     "lng": -95.89,
     "website": null,
-    "facility_id": "f_6e863e55e699",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_6e863e55e699"
   }
 ]

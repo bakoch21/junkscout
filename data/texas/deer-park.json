@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CITY OF DEER PARK TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "AT INTERSECTION OF EXISTING UNDERWOOD ROAD AND UNIMPROVED X STREET DEER PARK TX",
+    "lat": 29.7,
+    "lng": -95.09,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f28bdd45388c"
+  },
+  {
+    "name": "TM DEER PARK SERVICES",
+    "type": "landfill",
+    "address": "2525 INDEPENDENCE RD DEER PARK TX 77536",
+    "lat": 29.74,
+    "lng": -95.09,
+    "website": null,
+    "source": null,
+    "facility_id": "f_009adfe41202"
+  }
+]

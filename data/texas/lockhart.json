@@ -6,10 +6,8 @@
     "lat": 29.97,
     "lng": -97.66,
     "website": null,
-    "facility_id": "f_67aa1ef16758",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_67aa1ef16758"
   },
   {
     "name": "130 ENVIRONMENTAL PARK",
@@ -18,9 +16,7 @@
     "lat": 29.97,
     "lng": -97.66,
     "website": null,
-    "facility_id": "f_b669341875bf",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_b669341875bf"
   }
 ]

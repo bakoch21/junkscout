@@ -1,39 +1,13 @@
 [
   {
-    "name": "GREENWOOD FARMS LF GTF",
+    "name": "ARK-LA-TEX SHREDDING",
     "type": "landfill",
-    "address": "SS FM 2767 AT 4.8 MI E OF LOOP 323 TYLER TX 75708",
-    "lat": 32.37,
+    "address": "12405 HIGHWAY 155 N TYLER TX 75708",
+    "lat": 32.44,
     "lng": -95.19,
     "website": null,
-    "facility_id": "f_5b426b6faf4d",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "Tyler Iron & Metal",
-    "type": "recycling",
-    "address": "1630 West Northwest Loop 323 Tyler TX 75702",
-    "lat": 32.3859439,
-    "lng": -95.3186382,
-    "website": null,
-    "facility_id": "f_9b6114168860",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "Tyler Iron & Metal",
-    "type": "recycling",
-    "address": "1630 West Northwest Loop 323 Tyler TX 75702",
-    "lat": 32.3859439,
-    "lng": -95.3186382,
-    "website": null,
-    "facility_id": "f_b0611c796bc8",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": "https://www.openstreetmap.org/way/802088567"
+    "source": null,
+    "facility_id": "f_f03b84796d52"
   },
   {
     "name": "GREENWOOD FARMS LANDFILL",
@@ -42,10 +16,8 @@
     "lat": 32.37,
     "lng": -95.19,
     "website": null,
-    "facility_id": "f_b3b853eea193",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_b3b853eea193"
   },
   {
     "name": "GREENWOOD FARMS LANDFILL",
@@ -54,10 +26,8 @@
     "lat": 32.37,
     "lng": -95.19,
     "website": null,
-    "facility_id": "f_d631f1dbf2e2",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_d631f1dbf2e2"
   },
   {
     "name": "GREENWOOD FARMS LF GTF",
@@ -66,9 +36,37 @@
     "lat": 32.37,
     "lng": -95.19,
     "website": null,
-    "facility_id": "f_f0b3c1979733",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5b426b6faf4d"
+  },
+  {
+    "name": "GREENWOOD FARMS LF GTF",
+    "type": "landfill",
+    "address": "SS FM 2767 AT 4.8 MI E OF LOOP 323 TYLER TX 75708",
+    "lat": 32.37,
+    "lng": -95.19,
+    "website": null,
+    "source": null,
+    "facility_id": "f_f0b3c1979733"
+  },
+  {
+    "name": "Tyler Iron & Metal",
+    "type": "recycling",
+    "address": "1630 West Northwest Loop 323 Tyler TX 75702",
+    "lat": 32.3859439,
+    "lng": -95.3186382,
+    "website": null,
+    "source": null,
+    "facility_id": "f_9b6114168860"
+  },
+  {
+    "name": "Tyler Iron & Metal",
+    "type": "recycling",
+    "address": "1630 West Northwest Loop 323 Tyler TX 75702",
+    "lat": 32.3859439,
+    "lng": -95.3186382,
+    "website": null,
+    "source": null,
+    "facility_id": "f_b0611c796bc8"
   }
 ]

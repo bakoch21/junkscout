@@ -1,0 +1,142 @@
+[
+  {
+    "name": "ENVIROTECH WASTE SOLUTIONS MEDICAL WASTE PROCESSING & STORAGE FACILITY",
+    "type": "landfill",
+    "address": "722 MCKINZIE RD CORPUS CHRISTI TX 78410",
+    "lat": 27.8,
+    "lng": -97.57,
+    "website": null,
+    "source": null,
+    "facility_id": "f_13d4f76e2c96"
+  },
+  {
+    "name": "ENVIROTECH WASTE SOLUTIONS MEDICAL WASTE PROCESSING & STORAGE FACILITY",
+    "type": "landfill",
+    "address": "722 MCKINZIE RD CORPUS CHRISTI TX 78410",
+    "lat": 27.8,
+    "lng": -97.57,
+    "website": null,
+    "source": null,
+    "facility_id": "f_47661b931a71"
+  },
+  {
+    "name": "J C ELLIOTT TRANSFER STATION",
+    "type": "transfer_station",
+    "address": "7001 AYERS ST CORPUS CHRISTI TX 78415",
+    "lat": 27.71,
+    "lng": -97.46,
+    "website": null,
+    "source": null,
+    "facility_id": "f_db7e40934c43"
+  },
+  {
+    "name": "JC ELLIOTT RNG COMPRESSION STATION",
+    "type": "landfill",
+    "address": "7001 AYERS ST CORPUS CHRISTI TX 78415",
+    "lat": 27.71,
+    "lng": -97.46,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e35db25d785c"
+  },
+  {
+    "name": "NUECES COUNTY",
+    "type": "landfill",
+    "address": "4626 WEBER RD CORPUS CHRISTI TX 78411",
+    "lat": 27.73,
+    "lng": -97.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_a1dc6d4383aa"
+  },
+  {
+    "name": "NUECES COUNTY",
+    "type": "landfill",
+    "address": "4626 WEBER RD CORPUS CHRISTI TX 78411",
+    "lat": 27.73,
+    "lng": -97.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_e072fb81e3ee"
+  },
+  {
+    "name": "PARADISE POOL BILLIARDS ENCLOSED STRUCTURE OVER CLOSED LANDFILL",
+    "type": "landfill",
+    "address": "4221 S PADRE ISLAND DR CORPUS CHRISTI TX 78411",
+    "lat": 27.72,
+    "lng": -97.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3b4b6129c678"
+  },
+  {
+    "name": "PARADISE POOL BILLIARDS ENCLOSED STRUCTURE OVER CLOSED LANDFILL",
+    "type": "landfill",
+    "address": "4221 S PADRE ISLAND DR CORPUS CHRISTI TX 78411",
+    "lat": 27.72,
+    "lng": -97.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_72ff930586a7"
+  },
+  {
+    "name": "PREMIER BIO WASTE SOLUTIONS",
+    "type": "landfill",
+    "address": "2245 LIPAN ST CORPUS CHRISTI TX 78408",
+    "lat": 27.79,
+    "lng": -97.42,
+    "website": null,
+    "source": null,
+    "facility_id": "f_2ef68b9d5467"
+  },
+  {
+    "name": "PREMIER BIO WASTE SOLUTIONS",
+    "type": "landfill",
+    "address": "2245 LIPAN ST CORPUS CHRISTI TX 78408",
+    "lat": 27.79,
+    "lng": -97.42,
+    "website": null,
+    "source": null,
+    "facility_id": "f_94d9acf235e2"
+  },
+  {
+    "name": "SUITE STAY INC",
+    "type": "landfill",
+    "address": "5147 OAKHURST AVE, CORPUS CHRISTI\nTract 10 Oakhurst Plaza-Tiger CORPUE CHRISTI TX 78411",
+    "lat": 27.72,
+    "lng": -97.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_29462c0c22af"
+  },
+  {
+    "name": "SUITE STAY INC",
+    "type": "landfill",
+    "address": "5147 OAKHURST AVE, CORPUS CHRISTI\nTract 10 Oakhurst Plaza-Tiger CORPUE CHRISTI TX 78411",
+    "lat": 27.72,
+    "lng": -97.39,
+    "website": null,
+    "source": null,
+    "facility_id": "f_bf0458dd5722"
+  },
+  {
+    "name": "TM CORPUS CHRISTI SERVICES",
+    "type": "landfill",
+    "address": "6901A GREENWOOD DR CORPUS CHRISTI TX 78415",
+    "lat": 27.71,
+    "lng": -97.46,
+    "website": null,
+    "source": null,
+    "facility_id": "f_1feaefd3e22c"
+  },
+  {
+    "name": "TM CORPUS CHRISTI SERVICES",
+    "type": "landfill",
+    "address": "6901A GREENWOOD DR CORPUS CHRISTI TX 78415",
+    "lat": 27.71,
+    "lng": -97.46,
+    "website": null,
+    "source": null,
+    "facility_id": "f_da29643f8421"
+  }
+]

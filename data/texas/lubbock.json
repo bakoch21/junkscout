@@ -1,27 +1,43 @@
 [
   {
-    "name": "STERICYCLE LUBBOCK",
+    "name": "Caliche Canyon Landfill",
     "type": "landfill",
-    "address": "2901 NE LOOP 289 LUBBOCK TX 79403",
-    "lat": 33.61,
-    "lng": -101.8,
+    "address": "8425 North Avenue P Lubbock TX 79403",
+    "lat": 33.6720515,
+    "lng": -101.8580447,
     "website": null,
-    "facility_id": "f_bd7a8e0acce6",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_446e93d212db"
   },
   {
-    "name": "STERICYCLE LUBBOCK",
+    "name": "Caliche Canyon Landfill",
     "type": "landfill",
-    "address": "2901 NE LOOP 289 LUBBOCK TX 79403",
-    "lat": 33.61,
-    "lng": -101.8,
+    "address": "8425 North Avenue P Lubbock TX 79403",
+    "lat": 33.6720515,
+    "lng": -101.8580447,
     "website": null,
-    "facility_id": "f_d1026ed91194",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_79b7e1c5c1c6"
+  },
+  {
+    "name": "CALICHE CANYON TRANSFER STATION FACILITY",
+    "type": "transfer_station",
+    "address": "8425 AVENUE P LUBBOCK TX 79423",
+    "lat": 33.67,
+    "lng": -101.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_451b764d2645"
+  },
+  {
+    "name": "CITY OF LUBBOCK LANDFILL",
+    "type": "landfill",
+    "address": "8425 AVENUE P LUBBOCK TX 79423",
+    "lat": 33.67,
+    "lng": -101.86,
+    "website": null,
+    "source": null,
+    "facility_id": "f_51ad8f4589b5"
   },
   {
     "name": "CITY OF MULESHOE LANDFILL",
@@ -30,10 +46,8 @@
     "lat": 34.77,
     "lng": -102.55,
     "website": null,
-    "facility_id": "f_da11d6a96324",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_da11d6a96324"
   },
   {
     "name": "CITY OF MULESHOE LANDFILL",
@@ -42,9 +56,127 @@
     "lat": 34.77,
     "lng": -102.55,
     "website": null,
-    "facility_id": "f_db35d322e080",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_db35d322e080"
+  },
+  {
+    "name": "City Recycling Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.5258193,
+    "lng": -101.959481,
+    "website": null,
+    "source": null,
+    "facility_id": "f_126a96355e10"
+  },
+  {
+    "name": "City Recycling Station",
+    "type": "recycling",
+    "address": "",
+    "lat": 33.5258193,
+    "lng": -101.959481,
+    "website": null,
+    "source": null,
+    "facility_id": "f_86afd4ef18ab"
+  },
+  {
+    "name": "Recycling Drop-Off Center",
+    "type": "recycling",
+    "address": "208 Municipal Drive Lubbock",
+    "lat": 33.6027871,
+    "lng": -101.837503,
+    "website": null,
+    "source": null,
+    "facility_id": "f_780be8728508"
+  },
+  {
+    "name": "Recycling Drop-Off Center",
+    "type": "recycling",
+    "address": "208 Municipal Drive Lubbock",
+    "lat": 33.6027871,
+    "lng": -101.837503,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c1f28f77d4dd"
+  },
+  {
+    "name": "SOUTH PLAINS DISPOSAL",
+    "type": "landfill",
+    "address": "801 N AVENUE P LUBBOCK TX 79403",
+    "lat": 33.61,
+    "lng": -101.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_387b82aad6c2"
+  },
+  {
+    "name": "SOUTH PLAINS DISPOSAL",
+    "type": "landfill",
+    "address": "801 N AVENUE P LUBBOCK TX 79403",
+    "lat": 33.61,
+    "lng": -101.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_7d6c486bdbd9"
+  },
+  {
+    "name": "Southside Recycling Center",
+    "type": "recycling",
+    "address": "1631 84th Street Lubbock",
+    "lat": 33.5163799,
+    "lng": -101.854952,
+    "website": null,
+    "source": null,
+    "facility_id": "f_37b53fe48de2"
+  },
+  {
+    "name": "Southside Recycling Center",
+    "type": "recycling",
+    "address": "1631 84th Street Lubbock",
+    "lat": 33.5163799,
+    "lng": -101.854952,
+    "website": null,
+    "source": null,
+    "facility_id": "f_3ab17e873ded"
+  },
+  {
+    "name": "STERICYCLE LUBBOCK",
+    "type": "landfill",
+    "address": "2901 NE LOOP 289 LUBBOCK TX 79403",
+    "lat": 33.61,
+    "lng": -101.8,
+    "website": null,
+    "source": null,
+    "facility_id": "f_bd7a8e0acce6"
+  },
+  {
+    "name": "STERICYCLE LUBBOCK",
+    "type": "landfill",
+    "address": "2901 NE LOOP 289 LUBBOCK TX 79403",
+    "lat": 33.61,
+    "lng": -101.8,
+    "website": null,
+    "source": null,
+    "facility_id": "f_d1026ed91194"
+  },
+  {
+    "name": "ZAHN ENTERPRISES",
+    "type": "landfill",
+    "address": "7702 NORTH AVENUE P LUBBOCK TX 79403",
+    "lat": 33.67,
+    "lng": -101.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_c09b7e9331c1"
+  },
+  {
+    "name": "ZAHN ENTERPRISES",
+    "type": "landfill",
+    "address": "7702 NORTH AVENUE P LUBBOCK TX 79403",
+    "lat": 33.67,
+    "lng": -101.85,
+    "website": null,
+    "source": null,
+    "facility_id": "f_edc4a4aa7a6a"
   }
 ]

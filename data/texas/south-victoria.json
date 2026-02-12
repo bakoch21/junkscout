@@ -6,21 +6,7 @@
     "lat": 28.75,
     "lng": -97.01,
     "website": null,
-    "facility_id": "f_5c6c239abd00",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
-  },
-  {
-    "name": "VICTORIA REGIONAL WASTEWATER TREATMENT PLANT",
-    "type": "landfill",
-    "address": "923 US HWY 59 SOUTH VICTORIA TX 77905",
-    "lat": 28.75,
-    "lng": -97.01,
-    "website": null,
-    "facility_id": "f_637b4300c309",
-    "source": "tceq",
-    "source_url": null,
-    "osm_url": null
+    "source": null,
+    "facility_id": "f_5c6c239abd00"
   }
 ]
