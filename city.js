@@ -10,8 +10,7 @@
 //    - Features (collapsed)
 // - Inline "Details" expander per card
 //
-// Facility pages currently do NOT exist, so cards are NOT clickable
-// and we do NOT show a "View page" link.
+// Facility pages exist when a facility_id is available.
 
 function ensureRobotsMeta(content = "index,follow") {
   const existing = document.querySelector('meta[name="robots"]');
@@ -279,6 +278,50 @@ function normalizeMaterialsFromAccepted(item) {
   return ordered.filter((x) => out.has(x));
 }
 
+function initialFilterStateFromQuery() {
+  const params = new URLSearchParams(window.location.search || "");
+  const materialParam = safeLower(params.get("material") || "");
+  const typeParam = safeLower(params.get("type") || "");
+
+  const materialMap = {
+    furniture: "Bulk Items & Furniture",
+    mattresses: "Bulk Items & Furniture",
+    construction: "Construction & Demolition Debris",
+    "construction-debris": "Construction & Demolition Debris",
+    "c-and-d": "Construction & Demolition Debris",
+    tires: "Tires",
+    appliances: "Appliances",
+    electronics: "Electronics",
+    "paint-chemicals": "Paint & Chemicals",
+    paint: "Paint & Chemicals",
+    chemicals: "Paint & Chemicals",
+    "yard-waste": "Yard Waste & Tree Debris",
+    "scrap-metal": "Recycling",
+  };
+
+  const typeMap = {
+    landfill: "landfill",
+    transfer: "transfer_station",
+    "transfer-station": "transfer_station",
+    recycling: "recycling",
+    hazardous: "hazardous_waste",
+    "hazardous-waste": "hazardous_waste",
+    dumpster: "public_dumpster",
+  };
+
+  const materials = new Set();
+  const mappedMaterial = materialMap[materialParam];
+  if (mappedMaterial) materials.add(mappedMaterial);
+
+  const mappedType = typeMap[typeParam] || "all";
+
+  return {
+    type: mappedType,
+    flags: new Set(),
+    materials,
+  };
+}
+
 function deriveFlags(item) {
   const fees = safeLower(item?.fees);
   const rules = safeLower(item?.rules);
@@ -501,7 +544,7 @@ function makeMapController() {
  * Filters UI (uniform pills)
  * ========================= */
 
-function buildFilterBar({ resultsEl, onChange }) {
+function buildFilterBar({ resultsEl, onChange, initialState = null }) {
   const wrap = document.createElement("section");
   wrap.setAttribute("aria-label", "Filters");
   wrap.style.marginTop = "18px";
@@ -657,10 +700,14 @@ function buildFilterBar({ resultsEl, onChange }) {
   wrap.appendChild(topRow);
   wrap.appendChild(body);
 
+  const initialType = initialState?.type || "all";
+  const initialFlags = new Set(initialState?.flags || []);
+  const initialMaterials = new Set(initialState?.materials || []);
+
   const state = {
-    type: "all",
-    flags: new Set(),
-    materials: new Set(),
+    type: initialType,
+    flags: initialFlags,
+    materials: initialMaterials,
     typeBtnByKey: new Map(),
     materialCounts: {},
     featureCounts: {},
@@ -760,8 +807,9 @@ function buildFilterBar({ resultsEl, onChange }) {
       state.typeBtnByKey.set(t.key, pill);
     });
 
-    state.type = "all";
-    for (const [k, b] of state.typeBtnByKey.entries()) stylePill(b, k === "all");
+    const resolvedType = state.typeBtnByKey.has(state.type) ? state.type : "all";
+    state.type = resolvedType;
+    for (const [k, b] of state.typeBtnByKey.entries()) stylePill(b, k === resolvedType);
   }
 
   function setFeatureChips(featureCounts) {
@@ -789,6 +837,15 @@ function buildFilterBar({ resultsEl, onChange }) {
       const chip = makeMaterialChip(label, state.materialCounts[label] || 0);
       materialsChips.appendChild(chip);
     });
+
+    if (state.materials.size > 0) {
+      adv.open = true;
+      matsDetails.open = true;
+    }
+    if (state.flags.size > 0) {
+      adv.open = true;
+      featsDetails.open = true;
+    }
   }
 
   reset.addEventListener("click", () => {
@@ -1088,45 +1145,76 @@ async function loadCityData() {
     });
   }
 
+  function applyFilters(filterState) {
+    const filtered = enriched.filter((it) => {
+      if (filterState.type && filterState.type !== "all") {
+        if (it.__typeKey !== filterState.type) return false;
+      }
+
+      if (filterState.flags && filterState.flags.size > 0) {
+        for (const needed of filterState.flags) {
+          if (!(it.__flags || []).includes(needed)) return false;
+        }
+      }
+
+      if (filterState.materials && filterState.materials.size > 0) {
+        const mats = it.__materials || [];
+        let any = false;
+        for (const needed of filterState.materials) {
+          if (mats.includes(needed)) {
+            any = true;
+            break;
+          }
+        }
+        if (!any) return false;
+      }
+
+      return true;
+    });
+
+    filterBar.setCounts(filtered.length, enriched.length);
+    render(filtered);
+    attachHandlers(resultsEl, mapCtl);
+  }
+
+  const queryInitial = initialFilterStateFromQuery();
+  const allowedTypes = new Set(["all", ...typeOptions.map((x) => x.key)]);
+  const allowedMaterials = new Set(Object.keys(materialCounts));
+
+  const effectiveInitial = {
+    type: allowedTypes.has(queryInitial.type) ? queryInitial.type : "all",
+    flags: new Set(),
+    materials: new Set(
+      Array.from(queryInitial.materials || []).filter((m) => allowedMaterials.has(m))
+    ),
+  };
+
   const filterBar = buildFilterBar({
     resultsEl,
-    onChange: (filterState) => {
-      const filtered = enriched.filter((it) => {
-        if (filterState.type && filterState.type !== "all") {
-          if (it.__typeKey !== filterState.type) return false;
-        }
-
-        if (filterState.flags && filterState.flags.size > 0) {
-          for (const needed of filterState.flags) {
-            if (!(it.__flags || []).includes(needed)) return false;
-          }
-        }
-
-        if (filterState.materials && filterState.materials.size > 0) {
-          const mats = it.__materials || [];
-          let any = false;
-          for (const needed of filterState.materials) {
-            if (mats.includes(needed)) { any = true; break; }
-          }
-          if (!any) return false;
-        }
-
-        return true;
-      });
-
-      filterBar.setCounts(filtered.length, enriched.length);
-      render(filtered);
-      attachHandlers(resultsEl, mapCtl);
-    },
+    onChange: applyFilters,
+    initialState: effectiveInitial,
   });
 
   filterBar.setTypeOptions(typeOptions);
   filterBar.setMaterialsCounts(materialCounts);
   filterBar.setFeatureChips(featureCounts);
-  filterBar.setCounts(enriched.length, enriched.length);
 
-  render(enriched);
-  attachHandlers(resultsEl, mapCtl);
+  const hasInitialFilters =
+    effectiveInitial.type !== "all" ||
+    effectiveInitial.flags.size > 0 ||
+    effectiveInitial.materials.size > 0;
+
+  if (hasInitialFilters) {
+    applyFilters({
+      type: effectiveInitial.type,
+      flags: new Set(effectiveInitial.flags),
+      materials: new Set(effectiveInitial.materials),
+    });
+  } else {
+    filterBar.setCounts(enriched.length, enriched.length);
+    render(enriched);
+    attachHandlers(resultsEl, mapCtl);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", loadCityData);

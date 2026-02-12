@@ -17,7 +17,7 @@
     "lng": -106.44,
     "website": null,
     "source": null,
-    "facility_id": "f_7caeb64bd068"
+    "facility_id": "f_6bfd84bd6aac"
   },
   {
     "name": "EL PASO C&D RECYCLING PLANT",
@@ -27,7 +27,7 @@
     "lng": 0,
     "website": null,
     "source": null,
-    "facility_id": "f_10b9f76c60ee"
+    "facility_id": "f_ee95994f1831"
   },
   {
     "name": "EL PASO FACILITY",
@@ -47,17 +47,7 @@
     "lng": -106.36,
     "website": null,
     "source": null,
-    "facility_id": "f_c3cd45cc806b"
-  },
-  {
-    "name": "GREATER EL PASO LANDFILL",
-    "type": "landfill",
-    "address": "2300 DARRINGTON RD EL PASO TX 79928",
-    "lat": 31.61,
-    "lng": -106.16,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0315fd6a4ac1"
+    "facility_id": "f_810eb1b8fcfd"
   },
   {
     "name": "GREATER EL PASO LANDFILL",
@@ -77,7 +67,17 @@
     "lng": -106.16,
     "website": null,
     "source": null,
-    "facility_id": "f_a3f5969be927"
+    "facility_id": "f_86d4b98e1f52"
+  },
+  {
+    "name": "GREATER EL PASO LANDFILL",
+    "type": "landfill",
+    "address": "2300 DARRINGTON RD EL PASO TX 79928",
+    "lat": 31.61,
+    "lng": -106.16,
+    "website": null,
+    "source": null,
+    "facility_id": "f_86d4b98e1f52"
   },
   {
     "name": "MCCOMBS LANDFILL",
@@ -97,7 +97,7 @@
     "lng": -106.41,
     "website": null,
     "source": null,
-    "facility_id": "f_ed8ac852a10d"
+    "facility_id": "f_51de9e958d04"
   },
   {
     "name": "STERICYCLE-EL PASO",
@@ -107,7 +107,7 @@
     "lng": -106.43,
     "website": null,
     "source": null,
-    "facility_id": "f_9e5746568d7a"
+    "facility_id": "f_fc8ffeeeedaf"
   },
   {
     "name": "STERICYCLE-EL PASO",

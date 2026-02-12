@@ -18,6 +18,7 @@ This runs:
 - Texas and California city page generation
 - facility page generation
 - sitemap generation
+- stale generated page pruning (city/facility)
 
 ### 2) Texas build alias
 
@@ -85,6 +86,12 @@ Generated static pages are written directly into the repo:
 - city pages: `/<state>/<city>/index.html`
 - facility pages: `/facility/<id>/index.html`
 - sitemap: `/sitemap.xml`
+- legal pages: `/about/`, `/contact/`, `/privacy/`, `/terms/`, `/disclosure/`
+
+## Analytics placeholders
+
+- Runtime tracker script: `/analytics.js`
+- Config and tracking plan: `/data/analytics/`
 
 ## Sanity checks before push
 

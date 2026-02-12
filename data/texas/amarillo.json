@@ -17,7 +17,7 @@
     "lng": -101.7964732,
     "website": null,
     "source": null,
-    "facility_id": "f_1e5ec3672eef"
+    "facility_id": "f_193dccba27eb"
   },
   {
     "name": "Amarillo Recycling Company, Inc.",
@@ -27,7 +27,7 @@
     "lng": -101.7961798,
     "website": null,
     "source": null,
-    "facility_id": "f_ac47284f3fc5"
+    "facility_id": "f_c88db4dde515"
   },
   {
     "name": "Amarillo Recycling Company, Inc.",
@@ -57,7 +57,7 @@
     "lng": -100.74,
     "website": null,
     "source": null,
-    "facility_id": "f_b03814c8ac23"
+    "facility_id": "f_8bb6cfea0c29"
   },
   {
     "name": "City of Amarillo Brush Site",
@@ -77,7 +77,7 @@
     "lng": -101.8499046,
     "website": null,
     "source": null,
-    "facility_id": "f_b6ba5aba32a5"
+    "facility_id": "f_af7a171abbcf"
   },
   {
     "name": "CITY OF AMARILLO LANDFILL",
@@ -97,7 +97,7 @@
     "lng": -102.03,
     "website": null,
     "source": null,
-    "facility_id": "f_cb71bebb9ef7"
+    "facility_id": "f_794c883caefd"
   },
   {
     "name": "CITY OF AMARILLO TRANSFER STATION",
@@ -107,7 +107,7 @@
     "lng": -101.83,
     "website": null,
     "source": null,
-    "facility_id": "f_219167caa008"
+    "facility_id": "f_7924913007bd"
   },
   {
     "name": "CITY OF AMARILLO TRANSFER STATION",
@@ -127,7 +127,7 @@
     "lng": -101.8832934,
     "website": null,
     "source": null,
-    "facility_id": "f_011ed7d4799f"
+    "facility_id": "f_af07c92f0fc9"
   },
   {
     "name": "Metal & Used Oil Collection Center",
@@ -157,7 +157,7 @@
     "lng": -101.790506,
     "website": null,
     "source": null,
-    "facility_id": "f_e2f9b3dc4c74"
+    "facility_id": "f_307d7bb3e9c8"
   },
   {
     "name": "Scrap Processing Co.",
@@ -167,7 +167,7 @@
     "lng": -101.8076043,
     "website": null,
     "source": null,
-    "facility_id": "f_087024918dd5"
+    "facility_id": "f_5984b7f09132"
   },
   {
     "name": "Scrap Processing Co.",
@@ -187,7 +187,7 @@
     "lng": -101.8311894,
     "website": null,
     "source": null,
-    "facility_id": "f_4353a11d33a1"
+    "facility_id": "f_cf944efd1f93"
   },
   {
     "name": "Used Oil Collection Center",
@@ -217,7 +217,7 @@
     "lng": -101.8327615,
     "website": null,
     "source": null,
-    "facility_id": "f_d8ed2c68d082"
+    "facility_id": "f_4d2fef72f4d8"
   },
   {
     "name": "W. Silver Recycling Company",
@@ -237,6 +237,6 @@
     "lng": -101.7985267,
     "website": null,
     "source": null,
-    "facility_id": "f_957208b1e34d"
+    "facility_id": "f_1e337e54e4d3"
   }
 ]

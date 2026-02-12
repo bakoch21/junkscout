@@ -136,15 +136,15 @@
 <body data-state="texas" data-city="hallettsville">
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="/index.html">
+      <a class="brand" href="/">
         <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/index.html#browse-materials">Browse materials</a>
+        <a href="/#browse-materials">Browse materials</a>
         <a href="/texas/">Browse locations</a>
-        <a href="/index.html#how-it-works">How it works</a>
-        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
       </nav>
 
       <div class="nav__actions">
@@ -193,7 +193,30 @@
       </section>
 
       <!-- Results injected here -->
-      <section class="cards" id="results" style="margin-top:14px"></section>
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>CITY OF HALLETTSVILLE TRANSFER STATION FACILITY</h3>
+          <p class="card__meta">804 COUNTY ROAD 201 HALLETTSVILLE TX 77964</p>
+          
+          
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=804%20COUNTY%20ROAD%20201%20HALLETTSVILLE%20TX%2077964" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_ea3a084228f8/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>CITY OF HALLETTSVILLE TRANSFER STATION FACILITY</h3>
+          <p class="card__meta">804 COUNTY ROAD 201 HALLETTSVILLE TX 77964</p>
+          
+          
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=804%20COUNTY%20ROAD%20201%20HALLETTSVILLE%20TX%2077964" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_ea3a084228f8/">Facility page</a>
+          </div>
+        </article>
+</section>
 
       <!-- SEO COPY START -->
       <section class="seo-copy" style="margin-top:26px">
@@ -244,14 +267,6 @@
         Edna <span class="muted" style="font-weight:600">&middot; 38 mi</span>
       </a>
     
-      <a class="cityhub__pill" href="/texas/n-victoria/">
-        N Victoria <span class="muted" style="font-weight:600">&middot; 46 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/south-victoria/">
-        South Victoria <span class="muted" style="font-weight:600">&middot; 49 mi</span>
-      </a>
-    
       <a class="cityhub__pill" href="/texas/seguin/">
         Seguin <span class="muted" style="font-weight:600">&middot; 51 mi</span>
       </a>
@@ -266,14 +281,6 @@
     
       <a class="cityhub__pill" href="/texas/lockhart/">
         Lockhart <span class="muted" style="font-weight:600">&middot; 58 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/n-brenham/">
-        N Brenham <span class="muted" style="font-weight:600">&middot; 58 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/w-dale/">
-        W Dale <span class="muted" style="font-weight:600">&middot; 60 mi</span>
       </a>
     
       <a class="cityhub__pill" href="/texas/brookshire/">
@@ -318,7 +325,7 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
-            <a class="btn" href="/index.html">Back to home</a>
+            <a class="btn" href="/">Back to home</a>
           </div>
         </div>
       </section>
@@ -328,6 +335,7 @@
   <!-- ✅ Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
+  <script src="/analytics.js" defer></script>
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>

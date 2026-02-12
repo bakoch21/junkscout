@@ -136,15 +136,15 @@
 <body data-state="texas" data-city="canadian">
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="/index.html">
+      <a class="brand" href="/">
         <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/index.html#browse-materials">Browse materials</a>
+        <a href="/#browse-materials">Browse materials</a>
         <a href="/texas/">Browse locations</a>
-        <a href="/index.html#how-it-works">How it works</a>
-        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
       </nav>
 
       <div class="nav__actions">
@@ -193,7 +193,19 @@
       </section>
 
       <!-- Results injected here -->
-      <section class="cards" id="results" style="margin-top:14px"></section>
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>CITY OF CANADIAN TRANSFER STATION FACILITY</h3>
+          <p class="card__meta">N OF AIRPORT ROAD 800 FEET W INTERSECTION OF AIRPORT ROAD AND US HIGHWAY 60 AND US HIGHWAY 83 CANADIAN TX</p>
+          
+          
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=N%20OF%20AIRPORT%20ROAD%20800%20FEET%20W%20INTERSECTION%20OF%20AIRPORT%20ROAD%20AND%20US%20HIGHWAY%2060%20AND%20US%20HIGHWAY%2083%20CANADIAN%20TX" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_911dc188542e/">Facility page</a>
+          </div>
+        </article>
+</section>
 
       <!-- SEO COPY START -->
       <section class="seo-copy" style="margin-top:26px">
@@ -244,10 +256,6 @@
         Pampa <span class="muted" style="font-weight:600">&middot; 37 mi</span>
       </a>
     
-      <a class="cityhub__pill" href="/texas/in-booker-booker/">
-        In Booker Booker <span class="muted" style="font-weight:600">&middot; 41 mi</span>
-      </a>
-    
       <a class="cityhub__pill" href="/texas/perryton/">
         Perryton <span class="muted" style="font-weight:600">&middot; 42 mi</span>
       </a>
@@ -256,24 +264,8 @@
         Mclean <span class="muted" style="font-weight:600">&middot; 47 mi</span>
       </a>
     
-      <a class="cityhub__pill" href="/texas/in-gray-county/">
-        In Gray County <span class="muted" style="font-weight:600">&middot; 47 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/in-hansford-county-spearman/">
-        In Hansford County Spearman <span class="muted" style="font-weight:600">&middot; 50 mi</span>
-      </a>
-    
       <a class="cityhub__pill" href="/texas/amarillo/">
         Amarillo <span class="muted" style="font-weight:600">&middot; 51 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/s-sully-clarendon/">
-        S Sully Clarendon <span class="muted" style="font-weight:600">&middot; 73 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/in-moore-county-dumas/">
-        In Moore County Dumas <span class="muted" style="font-weight:600">&middot; 75 mi</span>
       </a>
     
       <a class="cityhub__pill" href="/texas/memphis/">
@@ -318,7 +310,7 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
-            <a class="btn" href="/index.html">Back to home</a>
+            <a class="btn" href="/">Back to home</a>
           </div>
         </div>
       </section>
@@ -328,6 +320,7 @@
   <!-- ✅ Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
+  <script src="/analytics.js" defer></script>
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>

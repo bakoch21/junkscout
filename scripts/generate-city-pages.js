@@ -13,6 +13,7 @@ const TEMPLATE_PATH = "city-template.html";
 const OUTPUT_BASE = ".";
 const NEIGHBORS_PATH = path.join("data", STATE_ARG, "_neighbors.json");
 const CURATED_BASE = path.join("data", "manual");
+const CITY_DATA_BASE = "data";
 const BASE_URL = "https://junkscout.io";
 
 function safeReadJson(filePath, fallback = null) {
@@ -47,6 +48,140 @@ function escapeHtml(value = "") {
     if (ch === '"') return "&quot;";
     return "&#39;";
   });
+}
+
+function toNumber(value) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : null;
+}
+
+function mapsUrlForItem(item) {
+  const address = String(item?.address || "").trim();
+  const lat = toNumber(item?.lat ?? item?.latitude);
+  const lng = toNumber(item?.lng ?? item?.lon ?? item?.longitude);
+
+  if (address) {
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  }
+  if (lat !== null && lng !== null) {
+    return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+  }
+  return "";
+}
+
+function normalizeType(rawType) {
+  const t = String(rawType || "").toLowerCase();
+  if (t.includes("landfill")) return { label: "Landfill", badgeClass: "badge--orange" };
+  if (t.includes("transfer")) return { label: "Transfer", badgeClass: "badge--orange" };
+  if (t.includes("recycl")) return { label: "Recycling", badgeClass: "badge--blue" };
+  if (t.includes("hazard")) return { label: "Hazardous", badgeClass: "badge--orange" };
+  if (t.includes("dumpster")) return { label: "Public dumpster", badgeClass: "badge--gray" };
+  if (t.includes("depository")) return { label: "Drop-off", badgeClass: "badge--blue" };
+  return { label: "Drop-off", badgeClass: "badge--gray" };
+}
+
+function getCuratedObject(state, city) {
+  const stateDir = String(state || "").toLowerCase();
+  const citySlug = String(city || "").toLowerCase();
+  const resolvedPath = path.join(CURATED_BASE, stateDir, `${citySlug}.resolved.json`);
+  const rawPath = path.join(CURATED_BASE, stateDir, `${citySlug}.json`);
+  return safeReadJson(resolvedPath) || safeReadJson(rawPath) || null;
+}
+
+function getCuratedItems(curated) {
+  if (!curated || typeof curated !== "object") return [];
+
+  const candidate =
+    curated.facilities ||
+    curated.locations ||
+    curated.items ||
+    curated.results ||
+    curated.data ||
+    null;
+
+  if (Array.isArray(candidate)) return candidate;
+
+  if (candidate && typeof candidate === "object") {
+    if (Array.isArray(candidate.list)) return candidate.list;
+    if (Array.isArray(candidate.items)) return candidate.items;
+    if (Array.isArray(candidate.results)) return candidate.results;
+  }
+
+  return [];
+}
+
+function readCityDataItems(state, city) {
+  const curated = getCuratedObject(state, city);
+  const curatedItems = getCuratedItems(curated);
+  if (curatedItems.length > 0) {
+    return { items: curatedItems, source: "curated" };
+  }
+
+  const dataPath = path.join(CITY_DATA_BASE, state, `${city}.json`);
+  const data = safeReadJson(dataPath, null);
+  if (Array.isArray(data)) {
+    return { items: data, source: "data_file" };
+  }
+  if (data && typeof data === "object" && Array.isArray(data.facilities)) {
+    return { items: data.facilities, source: "data_file" };
+  }
+  return { items: [], source: "none" };
+}
+
+function cityHasRenderableData(state, city) {
+  const { items } = readCityDataItems(state, city);
+  return Array.isArray(items) && items.length > 0;
+}
+
+function buildInitialResultsHtml(items = []) {
+  const slice = Array.isArray(items) ? items.slice(0, 12) : [];
+  if (slice.length === 0) return `<p class="muted">No locations found.</p>`;
+
+  return slice
+    .map((item) => {
+      const name = escapeHtml(item?.name || "Unnamed location");
+      const address = String(item?.address || "").trim();
+      const facilityId = String(item?.facility_id || item?.id || "").trim();
+      const facilityHref = facilityId ? `/facility/${encodeURIComponent(facilityId)}/` : "";
+      const mapsUrl = mapsUrlForItem(item);
+
+      const t = normalizeType(item?.type);
+      const badgeHtml = `<span class="badge ${t.badgeClass}">${escapeHtml(t.label)}</span>`;
+
+      const accepted = Array.isArray(item?.accepted_materials) ? item.accepted_materials : [];
+      const acceptedSummary =
+        accepted.length > 0
+          ? `<p class="card__meta">Accepts: ${escapeHtml(accepted.slice(0, 3).join(", "))}</p>`
+          : "";
+
+      const verified = String(item?.verified_date || "").trim();
+      const verifiedLine = verified
+        ? `<p class="card__meta">Verified ${escapeHtml(verified)}</p>`
+        : "";
+
+      return `
+        <article class="card">
+          <div class="card__kicker">${badgeHtml}</div>
+          <h3>${name}</h3>
+          ${address ? `<p class="card__meta">${escapeHtml(address)}</p>` : ""}
+          ${acceptedSummary}
+          ${verifiedLine}
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            ${mapsUrl ? `<a class="link" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener">Directions</a>` : ""}
+            ${facilityHref ? `<a class="link" href="${facilityHref}">Facility page</a>` : ""}
+          </div>
+        </article>
+      `.trim();
+    })
+    .join("\n");
+}
+
+function injectInitialResults(html, resultsHtml) {
+  const regex = /(<section class="cards" id="results"[^>]*>)[\s\S]*?(<\/section>)/i;
+  if (regex.test(html)) {
+    return html.replace(regex, `$1\n${resultsHtml}\n$2`);
+  }
+  return html;
 }
 
 function buildMeta({ state, city }) {
@@ -168,7 +303,7 @@ function injectBodySeed(html, state, city) {
   return html.replace("<body>", `<body data-state="${escapeHtml(state)}" data-city="${escapeHtml(city)}">`);
 }
 
-function buildNearbyHtml({ state, city, neighborsMap }) {
+function buildNearbyHtml({ state, city, neighborsMap, validCitySet }) {
   const itemsRaw = neighborsMap?.[city] || neighborsMap?.[String(city).toLowerCase()] || [];
   if (!Array.isArray(itemsRaw) || itemsRaw.length === 0) return "";
 
@@ -192,7 +327,12 @@ function buildNearbyHtml({ state, city, neighborsMap }) {
 
       return { slug: cleanSlug, label, distanceText };
     })
-    .filter(Boolean);
+    .filter(Boolean)
+    .filter((x) => x.slug !== city)
+    .filter((x) => {
+      if (!validCitySet || !(validCitySet instanceof Set)) return true;
+      return validCitySet.has(x.slug);
+    });
 
   if (items.length === 0) return "";
 
@@ -303,11 +443,7 @@ function injectPopularCities(html, state) {
 function buildCuratedScriptTag(state, city) {
   const stateDir = String(state || "").toLowerCase();
   const citySlug = String(city || "").toLowerCase();
-
-  const resolvedPath = path.join(CURATED_BASE, stateDir, `${citySlug}.resolved.json`);
-  const rawPath = path.join(CURATED_BASE, stateDir, `${citySlug}.json`);
-
-  const curated = safeReadJson(resolvedPath) || safeReadJson(rawPath);
+  const curated = getCuratedObject(stateDir, citySlug);
   if (!curated) return "";
 
   if (!curated.city) curated.city = titleCaseFromSlug(citySlug);
@@ -365,9 +501,39 @@ function run() {
     process.exit(1);
   }
 
+  const renderable = [];
+  const skippedNoData = [];
+  const cityItemsByKey = new Map();
+
   for (const entry of filtered) {
     const state = String(entry.state).toLowerCase();
     const city = String(entry.city).toLowerCase();
+    const { items } = readCityDataItems(state, city);
+    if (!Array.isArray(items) || items.length === 0) {
+      skippedNoData.push(`${state}/${city}`);
+      continue;
+    }
+    renderable.push(entry);
+    cityItemsByKey.set(`${state}/${city}`, items);
+  }
+
+  if (renderable.length === 0) {
+    const cityMsg = CITY_FILTER_ARG ? ` city=${CITY_FILTER_ARG}` : "";
+    console.error(`No city pages had renderable data for state=${STATE_ARG}${cityMsg}`);
+    process.exit(1);
+  }
+
+  const validCitySet = new Set(
+    renderable
+      .map((entry) => String(entry?.city || "").toLowerCase())
+      .filter(Boolean)
+  );
+
+  for (const entry of renderable) {
+    const state = String(entry.state).toLowerCase();
+    const city = String(entry.city).toLowerCase();
+    const key = `${state}/${city}`;
+    const cityItems = cityItemsByKey.get(key) || [];
 
     const meta = buildMeta({ state, city });
 
@@ -375,10 +541,11 @@ function run() {
     outputHtml = injectHeadMeta(outputHtml, meta);
     outputHtml = injectJsonLd(outputHtml, buildJsonLd({ state, city, meta }));
     outputHtml = injectBodySeed(outputHtml, state, city);
+    outputHtml = injectInitialResults(outputHtml, buildInitialResultsHtml(cityItems));
     outputHtml = injectStateHubLink(outputHtml, state);
     outputHtml = injectPopularCities(outputHtml, state);
 
-    const nearbyHtml = buildNearbyHtml({ state, city, neighborsMap });
+    const nearbyHtml = buildNearbyHtml({ state, city, neighborsMap, validCitySet });
     outputHtml = injectNearby(outputHtml, nearbyHtml);
     outputHtml = injectCuratedOverlay(outputHtml, state, city);
 
@@ -391,7 +558,10 @@ function run() {
     console.log(`Wrote city page: ${outFile}`);
   }
 
-  console.log(`Generated ${filtered.length} city page(s).`);
+  if (skippedNoData.length > 0) {
+    console.log(`Skipped ${skippedNoData.length} city page(s) with no data.`);
+  }
+  console.log(`Generated ${renderable.length} city page(s).`);
 }
 
 run();

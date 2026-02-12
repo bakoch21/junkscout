@@ -43,15 +43,15 @@
 <body>
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="/index.html">
+      <a class="brand" href="/">
         <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/index.html#browse-materials">Browse materials</a>
+        <a href="/#browse-materials">Browse materials</a>
         <a href="/texas/">Browse locations</a>
-        <a href="/index.html#how-it-works">How it works</a>
-        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
       </nav>
 
       <div class="nav__actions">
@@ -172,7 +172,7 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
-            <a class="btn" href="/index.html">Back to home</a>
+            <a class="btn" href="/">Back to home</a>
           </div>
         </div>
       </section>
@@ -182,6 +182,7 @@
   <!-- ✅ Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
+  <script src="/analytics.js" defer></script>
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>

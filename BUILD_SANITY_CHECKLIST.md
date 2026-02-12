@@ -31,6 +31,9 @@ Spot-check these files exist:
 - `texas/houston/index.html`
 - `facility/<some-id>/index.html`
 - `sitemap.xml`
+- `about/index.html`
+- `privacy/index.html`
+- `data/analytics/config.json`
 
 ## 4) Confirm canonical and metadata
 

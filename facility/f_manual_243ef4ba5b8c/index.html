@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/facility/f_manual_243ef4ba5b8c/#place",
+      "name": "South Neighborhood Depository & Recycling Center",
+      "url": "https://junkscout.io/facility/f_manual_243ef4ba5b8c/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "TX",
+        "addressCountry": "US",
+        "streetAddress": "5100 Sunbeam St, Houston, TX 77033"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/facility/f_manual_243ef4ba5b8c/#webpage",
+      "name": "South Neighborhood Depository & Recycling Center - recycling center in Houston, TX | JunkScout",
+      "description": "Address, map, and source links for South Neighborhood Depository & Recycling Center. Always confirm fees, hours, and accepted materials before visiting.",
+      "url": "https://junkscout.io/facility/f_manual_243ef4ba5b8c/",
+      "about": {
+        "@id": "https://junkscout.io/facility/f_manual_243ef4ba5b8c/#place"
+      }
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="robots" content="index,follow" />
+
+  <!-- generator will replace title/description/canonical -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <title>South Neighborhood Depository &amp; Recycling Center - recycling center in Houston, TX | JunkScout</title>
+  <meta name="description" content="Address, map, and source links for South Neighborhood Depository &amp; Recycling Center. Always confirm fees, hours, and accepted materials before visiting." />
+  <link rel="canonical" href="https://junkscout.io/facility/f_manual_243ef4ba5b8c/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="South Neighborhood Depository &amp; Recycling Center - recycling center in Houston, TX | JunkScout" />
+  <meta property="og:description" content="Address, map, and source links for South Neighborhood Depository &amp; Recycling Center. Always confirm fees, hours, and accepted materials before visiting." />
+  <meta property="og:url" content="https://junkscout.io/facility/f_manual_243ef4ba5b8c/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="South Neighborhood Depository &amp; Recycling Center - recycling center in Houston, TX | JunkScout" />
+  <meta name="twitter:description" content="Address, map, and source links for South Neighborhood Depository &amp; Recycling Center. Always confirm fees, hours, and accepted materials before visiting." />
+
+</head>
+
+<body data-state="texas" data-city="houston">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-materials">Browse materials</a>
+        <a href="/texas/">Browse locations</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <p class="muted small" id="facilityKicker">Recycling center</p>
+
+      <h1 id="facilityTitle">South Neighborhood Depository &amp; Recycling Center</h1>
+      <p class="subhead" id="facilitySubhead">Recycling center in the area. Confirm hours, fees, and accepted materials before visiting.</p>
+
+      <!-- ✅ FACILITY BADGES (injected by facility.js) -->
+      <div id="facilityBadges"></div>
+
+      <p class="muted small" style="margin:10px 0 10px">
+        Source-linked where possible • Always confirm fees/rules before visiting
+      </p>
+
+      <section class="wizard" style="margin-top:14px">
+        <div class="wizard__row" style="grid-template-columns: 1fr 1fr 1fr; align-items:center">
+          <div>
+            <div class="label">Address</div>
+            <div id="facilityAddress" style="font-weight:700">5100 Sunbeam St, Houston, TX 77033</div>
+            <div class="hint" id="facilityCoords"></div>
+          </div>
+
+          <div>
+            <div class="label">Links</div>
+            <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; align-items:center">
+              <a class="link" id="facilityDirections" href="https://www.google.com/maps/search/South%20Neighborhood%20Depository%20%26%20Recycling%20Center%205100%20Sunbeam%20St%2C%20Houston%2C%20TX%2077033" target="_blank" rel="noopener">Directions</a>
+              <a class="link" id="facilityWebsite" href="#" target="_blank" rel="noopener" style="display:none">Website</a>
+              <a class="link" id="facilitySource" href="https://www.houstontx.gov/solidwaste/dropoff.html" target="_blank" rel="noopener" style="display:inline">Source</a>
+
+              <!-- Houston-only trigger (houston-modal.js will show it when appropriate) -->
+              <button
+                id="houstonRulesBtn"
+                type="button"
+                class="btn btn--ghost"
+                style="display:none; padding:8px 10px; border-radius:12px; font-weight:700"
+                aria-haspopup="dialog"
+                aria-controls="houstonModal"
+              >
+                Houston rules &amp; fees
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <a class="btn btn--primary btn--big" id="facilityCta" href="https://www.google.com/maps/search/South%20Neighborhood%20Depository%20%26%20Recycling%20Center%205100%20Sunbeam%20St%2C%20Houston%2C%20TX%2077033" target="_blank" rel="noopener">
+              Open in Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="wizard__note" style="margin-top:16px">
+          <span class="dot"></span>
+          <span>Fees, hours, and accepted materials vary — confirm with the facility directly.</span>
+        </div>
+      </section>
+
+      <section class="seo-copy" style="margin-top:26px">
+        <h2>About this facility</h2>
+        <p id="facilityAbout">This location is listed as a recycling center. Rules, residency requirements, and fees vary by facility. Always confirm details directly before visiting.</p>
+<div id="verifiedDetails">
+  <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
+    <h2>Verified facility details</h2>
+    <p class="muted" style="margin-top:6px">Verified: 2026-01-29</p>
+    <div style="margin-top:10px"><strong>Hours:</strong> Tuesday–Saturday: 8 a.m.–5 p.m.</div>
+    <div style="margin-top:8px"><strong>Fees:</strong> Free</div>
+    <div style="margin-top:8px"><strong>Rules:</strong> Proof required</div>
+    <div style="margin-top:10px"><strong>Accepted:</strong><ul style="margin:6px 0 0 18px"><li>Trash</li><li>Yard waste</li><li>Bulk</li><li>Recyclables</li><li>Tires</li></ul></div>
+    <div style="margin-top:10px"><strong>Not accepted:</strong><ul style="margin:6px 0 0 18px"><li>Commercial</li><li>Hazardous</li></ul></div>
+    <div style="margin-top:12px"><a class="link" href="https://www.houstontx.gov/solidwaste/dropoff.html" target="_blank" rel="noopener">Verified source</a></div>
+  </section>
+</div>
+
+        <h2>May serve nearby cities</h2>
+        <p class="muted" style="margin-top:-6px">
+          This facility appears in city listings for:
+        </p>
+        <div class="cityhub__grid" id="facilityCities" style="margin-top:10px"><a class="cityhub__pill" href="/texas/houston/">Houston</a></div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>Explore more locations</h2>
+          <p class="muted">Browse more city directories by state.</p>
+          <div class="report__actions">
+            <a class="btn btn--ghost" href="/texas/">Texas</a>
+            <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Modal mount point (houston-modal.js will inject the dialog here) -->
+  <div id="houstonModalRoot"></div>
+
+  <script src="/analytics.js" defer></script>
+  <script src="/facility.js"></script>
+  <script src="/houston-modal.js" defer></script>
+</body>
+</html>

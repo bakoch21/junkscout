@@ -23,8 +23,8 @@
 
     "build:sitemap": "node scripts/generate-sitemap.js",
 
-    "build:data": "npm run build:facilities:data && npm run build:data:tx && npm run build:citylist:tx && npm run build:facilities:manual:houston",
-    "build:pages": "npm run build:pages:states && npm run build:facilities:pages && npm run build:sitemap",
+    "build:data": "npm run build:data:tx && npm run build:facilities:data && npm run build:citylist:tx && npm run build:facilities:manual:houston",
+    "build:pages": "npm run build:pages:states && npm run build:facilities:pages && npm run prune:apply && npm run build:sitemap",
     "build": "npm run build:data && npm run build:pages",
 
     "verify:smoke": "node scripts/smoke-check.js",

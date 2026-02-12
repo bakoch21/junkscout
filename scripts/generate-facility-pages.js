@@ -23,6 +23,7 @@ const FACILITIES_DIR = path.join("data", "facilities");
 const TEMPLATE_PATH = "facility-template.html";
 const OUTPUT_BASE = ".";
 const BASE_URL = "https://junkscout.io";
+const CITY_DATA_STATES = ["texas", "california"];
 
 function safeReadJson(filePath, fallback = null) {
   try {
@@ -77,6 +78,125 @@ function typeLabel(type = "") {
   return "drop-off site";
 }
 
+function typeLabelDisplay(type = "") {
+  const t = String(type || "").toLowerCase();
+  if (t === "landfill") return "Landfill";
+  if (t === "transfer_station") return "Transfer station";
+  if (t === "recycling") return "Recycling center";
+  if (t === "hazardous_waste") return "Hazardous waste site";
+  return "Drop-off site";
+}
+
+function coerceArray(value) {
+  return Array.isArray(value) ? value : [];
+}
+
+function cleanString(value) {
+  return String(value || "").trim();
+}
+
+function mergeUniqueStringArrays(a = [], b = []) {
+  const out = [];
+  const seen = new Set();
+
+  for (const val of [...coerceArray(a), ...coerceArray(b)]) {
+    const s = cleanString(val);
+    if (!s) continue;
+    const k = s.toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(s);
+  }
+
+  return out;
+}
+
+function mergeAppearsIn(a = [], b = []) {
+  const out = [];
+  const seen = new Set();
+
+  for (const row of [...coerceArray(a), ...coerceArray(b)]) {
+    const state = cleanSlug(row?.state || "");
+    const city = cleanSlug(row?.city || "");
+    if (!state && !city) continue;
+    const key = `${state}/${city}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push({ state, city });
+  }
+
+  return out;
+}
+
+function mergeFacilityRecords(base, incoming) {
+  const out = { ...base };
+  const next = incoming || {};
+
+  const preferWhenMissing = [
+    "name",
+    "slug",
+    "type",
+    "type_label",
+    "address",
+    "website",
+    "osm_url",
+    "source",
+    "phone",
+    "hours",
+    "fees",
+    "rules",
+    "verified_date",
+  ];
+
+  for (const key of preferWhenMissing) {
+    if (!cleanString(out[key]) && cleanString(next[key])) out[key] = next[key];
+  }
+
+  const lat = typeof out.lat === "number" ? out.lat : null;
+  const lng = typeof out.lng === "number" ? out.lng : null;
+  if (lat === null && typeof next.lat === "number") out.lat = next.lat;
+  if (lng === null && typeof next.lng === "number") out.lng = next.lng;
+
+  out.accepted_materials = mergeUniqueStringArrays(out.accepted_materials, next.accepted_materials);
+  out.not_accepted = mergeUniqueStringArrays(out.not_accepted, next.not_accepted);
+  out.appears_in = mergeAppearsIn(out.appears_in, next.appears_in);
+
+  return out;
+}
+
+function readCityReferencedFacilityIds() {
+  const states =
+    STATE_ARG && STATE_ARG !== "all"
+      ? [STATE_ARG]
+      : CITY_DATA_STATES;
+
+  const ids = new Set();
+  for (const state of states) {
+    const dataDir = path.join("data", state);
+    if (!fs.existsSync(dataDir)) continue;
+
+    const files = fs
+      .readdirSync(dataDir)
+      .filter((f) => f.toLowerCase().endsWith(".json"))
+      .filter((f) => !f.startsWith("_"))
+      .filter((f) => f.toLowerCase() !== "cities.json");
+
+    for (const file of files) {
+      const parsed = safeReadJson(path.join(dataDir, file), null);
+      const rows = Array.isArray(parsed)
+        ? parsed
+        : (parsed && typeof parsed === "object" && Array.isArray(parsed.facilities) ? parsed.facilities : []);
+
+      for (const row of rows) {
+        const id = cleanString(row?.facility_id || row?.id || "");
+        if (id) ids.add(id);
+      }
+    }
+  }
+
+  return ids;
+}
+
 function getAppearsIn(facility) {
   return Array.isArray(facility?.appears_in)
     ? facility.appears_in
@@ -89,6 +209,7 @@ function getAppearsIn(facility) {
 }
 
 function matchesState(facility, state) {
+  if (state === "all") return true;
   const appears = getAppearsIn(facility);
   if (appears.length === 0) return state === "texas";
   return appears.some((x) => x.state === state);
@@ -226,21 +347,216 @@ function injectBodySeed(html, state, city) {
   return html.replace("<body>", `<body data-state="${escapeHtml(state)}" data-city="${escapeHtml(city)}">`);
 }
 
+function mapsUrlForFacility(facility) {
+  const lat = typeof facility?.lat === "number" ? facility.lat : null;
+  const lng = typeof facility?.lng === "number" ? facility.lng : null;
+  const address = cleanString(facility?.address || "");
+  const name = cleanString(facility?.name || "");
+
+  if (lat !== null && lng !== null) {
+    return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+  }
+  if (address || name) {
+    return `https://www.google.com/maps/search/${encodeURIComponent(`${name} ${address}`.trim())}`;
+  }
+  return "https://www.google.com/maps";
+}
+
+function replaceElementTextById(html, id, text) {
+  const regex = new RegExp(`(<[^>]*id="${id}"[^>]*>)[\\s\\S]*?(<\\/[^>]+>)`, "i");
+  if (!regex.test(html)) return html;
+  return html.replace(regex, `$1${escapeHtml(text)}$2`);
+}
+
+function replaceElementHtmlById(html, id, innerHtml) {
+  const regex = new RegExp(`(<[^>]*id="${id}"[^>]*>)[\\s\\S]*?(<\\/[^>]+>)`, "i");
+  if (!regex.test(html)) return html;
+  return html.replace(regex, `$1${innerHtml}$2`);
+}
+
+function setAnchorHrefById(html, id, href) {
+  const hrefRegex = new RegExp(`(<a[^>]*id="${id}"[^>]*href=")[^"]*(")`, "i");
+  if (!hrefRegex.test(html)) return html;
+  return html.replace(hrefRegex, `$1${escapeHtml(href)}$2`);
+}
+
+function setAnchorVisibilityById(html, id, visible) {
+  const styleRegex = new RegExp(`(<a[^>]*id="${id}"[^>]*style=")[^"]*(")`, "i");
+  if (styleRegex.test(html)) {
+    return html.replace(styleRegex, `$1display:${visible ? "inline" : "none"}$2`);
+  }
+  return html;
+}
+
+function buildCityPillsHtml(facility) {
+  const appears = getAppearsIn(facility);
+  if (!appears.length) return "";
+
+  const seen = new Set();
+  const links = [];
+  for (const row of appears) {
+    const state = cleanSlug(row?.state || "");
+    const city = cleanSlug(row?.city || "");
+    if (!state || !city) continue;
+    const key = `${state}/${city}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    links.push(
+      `<a class="cityhub__pill" href="/${escapeHtml(state)}/${escapeHtml(city)}/">${escapeHtml(titleCaseFromSlug(city))}</a>`
+    );
+  }
+
+  return links.join("");
+}
+
+function buildServerRenderedVerifiedHtml(facility) {
+  const hours = cleanString(facility?.hours || "");
+  const fees = cleanString(facility?.fees || "");
+  const rules = cleanString(facility?.rules || "");
+  const verified = cleanString(facility?.verified_date || "");
+  const source = cleanString(facility?.source || facility?.osm_url || "");
+  const accepted = coerceArray(facility?.accepted_materials).map((x) => cleanString(x)).filter(Boolean);
+  const notAccepted = coerceArray(facility?.not_accepted).map((x) => cleanString(x)).filter(Boolean);
+
+  const hasDetails = hours || fees || rules || verified || source || accepted.length > 0 || notAccepted.length > 0;
+  if (!hasDetails) return "";
+
+  return `
+<div id="verifiedDetails">
+  <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
+    <h2>Verified facility details</h2>
+    ${verified ? `<p class="muted" style="margin-top:6px">Verified: ${escapeHtml(verified)}</p>` : ""}
+    ${hours ? `<div style="margin-top:10px"><strong>Hours:</strong> ${escapeHtml(hours)}</div>` : ""}
+    ${fees ? `<div style="margin-top:8px"><strong>Fees:</strong> ${escapeHtml(fees)}</div>` : ""}
+    ${rules ? `<div style="margin-top:8px"><strong>Rules:</strong> ${escapeHtml(rules)}</div>` : ""}
+    ${
+      accepted.length
+        ? `<div style="margin-top:10px"><strong>Accepted:</strong><ul style="margin:6px 0 0 18px">${accepted
+            .map((x) => `<li>${escapeHtml(x)}</li>`)
+            .join("")}</ul></div>`
+        : ""
+    }
+    ${
+      notAccepted.length
+        ? `<div style="margin-top:10px"><strong>Not accepted:</strong><ul style="margin:6px 0 0 18px">${notAccepted
+            .map((x) => `<li>${escapeHtml(x)}</li>`)
+            .join("")}</ul></div>`
+        : ""
+    }
+    ${
+      source
+        ? `<div style="margin-top:12px"><a class="link" href="${escapeHtml(source)}" target="_blank" rel="noopener">Verified source</a></div>`
+        : ""
+    }
+  </section>
+</div>
+`.trim();
+}
+
+function injectServerRenderedFacilityContent(html, facility) {
+  const name = cleanString(facility?.name || "Unnamed site");
+  const type = typeLabelDisplay(facility?.type);
+  const address = cleanString(facility?.address || "Address not provided");
+  const lat = typeof facility?.lat === "number" ? facility.lat : null;
+  const lng = typeof facility?.lng === "number" ? facility.lng : null;
+  const mapsUrl = mapsUrlForFacility(facility);
+  const sourceUrl = cleanString(facility?.source || facility?.osm_url || "");
+  const websiteUrl = cleanString(facility?.website || "");
+
+  let out = html;
+  out = replaceElementTextById(out, "facilityKicker", type);
+  out = replaceElementTextById(out, "facilityTitle", name);
+  out = replaceElementTextById(
+    out,
+    "facilitySubhead",
+    `${type} in the area. Confirm hours, fees, and accepted materials before visiting.`
+  );
+  out = replaceElementTextById(out, "facilityAddress", address);
+  out = replaceElementTextById(out, "facilityCoords", lat !== null && lng !== null ? `Coordinates: ${lat}, ${lng}` : "");
+  out = replaceElementTextById(
+    out,
+    "facilityAbout",
+    `This location is listed as a ${type.toLowerCase()}. Rules, residency requirements, and fees vary by facility. Always confirm details directly before visiting.`
+  );
+
+  out = setAnchorHrefById(out, "facilityDirections", mapsUrl);
+  out = setAnchorHrefById(out, "facilityCta", mapsUrl);
+
+  if (websiteUrl) {
+    out = setAnchorHrefById(out, "facilityWebsite", websiteUrl);
+    out = setAnchorVisibilityById(out, "facilityWebsite", true);
+  }
+  if (sourceUrl) {
+    out = setAnchorHrefById(out, "facilitySource", sourceUrl);
+    out = setAnchorVisibilityById(out, "facilitySource", true);
+  }
+
+  const cityPills = buildCityPillsHtml(facility);
+  if (cityPills) out = replaceElementHtmlById(out, "facilityCities", cityPills);
+
+  const verifiedHtml = buildServerRenderedVerifiedHtml(facility);
+  if (verifiedHtml && out.includes("</p>")) {
+    out = out.replace(/(<p id="facilityAbout"[\s\S]*?<\/p>)/i, `$1\n${verifiedHtml}`);
+  }
+
+  return out;
+}
+
 function loadFacilityRecords() {
+  if (!fs.existsSync(FACILITIES_DIR)) return [];
+
+  const byId = new Map();
+
+  function upsert(record) {
+    const id = String(record?.id || "").trim();
+    if (!id) return;
+
+    if (!byId.has(id)) {
+      byId.set(id, { ...record, id });
+      return;
+    }
+    byId.set(id, mergeFacilityRecords(byId.get(id), record));
+  }
+
   const indexPath = path.join(FACILITIES_DIR, "index.json");
   const fromIndex = safeReadJson(indexPath, null);
   if (Array.isArray(fromIndex) && fromIndex.length > 0) {
-    return fromIndex.filter((x) => x && typeof x === "object");
+    fromIndex
+      .filter((x) => x && typeof x === "object")
+      .forEach((record) => upsert(record));
   }
 
-  const files = fs
+  const manualFiles = fs
     .readdirSync(FACILITIES_DIR)
-    .filter((f) => f.endsWith(".json") && f.toLowerCase() !== "index.json")
+    .filter((f) => /^f_manual_.*\.json$/i.test(f))
     .sort((a, b) => a.localeCompare(b));
 
-  return files
+  manualFiles
     .map((f) => safeReadJson(path.join(FACILITIES_DIR, f), null))
-    .filter((x) => x && typeof x === "object");
+    .filter((x) => x && typeof x === "object")
+    .forEach((record) => upsert(record));
+
+  const referencedIds = readCityReferencedFacilityIds();
+  for (const id of referencedIds) {
+    if (byId.has(id)) continue;
+    const fullPath = path.join(FACILITIES_DIR, `${id}.json`);
+    const parsed = safeReadJson(fullPath, null);
+    if (parsed && typeof parsed === "object") upsert(parsed);
+  }
+
+  if (byId.size === 0) {
+    const allFiles = fs
+      .readdirSync(FACILITIES_DIR)
+      .filter((f) => f.endsWith(".json") && f.toLowerCase() !== "index.json")
+      .sort((a, b) => a.localeCompare(b));
+
+    allFiles
+      .map((f) => safeReadJson(path.join(FACILITIES_DIR, f), null))
+      .filter((x) => x && typeof x === "object")
+      .forEach((record) => upsert(record));
+  }
+
+  return Array.from(byId.values());
 }
 
 function run() {
@@ -287,6 +603,7 @@ function run() {
     outputHtml = injectHeadMeta(outputHtml, meta);
     outputHtml = injectJsonLd(outputHtml, buildJsonLd({ facility, meta, state }));
     outputHtml = injectBodySeed(outputHtml, state, city);
+    outputHtml = injectServerRenderedFacilityContent(outputHtml, facility);
 
     const outDir = path.join(OUTPUT_BASE, "facility", id);
     const outFile = path.join(outDir, "index.html");

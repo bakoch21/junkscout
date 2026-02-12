@@ -7,7 +7,7 @@
     "lng": -99.86,
     "website": null,
     "source": null,
-    "facility_id": "f_044892b72e88"
+    "facility_id": "f_595f81965b74"
   },
   {
     "name": "CITY OF PECOS LANDFILL",
@@ -27,7 +27,7 @@
     "lng": -103.52,
     "website": null,
     "source": null,
-    "facility_id": "f_9f4755794058"
+    "facility_id": "f_705383a1ed5f"
   },
   {
     "name": "GLASSCOCK COUNTY LANDFILL",
@@ -47,7 +47,7 @@
     "lng": -101.47,
     "website": null,
     "source": null,
-    "facility_id": "f_f6516db7bc0f"
+    "facility_id": "f_86ea34bf1421"
   },
   {
     "name": "HUDSPETH COUNTY LANDFILL",
@@ -57,7 +57,7 @@
     "lng": -105.12,
     "website": null,
     "source": null,
-    "facility_id": "f_4f57bbacdcaa"
+    "facility_id": "f_a50e87072da5"
   },
   {
     "name": "HUDSPETH COUNTY LANDFILL",
@@ -77,7 +77,7 @@
     "lng": -106.19,
     "website": null,
     "source": null,
-    "facility_id": "f_3b8bd86b0011"
+    "facility_id": "f_fc0ddd0664ae"
   },
   {
     "name": "MEDIWASTE MEDICAL WASTE TREATMENT FACILITY",
@@ -97,7 +97,7 @@
     "lng": -97.24,
     "website": null,
     "source": null,
-    "facility_id": "f_d5838de36e05"
+    "facility_id": "f_da4fa5ea4ff4"
   },
   {
     "name": "MINNIS DRIVE TRANSFER STATION",
@@ -117,7 +117,7 @@
     "lng": -95.05,
     "website": null,
     "source": null,
-    "facility_id": "f_bbbd3bcd7b41"
+    "facility_id": "f_d63670697d2b"
   },
   {
     "name": "NORTH COUNTY LANDFILL",
@@ -137,7 +137,7 @@
     "lng": -98.83,
     "website": null,
     "source": null,
-    "facility_id": "f_224248b527fb"
+    "facility_id": "f_6ba04d96e4f8"
   },
   {
     "name": "TEXAS SLUDGE DISPOSAL COMPOSTING FACILITY",
@@ -157,6 +157,6 @@
     "lng": -97.36,
     "website": null,
     "source": null,
-    "facility_id": "f_53517ebe4143"
+    "facility_id": "f_3b0b6da89238"
   }
 ]

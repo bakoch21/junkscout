@@ -7,7 +7,7 @@
     "lng": -97.11,
     "website": null,
     "source": null,
-    "facility_id": "f_08ed06fd0ade"
+    "facility_id": "f_f4f04b607864"
   },
   {
     "name": "CITY OF ARLINGTON LANDFILL",
@@ -17,7 +17,7 @@
     "lng": -97.11,
     "website": null,
     "source": null,
-    "facility_id": "f_3bca9fa8dd84"
+    "facility_id": "f_f4f04b607864"
   },
   {
     "name": "CITY OF ARLINGTON LANDFILL",
@@ -47,7 +47,7 @@
     "lng": 0,
     "website": null,
     "source": null,
-    "facility_id": "f_9f665ce9bd5c"
+    "facility_id": "f_7ef306a8ee09"
   },
   {
     "name": "DFW Recyclers",
@@ -57,7 +57,7 @@
     "lng": -97.1470574,
     "website": null,
     "source": null,
-    "facility_id": "f_418eb02f4bb3"
+    "facility_id": "f_af7b062d53cb"
   },
   {
     "name": "DFW Recyclers",
@@ -87,7 +87,7 @@
     "lng": -97.220152,
     "website": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/environmental-collection-center/environmental-collection",
     "source": null,
-    "facility_id": "f_d3d1a73d4ff6"
+    "facility_id": "f_8d20817a3d25"
   },
   {
     "name": "LIQUITEK ARLINGTON LIQUID WASTE PROC FAC",
@@ -107,6 +107,6 @@
     "lng": -97.04,
     "website": null,
     "source": null,
-    "facility_id": "f_acc6dec698fb"
+    "facility_id": "f_a9f1135f0373"
   }
 ]

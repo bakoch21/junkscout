@@ -1,6 +1,6 @@
 // app.js — location-first wizard + city autocomplete
 
-const CITY_LIST_URL = "/scripts/cities-texas.json";
+const CITY_LIST_URLS = ["/scripts/cities-texas.json", "/scripts/cities-california.json"];
 
 const yearEl = document.getElementById("year");
 
@@ -31,19 +31,25 @@ function titleCaseFromSlug(slug = "") {
 }
 
 function buildCityLabel(entry) {
-  // You're Texas-only right now, so show "City, TX"
   const cityName = titleCaseFromSlug(entry.city);
-  return `${cityName}, TX`;
+  const state = String(entry.state || "").toLowerCase();
+  const stateAbbrev = state === "california" ? "CA" : "TX";
+  return `${cityName}, ${stateAbbrev}`;
 }
 
 async function populateCityDatalist() {
   if (!whereInput || !cityList) return;
 
   try {
-    const res = await fetch(CITY_LIST_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error(`Could not load ${CITY_LIST_URL} (${res.status})`);
+    const responses = await Promise.all(
+      CITY_LIST_URLS.map((url) => fetch(url, { cache: "no-store" }))
+    );
 
-    const cities = await res.json();
+    const bad = responses.find((res) => !res.ok);
+    if (bad) throw new Error(`Could not load city list (${bad.status}).`);
+
+    const cityLists = await Promise.all(responses.map((res) => res.json()));
+    const cities = cityLists.filter(Array.isArray).flat();
     if (!Array.isArray(cities)) throw new Error("City list JSON is not an array.");
 
     cityList.innerHTML = "";

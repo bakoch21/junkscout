@@ -136,15 +136,15 @@
 <body data-state="texas" data-city="eagle-pass">
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="/index.html">
+      <a class="brand" href="/">
         <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/index.html#browse-materials">Browse materials</a>
+        <a href="/#browse-materials">Browse materials</a>
         <a href="/texas/">Browse locations</a>
-        <a href="/index.html#how-it-works">How it works</a>
-        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
       </nav>
 
       <div class="nav__actions">
@@ -193,7 +193,19 @@
       </section>
 
       <!-- Results injected here -->
-      <section class="cards" id="results" style="margin-top:14px"></section>
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Landfill</span></div>
+          <h3>CITY OF EAGLE PASS AND MAVERICK LANDFILL</h3>
+          <p class="card__meta">12.72 MILES NW OF EAGLE PASS  APPROXIMATELY 2090 FEET FROM HIGHWAY 277 AND FM 131 EAGLE PASS TX</p>
+          
+          
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=12.72%20MILES%20NW%20OF%20EAGLE%20PASS%20%20APPROXIMATELY%202090%20FEET%20FROM%20HIGHWAY%20277%20AND%20FM%20131%20EAGLE%20PASS%20TX" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_325a77caf13c/">Facility page</a>
+          </div>
+        </article>
+</section>
 
       <!-- SEO COPY START -->
       <section class="seo-copy" style="margin-top:26px">
@@ -264,10 +276,6 @@
         Uvalde <span class="muted" style="font-weight:600">&middot; 46 mi</span>
       </a>
     
-      <a class="cityhub__pill" href="/texas/e-san-antonio/">
-        E San Antonio <span class="muted" style="font-weight:600">&middot; 115 mi</span>
-      </a>
-    
       <a class="cityhub__pill" href="/texas/laredo/">
         Laredo <span class="muted" style="font-weight:600">&middot; 120 mi</span>
       </a>
@@ -318,7 +326,7 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
-            <a class="btn" href="/index.html">Back to home</a>
+            <a class="btn" href="/">Back to home</a>
           </div>
         </div>
       </section>
@@ -328,6 +336,7 @@
   <!-- ✅ Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
+  <script src="/analytics.js" defer></script>
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>

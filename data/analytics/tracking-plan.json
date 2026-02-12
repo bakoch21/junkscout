@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "events": [
+    {
+      "name": "page_view",
+      "description": "Fires once per page load.",
+      "required_properties": ["title"]
+    },
+    {
+      "name": "link_click",
+      "description": "Fires for all anchor clicks.",
+      "required_properties": ["href", "link_type", "text"]
+    },
+    {
+      "name": "homepage_search_click",
+      "description": "Fires when the homepage search button is pressed.",
+      "required_properties": ["query"]
+    }
+  ],
+  "link_type_values": [
+    "outbound",
+    "facility",
+    "location",
+    "internal",
+    "anchor",
+    "phone",
+    "email",
+    "unknown"
+  ]
+}
+

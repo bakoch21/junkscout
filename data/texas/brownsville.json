@@ -7,7 +7,7 @@
     "lng": -97.5045245,
     "website": "https://www.cameroncountytx.gov/recycling-centers-directory/",
     "source": null,
-    "facility_id": "f_49ea78691768"
+    "facility_id": "f_d82132ef8094"
   },
   {
     "name": "Brownsville Recycling Center",
@@ -37,7 +37,7 @@
     "lng": -97.39,
     "website": null,
     "source": null,
-    "facility_id": "f_b282440040d5"
+    "facility_id": "f_d8d0f1082218"
   },
   {
     "name": "CITY OF BROWNSVILLE LANDFILL",
@@ -57,7 +57,7 @@
     "lng": -97.4748286,
     "website": null,
     "source": null,
-    "facility_id": "f_09931360ff4c"
+    "facility_id": "f_1eb3c22d1631"
   },
   {
     "name": "Compra de metales",
@@ -87,6 +87,6 @@
     "lng": -97.5276678,
     "website": null,
     "source": null,
-    "facility_id": "f_8706d5c93f87"
+    "facility_id": "f_54a03b95701d"
   }
 ]

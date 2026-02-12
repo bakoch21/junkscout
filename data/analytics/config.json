@@ -1,0 +1,7 @@
+{
+  "provider": "none",
+  "measurement_id": "",
+  "debug": true,
+  "notes": "Set provider to ga4 or plausible after account setup."
+}
+

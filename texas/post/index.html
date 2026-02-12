@@ -136,15 +136,15 @@
 <body data-state="texas" data-city="post">
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="/index.html">
+      <a class="brand" href="/">
         <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/index.html#browse-materials">Browse materials</a>
+        <a href="/#browse-materials">Browse materials</a>
         <a href="/texas/">Browse locations</a>
-        <a href="/index.html#how-it-works">How it works</a>
-        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
       </nav>
 
       <div class="nav__actions">
@@ -193,7 +193,41 @@
       </section>
 
       <!-- Results injected here -->
-      <section class="cards" id="results" style="margin-top:14px"></section>
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Landfill</span></div>
+          <h3>CITY OF POST LANDFILL</h3>
+          <p class="card__meta">1637 CR 225 POST TX 79356</p>
+          
+          
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1637%20CR%20225%20POST%20TX%2079356" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_47cdba386836/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Landfill</span></div>
+          <h3>CITY OF POST LANDFILL</h3>
+          <p class="card__meta">1.3 MILES S OF US HIGHWAY 380 IN POST  0.4 MILES E OF FM 669 POST TX</p>
+          
+          
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1.3%20MILES%20S%20OF%20US%20HIGHWAY%20380%20IN%20POST%20%200.4%20MILES%20E%20OF%20FM%20669%20POST%20TX" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_738f92de8e7b/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Landfill</span></div>
+          <h3>CITY OF POST LANDFILL</h3>
+          <p class="card__meta">1637 CR 225 POST TX 79356</p>
+          
+          
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1637%20CR%20225%20POST%20TX%2079356" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_47cdba386836/">Facility page</a>
+          </div>
+        </article>
+</section>
 
       <!-- SEO COPY START -->
       <section class="seo-copy" style="margin-top:26px">
@@ -244,14 +278,6 @@
         Acres Spur <span class="muted" style="font-weight:600">&middot; 36 mi</span>
       </a>
     
-      <a class="cityhub__pill" href="/texas/avenue-p-lubbock/">
-        Avenue P Lubbock <span class="muted" style="font-weight:600">&middot; 44 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/st-lamesa/">
-        St Lamesa <span class="muted" style="font-weight:600">&middot; 46 mi</span>
-      </a>
-    
       <a class="cityhub__pill" href="/texas/meadow/">
         Meadow <span class="muted" style="font-weight:600">&middot; 48 mi</span>
       </a>
@@ -266,10 +292,6 @@
     
       <a class="cityhub__pill" href="/texas/floydada/">
         Floydada <span class="muted" style="font-weight:600">&middot; 56 mi</span>
-      </a>
-    
-      <a class="cityhub__pill" href="/texas/on-bobwhite-levelland/">
-        On Bobwhite Levelland <span class="muted" style="font-weight:600">&middot; 59 mi</span>
       </a>
     
       <a class="cityhub__pill" href="/texas/colorado-city/">
@@ -318,7 +340,7 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
-            <a class="btn" href="/index.html">Back to home</a>
+            <a class="btn" href="/">Back to home</a>
           </div>
         </div>
       </section>
@@ -328,6 +350,7 @@
   <!-- ✅ Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
+  <script src="/analytics.js" defer></script>
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>

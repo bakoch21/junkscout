@@ -10,6 +10,8 @@ const path = require("path");
 
 const ROOT = process.cwd();
 const BASE_URL = "https://junkscout.io";
+const STATES = ["texas", "california"];
+const CURATED_BASE = path.join(ROOT, "data", "manual");
 
 const errors = [];
 const warnings = [];
@@ -21,6 +23,15 @@ function readText(filePath) {
 
 function readJson(filePath) {
   return JSON.parse(readText(filePath));
+}
+
+function readJsonSafe(filePath, fallback = null) {
+  try {
+    if (!exists(filePath)) return fallback;
+    return JSON.parse(readText(filePath));
+  } catch {
+    return fallback;
+  }
 }
 
 function exists(filePath) {
@@ -43,11 +54,57 @@ function cityListPath(state) {
   return path.join(ROOT, "scripts", `cities-${state}.json`);
 }
 
+function getCuratedObject(state, city) {
+  const stateSlug = String(state || "").toLowerCase();
+  const citySlug = String(city || "").toLowerCase();
+  const resolvedPath = path.join(CURATED_BASE, stateSlug, `${citySlug}.resolved.json`);
+  const rawPath = path.join(CURATED_BASE, stateSlug, `${citySlug}.json`);
+  return readJsonSafe(resolvedPath, null) || readJsonSafe(rawPath, null);
+}
+
+function getCuratedItems(curated) {
+  if (!curated || typeof curated !== "object") return [];
+
+  const candidate =
+    curated.facilities ||
+    curated.locations ||
+    curated.items ||
+    curated.results ||
+    curated.data ||
+    null;
+
+  if (Array.isArray(candidate)) return candidate;
+  if (candidate && typeof candidate === "object") {
+    if (Array.isArray(candidate.list)) return candidate.list;
+    if (Array.isArray(candidate.items)) return candidate.items;
+    if (Array.isArray(candidate.results)) return candidate.results;
+  }
+  return [];
+}
+
+function cityHasRenderableData(state, city) {
+  if (getCuratedItems(getCuratedObject(state, city)).length > 0) return true;
+
+  const dataPath = path.join(ROOT, "data", state, `${city}.json`);
+  const data = readJsonSafe(dataPath, null);
+  if (Array.isArray(data)) return data.length > 0;
+  if (data && typeof data === "object" && Array.isArray(data.facilities)) {
+    return data.facilities.length > 0;
+  }
+  return false;
+}
+
 function checkRequiredFiles() {
   const required = [
     "index.html",
     "texas/index.html",
     "texas/houston/index.html",
+    "about/index.html",
+    "contact/index.html",
+    "privacy/index.html",
+    "terms/index.html",
+    "disclosure/index.html",
+    "data/analytics/config.json",
     "sitemap.xml",
     "scripts/cities-texas.json",
     "scripts/cities-california.json",
@@ -109,6 +166,117 @@ function checkCityLists() {
   const tx = readJson(cityListPath("texas"));
   if (!tx.some((x) => String(x.city || "").toLowerCase() === "houston")) {
     addError("Houston missing from scripts/cities-texas.json");
+  }
+}
+
+function checkCityDataCoverage() {
+  for (const state of STATES) {
+    const listPath = cityListPath(state);
+    const list = readJsonSafe(listPath, []);
+    if (!Array.isArray(list)) continue;
+
+    const missing = [];
+    for (const entry of list) {
+      const city = String(entry?.city || "").toLowerCase().trim();
+      if (!city) continue;
+      if (!cityHasRenderableData(state, city)) missing.push(city);
+    }
+
+    if (missing.length > 0) {
+      addError(`${state} city list contains ${missing.length} city page(s) with missing/empty data.`);
+      addWarning(`${state} first missing city data slug: ${missing[0]}`);
+    } else {
+      addNote(`${state} city data coverage: complete`);
+    }
+  }
+}
+
+function expectedCitySetForState(state) {
+  const list = readJsonSafe(cityListPath(state), []);
+  if (!Array.isArray(list)) return new Set();
+
+  return new Set(
+    list
+      .map((entry) => String(entry?.city || "").toLowerCase().trim())
+      .filter(Boolean)
+      .filter((city) => cityHasRenderableData(state, city))
+  );
+}
+
+function expectedFacilitySet() {
+  const ids = new Set();
+  const indexPath = path.join(ROOT, "data", "facilities", "index.json");
+  const index = readJsonSafe(indexPath, []);
+
+  if (Array.isArray(index)) {
+    index
+      .map((x) => String(x?.id || "").trim())
+      .filter(Boolean)
+      .forEach((id) => ids.add(id));
+  }
+
+  const facilitiesDir = path.join(ROOT, "data", "facilities");
+  if (exists(facilitiesDir)) {
+    fs.readdirSync(facilitiesDir)
+      .filter((f) => /^f_manual_.*\.json$/i.test(f))
+      .map((f) => f.replace(/\.json$/i, ""))
+      .forEach((id) => ids.add(id));
+  }
+
+  for (const state of STATES) {
+    const dataDir = path.join(ROOT, "data", state);
+    if (!exists(dataDir)) continue;
+
+    const files = fs.readdirSync(dataDir)
+      .filter((f) => f.toLowerCase().endsWith(".json"))
+      .filter((f) => !f.startsWith("_"))
+      .filter((f) => f.toLowerCase() !== "cities.json");
+
+    for (const file of files) {
+      const parsed = readJsonSafe(path.join(dataDir, file), null);
+      const rows = Array.isArray(parsed)
+        ? parsed
+        : (parsed && typeof parsed === "object" && Array.isArray(parsed.facilities) ? parsed.facilities : []);
+
+      for (const row of rows) {
+        const id = String(row?.facility_id || row?.id || "").trim();
+        if (id) ids.add(id);
+      }
+    }
+  }
+
+  return ids;
+}
+
+function checkGeneratedDirDrift() {
+  for (const state of STATES) {
+    const expected = expectedCitySetForState(state);
+    const stateDir = path.join(ROOT, state);
+    if (!exists(stateDir)) continue;
+
+    const dirs = fs.readdirSync(stateDir, { withFileTypes: true })
+      .filter((d) => d.isDirectory())
+      .map((d) => d.name.toLowerCase().trim());
+
+    const stale = dirs.filter((slug) => !expected.has(slug));
+    if (stale.length > 0) {
+      addError(`${state} has ${stale.length} stale generated city dir(s).`);
+      addWarning(`${state} first stale city dir: ${stale[0]}`);
+    }
+  }
+
+  const expectedFacilities = expectedFacilitySet();
+  const facilityRoot = path.join(ROOT, "facility");
+  if (!exists(facilityRoot)) return;
+
+  const facilityDirs = fs.readdirSync(facilityRoot, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name.trim());
+
+  const staleFacilities = facilityDirs.filter((id) => !expectedFacilities.has(id));
+  if (staleFacilities.length > 0) {
+    addError(`facility has ${staleFacilities.length} stale generated dir(s).`);
+    addWarning(`First stale facility dir: ${staleFacilities[0]}`);
   }
 }
 
@@ -183,6 +351,9 @@ function readCanonical(relPath) {
 
 function checkCanonicals() {
   const checks = [
+    { file: "index.html", expected: `${BASE_URL}/` },
+    { file: "texas/index.html", expected: `${BASE_URL}/texas/` },
+    { file: "california/index.html", expected: `${BASE_URL}/california/` },
     { file: "texas/houston/index.html", expected: `${BASE_URL}/texas/houston/` },
   ];
 
@@ -263,6 +434,8 @@ function printSummaryAndExit() {
 function run() {
   checkRequiredFiles();
   checkCityLists();
+  checkCityDataCoverage();
+  checkGeneratedDirDrift();
   checkSitemap();
   checkCanonicals();
   checkHoustonSignals();

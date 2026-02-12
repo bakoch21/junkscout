@@ -1,16 +1,21 @@
-﻿# TODO
+# TODO
 
 Persistent project backlog for JunkScout.
 
-## Now (Phase A: pipeline stability)
+## Completed in this iteration
 
-- [x] Fix `scripts/generate-facility-pages.js` to generate `/facility/<id>/index.html`.
-- [x] Fix `scripts/generate-sitemap.js` to use city records correctly and include facility URLs.
-- [x] Add deterministic CMD-friendly scripts: `build`, `build:texas`, `build:houston`, `preview`, `push`.
-- [x] Add build and deploy documentation (`README.md`, `BUILD_SANITY_CHECKLIST.md`).
-- [x] Add automated smoke check script for key URLs and canonical tags.
-- [x] Add stale output pruning strategy for old city directories not in current city list.
-- [x] Add quality gate to Texas city list generation to reject junk slugs.
+- [x] Facility page generation now includes manual Houston records and city-referenced IDs.
+- [x] Sitemap generation now skips city pages with missing data and includes legal pages.
+- [x] City page generation now:
+  - [x] skips no-data cities
+  - [x] filters nearby links to valid city slugs only
+  - [x] server-renders initial result cards for crawlability
+- [x] Facility page generation now server-renders key decision content (title, address, links, verified details block).
+- [x] Build pipeline now auto-prunes stale generated city/facility directories.
+- [x] Smoke checks now enforce city-data coverage and generated-dir drift checks.
+- [x] Added legal placeholder pages (`/about/`, `/contact/`, `/privacy/`, `/terms/`, `/disclosure/`).
+- [x] Added analytics scaffolding (`/analytics.js`, `data/analytics/config.json`, `data/analytics/tracking-plan.json`).
+- [x] Homepage and template nav/footer links now avoid dead-end `#pro` anchors.
 
 ## Next (Phase B: Houston depth)
 
@@ -25,13 +30,13 @@ Persistent project backlog for JunkScout.
 
 ## After (Phase C: facility SEO engine)
 
-- [ ] Add city-to-facility links from cards when `facility_id` is present.
 - [ ] Add nearby facilities block on facility pages.
-- [ ] Add nearby cities block on facility pages.
-- [ ] Implement duplicate facility detection and canonical strategy.
+- [ ] Add duplicate facility detection and canonical strategy.
+- [ ] Add structured referral slots to high-intent facility pages (once traffic threshold is met).
+- [ ] Wire analytics provider (`ga4` or `plausible`) and map event taxonomy to revenue KPIs.
 
 ## Expansion guardrails (Phase D)
 
-- [ ] Add TX<->CA internal linking patterns from homepage/state/city pages.
-- [ ] Expand California only after template + internal linking checks pass.
-- [ ] Set a minimum "confidence to drive" content threshold for new city pages.
+- [ ] Complete TX <-> CA internal-linking lattice from homepage/state/city/facility pages.
+- [ ] Expand California only after all city pages pass confidence threshold checks.
+- [ ] Define and enforce a minimum "confidence to drive" score for every new city launch.

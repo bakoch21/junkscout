@@ -17,7 +17,7 @@
     "lng": 0,
     "website": null,
     "source": null,
-    "facility_id": "f_fef300db9b7d"
+    "facility_id": "f_b6434e3fed8e"
   },
   {
     "name": "CITY OF WACO LANDFILL",
@@ -27,7 +27,7 @@
     "lng": -96.93,
     "website": null,
     "source": null,
-    "facility_id": "f_13efda716b58"
+    "facility_id": "f_b455ee88de67"
   },
   {
     "name": "CITY OF WACO LANDFILL",
@@ -37,7 +37,7 @@
     "lng": -97.26,
     "website": null,
     "source": null,
-    "facility_id": "f_a972f3d7b160"
+    "facility_id": "f_f7d0cf11d6d1"
   },
   {
     "name": "CITY OF WACO LANDFILL",
@@ -57,7 +57,7 @@
     "lng": -97.08,
     "website": null,
     "source": null,
-    "facility_id": "f_2fbfc09dc587"
+    "facility_id": "f_56d0256c031e"
   },
   {
     "name": "CITY OF WACO TRANSFER STATION FACILITY",
@@ -87,7 +87,7 @@
     "lng": -97.1868365,
     "website": null,
     "source": null,
-    "facility_id": "f_e75b93f7e3b9"
+    "facility_id": "f_110923df5a08"
   },
   {
     "name": "Green Option Recycling",
@@ -107,7 +107,7 @@
     "lng": -97.1426667,
     "website": "https://www.greenoptionrecycling.com/",
     "source": null,
-    "facility_id": "f_b1166d1e1fa9"
+    "facility_id": "f_3b14ba691d67"
   },
   {
     "name": "LACY-LAKEVIEW RECYCLING AND DISPOSAL FACILITY",
@@ -127,7 +127,7 @@
     "lng": -97.06,
     "website": null,
     "source": null,
-    "facility_id": "f_4b49e7f44562"
+    "facility_id": "f_063c28a47555"
   },
   {
     "name": "M. Lipsitz and Company LTD",
@@ -137,7 +137,7 @@
     "lng": -97.128663,
     "website": "https://www.mlipsitzco.com/",
     "source": null,
-    "facility_id": "f_7593ca2a6f6d"
+    "facility_id": "f_cd18974e62fd"
   },
   {
     "name": "M. Lipsitz and Company LTD",
@@ -167,6 +167,6 @@
     "lng": -97.2581486,
     "website": null,
     "source": null,
-    "facility_id": "f_94518be0bb59"
+    "facility_id": "f_000478a5dd44"
   }
 ]
