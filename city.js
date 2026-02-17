@@ -95,33 +95,59 @@ function setCanonical(url) {
 }
 
 function applyCitySEO({ cityName, stateName }) {
-  const pretty = `${cityName}, ${stateName}`;
+  const pretty = cityName + ", " + stateName;
+  const isHouston = String(cityName).toLowerCase() === "houston" && String(stateName).toUpperCase() === "TX";
 
   const titleEl = document.getElementById("cityTitle");
-  if (titleEl) titleEl.textContent = `Where to dump trash in ${pretty}`;
+  if (titleEl) {
+    titleEl.textContent = isHouston
+      ? "Houston Dump, Landfill & Transfer Station Guide"
+      : "Where to dump trash in " + pretty;
+  }
 
   const ansEl = document.getElementById("cityAnswer");
   if (ansEl) {
-    ansEl.textContent =
-      `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, ` +
-      `with hours, rules, and accepted materials when available.`;
+    ansEl.textContent = isHouston
+      ? "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+      : "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ", " +
+        "with hours, rules, and accepted materials when available.";
   }
 
   const subEl = document.getElementById("citySubhead");
   if (subEl) {
-    subEl.textContent =
-      `Public landfills, transfer stations, and disposal sites in ${cityName}. ` +
-      `Always confirm fees, residency rules, and accepted materials before visiting.`;
+    subEl.textContent = isHouston
+      ? "Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive."
+      : "Public landfills, transfer stations, and disposal sites in " + cityName + ". " +
+        "Always confirm fees, residency rules, and accepted materials before visiting.";
   }
 
   const inlineCity = document.getElementById("cityNameInline");
   if (inlineCity) inlineCity.textContent = cityName;
 
-  document.title = `Where to Dump Trash in ${pretty} | JunkScout`;
-  setMetaDescription(
-    `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}. ` +
-    `Hours, fees, and accepted materials when available—always confirm before visiting.`
-  );
+  if (isHouston) {
+    document.title = "Houston Dump, Landfill & Transfer Station Guide (Fees, Hours, Rules) | JunkScout";
+    setMetaDescription(
+      "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+    );
+
+    const faqDumpWhere = document.getElementById("faqDumpWhere");
+    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Houston today?";
+
+    const faqDumpFree = document.getElementById("faqDumpFree");
+    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Houston?";
+
+    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
+    if (faqDumpFreeBody) {
+      faqDumpFreeBody.textContent =
+        "Some Houston facilities offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.";
+    }
+  } else {
+    document.title = "Where to Dump Trash in " + pretty + " | JunkScout";
+    setMetaDescription(
+      "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ". " +
+      "Hours, fees, and accepted materials when available - always confirm before visiting."
+    );
+  }
 
   const canonical = window.location.origin + window.location.pathname;
   setCanonical(canonical);

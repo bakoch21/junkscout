@@ -40,6 +40,10 @@ function stateAbbrevFromSlug(stateSlug = "") {
   return state.toUpperCase();
 }
 
+function isHoustonCity(state, city) {
+  return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "houston";
+}
+
 function escapeHtml(value = "") {
   return String(value).replace(/[&<>"']/g, (ch) => {
     if (ch === "&") return "&amp;";
@@ -187,9 +191,16 @@ function injectInitialResults(html, resultsHtml) {
 function buildMeta({ state, city }) {
   const cityName = titleCaseFromSlug(city);
   const stateAbbrev = stateAbbrevFromSlug(state);
-  const title = `Find dumps and landfills in ${cityName}, ${stateAbbrev} | JunkScout`;
-  const description =
+  let title = `Find dumps and landfills in ${cityName}, ${stateAbbrev} | JunkScout`;
+  let description =
     `Public dumps, landfills, transfer stations, and recycling drop-offs near ${cityName}, ${stateAbbrev} with rules and accepted materials when available.`;
+
+  if (isHoustonCity(state, city)) {
+    title = "Houston Dump, Landfill & Transfer Station Guide (Fees, Hours, Rules) | JunkScout";
+    description =
+      "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
+  }
+
   const canonicalPath = `/${state}/${city}/`;
   const canonicalUrl = `${BASE_URL}${canonicalPath}`;
 
@@ -267,6 +278,51 @@ function buildJsonLd({ state, city, meta }) {
       breadcrumb: { "@id": `${url}#breadcrumb` },
     },
   ];
+
+  if (isHoustonCity(state, city)) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Where can I dump trash in Houston today?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Houston residents can use city neighborhood depositories and recycling centers for many household items. Private transfer stations and landfills also accept paid loads.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where can I drop off trash for free in Houston?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Some Houston drop-off locations are free for residents with proof of address and valid ID. Visit limits and material restrictions can apply.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What do garbage transfer stations in Houston charge?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Transfer station and landfill fees usually vary by load size, weight, and material type. Check the listing source links and confirm current rates before driving.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are there landfills near Houston that accept large loads?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes. Several landfill and transfer options near Houston accept larger loads, but accepted materials, hours, and fees vary by site.",
+          },
+        },
+      ],
+    });
+  }
 
   const json = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }, null, 2);
   return `<script type="application/ld+json">\n${json}\n</script>`;
@@ -466,6 +522,52 @@ function injectCuratedOverlay(html, state, city) {
   return `${html}\n${scriptTag}\n`;
 }
 
+function injectHoustonIntentCopy(html) {
+  let out = html;
+
+  out = out.replace(
+    /(<h1[^>]*id="cityTitle"[^>]*>)[\s\S]*?(<\/h1>)/i,
+    "$1Houston Dump, Landfill & Transfer Station Guide$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="cityAnswer"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive.$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I dump trash in Houston today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpFree"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I drop off trash for free in Houston?$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Some Houston facilities offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.$2"
+  );
+
+  out = out.replace(
+    "<h2>What items are typically accepted?</h2>",
+    "<h2>Garbage transfer stations in Houston: what they accept</h2>"
+  );
+
+  out = out.replace(
+    "<h2>Fees, hours, and resident requirements</h2>",
+    "<h2>Houston landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  return out;
+}
+
 function run() {
   if (!fs.existsSync(CITY_LIST_PATH)) {
     console.error(`City list not found: ${CITY_LIST_PATH}`);
@@ -548,6 +650,10 @@ function run() {
     const nearbyHtml = buildNearbyHtml({ state, city, neighborsMap, validCitySet });
     outputHtml = injectNearby(outputHtml, nearbyHtml);
     outputHtml = injectCuratedOverlay(outputHtml, state, city);
+
+    if (isHoustonCity(state, city)) {
+      outputHtml = injectHoustonIntentCopy(outputHtml);
+    }
 
     const outDir = path.join(OUTPUT_BASE, state, city);
     const outFile = path.join(outDir, "index.html");
