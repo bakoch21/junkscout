@@ -4,12 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>Browse California dump & landfill locations | JunkScout</title>
+  <title>California Dump, Landfill & Transfer Station Locations by City | JunkScout</title>
   <meta name="description" content="Browse California cities to find dumps, landfills, transfer stations, and recycling drop-off locations." />
+  <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://junkscout.io/california/" />
 
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
 </head>
 
 <body>
@@ -51,7 +54,15 @@
           <div class="muted small" id="cityCount"></div>
         </div>
 
-        <div class="cityhub__grid" id="cityList"></div>
+        <div class="cityhub__grid" id="cityList">
+  <a class="cityhub__pill" href="/california/bakersfield/">Bakersfield</a>
+  <a class="cityhub__pill" href="/california/fresno/">Fresno</a>
+  <a class="cityhub__pill" href="/california/los-angeles/">Los Angeles</a>
+  <a class="cityhub__pill" href="/california/oakland/">Oakland</a>
+  <a class="cityhub__pill" href="/california/san-diego/">San Diego</a>
+  <a class="cityhub__pill" href="/california/san-francisco/">San Francisco</a>
+  <a class="cityhub__pill" href="/california/san-jose/">San Jose</a>
+        </div>
 
         <p class="muted small" style="margin-top:12px">
           Tip: If a city page shows “Unable to load locations right now,” it means that city’s data file hasn’t been generated yet.
@@ -77,6 +88,13 @@
 
       let cities = [];
 
+      const seededCities = Array.from(listEl.querySelectorAll("a.cityhub__pill"))
+        .map((a) => ({
+          label: String(a.textContent || "").trim(),
+          href: String(a.getAttribute("href") || "").trim(),
+        }))
+        .filter((x) => x.label && x.href);
+
       function render(list) {
         listEl.innerHTML = list
           .map(
@@ -95,6 +113,21 @@
         const query = (q || "").trim().toLowerCase();
         if (!query) return cities;
         return cities.filter((c) => c.label.toLowerCase().includes(query));
+      }
+
+      function bindSearch() {
+        if (searchEl.dataset.bound === "1") return;
+        searchEl.dataset.bound = "1";
+        searchEl.addEventListener("input", () => {
+          render(filter(searchEl.value));
+        });
+      }
+
+      if (seededCities.length > 0) {
+        cities = seededCities.sort((a, b) => a.label.localeCompare(b.label));
+        render(cities);
+        bindSearch();
+        return;
       }
 
       try {
@@ -116,14 +149,13 @@
           .sort((a, b) => a.label.localeCompare(b.label));
 
         render(cities);
-
-        searchEl.addEventListener("input", () => {
-          render(filter(searchEl.value));
-        });
+        bindSearch();
       } catch (err) {
         console.error(err);
-        listEl.innerHTML = `<div class="muted">Unable to load city list right now.</div>`;
-        countEl.textContent = "";
+        if (cities.length === 0) {
+          listEl.innerHTML = `<div class="muted">Unable to load city list right now.</div>`;
+          countEl.textContent = "";
+        }
       }
     })();
   </script>

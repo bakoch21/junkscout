@@ -17,16 +17,6 @@
     "lng": -100.56,
     "website": null,
     "source": null,
-    "facility_id": "f_bb2ceca2953f"
-  },
-  {
-    "name": "CITY OF MCLEAN LANDFILL",
-    "type": "landfill",
-    "address": "6447 COUNTY ROAD 29 MCLEAN TX 79057",
-    "lat": 35.24,
-    "lng": -100.58,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0a2ae44e339f"
+    "facility_id": "f_5ae7c75f6adb"
   }
 ]

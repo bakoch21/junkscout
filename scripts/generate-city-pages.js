@@ -84,6 +84,121 @@ function normalizeType(rawType) {
   return { label: "Drop-off", badgeClass: "badge--gray" };
 }
 
+function normalizeKeyText(value = "") {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function mergeUniqueStrings(a, b) {
+  const out = [];
+  const seen = new Set();
+  for (const raw of [...(Array.isArray(a) ? a : []), ...(Array.isArray(b) ? b : [])]) {
+    const value = String(raw || "").trim();
+    if (!value) continue;
+    const key = value.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(value);
+  }
+  return out;
+}
+
+function itemCompletenessScore(item) {
+  if (!item || typeof item !== "object") return 0;
+  const hasText = (v) => String(v || "").trim().length > 0;
+
+  let score = 0;
+  if (hasText(item.name)) score += 4;
+  if (hasText(item.address)) score += 4;
+  if (hasText(item.type)) score += 3;
+  if (hasText(item.facility_id) || hasText(item.id)) score += 3;
+  if (hasText(item.source)) score += 2;
+  if (hasText(item.website)) score += 1;
+  if (hasText(item.phone)) score += 1;
+  if (hasText(item.hours)) score += 1;
+  if (hasText(item.fees)) score += 1;
+  if (hasText(item.rules)) score += 1;
+
+  const lat = toNumber(item?.lat ?? item?.latitude);
+  const lng = toNumber(item?.lng ?? item?.lon ?? item?.longitude);
+  if (lat !== null && lng !== null) score += 2;
+
+  const acceptedCount = Array.isArray(item.accepted_materials) ? item.accepted_materials.length : 0;
+  const notAcceptedCount = Array.isArray(item.not_accepted) ? item.not_accepted.length : 0;
+  score += Math.min(3, acceptedCount) + Math.min(2, notAcceptedCount);
+  return score;
+}
+
+function mergeDuplicateItems(a, b) {
+  const primary = itemCompletenessScore(a) >= itemCompletenessScore(b) ? a : b;
+  const secondary = primary === a ? b : a;
+  const out = { ...(secondary || {}), ...(primary || {}) };
+
+  const accepted = mergeUniqueStrings(primary?.accepted_materials, secondary?.accepted_materials);
+  if (accepted.length) out.accepted_materials = accepted;
+
+  const notAccepted = mergeUniqueStrings(primary?.not_accepted, secondary?.not_accepted);
+  if (notAccepted.length) out.not_accepted = notAccepted;
+
+  const normalizedMaterials = mergeUniqueStrings(primary?.normalized_materials, secondary?.normalized_materials);
+  if (normalizedMaterials.length) out.normalized_materials = normalizedMaterials;
+
+  return out;
+}
+
+function dedupeSignature(item) {
+  const name = normalizeKeyText(item?.name);
+  const address = normalizeKeyText(item?.address);
+  const type = normalizeType(item?.type).label.toLowerCase();
+  if (name && address) return `na:${name}|${address}|${type}`;
+
+  const lat = toNumber(item?.lat ?? item?.latitude);
+  const lng = toNumber(item?.lng ?? item?.lon ?? item?.longitude);
+  if (name && lat !== null && lng !== null) {
+    return `nl:${name}|${lat.toFixed(4)}|${lng.toFixed(4)}|${type}`;
+  }
+
+  return "";
+}
+
+function dedupeCityItems(items) {
+  const rows = Array.isArray(items) ? items : [];
+  if (rows.length <= 1) return rows;
+
+  const byId = new Map();
+  const withoutId = [];
+
+  for (const row of rows) {
+    if (!row || typeof row !== "object") continue;
+    const id = String(row?.facility_id || row?.id || "").trim().toLowerCase();
+    if (!id) {
+      withoutId.push(row);
+      continue;
+    }
+    const existing = byId.get(id);
+    byId.set(id, existing ? mergeDuplicateItems(existing, row) : row);
+  }
+
+  const stage1 = [...byId.values(), ...withoutId];
+  const bySignature = new Map();
+  const keepAsIs = [];
+
+  for (const row of stage1) {
+    const sig = dedupeSignature(row);
+    if (!sig) {
+      keepAsIs.push(row);
+      continue;
+    }
+    const existing = bySignature.get(sig);
+    bySignature.set(sig, existing ? mergeDuplicateItems(existing, row) : row);
+  }
+
+  return [...bySignature.values(), ...keepAsIs];
+}
+
 function getCuratedObject(state, city) {
   const stateDir = String(state || "").toLowerCase();
   const citySlug = String(city || "").toLowerCase();
@@ -118,16 +233,16 @@ function readCityDataItems(state, city) {
   const curated = getCuratedObject(state, city);
   const curatedItems = getCuratedItems(curated);
   if (curatedItems.length > 0) {
-    return { items: curatedItems, source: "curated" };
+    return { items: dedupeCityItems(curatedItems), source: "curated" };
   }
 
   const dataPath = path.join(CITY_DATA_BASE, state, `${city}.json`);
   const data = safeReadJson(dataPath, null);
   if (Array.isArray(data)) {
-    return { items: data, source: "data_file" };
+    return { items: dedupeCityItems(data), source: "data_file" };
   }
   if (data && typeof data === "object" && Array.isArray(data.facilities)) {
-    return { items: data.facilities, source: "data_file" };
+    return { items: dedupeCityItems(data.facilities), source: "data_file" };
   }
   return { items: [], source: "none" };
 }
@@ -191,12 +306,12 @@ function injectInitialResults(html, resultsHtml) {
 function buildMeta({ state, city }) {
   const cityName = titleCaseFromSlug(city);
   const stateAbbrev = stateAbbrevFromSlug(state);
-  let title = `Find dumps and landfills in ${cityName}, ${stateAbbrev} | JunkScout`;
+  let title = `${cityName}, ${stateAbbrev} Trash Dump, Transfer Stations & Landfills | JunkScout`;
   let description =
     `Public dumps, landfills, transfer stations, and recycling drop-offs near ${cityName}, ${stateAbbrev} with rules and accepted materials when available.`;
 
   if (isHoustonCity(state, city)) {
-    title = "Houston Dump, Landfill & Transfer Station Guide (Fees, Hours, Rules) | JunkScout";
+    title = "Houston Trash Dump, Transfer Stations & Landfills | JunkScout";
     description =
       "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
   }
@@ -430,8 +545,8 @@ function injectNearby(html, nearbyHtml) {
 function buildStateHubLinkHtml(state) {
   const stateName = titleCaseFromSlug(state);
   return `
-<div style="margin-top:12px">
-  <a class="link" href="/${escapeHtml(state)}/">&larr; Back to ${escapeHtml(stateName)} cities</a>
+<div class="cityhub__backnav">
+  <a class="cityhub__backlink" href="/${escapeHtml(state)}/">&larr; Back to ${escapeHtml(stateName)} cities</a>
 </div>
 `.trim();
 }
@@ -524,10 +639,39 @@ function injectCuratedOverlay(html, state, city) {
 
 function injectHoustonIntentCopy(html) {
   let out = html;
+  const quickStartBlock = `
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/texas/houston/?type=recycling#results">
+      <span class="quickstart__title">Free resident drop-off</span>
+      <span class="quickstart__meta">City depositories and recycling centers</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/houston/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Paid mixed loads and general debris</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/houston/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/houston/?type=dumpster#results">
+      <span class="quickstart__title">Public dumpster options</span>
+      <span class="quickstart__meta">Fast neighborhood drop-off points</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+`.trim();
 
   out = out.replace(
     /(<h1[^>]*id="cityTitle"[^>]*>)[\s\S]*?(<\/h1>)/i,
-    "$1Houston Dump, Landfill & Transfer Station Guide$2"
+    "$1Houston Trash Dump, Transfer Stations & Landfills$2"
   );
 
   out = out.replace(
@@ -537,7 +681,7 @@ function injectHoustonIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive.$2"
+    "$1Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive.$2\n" + quickStartBlock
   );
 
   out = out.replace(

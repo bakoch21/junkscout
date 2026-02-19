@@ -7,27 +7,7 @@
     "lng": -102.11,
     "website": null,
     "source": null,
-    "facility_id": "f_903a21d6dba8"
-  },
-  {
-    "name": "AFFORDABLE DEWATERING SERVICE",
-    "type": "landfill",
-    "address": "2201 S MIDKIFF RD MIDLAND TX 79701",
-    "lat": 31.97,
-    "lng": -102.11,
-    "website": null,
-    "source": null,
-    "facility_id": "f_903a21d6dba8"
-  },
-  {
-    "name": "Citizens Collection Station",
-    "type": "recycling",
-    "address": "4100 Smith Road Midland TX 79705",
-    "lat": 32.0370148,
-    "lng": -102.0912537,
-    "website": "https://www.midlandtexas.gov/facilities/facility/details/Citizens-Collection-Station-73",
-    "source": null,
-    "facility_id": "f_457ccd61a1f3"
+    "facility_id": "f_841a14dc35f0"
   },
   {
     "name": "Citizens Collection Station",
@@ -50,26 +30,6 @@
     "facility_id": "f_689a290cc869"
   },
   {
-    "name": "City of Midland Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 31.9657396,
-    "lng": -101.9325577,
-    "website": null,
-    "source": null,
-    "facility_id": "f_689a290cc869"
-  },
-  {
-    "name": "CITY OF MIDLAND LANDFILL",
-    "type": "landfill",
-    "address": "7904 S GARDEN CITY HWY MIDLAND TX 79706",
-    "lat": 31.97,
-    "lng": -101.94,
-    "website": null,
-    "source": null,
-    "facility_id": "f_d6fc1d16bb80"
-  },
-  {
     "name": "CITY OF MIDLAND LANDFILL",
     "type": "landfill",
     "address": "7904 S GARDEN CITY HWY MIDLAND TX 79706",
@@ -87,16 +47,6 @@
     "lng": -102.0548337,
     "website": "https://www.cmcrecycling.com/locations/midland",
     "source": null,
-    "facility_id": "f_fb72d4934f9c"
-  },
-  {
-    "name": "CMC Recycling",
-    "type": "recycling",
-    "address": "1605 Garden City Highway Midland TX 79701",
-    "lat": 31.9881391,
-    "lng": -102.0548337,
-    "website": "https://www.cmcrecycling.com/locations/midland",
-    "source": null,
-    "facility_id": "f_fb72d4934f9c"
+    "facility_id": "f_a352be473ddb"
   }
 ]

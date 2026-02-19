@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_20a5f4936766"
-  },
-  {
-    "name": "Recycle Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 30.1868313,
-    "lng": -95.4429676,
-    "website": null,
-    "source": null,
-    "facility_id": "f_20a5f4936766"
   }
 ]

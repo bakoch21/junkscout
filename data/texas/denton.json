@@ -7,27 +7,7 @@
     "lng": -97.08,
     "website": null,
     "source": null,
-    "facility_id": "f_205b55626f45"
-  },
-  {
-    "name": "CITY OF DENTON LANDFILL",
-    "type": "landfill",
-    "address": "1527 S MAYHILL RD DENTON TX 76208",
-    "lat": 33.19,
-    "lng": -97.08,
-    "website": null,
-    "source": null,
-    "facility_id": "f_205b55626f45"
-  },
-  {
-    "name": "Denton Recycle Center",
-    "type": "transfer_station",
-    "address": "1722 Cooper Creek Road Denton TX 76208",
-    "lat": 33.2369623,
-    "lng": -97.0810666,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e4360c854621"
+    "facility_id": "f_0a314edb56ef"
   },
   {
     "name": "Denton Recycle Center",
@@ -47,17 +27,7 @@
     "lng": -96.9741131,
     "website": null,
     "source": null,
-    "facility_id": "f_ece6380467be"
-  },
-  {
-    "name": "Lewisville Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.0506346,
-    "lng": -96.9741131,
-    "website": null,
-    "source": null,
-    "facility_id": "f_ece6380467be"
+    "facility_id": "f_4cb592e19a9d"
   },
   {
     "name": "Recycling Point",
@@ -68,26 +38,6 @@
     "website": null,
     "source": null,
     "facility_id": "f_5d0a6d3538c5"
-  },
-  {
-    "name": "Recycling Point",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.1989807,
-    "lng": -97.1231056,
-    "website": null,
-    "source": null,
-    "facility_id": "f_5d0a6d3538c5"
-  },
-  {
-    "name": "SAFETY-KLEEN SYSTEMS",
-    "type": "landfill",
-    "address": "1722 COOPER CREEK RD DENTON TX 76208",
-    "lat": 33.24,
-    "lng": -97.08,
-    "website": null,
-    "source": null,
-    "facility_id": "f_06bcf21aaa16"
   },
   {
     "name": "SAFETY-KLEEN SYSTEMS",

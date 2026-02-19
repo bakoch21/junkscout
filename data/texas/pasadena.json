@@ -10,16 +10,6 @@
     "facility_id": "f_141f3503a514"
   },
   {
-    "name": "GREENSHADOWS LANDFILL",
-    "type": "landfill",
-    "address": "710 JANA LN PASADENA TX 77503",
-    "lat": 29.7,
-    "lng": -95.15,
-    "website": null,
-    "source": null,
-    "facility_id": "f_141f3503a514"
-  },
-  {
     "name": "LONE STAR SRD SHREDDING RECYCLING DISPOSAL",
     "type": "recycling",
     "address": "712 PASADENA FWY PASADENA TX 77506",
@@ -27,16 +17,6 @@
     "lng": -95.2,
     "website": null,
     "source": null,
-    "facility_id": "f_d0e72cca5ea0"
-  },
-  {
-    "name": "LONE STAR SRD SHREDDING RECYCLING DISPOSAL",
-    "type": "recycling",
-    "address": "712 PASADENA FWY PASADENA TX 77506",
-    "lat": 29.71,
-    "lng": -95.2,
-    "website": null,
-    "source": null,
-    "facility_id": "f_d0e72cca5ea0"
+    "facility_id": "f_4d7a92fe652b"
   }
 ]

@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_7045c2e00fa6"
-  },
-  {
-    "name": "SENLAC SERVICE CENTER",
-    "type": "landfill",
-    "address": "13333 SENLAC DR FARMERS BRANCH TX 75234",
-    "lat": 32.92,
-    "lng": -96.91,
-    "website": null,
-    "source": null,
-    "facility_id": "f_7045c2e00fa6"
   }
 ]

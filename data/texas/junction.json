@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_a59ec2c08a6a"
-  },
-  {
-    "name": "CITY OF JUNCTION LANDFILL",
-    "type": "landfill",
-    "address": "2 MILES N OF JUNCTION NORTH OF US 377 JUNCTION TX 76849",
-    "lat": 30.53,
-    "lng": -99.76,
-    "website": null,
-    "source": null,
-    "facility_id": "f_a59ec2c08a6a"
   }
 ]

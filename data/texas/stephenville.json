@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_2f88785a125d"
-  },
-  {
-    "name": "CITY OF STEPHENVILLE LANDFILL",
-    "type": "landfill",
-    "address": "669 CO RD 385 STEPHENVILLE TX 76401",
-    "lat": 32.18,
-    "lng": -98.29,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2f88785a125d"
   }
 ]

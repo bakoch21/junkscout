@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_453a21ac05b5"
-  },
-  {
-    "name": "CITY OF BIG LAKE LANDFILL",
-    "type": "landfill",
-    "address": "1901 W HWY 67 BIG LAKE TX 76932",
-    "lat": 31.19,
-    "lng": -101.5,
-    "website": null,
-    "source": null,
-    "facility_id": "f_453a21ac05b5"
   }
 ]

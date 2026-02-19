@@ -10,16 +10,6 @@
     "facility_id": "f_0868f7094124"
   },
   {
-    "name": "32.0297 ACRE TRACT OF LAND",
-    "type": "landfill",
-    "address": "2100 DESTINY LN CARROLLTON TX 75006",
-    "lat": 32.96,
-    "lng": -96.93,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0868f7094124"
-  },
-  {
     "name": "Armstrong Archives",
     "type": "recycling",
     "address": "1515 Crescent Drive Carrollton TX 75006",
@@ -28,26 +18,6 @@
     "website": "https://www.armstrongarchives.com/",
     "source": null,
     "facility_id": "f_02c1db278206"
-  },
-  {
-    "name": "Armstrong Archives",
-    "type": "recycling",
-    "address": "1515 Crescent Drive Carrollton TX 75006",
-    "lat": 32.9570188,
-    "lng": -96.9167122,
-    "website": "https://www.armstrongarchives.com/",
-    "source": null,
-    "facility_id": "f_02c1db278206"
-  },
-  {
-    "name": "Camelot Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.0307155,
-    "lng": -96.950935,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0804a74fc16e"
   },
   {
     "name": "Camelot Landfill",
@@ -70,26 +40,6 @@
     "facility_id": "f_0717b4da9222"
   },
   {
-    "name": "CITY OF CARROLLTON LANDFILL",
-    "type": "landfill",
-    "address": "2155 SANDY LAKE RD CARROLLTON TX 75006",
-    "lat": 32.96,
-    "lng": -96.93,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0717b4da9222"
-  },
-  {
-    "name": "Clothes & Shoes Recycling Bin",
-    "type": "recycling",
-    "address": "",
-    "lat": 32.9562142,
-    "lng": -96.8928589,
-    "website": "https://fillthebins.com",
-    "source": null,
-    "facility_id": "f_868a7d97ffaa"
-  },
-  {
     "name": "Clothes & Shoes Recycling Bin",
     "type": "recycling",
     "address": "",
@@ -107,17 +57,7 @@
     "lng": -96.9546189,
     "website": null,
     "source": null,
-    "facility_id": "f_cb5ed9e110b5"
-  },
-  {
-    "name": "DFW Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.0200774,
-    "lng": -96.9546189,
-    "website": null,
-    "source": null,
-    "facility_id": "f_cb5ed9e110b5"
+    "facility_id": "f_63c3b3f8a1c7"
   },
   {
     "name": "Keeper of the Grumper",
@@ -127,16 +67,6 @@
     "lng": -96.8534502,
     "website": "https://keeperofthegrumper.org/",
     "source": null,
-    "facility_id": "f_850b3eabef42"
-  },
-  {
-    "name": "Keeper of the Grumper",
-    "type": "recycling",
-    "address": "3704 Arapaho Road Addison TX 75001",
-    "lat": 32.9560029,
-    "lng": -96.8534502,
-    "website": "https://keeperofthegrumper.org/",
-    "source": null,
-    "facility_id": "f_850b3eabef42"
+    "facility_id": "f_79a6cbc4f230"
   }
 ]

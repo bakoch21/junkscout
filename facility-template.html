@@ -15,7 +15,9 @@
   <meta name="description" content="Facility details." />
 
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
 </head>
 
 <body>
@@ -102,6 +104,12 @@
         <p id="facilityAbout">
           This location is listed as a disposal / drop-off site in the area. Rules and requirements vary by site.
         </p>
+
+        <h2>Nearby facilities</h2>
+        <p class="muted" style="margin-top:-6px">
+          Compare nearby options before you drive:
+        </p>
+        <div class="cityhub__grid" id="facilityNearby" style="margin-top:10px"></div>
 
         <h2>May serve nearby cities</h2>
         <p class="muted" style="margin-top:-6px">

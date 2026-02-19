@@ -10,16 +10,6 @@
     "facility_id": "f_35b71f13de26"
   },
   {
-    "name": "Addicks Fairbanks Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8720942,
-    "lng": -95.622773,
-    "website": null,
-    "source": null,
-    "facility_id": "f_35b71f13de26"
-  },
-  {
     "name": "AMERESCO MCCARTY ENERGY LLC",
     "type": "landfill",
     "address": "5755 OATES RD HOUSTON TX 77078",
@@ -27,17 +17,7 @@
     "lng": -95.24,
     "website": null,
     "source": null,
-    "facility_id": "f_31662e023f83"
-  },
-  {
-    "name": "AMERESCO MCCARTY ENERGY LLC",
-    "type": "landfill",
-    "address": "5755 OATES RD HOUSTON TX 77078",
-    "lat": 29.82,
-    "lng": -95.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_31662e023f83"
+    "facility_id": "f_00e2162a140b"
   },
   {
     "name": "AMERESCO MCCARTY RD RNG FACILITY",
@@ -47,17 +27,7 @@
     "lng": -95.24,
     "website": null,
     "source": null,
-    "facility_id": "f_f60962e82045"
-  },
-  {
-    "name": "AMERESCO MCCARTY RD RNG FACILITY",
-    "type": "landfill",
-    "address": "5755 OATES RD HOUSTON TX 77078",
-    "lat": 29.82,
-    "lng": -95.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_f60962e82045"
+    "facility_id": "f_3f7aae1c93f6"
   },
   {
     "name": "Atascocita Landfill",
@@ -67,17 +37,7 @@
     "lng": -95.2350361,
     "website": null,
     "source": null,
-    "facility_id": "f_e8535155d801"
-  },
-  {
-    "name": "Atascocita Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.9567492,
-    "lng": -95.2350361,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e8535155d801"
+    "facility_id": "f_925b2b601899"
   },
   {
     "name": "C&D Scrap Metal",
@@ -87,27 +47,7 @@
     "lng": -95.488482,
     "website": null,
     "source": null,
-    "facility_id": "f_66a1886ca6ef"
-  },
-  {
-    "name": "C&D Scrap Metal",
-    "type": "recycling",
-    "address": "6775 Bingle Road Houston TX",
-    "lat": 29.8641276,
-    "lng": -95.488482,
-    "website": null,
-    "source": null,
-    "facility_id": "f_66a1886ca6ef"
-  },
-  {
-    "name": "CASCO HAULING AND EXCAVATION LANDFILL",
-    "type": "landfill",
-    "address": "1306 E ANDERSON RD HOUSTON TX 77047",
-    "lat": 29.61,
-    "lng": -95.4,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0539d9cbca34"
+    "facility_id": "f_025d1d2b922a"
   },
   {
     "name": "CASCO HAULING AND EXCAVATION LANDFILL",
@@ -130,26 +70,6 @@
     "facility_id": "f_6ce076360b83"
   },
   {
-    "name": "CITY OF WEST UNIVERSITY LANDFILL",
-    "type": "landfill",
-    "address": "9610 RUFFINO ROAD HOUSTON TX 77031",
-    "lat": 29.66,
-    "lng": -95.55,
-    "website": null,
-    "source": null,
-    "facility_id": "f_6ce076360b83"
-  },
-  {
-    "name": "Cougar Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8967004,
-    "lng": -95.2624371,
-    "website": null,
-    "source": null,
-    "facility_id": "f_27e6964472e5"
-  },
-  {
     "name": "Cougar Landfill",
     "type": "landfill",
     "address": "",
@@ -167,17 +87,7 @@
     "lng": -95.26,
     "website": null,
     "source": null,
-    "facility_id": "f_d71d0103e9a5"
-  },
-  {
-    "name": "COUGAR LANDFILL",
-    "type": "landfill",
-    "address": "8601 MOUNT HOUSTON RD HOUSTON TX 77050",
-    "lat": 29.9,
-    "lng": -95.26,
-    "website": null,
-    "source": null,
-    "facility_id": "f_d71d0103e9a5"
+    "facility_id": "f_92755ccd7c1e"
   },
   {
     "name": "CYPRESS CREEK GOLF COMPANY",
@@ -187,17 +97,7 @@
     "lng": -95.5,
     "website": null,
     "source": null,
-    "facility_id": "f_fd081b9465ca"
-  },
-  {
-    "name": "CYPRESS CREEK GOLF COMPANY",
-    "type": "landfill",
-    "address": "4211 CLOW RD HOUSTON TX 77068",
-    "lat": 30,
-    "lng": -95.5,
-    "website": null,
-    "source": null,
-    "facility_id": "f_fd081b9465ca"
+    "facility_id": "f_037960a1da0a"
   },
   {
     "name": "DANIELS SHARPSMART HOUSTON FACILITY",
@@ -207,17 +107,7 @@
     "lng": -95.32,
     "website": null,
     "source": null,
-    "facility_id": "f_7e0c99507733"
-  },
-  {
-    "name": "DANIELS SHARPSMART HOUSTON FACILITY",
-    "type": "landfill",
-    "address": "4660 WORLD HOUSTON PKWY STE 150 HOUSTON TX 77032",
-    "lat": 29.94,
-    "lng": -95.32,
-    "website": null,
-    "source": null,
-    "facility_id": "f_7e0c99507733"
+    "facility_id": "f_38682420ec20"
   },
   {
     "name": "DOWNSTREAM FACILITY",
@@ -227,17 +117,7 @@
     "lng": -95.57,
     "website": null,
     "source": null,
-    "facility_id": "f_c6784ca0d629"
-  },
-  {
-    "name": "DOWNSTREAM FACILITY",
-    "type": "landfill",
-    "address": "3737 WALNUT BEND LN HOUSTON TX 77042",
-    "lat": 29.72,
-    "lng": -95.57,
-    "website": null,
-    "source": null,
-    "facility_id": "f_c6784ca0d629"
+    "facility_id": "f_823cebbcc504"
   },
   {
     "name": "EGBERT TRANSFER STATION",
@@ -247,17 +127,7 @@
     "lng": -95.41,
     "website": null,
     "source": null,
-    "facility_id": "f_e4fafe0761d4"
-  },
-  {
-    "name": "EGBERT TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "5200 EGBERT ST HOUSTON TX 77007",
-    "lat": 29.78,
-    "lng": -95.41,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e4fafe0761d4"
+    "facility_id": "f_47ffb41fc0d6"
   },
   {
     "name": "Environmental Services Center",
@@ -267,27 +137,7 @@
     "lng": -95.4644,
     "website": "https://houstontx.gov/solidwaste/esc.html",
     "source": null,
-    "facility_id": "f_89d29a3d0839"
-  },
-  {
-    "name": "Environmental Services Center",
-    "type": "recycling",
-    "address": "11500 South Post Oak Road Houston TX 77035",
-    "lat": 29.649629,
-    "lng": -95.4644,
-    "website": "https://houstontx.gov/solidwaste/esc.html",
-    "source": null,
-    "facility_id": "f_89d29a3d0839"
-  },
-  {
-    "name": "EverGro Organic Recycling",
-    "type": "landfill",
-    "address": "12470 Sralla Road Crosby TX 77532",
-    "lat": 29.8680882,
-    "lng": -95.0285411,
-    "website": null,
-    "source": null,
-    "facility_id": "f_acd875fc5408"
+    "facility_id": "f_44d0c768acb1"
   },
   {
     "name": "EverGro Organic Recycling",
@@ -310,16 +160,6 @@
     "facility_id": "f_281d663fd483"
   },
   {
-    "name": "EZ WASTE INC",
-    "type": "landfill",
-    "address": "10217 WALLISVILLE RD UNIT C HOUSTON TX 77013",
-    "lat": 29.8,
-    "lng": -95.25,
-    "website": null,
-    "source": null,
-    "facility_id": "f_281d663fd483"
-  },
-  {
     "name": "FAIRBANKS LANDFILL",
     "type": "landfill",
     "address": "8205 FAIRBANKS N HOUSTON RD HOUSTON TX 77064",
@@ -327,27 +167,7 @@
     "lng": -95.53,
     "website": null,
     "source": null,
-    "facility_id": "f_e86563700891"
-  },
-  {
-    "name": "FAIRBANKS LANDFILL",
-    "type": "landfill",
-    "address": "8205 FAIRBANKS N HOUSTON RD HOUSTON TX 77064",
-    "lat": 29.9,
-    "lng": -95.53,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e86563700891"
-  },
-  {
-    "name": "Falcon Scrap Metal",
-    "type": "recycling",
-    "address": "10202B Fulton Street Houston TX 77076",
-    "lat": 29.8536545,
-    "lng": -95.3811818,
-    "website": null,
-    "source": null,
-    "facility_id": "f_eccb78bfeef8"
+    "facility_id": "f_b6bde707f265"
   },
   {
     "name": "Falcon Scrap Metal",
@@ -367,17 +187,7 @@
     "lng": -95.25,
     "website": null,
     "source": null,
-    "facility_id": "f_9b46fe41cbec"
-  },
-  {
-    "name": "FCC MATERIALS RECOVERY FACILITY HOUSTON",
-    "type": "landfill",
-    "address": "9172 LEY RD HOUSTON TX 77078",
-    "lat": 29.83,
-    "lng": -95.25,
-    "website": null,
-    "source": null,
-    "facility_id": "f_9b46fe41cbec"
+    "facility_id": "f_80116a60ffb4"
   },
   {
     "name": "GETTY SYNTHETIC FUELS GAS RECOVERY",
@@ -387,27 +197,7 @@
     "lng": -95.25,
     "website": null,
     "source": null,
-    "facility_id": "f_82c2a7b5c500"
-  },
-  {
-    "name": "GETTY SYNTHETIC FUELS GAS RECOVERY",
-    "type": "landfill",
-    "address": "ADJACENT TO U.S. 90 AND OLD BEAUMONT HWY INTERSECTION HOUSTON TX 77078",
-    "lat": 29.83,
-    "lng": -95.25,
-    "website": null,
-    "source": null,
-    "facility_id": "f_82c2a7b5c500"
-  },
-  {
-    "name": "Goodwill Donation Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 29.7596951,
-    "lng": -95.4824094,
-    "website": null,
-    "source": null,
-    "facility_id": "f_70ad7a4f8854"
+    "facility_id": "f_73a51d26a772"
   },
   {
     "name": "Goodwill Donation Center",
@@ -427,17 +217,7 @@
     "lng": -95.191411,
     "website": null,
     "source": null,
-    "facility_id": "f_8066714d6c43"
-  },
-  {
-    "name": "Greenbelt Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.6238286,
-    "lng": -95.191411,
-    "website": null,
-    "source": null,
-    "facility_id": "f_8066714d6c43"
+    "facility_id": "f_4627fcd477b4"
   },
   {
     "name": "Greenhouse Road Landfill",
@@ -447,27 +227,7 @@
     "lng": -95.6987817,
     "website": "https://www.houstontx.gov/solidwaste/disposal.html",
     "source": null,
-    "facility_id": "f_f0715954cac6"
-  },
-  {
-    "name": "Greenhouse Road Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8249681,
-    "lng": -95.6987817,
-    "website": "https://www.houstontx.gov/solidwaste/disposal.html",
-    "source": null,
-    "facility_id": "f_f0715954cac6"
-  },
-  {
-    "name": "GREENHOUSE ROAD LANDFILL",
-    "type": "landfill",
-    "address": "3510 GREENHOUSE RD HOUSTON TX 77084",
-    "lat": 29.81,
-    "lng": -95.69,
-    "website": null,
-    "source": null,
-    "facility_id": "f_b13d2780b1fe"
+    "facility_id": "f_b5cb2a4e163e"
   },
   {
     "name": "GREENHOUSE ROAD LANDFILL",
@@ -487,27 +247,7 @@
     "lng": -95.1474276,
     "website": "https://www.wmsolutions.com/locations/details/id/103",
     "source": null,
-    "facility_id": "f_3b6d8314d089"
-  },
-  {
-    "name": "Greenshadow Landfill",
-    "type": "landfill",
-    "address": "710 Jana Lane Pasadena TX 77503",
-    "lat": 29.6961628,
-    "lng": -95.1474276,
-    "website": "https://www.wmsolutions.com/locations/details/id/103",
-    "source": null,
-    "facility_id": "f_3b6d8314d089"
-  },
-  {
-    "name": "Gulf Coast Strap Metal",
-    "type": "recycling",
-    "address": "8770 Hempstead Road Houston TX 77008",
-    "lat": 29.7888475,
-    "lng": -95.4422886,
-    "website": "https://www.gulfcoastscrapmetal.com/",
-    "source": null,
-    "facility_id": "f_a24e038f601f"
+    "facility_id": "f_2454b98b1295"
   },
   {
     "name": "Gulf Coast Strap Metal",
@@ -527,17 +267,7 @@
     "lng": -95.28,
     "website": null,
     "source": null,
-    "facility_id": "f_e31a8881e34f"
-  },
-  {
-    "name": "GW TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "950 MCCARTY ST HOUSTON TX 77029",
-    "lat": 29.77,
-    "lng": -95.28,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e31a8881e34f"
+    "facility_id": "f_9d48d0839b03"
   },
   {
     "name": "Hardy Road Landfill",
@@ -547,27 +277,7 @@
     "lng": -95.3838463,
     "website": "http://wcawaste.com/locations/hardy-road-landfill",
     "source": null,
-    "facility_id": "f_e6ff176f54b2"
-  },
-  {
-    "name": "Hardy Road Landfill",
-    "type": "landfill",
-    "address": "18710 East Hardy Road Houston TX 77073",
-    "lat": 29.9885407,
-    "lng": -95.3838463,
-    "website": "http://wcawaste.com/locations/hardy-road-landfill",
-    "source": null,
-    "facility_id": "f_e6ff176f54b2"
-  },
-  {
-    "name": "HARDY ROAD TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "18784 E HARDY RD HOUSTON TX 77073",
-    "lat": 30,
-    "lng": -95.4,
-    "website": null,
-    "source": null,
-    "facility_id": "f_a1524d4ef028"
+    "facility_id": "f_9d401f9d8fee"
   },
   {
     "name": "HARDY ROAD TRANSFER STATION",
@@ -590,16 +300,6 @@
     "facility_id": "f_1d54d82a16bf"
   },
   {
-    "name": "Hawthorne Park Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8541343,
-    "lng": -95.5535098,
-    "website": "https://www.wmsolutions.com/locations/details/id/275",
-    "source": null,
-    "facility_id": "f_1d54d82a16bf"
-  },
-  {
     "name": "HAWTHORNE PARK LANDFILL",
     "type": "landfill",
     "address": "10550 TANNER RD HOUSTON TX 77041",
@@ -607,17 +307,7 @@
     "lng": -95.56,
     "website": null,
     "source": null,
-    "facility_id": "f_7fc9be3973b0"
-  },
-  {
-    "name": "HAWTHORNE PARK LANDFILL",
-    "type": "landfill",
-    "address": "10550 TANNER RD HOUSTON TX 77041",
-    "lat": 29.85,
-    "lng": -95.56,
-    "website": null,
-    "source": null,
-    "facility_id": "f_7fc9be3973b0"
+    "facility_id": "f_0a760ced0c05"
   },
   {
     "name": "HOLMES ROAD TYPE V TRANSFER STATION",
@@ -627,27 +317,7 @@
     "lng": -95.41,
     "website": null,
     "source": null,
-    "facility_id": "f_ff5a0e4bc4cb"
-  },
-  {
-    "name": "HOLMES ROAD TYPE V TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "1800 HOLMES RD HOUSTON TX 77045",
-    "lat": 29.67,
-    "lng": -95.41,
-    "website": null,
-    "source": null,
-    "facility_id": "f_ff5a0e4bc4cb"
-  },
-  {
-    "name": "HOUSTON NORTHWEST TRANSFER STATION FACILITY",
-    "type": "transfer_station",
-    "address": "NW TS  SW OF SOMMER MEYER ROAD  200 FEET SW OF US HIGHWAY 290 HOUSTON TX 77041",
-    "lat": 29.86,
-    "lng": -95.54,
-    "website": null,
-    "source": null,
-    "facility_id": "f_6ee0d96cd452"
+    "facility_id": "f_637ba2dd1076"
   },
   {
     "name": "HOUSTON NORTHWEST TRANSFER STATION FACILITY",
@@ -670,16 +340,6 @@
     "facility_id": "f_2605dcc6be75"
   },
   {
-    "name": "HOUSTON RESOURCE RENEWAL COMPLEX TRANSFER STATION FACILITY",
-    "type": "transfer_station",
-    "address": "5757 OATES RD HOUSTON TX 77078",
-    "lat": 29.83,
-    "lng": -95.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2605dcc6be75"
-  },
-  {
     "name": "HOUSTON SOUTHEAST TRANSFER STATION FACILITY",
     "type": "transfer_station",
     "address": "9225 LAWNDALE ST HOUSTON TX 77012",
@@ -687,17 +347,7 @@
     "lng": -95.26,
     "website": null,
     "source": null,
-    "facility_id": "f_f9155ac42a96"
-  },
-  {
-    "name": "HOUSTON SOUTHEAST TRANSFER STATION FACILITY",
-    "type": "transfer_station",
-    "address": "9225 LAWNDALE ST HOUSTON TX 77012",
-    "lat": 29.71,
-    "lng": -95.26,
-    "website": null,
-    "source": null,
-    "facility_id": "f_f9155ac42a96"
+    "facility_id": "f_a17391a1f5af"
   },
   {
     "name": "HOUSTON SOUTHWEST TRANSFER STATION FACILITY",
@@ -707,17 +357,7 @@
     "lng": -95.47,
     "website": null,
     "source": null,
-    "facility_id": "f_7ef5cd6fd611"
-  },
-  {
-    "name": "HWS PRAIRIE TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "8919 PRAIRIE DR HOUSTON TX 77064",
-    "lat": 29.91,
-    "lng": -95.53,
-    "website": null,
-    "source": null,
-    "facility_id": "f_4dd9cdd08ffa"
+    "facility_id": "f_898dcbe2bd6f"
   },
   {
     "name": "HWS PRAIRIE TRANSFER STATION",
@@ -740,26 +380,6 @@
     "facility_id": "f_11ed3c36bbc0"
   },
   {
-    "name": "KOENIG STREET TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "550 OLD GENOA RED BLUFF RD HOUSTON TX 77034",
-    "lat": 29.62,
-    "lng": -95.2,
-    "website": null,
-    "source": null,
-    "facility_id": "f_11ed3c36bbc0"
-  },
-  {
-    "name": "LIQUID ENVIRONMENTAL SOLUTIONS OF TEXAS LP PROCESSING FACILITY",
-    "type": "landfill",
-    "address": "250 GELLHORN DR HOUSTON TX 77013",
-    "lat": 29.79,
-    "lng": -95.26,
-    "website": null,
-    "source": null,
-    "facility_id": "f_1d51bd54d74c"
-  },
-  {
     "name": "LIQUID ENVIRONMENTAL SOLUTIONS OF TEXAS LP PROCESSING FACILITY",
     "type": "landfill",
     "address": "250 GELLHORN DR HOUSTON TX 77013",
@@ -780,16 +400,6 @@
     "facility_id": "f_b0c7d16486ee"
   },
   {
-    "name": "Lone Star Disposal",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.5919043,
-    "lng": -95.4372343,
-    "website": null,
-    "source": null,
-    "facility_id": "f_b0c7d16486ee"
-  },
-  {
     "name": "LONE STAR RECYCLING & DISPOSAL",
     "type": "recycling",
     "address": "4107 S SAM HOUSTON PKWY W HOUSTON TX 77053",
@@ -797,17 +407,7 @@
     "lng": -95.44,
     "website": null,
     "source": null,
-    "facility_id": "f_b93039fc04bf"
-  },
-  {
-    "name": "LONE STAR RECYCLING & DISPOSAL",
-    "type": "recycling",
-    "address": "4107 S SAM HOUSTON PKWY W HOUSTON TX 77053",
-    "lat": 29.59,
-    "lng": -95.44,
-    "website": null,
-    "source": null,
-    "facility_id": "f_b93039fc04bf"
+    "facility_id": "f_69971dfc6f7a"
   },
   {
     "name": "LONE STAR RECYCLING & DISPOSAL FACILITY",
@@ -817,27 +417,7 @@
     "lng": -95.44,
     "website": null,
     "source": null,
-    "facility_id": "f_e1c23425f1c4"
-  },
-  {
-    "name": "LONE STAR RECYCLING & DISPOSAL FACILITY",
-    "type": "recycling",
-    "address": "4107 S SAM HOUSTON PKWY W HOUSTON TX 77053",
-    "lat": 29.59,
-    "lng": -95.44,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e1c23425f1c4"
-  },
-  {
-    "name": "MCCARTY ROAD LANDFILL",
-    "type": "landfill",
-    "address": "5757 OATES RD HOUSTON TX 77078",
-    "lat": 29.83,
-    "lng": -95.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_8430c6f590d6"
+    "facility_id": "f_7a7ebedfe83d"
   },
   {
     "name": "MCCARTY ROAD LANDFILL",
@@ -860,16 +440,6 @@
     "facility_id": "f_2bf59be3c1ef"
   },
   {
-    "name": "Newport Metal Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 29.7200952,
-    "lng": -95.2870355,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2bf59be3c1ef"
-  },
-  {
     "name": "Nichole Scrap Metals",
     "type": "recycling",
     "address": "9741 Jensen Drive Houston TX",
@@ -877,27 +447,7 @@
     "lng": -95.3407967,
     "website": null,
     "source": null,
-    "facility_id": "f_c6426fe0b5ed"
-  },
-  {
-    "name": "Nichole Scrap Metals",
-    "type": "recycling",
-    "address": "9741 Jensen Drive Houston TX",
-    "lat": 29.852636,
-    "lng": -95.3407967,
-    "website": null,
-    "source": null,
-    "facility_id": "f_c6426fe0b5ed"
-  },
-  {
-    "name": "NUCORE ENVIRONMENTAL SERVICES",
-    "type": "landfill",
-    "address": "6410 LONG DR HOUSTON TX 77087",
-    "lat": 29.69,
-    "lng": -95.31,
-    "website": null,
-    "source": null,
-    "facility_id": "f_69e6160a9ecf"
+    "facility_id": "f_317c962ef83c"
   },
   {
     "name": "NUCORE ENVIRONMENTAL SERVICES",
@@ -917,27 +467,7 @@
     "lng": -95.31,
     "website": null,
     "source": null,
-    "facility_id": "f_f5f152b13570"
-  },
-  {
-    "name": "OHS TELEPHONE RD",
-    "type": "landfill",
-    "address": "4129 TELEPHONE RD HOUSTON TX 77087",
-    "lat": 29.7,
-    "lng": -95.31,
-    "website": null,
-    "source": null,
-    "facility_id": "f_f5f152b13570"
-  },
-  {
-    "name": "R&J TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "11028 CORDOBA DR HOUSTON TX 77088",
-    "lat": 29.84,
-    "lng": -95.45,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2875aa82c87c"
+    "facility_id": "f_9a9ca56683e8"
   },
   {
     "name": "R&J TRANSFER STATION",
@@ -957,27 +487,7 @@
     "lng": -95.22,
     "website": null,
     "source": null,
-    "facility_id": "f_d348eecf1908"
-  },
-  {
-    "name": "RALSTON ROAD LANDFILL",
-    "type": "landfill",
-    "address": "6632 JOHN RALSTON RD HOUSTON TX 77049",
-    "lat": 29.82,
-    "lng": -95.22,
-    "website": null,
-    "source": null,
-    "facility_id": "f_d348eecf1908"
-  },
-  {
-    "name": "Republic McCarty Road Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8279854,
-    "lng": -95.2395366,
-    "website": null,
-    "source": null,
-    "facility_id": "f_f3f12079ba7a"
+    "facility_id": "f_54cbdada1a48"
   },
   {
     "name": "Republic McCarty Road Landfill",
@@ -997,27 +507,7 @@
     "lng": -95.3789738,
     "website": null,
     "source": null,
-    "facility_id": "f_b788c828e135"
-  },
-  {
-    "name": "RM Scrap Metal",
-    "type": "recycling",
-    "address": "9703½ Fulton Street Houston TX",
-    "lat": 29.8475352,
-    "lng": -95.3789738,
-    "website": null,
-    "source": null,
-    "facility_id": "f_b788c828e135"
-  },
-  {
-    "name": "RUFFINO HILLS TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "9720 RUFFINO RD HOUSTON TX 77031",
-    "lat": 29.66,
-    "lng": -95.56,
-    "website": null,
-    "source": null,
-    "facility_id": "f_84c57401754d"
+    "facility_id": "f_7bd252a9906d"
   },
   {
     "name": "RUFFINO HILLS TRANSFER STATION",
@@ -1037,27 +527,7 @@
     "lng": -95.56,
     "website": null,
     "source": null,
-    "facility_id": "f_eced104183fc"
-  },
-  {
-    "name": "SAM HOUSTON RECYCLING CENTER TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "1138 W BELT DR N HOUSTON TX 77043",
-    "lat": 29.79,
-    "lng": -95.56,
-    "website": null,
-    "source": null,
-    "facility_id": "f_eced104183fc"
-  },
-  {
-    "name": "San Jacinto Waste Pits",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.7946088,
-    "lng": -95.0626645,
-    "website": "https://www.epa.gov/region6/6sf/texas/san_jacinto/",
-    "source": null,
-    "facility_id": "f_26b019f388d1"
+    "facility_id": "f_52be973d5ca5"
   },
   {
     "name": "San Jacinto Waste Pits",
@@ -1080,16 +550,6 @@
     "facility_id": "f_5de8751ccd51"
   },
   {
-    "name": "SOUTHWASTE HURST FACILITY",
-    "type": "landfill",
-    "address": "6407 HURST ST HOUSTON TX 77008",
-    "lat": 29.79,
-    "lng": -95.43,
-    "website": null,
-    "source": null,
-    "facility_id": "f_5de8751ccd51"
-  },
-  {
     "name": "Spring Scrap Metal Recycling",
     "type": "recycling",
     "address": "19230 Kuykendahl Road Spring TX 77379",
@@ -1097,17 +557,7 @@
     "lng": -95.4920198,
     "website": "https://www.springscrapmetalrecycling.com",
     "source": null,
-    "facility_id": "f_d5e865c326b4"
-  },
-  {
-    "name": "Spring Scrap Metal Recycling",
-    "type": "recycling",
-    "address": "19230 Kuykendahl Road Spring TX 77379",
-    "lat": 30.04989,
-    "lng": -95.4920198,
-    "website": "https://www.springscrapmetalrecycling.com",
-    "source": null,
-    "facility_id": "f_d5e865c326b4"
+    "facility_id": "f_15f2691c4afa"
   },
   {
     "name": "Sprint Fort Bend County Landfill",
@@ -1117,17 +567,7 @@
     "lng": -95.6682525,
     "website": null,
     "source": null,
-    "facility_id": "f_adc98bcfa105"
-  },
-  {
-    "name": "Sprint Fort Bend County Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.6625806,
-    "lng": -95.6682525,
-    "website": null,
-    "source": null,
-    "facility_id": "f_adc98bcfa105"
+    "facility_id": "f_0778433ee562"
   },
   {
     "name": "SPRINT RECYCLING CENTER NORTHEAST",
@@ -1137,27 +577,7 @@
     "lng": -95.36,
     "website": null,
     "source": null,
-    "facility_id": "f_edeb7c0b6244"
-  },
-  {
-    "name": "SPRINT RECYCLING CENTER NORTHEAST",
-    "type": "recycling",
-    "address": "SE CORNER OF THE INTERSECTION OF MESQUITE ROAD & BROOKLYN ST APPROX 1/2 MILE EAST OF HARDY TOLL ROAD HOUSTON TX 77093",
-    "lat": 29.89,
-    "lng": -95.36,
-    "website": null,
-    "source": null,
-    "facility_id": "f_edeb7c0b6244"
-  },
-  {
-    "name": "Stella Roberts Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 29.5451264,
-    "lng": -95.3099689,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0ab0cb40d84d"
+    "facility_id": "f_281a678cbf67"
   },
   {
     "name": "Stella Roberts Recycling Center",
@@ -1180,26 +600,6 @@
     "facility_id": "f_28f355d27d5e"
   },
   {
-    "name": "TALL PINES DISPOSAL FACILITY",
-    "type": "landfill",
-    "address": "18710 E HARDY RD HOUSTON TX 77073",
-    "lat": 29.99,
-    "lng": -95.39,
-    "website": null,
-    "source": null,
-    "facility_id": "f_28f355d27d5e"
-  },
-  {
-    "name": "TANNER ROAD FACILITY",
-    "type": "landfill",
-    "address": "10415 TANNER RD HOUSTON TX 77041",
-    "lat": 29.85,
-    "lng": -95.55,
-    "website": null,
-    "source": null,
-    "facility_id": "f_6baff68803c0"
-  },
-  {
     "name": "TANNER ROAD FACILITY",
     "type": "landfill",
     "address": "10415 TANNER RD HOUSTON TX 77041",
@@ -1217,17 +617,7 @@
     "lng": -95.38,
     "website": null,
     "source": null,
-    "facility_id": "f_f99ebbb18426"
-  },
-  {
-    "name": "TAP INC DBA BIG K ENVIRONMENTAL",
-    "type": "landfill",
-    "address": "423 LITTLE YORK RD HOUSTON TX 77076",
-    "lat": 29.87,
-    "lng": -95.38,
-    "website": null,
-    "source": null,
-    "facility_id": "f_f99ebbb18426"
+    "facility_id": "f_6c7a6d16de4d"
   },
   {
     "name": "TRILOGY MEDWASTE SOUTH CENTRAL HOUSTON",
@@ -1237,17 +627,7 @@
     "lng": -95.36,
     "website": null,
     "source": null,
-    "facility_id": "f_dbaf60962b7b"
-  },
-  {
-    "name": "TRILOGY MEDWASTE SOUTH CENTRAL HOUSTON",
-    "type": "landfill",
-    "address": "15342 VANTAGE PKWY W HOUSTON TX 77032",
-    "lat": 29.94,
-    "lng": -95.36,
-    "website": null,
-    "source": null,
-    "facility_id": "f_dbaf60962b7b"
+    "facility_id": "f_d0ca6c6672ea"
   },
   {
     "name": "Unnamed site",
@@ -1257,17 +637,7 @@
     "lng": -95.2863457,
     "website": "https://mygwservices.com/",
     "source": null,
-    "facility_id": "f_e483ce386294"
-  },
-  {
-    "name": "Unnamed site",
-    "type": "recycling",
-    "address": "950 McCarty St Houston TX 77029",
-    "lat": 29.769904,
-    "lng": -95.2863457,
-    "website": "https://mygwservices.com/",
-    "source": null,
-    "facility_id": "f_e483ce386294"
+    "facility_id": "f_018855d86a92"
   },
   {
     "name": "Waste Management - Fairbanks Landfill",
@@ -1277,27 +647,7 @@
     "lng": -95.5317364,
     "website": null,
     "source": null,
-    "facility_id": "f_f95062cad9be"
-  },
-  {
-    "name": "Waste Management - Fairbanks Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.9014892,
-    "lng": -95.5317364,
-    "website": null,
-    "source": null,
-    "facility_id": "f_f95062cad9be"
-  },
-  {
-    "name": "Waste Management Recycling Center",
-    "type": "recycling",
-    "address": "4939 Gasmer Drive Houston TX 77035",
-    "lat": 29.650326,
-    "lng": -95.465819,
-    "website": null,
-    "source": null,
-    "facility_id": "f_3656d34e9dcc"
+    "facility_id": "f_a1909a73d41c"
   },
   {
     "name": "Waste Management Recycling Center",
@@ -1317,17 +667,7 @@
     "lng": -95.25,
     "website": null,
     "source": null,
-    "facility_id": "f_393eca7ff801"
-  },
-  {
-    "name": "WASTEWATER RESIDUALS MANAGEMENT",
-    "type": "landfill",
-    "address": "10217A WALLISVILLE RD HOUSTON TX 77013",
-    "lat": 29.8,
-    "lng": -95.25,
-    "website": null,
-    "source": null,
-    "facility_id": "f_393eca7ff801"
+    "facility_id": "f_0f60e286bc6a"
   },
   {
     "name": "WCT/GREENBELT LANDFILL",
@@ -1337,17 +677,7 @@
     "lng": -95.19,
     "website": null,
     "source": null,
-    "facility_id": "f_55034126ca63"
-  },
-  {
-    "name": "WCT/GREENBELT LANDFILL",
-    "type": "landfill",
-    "address": "550 GENOA RED BLUFF RD HOUSTON TX 77034",
-    "lat": 29.62,
-    "lng": -95.19,
-    "website": null,
-    "source": null,
-    "facility_id": "f_55034126ca63"
+    "facility_id": "f_145d4d38de16"
   },
   {
     "name": "Westpark Consumer Recycling Center",
@@ -1357,27 +687,7 @@
     "lng": -95.4829175,
     "website": null,
     "source": null,
-    "facility_id": "f_b6fbadb1b8ba"
-  },
-  {
-    "name": "Westpark Consumer Recycling Center",
-    "type": "recycling",
-    "address": "5900 Westpark Drive Houston",
-    "lat": 29.7249754,
-    "lng": -95.4829175,
-    "website": null,
-    "source": null,
-    "facility_id": "f_b6fbadb1b8ba"
-  },
-  {
-    "name": "Whispering Pines Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.8790184,
-    "lng": -95.2637492,
-    "website": null,
-    "source": null,
-    "facility_id": "f_3491efd41b5b"
+    "facility_id": "f_3a2842ff0172"
   },
   {
     "name": "Whispering Pines Landfill",
@@ -1397,16 +707,6 @@
     "lng": -95.27,
     "website": null,
     "source": null,
-    "facility_id": "f_6aaf4d70c119"
-  },
-  {
-    "name": "WHISPERING PINES LANDFILL",
-    "type": "landfill",
-    "address": "8101 LITTLE YORK RD HOUSTON TX 77016",
-    "lat": 29.88,
-    "lng": -95.27,
-    "website": null,
-    "source": null,
-    "facility_id": "f_6aaf4d70c119"
+    "facility_id": "f_54bb82a7fb39"
   }
 ]

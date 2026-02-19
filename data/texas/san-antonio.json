@@ -7,27 +7,7 @@
     "lng": -98.35,
     "website": null,
     "source": null,
-    "facility_id": "f_d079cbc26be7"
-  },
-  {
-    "name": "7250 FM 1346",
-    "type": "landfill",
-    "address": "7250 FM 1346 SAN ANTONIO TX 78220",
-    "lat": 29.42,
-    "lng": -98.35,
-    "website": null,
-    "source": null,
-    "facility_id": "f_d079cbc26be7"
-  },
-  {
-    "name": "A. G. Pickard Pecans",
-    "type": "recycling",
-    "address": "101 Nogalitos Street San Antonio TX 78204",
-    "lat": 29.4090251,
-    "lng": -98.501694,
-    "website": null,
-    "source": null,
-    "facility_id": "f_5591e42ba979"
+    "facility_id": "f_2503eda3c80b"
   },
   {
     "name": "A. G. Pickard Pecans",
@@ -47,17 +27,7 @@
     "lng": -98.2618889,
     "website": null,
     "source": null,
-    "facility_id": "f_ec9fdac591a4"
-  },
-  {
-    "name": "Beck Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.5470798,
-    "lng": -98.2618889,
-    "website": null,
-    "source": null,
-    "facility_id": "f_ec9fdac591a4"
+    "facility_id": "f_8bc5076be468"
   },
   {
     "name": "Bracken Recylcing",
@@ -67,27 +37,7 @@
     "lng": -98.3271844,
     "website": null,
     "source": null,
-    "facility_id": "f_9c2723f02893"
-  },
-  {
-    "name": "Bracken Recylcing",
-    "type": "recycling",
-    "address": "19068 Marbach Lane San Antonio TX 78266",
-    "lat": 29.6185504,
-    "lng": -98.3271844,
-    "website": null,
-    "source": null,
-    "facility_id": "f_9c2723f02893"
-  },
-  {
-    "name": "Covel Gardens Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.3343179,
-    "lng": -98.6546479,
-    "website": null,
-    "source": null,
-    "facility_id": "f_7ac40e95c88c"
+    "facility_id": "f_49e36750e008"
   },
   {
     "name": "Covel Gardens Landfill",
@@ -110,26 +60,6 @@
     "facility_id": "f_76685497eb65"
   },
   {
-    "name": "Frio City Road Bulky Waste Collection Center",
-    "type": "transfer_station",
-    "address": "1531 Frio City Road San Antonio 78226",
-    "lat": 29.3940532,
-    "lng": -98.5358595,
-    "website": null,
-    "source": null,
-    "facility_id": "f_76685497eb65"
-  },
-  {
-    "name": "LIQUID ENVIRONMENTAL SOLUTIONS OF TEXAS  LP WASTE PROCESSING FACILITY",
-    "type": "landfill",
-    "address": "10360 W US HIGHWAY 90 SAN ANTONIO TX 78245",
-    "lat": 29.38,
-    "lng": -98.7,
-    "website": null,
-    "source": null,
-    "facility_id": "f_60eae84f37f4"
-  },
-  {
     "name": "LIQUID ENVIRONMENTAL SOLUTIONS OF TEXAS  LP WASTE PROCESSING FACILITY",
     "type": "landfill",
     "address": "10360 W US HIGHWAY 90 SAN ANTONIO TX 78245",
@@ -150,16 +80,6 @@
     "facility_id": "f_3adabbfc9e49"
   },
   {
-    "name": "NEW EARTH",
-    "type": "landfill",
-    "address": "7800 E IH 10 SAN ANTONIO TX 78219",
-    "lat": 29.45,
-    "lng": -98.34,
-    "website": null,
-    "source": null,
-    "facility_id": "f_3adabbfc9e49"
-  },
-  {
     "name": "San Antonio Bitters Recycling Center",
     "type": "recycling",
     "address": "1800 Wurzbach Parkway San Antonio TX 78216",
@@ -168,26 +88,6 @@
     "website": null,
     "source": null,
     "facility_id": "f_857ff7a9f029"
-  },
-  {
-    "name": "San Antonio Bitters Recycling Center",
-    "type": "recycling",
-    "address": "1800 Wurzbach Parkway San Antonio TX 78216",
-    "lat": 29.542061,
-    "lng": -98.4673513,
-    "website": null,
-    "source": null,
-    "facility_id": "f_857ff7a9f029"
-  },
-  {
-    "name": "San Antonio Household Hazardous Waste Disposal",
-    "type": "recycling",
-    "address": "7030 Culebra Road San Antonio TX 78238",
-    "lat": 29.4511168,
-    "lng": -98.6281848,
-    "website": null,
-    "source": null,
-    "facility_id": "f_70f70d76e45d"
   },
   {
     "name": "San Antonio Household Hazardous Waste Disposal",
@@ -207,17 +107,7 @@
     "lng": -98.69,
     "website": null,
     "source": null,
-    "facility_id": "f_15924c10e657"
-  },
-  {
-    "name": "Tessman Road Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.4354227,
-    "lng": -98.3428943,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2e56b6f1b19d"
+    "facility_id": "f_19827e2e42e9"
   },
   {
     "name": "Tessman Road Landfill",
@@ -240,16 +130,6 @@
     "facility_id": "f_1f453c748718"
   },
   {
-    "name": "TESSMAN ROAD LANDFILL",
-    "type": "landfill",
-    "address": "7000 E IH 10 SAN ANTONIO TX 78219",
-    "lat": 29.43,
-    "lng": -98.34,
-    "website": null,
-    "source": null,
-    "facility_id": "f_1f453c748718"
-  },
-  {
     "name": "TESSMAN ROAD RNG PLANT",
     "type": "landfill",
     "address": "7000 E IH 10 SAN ANTONIO TX 78219",
@@ -257,17 +137,7 @@
     "lng": -98.34,
     "website": null,
     "source": null,
-    "facility_id": "f_a2faf9e50d7b"
-  },
-  {
-    "name": "TESSMAN ROAD RNG PLANT",
-    "type": "landfill",
-    "address": "7000 E IH 10 SAN ANTONIO TX 78219",
-    "lat": 29.43,
-    "lng": -98.34,
-    "website": null,
-    "source": null,
-    "facility_id": "f_a2faf9e50d7b"
+    "facility_id": "f_596ad91a5c86"
   },
   {
     "name": "Texas Disposal Systems Starcrest Transfer Station",
@@ -277,17 +147,7 @@
     "lng": -98.457592,
     "website": "https://www.texasdisposal.com/",
     "source": null,
-    "facility_id": "f_5599ed695ba3"
-  },
-  {
-    "name": "Texas Disposal Systems Starcrest Transfer Station",
-    "type": "transfer_station",
-    "address": "",
-    "lat": 29.5460284,
-    "lng": -98.457592,
-    "website": "https://www.texasdisposal.com/",
-    "source": null,
-    "facility_id": "f_5599ed695ba3"
+    "facility_id": "f_08b892c6a4af"
   },
   {
     "name": "WAREHOUSE INDUSTRY GABRIEL PLACE",
@@ -298,26 +158,6 @@
     "website": null,
     "source": null,
     "facility_id": "f_4d5e0a2d3f51"
-  },
-  {
-    "name": "WAREHOUSE INDUSTRY GABRIEL PLACE",
-    "type": "landfill",
-    "address": "10903 INDUSTRY DR STE 101 SAN ANTONIO TX 78217",
-    "lat": 0,
-    "lng": 0,
-    "website": null,
-    "source": null,
-    "facility_id": "f_4d5e0a2d3f51"
-  },
-  {
-    "name": "West Avenue Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 29.5407458,
-    "lng": -98.5120278,
-    "website": null,
-    "source": null,
-    "facility_id": "f_3f304b947b84"
   },
   {
     "name": "West Avenue Landfill",

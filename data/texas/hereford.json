@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_3ebbfe6303b1"
-  },
-  {
-    "name": "CITY OF HEREFORD MUNICIPAL SOLID WASTE LANDFILL",
-    "type": "landfill",
-    "address": "3800 N PROGRESSIVE RD HEREFORD TX 79045",
-    "lat": 34.84,
-    "lng": -102.37,
-    "website": null,
-    "source": null,
-    "facility_id": "f_3ebbfe6303b1"
   }
 ]

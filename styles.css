@@ -247,6 +247,16 @@ a{color:inherit; text-decoration:none}
   color:var(--blue); cursor:pointer; font-weight:700;
 }
 .link:hover{text-decoration:underline}
+.cityhub__backnav{margin-top:12px}
+.cityhub__backlink{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  color:var(--blue);
+  font-weight:800;
+  letter-spacing:.1px;
+}
+.cityhub__backlink:hover{text-decoration:underline}
 .field--cta{display:flex; flex-direction:column; gap:10px}
 .trustline{display:flex; gap:12px; color:#4b5563; font-size:12px; flex-wrap:wrap}
 .wizard__filters{
@@ -429,6 +439,85 @@ select{
   color:#6b7280;
 }
 
+/* Houston quick-start cards */
+.quickstart{
+  margin-top:16px;
+  margin-bottom:14px;
+  padding:12px;
+  border:1px solid rgba(35,93,158,.14);
+  border-radius:16px;
+  background:linear-gradient(180deg, rgba(255,255,255,.90), rgba(247,251,255,.86));
+  box-shadow:0 8px 20px rgba(20,37,63,.05);
+}
+.quickstart__head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:10px;
+}
+.quickstart__titleline{
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  color:#235d9e;
+}
+.quickstart__grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:10px;
+}
+.quickstart__item{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  min-height:84px;
+  padding:12px 34px 12px 14px;
+  border-radius:12px;
+  border:1px solid rgba(100,116,139,.28);
+  background:#ffffff;
+  box-shadow:0 6px 14px rgba(20,37,63,.05);
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease, background-color .12s ease;
+}
+.quickstart__item:hover{
+  transform:translateY(-1px);
+  box-shadow:0 12px 22px rgba(20,37,63,.09);
+  border-color:rgba(35,93,158,.34);
+  background:#fefefe;
+}
+.quickstart__item:focus-visible{
+  outline:2px solid rgba(35,93,158,.45);
+  outline-offset:2px;
+}
+.quickstart__title{
+  font-size:16px;
+  line-height:1.2;
+  font-weight:800;
+  color:#111827;
+}
+.quickstart__meta{
+  font-size:12px;
+  line-height:1.35;
+  color:#667085;
+}
+.quickstart__arrow{
+  position:absolute;
+  right:11px;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:22px;
+  line-height:1;
+  color:#9aa4b2;
+  font-weight:800;
+}
+.quickstart__item:hover .quickstart__arrow{
+  color:#235d9e;
+  transform:translate(1px, -50%);
+}
+
 /* Sections */
 .why, .browse, .how, .recent, .report{margin-top:48px}
 h2{font-size:28px; margin:0 0 14px}
@@ -533,6 +622,7 @@ h2{font-size:28px; margin:0 0 14px}
   .steps{grid-template-columns:1fr}
   .footer__grid{grid-template-columns:1fr 1fr}
   .hero h1{font-size:38px}
+  .quickstart__grid{grid-template-columns:1fr 1fr}
 }
 
 /* Optional header cleanup on smaller screens */
@@ -594,6 +684,8 @@ h2{font-size:28px; margin:0 0 14px}
   /* --- Wizard input row: allow wrap so buttons never collide --- */
   .combo{ flex-wrap: wrap; }
   .combo__btn{ width: 100%; }
+  .quickstart__grid{grid-template-columns:1fr;}
+  .quickstart__item{min-height:76px;}
 
   /* --- Facility cards: CTA buttons should stack cleanly --- */
   .card .btn--primary{ width: 100%; }   /* makes â€œMapsâ€ stop overlapping */

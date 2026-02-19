@@ -15,6 +15,7 @@
     "build:pages:tx": "node scripts/generate-city-pages.js texas",
     "build:pages:ca": "node scripts/generate-city-pages.js california",
     "build:pages:states": "npm run build:pages:tx && npm run build:pages:ca",
+    "build:statehubs": "node scripts/generate-state-hubs.js",
 
     "build:facilities:data": "node scripts/build-facilities.js texas",
     "build:facilities:manual:houston": "node scripts/build-manual-facilities.js texas houston",
@@ -24,7 +25,7 @@
     "build:sitemap": "node scripts/generate-sitemap.js",
 
     "build:data": "npm run build:data:tx && npm run build:facilities:data && npm run build:citylist:tx && npm run build:facilities:manual:houston",
-    "build:pages": "npm run build:pages:states && npm run build:facilities:pages && npm run prune:apply && npm run build:sitemap",
+    "build:pages": "npm run build:statehubs && npm run build:pages:states && npm run build:facilities:pages && npm run prune:apply && npm run build:sitemap",
     "build": "npm run build:data && npm run build:pages",
 
     "verify:smoke": "node scripts/smoke-check.js",

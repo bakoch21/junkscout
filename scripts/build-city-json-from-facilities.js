@@ -64,7 +64,7 @@ function isClearlyNotACity(cityRaw = "") {
 
   // Street-ish tokens or weird phrases (expanded to catch "Mi ...", "Of ...", directions, etc.)
   const badTokens =
-    /\b(mi|mile|miles|nw|ne|se|sw|of|on|at|and|rd|road|st|street|ave|avenue|dr|drive|blvd|boulevard|hwy|highway|fwy|freeway|ln|lane|pkwy|parkway|loop|fm|cr|county|intersection|limits|landfill|transfer|station|site|facility|easement|unimproved)\b/i;
+    /\b(in|mi|mile|miles|nw|ne|se|sw|of|on|at|and|rd|road|st|street|ave|avenue|dr|drive|blvd|boulevard|hwy|highway|fwy|freeway|ln|lane|pkwy|parkway|loop|fm|cr|county|intersection|limits|landfill|transfer|station|site|facility|easement|unimproved)\b/i;
   if (badTokens.test(s)) return true;
 
   // Sentences / directions / “Turn right at...”
@@ -217,6 +217,27 @@ function normalizeFacilityToCityLocation(f) {
   };
 }
 
+function normalizeKeyText(value = "") {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function cityDedupSignature(normalized) {
+  const name = normalizeKeyText(normalized?.name);
+  const address = normalizeKeyText(normalized?.address);
+  const type = normalizeKeyText(normalized?.type || "msw_facility");
+  if (name && address) return `na:${name}|${address}|${type}`;
+
+  const lat = typeof normalized?.lat === "number" ? normalized.lat.toFixed(4) : "";
+  const lng = typeof normalized?.lng === "number" ? normalized.lng.toFixed(4) : "";
+  if (name && lat && lng) return `nl:${name}|${lat}|${lng}|${type}`;
+
+  return "";
+}
+
 function readAllFacilities() {
   if (!fs.existsSync(FACILITIES_DIR)) {
     throw new Error(`Missing facilities dir: ${FACILITIES_DIR}`);
@@ -250,7 +271,7 @@ function run() {
   console.log("\n🏗️ Building city JSON from facilities...");
 
   const facilities = readAllFacilities();
-  const cityMap = new Map(); // slug -> { cityName, items: [], seen:Set }
+  const cityMap = new Map(); // slug -> { cityName, items: [], seenIds:Set, seenSignatures:Set }
 
   let skippedBad = 0;
 
@@ -269,12 +290,21 @@ function run() {
     }
 
     if (!cityMap.has(slug)) {
-      cityMap.set(slug, { cityName, items: [], seen: new Set() });
+      cityMap.set(slug, {
+        cityName,
+        items: [],
+        seenIds: new Set(),
+        seenSignatures: new Set(),
+      });
     }
 
     const bucket = cityMap.get(slug);
-    if (bucket.seen.has(normalized.facility_id)) continue;
-    bucket.seen.add(normalized.facility_id);
+    const idKey = cleanStr(normalized.facility_id).toLowerCase();
+    const signature = cityDedupSignature(normalized);
+    if (idKey && bucket.seenIds.has(idKey)) continue;
+    if (signature && bucket.seenSignatures.has(signature)) continue;
+    if (idKey) bucket.seenIds.add(idKey);
+    if (signature) bucket.seenSignatures.add(signature);
 
     bucket.items.push({
       name: normalized.name,

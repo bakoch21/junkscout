@@ -7,7 +7,7 @@
     "lng": -97.74,
     "website": null,
     "source": null,
-    "facility_id": "f_d1412cf9d81f"
+    "facility_id": "f_3eaf2e03802e"
   },
   {
     "name": "Fort Cavazos Recycling Center",
@@ -17,17 +17,7 @@
     "lng": -97.7868713,
     "website": null,
     "source": null,
-    "facility_id": "f_e8ea210e6ee0"
-  },
-  {
-    "name": "Fort Cavazos Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.125589,
-    "lng": -97.7868713,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e8ea210e6ee0"
+    "facility_id": "f_b24f9ec67b27"
   },
   {
     "name": "KILLEEN TRANSFER STATION",
@@ -37,27 +27,7 @@
     "lng": -97.75,
     "website": null,
     "source": null,
-    "facility_id": "f_ea6556cc808c"
-  },
-  {
-    "name": "KILLEEN TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "12200 STATE HWY 195 KILLEEN TX 76542 KILLEEN TX 76542",
-    "lat": 31.02,
-    "lng": -97.75,
-    "website": null,
-    "source": null,
-    "facility_id": "f_ea6556cc808c"
-  },
-  {
-    "name": "S & M VACUUM & WASTE LWP",
-    "type": "landfill",
-    "address": "1904 E RANCIER AVE KILLEEN TX 76541",
-    "lat": 31.13,
-    "lng": -97.63,
-    "website": null,
-    "source": null,
-    "facility_id": "f_4affb687698b"
+    "facility_id": "f_833a176efa42"
   },
   {
     "name": "S & M VACUUM & WASTE LWP",

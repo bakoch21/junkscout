@@ -101,7 +101,7 @@ function applyCitySEO({ cityName, stateName }) {
   const titleEl = document.getElementById("cityTitle");
   if (titleEl) {
     titleEl.textContent = isHouston
-      ? "Houston Dump, Landfill & Transfer Station Guide"
+      ? "Houston Trash Dump, Transfer Stations & Landfills"
       : "Where to dump trash in " + pretty;
   }
 
@@ -125,7 +125,7 @@ function applyCitySEO({ cityName, stateName }) {
   if (inlineCity) inlineCity.textContent = cityName;
 
   if (isHouston) {
-    document.title = "Houston Dump, Landfill & Transfer Station Guide (Fees, Hours, Rules) | JunkScout";
+    document.title = "Houston Trash Dump, Transfer Stations & Landfills | JunkScout";
     setMetaDescription(
       "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
     );
@@ -142,7 +142,7 @@ function applyCitySEO({ cityName, stateName }) {
         "Some Houston facilities offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.";
     }
   } else {
-    document.title = "Where to Dump Trash in " + pretty + " | JunkScout";
+    document.title = cityName + ", " + stateName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
     setMetaDescription(
       "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ". " +
       "Hours, fees, and accepted materials when available - always confirm before visiting."
@@ -151,6 +151,26 @@ function applyCitySEO({ cityName, stateName }) {
 
   const canonical = window.location.origin + window.location.pathname;
   setCanonical(canonical);
+}
+
+function alignResultsAnchor(targetEl) {
+  if (!targetEl) return;
+  const hash = String(window.location.hash || "").toLowerCase();
+  if (!hash.startsWith("#results")) return;
+
+  const run = () => {
+    const nav = document.querySelector(".nav");
+    const navHeight = nav ? nav.getBoundingClientRect().height : 0;
+    const top = Math.max(
+      0,
+      Math.round(targetEl.getBoundingClientRect().top + window.scrollY - navHeight - 12)
+    );
+    window.scrollTo(0, top);
+  };
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(run);
+  });
 }
 
 /** =========================
@@ -433,6 +453,123 @@ function getLng(item) {
 
 function getIdForItem(item) {
   return item?.facility_id || item?.id || item?.name || "";
+}
+
+function normalizeKeyText(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function mergeUniqueStrings(a, b) {
+  const out = [];
+  const seen = new Set();
+  for (const raw of [...(Array.isArray(a) ? a : []), ...(Array.isArray(b) ? b : [])]) {
+    const val = String(raw || "").trim();
+    if (!val) continue;
+    const key = val.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(val);
+  }
+  return out;
+}
+
+function itemCompletenessScore(item) {
+  if (!item || typeof item !== "object") return 0;
+
+  let score = 0;
+  const hasText = (v) => String(v || "").trim().length > 0;
+
+  if (hasText(item.name)) score += 4;
+  if (hasText(item.address)) score += 4;
+  if (hasText(item.type)) score += 3;
+  if (hasText(item.facility_id) || hasText(item.id)) score += 3;
+  if (hasText(item.source)) score += 2;
+  if (hasText(item.website)) score += 1;
+  if (hasText(item.phone)) score += 1;
+  if (hasText(item.hours)) score += 1;
+  if (hasText(item.fees)) score += 1;
+  if (hasText(item.rules)) score += 1;
+  if (hasCoords(item)) score += 2;
+
+  const accepted = Array.isArray(item.accepted_materials) ? item.accepted_materials.length : 0;
+  const notAccepted = Array.isArray(item.not_accepted) ? item.not_accepted.length : 0;
+  score += Math.min(3, accepted) + Math.min(2, notAccepted);
+
+  return score;
+}
+
+function mergeDuplicateItems(a, b) {
+  const primary = itemCompletenessScore(a) >= itemCompletenessScore(b) ? a : b;
+  const secondary = primary === a ? b : a;
+  const out = { ...(secondary || {}), ...(primary || {}) };
+
+  const accepted = mergeUniqueStrings(primary?.accepted_materials, secondary?.accepted_materials);
+  if (accepted.length) out.accepted_materials = accepted;
+
+  const notAccepted = mergeUniqueStrings(primary?.not_accepted, secondary?.not_accepted);
+  if (notAccepted.length) out.not_accepted = notAccepted;
+
+  const normalizedMaterials = mergeUniqueStrings(primary?.normalized_materials, secondary?.normalized_materials);
+  if (normalizedMaterials.length) out.normalized_materials = normalizedMaterials;
+
+  return out;
+}
+
+function dedupeSignature(item) {
+  const name = normalizeKeyText(item?.name);
+  const address = normalizeKeyText(item?.address);
+  const type = normalizeType(item?.type).key;
+  if (name && address) return `na:${name}|${address}|${type}`;
+
+  const lat = getLat(item);
+  const lng = getLng(item);
+  if (name && lat !== null && lng !== null) {
+    return `nl:${name}|${lat.toFixed(4)}|${lng.toFixed(4)}|${type}`;
+  }
+
+  return "";
+}
+
+function dedupeCityItems(items) {
+  const rows = Array.isArray(items) ? items : [];
+  if (rows.length <= 1) return rows;
+
+  const byId = new Map();
+  const withoutId = [];
+
+  for (const row of rows) {
+    if (!row || typeof row !== "object") continue;
+
+    const id = String(row?.facility_id || row?.id || "").trim().toLowerCase();
+    if (!id) {
+      withoutId.push(row);
+      continue;
+    }
+
+    const existing = byId.get(id);
+    byId.set(id, existing ? mergeDuplicateItems(existing, row) : row);
+  }
+
+  const stage1 = [...byId.values(), ...withoutId];
+  const bySignature = new Map();
+  const keepAsIs = [];
+
+  for (const row of stage1) {
+    const sig = dedupeSignature(row);
+    if (!sig) {
+      keepAsIs.push(row);
+      continue;
+    }
+
+    const existing = bySignature.get(sig);
+    bySignature.set(sig, existing ? mergeDuplicateItems(existing, row) : row);
+  }
+
+  return [...bySignature.values(), ...keepAsIs];
 }
 
 function hasCoords(item) {
@@ -1094,6 +1231,8 @@ async function loadCityData() {
     return;
   }
 
+  items = dedupeCityItems(items);
+
   const enriched = items.map((it) => {
     const t = normalizeType(it.type);
     const mats = normalizeMaterialsFromAccepted(it);
@@ -1241,6 +1380,8 @@ async function loadCityData() {
     render(enriched);
     attachHandlers(resultsEl, mapCtl);
   }
+
+  alignResultsAnchor(resultsEl);
 }
 
 document.addEventListener("DOMContentLoaded", loadCityData);

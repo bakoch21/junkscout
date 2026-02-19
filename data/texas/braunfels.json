@@ -7,27 +7,7 @@
     "lng": -98.02,
     "website": null,
     "source": null,
-    "facility_id": "f_16b4c221cdd0"
-  },
-  {
-    "name": "MESQUITE CREEK LANDFILL",
-    "type": "landfill",
-    "address": "1000 KOHLENBERG RD NEW BRAUNFELS TX 78130",
-    "lat": 29.74,
-    "lng": -98.02,
-    "website": null,
-    "source": null,
-    "facility_id": "f_16b4c221cdd0"
-  },
-  {
-    "name": "MESQUITE CREEK LFGTE FACILITY",
-    "type": "landfill",
-    "address": "1000 KOHLENBERG RD NEW BRAUNFELS TX 78130",
-    "lat": 29.74,
-    "lng": -98.02,
-    "website": null,
-    "source": null,
-    "facility_id": "f_8c2ec2d7c38b"
+    "facility_id": "f_0ad161b00dcf"
   },
   {
     "name": "MESQUITE CREEK LFGTE FACILITY",

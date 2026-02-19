@@ -10,26 +10,6 @@
     "facility_id": "f_20cbef2a48ea"
   },
   {
-    "name": "ATASCOCITA LFGTE FACILITY",
-    "type": "landfill",
-    "address": "3623 WILSON RD HUMBLE TX 77396",
-    "lat": 29.95,
-    "lng": -95.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_20cbef2a48ea"
-  },
-  {
-    "name": "WM ATASCOCITA RECYCLING DISPOSAL FACILITY",
-    "type": "recycling",
-    "address": "3623 WILSON RD HUMBLE TX 77396",
-    "lat": 29.96,
-    "lng": -95.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_295da74d693c"
-  },
-  {
     "name": "WM ATASCOCITA RECYCLING DISPOSAL FACILITY",
     "type": "recycling",
     "address": "3623 WILSON RD HUMBLE TX 77396",

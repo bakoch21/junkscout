@@ -10,16 +10,6 @@
     "facility_id": "f_2add66fa18ff"
   },
   {
-    "name": "CITY OF WEATHERFORD LANDFILL",
-    "type": "landfill",
-    "address": "3131 OLD BROCK RD WEATHERFORD TX 76087",
-    "lat": 32.72,
-    "lng": -97.86,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2add66fa18ff"
-  },
-  {
     "name": "WC WEATHERFORD TRANSFER STATION",
     "type": "transfer_station",
     "address": "3306 OLD BROCK RD WEATHERFORD TX 76087",
@@ -27,27 +17,7 @@
     "lng": -97.86,
     "website": null,
     "source": null,
-    "facility_id": "f_6f434e5aad1b"
-  },
-  {
-    "name": "WC WEATHERFORD TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "3306 OLD BROCK RD WEATHERFORD TX 76087",
-    "lat": 32.72,
-    "lng": -97.86,
-    "website": null,
-    "source": null,
-    "facility_id": "f_6f434e5aad1b"
-  },
-  {
-    "name": "WEATHERFORD RENEWALBE NATURAL GAS FACILITY",
-    "type": "landfill",
-    "address": "3131 OLD BROCK ROAD WEATHERFORD TX 76087",
-    "lat": 0,
-    "lng": 0,
-    "website": null,
-    "source": null,
-    "facility_id": "f_8700277d19a4"
+    "facility_id": "f_64afc6b2a3e6"
   },
   {
     "name": "WEATHERFORD RENEWALBE NATURAL GAS FACILITY",

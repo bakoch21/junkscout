@@ -7,27 +7,7 @@
     "lng": -97.24,
     "website": null,
     "source": null,
-    "facility_id": "f_b2539bf5c7ab"
-  },
-  {
-    "name": "FORT WORTH C AND D LANDFILL",
-    "type": "landfill",
-    "address": "4144 DICK PRICE RD FORT WORTH TX 76140",
-    "lat": 32.63,
-    "lng": -97.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_b2539bf5c7ab"
-  },
-  {
-    "name": "LAIDLAW FORT WORTH TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "6200 ELLIOTT REEDER RD FORT WORTH TX 76117",
-    "lat": 32.78,
-    "lng": -97.25,
-    "website": null,
-    "source": null,
-    "facility_id": "f_0cb196fc864f"
+    "facility_id": "f_0e66698a0bcb"
   },
   {
     "name": "LAIDLAW FORT WORTH TRANSFER STATION",
@@ -50,16 +30,6 @@
     "facility_id": "f_5aa9464622e9"
   },
   {
-    "name": "NORTH TEXAS RECYCLING COMPLEX",
-    "type": "recycling",
-    "address": "6100 ELLIOTT REEDER RD FORT WORTH TX 76117",
-    "lat": 32.78,
-    "lng": -97.25,
-    "website": null,
-    "source": null,
-    "facility_id": "f_5aa9464622e9"
-  },
-  {
     "name": "SOUTHWEST PAPER STOCK TRANSFER STATION",
     "type": "transfer_station",
     "address": "400 W JESSAMINE ST FORT WORTH TX 76110",
@@ -67,16 +37,6 @@
     "lng": -97.1,
     "website": null,
     "source": null,
-    "facility_id": "f_af5549214801"
-  },
-  {
-    "name": "SOUTHWEST PAPER STOCK TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "400 W JESSAMINE ST FORT WORTH TX 76110",
-    "lat": 32.52,
-    "lng": -97.1,
-    "website": null,
-    "source": null,
-    "facility_id": "f_af5549214801"
+    "facility_id": "f_35a212b54d42"
   }
 ]

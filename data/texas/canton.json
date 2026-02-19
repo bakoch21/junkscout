@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_6aefd491d76a"
-  },
-  {
-    "name": "CITY OF CANTON TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "1810 VZ COUNTY RD 3121 CANTON TX 75103",
-    "lat": 32.59,
-    "lng": -95.87,
-    "website": null,
-    "source": null,
-    "facility_id": "f_6aefd491d76a"
   }
 ]

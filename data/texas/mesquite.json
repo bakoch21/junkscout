@@ -10,26 +10,6 @@
     "facility_id": "f_61c670a85e50"
   },
   {
-    "name": "2011 SOUTH TOWN EAST BLVD LLC",
-    "type": "landfill",
-    "address": "2011 S TOWN EAST BLVD MESQUITE TX 75149",
-    "lat": 32.79,
-    "lng": -96.66,
-    "website": null,
-    "source": null,
-    "facility_id": "f_61c670a85e50"
-  },
-  {
-    "name": "CITY OF MESQUITE TRANSFER STATION FACILITY",
-    "type": "transfer_station",
-    "address": "1101 E MAIN ST MESQUITE TX 75149",
-    "lat": 32.55,
-    "lng": -96.58,
-    "website": null,
-    "source": null,
-    "facility_id": "f_9569acb028a5"
-  },
-  {
     "name": "CITY OF MESQUITE TRANSFER STATION FACILITY",
     "type": "transfer_station",
     "address": "1101 E MAIN ST MESQUITE TX 75149",

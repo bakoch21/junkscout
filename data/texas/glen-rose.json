@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_040fdcf3ec83"
-  },
-  {
-    "name": "SOMERVILLE COUNTY TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "1827 N FM 56 GLEN ROSE TX 76043",
-    "lat": 32.43,
-    "lng": -97.53,
-    "website": null,
-    "source": null,
-    "facility_id": "f_040fdcf3ec83"
   }
 ]

@@ -7,17 +7,7 @@
     "lng": -102.55,
     "website": null,
     "source": null,
-    "facility_id": "f_a788133a7f75"
-  },
-  {
-    "name": "DIAMOND BACK SOLID WASTE FACILITY AND RECYCLING CENTER",
-    "type": "recycling",
-    "address": "2301 FM 866 ODESSA TX 79763",
-    "lat": 31.79,
-    "lng": -102.55,
-    "website": null,
-    "source": null,
-    "facility_id": "f_a788133a7f75"
+    "facility_id": "f_4af3e4238cc6"
   },
   {
     "name": "ODESSA LANDFILL",
@@ -27,16 +17,6 @@
     "lng": -102.5,
     "website": null,
     "source": null,
-    "facility_id": "f_9e6f660ba5d7"
-  },
-  {
-    "name": "ODESSA LANDFILL",
-    "type": "landfill",
-    "address": "12035 W MURPHY ST ODESSA TX 79763",
-    "lat": 31.77,
-    "lng": -102.5,
-    "website": null,
-    "source": null,
-    "facility_id": "f_9e6f660ba5d7"
+    "facility_id": "f_8fcb29da5d5a"
   }
 ]

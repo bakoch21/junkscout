@@ -18,15 +18,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_738f92de8e7b"
-  },
-  {
-    "name": "CITY OF POST LANDFILL",
-    "type": "landfill",
-    "address": "1637 CR 225 POST TX 79356",
-    "lat": 33.17,
-    "lng": -101.38,
-    "website": null,
-    "source": null,
-    "facility_id": "f_47cdba386836"
   }
 ]

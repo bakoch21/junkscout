@@ -10,16 +10,6 @@
     "facility_id": "f_03547f1d331d"
   },
   {
-    "name": "121 RDF LFG TREATMENT FACILITY",
-    "type": "landfill",
-    "address": "3820 SAM RAYBURN HWY MELISSA TX 75454",
-    "lat": 33.3,
-    "lng": -96.53,
-    "website": null,
-    "source": null,
-    "facility_id": "f_03547f1d331d"
-  },
-  {
     "name": "121 REGIONAL DISPOSAL LANDFILL",
     "type": "landfill",
     "address": "3820 SAM RAYBURN HWY MELISSA TX 75454",
@@ -27,16 +17,6 @@
     "lng": -96.51,
     "website": null,
     "source": null,
-    "facility_id": "f_95e7fd17c90b"
-  },
-  {
-    "name": "121 REGIONAL DISPOSAL LANDFILL",
-    "type": "landfill",
-    "address": "3820 SAM RAYBURN HWY MELISSA TX 75454",
-    "lat": 33.29,
-    "lng": -96.51,
-    "website": null,
-    "source": null,
-    "facility_id": "f_95e7fd17c90b"
+    "facility_id": "f_5fbd3e7a513a"
   }
 ]

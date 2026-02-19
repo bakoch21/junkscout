@@ -10,16 +10,6 @@
     "facility_id": "f_2a86530fc941"
   },
   {
-    "name": "EC ENTERPRISES",
-    "type": "landfill",
-    "address": "21090 FM 1303 ELMENDORF TX 78112",
-    "lat": 29.21,
-    "lng": -98.35,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2a86530fc941"
-  },
-  {
     "name": "SOUTHWASTE DISPOSAL LLC SAN ANTONIO FACILITY",
     "type": "landfill",
     "address": "20805 OLD LAMM RD ELMENDORF TX 78112",
@@ -27,16 +17,6 @@
     "lng": -98.41,
     "website": null,
     "source": null,
-    "facility_id": "f_638f146d41e9"
-  },
-  {
-    "name": "SOUTHWASTE DISPOSAL LLC SAN ANTONIO FACILITY",
-    "type": "landfill",
-    "address": "20805 OLD LAMM RD ELMENDORF TX 78112",
-    "lat": 29.21,
-    "lng": -98.41,
-    "website": null,
-    "source": null,
-    "facility_id": "f_638f146d41e9"
+    "facility_id": "f_3ab8fa49f9fd"
   }
 ]

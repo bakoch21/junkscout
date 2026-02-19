@@ -10,16 +10,6 @@
     "facility_id": "f_2f98ea1f76e3"
   },
   {
-    "name": "SKYLINE LANDFILL & RECYCLING FACILITY",
-    "type": "recycling",
-    "address": "1201 N CENTRAL ST FERRIS TX 75125",
-    "lat": 32.55,
-    "lng": -96.67,
-    "website": null,
-    "source": null,
-    "facility_id": "f_2f98ea1f76e3"
-  },
-  {
     "name": "SKYLINE LFGTE FACILITY",
     "type": "landfill",
     "address": "1201 N CENTRAL ST FERRIS TX 75125",
@@ -27,27 +17,7 @@
     "lng": -96.67,
     "website": null,
     "source": null,
-    "facility_id": "f_9dd263022246"
-  },
-  {
-    "name": "SKYLINE LFGTE FACILITY",
-    "type": "landfill",
-    "address": "1201 N CENTRAL ST FERRIS TX 75125",
-    "lat": 32.55,
-    "lng": -96.67,
-    "website": null,
-    "source": null,
-    "facility_id": "f_9dd263022246"
-  },
-  {
-    "name": "SKYLINE RENEWABLE NATURAL GAS FACILITY",
-    "type": "landfill",
-    "address": "1201 N CENTRAL ST FERRIS TX 75125",
-    "lat": 32.55,
-    "lng": -96.67,
-    "website": null,
-    "source": null,
-    "facility_id": "f_ae356e95f54e"
+    "facility_id": "f_0b05c5a5aaeb"
   },
   {
     "name": "SKYLINE RENEWABLE NATURAL GAS FACILITY",

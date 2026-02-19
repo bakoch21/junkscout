@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_aa7324b16cb5"
-  },
-  {
-    "name": "CITY OF CROSS PLAINS",
-    "type": "landfill",
-    "address": "100 CR 347 CROSS PLAINS TX 76443",
-    "lat": 32.11,
-    "lng": -99.17,
-    "website": null,
-    "source": null,
-    "facility_id": "f_aa7324b16cb5"
   }
 ]

@@ -69,7 +69,7 @@
     {
       "@type": "WebPage",
       "@id": "https://junkscout.io/texas/houston/#webpage",
-      "name": "Houston Dump, Landfill & Transfer Station Guide (Fees, Hours, Rules) | JunkScout",
+      "name": "Houston Trash Dump, Transfer Stations & Landfills | JunkScout",
       "description": "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.",
       "url": "https://junkscout.io/texas/houston/",
       "isPartOf": {
@@ -134,7 +134,9 @@
 
   <!-- Will be set dynamically by city.js -->
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
 
   <!-- ✅ Leaflet (map) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
@@ -156,17 +158,17 @@
     }
   </style>
 
-  <title>Houston Dump, Landfill &amp; Transfer Station Guide (Fees, Hours, Rules) | JunkScout</title>
+  <title>Houston Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
   <meta name="description" content="Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
   <link rel="canonical" href="https://junkscout.io/texas/houston/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Houston Dump, Landfill &amp; Transfer Station Guide (Fees, Hours, Rules) | JunkScout" />
+  <meta property="og:title" content="Houston Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
   <meta property="og:description" content="Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
   <meta property="og:url" content="https://junkscout.io/texas/houston/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Houston Dump, Landfill &amp; Transfer Station Guide (Fees, Hours, Rules) | JunkScout" />
+  <meta name="twitter:title" content="Houston Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
   <meta name="twitter:description" content="Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
 
 </head>
@@ -194,16 +196,43 @@
 
   <main class="hero">
     <div class="container">
-      <h1 id="cityTitle">Houston Dump, Landfill & Transfer Station Guide</h1>
+      <h1 id="cityTitle">Houston Trash Dump, Transfer Stations & Landfills</h1>
 
       <p class="subhead" id="cityAnswer">Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.</p>
 
       <p class="muted" id="citySubhead" style="margin-top:10px">Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive.</p>
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/texas/houston/?type=recycling#results">
+      <span class="quickstart__title">Free resident drop-off</span>
+      <span class="quickstart__meta">City depositories and recycling centers</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/houston/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Paid mixed loads and general debris</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/houston/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/houston/?type=dumpster#results">
+      <span class="quickstart__title">Public dumpster options</span>
+      <span class="quickstart__meta">Fast neighborhood drop-off points</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
 
       <!-- ✅ Injected at build time -->
       <!-- STATEHUBLINK:START -->
-<div style="margin-top:12px">
-  <a class="link" href="/texas/">&larr; Back to Texas cities</a>
+<div class="cityhub__backnav">
+  <a class="cityhub__backlink" href="/texas/">&larr; Back to Texas cities</a>
 </div>
 <!-- STATEHUBLINK:END -->
 

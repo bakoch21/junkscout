@@ -7,17 +7,7 @@
     "lng": -99.86,
     "website": null,
     "source": null,
-    "facility_id": "f_595f81965b74"
-  },
-  {
-    "name": "CITY OF PECOS LANDFILL",
-    "type": "landfill",
-    "address": "1.3 MILES S INTERSTATE HIGHWAY 20  0.4 MILES E STATE HIGHWAY 17  ADJACENT S EDGE PECOS MUNICIPAL AIRPORT PECOS CITY TX 79772",
-    "lat": 31.38,
-    "lng": -103.52,
-    "website": null,
-    "source": null,
-    "facility_id": "f_705383a1ed5f"
+    "facility_id": "f_044892b72e88"
   },
   {
     "name": "CITY OF PECOS LANDFILL",
@@ -40,16 +30,6 @@
     "facility_id": "f_86ea34bf1421"
   },
   {
-    "name": "GLASSCOCK COUNTY LANDFILL",
-    "type": "landfill",
-    "address": "350 DRUMRIGHT RD GARDEN CITY TX 79739",
-    "lat": 32.08,
-    "lng": -101.47,
-    "website": null,
-    "source": null,
-    "facility_id": "f_86ea34bf1421"
-  },
-  {
     "name": "HUDSPETH COUNTY LANDFILL",
     "type": "landfill",
     "address": "5.50 MI SE OF DELL CITY DELL CITY TX 79851",
@@ -57,17 +37,7 @@
     "lng": -105.12,
     "website": null,
     "source": null,
-    "facility_id": "f_a50e87072da5"
-  },
-  {
-    "name": "HUDSPETH COUNTY LANDFILL",
-    "type": "landfill",
-    "address": "5.50 MI SE OF DELL CITY DELL CITY TX 79851",
-    "lat": 31.89,
-    "lng": -105.12,
-    "website": null,
-    "source": null,
-    "facility_id": "f_a50e87072da5"
+    "facility_id": "f_4f57bbacdcaa"
   },
   {
     "name": "MEDIWASTE MEDICAL WASTE TREATMENT FACILITY",
@@ -77,17 +47,7 @@
     "lng": -106.19,
     "website": null,
     "source": null,
-    "facility_id": "f_fc0ddd0664ae"
-  },
-  {
-    "name": "MEDIWASTE MEDICAL WASTE TREATMENT FACILITY",
-    "type": "landfill",
-    "address": "381 S DARRINGTON RD HORIZON CITY TX 79928",
-    "lat": 31.74,
-    "lng": -106.19,
-    "website": null,
-    "source": null,
-    "facility_id": "f_fc0ddd0664ae"
+    "facility_id": "f_3b8bd86b0011"
   },
   {
     "name": "MINNIS DRIVE TRANSFER STATION",
@@ -97,17 +57,7 @@
     "lng": -97.24,
     "website": null,
     "source": null,
-    "facility_id": "f_da4fa5ea4ff4"
-  },
-  {
-    "name": "MINNIS DRIVE TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "2120 MINNIS DR HALTOM CITY TX 76117",
-    "lat": 32.79,
-    "lng": -97.24,
-    "website": null,
-    "source": null,
-    "facility_id": "f_da4fa5ea4ff4"
+    "facility_id": "f_d5838de36e05"
   },
   {
     "name": "NORTH COUNTY LANDFILL",
@@ -117,17 +67,7 @@
     "lng": -95.05,
     "website": null,
     "source": null,
-    "facility_id": "f_d63670697d2b"
-  },
-  {
-    "name": "NORTH COUNTY LANDFILL",
-    "type": "landfill",
-    "address": "2015 WYOMING ST LEAGUE CITY TX 77574",
-    "lat": 29.48,
-    "lng": -95.05,
-    "website": null,
-    "source": null,
-    "facility_id": "f_d63670697d2b"
+    "facility_id": "f_bbbd3bcd7b41"
   },
   {
     "name": "STARR COUNTY TRANSFER STATION",
@@ -137,17 +77,7 @@
     "lng": -98.83,
     "website": null,
     "source": null,
-    "facility_id": "f_6ba04d96e4f8"
-  },
-  {
-    "name": "TEXAS SLUDGE DISPOSAL COMPOSTING FACILITY",
-    "type": "recycling",
-    "address": "7136 CR 3561 NEAR TAFT 78390 APPROX 1.4 MILES EAST NORTHEAST OF THE INTERSECTION OF FARM TO MARKET RDS 631 AND 102 ADJACENT TO THE CITY OF TAFT WASTEWATER TREATMENT PLANT IN SAN PATRICIO COUNTY TX BAY CITY TX 77404",
-    "lat": 28,
-    "lng": -97.36,
-    "website": null,
-    "source": null,
-    "facility_id": "f_3b0b6da89238"
+    "facility_id": "f_224248b527fb"
   },
   {
     "name": "TEXAS SLUDGE DISPOSAL COMPOSTING FACILITY",

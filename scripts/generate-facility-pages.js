@@ -244,15 +244,21 @@ function pickPrimaryLocation(facility, state, cityFilter) {
 function buildMeta({ facility, state, city }) {
   const id = String(facility?.id || "").trim();
   const name = String(facility?.name || "Unnamed site").trim();
-  const kind = typeLabel(facility?.type);
   const stateAbbrev = stateAbbrevFromSlug(state);
   const cityName = city ? titleCaseFromSlug(city) : "";
 
   const locationLabel = cityName
     ? `${cityName}, ${stateAbbrev}`
-    : `${titleCaseFromSlug(state)}, ${stateAbbrev}`;
+    : `${titleCaseFromSlug(state)}`;
 
-  const title = `${name} - ${kind} in ${locationLabel} | JunkScout`;
+  const hasHoursFeesRules =
+    cleanString(facility?.hours) ||
+    cleanString(facility?.fees) ||
+    cleanString(facility?.rules);
+
+  const title = hasHoursFeesRules
+    ? `${name} (${locationLabel}) - Hours, Fees, Rules | JunkScout`
+    : `${name} (${locationLabel}) | JunkScout`;
   const description =
     `Address, map, and source links for ${name}. Always confirm fees, hours, and accepted materials before visiting.`;
 
@@ -409,6 +415,90 @@ function buildCityPillsHtml(facility) {
   return links.join("");
 }
 
+function facilityAppearsInLocation(facility, state, city) {
+  const stateSlug = cleanSlug(state || "");
+  const citySlug = cleanSlug(city || "");
+  if (!stateSlug || !citySlug) return false;
+
+  const appears = getAppearsIn(facility);
+  if (appears.some((x) => x.state === stateSlug && x.city === citySlug)) return true;
+
+  const address = cleanString(facility?.address || "").toLowerCase();
+  const cityWords = citySlug.replace(/-/g, " ");
+  return cityWords ? address.includes(cityWords) : false;
+}
+
+function getFacilityDisplayCity(facility, state, preferredCity = "") {
+  const stateSlug = cleanSlug(state || "");
+  const preferred = cleanSlug(preferredCity || "");
+  const appears = getAppearsIn(facility);
+
+  if (preferred) {
+    const exact = appears.find((x) => x.state === stateSlug && x.city === preferred);
+    if (exact?.city) return titleCaseFromSlug(exact.city);
+  }
+
+  const stateMatch = appears.find((x) => x.state === stateSlug && x.city);
+  if (stateMatch?.city) return titleCaseFromSlug(stateMatch.city);
+
+  const anyCity = appears.find((x) => x.city);
+  if (anyCity?.city) return titleCaseFromSlug(anyCity.city);
+
+  return "";
+}
+
+function buildNearbyFacilitiesHtml({ facility, poolFacilities, state, city }) {
+  const currentId = cleanString(facility?.id || "");
+  const currentType = cleanSlug(facility?.type || "");
+  const stateSlug = cleanSlug(state || "");
+  const citySlug = cleanSlug(city || "");
+
+  const candidates = [];
+  for (const row of coerceArray(poolFacilities)) {
+    const id = cleanString(row?.id || "");
+    if (!id || id === currentId) continue;
+
+    const name = cleanString(row?.name || "Unnamed site");
+    const sameCity = citySlug ? facilityAppearsInLocation(row, stateSlug, citySlug) : false;
+    const sameState = matchesState(row, stateSlug);
+    if (!sameCity && !sameState) continue;
+
+    const rowType = cleanSlug(row?.type || "");
+    let score = 0;
+    if (sameCity) score += 200;
+    else if (sameState) score += 90;
+    if (currentType && rowType && currentType === rowType) score += 40;
+    if (cleanString(row?.verified_date || "")) score += 10;
+    if (cleanString(row?.address || "")) score += 5;
+
+    const cityLabel = getFacilityDisplayCity(row, stateSlug, citySlug);
+    candidates.push({ id, name, cityLabel, score });
+  }
+
+  candidates.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return a.name.localeCompare(b.name);
+  });
+
+  const top = candidates.slice(0, 8);
+  if (top.length === 0) {
+    if (stateSlug && citySlug) {
+      return `<a class="cityhub__pill" href="/${escapeHtml(stateSlug)}/${escapeHtml(citySlug)}/">See all ${escapeHtml(titleCaseFromSlug(citySlug))} facilities</a>`;
+    }
+    if (stateSlug) {
+      return `<a class="cityhub__pill" href="/${escapeHtml(stateSlug)}/">Browse ${escapeHtml(titleCaseFromSlug(stateSlug))} facilities</a>`;
+    }
+    return "";
+  }
+
+  return top
+    .map((x) => {
+      const label = x.cityLabel ? `${x.name} (${x.cityLabel})` : x.name;
+      return `<a class="cityhub__pill" href="/facility/${encodeURIComponent(x.id)}/">${escapeHtml(label)}</a>`;
+    })
+    .join("");
+}
+
 function buildServerRenderedVerifiedHtml(facility) {
   const hours = cleanString(facility?.hours || "");
   const fees = cleanString(facility?.fees || "");
@@ -453,7 +543,7 @@ function buildServerRenderedVerifiedHtml(facility) {
 `.trim();
 }
 
-function injectServerRenderedFacilityContent(html, facility) {
+function injectServerRenderedFacilityContent(html, facility, poolFacilities, state, city) {
   const name = cleanString(facility?.name || "Unnamed site");
   const type = typeLabelDisplay(facility?.type);
   const address = cleanString(facility?.address || "Address not provided");
@@ -493,6 +583,8 @@ function injectServerRenderedFacilityContent(html, facility) {
 
   const cityPills = buildCityPillsHtml(facility);
   if (cityPills) out = replaceElementHtmlById(out, "facilityCities", cityPills);
+  const nearbyFacilities = buildNearbyFacilitiesHtml({ facility, poolFacilities, state, city });
+  if (nearbyFacilities) out = replaceElementHtmlById(out, "facilityNearby", nearbyFacilities);
 
   const verifiedHtml = buildServerRenderedVerifiedHtml(facility);
   if (verifiedHtml && out.includes("</p>")) {
@@ -603,7 +695,7 @@ function run() {
     outputHtml = injectHeadMeta(outputHtml, meta);
     outputHtml = injectJsonLd(outputHtml, buildJsonLd({ facility, meta, state }));
     outputHtml = injectBodySeed(outputHtml, state, city);
-    outputHtml = injectServerRenderedFacilityContent(outputHtml, facility);
+    outputHtml = injectServerRenderedFacilityContent(outputHtml, facility, filtered, state, city);
 
     const outDir = path.join(OUTPUT_BASE, "facility", id);
     const outFile = path.join(outDir, "index.html");

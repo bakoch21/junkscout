@@ -7,17 +7,7 @@
     "lng": -106.2742016,
     "website": null,
     "source": null,
-    "facility_id": "f_7e3b2858f9e1"
-  },
-  {
-    "name": "Pull-A-Part",
-    "type": "recycling",
-    "address": "12000 Montana Avenue El Paso City TX",
-    "lat": 31.8018486,
-    "lng": -106.2742016,
-    "website": null,
-    "source": null,
-    "facility_id": "f_7e3b2858f9e1"
+    "facility_id": "f_2545e1a118bc"
   },
   {
     "name": "Recicladora Fenix",
@@ -27,27 +17,7 @@
     "lng": -106.4297797,
     "website": null,
     "source": null,
-    "facility_id": "f_e4434c595a4b"
-  },
-  {
-    "name": "Recicladora Fenix",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.6526946,
-    "lng": -106.4297797,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e4434c595a4b"
-  },
-  {
-    "name": "Yonke",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.6907705,
-    "lng": -106.3832234,
-    "website": null,
-    "source": null,
-    "facility_id": "f_02694e431077"
+    "facility_id": "f_54abf278b987"
   },
   {
     "name": "Yonke",

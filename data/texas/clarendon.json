@@ -8,15 +8,5 @@
     "website": null,
     "source": null,
     "facility_id": "f_53a7e7840943"
-  },
-  {
-    "name": "CITY OF CLARENDON TRANSFER STATION",
-    "type": "transfer_station",
-    "address": "400 N FRONT ST CLARENDON TX 79226",
-    "lat": 34.89,
-    "lng": -99.89,
-    "website": null,
-    "source": null,
-    "facility_id": "f_53a7e7840943"
   }
 ]

@@ -2,1396 +2,1491 @@
   {
     "state": "texas",
     "city": "abernathy",
-    "query": "Abernathy, Texas"
+    "query": "abernathy, Texas, USA"
   },
   {
     "state": "texas",
     "city": "abilene",
-    "query": "Abilene, Texas"
+    "query": "abilene, Texas, USA"
   },
   {
     "state": "texas",
     "city": "acres-spur",
-    "query": "Acres Spur, Texas"
+    "query": "ACRES SPUR, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "adj-killeen",
+    "query": "adj-killeen, Texas, USA"
   },
   {
     "state": "texas",
     "city": "aledo",
-    "query": "Aledo, Texas"
+    "query": "ALEDO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "alice",
-    "query": "Alice, Texas"
+    "query": "ALICE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "alpine",
-    "query": "Alpine, Texas"
+    "query": "ALPINE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "alvarado",
-    "query": "Alvarado, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "alvin",
-    "query": "Alvin, Texas"
+    "query": "ALVARADO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "alvin-texas-alvin",
-    "query": "Alvin Texas Alvin, Texas"
+    "query": "alvin-texas-alvin, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "alvin",
+    "query": "alvin, Texas, USA"
   },
   {
     "state": "texas",
     "city": "amarillo",
-    "query": "Amarillo, Texas"
+    "query": "amarillo, Texas, USA"
   },
   {
     "state": "texas",
     "city": "amherst",
-    "query": "Amherst, Texas"
+    "query": "amherst, Texas, USA"
   },
   {
     "state": "texas",
     "city": "anahuac",
-    "query": "Anahuac, Texas"
+    "query": "anahuac, Texas, USA"
   },
   {
     "state": "texas",
     "city": "anderson",
-    "query": "Anderson, Texas"
+    "query": "ANDERSON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "andrews",
-    "query": "Andrews, Texas"
+    "query": "andrews, Texas, USA"
   },
   {
     "state": "texas",
     "city": "angelo",
-    "query": "Angelo, Texas"
+    "query": "ANGELO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "angleton",
-    "query": "Angleton, Texas"
+    "query": "angleton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "anson",
-    "query": "Anson, Texas"
+    "query": "ANSON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "antonio",
-    "query": "Antonio, Texas"
+    "query": "ANTONIO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "arlington",
-    "query": "Arlington, Texas"
+    "query": "ARLINGTON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "arthur",
-    "query": "Arthur, Texas"
+    "query": "ARTHUR, Texas, USA"
   },
   {
     "state": "texas",
     "city": "austin",
-    "query": "Austin, Texas"
+    "query": "austin, Texas, USA"
   },
   {
     "state": "texas",
     "city": "avalon",
-    "query": "Avalon, Texas"
+    "query": "avalon, Texas, USA"
   },
   {
     "state": "texas",
     "city": "aviation-way-el-paso",
-    "query": "Aviation Way El Paso, Texas"
+    "query": "aviation-way-el-paso, Texas, USA"
   },
   {
     "state": "texas",
     "city": "baird",
-    "query": "Baird, Texas"
+    "query": "BAIRD, Texas, USA"
   },
   {
     "state": "texas",
     "city": "ballinger",
-    "query": "Ballinger, Texas"
+    "query": "ballinger, Texas, USA"
   },
   {
     "state": "texas",
     "city": "bay-city",
-    "query": "Bay City, Texas"
+    "query": "BAY CITY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "baytown",
-    "query": "Baytown, Texas"
+    "query": "BAYTOWN, Texas, USA"
   },
   {
     "state": "texas",
     "city": "beaumont",
-    "query": "Beaumont, Texas"
+    "query": "beaumont, Texas, USA"
   },
   {
     "state": "texas",
     "city": "bend-national",
-    "query": "Bend National, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "big-lake",
-    "query": "Big Lake, Texas"
+    "query": "bend-national, Texas, USA"
   },
   {
     "state": "texas",
     "city": "big-sandy",
-    "query": "Big Sandy, Texas"
+    "query": "BIG SANDY, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "big-lake",
+    "query": "big-lake, Texas, USA"
   },
   {
     "state": "texas",
     "city": "big-spring",
-    "query": "Big Spring, Texas"
+    "query": "big-spring, Texas, USA"
   },
   {
     "state": "texas",
     "city": "blanca-sierra-blanca",
-    "query": "Blanca Sierra Blanca, Texas"
+    "query": "blanca-sierra-blanca, Texas, USA"
   },
   {
     "state": "texas",
     "city": "bliss",
-    "query": "Bliss, Texas"
+    "query": "bliss, Texas, USA"
   },
   {
     "state": "texas",
     "city": "bloomington",
-    "query": "Bloomington, Texas"
+    "query": "bloomington, Texas, USA"
   },
   {
     "state": "texas",
     "city": "blossom",
-    "query": "Blossom, Texas"
+    "query": "BLOSSOM, Texas, USA"
   },
   {
     "state": "texas",
     "city": "bonham",
-    "query": "Bonham, Texas"
+    "query": "bonham, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "booker",
+    "query": "BOOKER, Texas, USA"
   },
   {
     "state": "texas",
     "city": "borger",
-    "query": "Borger, Texas"
+    "query": "borger, Texas, USA"
   },
   {
     "state": "texas",
     "city": "bowie",
-    "query": "Bowie, Texas"
+    "query": "BOWIE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "boys-ranch",
-    "query": "Boys Ranch, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "brackettville",
-    "query": "Brackettville, Texas"
+    "query": "boys-ranch, Texas, USA"
   },
   {
     "state": "texas",
     "city": "brackettville-brackettville",
-    "query": "Brackettville Brackettville, Texas"
+    "query": "brackettville-brackettville, Texas, USA"
   },
   {
     "state": "texas",
-    "city": "brady",
-    "query": "Brady, Texas"
+    "city": "brackettville",
+    "query": "brackettville, Texas, USA"
   },
   {
     "state": "texas",
     "city": "brady-brady",
-    "query": "Brady Brady, Texas"
+    "query": "brady-brady, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "brady",
+    "query": "BRADY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "branch",
-    "query": "Branch, Texas"
+    "query": "branch, Texas, USA"
   },
   {
     "state": "texas",
     "city": "braunfels",
-    "query": "Braunfels, Texas"
+    "query": "BRAUNFELS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "breckenridge",
-    "query": "Breckenridge, Texas"
+    "query": "breckenridge, Texas, USA"
   },
   {
     "state": "texas",
     "city": "brenham",
-    "query": "Brenham, Texas"
+    "query": "brenham, Texas, USA"
   },
   {
     "state": "texas",
     "city": "brookshire",
-    "query": "Brookshire, Texas"
+    "query": "brookshire, Texas, USA"
   },
   {
     "state": "texas",
     "city": "brownfield",
-    "query": "Brownfield, Texas"
+    "query": "BROWNFIELD, Texas, USA"
   },
   {
     "state": "texas",
     "city": "brownsville",
-    "query": "Brownsville, Texas"
+    "query": "brownsville, Texas, USA"
   },
   {
     "state": "texas",
     "city": "brownwood",
-    "query": "Brownwood, Texas"
+    "query": "BROWNWOOD, Texas, USA"
   },
   {
     "state": "texas",
     "city": "bryan",
-    "query": "Bryan, Texas"
+    "query": "bryan, Texas, USA"
   },
   {
     "state": "texas",
     "city": "buda",
-    "query": "Buda, Texas"
+    "query": "buda, Texas, USA"
   },
   {
     "state": "texas",
     "city": "burnet",
-    "query": "Burnet, Texas"
+    "query": "BURNET, Texas, USA"
   },
   {
     "state": "texas",
     "city": "business-park-port-arthur",
-    "query": "Business Park Port Arthur, Texas"
+    "query": "business-park-port-arthur, Texas, USA"
   },
   {
     "state": "texas",
     "city": "cactus",
-    "query": "Cactus, Texas"
+    "query": "cactus, Texas, USA"
   },
   {
     "state": "texas",
     "city": "campbell",
-    "query": "Campbell, Texas"
+    "query": "campbell, Texas, USA"
   },
   {
     "state": "texas",
     "city": "canadian",
-    "query": "Canadian, Texas"
+    "query": "canadian, Texas, USA"
   },
   {
     "state": "texas",
     "city": "canton",
-    "query": "Canton, Texas"
+    "query": "canton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "canyon",
-    "query": "Canyon, Texas"
+    "query": "CANYON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "carrizo-springs",
-    "query": "Carrizo Springs, Texas"
+    "query": "CARRIZO SPRINGS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "carrollton",
-    "query": "Carrollton, Texas"
+    "query": "carrollton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "carthage",
-    "query": "Carthage, Texas"
+    "query": "carthage, Texas, USA"
   },
   {
     "state": "texas",
     "city": "castro-dimmitt",
-    "query": "Castro Dimmitt, Texas"
+    "query": "castro-dimmitt, Texas, USA"
   },
   {
     "state": "texas",
     "city": "cedar-creek",
-    "query": "Cedar Creek, Texas"
+    "query": "CEDAR CREEK, Texas, USA"
   },
   {
     "state": "texas",
     "city": "celina",
-    "query": "Celina, Texas"
+    "query": "CELINA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "center",
-    "query": "Center, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "childress",
-    "query": "Childress, Texas"
+    "query": "center, Texas, USA"
   },
   {
     "state": "texas",
     "city": "childress-childress-childress",
-    "query": "Childress Childress Childress, Texas"
+    "query": "childress-childress-childress, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "childress",
+    "query": "CHILDRESS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "christi",
-    "query": "Christi, Texas"
+    "query": "christi, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "city-crystal-city",
+    "query": "city-crystal-city, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "city-rio-grande-city",
+    "query": "city-rio-grande-city, Texas, USA"
   },
   {
     "state": "texas",
     "city": "city",
-    "query": "City, Texas"
+    "query": "CITY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "clarendon",
-    "query": "Clarendon, Texas"
+    "query": "clarendon, Texas, USA"
   },
   {
     "state": "texas",
     "city": "cleburne",
-    "query": "Cleburne, Texas"
+    "query": "CLEBURNE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "cleveland",
-    "query": "Cleveland, Texas"
+    "query": "cleveland, Texas, USA"
   },
   {
     "state": "texas",
     "city": "coleman",
-    "query": "Coleman, Texas"
+    "query": "coleman, Texas, USA"
   },
   {
     "state": "texas",
     "city": "colorado-city",
-    "query": "Colorado City, Texas"
+    "query": "COLORADO CITY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "conroe",
-    "query": "Conroe, Texas"
+    "query": "CONROE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "copperas-cove",
-    "query": "Copperas Cove, Texas"
+    "query": "copperas-cove, Texas, USA"
   },
   {
     "state": "texas",
     "city": "corpus-christi",
-    "query": "Corpus Christi, Texas"
+    "query": "corpus-christi, Texas, USA"
   },
   {
     "state": "texas",
     "city": "corsicana",
-    "query": "Corsicana, Texas"
+    "query": "CORSICANA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "coste",
-    "query": "Coste, Texas"
+    "query": "COSTE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "cottle-paducah",
-    "query": "Cottle Paducah, Texas"
+    "query": "cottle-paducah, Texas, USA"
   },
   {
     "state": "texas",
     "city": "cotulla",
-    "query": "Cotulla, Texas"
+    "query": "COTULLA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "crane",
-    "query": "Crane, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "creedmoor",
-    "query": "Creedmoor, Texas"
+    "query": "crane, Texas, USA"
   },
   {
     "state": "texas",
     "city": "creedmoor-texas-creedmoor",
-    "query": "Creedmoor Texas Creedmoor, Texas"
+    "query": "creedmoor-texas-creedmoor, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "creedmoor",
+    "query": "CREEDMOOR, Texas, USA"
   },
   {
     "state": "texas",
     "city": "creekview-san-antonio",
-    "query": "Creekview San Antonio, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "crockett",
-    "query": "Crockett, Texas"
+    "query": "creekview-san-antonio, Texas, USA"
   },
   {
     "state": "texas",
     "city": "crockett-tx-crockett",
-    "query": "Crockett Tx Crockett, Texas"
+    "query": "crockett-tx-crockett, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "crockett",
+    "query": "CROCKETT, Texas, USA"
   },
   {
     "state": "texas",
     "city": "cross-plains",
-    "query": "Cross Plains, Texas"
+    "query": "cross-plains, Texas, USA"
   },
   {
     "state": "texas",
     "city": "crowell",
-    "query": "Crowell, Texas"
+    "query": "CROWELL, Texas, USA"
   },
   {
     "state": "texas",
     "city": "crystal-city",
-    "query": "Crystal City, Texas"
+    "query": "CRYSTAL CITY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "dale",
-    "query": "Dale, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "dalhart",
-    "query": "Dalhart, Texas"
+    "query": "dale, Texas, USA"
   },
   {
     "state": "texas",
     "city": "dalhart-dalhart",
-    "query": "Dalhart Dalhart, Texas"
+    "query": "dalhart-dalhart, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "dalhart",
+    "query": "DALHART, Texas, USA"
   },
   {
     "state": "texas",
     "city": "dallas",
-    "query": "Dallas, Texas"
+    "query": "dallas, Texas, USA"
   },
   {
     "state": "texas",
     "city": "deer-park",
-    "query": "Deer Park, Texas"
+    "query": "deer-park, Texas, USA"
   },
   {
     "state": "texas",
     "city": "denton",
-    "query": "Denton, Texas"
+    "query": "denton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "deweyville",
-    "query": "Deweyville, Texas"
+    "query": "DEWEYVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "dimmit-carrizo-springs",
-    "query": "Dimmit Carrizo Springs, Texas"
+    "query": "dimmit-carrizo-springs, Texas, USA"
   },
   {
     "state": "texas",
     "city": "dimmitt",
-    "query": "Dimmitt, Texas"
+    "query": "dimmitt, Texas, USA"
   },
   {
     "state": "texas",
     "city": "dumas",
-    "query": "Dumas, Texas"
+    "query": "dumas, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "e-fort-stockton-fort-stockton",
+    "query": "e-fort-stockton-fort-stockton, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "e-henderson",
+    "query": "e-henderson, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "e-san-antonio",
+    "query": "e-san-antonio, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "e-texline",
+    "query": "e-texline, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "e-winters",
+    "query": "e-winters, Texas, USA"
   },
   {
     "state": "texas",
     "city": "eagle-pass",
-    "query": "Eagle Pass, Texas"
+    "query": "eagle-pass, Texas, USA"
   },
   {
     "state": "texas",
     "city": "edinburg",
-    "query": "Edinburg, Texas"
+    "query": "edinburg, Texas, USA"
   },
   {
     "state": "texas",
     "city": "edna",
-    "query": "Edna, Texas"
+    "query": "edna, Texas, USA"
   },
   {
     "state": "texas",
     "city": "el-indio",
-    "query": "El Indio, Texas"
+    "query": "EL INDIO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "el-paso",
-    "query": "El Paso, Texas"
+    "query": "el-paso, Texas, USA"
   },
   {
     "state": "texas",
     "city": "eldorado",
-    "query": "Eldorado, Texas"
+    "query": "ELDORADO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "elmendorf",
-    "query": "Elmendorf, Texas"
+    "query": "elmendorf, Texas, USA"
   },
   {
     "state": "texas",
     "city": "ennis",
-    "query": "Ennis, Texas"
+    "query": "ennis, Texas, USA"
   },
   {
     "state": "texas",
     "city": "falfurrias",
-    "query": "Falfurrias, Texas"
+    "query": "FALFURRIAS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "falls",
-    "query": "Falls, Texas"
+    "query": "falls, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "feet-e-stratford",
+    "query": "feet-e-stratford, Texas, USA"
   },
   {
     "state": "texas",
     "city": "feria",
-    "query": "Feria, Texas"
+    "query": "feria, Texas, USA"
   },
   {
     "state": "texas",
     "city": "ferris",
-    "query": "Ferris, Texas"
+    "query": "FERRIS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "floydada",
-    "query": "Floydada, Texas"
+    "query": "floydada, Texas, USA"
   },
   {
     "state": "texas",
     "city": "forest-hill",
-    "query": "Forest Hill, Texas"
+    "query": "forest-hill, Texas, USA"
   },
   {
     "state": "texas",
     "city": "fort-cavazos",
-    "query": "Fort Cavazos, Texas"
+    "query": "fort-cavazos, Texas, USA"
   },
   {
     "state": "texas",
     "city": "fort-stockton",
-    "query": "Fort Stockton, Texas"
+    "query": "fort-stockton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "fort-worth",
-    "query": "Fort Worth, Texas"
+    "query": "fort-worth, Texas, USA"
   },
   {
     "state": "texas",
     "city": "fredericksburg",
-    "query": "Fredericksburg, Texas"
+    "query": "fredericksburg, Texas, USA"
   },
   {
     "state": "texas",
     "city": "fresno",
-    "query": "Fresno, Texas"
+    "query": "fresno, Texas, USA"
   },
   {
     "state": "texas",
     "city": "frisco",
-    "query": "Frisco, Texas"
+    "query": "frisco, Texas, USA"
   },
   {
     "state": "texas",
     "city": "gainesville",
-    "query": "Gainesville, Texas"
+    "query": "GAINESVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "galveston",
-    "query": "Galveston, Texas"
+    "query": "GALVESTON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "garland",
-    "query": "Garland, Texas"
+    "query": "GARLAND, Texas, USA"
   },
   {
     "state": "texas",
     "city": "georgetown",
-    "query": "Georgetown, Texas"
+    "query": "georgetown, Texas, USA"
   },
   {
     "state": "texas",
     "city": "glen-rose",
-    "query": "Glen Rose, Texas"
+    "query": "glen-rose, Texas, USA"
   },
   {
     "state": "texas",
     "city": "godley",
-    "query": "Godley, Texas"
+    "query": "godley, Texas, USA"
   },
   {
     "state": "texas",
     "city": "goodrich",
-    "query": "Goodrich, Texas"
+    "query": "GOODRICH, Texas, USA"
   },
   {
     "state": "texas",
     "city": "grand-prairie",
-    "query": "Grand Prairie, Texas"
+    "query": "grand-prairie, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hallettsville",
-    "query": "Hallettsville, Texas"
+    "query": "HALLETTSVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "harlingen",
-    "query": "Harlingen, Texas"
+    "query": "HARLINGEN, Texas, USA"
   },
   {
     "state": "texas",
     "city": "haskell",
-    "query": "Haskell, Texas"
+    "query": "HASKELL, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hebbronville",
-    "query": "Hebbronville, Texas"
+    "query": "hebbronville, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hedley",
-    "query": "Hedley, Texas"
+    "query": "HEDLEY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hempstead",
-    "query": "Hempstead, Texas"
+    "query": "hempstead, Texas, USA"
   },
   {
     "state": "texas",
     "city": "henderson",
-    "query": "Henderson, Texas"
+    "query": "HENDERSON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hereford",
-    "query": "Hereford, Texas"
+    "query": "hereford, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hiawatha-san-antonio",
-    "query": "Hiawatha San Antonio, Texas"
+    "query": "hiawatha-san-antonio, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hico",
-    "query": "Hico, Texas"
+    "query": "hico, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hill",
-    "query": "Hill, Texas"
+    "query": "HILL, Texas, USA"
   },
   {
     "state": "texas",
     "city": "horn",
-    "query": "Horn, Texas"
+    "query": "horn, Texas, USA"
   },
   {
     "state": "texas",
     "city": "houston",
-    "query": "Houston, Texas"
+    "query": "HOUSTON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "humble",
-    "query": "Humble, Texas"
+    "query": "humble, Texas, USA"
   },
   {
     "state": "texas",
     "city": "huntsville",
-    "query": "Huntsville, Texas"
+    "query": "HUNTSVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "hutto",
-    "query": "Hutto, Texas"
+    "query": "HUTTO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "iowa-park",
-    "query": "Iowa Park, Texas"
+    "query": "iowa-park, Texas, USA"
   },
   {
     "state": "texas",
     "city": "irving",
-    "query": "Irving, Texas"
+    "query": "irving, Texas, USA"
   },
   {
     "state": "texas",
     "city": "itasca",
-    "query": "Itasca, Texas"
+    "query": "itasca, Texas, USA"
   },
   {
     "state": "texas",
     "city": "jacksonville",
-    "query": "Jacksonville, Texas"
+    "query": "JACKSONVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "jasper",
-    "query": "Jasper, Texas"
+    "query": "JASPER, Texas, USA"
   },
   {
     "state": "texas",
     "city": "johnson-city",
-    "query": "Johnson City, Texas"
+    "query": "johnson-city, Texas, USA"
   },
   {
     "state": "texas",
     "city": "junction",
-    "query": "Junction, Texas"
+    "query": "junction, Texas, USA"
   },
   {
     "state": "texas",
     "city": "kerrville",
-    "query": "Kerrville, Texas"
+    "query": "KERRVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "kilgore",
-    "query": "Kilgore, Texas"
+    "query": "KILGORE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "killeen",
-    "query": "Killeen, Texas"
+    "query": "KILLEEN, Texas, USA"
   },
   {
     "state": "texas",
     "city": "kingsville",
-    "query": "Kingsville, Texas"
+    "query": "KINGSVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "kountze",
-    "query": "Kountze, Texas"
+    "query": "KOUNTZE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "lamesa",
-    "query": "Lamesa, Texas"
+    "query": "LAMESA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "land",
-    "query": "Land, Texas"
+    "query": "land, Texas, USA"
   },
   {
     "state": "texas",
     "city": "laredo",
-    "query": "Laredo, Texas"
+    "query": "LAREDO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "leggett",
-    "query": "Leggett, Texas"
+    "query": "leggett, Texas, USA"
   },
   {
     "state": "texas",
     "city": "levelland",
-    "query": "Levelland, Texas"
+    "query": "levelland, Texas, USA"
   },
   {
     "state": "texas",
     "city": "lewisville",
-    "query": "Lewisville, Texas"
+    "query": "LEWISVILLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "littlefield",
-    "query": "Littlefield, Texas"
+    "query": "littlefield, Texas, USA"
   },
   {
     "state": "texas",
     "city": "lockhart",
-    "query": "Lockhart, Texas"
+    "query": "LOCKHART, Texas, USA"
   },
   {
     "state": "texas",
     "city": "loma",
-    "query": "Loma, Texas"
+    "query": "LOMA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "longview",
-    "query": "Longview, Texas"
+    "query": "longview, Texas, USA"
   },
   {
     "state": "texas",
     "city": "lubbock",
-    "query": "Lubbock, Texas"
+    "query": "lubbock, Texas, USA"
   },
   {
     "state": "texas",
     "city": "lufkin",
-    "query": "Lufkin, Texas"
+    "query": "lufkin, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mansfield",
-    "query": "Mansfield, Texas"
+    "query": "MANSFIELD, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mason",
-    "query": "Mason, Texas"
+    "query": "MASON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "matador",
-    "query": "Matador, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "mcallen",
-    "query": "Mcallen, Texas"
+    "query": "MATADOR, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mcallen-mcallen",
-    "query": "Mcallen Mcallen, Texas"
+    "query": "mcallen-mcallen, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "mcallen",
+    "query": "MCALLEN, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mccamey-tx-mccamey",
-    "query": "Mccamey Tx Mccamey, Texas"
+    "query": "mccamey-tx-mccamey, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mckinney",
-    "query": "Mckinney, Texas"
+    "query": "mckinney, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mclean",
-    "query": "Mclean, Texas"
+    "query": "mclean, Texas, USA"
   },
   {
     "state": "texas",
     "city": "meadow",
-    "query": "Meadow, Texas"
+    "query": "meadow, Texas, USA"
   },
   {
     "state": "texas",
     "city": "melissa",
-    "query": "Melissa, Texas"
+    "query": "melissa, Texas, USA"
   },
   {
     "state": "texas",
     "city": "memphis",
-    "query": "Memphis, Texas"
+    "query": "memphis, Texas, USA"
   },
   {
     "state": "texas",
     "city": "menard",
-    "query": "Menard, Texas"
+    "query": "menard, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mercedes",
-    "query": "Mercedes, Texas"
+    "query": "MERCEDES, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mesquite",
-    "query": "Mesquite, Texas"
+    "query": "mesquite, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mexia",
-    "query": "Mexia, Texas"
+    "query": "mexia, Texas, USA"
   },
   {
     "state": "texas",
     "city": "midland",
-    "query": "Midland, Texas"
+    "query": "midland, Texas, USA"
   },
   {
     "state": "texas",
     "city": "monahans",
-    "query": "Monahans, Texas"
+    "query": "MONAHANS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "monroe-city",
-    "query": "Monroe City, Texas"
+    "query": "MONROE CITY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "mt-pleasant",
-    "query": "Mt Pleasant, Texas"
+    "query": "MT PLEASANT, Texas, USA"
   },
   {
     "state": "texas",
     "city": "muleshoe",
-    "query": "Muleshoe, Texas"
+    "query": "muleshoe, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "n-tyler",
+    "query": "n-tyler, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "n-vernon",
+    "query": "n-vernon, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "n-victoria",
+    "query": "n-victoria, Texas, USA"
   },
   {
     "state": "texas",
     "city": "nacogdoches",
-    "query": "Nacogdoches, Texas"
+    "query": "nacogdoches, Texas, USA"
   },
   {
     "state": "texas",
     "city": "needville",
-    "query": "Needville, Texas"
+    "query": "needville, Texas, USA"
   },
   {
     "state": "texas",
     "city": "new-boston",
-    "query": "New Boston, Texas"
+    "query": "new-boston, Texas, USA"
   },
   {
     "state": "texas",
     "city": "new-braunfels",
-    "query": "New Braunfels, Texas"
+    "query": "new-braunfels, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "north-san-antonio",
+    "query": "north-san-antonio, Texas, USA"
   },
   {
     "state": "texas",
     "city": "odessa",
-    "query": "Odessa, Texas"
+    "query": "ODESSA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "olton",
-    "query": "Olton, Texas"
+    "query": "olton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "paducah",
-    "query": "Paducah, Texas"
+    "query": "PADUCAH, Texas, USA"
   },
   {
     "state": "texas",
     "city": "palestine",
-    "query": "Palestine, Texas"
+    "query": "PALESTINE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "pampa",
-    "query": "Pampa, Texas"
+    "query": "PAMPA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "park",
-    "query": "Park, Texas"
+    "query": "PARK, Texas, USA"
   },
   {
     "state": "texas",
     "city": "pasadena",
-    "query": "Pasadena, Texas"
+    "query": "pasadena, Texas, USA"
   },
   {
     "state": "texas",
     "city": "paso",
-    "query": "Paso, Texas"
+    "query": "PASO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "pearland",
-    "query": "Pearland, Texas"
+    "query": "pearland, Texas, USA"
   },
   {
     "state": "texas",
     "city": "perryton",
-    "query": "Perryton, Texas"
+    "query": "perryton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "pickton",
-    "query": "Pickton, Texas"
+    "query": "pickton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "pittsburg",
-    "query": "Pittsburg, Texas"
+    "query": "pittsburg, Texas, USA"
   },
   {
     "state": "texas",
     "city": "plains",
-    "query": "Plains, Texas"
+    "query": "PLAINS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "plainview",
-    "query": "Plainview, Texas"
+    "query": "plainview, Texas, USA"
   },
   {
     "state": "texas",
     "city": "plano",
-    "query": "Plano, Texas"
+    "query": "PLANO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "pleasanton",
-    "query": "Pleasanton, Texas"
+    "query": "PLEASANTON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "port-arthur",
-    "query": "Port Arthur, Texas"
+    "query": "port-arthur, Texas, USA"
   },
   {
     "state": "texas",
     "city": "porte",
-    "query": "Porte, Texas"
+    "query": "PORTE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "post",
-    "query": "Post, Texas"
-  },
-  {
-    "state": "texas",
-    "city": "prairie",
-    "query": "Prairie, Texas"
+    "query": "post, Texas, USA"
   },
   {
     "state": "texas",
     "city": "prairie-fulton",
-    "query": "Prairie Fulton, Texas"
+    "query": "prairie-fulton, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "prairie",
+    "query": "prairie, Texas, USA"
   },
   {
     "state": "texas",
     "city": "presidio",
-    "query": "Presidio, Texas"
+    "query": "presidio, Texas, USA"
   },
   {
     "state": "texas",
     "city": "quanah",
-    "query": "Quanah, Texas"
+    "query": "quanah, Texas, USA"
   },
   {
     "state": "texas",
     "city": "railroad-sanger",
-    "query": "Railroad Sanger, Texas"
+    "query": "railroad-sanger, Texas, USA"
   },
   {
     "state": "texas",
     "city": "railway-del-rio",
-    "query": "Railway Del Rio, Texas"
+    "query": "RAILWAY DEL RIO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "ranch",
-    "query": "Ranch, Texas"
+    "query": "RANCH, Texas, USA"
   },
   {
     "state": "texas",
     "city": "rankin",
-    "query": "Rankin, Texas"
+    "query": "rankin, Texas, USA"
   },
   {
     "state": "texas",
     "city": "republic-way-avalon",
-    "query": "Republic Way Avalon, Texas"
+    "query": "REPUBLIC WAY AVALON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "richardson",
-    "query": "Richardson, Texas"
+    "query": "RICHARDSON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "robstown",
-    "query": "Robstown, Texas"
+    "query": "ROBSTOWN, Texas, USA"
   },
   {
     "state": "texas",
     "city": "roma",
-    "query": "Roma, Texas"
+    "query": "ROMA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "rosenberg",
-    "query": "Rosenberg, Texas"
+    "query": "rosenberg, Texas, USA"
   },
   {
     "state": "texas",
     "city": "round-rock",
-    "query": "Round Rock, Texas"
+    "query": "round-rock, Texas, USA"
   },
   {
     "state": "texas",
     "city": "rowlett",
-    "query": "Rowlett, Texas"
+    "query": "ROWLETT, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "s-sully-clarendon",
+    "query": "s-sully-clarendon, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "s-woodville",
+    "query": "s-woodville, Texas, USA"
   },
   {
     "state": "texas",
     "city": "saba",
-    "query": "Saba, Texas"
+    "query": "saba, Texas, USA"
   },
   {
     "state": "texas",
     "city": "san-angelo",
-    "query": "San Angelo, Texas"
+    "query": "san-angelo, Texas, USA"
   },
   {
     "state": "texas",
     "city": "san-antonio",
-    "query": "San Antonio, Texas"
+    "query": "san-antonio, Texas, USA"
   },
   {
     "state": "texas",
     "city": "san-diego-san-diego",
-    "query": "San Diego San Diego, Texas"
+    "query": "san-diego-san-diego, Texas, USA"
   },
   {
     "state": "texas",
     "city": "san-marcos",
-    "query": "San Marcos, Texas"
+    "query": "san-marcos, Texas, USA"
   },
   {
     "state": "texas",
     "city": "sanderson",
-    "query": "Sanderson, Texas"
+    "query": "sanderson, Texas, USA"
   },
   {
     "state": "texas",
     "city": "schertz",
-    "query": "Schertz, Texas"
+    "query": "schertz, Texas, USA"
   },
   {
     "state": "texas",
     "city": "seguin",
-    "query": "Seguin, Texas"
+    "query": "seguin, Texas, USA"
   },
   {
     "state": "texas",
     "city": "seminole",
-    "query": "Seminole, Texas"
+    "query": "SEMINOLE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "seymour",
-    "query": "Seymour, Texas"
+    "query": "SEYMOUR, Texas, USA"
   },
   {
     "state": "texas",
     "city": "shady-trl-dallas",
-    "query": "Shady Trl Dallas, Texas"
+    "query": "SHADY TRL DALLAS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "shamrock",
-    "query": "Shamrock, Texas"
+    "query": "shamrock, Texas, USA"
   },
   {
     "state": "texas",
     "city": "sherman",
-    "query": "Sherman, Texas"
+    "query": "sherman, Texas, USA"
   },
   {
     "state": "texas",
     "city": "snyder",
-    "query": "Snyder, Texas"
+    "query": "snyder, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "south-victoria",
+    "query": "south-victoria, Texas, USA"
   },
   {
     "state": "texas",
     "city": "spearman",
-    "query": "Spearman, Texas"
+    "query": "SPEARMAN, Texas, USA"
   },
   {
     "state": "texas",
     "city": "spring",
-    "query": "Spring, Texas"
+    "query": "SPRING, Texas, USA"
   },
   {
     "state": "texas",
     "city": "springs",
-    "query": "Springs, Texas"
+    "query": "SPRINGS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "stamford",
-    "query": "Stamford, Texas"
+    "query": "stamford, Texas, USA"
   },
   {
     "state": "texas",
     "city": "stanton",
-    "query": "Stanton, Texas"
+    "query": "stanton, Texas, USA"
   },
   {
     "state": "texas",
     "city": "stephenville",
-    "query": "Stephenville, Texas"
+    "query": "stephenville, Texas, USA"
   },
   {
     "state": "texas",
     "city": "stockton",
-    "query": "Stockton, Texas"
+    "query": "STOCKTON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "sudan",
-    "query": "Sudan, Texas"
+    "query": "sudan, Texas, USA"
   },
   {
     "state": "texas",
     "city": "sully-clarendon",
-    "query": "Sully Clarendon, Texas"
+    "query": "SULLY CLARENDON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "sundown",
-    "query": "Sundown, Texas"
+    "query": "SUNDOWN, Texas, USA"
   },
   {
     "state": "texas",
     "city": "sweetwater",
-    "query": "Sweetwater, Texas"
+    "query": "sweetwater, Texas, USA"
   },
   {
     "state": "texas",
     "city": "tahoka",
-    "query": "Tahoka, Texas"
+    "query": "TAHOKA, Texas, USA"
   },
   {
     "state": "texas",
     "city": "temple",
-    "query": "Temple, Texas"
+    "query": "temple, Texas, USA"
   },
   {
     "state": "texas",
     "city": "tennessee-colony",
-    "query": "Tennessee Colony, Texas"
+    "query": "TENNESSEE COLONY, Texas, USA"
   },
   {
     "state": "texas",
     "city": "texas-creedmoor",
-    "query": "Texas Creedmoor, Texas"
+    "query": "TEXAS CREEDMOOR, Texas, USA"
   },
   {
     "state": "texas",
     "city": "texline",
-    "query": "Texline, Texas"
+    "query": "TEXLINE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "the-woodlands",
-    "query": "The Woodlands, Texas"
+    "query": "the-woodlands, Texas, USA"
   },
   {
     "state": "texas",
     "city": "tilden",
-    "query": "Tilden, Texas"
+    "query": "tilden, Texas, USA"
   },
   {
     "state": "texas",
     "city": "tyler",
-    "query": "Tyler, Texas"
+    "query": "TYLER, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "unknown",
+    "query": "unknown, Texas, USA"
   },
   {
     "state": "texas",
     "city": "uvalde",
-    "query": "Uvalde, Texas"
+    "query": "UVALDE, Texas, USA"
   },
   {
     "state": "texas",
     "city": "vernon",
-    "query": "Vernon, Texas"
+    "query": "VERNON, Texas, USA"
   },
   {
     "state": "texas",
     "city": "victoria",
-    "query": "Victoria, Texas"
+    "query": "victoria, Texas, USA"
   },
   {
     "state": "texas",
     "city": "vleck",
-    "query": "Vleck, Texas"
+    "query": "VLECK, Texas, USA"
+  },
+  {
+    "state": "texas",
+    "city": "w-waco",
+    "query": "w-waco, Texas, USA"
   },
   {
     "state": "texas",
     "city": "waco",
-    "query": "Waco, Texas"
+    "query": "waco, Texas, USA"
   },
   {
     "state": "texas",
     "city": "weatherford",
-    "query": "Weatherford, Texas"
+    "query": "weatherford, Texas, USA"
   },
   {
     "state": "texas",
     "city": "weimar",
-    "query": "Weimar, Texas"
+    "query": "WEIMAR, Texas, USA"
   },
   {
     "state": "texas",
     "city": "weslaco",
-    "query": "Weslaco, Texas"
+    "query": "WESLACO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "whitesboro",
-    "query": "Whitesboro, Texas"
+    "query": "WHITESBORO, Texas, USA"
   },
   {
     "state": "texas",
     "city": "wichita-falls",
-    "query": "Wichita Falls, Texas"
+    "query": "wichita-falls, Texas, USA"
   },
   {
     "state": "texas",
     "city": "wilmer",
-    "query": "Wilmer, Texas"
+    "query": "WILMER, Texas, USA"
   },
   {
     "state": "texas",
     "city": "wimberley",
-    "query": "Wimberley, Texas"
+    "query": "wimberley, Texas, USA"
   },
   {
     "state": "texas",
     "city": "winters",
-    "query": "Winters, Texas"
+    "query": "WINTERS, Texas, USA"
   },
   {
     "state": "texas",
     "city": "wire-way-dallas",
-    "query": "Wire Way Dallas, Texas"
+    "query": "wire-way-dallas, Texas, USA"
   },
   {
     "state": "texas",
     "city": "woodville",
-    "query": "Woodville, Texas"
+    "query": "woodville, Texas, USA"
   },
   {
     "state": "texas",
     "city": "worth",
-    "query": "Worth, Texas"
+    "query": "worth, Texas, USA"
   },
   {
     "state": "texas",
     "city": "ygnacio",
-    "query": "Ygnacio, Texas"
+    "query": "YGNACIO, Texas, USA"
   }
 ]

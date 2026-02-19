@@ -10,16 +10,6 @@
     "facility_id": "f_36e5b31e1352"
   },
   {
-    "name": "CITY OF VICTORIA LANDFILL",
-    "type": "landfill",
-    "address": "18545 FM 1686 VICTORIA TX 77905",
-    "lat": 28.69,
-    "lng": -96.91,
-    "website": null,
-    "source": null,
-    "facility_id": "f_36e5b31e1352"
-  },
-  {
     "name": "CITY OF VICTORIA LANDFILL GAS TREATMENT FACILITY",
     "type": "landfill",
     "address": "18545 FM 1686 VICTORIA TX 77905",
@@ -28,26 +18,6 @@
     "website": null,
     "source": null,
     "facility_id": "f_50dfe6b57f34"
-  },
-  {
-    "name": "CITY OF VICTORIA LANDFILL GAS TREATMENT FACILITY",
-    "type": "landfill",
-    "address": "18545 FM 1686 VICTORIA TX 77905",
-    "lat": 28.69,
-    "lng": -96.91,
-    "website": null,
-    "source": null,
-    "facility_id": "f_50dfe6b57f34"
-  },
-  {
-    "name": "Texas Port Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 28.784863,
-    "lng": -96.9738615,
-    "website": null,
-    "source": null,
-    "facility_id": "f_4d458382c26d"
   },
   {
     "name": "Texas Port Recycling",
@@ -67,7 +37,7 @@
     "lng": -96.94,
     "website": null,
     "source": null,
-    "facility_id": "f_2d3b0db2c1c8"
+    "facility_id": "f_8ca3dc16431e"
   },
   {
     "name": "VICTORIA REGIONAL WASTEWATER TREATMENT PLANT",
@@ -77,6 +47,6 @@
     "lng": -97.01,
     "website": null,
     "source": null,
-    "facility_id": "f_5c6c239abd00"
+    "facility_id": "f_637b4300c309"
   }
 ]
