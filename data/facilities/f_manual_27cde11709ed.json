@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_27cde11709ed",
+  "name": "City of Mesquite Recycling and Compost Center",
+  "type": "recycling",
+  "type_label": "Recycling / Compost Center",
+  "address": "3550 Lawson Rd, Mesquite, TX 75181",
+  "phone": "972-216-6284",
+  "hours": "Check official page for current operating hours.",
+  "fees": "Fees may apply depending on residency and load type.",
+  "rules": "Confirm eligibility and accepted load types before visiting.",
+  "accepted_materials": [
+    "Yard waste",
+    "Recyclables",
+    "Compost-eligible material"
+  ],
+  "not_accepted": [
+    "Hazardous chemicals",
+    "Unsorted restricted materials"
+  ],
+  "verified_date": "2026-02-19",
+  "source": "https://www.cityofmesquite.com/376/Solid-Waste",
+  "osm_url": "https://www.cityofmesquite.com/376/Solid-Waste",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

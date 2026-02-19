@@ -35,15 +35,26 @@ function typeLabel(type) {
   return "Drop-off site";
 }
 
-function isHoustonFacility(f) {
+function isFacilityInCity(f, citySlug) {
+  const wanted = String(citySlug || "").toLowerCase().trim();
+  if (!wanted) return false;
+
   const appears = Array.isArray(f?.appears_in) ? f.appears_in : [];
-  const inHouston = appears.some((x) => String(x?.city || "").toLowerCase() === "houston");
-  if (inHouston) return true;
+  const inCity = appears.some((x) => String(x?.city || "").toLowerCase() === wanted);
+  if (inCity) return true;
 
   const addr = String(f?.address || "").toLowerCase();
-  if (addr.includes("houston")) return true;
+  if (addr.includes(wanted)) return true;
 
   return false;
+}
+
+function isHoustonFacility(f) {
+  return isFacilityInCity(f, "houston");
+}
+
+function isDallasFacility(f) {
+  return isFacilityInCity(f, "dallas");
 }
 
 function badgeLabel(key) {
@@ -283,10 +294,12 @@ async function loadFacility() {
 
     // Modal trigger (UI-only)
     const isHouston = isHoustonFacility(f);
+    const isDallas = isDallasFacility(f);
     window.__isHoustonFacility = isHouston;
+    window.__isDallasFacility = isDallas;
 
     if (houBtn) {
-      houBtn.style.display = isHouston ? "inline-flex" : "none";
+      houBtn.style.display = (isHouston || isDallas) ? "inline-flex" : "none";
     }
   } catch (err) {
     console.error(err);

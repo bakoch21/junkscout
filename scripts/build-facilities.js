@@ -38,10 +38,31 @@ function roundCoord(n, decimals = 5) {
   return Math.round(n * m) / m;
 }
 
+function toNum(v) {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+}
+
+function isValidCoordPair(lat, lng) {
+  if (lat === null || lng === null) return false;
+  if (lat < -90 || lat > 90) return false;
+  if (lng < -180 || lng > 180) return false;
+  if (Math.abs(lat) < 0.000001 && Math.abs(lng) < 0.000001) return false;
+  return true;
+}
+
+function getCoords(item) {
+  const lat = toNum(item?.lat ?? item?.latitude);
+  const lng = toNum(item?.lng ?? item?.lon ?? item?.longitude);
+  if (!isValidCoordPair(lat, lng)) return { lat: null, lng: null };
+  return { lat, lng };
+}
+
 function facilityKey(item) {
   // stable-ish fingerprint even if city attribution differs
-  const lat = roundCoord(item.lat);
-  const lng = roundCoord(item.lng);
+  const coords = getCoords(item);
+  const lat = coords.lat === null ? "" : roundCoord(coords.lat);
+  const lng = coords.lng === null ? "" : roundCoord(coords.lng);
   const type = normStr(item.type);
   const name = normStr(item.name);
   const address = normStr(item.address);
@@ -129,6 +150,7 @@ function main() {
 
       // Build / update canonical facility record
       const existing = facilityMap.get(id);
+      const coords = getCoords(item);
 
       const record = existing || {
         id,
@@ -136,8 +158,8 @@ function main() {
         name: item.name || "Unnamed site",
         type: item.type || "other",
         address: item.address || "",
-        lat: item.lat ?? null,
-        lng: item.lng ?? null,
+        lat: coords.lat,
+        lng: coords.lng,
         website: item.website || null,
         osm_url: item.osm_url || null,
         appears_in: [],
@@ -148,8 +170,8 @@ function main() {
       if ((!record.address || record.address.length < 6) && item.address) record.address = item.address;
       if (!record.website && item.website) record.website = item.website;
       if (!record.osm_url && item.osm_url) record.osm_url = item.osm_url;
-      if (record.lat == null && typeof item.lat === "number") record.lat = item.lat;
-      if (record.lng == null && typeof item.lng === "number") record.lng = item.lng;
+      if (record.lat == null && coords.lat != null) record.lat = coords.lat;
+      if (record.lng == null && coords.lng != null) record.lng = coords.lng;
 
       // add appears_in
       const appears = { state: STATE, city: citySlug };

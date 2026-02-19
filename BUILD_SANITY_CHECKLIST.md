@@ -14,6 +14,12 @@ If you are iterating only Houston:
 npm run build:houston
 ```
 
+If you are iterating only Dallas:
+
+```cmd
+npm run build:dallas
+```
+
 ## 2) Confirm generated files changed
 
 ```cmd
@@ -29,6 +35,7 @@ Expected during content/template/script updates:
 
 Spot-check these files exist:
 - `texas/houston/index.html`
+- `texas/dallas/index.html`
 - `facility/<some-id>/index.html`
 - `sitemap.xml`
 - `about/index.html`
@@ -78,6 +85,7 @@ Open key pages:
 - `/`
 - `/texas/`
 - `/texas/houston/`
+- `/texas/dallas/`
 - one facility page
 
 ## 8) Run smoke gate

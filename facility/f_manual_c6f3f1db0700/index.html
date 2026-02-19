@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/facility/f_manual_c6f3f1db0700/#place",
+      "name": "McCommas Bluff Landfill",
+      "url": "https://junkscout.io/facility/f_manual_c6f3f1db0700/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "TX",
+        "addressCountry": "US",
+        "streetAddress": "5100 Youngblood Rd, Dallas, TX 75241"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/facility/f_manual_c6f3f1db0700/#webpage",
+      "name": "McCommas Bluff Landfill (Dallas, TX) - Hours, Fees, Rules | JunkScout",
+      "description": "Address, map, and source links for McCommas Bluff Landfill. Always confirm fees, hours, and accepted materials before visiting.",
+      "url": "https://junkscout.io/facility/f_manual_c6f3f1db0700/",
+      "about": {
+        "@id": "https://junkscout.io/facility/f_manual_c6f3f1db0700/#place"
+      }
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="robots" content="index,follow" />
+
+  <!-- generator will replace title/description/canonical -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+  <title>McCommas Bluff Landfill (Dallas, TX) - Hours, Fees, Rules | JunkScout</title>
+  <meta name="description" content="Address, map, and source links for McCommas Bluff Landfill. Always confirm fees, hours, and accepted materials before visiting." />
+  <link rel="canonical" href="https://junkscout.io/facility/f_manual_c6f3f1db0700/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="McCommas Bluff Landfill (Dallas, TX) - Hours, Fees, Rules | JunkScout" />
+  <meta property="og:description" content="Address, map, and source links for McCommas Bluff Landfill. Always confirm fees, hours, and accepted materials before visiting." />
+  <meta property="og:url" content="https://junkscout.io/facility/f_manual_c6f3f1db0700/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="McCommas Bluff Landfill (Dallas, TX) - Hours, Fees, Rules | JunkScout" />
+  <meta name="twitter:description" content="Address, map, and source links for McCommas Bluff Landfill. Always confirm fees, hours, and accepted materials before visiting." />
+
+</head>
+
+<body data-state="texas" data-city="dallas">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-materials">Browse materials</a>
+        <a href="/texas/">Browse locations</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <p class="muted small" id="facilityKicker">Landfill</p>
+
+      <h1 id="facilityTitle">McCommas Bluff Landfill</h1>
+      <p class="subhead" id="facilitySubhead">Landfill in the area. Confirm hours, fees, and accepted materials before visiting.</p>
+
+      <!-- ✅ FACILITY BADGES (injected by facility.js) -->
+      <div id="facilityBadges"></div>
+
+      <p class="muted small" style="margin:10px 0 10px">
+        Source-linked where possible • Always confirm fees/rules before visiting
+      </p>
+
+      <section class="wizard" style="margin-top:14px">
+        <div class="wizard__row" style="grid-template-columns: 1fr 1fr 1fr; align-items:center">
+          <div>
+            <div class="label">Address</div>
+            <div id="facilityAddress" style="font-weight:700">5100 Youngblood Rd, Dallas, TX 75241</div>
+            <div class="hint" id="facilityCoords"></div>
+          </div>
+
+          <div>
+            <div class="label">Links</div>
+            <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; align-items:center">
+              <a class="link" id="facilityDirections" href="https://www.google.com/maps/search/McCommas%20Bluff%20Landfill%205100%20Youngblood%20Rd%2C%20Dallas%2C%20TX%2075241" target="_blank" rel="noopener">Directions</a>
+              <a class="link" id="facilityWebsite" href="#" target="_blank" rel="noopener" style="display:none">Website</a>
+              <a class="link" id="facilitySource" href="https://dallascityhall.com/departments/sanitation/Pages/default.aspx" target="_blank" rel="noopener" style="display:inline">Source</a>
+
+              <!-- City rules trigger (houston-modal.js will show it when appropriate) -->
+              <button
+                id="houstonRulesBtn"
+                type="button"
+                class="btn btn--ghost"
+                style="display:none; padding:8px 10px; border-radius:12px; font-weight:700"
+                aria-haspopup="dialog"
+                aria-controls="houstonModal"
+              >
+                City rules &amp; fees
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <a class="btn btn--primary btn--big" id="facilityCta" href="https://www.google.com/maps/search/McCommas%20Bluff%20Landfill%205100%20Youngblood%20Rd%2C%20Dallas%2C%20TX%2075241" target="_blank" rel="noopener">
+              Open in Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="wizard__note" style="margin-top:16px">
+          <span class="dot"></span>
+          <span>Fees, hours, and accepted materials vary — confirm with the facility directly.</span>
+        </div>
+      </section>
+
+      <section class="seo-copy" style="margin-top:26px">
+        <h2>About this facility</h2>
+        <p id="facilityAbout">This location is listed as a landfill. Rules, residency requirements, and fees vary by facility. Always confirm details directly before visiting.</p>
+<div id="verifiedDetails">
+  <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
+    <h2>Verified facility details</h2>
+    <p class="muted" style="margin-top:6px">Verified: 2026-02-19</p>
+    <div style="margin-top:10px"><strong>Hours:</strong> Check official Dallas Sanitation page for current hours.</div>
+    <div style="margin-top:8px"><strong>Fees:</strong> Fees vary by load type and residency. Confirm before arrival.</div>
+    <div style="margin-top:8px"><strong>Rules:</strong> Rules vary by residency, load type, and vehicle. Bring photo ID and confirm requirements before visiting.</div>
+    <div style="margin-top:10px"><strong>Accepted:</strong><ul style="margin:6px 0 0 18px"><li>Household trash</li><li>Large loads</li><li>Mixed waste (check restrictions)</li></ul></div>
+    <div style="margin-top:10px"><strong>Not accepted:</strong><ul style="margin:6px 0 0 18px"><li>Hazardous waste</li><li>Unapproved commercial loads</li></ul></div>
+    <div style="margin-top:12px"><a class="link" href="https://dallascityhall.com/departments/sanitation/Pages/default.aspx" target="_blank" rel="noopener">Verified source</a></div>
+  </section>
+</div>
+
+        <h2>Nearby facilities</h2>
+        <p class="muted" style="margin-top:-6px">
+          Compare nearby options before you drive:
+        </p>
+        <div class="cityhub__grid" id="facilityNearby" style="margin-top:10px"><a class="cityhub__pill" href="/facility/f_24b58d9b636b/">1323 N STEMMONS FWY (Dallas)</a><a class="cityhub__pill" href="/facility/f_87c4db69ea2d/">1959 W NORTHWEST HIGHWAY (Dallas)</a><a class="cityhub__pill" href="/facility/f_9ea5153602cb/">City of Mesquite Recycling and Compost Center (Dallas)</a><a class="cityhub__pill" href="/facility/f_2e9216d931c4/">COMMERCIAL WAREHOUSE FACILITY (Dallas)</a><a class="cityhub__pill" href="/facility/f_b7da9256ad6e/">COMMONWEALTH CENTER (Dallas)</a><a class="cityhub__pill" href="/facility/f_4c4ca5fdcfaf/">COMMUNITY WASTE DISPOSAL LP (Dallas)</a><a class="cityhub__pill" href="/facility/f_865f1742bf10/">DALLAS FACILITY (Dallas)</a><a class="cityhub__pill" href="/facility/f_7c10ee62bbb8/">DALLAS FREIGHTLINER- 3040 IRVING BLVD (Dallas)</a></div>
+
+        <h2>May serve nearby cities</h2>
+        <p class="muted" style="margin-top:-6px">
+          This facility appears in city listings for:
+        </p>
+        <div class="cityhub__grid" id="facilityCities" style="margin-top:10px"><a class="cityhub__pill" href="/texas/dallas/">Dallas</a></div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>Explore more locations</h2>
+          <p class="muted">Browse more city directories by state.</p>
+          <div class="report__actions">
+            <a class="btn btn--ghost" href="/texas/">Texas</a>
+            <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Modal mount point (houston-modal.js will inject the dialog here) -->
+  <div id="houstonModalRoot"></div>
+
+  <script src="/analytics.js" defer></script>
+  <script src="/facility.js"></script>
+  <script src="/houston-modal.js" defer></script>
+</body>
+</html>

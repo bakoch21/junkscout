@@ -27,7 +27,7 @@
     "lng": -96.974901,
     "website": null,
     "source": null,
-    "facility_id": "f_30014927e24d"
+    "facility_id": "f_d2cf5b4da3d5"
   },
   {
     "name": "City of Dallas Big Blue Recycle Bin",
@@ -47,7 +47,7 @@
     "lng": -96.75,
     "website": null,
     "source": null,
-    "facility_id": "f_1f8c8577f627"
+    "facility_id": "f_cd850d442f3a"
   },
   {
     "name": "CITY OF DALLAS TRANSFER STATION FACILITY",
@@ -67,7 +67,7 @@
     "lng": -96.5474446,
     "website": null,
     "source": null,
-    "facility_id": "f_714a5d224d59"
+    "facility_id": "f_9ea5153602cb"
   },
   {
     "name": "CITY OF UNIVERSITY PARK TRANSFER STATION",
@@ -137,7 +137,7 @@
     "lng": -96.9,
     "website": null,
     "source": null,
-    "facility_id": "f_06d8f45a62e2"
+    "facility_id": "f_865f1742bf10"
   },
   {
     "name": "DALLAS FREIGHTLINER- 3040 IRVING BLVD",
@@ -177,7 +177,7 @@
     "lng": -96.8684796,
     "website": null,
     "source": null,
-    "facility_id": "f_1f8781f6dba2"
+    "facility_id": "f_db738bb61450"
   },
   {
     "name": "GREENWAY-2051 NWH",
@@ -187,7 +187,7 @@
     "lng": -96.91,
     "website": null,
     "source": null,
-    "facility_id": "f_4050e5001f96"
+    "facility_id": "f_54de5af9011a"
   },
   {
     "name": "HARRY HINES TRANSFER STATION",
@@ -207,7 +207,7 @@
     "lng": -96.82,
     "website": null,
     "source": null,
-    "facility_id": "f_53b89bc352cd"
+    "facility_id": "f_dd980d08c6e8"
   },
   {
     "name": "INWOOD TRADE CENTER BUSINESS PARK",
@@ -247,7 +247,7 @@
     "lng": -96.7191789,
     "website": null,
     "source": null,
-    "facility_id": "f_3b35de8df82a"
+    "facility_id": "f_c72c28d8cc0c"
   },
   {
     "name": "MCOMMAS BLUFF LFG PROCESSING FACILITY",
@@ -277,7 +277,7 @@
     "lng": -96.89,
     "website": null,
     "source": null,
-    "facility_id": "f_a20aa4a86ae1"
+    "facility_id": "f_b987e0f457d3"
   },
   {
     "name": "Phoenix Recycling",
@@ -287,7 +287,7 @@
     "lng": -96.6315154,
     "website": null,
     "source": null,
-    "facility_id": "f_c16629ab19ea"
+    "facility_id": "f_c8e9efcf0c12"
   },
   {
     "name": "Recycle Revolution",
@@ -307,7 +307,7 @@
     "lng": -96.7662987,
     "website": null,
     "source": null,
-    "facility_id": "f_b2c435e9499e"
+    "facility_id": "f_bc6fe81662e6"
   },
   {
     "name": "SECURITY SELF STORAGE",
@@ -317,7 +317,7 @@
     "lng": -96.75,
     "website": null,
     "source": null,
-    "facility_id": "f_28494a461a68"
+    "facility_id": "f_4cde1bd8adc2"
   },
   {
     "name": "SECURITY SELF STORAGE",
@@ -327,7 +327,7 @@
     "lng": -96.74,
     "website": null,
     "source": null,
-    "facility_id": "f_2ff5fd138f59"
+    "facility_id": "f_c6001d7e5750"
   },
   {
     "name": "SHINCHON GRAND PLAZA",
@@ -357,6 +357,6 @@
     "lng": -96.81,
     "website": null,
     "source": null,
-    "facility_id": "f_1f2d6fade76b"
+    "facility_id": "f_2a0536c2a63f"
   }
 ]

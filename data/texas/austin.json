@@ -37,7 +37,7 @@
     "lng": -97.68,
     "website": null,
     "source": null,
-    "facility_id": "f_84ec8d464500"
+    "facility_id": "f_885beaf7981c"
   },
   {
     "name": "AUSTIN WASTEWATER PROCESSING FACILITY",
@@ -47,7 +47,7 @@
     "lng": -97.68,
     "website": null,
     "source": null,
-    "facility_id": "f_0732648ef7f0"
+    "facility_id": "f_1da16b9bc1d1"
   },
   {
     "name": "Austin Wood Recycling",
@@ -57,7 +57,7 @@
     "lng": -97.6873274,
     "website": "https://www.austinwoodrecycling.com/",
     "source": null,
-    "facility_id": "f_33e2d348d63a"
+    "facility_id": "f_9cc791b1dea8"
   },
   {
     "name": "Browning-Ferris Industries Sunset Farms Landfill",
@@ -67,7 +67,7 @@
     "lng": -97.6266581,
     "website": null,
     "source": null,
-    "facility_id": "f_ed9f5d68c551"
+    "facility_id": "f_f715985bf022"
   },
   {
     "name": "BURLESON ROAD FACILITY",
@@ -77,7 +77,7 @@
     "lng": -97.71,
     "website": null,
     "source": null,
-    "facility_id": "f_15adf9fc3fe1"
+    "facility_id": "f_34c1703af136"
   },
   {
     "name": "CITY OF AUSTIN",
@@ -107,7 +107,7 @@
     "lng": -97.76,
     "website": null,
     "source": null,
-    "facility_id": "f_bc225c983f77"
+    "facility_id": "f_e50fee51d685"
   },
   {
     "name": "Gardner Metal Recycling",
@@ -117,7 +117,7 @@
     "lng": -97.616078,
     "website": null,
     "source": null,
-    "facility_id": "f_7073b4ee9bf9"
+    "facility_id": "f_707662bda88a"
   },
   {
     "name": "iHaul Junk Austin",
@@ -137,7 +137,7 @@
     "lng": -97.73,
     "website": null,
     "source": null,
-    "facility_id": "f_4d9b6eb94222"
+    "facility_id": "f_d22e976e8d49"
   },
   {
     "name": "Recycle & Reuse Drop-off Center",
@@ -157,7 +157,7 @@
     "lng": -97.62,
     "website": null,
     "source": null,
-    "facility_id": "f_c19d0081f058"
+    "facility_id": "f_d1ece31cf2bd"
   },
   {
     "name": "Round Rock Recycling Center",
@@ -237,6 +237,6 @@
     "lng": -97.6693609,
     "website": "https://wrightrecyclingllc.com",
     "source": null,
-    "facility_id": "f_a09743dbb6ef"
+    "facility_id": "f_f1af4d38a6c4"
   }
 ]

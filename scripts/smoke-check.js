@@ -99,6 +99,7 @@ function checkRequiredFiles() {
     "index.html",
     "texas/index.html",
     "texas/houston/index.html",
+    "texas/dallas/index.html",
     "about/index.html",
     "contact/index.html",
     "privacy/index.html",
@@ -166,6 +167,9 @@ function checkCityLists() {
   const tx = readJson(cityListPath("texas"));
   if (!tx.some((x) => String(x.city || "").toLowerCase() === "houston")) {
     addError("Houston missing from scripts/cities-texas.json");
+  }
+  if (!tx.some((x) => String(x.city || "").toLowerCase() === "dallas")) {
+    addError("Dallas missing from scripts/cities-texas.json");
   }
 }
 
@@ -355,6 +359,7 @@ function checkCanonicals() {
     { file: "texas/index.html", expected: `${BASE_URL}/texas/` },
     { file: "california/index.html", expected: `${BASE_URL}/california/` },
     { file: "texas/houston/index.html", expected: `${BASE_URL}/texas/houston/` },
+    { file: "texas/dallas/index.html", expected: `${BASE_URL}/texas/dallas/` },
   ];
 
   for (const check of checks) {
@@ -418,6 +423,29 @@ function checkHoustonSignals() {
   }
 }
 
+function checkDallasSignals() {
+  const rel = "texas/dallas/index.html";
+  const full = path.join(ROOT, rel);
+  if (!exists(full)) {
+    addError("Dallas page missing: texas/dallas/index.html");
+    return;
+  }
+
+  const html = readText(full);
+
+  if (!html.includes("CURATED:JSON")) {
+    addWarning("Dallas page missing CURATED:JSON overlay block.");
+  }
+
+  if (!html.includes("JSONLD:START")) {
+    addWarning("Dallas page missing JSON-LD marker.");
+  }
+
+  if (!html.toLowerCase().includes("where can i dump trash in dallas")) {
+    addWarning("Dallas page may be missing key Dallas intent phrase.");
+  }
+}
+
 function printSummaryAndExit() {
   console.log("Smoke check summary:");
 
@@ -439,6 +467,7 @@ function run() {
   checkSitemap();
   checkCanonicals();
   checkHoustonSignals();
+  checkDallasSignals();
   printSummaryAndExit();
 }
 

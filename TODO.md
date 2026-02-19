@@ -16,6 +16,10 @@ Persistent project backlog for JunkScout.
 - [x] Added legal placeholder pages (`/about/`, `/contact/`, `/privacy/`, `/terms/`, `/disclosure/`).
 - [x] Added analytics scaffolding (`/analytics.js`, `data/analytics/config.json`, `data/analytics/tracking-plan.json`).
 - [x] Homepage and template nav/footer links now avoid dead-end `#pro` anchors.
+- [x] Added Dallas manual override build path (`npm run build:dallas`) with city-specific SEO copy and quick-start filters.
+- [x] Dallas city page now blends curated override + fallback city data to preserve both quality and coverage.
+- [x] City rules modal now supports both Houston and Dallas with official-source links.
+- [x] Smoke checks now validate Dallas city-page presence and canonical/intent markers.
 
 ## Next (Phase B: Houston depth)
 
@@ -27,6 +31,16 @@ Persistent project backlog for JunkScout.
   - [ ] source links and last-verified dates
 - [ ] Ensure Houston modal behavior is deterministic across local + live builds.
 - [ ] Add clear "last verified" UI treatment on Houston facilities.
+
+## Next (Phase B2: Dallas depth)
+
+- [ ] Deepen Dallas manual dataset from 7 baseline records to 20+ high-confidence records:
+  - [ ] municipal transfer + recycling options
+  - [ ] major private landfill/transfer options
+  - [ ] resident restrictions + proof requirements
+  - [ ] source links + verified dates
+- [ ] Add Dallas-specific modal behavior tests (city + facility contexts).
+- [ ] Add clear "last verified" UI treatment on Dallas facilities.
 
 ## After (Phase C: facility SEO engine)
 

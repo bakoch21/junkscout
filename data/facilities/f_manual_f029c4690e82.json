@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_f029c4690e82",
+  "name": "University Park Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "2525 University Blvd, Dallas, TX 75206",
+  "phone": "3-1-1",
+  "hours": "Check official Dallas Sanitation page for current hours.",
+  "fees": "Fees and access rules vary by jurisdiction and service level.",
+  "rules": "Confirm service area eligibility and accepted materials before visiting.",
+  "accepted_materials": [
+    "General household trash",
+    "Residential disposal loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Restricted commercial loads"
+  ],
+  "verified_date": "2026-02-19",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

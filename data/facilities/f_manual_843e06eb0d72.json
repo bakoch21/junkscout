@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_843e06eb0d72",
+  "name": "Harry Hines Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "9500 Harry Hines Blvd, Dallas, TX 75220",
+  "phone": "3-1-1",
+  "hours": "Check official Dallas Sanitation page for current hours.",
+  "fees": "Fees vary by load and service type.",
+  "rules": "Verify load restrictions and required documentation before arrival.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulk items",
+    "Mixed disposal loads"
+  ],
+  "not_accepted": [
+    "Hazardous chemicals",
+    "Restricted commercial materials"
+  ],
+  "verified_date": "2026-02-19",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_74a5269ff65e",
+  "name": "Southwest (Oak Cliff) Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "4610 S Westmoreland Rd, Dallas, TX 75237",
+  "phone": "3-1-1",
+  "hours": "Check official Dallas Sanitation page for current hours.",
+  "fees": "Fees and eligibility vary by service type and residency.",
+  "rules": "Confirm accepted materials and documentation requirements before visiting.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulk waste",
+    "General transfer loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Unapproved commercial loads"
+  ],
+  "verified_date": "2026-02-19",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

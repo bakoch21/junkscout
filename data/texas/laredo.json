@@ -7,7 +7,7 @@
     "lng": -99.4100013,
     "website": "https://www.laredosolidwaste.com/index.php/services/tips-on-using-the-landfill",
     "source": null,
-    "facility_id": "f_72fcc822edd3"
+    "facility_id": "f_7505e6cbb83d"
   },
   {
     "name": "CITY OF LAREDO LANDFILL",
@@ -17,7 +17,7 @@
     "lng": -99.41,
     "website": null,
     "source": null,
-    "facility_id": "f_046ba3e70bf8"
+    "facility_id": "f_18fbed68b8af"
   },
   {
     "name": "PONDEROSA REGIONAL LANDFILL",
@@ -27,7 +27,7 @@
     "lng": -99.26,
     "website": null,
     "source": null,
-    "facility_id": "f_03bb5d75b4e2"
+    "facility_id": "f_f564765ee4e0"
   },
   {
     "name": "Setasa",
@@ -57,6 +57,6 @@
     "lng": -99.51,
     "website": null,
     "source": null,
-    "facility_id": "f_75a105f270af"
+    "facility_id": "f_9f70e4c707fc"
   }
 ]

@@ -1636,6 +1636,10 @@
     "appears_in": [
       {
         "state": "texas",
+        "city": "booker"
+      },
+      {
+        "state": "texas",
         "city": "in-booker-booker"
       }
     ]
@@ -2449,23 +2453,6 @@
     "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
     "lat": 30.87,
     "lng": -100.69,
-    "website": null,
-    "osm_url": null,
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "eldorado"
-      }
-    ]
-  },
-  {
-    "id": "f_da24e56b6fd5",
-    "slug": "city-of-eldorado-landfill",
-    "name": "CITY OF ELDORADO LANDFILL",
-    "type": "landfill",
-    "address": "6 S COTTONWOOD ST ELDORADO TX 76936",
-    "lat": 30.9,
-    "lng": -100.54,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -9847,23 +9834,6 @@
       {
         "state": "texas",
         "city": "wichita-falls"
-      }
-    ]
-  },
-  {
-    "id": "f_c58423d1fb2f",
-    "slug": "travis-county-landfill",
-    "name": "Travis County Landfill",
-    "type": "landfill",
-    "address": "9600 FM 812 Austin TX 78719",
-    "lat": 30.1622743,
-    "lng": -97.6710656,
-    "website": "https://www.wasteconnections.com/travis-county-landfill/",
-    "osm_url": null,
-    "appears_in": [
-      {
-        "state": "texas",
-        "city": "austin"
       }
     ]
   },

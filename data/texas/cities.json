@@ -188,6 +188,11 @@
     },
     {
       "state": "texas",
+      "city": "booker",
+      "query": "Booker, Texas"
+    },
+    {
+      "state": "texas",
       "city": "borger",
       "query": "Borger, Texas"
     },

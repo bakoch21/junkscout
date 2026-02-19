@@ -1,10 +1,10 @@
 {
   "state": "texas",
-  "generated_at": "2026-02-12T06:03:22.443Z",
-  "source_file_count": 346,
-  "accepted_count": 279,
+  "generated_at": "2026-02-19T03:14:47.845Z",
+  "source_file_count": 347,
+  "accepted_count": 280,
   "rejected_count": 67,
-  "trusted_seed_count": 95,
+  "trusted_seed_count": 96,
   "accepted": [
     {
       "state": "texas",
@@ -226,6 +226,12 @@
       "state": "texas",
       "city": "bonham",
       "query": "Bonham, Texas",
+      "confidence": "heuristic"
+    },
+    {
+      "state": "texas",
+      "city": "booker",
+      "query": "Booker, Texas",
       "confidence": "heuristic"
     },
     {
@@ -586,7 +592,7 @@
       "state": "texas",
       "city": "dallas",
       "query": "Dallas, Texas",
-      "confidence": "heuristic"
+      "confidence": "trusted"
     },
     {
       "state": "texas",

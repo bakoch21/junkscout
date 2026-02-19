@@ -17,7 +17,7 @@
     "lng": 0,
     "website": null,
     "source": null,
-    "facility_id": "f_10b9f76c60ee"
+    "facility_id": "f_ee95994f1831"
   },
   {
     "name": "EL PASO FACILITY",
@@ -37,7 +37,7 @@
     "lng": -106.16,
     "website": null,
     "source": null,
-    "facility_id": "f_0315fd6a4ac1"
+    "facility_id": "f_86d4b98e1f52"
   },
   {
     "name": "MCCOMBS LANDFILL",
@@ -57,6 +57,6 @@
     "lng": -106.43,
     "website": null,
     "source": null,
-    "facility_id": "f_9e5746568d7a"
+    "facility_id": "f_fc8ffeeeedaf"
   }
 ]

@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_d041b3ad8d7d",
+  "name": "Northeast (Fair Oaks) Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "7677 Fair Oaks Ave, Dallas, TX 75231",
+  "phone": "3-1-1",
+  "hours": "Check official Dallas Sanitation page for current hours.",
+  "fees": "Some drop-off services may be resident-only; private/commercial loads may have fees.",
+  "rules": "Check proof-of-residency requirements and load limits before visiting.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulk items",
+    "General disposal loads"
+  ],
+  "not_accepted": [
+    "Hazardous chemicals",
+    "Restricted materials (confirm before arrival)"
+  ],
+  "verified_date": "2026-02-19",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

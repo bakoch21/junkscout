@@ -95,6 +95,26 @@ function cleanString(value) {
   return String(value || "").trim();
 }
 
+function toNum(value) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : null;
+}
+
+function isValidCoordPair(lat, lng) {
+  if (lat === null || lng === null) return false;
+  if (lat < -90 || lat > 90) return false;
+  if (lng < -180 || lng > 180) return false;
+  if (Math.abs(lat) < 0.000001 && Math.abs(lng) < 0.000001) return false;
+  return true;
+}
+
+function getCoordsFromRecord(record) {
+  const lat = toNum(record?.lat ?? record?.latitude);
+  const lng = toNum(record?.lng ?? record?.lon ?? record?.longitude);
+  if (!isValidCoordPair(lat, lng)) return { lat: null, lng: null };
+  return { lat, lng };
+}
+
 function mergeUniqueStringArrays(a = [], b = []) {
   const out = [];
   const seen = new Set();
@@ -152,10 +172,12 @@ function mergeFacilityRecords(base, incoming) {
     if (!cleanString(out[key]) && cleanString(next[key])) out[key] = next[key];
   }
 
-  const lat = typeof out.lat === "number" ? out.lat : null;
-  const lng = typeof out.lng === "number" ? out.lng : null;
-  if (lat === null && typeof next.lat === "number") out.lat = next.lat;
-  if (lng === null && typeof next.lng === "number") out.lng = next.lng;
+  const outCoords = getCoordsFromRecord(out);
+  const nextCoords = getCoordsFromRecord(next);
+  out.lat = outCoords.lat;
+  out.lng = outCoords.lng;
+  if (out.lat === null && nextCoords.lat !== null) out.lat = nextCoords.lat;
+  if (out.lng === null && nextCoords.lng !== null) out.lng = nextCoords.lng;
 
   out.accepted_materials = mergeUniqueStringArrays(out.accepted_materials, next.accepted_materials);
   out.not_accepted = mergeUniqueStringArrays(out.not_accepted, next.not_accepted);
@@ -279,8 +301,7 @@ function buildJsonLd({ facility, meta, state }) {
   const id = String(facility?.id || "").trim();
   const name = String(facility?.name || "Unnamed site").trim();
   const streetAddress = String(facility?.address || "").trim();
-  const lat = typeof facility?.lat === "number" ? facility.lat : null;
-  const lng = typeof facility?.lng === "number" ? facility.lng : null;
+  const { lat, lng } = getCoordsFromRecord(facility);
 
   const url = meta.canonicalUrl;
   const placeId = `${url}#place`;
@@ -354,8 +375,7 @@ function injectBodySeed(html, state, city) {
 }
 
 function mapsUrlForFacility(facility) {
-  const lat = typeof facility?.lat === "number" ? facility.lat : null;
-  const lng = typeof facility?.lng === "number" ? facility.lng : null;
+  const { lat, lng } = getCoordsFromRecord(facility);
   const address = cleanString(facility?.address || "");
   const name = cleanString(facility?.name || "");
 
@@ -547,8 +567,7 @@ function injectServerRenderedFacilityContent(html, facility, poolFacilities, sta
   const name = cleanString(facility?.name || "Unnamed site");
   const type = typeLabelDisplay(facility?.type);
   const address = cleanString(facility?.address || "Address not provided");
-  const lat = typeof facility?.lat === "number" ? facility.lat : null;
-  const lng = typeof facility?.lng === "number" ? facility.lng : null;
+  const { lat, lng } = getCoordsFromRecord(facility);
   const mapsUrl = mapsUrlForFacility(facility);
   const sourceUrl = cleanString(facility?.source || facility?.osm_url || "");
   const websiteUrl = cleanString(facility?.website || "");

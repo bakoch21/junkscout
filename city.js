@@ -97,11 +97,14 @@ function setCanonical(url) {
 function applyCitySEO({ cityName, stateName }) {
   const pretty = cityName + ", " + stateName;
   const isHouston = String(cityName).toLowerCase() === "houston" && String(stateName).toUpperCase() === "TX";
+  const isDallas = String(cityName).toLowerCase() === "dallas" && String(stateName).toUpperCase() === "TX";
 
   const titleEl = document.getElementById("cityTitle");
   if (titleEl) {
     titleEl.textContent = isHouston
       ? "Houston Trash Dump, Transfer Stations & Landfills"
+      : isDallas
+      ? "Dallas Trash Dump, Transfer Stations & Landfills"
       : "Where to dump trash in " + pretty;
   }
 
@@ -109,6 +112,8 @@ function applyCitySEO({ cityName, stateName }) {
   if (ansEl) {
     ansEl.textContent = isHouston
       ? "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+      : isDallas
+      ? "Compare Dallas dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ", " +
         "with hours, rules, and accepted materials when available.";
   }
@@ -117,6 +122,8 @@ function applyCitySEO({ cityName, stateName }) {
   if (subEl) {
     subEl.textContent = isHouston
       ? "Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive."
+      : isDallas
+      ? "Need to dump trash in Dallas fast? Start with these verified options and confirm rules before you drive."
       : "Public landfills, transfer stations, and disposal sites in " + cityName + ". " +
         "Always confirm fees, residency rules, and accepted materials before visiting.";
   }
@@ -140,6 +147,23 @@ function applyCitySEO({ cityName, stateName }) {
     if (faqDumpFreeBody) {
       faqDumpFreeBody.textContent =
         "Some Houston facilities offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.";
+    }
+  } else if (isDallas) {
+    document.title = "Dallas Trash Dump, Transfer Stations & Landfills | JunkScout";
+    setMetaDescription(
+      "Compare Dallas dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+    );
+
+    const faqDumpWhere = document.getElementById("faqDumpWhere");
+    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Dallas today?";
+
+    const faqDumpFree = document.getElementById("faqDumpFree");
+    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Dallas?";
+
+    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
+    if (faqDumpFreeBody) {
+      faqDumpFreeBody.textContent =
+        "Some Dallas-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
     }
   } else {
     document.title = cityName + ", " + stateName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
@@ -210,6 +234,23 @@ function getCuratedItems(curated) {
   }
 
   return null;
+}
+
+function shouldBlendCuratedWithData(state, city) {
+  return String(state || "").toLowerCase() === "texas" &&
+    String(city || "").toLowerCase() === "dallas";
+}
+
+async function fetchCityDataPayload(state, city, quiet = false) {
+  const dataUrl = `/data/${state}/${city}.json`;
+  try {
+    const res = await fetch(dataUrl, { cache: "no-store" });
+    if (!res.ok) throw new Error(`Failed to load ${dataUrl} (${res.status})`);
+    return await res.json();
+  } catch (err) {
+    if (!quiet) console.error(err);
+    return null;
+  }
 }
 
 /** =========================
@@ -443,12 +484,28 @@ function toNum(v) {
   return Number.isFinite(n) ? n : null;
 }
 
+function isValidCoordPair(lat, lng) {
+  if (lat === null || lng === null) return false;
+  if (lat < -90 || lat > 90) return false;
+  if (lng < -180 || lng > 180) return false;
+  // Treat source placeholder coordinates as invalid (commonly 0,0).
+  if (Math.abs(lat) < 0.000001 && Math.abs(lng) < 0.000001) return false;
+  return true;
+}
+
+function getCoords(item) {
+  const lat = toNum(item?.lat ?? item?.latitude);
+  const lng = toNum(item?.lng ?? item?.lon ?? item?.longitude);
+  if (!isValidCoordPair(lat, lng)) return { lat: null, lng: null };
+  return { lat, lng };
+}
+
 // Coordinate normalization: accept lat|latitude and lng|lon|longitude
 function getLat(item) {
-  return toNum(item?.lat ?? item?.latitude);
+  return getCoords(item).lat;
 }
 function getLng(item) {
-  return toNum(item?.lng ?? item?.lon ?? item?.longitude);
+  return getCoords(item).lng;
 }
 
 function getIdForItem(item) {
@@ -1208,14 +1265,19 @@ async function loadCityData() {
 
   if (curatedItems && curatedItems.length) {
     items = curatedItems;
+
+    if (shouldBlendCuratedWithData(state, city)) {
+      let fallback = await fetchCityDataPayload(state, city, true);
+      if (fallback && !Array.isArray(fallback) && Array.isArray(fallback.facilities)) {
+        fallback = fallback.facilities;
+      }
+      if (Array.isArray(fallback) && fallback.length) {
+        items = [...curatedItems, ...fallback];
+      }
+    }
   } else {
-    const dataUrl = `/data/${state}/${city}.json`;
-    try {
-      const res = await fetch(dataUrl, { cache: "no-store" });
-      if (!res.ok) throw new Error(`Failed to load ${dataUrl} (${res.status})`);
-      items = await res.json();
-    } catch (err) {
-      console.error(err);
+    items = await fetchCityDataPayload(state, city, false);
+    if (!items) {
       resultsEl.innerHTML = "<p class='muted'>Unable to load locations right now.</p>";
       return;
     }

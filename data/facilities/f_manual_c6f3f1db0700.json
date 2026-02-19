@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_c6f3f1db0700",
+  "name": "McCommas Bluff Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "5100 Youngblood Rd, Dallas, TX 75241",
+  "phone": "3-1-1",
+  "hours": "Check official Dallas Sanitation page for current hours.",
+  "fees": "Fees vary by load type and residency. Confirm before arrival.",
+  "rules": "Rules vary by residency, load type, and vehicle. Bring photo ID and confirm requirements before visiting.",
+  "accepted_materials": [
+    "Household trash",
+    "Large loads",
+    "Mixed waste (check restrictions)"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Unapproved commercial loads"
+  ],
+  "verified_date": "2026-02-19",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_bf0e78019a5b",
+  "name": "Customer Convenience Recycling Center at McCommas Bluff",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "5450 Simpson Stuart Rd, Dallas, TX 75241",
+  "phone": "3-1-1",
+  "hours": "Check official page for current hours and holiday schedules.",
+  "fees": "Service availability and fees vary by material and residency.",
+  "rules": "Follow posted material prep rules and residency requirements.",
+  "accepted_materials": [
+    "Electronics (check program rules)",
+    "Recyclables",
+    "Select household drop-off items"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous materials",
+    "Items outside posted program scope"
+  ],
+  "verified_date": "2026-02-19",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ]
+}

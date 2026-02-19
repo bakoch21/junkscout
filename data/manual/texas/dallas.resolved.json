@@ -1,0 +1,167 @@
+{
+  "city": "Dallas",
+  "state": "TX",
+  "last_updated": "2026-02-19",
+  "facilities": [
+    {
+      "name": "McCommas Bluff Landfill",
+      "type": "Landfill",
+      "address": "5100 Youngblood Rd, Dallas, TX 75241",
+      "phone": "3-1-1",
+      "hours": "Check official Dallas Sanitation page for current hours.",
+      "fees": "Fees vary by load type and residency. Confirm before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Large loads",
+        "Mixed waste (check restrictions)"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Unapproved commercial loads"
+      ],
+      "rules": "Rules vary by residency, load type, and vehicle. Bring photo ID and confirm requirements before visiting.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+      "verified_date": "2026-02-19",
+      "lat": 32.68,
+      "lng": -96.72,
+      "facility_id": "f_manual_c6f3f1db0700"
+    },
+    {
+      "name": "Northeast (Fair Oaks) Transfer Station",
+      "type": "Transfer Station",
+      "address": "7677 Fair Oaks Ave, Dallas, TX 75231",
+      "phone": "3-1-1",
+      "hours": "Check official Dallas Sanitation page for current hours.",
+      "fees": "Some drop-off services may be resident-only; private/commercial loads may have fees.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk items",
+        "General disposal loads"
+      ],
+      "not_accepted": [
+        "Hazardous chemicals",
+        "Restricted materials (confirm before arrival)"
+      ],
+      "rules": "Check proof-of-residency requirements and load limits before visiting.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+      "verified_date": "2026-02-19",
+      "lat": 32.88,
+      "lng": -96.75,
+      "facility_id": "f_manual_d041b3ad8d7d"
+    },
+    {
+      "name": "Southwest (Oak Cliff) Transfer Station",
+      "type": "Transfer Station",
+      "address": "4610 S Westmoreland Rd, Dallas, TX 75237",
+      "phone": "3-1-1",
+      "hours": "Check official Dallas Sanitation page for current hours.",
+      "fees": "Fees and eligibility vary by service type and residency.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk waste",
+        "General transfer loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Unapproved commercial loads"
+      ],
+      "rules": "Confirm accepted materials and documentation requirements before visiting.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+      "verified_date": "2026-02-19",
+      "lat": 32.69,
+      "lng": -96.88,
+      "facility_id": "f_manual_74a5269ff65e"
+    },
+    {
+      "name": "Harry Hines Transfer Station",
+      "type": "Transfer Station",
+      "address": "9500 Harry Hines Blvd, Dallas, TX 75220",
+      "phone": "3-1-1",
+      "hours": "Check official Dallas Sanitation page for current hours.",
+      "fees": "Fees vary by load and service type.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk items",
+        "Mixed disposal loads"
+      ],
+      "not_accepted": [
+        "Hazardous chemicals",
+        "Restricted commercial materials"
+      ],
+      "rules": "Verify load restrictions and required documentation before arrival.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+      "verified_date": "2026-02-19",
+      "lat": 32.85,
+      "lng": -96.88,
+      "facility_id": "f_manual_843e06eb0d72"
+    },
+    {
+      "name": "University Park Transfer Station",
+      "type": "Transfer Station",
+      "address": "2525 University Blvd, Dallas, TX 75206",
+      "phone": "3-1-1",
+      "hours": "Check official Dallas Sanitation page for current hours.",
+      "fees": "Fees and access rules vary by jurisdiction and service level.",
+      "accepted_materials": [
+        "General household trash",
+        "Residential disposal loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Restricted commercial loads"
+      ],
+      "rules": "Confirm service area eligibility and accepted materials before visiting.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+      "verified_date": "2026-02-19",
+      "lat": 32.85,
+      "lng": -96.77,
+      "facility_id": "f_manual_f029c4690e82"
+    },
+    {
+      "name": "Customer Convenience Recycling Center at McCommas Bluff",
+      "type": "Recycling Center",
+      "address": "5450 Simpson Stuart Rd, Dallas, TX 75241",
+      "phone": "3-1-1",
+      "hours": "Check official page for current hours and holiday schedules.",
+      "fees": "Service availability and fees vary by material and residency.",
+      "accepted_materials": [
+        "Electronics (check program rules)",
+        "Recyclables",
+        "Select household drop-off items"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous materials",
+        "Items outside posted program scope"
+      ],
+      "rules": "Follow posted material prep rules and residency requirements.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
+      "verified_date": "2026-02-19",
+      "lat": 32.6805119,
+      "lng": -96.7281282,
+      "facility_id": "f_manual_bf0e78019a5b"
+    },
+    {
+      "name": "City of Mesquite Recycling and Compost Center",
+      "type": "Recycling / Compost Center",
+      "address": "3550 Lawson Rd, Mesquite, TX 75181",
+      "phone": "972-216-6284",
+      "hours": "Check official page for current operating hours.",
+      "fees": "Fees may apply depending on residency and load type.",
+      "accepted_materials": [
+        "Yard waste",
+        "Recyclables",
+        "Compost-eligible material"
+      ],
+      "not_accepted": [
+        "Hazardous chemicals",
+        "Unsorted restricted materials"
+      ],
+      "rules": "Confirm eligibility and accepted load types before visiting.",
+      "source": "https://www.cityofmesquite.com/376/Solid-Waste",
+      "verified_date": "2026-02-19",
+      "lat": 32.7132744,
+      "lng": -96.5474446,
+      "facility_id": "f_manual_27cde11709ed"
+    }
+  ]
+}
