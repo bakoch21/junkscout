@@ -1,5 +1,5 @@
 ﻿// houston-modal.js
-// City rules modal for Houston + Dallas.
+// City rules modal for Houston, Dallas, Austin, and San Antonio.
 // Kept under the same filename to avoid template churn.
 
 (function () {
@@ -61,12 +61,72 @@
         }
       ],
       footer: "Based on City of Dallas guidance. Always confirm before visiting."
+    },
+    austin: {
+      key: "austin",
+      buttonLabel: "Austin rules & fees",
+      title: "How dumping works in Austin",
+      subhead: "Quick rules to help you choose the right drop-off option before driving.",
+      bullets: [
+        "Austin-area options include city, county, and private facilities.",
+        "Some services are resident-focused and may require ID or proof of address.",
+        "Transfer stations and landfills usually charge by load size or material type.",
+        "Accepted materials and hours can change, so confirm before you go."
+      ],
+      tipTitle: "Tip",
+      tipBody: "Call 3-1-1 to confirm city-run Austin Resource Recovery options before loading up.",
+      sourceLabel: "Official source",
+      sourceUrl: "https://www.austintexas.gov/dropoff",
+      links: [
+        {
+          label: "Austin Recycle & Reuse Drop-off Center",
+          url: "https://www.austintexas.gov/dropoff"
+        },
+        {
+          label: "Austin Resource Recovery",
+          url: "https://www.austintexas.gov/department/austin-resource-recovery"
+        }
+      ],
+      footer: "Based on City of Austin guidance. Always confirm before visiting."
+    },
+    "san-antonio": {
+      key: "san-antonio",
+      buttonLabel: "San Antonio rules & fees",
+      title: "How dumping works in San Antonio",
+      subhead: "Quick rules to help you choose the right drop-off option before driving.",
+      bullets: [
+        "San Antonio options include city drop-off, county services, and private facilities.",
+        "Some resident-focused services may require proof of address and ID.",
+        "Transfer stations and landfills usually charge based on load size and materials.",
+        "Accepted items and schedules can change, so confirm before you go."
+      ],
+      tipTitle: "Tip",
+      tipBody: "Use 3-1-1 and city resources to confirm bulky waste and hazardous waste rules before loading up.",
+      sourceLabel: "Official source",
+      sourceUrl: "https://www.sa.gov/Directory/Departments/SWMD",
+      links: [
+        {
+          label: "San Antonio Solid Waste Management",
+          url: "https://www.sa.gov/Directory/Departments/SWMD"
+        },
+        {
+          label: "Bulky waste collection centers",
+          url: "https://www.sa.gov/Directory/Departments/SWMD/Bulky"
+        },
+        {
+          label: "Household hazardous waste",
+          url: "https://www.sa.gov/Directory/Departments/SWMD/HHW"
+        }
+      ],
+      footer: "Based on San Antonio guidance. Always confirm before visiting."
     }
   };
 
   const CITY_PATH_TO_PROFILE = {
     "/texas/houston": "houston",
-    "/texas/dallas": "dallas"
+    "/texas/dallas": "dallas",
+    "/texas/austin": "austin",
+    "/texas/san-antonio": "san-antonio"
   };
 
   function escapeHtml(str = "") {
@@ -101,6 +161,8 @@
 
     if (window.__isHoustonFacility) return PROFILES.houston;
     if (window.__isDallasFacility) return PROFILES.dallas;
+    if (window.__isAustinFacility) return PROFILES.austin;
+    if (window.__isSanAntonioFacility) return PROFILES["san-antonio"];
     return null;
   }
 
@@ -310,11 +372,13 @@
     modal.querySelector(".hrm-close")?.focus();
   }
 
-  function mountButton({ container, isHouston, isDallas, profileKey } = {}) {
+  function mountButton({ container, isHouston, isDallas, isAustin, isSanAntonio, profileKey } = {}) {
     if (!container) return;
 
     const resolved =
       getProfileByKey(profileKey) ||
+      (isSanAntonio ? PROFILES["san-antonio"] : null) ||
+      (isAustin ? PROFILES.austin : null) ||
       (isDallas ? PROFILES.dallas : null) ||
       (isHouston ? PROFILES.houston : null);
     if (!resolved) return;

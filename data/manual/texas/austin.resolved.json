@@ -1,0 +1,168 @@
+{
+  "city": "Austin",
+  "state": "TX",
+  "last_updated": "2026-02-20",
+  "facilities": [
+    {
+      "name": "Recycle & Reuse Drop-off Center",
+      "type": "Recycling Center",
+      "address": "2514 Business Center Dr, Austin, TX 78744",
+      "phone": "3-1-1",
+      "hours": "Check official Austin page for current hours and holiday schedules.",
+      "fees": "Many services are free for Austin residents; confirm material limits and fees before arrival.",
+      "accepted_materials": [
+        "Recyclables",
+        "Reusable household items",
+        "Select bulky and special items"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous materials",
+        "Commercial loads not allowed by program"
+      ],
+      "rules": "Resident-focused services. Verify load prep rules and ID requirements before visiting.",
+      "source": "https://www.austintexas.gov/dropoff",
+      "verified_date": "2026-02-20",
+      "lat": 30.2134329,
+      "lng": -97.7373612,
+      "facility_id": "f_manual_4a36d4838a72"
+    },
+    {
+      "name": "Austin Community Recycling & Disposal Facility",
+      "type": "Transfer / Recycling Facility",
+      "address": "9900 Giles Ln, Austin, TX 78754",
+      "phone": "3-1-1",
+      "hours": "Check official sources for current operating hours.",
+      "fees": "Fees and eligibility vary by load type and service.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Recyclable materials",
+        "Bulk items (check restrictions)"
+      ],
+      "not_accepted": [
+        "Restricted hazardous waste",
+        "Loads outside posted program limits"
+      ],
+      "rules": "Confirm accepted materials and documentation requirements before arrival.",
+      "source": "https://www.austintexas.gov/department/austin-resource-recovery",
+      "verified_date": "2026-02-20",
+      "lat": 30.34,
+      "lng": -97.62,
+      "facility_id": "f_manual_da7d83258afd"
+    },
+    {
+      "name": "Travis County Landfill",
+      "type": "Landfill",
+      "address": "9600 FM 812, Austin, TX 78719",
+      "phone": "512-854-9383",
+      "hours": "Check county/landfill listings for current operating hours.",
+      "fees": "Landfill fees typically vary by weight, load type, and material.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "C&D loads (check facility policy)",
+        "General landfill disposal"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside permit scope"
+      ],
+      "rules": "Always confirm fees, accepted material categories, and payment terms before driving.",
+      "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+      "verified_date": "2026-02-20",
+      "lat": 30.17,
+      "lng": -97.68,
+      "facility_id": "f_manual_5127746c103d"
+    },
+    {
+      "name": "Travis County Transfer Station",
+      "type": "Transfer Station",
+      "address": "4001 Ranch Rd 620, Austin, TX 78767",
+      "phone": "512-854-9383",
+      "hours": "Check official county listings for current hours.",
+      "fees": "Transfer station fees vary by load size and material type.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk waste",
+        "General transfer loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste unless specifically accepted",
+        "Restricted commercial loads"
+      ],
+      "rules": "Confirm resident/commercial rules and accepted materials before visiting.",
+      "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+      "verified_date": "2026-02-20",
+      "lat": 30.32,
+      "lng": -97.77,
+      "facility_id": "f_manual_674c08301390"
+    },
+    {
+      "name": "Austin Wood Recycling",
+      "type": "Recycling Center",
+      "address": "9201 FM 812, Austin, TX 78719",
+      "phone": "512-243-6300",
+      "hours": "Check official site for current hours.",
+      "fees": "Fees vary by load type and processing requirements.",
+      "accepted_materials": [
+        "Wood waste",
+        "Brush and tree debris (check requirements)",
+        "Organic processing loads"
+      ],
+      "not_accepted": [
+        "Contaminated or prohibited loads",
+        "Materials outside posted acceptance policy"
+      ],
+      "rules": "Confirm preparation standards and contamination limits before drop-off.",
+      "source": "https://www.austinwoodrecycling.com/",
+      "verified_date": "2026-02-20",
+      "lat": 30.1555498,
+      "lng": -97.6873274,
+      "facility_id": "f_manual_c4b193fc7e8b"
+    },
+    {
+      "name": "Burleson Road Facility",
+      "type": "Landfill / Disposal Facility",
+      "address": "7019 Burleson Rd, Austin, TX 78744",
+      "phone": "3-1-1",
+      "hours": "Check official and permit sources for current hours.",
+      "fees": "Fees vary by disposal category and load size.",
+      "accepted_materials": [
+        "Disposal loads",
+        "General municipal waste",
+        "Select bulky materials"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous materials",
+        "Restricted materials not listed by operator"
+      ],
+      "rules": "Call ahead to confirm accepted material classes and documentation needs.",
+      "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+      "verified_date": "2026-02-20",
+      "lat": 30.2,
+      "lng": -97.71,
+      "facility_id": "f_manual_a28878f09a2c"
+    },
+    {
+      "name": "ABS Metal Recycling",
+      "type": "Recycling Center",
+      "address": "10519 McAngus Rd, Del Valle, TX 78617",
+      "phone": "512-385-8030",
+      "hours": "Check facility listing for current hours.",
+      "fees": "Payouts and fees vary by material type and market conditions.",
+      "accepted_materials": [
+        "Scrap metal",
+        "Ferrous and non-ferrous metal",
+        "Recyclable metal loads"
+      ],
+      "not_accepted": [
+        "Materials not accepted by current yard policy",
+        "Prohibited hazardous materials"
+      ],
+      "rules": "Confirm accepted categories, minimum quantities, and ID requirements before arrival.",
+      "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+      "verified_date": "2026-02-20",
+      "lat": 30.152656,
+      "lng": -97.6689714,
+      "facility_id": "f_manual_593e118f3025"
+    }
+  ]
+}

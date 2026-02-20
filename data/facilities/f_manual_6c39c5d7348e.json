@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_6c39c5d7348e",
+  "name": "San Antonio Bitters Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1800 Wurzbach Pkwy, San Antonio, TX 78216",
+  "phone": "3-1-1",
+  "hours": "Check official city page for current hours.",
+  "fees": "Some services may be free for residents; confirm material limits before arrival.",
+  "rules": "Confirm accepted list and preparation requirements before drop-off.",
+  "accepted_materials": [
+    "Recyclables",
+    "Sorted drop-off materials",
+    "Select household recycling loads"
+  ],
+  "not_accepted": [
+    "Unsorted prohibited materials",
+    "Loads outside posted recycling rules"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

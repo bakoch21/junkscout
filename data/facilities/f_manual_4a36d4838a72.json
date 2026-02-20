@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_4a36d4838a72",
+  "name": "Recycle & Reuse Drop-off Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "2514 Business Center Dr, Austin, TX 78744",
+  "phone": "3-1-1",
+  "hours": "Check official Austin page for current hours and holiday schedules.",
+  "fees": "Many services are free for Austin residents; confirm material limits and fees before arrival.",
+  "rules": "Resident-focused services. Verify load prep rules and ID requirements before visiting.",
+  "accepted_materials": [
+    "Recyclables",
+    "Reusable household items",
+    "Select bulky and special items"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous materials",
+    "Commercial loads not allowed by program"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.austintexas.gov/dropoff",
+  "osm_url": "https://www.austintexas.gov/dropoff",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

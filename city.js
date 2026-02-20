@@ -98,6 +98,8 @@ function applyCitySEO({ cityName, stateName }) {
   const pretty = cityName + ", " + stateName;
   const isHouston = String(cityName).toLowerCase() === "houston" && String(stateName).toUpperCase() === "TX";
   const isDallas = String(cityName).toLowerCase() === "dallas" && String(stateName).toUpperCase() === "TX";
+  const isAustin = String(cityName).toLowerCase() === "austin" && String(stateName).toUpperCase() === "TX";
+  const isSanAntonio = String(cityName).toLowerCase() === "san antonio" && String(stateName).toUpperCase() === "TX";
 
   const titleEl = document.getElementById("cityTitle");
   if (titleEl) {
@@ -105,6 +107,10 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Houston Trash Dump, Transfer Stations & Landfills"
       : isDallas
       ? "Dallas Trash Dump, Transfer Stations & Landfills"
+      : isAustin
+      ? "Austin Trash Dump, Transfer Stations & Landfills"
+      : isSanAntonio
+      ? "San Antonio Trash Dump, Transfer Stations & Landfills"
       : "Where to dump trash in " + pretty;
   }
 
@@ -114,6 +120,10 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : isDallas
       ? "Compare Dallas dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+      : isAustin
+      ? "Compare Austin dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+      : isSanAntonio
+      ? "Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ", " +
         "with hours, rules, and accepted materials when available.";
   }
@@ -124,6 +134,10 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive."
       : isDallas
       ? "Need to dump trash in Dallas fast? Start with these verified options and confirm rules before you drive."
+      : isAustin
+      ? "Need to dump trash in Austin fast? Start with these verified options and confirm rules before you drive."
+      : isSanAntonio
+      ? "Need to dump trash in San Antonio fast? Start with these verified options and confirm rules before you drive."
       : "Public landfills, transfer stations, and disposal sites in " + cityName + ". " +
         "Always confirm fees, residency rules, and accepted materials before visiting.";
   }
@@ -164,6 +178,40 @@ function applyCitySEO({ cityName, stateName }) {
     if (faqDumpFreeBody) {
       faqDumpFreeBody.textContent =
         "Some Dallas-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
+    }
+  } else if (isAustin) {
+    document.title = "Austin Trash Dump, Transfer Stations & Landfills | JunkScout";
+    setMetaDescription(
+      "Compare Austin dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+    );
+
+    const faqDumpWhere = document.getElementById("faqDumpWhere");
+    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Austin today?";
+
+    const faqDumpFree = document.getElementById("faqDumpFree");
+    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Austin?";
+
+    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
+    if (faqDumpFreeBody) {
+      faqDumpFreeBody.textContent =
+        "Some Austin-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
+    }
+  } else if (isSanAntonio) {
+    document.title = "San Antonio Trash Dump, Transfer Stations & Landfills | JunkScout";
+    setMetaDescription(
+      "Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+    );
+
+    const faqDumpWhere = document.getElementById("faqDumpWhere");
+    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in San Antonio today?";
+
+    const faqDumpFree = document.getElementById("faqDumpFree");
+    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in San Antonio?";
+
+    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
+    if (faqDumpFreeBody) {
+      faqDumpFreeBody.textContent =
+        "Some San Antonio-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
     }
   } else {
     document.title = cityName + ", " + stateName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
@@ -238,7 +286,7 @@ function getCuratedItems(curated) {
 
 function shouldBlendCuratedWithData(state, city) {
   return String(state || "").toLowerCase() === "texas" &&
-    String(city || "").toLowerCase() === "dallas";
+    ["dallas", "austin", "san-antonio"].includes(String(city || "").toLowerCase());
 }
 
 async function fetchCityDataPayload(state, city, quiet = false) {

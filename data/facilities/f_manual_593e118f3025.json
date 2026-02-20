@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_593e118f3025",
+  "name": "ABS Metal Recycling",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "10519 McAngus Rd, Del Valle, TX 78617",
+  "phone": "512-385-8030",
+  "hours": "Check facility listing for current hours.",
+  "fees": "Payouts and fees vary by material type and market conditions.",
+  "rules": "Confirm accepted categories, minimum quantities, and ID requirements before arrival.",
+  "accepted_materials": [
+    "Scrap metal",
+    "Ferrous and non-ferrous metal",
+    "Recyclable metal loads"
+  ],
+  "not_accepted": [
+    "Materials not accepted by current yard policy",
+    "Prohibited hazardous materials"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "osm_url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_697732531d38",
+  "name": "Texas Disposal Systems Starcrest Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "San Antonio, TX (confirm exact address before visiting)",
+  "phone": "800-375-8375",
+  "hours": "Check operator page for current hours and accepted loads.",
+  "fees": "Transfer station fees vary by material and load volume.",
+  "rules": "Confirm accepted categories and load prep requirements before arrival.",
+  "accepted_materials": [
+    "General transfer loads",
+    "Household and commercial disposal loads",
+    "Select recyclable streams"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous materials",
+    "Restricted materials not accepted by station policy"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.texasdisposal.com/",
+  "osm_url": "https://www.texasdisposal.com/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

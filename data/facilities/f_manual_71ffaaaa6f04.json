@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_71ffaaaa6f04",
+  "name": "Frio City Road Bulky Waste Collection Center",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "1531 Frio City Rd, San Antonio, TX 78226",
+  "phone": "3-1-1",
+  "hours": "Check official city page for current hours and holiday schedules.",
+  "fees": "Some services are free for eligible residents; confirm fees and limits before arrival.",
+  "rules": "Resident-focused city service. Confirm ID/proof-of-address requirements and daily limits before visiting.",
+  "accepted_materials": [
+    "Bulky waste",
+    "General household disposal loads",
+    "Select recyclable materials"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Commercial loads outside program rules"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/Bulky",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

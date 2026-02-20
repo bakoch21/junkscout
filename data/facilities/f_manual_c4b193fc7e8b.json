@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_c4b193fc7e8b",
+  "name": "Austin Wood Recycling",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "9201 FM 812, Austin, TX 78719",
+  "phone": "512-243-6300",
+  "hours": "Check official site for current hours.",
+  "fees": "Fees vary by load type and processing requirements.",
+  "rules": "Confirm preparation standards and contamination limits before drop-off.",
+  "accepted_materials": [
+    "Wood waste",
+    "Brush and tree debris (check requirements)",
+    "Organic processing loads"
+  ],
+  "not_accepted": [
+    "Contaminated or prohibited loads",
+    "Materials outside posted acceptance policy"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.austinwoodrecycling.com/",
+  "osm_url": "https://www.austinwoodrecycling.com/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

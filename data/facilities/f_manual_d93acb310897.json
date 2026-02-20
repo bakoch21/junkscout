@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_d93acb310897",
+  "name": "Tessman Road Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "7000 E Interstate 10, San Antonio, TX 78219",
+  "phone": "210-333-4287",
+  "hours": "Check operator listing for current gate hours.",
+  "fees": "Landfill fees typically vary by load size, weight, and material type.",
+  "rules": "Always confirm accepted materials, rates, and payment terms before driving.",
+  "accepted_materials": [
+    "Municipal solid waste",
+    "General landfill disposal",
+    "Approved special waste streams"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Loads outside permit acceptance"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "osm_url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

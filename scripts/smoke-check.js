@@ -100,6 +100,8 @@ function checkRequiredFiles() {
     "texas/index.html",
     "texas/houston/index.html",
     "texas/dallas/index.html",
+    "texas/austin/index.html",
+    "texas/san-antonio/index.html",
     "about/index.html",
     "contact/index.html",
     "privacy/index.html",
@@ -170,6 +172,12 @@ function checkCityLists() {
   }
   if (!tx.some((x) => String(x.city || "").toLowerCase() === "dallas")) {
     addError("Dallas missing from scripts/cities-texas.json");
+  }
+  if (!tx.some((x) => String(x.city || "").toLowerCase() === "austin")) {
+    addError("Austin missing from scripts/cities-texas.json");
+  }
+  if (!tx.some((x) => String(x.city || "").toLowerCase() === "san-antonio")) {
+    addError("San Antonio missing from scripts/cities-texas.json");
   }
 }
 
@@ -360,6 +368,8 @@ function checkCanonicals() {
     { file: "california/index.html", expected: `${BASE_URL}/california/` },
     { file: "texas/houston/index.html", expected: `${BASE_URL}/texas/houston/` },
     { file: "texas/dallas/index.html", expected: `${BASE_URL}/texas/dallas/` },
+    { file: "texas/austin/index.html", expected: `${BASE_URL}/texas/austin/` },
+    { file: "texas/san-antonio/index.html", expected: `${BASE_URL}/texas/san-antonio/` },
   ];
 
   for (const check of checks) {
@@ -446,6 +456,52 @@ function checkDallasSignals() {
   }
 }
 
+function checkAustinSignals() {
+  const rel = "texas/austin/index.html";
+  const full = path.join(ROOT, rel);
+  if (!exists(full)) {
+    addError("Austin page missing: texas/austin/index.html");
+    return;
+  }
+
+  const html = readText(full);
+
+  if (!html.includes("CURATED:JSON")) {
+    addWarning("Austin page missing CURATED:JSON overlay block.");
+  }
+
+  if (!html.includes("JSONLD:START")) {
+    addWarning("Austin page missing JSON-LD marker.");
+  }
+
+  if (!html.toLowerCase().includes("where can i dump trash in austin")) {
+    addWarning("Austin page may be missing key Austin intent phrase.");
+  }
+}
+
+function checkSanAntonioSignals() {
+  const rel = "texas/san-antonio/index.html";
+  const full = path.join(ROOT, rel);
+  if (!exists(full)) {
+    addError("San Antonio page missing: texas/san-antonio/index.html");
+    return;
+  }
+
+  const html = readText(full);
+
+  if (!html.includes("CURATED:JSON")) {
+    addWarning("San Antonio page missing CURATED:JSON overlay block.");
+  }
+
+  if (!html.includes("JSONLD:START")) {
+    addWarning("San Antonio page missing JSON-LD marker.");
+  }
+
+  if (!html.toLowerCase().includes("where can i dump trash in san antonio")) {
+    addWarning("San Antonio page may be missing key San Antonio intent phrase.");
+  }
+}
+
 function printSummaryAndExit() {
   console.log("Smoke check summary:");
 
@@ -468,6 +524,8 @@ function run() {
   checkCanonicals();
   checkHoustonSignals();
   checkDallasSignals();
+  checkAustinSignals();
+  checkSanAntonioSignals();
   printSummaryAndExit();
 }
 

@@ -1,0 +1,159 @@
+{
+  "city": "San Antonio",
+  "state": "TX",
+  "last_updated": "2026-02-20",
+  "facilities": [
+    {
+      "name": "Frio City Road Bulky Waste Collection Center",
+      "type": "Transfer Station",
+      "address": "1531 Frio City Rd, San Antonio, TX 78226",
+      "phone": "3-1-1",
+      "hours": "Check official city page for current hours and holiday schedules.",
+      "fees": "Some services are free for eligible residents; confirm fees and limits before arrival.",
+      "accepted_materials": [
+        "Bulky waste",
+        "General household disposal loads",
+        "Select recyclable materials"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Commercial loads outside program rules"
+      ],
+      "rules": "Resident-focused city service. Confirm ID/proof-of-address requirements and daily limits before visiting.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky",
+      "verified_date": "2026-02-20",
+      "lat": 29.407,
+      "lng": -98.516
+    },
+    {
+      "name": "San Antonio Household Hazardous Waste Disposal",
+      "type": "Hazardous Waste Facility",
+      "address": "7030 Culebra Rd, San Antonio, TX 78238",
+      "phone": "3-1-1",
+      "hours": "Check official city page for appointments and current hours.",
+      "fees": "Many hazardous waste services are resident-focused; verify fees and eligibility before arrival.",
+      "accepted_materials": [
+        "Household hazardous waste",
+        "Paint and chemicals",
+        "Batteries and automotive fluids"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program scope"
+      ],
+      "rules": "Follow city hazardous waste program rules and appointment guidance before visiting.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW",
+      "verified_date": "2026-02-20",
+      "lat": 29.451,
+      "lng": -98.619
+    },
+    {
+      "name": "San Antonio Bitters Recycling Center",
+      "type": "Recycling Center",
+      "address": "1800 Wurzbach Pkwy, San Antonio, TX 78216",
+      "phone": "3-1-1",
+      "hours": "Check official city page for current hours.",
+      "fees": "Some services may be free for residents; confirm material limits before arrival.",
+      "accepted_materials": [
+        "Recyclables",
+        "Sorted drop-off materials",
+        "Select household recycling loads"
+      ],
+      "not_accepted": [
+        "Unsorted prohibited materials",
+        "Loads outside posted recycling rules"
+      ],
+      "rules": "Confirm accepted list and preparation requirements before drop-off.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD",
+      "verified_date": "2026-02-20",
+      "lat": 29.533,
+      "lng": -98.503
+    },
+    {
+      "name": "Tessman Road Landfill",
+      "type": "Landfill",
+      "address": "7000 E Interstate 10, San Antonio, TX 78219",
+      "phone": "210-333-4287",
+      "hours": "Check operator listing for current gate hours.",
+      "fees": "Landfill fees typically vary by load size, weight, and material type.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "General landfill disposal",
+        "Approved special waste streams"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside permit acceptance"
+      ],
+      "rules": "Always confirm accepted materials, rates, and payment terms before driving.",
+      "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+      "verified_date": "2026-02-20",
+      "lat": 29.426,
+      "lng": -98.383
+    },
+    {
+      "name": "Texas Disposal Systems Starcrest Transfer Station",
+      "type": "Transfer Station",
+      "address": "San Antonio, TX (confirm exact address before visiting)",
+      "phone": "800-375-8375",
+      "hours": "Check operator page for current hours and accepted loads.",
+      "fees": "Transfer station fees vary by material and load volume.",
+      "accepted_materials": [
+        "General transfer loads",
+        "Household and commercial disposal loads",
+        "Select recyclable streams"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous materials",
+        "Restricted materials not accepted by station policy"
+      ],
+      "rules": "Confirm accepted categories and load prep requirements before arrival.",
+      "source": "https://www.texasdisposal.com/",
+      "verified_date": "2026-02-20",
+      "lat": 29.51,
+      "lng": -98.43
+    },
+    {
+      "name": "A. G. Pickard Pecans",
+      "type": "Recycling Center",
+      "address": "101 Nogalitos St, San Antonio, TX 78204",
+      "phone": "210-226-3841",
+      "hours": "Check facility listing for current operating hours.",
+      "fees": "Fees/payouts vary by material and quantity.",
+      "accepted_materials": [
+        "Recyclable material streams",
+        "Sorted loads accepted by operator"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous materials",
+        "Loads not accepted by current facility policy"
+      ],
+      "rules": "Call ahead to confirm accepted materials and transaction requirements.",
+      "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+      "verified_date": "2026-02-20",
+      "lat": 29.398,
+      "lng": -98.507
+    },
+    {
+      "name": "Bracken Recycling",
+      "type": "Recycling Center",
+      "address": "19068 Marbach Ln, San Antonio, TX 78266",
+      "phone": "210-651-2000",
+      "hours": "Check operator listing for current hours.",
+      "fees": "Fees and payouts vary by material type and market rates.",
+      "accepted_materials": [
+        "Recyclable materials",
+        "Sorted scrap and recycling loads"
+      ],
+      "not_accepted": [
+        "Restricted hazardous materials",
+        "Materials outside accepted categories"
+      ],
+      "rules": "Verify accepted materials and any load prep requirements before arrival.",
+      "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+      "verified_date": "2026-02-20",
+      "lat": 29.614,
+      "lng": -98.308
+    }
+  ]
+}

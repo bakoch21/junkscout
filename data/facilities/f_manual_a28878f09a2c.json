@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_a28878f09a2c",
+  "name": "Burleson Road Facility",
+  "type": "landfill",
+  "type_label": "Landfill / Disposal Facility",
+  "address": "7019 Burleson Rd, Austin, TX 78744",
+  "phone": "3-1-1",
+  "hours": "Check official and permit sources for current hours.",
+  "fees": "Fees vary by disposal category and load size.",
+  "rules": "Call ahead to confirm accepted material classes and documentation needs.",
+  "accepted_materials": [
+    "Disposal loads",
+    "General municipal waste",
+    "Select bulky materials"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous materials",
+    "Restricted materials not listed by operator"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "osm_url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

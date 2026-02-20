@@ -20,12 +20,14 @@
     "build:facilities:data": "node scripts/build-facilities.js texas",
     "build:facilities:manual:houston": "node scripts/build-manual-facilities.js texas houston",
     "build:facilities:manual:dallas": "node scripts/build-manual-facilities.js texas dallas",
+    "build:facilities:manual:austin": "node scripts/build-manual-facilities.js texas austin",
+    "build:facilities:manual:san-antonio": "node scripts/build-manual-facilities.js texas san-antonio",
     "build:facilities:pages": "node scripts/generate-facility-pages.js texas",
-    "build:facilities": "npm run build:facilities:data && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas && npm run build:facilities:pages",
+    "build:facilities": "npm run build:facilities:data && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas && npm run build:facilities:manual:austin && npm run build:facilities:manual:san-antonio && npm run build:facilities:pages",
 
     "build:sitemap": "node scripts/generate-sitemap.js",
 
-    "build:data": "npm run build:data:tx && npm run build:facilities:data && npm run build:citylist:tx && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas",
+    "build:data": "npm run build:data:tx && npm run build:facilities:data && npm run build:citylist:tx && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas && npm run build:facilities:manual:austin && npm run build:facilities:manual:san-antonio",
     "build:pages": "npm run build:statehubs && npm run build:pages:states && npm run build:facilities:pages && npm run prune:apply && npm run build:sitemap",
     "build": "npm run build:data && npm run build:pages",
 
@@ -37,6 +39,10 @@
     "build:houston:verified": "npm run build:houston && npm run verify:smoke",
     "build:dallas": "node scripts/build-dallas.js",
     "build:dallas:verified": "npm run build:dallas && npm run verify:smoke",
+    "build:austin": "node scripts/build-austin.js",
+    "build:austin:verified": "npm run build:austin && npm run verify:smoke",
+    "build:san-antonio": "node scripts/build-san-antonio.js",
+    "build:san-antonio:verified": "npm run build:san-antonio && npm run verify:smoke",
 
     "prune:report": "node scripts/prune-generated-pages.js",
     "prune:apply": "node scripts/prune-generated-pages.js --apply",

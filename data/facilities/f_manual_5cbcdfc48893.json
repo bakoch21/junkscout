@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_5cbcdfc48893",
+  "name": "A. G. Pickard Pecans",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "101 Nogalitos St, San Antonio, TX 78204",
+  "phone": "210-226-3841",
+  "hours": "Check facility listing for current operating hours.",
+  "fees": "Fees/payouts vary by material and quantity.",
+  "rules": "Call ahead to confirm accepted materials and transaction requirements.",
+  "accepted_materials": [
+    "Recyclable material streams",
+    "Sorted loads accepted by operator"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous materials",
+    "Loads not accepted by current facility policy"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "osm_url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

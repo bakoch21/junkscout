@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_f9b0eb3908d2",
+  "name": "San Antonio Household Hazardous Waste Disposal",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "7030 Culebra Rd, San Antonio, TX 78238",
+  "phone": "3-1-1",
+  "hours": "Check official city page for appointments and current hours.",
+  "fees": "Many hazardous waste services are resident-focused; verify fees and eligibility before arrival.",
+  "rules": "Follow city hazardous waste program rules and appointment guidance before visiting.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and chemicals",
+    "Batteries and automotive fluids"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program scope"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/HHW",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

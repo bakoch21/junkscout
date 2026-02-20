@@ -57,6 +57,14 @@ function isDallasFacility(f) {
   return isFacilityInCity(f, "dallas");
 }
 
+function isAustinFacility(f) {
+  return isFacilityInCity(f, "austin");
+}
+
+function isSanAntonioFacility(f) {
+  return isFacilityInCity(f, "san antonio");
+}
+
 function badgeLabel(key) {
   const map = {
     free_to_residents: "Free to residents",
@@ -295,11 +303,15 @@ async function loadFacility() {
     // Modal trigger (UI-only)
     const isHouston = isHoustonFacility(f);
     const isDallas = isDallasFacility(f);
+    const isAustin = isAustinFacility(f);
+    const isSanAntonio = isSanAntonioFacility(f);
     window.__isHoustonFacility = isHouston;
     window.__isDallasFacility = isDallas;
+    window.__isAustinFacility = isAustin;
+    window.__isSanAntonioFacility = isSanAntonio;
 
     if (houBtn) {
-      houBtn.style.display = (isHouston || isDallas) ? "inline-flex" : "none";
+      houBtn.style.display = (isHouston || isDallas || isAustin || isSanAntonio) ? "inline-flex" : "none";
     }
   } catch (err) {
     console.error(err);

@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_25a03b304f96",
+  "name": "Bracken Recycling",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "19068 Marbach Ln, San Antonio, TX 78266",
+  "phone": "210-651-2000",
+  "hours": "Check operator listing for current hours.",
+  "fees": "Fees and payouts vary by material type and market rates.",
+  "rules": "Verify accepted materials and any load prep requirements before arrival.",
+  "accepted_materials": [
+    "Recyclable materials",
+    "Sorted scrap and recycling loads"
+  ],
+  "not_accepted": [
+    "Restricted hazardous materials",
+    "Materials outside accepted categories"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "osm_url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

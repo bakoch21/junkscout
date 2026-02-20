@@ -48,8 +48,16 @@ function isDallasCity(state, city) {
   return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "dallas";
 }
 
+function isAustinCity(state, city) {
+  return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "austin";
+}
+
+function isSanAntonioCity(state, city) {
+  return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "san-antonio";
+}
+
 function shouldBlendCuratedWithData(state, city) {
-  return isDallasCity(state, city);
+  return isDallasCity(state, city) || isAustinCity(state, city) || isSanAntonioCity(state, city);
 }
 
 function escapeHtml(value = "") {
@@ -343,6 +351,14 @@ function buildMeta({ state, city }) {
     title = "Dallas Trash Dump, Transfer Stations & Landfills | JunkScout";
     description =
       "Compare Dallas dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
+  } else if (isAustinCity(state, city)) {
+    title = "Austin Trash Dump, Transfer Stations & Landfills | JunkScout";
+    description =
+      "Compare Austin dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
+  } else if (isSanAntonioCity(state, city)) {
+    title = "San Antonio Trash Dump, Transfer Stations & Landfills | JunkScout";
+    description =
+      "Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
   }
 
   const canonicalPath = `/${state}/${city}/`;
@@ -496,6 +512,74 @@ function buildJsonLd({ state, city, meta }) {
             "@type": "Answer",
             text:
               "Fees vary by load size, material type, and facility policy. Check source links and verify before you drive.",
+          },
+        },
+      ],
+    });
+  } else if (isAustinCity(state, city)) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Where can I dump trash in Austin today?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Austin has city, county, and private options including recycling drop-offs, transfer stations, and landfill access depending on your load.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where can I drop off trash for free in Austin?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Some Austin-area services include resident-focused or low-cost options for specific materials. Always confirm current rules, fees, and accepted items before visiting.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What do Austin transfer stations and landfills charge?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Fees vary by load size, material type, and facility policy. Check the source links and call ahead for current pricing.",
+          },
+        },
+      ],
+    });
+  } else if (isSanAntonioCity(state, city)) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Where can I dump trash in San Antonio today?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "San Antonio has city, county, and private options including recycling drop-offs, transfer stations, and landfill access depending on your load.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where can I drop off trash for free in San Antonio?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Some San Antonio services include resident-focused or low-cost options for specific materials. Always confirm current rules, fees, and accepted items before visiting.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What do San Antonio transfer stations and landfills charge?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Fees vary by load size, material type, and facility policy. Check source links and confirm current pricing before driving.",
           },
         },
       ],
@@ -850,6 +934,156 @@ function injectDallasIntentCopy(html) {
   return out;
 }
 
+function injectAustinIntentCopy(html) {
+  let out = html;
+  const quickStartBlock = `
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/texas/austin/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">City and private recycling options</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/austin/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads and faster unload</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/austin/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/austin/?type=hazardous-waste#results">
+      <span class="quickstart__title">Hazardous waste options</span>
+      <span class="quickstart__meta">Special handling and appointment rules</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+`.trim();
+
+  out = out.replace(
+    /(<h1[^>]*id="cityTitle"[^>]*>)[\s\S]*?(<\/h1>)/i,
+    "$1Austin Trash Dump, Transfer Stations & Landfills$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="cityAnswer"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Compare Austin dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Need to dump trash in Austin fast? Start with these verified options and confirm rules before you drive.$2\n" + quickStartBlock
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I dump trash in Austin today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpFree"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I drop off trash for free in Austin?$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Some Austin-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.$2"
+  );
+
+  out = out.replace(
+    "<h2>What items are typically accepted?</h2>",
+    "<h2>Austin transfer stations and recycling centers: what they accept</h2>"
+  );
+
+  out = out.replace(
+    "<h2>Fees, hours, and resident requirements</h2>",
+    "<h2>Austin landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  return out;
+}
+
+function injectSanAntonioIntentCopy(html) {
+  let out = html;
+  const quickStartBlock = `
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/texas/san-antonio/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">City and private recycling options</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/san-antonio/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads and faster unload</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/san-antonio/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/san-antonio/?type=hazardous-waste#results">
+      <span class="quickstart__title">Hazardous waste options</span>
+      <span class="quickstart__meta">Special handling and appointment rules</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+`.trim();
+
+  out = out.replace(
+    /(<h1[^>]*id="cityTitle"[^>]*>)[\s\S]*?(<\/h1>)/i,
+    "$1San Antonio Trash Dump, Transfer Stations & Landfills$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="cityAnswer"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Need to dump trash in San Antonio fast? Start with these verified options and confirm rules before you drive.$2\n" + quickStartBlock
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I dump trash in San Antonio today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpFree"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I drop off trash for free in San Antonio?$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Some San Antonio-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.$2"
+  );
+
+  out = out.replace(
+    "<h2>What items are typically accepted?</h2>",
+    "<h2>San Antonio transfer stations and recycling centers: what they accept</h2>"
+  );
+
+  out = out.replace(
+    "<h2>Fees, hours, and resident requirements</h2>",
+    "<h2>San Antonio landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  return out;
+}
+
 function run() {
   if (!fs.existsSync(CITY_LIST_PATH)) {
     console.error(`City list not found: ${CITY_LIST_PATH}`);
@@ -937,6 +1171,10 @@ function run() {
       outputHtml = injectHoustonIntentCopy(outputHtml);
     } else if (isDallasCity(state, city)) {
       outputHtml = injectDallasIntentCopy(outputHtml);
+    } else if (isAustinCity(state, city)) {
+      outputHtml = injectAustinIntentCopy(outputHtml);
+    } else if (isSanAntonioCity(state, city)) {
+      outputHtml = injectSanAntonioIntentCopy(outputHtml);
     }
 
     const outDir = path.join(OUTPUT_BASE, state, city);

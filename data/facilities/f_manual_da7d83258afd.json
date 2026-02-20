@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_da7d83258afd",
+  "name": "Austin Community Recycling & Disposal Facility",
+  "type": "transfer_station",
+  "type_label": "Transfer / Recycling Facility",
+  "address": "9900 Giles Ln, Austin, TX 78754",
+  "phone": "3-1-1",
+  "hours": "Check official sources for current operating hours.",
+  "fees": "Fees and eligibility vary by load type and service.",
+  "rules": "Confirm accepted materials and documentation requirements before arrival.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Recyclable materials",
+    "Bulk items (check restrictions)"
+  ],
+  "not_accepted": [
+    "Restricted hazardous waste",
+    "Loads outside posted program limits"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.austintexas.gov/department/austin-resource-recovery",
+  "osm_url": "https://www.austintexas.gov/department/austin-resource-recovery",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

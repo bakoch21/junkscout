@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_674c08301390",
+  "name": "Travis County Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "4001 Ranch Rd 620, Austin, TX 78767",
+  "phone": "512-854-9383",
+  "hours": "Check official county listings for current hours.",
+  "fees": "Transfer station fees vary by load size and material type.",
+  "rules": "Confirm resident/commercial rules and accepted materials before visiting.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulk waste",
+    "General transfer loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste unless specifically accepted",
+    "Restricted commercial loads"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "osm_url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

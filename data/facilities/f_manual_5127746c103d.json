@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_5127746c103d",
+  "name": "Travis County Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "9600 FM 812, Austin, TX 78719",
+  "phone": "512-854-9383",
+  "hours": "Check county/landfill listings for current operating hours.",
+  "fees": "Landfill fees typically vary by weight, load type, and material.",
+  "rules": "Always confirm fees, accepted material categories, and payment terms before driving.",
+  "accepted_materials": [
+    "Municipal solid waste",
+    "C&D loads (check facility policy)",
+    "General landfill disposal"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Loads outside permit scope"
+  ],
+  "verified_date": "2026-02-20",
+  "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "osm_url": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "austin"
+    }
+  ]
+}

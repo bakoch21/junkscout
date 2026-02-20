@@ -50,7 +50,31 @@ This runs only what you need for Dallas:
 - regenerate Dallas-linked facility pages
 - regenerate sitemap
 
-### 5) Local preview
+### 5) Fast Austin iteration
+
+```cmd
+npm run build:austin
+```
+
+This runs only what you need for Austin:
+- rebuild Austin manual facilities
+- regenerate `/texas/austin/`
+- regenerate Austin-linked facility pages
+- regenerate sitemap
+
+### 6) Fast San Antonio iteration
+
+```cmd
+npm run build:san-antonio
+```
+
+This runs only what you need for San Antonio:
+- rebuild San Antonio manual facilities
+- regenerate `/texas/san-antonio/`
+- regenerate San Antonio-linked facility pages
+- regenerate sitemap
+
+### 7) Local preview
 
 ```cmd
 npm run preview
@@ -58,7 +82,7 @@ npm run preview
 
 Default URL: `http://localhost:4173`
 
-### 6) Push to trigger Cloudflare Pages deploy
+### 8) Push to trigger Cloudflare Pages deploy
 
 ```cmd
 npm run push -- "your commit message"
@@ -66,7 +90,7 @@ npm run push -- "your commit message"
 
 If there are no local changes, this runs `git push` only.
 
-### 7) Run quality gate
+### 9) Run quality gate
 
 ```cmd
 npm run verify:smoke
@@ -78,7 +102,7 @@ Or run full build plus gate:
 npm run build:verified
 ```
 
-### 8) Stale output pruning (safe by default)
+### 10) Stale output pruning (safe by default)
 
 Report only:
 

@@ -20,6 +20,14 @@ Persistent project backlog for JunkScout.
 - [x] Dallas city page now blends curated override + fallback city data to preserve both quality and coverage.
 - [x] City rules modal now supports both Houston and Dallas with official-source links.
 - [x] Smoke checks now validate Dallas city-page presence and canonical/intent markers.
+- [x] Added Austin manual override build path (`npm run build:austin`) with city-specific SEO copy and quick-start filters.
+- [x] Austin city page now blends curated override + fallback city data to preserve both quality and coverage.
+- [x] City rules modal now supports Austin with official-source links.
+- [x] Smoke checks now validate Austin city-page presence and canonical/intent markers.
+- [x] Added San Antonio manual override build path (`npm run build:san-antonio`) with city-specific SEO copy and quick-start filters.
+- [x] San Antonio city page now blends curated override + fallback city data to preserve both quality and coverage.
+- [x] City rules modal now supports San Antonio with official-source links.
+- [x] Smoke checks now validate San Antonio city-page presence and canonical/intent markers.
 
 ## Next (Phase B: Houston depth)
 
@@ -41,6 +49,26 @@ Persistent project backlog for JunkScout.
   - [ ] source links + verified dates
 - [ ] Add Dallas-specific modal behavior tests (city + facility contexts).
 - [ ] Add clear "last verified" UI treatment on Dallas facilities.
+
+## Next (Phase B3: Austin depth)
+
+- [ ] Deepen Austin manual dataset from baseline to 20+ high-confidence records:
+  - [ ] city-managed recycling/drop-off options
+  - [ ] county transfer/landfill options
+  - [ ] major private facilities with verified rules
+  - [ ] source links + verified dates
+- [ ] Add Austin modal behavior tests (city + facility contexts).
+- [ ] Add clear "last verified" UI treatment on Austin facilities.
+
+## Next (Phase B4: San Antonio depth)
+
+- [ ] Deepen San Antonio manual dataset from baseline to 20+ high-confidence records:
+  - [ ] city-managed bulky waste / drop-off options
+  - [ ] county transfer/landfill options
+  - [ ] major private facilities with verified rules
+  - [ ] source links + verified dates
+- [ ] Add San Antonio modal behavior tests (city + facility contexts).
+- [ ] Add clear "last verified" UI treatment on San Antonio facilities.
 
 ## After (Phase C: facility SEO engine)
 
