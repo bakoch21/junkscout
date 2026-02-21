@@ -30,6 +30,9 @@ body{
     linear-gradient(180deg, var(--bg) 0%, var(--bgSoft) 55%, var(--bgWarm) 100%);
   min-height:100vh;
 }
+html{
+  scrollbar-gutter: stable;
+}
 a{color:inherit; text-decoration:none}
 .container{max-width:var(--max); margin:0 auto; padding:0 20px}
 
