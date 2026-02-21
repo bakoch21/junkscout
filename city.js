@@ -320,6 +320,90 @@ function shouldBlendCuratedWithData(state, city) {
   );
 }
 
+function isDallasNearbyPilot(state, city) {
+  return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "dallas";
+}
+
+function normalizePayloadItems(payload) {
+  if (Array.isArray(payload)) return payload;
+  if (payload && typeof payload === "object" && Array.isArray(payload.facilities)) return payload.facilities;
+  return [];
+}
+
+function resolveNeighborEntriesForCity(neighborsByCity, citySlug) {
+  if (!neighborsByCity || typeof neighborsByCity !== "object") return [];
+  const normalizedCity = String(citySlug || "").toLowerCase().trim();
+  if (!normalizedCity) return [];
+
+  const direct = neighborsByCity[normalizedCity];
+  if (Array.isArray(direct) && direct.length) return direct;
+
+  const keys = Object.keys(neighborsByCity)
+    .filter((k) => String(k || "").toLowerCase().includes(normalizedCity))
+    .sort((a, b) => a.length - b.length || a.localeCompare(b));
+
+  for (const key of keys) {
+    const rows = neighborsByCity[key];
+    if (Array.isArray(rows) && rows.length) return rows;
+  }
+
+  return [];
+}
+
+function normalizeNeighborRows(rows) {
+  return (Array.isArray(rows) ? rows : [])
+    .map((row) => ({
+      slug: String(row?.slug || "").toLowerCase().trim(),
+      distanceMi: Number(row?.distance_mi),
+    }))
+    .filter((row) => row.slug && Number.isFinite(row.distanceMi) && row.distanceMi > 0)
+    .sort((a, b) => a.distanceMi - b.distanceMi);
+}
+
+async function loadNearbyItemsForCity(state, city, cityItems, { maxRadiusMi = 30, maxNeighborCities = 12 } = {}) {
+  const neighborsPayload = await fetchCityDataPayload(state, "_neighbors", true);
+  if (!neighborsPayload || typeof neighborsPayload !== "object") return [];
+
+  const resolvedRows = resolveNeighborEntriesForCity(neighborsPayload, city);
+  const neighborRows = normalizeNeighborRows(resolvedRows)
+    .filter((row) => row.distanceMi <= maxRadiusMi)
+    .slice(0, maxNeighborCities);
+
+  if (!neighborRows.length) return [];
+
+  const cityIdSet = new Set();
+  const citySigSet = new Set();
+  (Array.isArray(cityItems) ? cityItems : []).forEach((item) => {
+    const id = String(item?.facility_id || item?.id || "").trim().toLowerCase();
+    if (id) cityIdSet.add(id);
+    const sig = dedupeSignature(item);
+    if (sig) citySigSet.add(sig);
+  });
+
+  const payloads = await Promise.all(
+    neighborRows.map(async (row) => {
+      const payload = await fetchCityDataPayload(state, row.slug, true);
+      const items = normalizePayloadItems(payload);
+      return items.map((item) => ({
+        ...item,
+        __isNearby: true,
+        __nearbyCitySlug: row.slug,
+        __nearbyCityLabel: titleCaseFromSlug(row.slug),
+        __nearbyDistanceMi: row.distanceMi,
+      }));
+    })
+  );
+
+  const flattened = dedupeCityItems(payloads.flat());
+  return flattened.filter((item) => {
+    const id = String(item?.facility_id || item?.id || "").trim().toLowerCase();
+    if (id && cityIdSet.has(id)) return false;
+    const sig = dedupeSignature(item);
+    if (sig && citySigSet.has(sig)) return false;
+    return true;
+  });
+}
+
 async function fetchCityDataPayload(state, city, quiet = false) {
   const dataUrl = `/data/${state}/${city}.json`;
   try {
@@ -1166,7 +1250,7 @@ function buildFilterBar({ resultsEl, onChange, initialState = null }) {
 
   resultsEl.parentNode.insertBefore(wrap, resultsEl);
 
-  return { setTypeOptions, setFeatureChips, setMaterialsCounts, setCounts };
+  return { setTypeOptions, setFeatureChips, setMaterialsCounts, setCounts, root: wrap };
 }
 
 /** =========================
@@ -1273,6 +1357,9 @@ function renderDetailsPanel(item, id) {
 function renderCard(item) {
   const norm = normalizeType(item.type);
   const typeBadge = renderTypeBadge(norm.key);
+  const nearbyMeta = item.__isNearby
+    ? `<p class="muted small" style="margin-top:4px"><strong>Nearby:</strong> ${escapeHtml(item.__nearbyCityLabel || titleCaseFromSlug(item.__nearbyCitySlug || ""))}${Number.isFinite(item.__nearbyDistanceMi) ? ` (${item.__nearbyDistanceMi.toFixed(1)} mi)` : ""}</p>`
+    : "";
 
   const lat = getLat(item);
   const lng = getLng(item);
@@ -1293,6 +1380,7 @@ function renderCard(item) {
     <article class="card" data-id="${dataId}">
       <div class="card__kicker">${typeBadge}</div>
       <h3>${escapeHtml(item.name || "Unnamed location")}</h3>
+      ${nearbyMeta}
       ${item.address ? `<p class="card__meta">${escapeHtml(item.address)}</p>` : ""}
 
       <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
@@ -1362,10 +1450,7 @@ async function loadCityData() {
     }
   }
 
-  // Normalize "city object" JSON -> array
-  if (items && !Array.isArray(items) && Array.isArray(items.facilities)) {
-    items = items.facilities;
-  }
+  items = normalizePayloadItems(items);
 
   if (!Array.isArray(items) || items.length === 0) {
     resultsEl.innerHTML = "<p class='muted'>No locations found.</p>";
@@ -1374,66 +1459,104 @@ async function loadCityData() {
 
   items = dedupeCityItems(items);
 
-  const enriched = items.map((it) => {
-    const t = normalizeType(it.type);
-    const mats = normalizeMaterialsFromAccepted(it);
-    return {
-      ...it,
-      __typeKey: t.key,
-      __typeLabel: t.label,
-      __flags: deriveFlags(it),
-      __materials: mats,
-      __id: getIdForItem(it),
-    };
-  });
+  const enrichItems = (rows) =>
+    (Array.isArray(rows) ? rows : []).map((it) => {
+      const t = normalizeType(it.type);
+      const mats = normalizeMaterialsFromAccepted(it);
+      return {
+        ...it,
+        __typeKey: t.key,
+        __typeLabel: t.label,
+        __flags: deriveFlags(it),
+        __materials: mats,
+        __id: getIdForItem(it),
+      };
+    });
+
+  const enrichedCity = enrichItems(items);
+  const nearbyPilotEnabled = isDallasNearbyPilot(state, city);
+  const nearbyDistanceLimitMi = 50;
+  let includeNearbyCities = false;
+  let nearbyRowsCache = [];
+  let nearbyLoaded = false;
+  let nearbyLoadPromise = null;
+  let currentFilterState = { type: "all", flags: new Set(), materials: new Set() };
+  let applySeq = 0;
+
+  async function ensureNearbyLoaded() {
+    if (!nearbyPilotEnabled) return [];
+    if (nearbyLoaded) return nearbyRowsCache;
+    if (nearbyLoadPromise) return nearbyLoadPromise;
+
+    nearbyLoadPromise = (async () => {
+      const rows = await loadNearbyItemsForCity(state, city, items, {
+        maxRadiusMi: nearbyDistanceLimitMi,
+        maxNeighborCities: 20,
+      });
+      nearbyRowsCache = enrichItems(rows);
+      nearbyLoaded = true;
+      return nearbyRowsCache;
+    })();
+
+    return nearbyLoadPromise;
+  }
+
+  function getScopeRows() {
+    if (!nearbyPilotEnabled || !includeNearbyCities) return enrichedCity;
+    const nearbyWithinRadius = nearbyRowsCache.filter(
+      (row) => Number(row.__nearbyDistanceMi) <= nearbyDistanceLimitMi
+    );
+    return [...enrichedCity, ...nearbyWithinRadius];
+  }
+
+  function buildFacetCounts(rows) {
+    const typeCount = new Map();
+    rows.forEach((it) => {
+      const k = it.__typeKey || "other";
+      typeCount.set(k, (typeCount.get(k) || 0) + 1);
+    });
+
+    const typeOptions = Array.from(typeCount.entries())
+      .map(([key, count]) => {
+        const first = rows.find((x) => x.__typeKey === key);
+        const label = first?.__typeLabel || key;
+        return { key, label, count };
+      })
+      .sort((a, b) => {
+        const rank = (k) => {
+          if (k === "landfill") return 1;
+          if (k === "transfer_station") return 2;
+          if (k === "recycling") return 3;
+          if (k === "hazardous_waste") return 4;
+          if (k === "public_dumpster") return 5;
+          return 99;
+        };
+        const ra = rank(a.key), rb = rank(b.key);
+        if (ra !== rb) return ra - rb;
+        return a.label.localeCompare(b.label);
+      });
+
+    const featureCounts = {};
+    rows.forEach((it) => {
+      (it.__flags || []).forEach((f) => {
+        featureCounts[f] = (featureCounts[f] || 0) + 1;
+      });
+    });
+
+    const materialCounts = {};
+    rows.forEach((it) => {
+      (it.__materials || []).forEach((m) => {
+        materialCounts[m] = (materialCounts[m] || 0) + 1;
+      });
+    });
+
+    return { typeOptions, featureCounts, materialCounts };
+  }
 
   // Ensure Leaflet is ready (CDN/cache can be weird on live)
   await waitForLeaflet({ timeoutMs: 5000, stepMs: 50 });
 
   const mapCtl = makeMapController();
-
-  // Type options
-  const typeCount = new Map();
-  enriched.forEach((it) => {
-    const k = it.__typeKey || "other";
-    typeCount.set(k, (typeCount.get(k) || 0) + 1);
-  });
-
-  const typeOptions = Array.from(typeCount.entries())
-    .map(([key, count]) => {
-      const first = enriched.find((x) => x.__typeKey === key);
-      const label = first?.__typeLabel || key;
-      return { key, label, count };
-    })
-    .sort((a, b) => {
-      const rank = (k) => {
-        if (k === "landfill") return 1;
-        if (k === "transfer_station") return 2;
-        if (k === "recycling") return 3;
-        if (k === "hazardous_waste") return 4;
-        if (k === "public_dumpster") return 5;
-        return 99;
-      };
-      const ra = rank(a.key), rb = rank(b.key);
-      if (ra !== rb) return ra - rb;
-      return a.label.localeCompare(b.label);
-    });
-
-  // Feature counts
-  const featureCounts = {};
-  enriched.forEach((it) => {
-    (it.__flags || []).forEach((f) => {
-      featureCounts[f] = (featureCounts[f] || 0) + 1;
-    });
-  });
-
-  // Materials counts
-  const materialCounts = {};
-  enriched.forEach((it) => {
-    (it.__materials || []).forEach((m) => {
-      materialCounts[m] = (materialCounts[m] || 0) + 1;
-    });
-  });
 
   function render(itemsToRender) {
     resultsEl.innerHTML = itemsToRender.length
@@ -1451,22 +1574,35 @@ async function loadCityData() {
     });
   }
 
-  function applyFilters(filterState) {
-    const filtered = enriched.filter((it) => {
-      if (filterState.type && filterState.type !== "all") {
-        if (it.__typeKey !== filterState.type) return false;
+  async function applyFilters(filterState) {
+    const seq = ++applySeq;
+    currentFilterState = {
+      type: filterState?.type || "all",
+      flags: new Set(filterState?.flags || []),
+      materials: new Set(filterState?.materials || []),
+    };
+
+    if (nearbyPilotEnabled && includeNearbyCities) {
+      await ensureNearbyLoaded();
+    }
+
+    const scopedRows = getScopeRows();
+
+    const filtered = scopedRows.filter((it) => {
+      if (currentFilterState.type && currentFilterState.type !== "all") {
+        if (it.__typeKey !== currentFilterState.type) return false;
       }
 
-      if (filterState.flags && filterState.flags.size > 0) {
-        for (const needed of filterState.flags) {
+      if (currentFilterState.flags && currentFilterState.flags.size > 0) {
+        for (const needed of currentFilterState.flags) {
           if (!(it.__flags || []).includes(needed)) return false;
         }
       }
 
-      if (filterState.materials && filterState.materials.size > 0) {
+      if (currentFilterState.materials && currentFilterState.materials.size > 0) {
         const mats = it.__materials || [];
         let any = false;
-        for (const needed of filterState.materials) {
+        for (const needed of currentFilterState.materials) {
           if (mats.includes(needed)) {
             any = true;
             break;
@@ -1478,14 +1614,16 @@ async function loadCityData() {
       return true;
     });
 
-    filterBar.setCounts(filtered.length, enriched.length);
+    if (seq !== applySeq) return;
+    filterBar.setCounts(filtered.length, scopedRows.length);
     render(filtered);
     attachHandlers(resultsEl, mapCtl);
   }
 
+  const initialFacets = buildFacetCounts(enrichedCity);
   const queryInitial = initialFilterStateFromQuery();
-  const allowedTypes = new Set(["all", ...typeOptions.map((x) => x.key)]);
-  const allowedMaterials = new Set(Object.keys(materialCounts));
+  const allowedTypes = new Set(["all", ...initialFacets.typeOptions.map((x) => x.key)]);
+  const allowedMaterials = new Set(Object.keys(initialFacets.materialCounts));
 
   const effectiveInitial = {
     type: allowedTypes.has(queryInitial.type) ? queryInitial.type : "all",
@@ -1501,26 +1639,55 @@ async function loadCityData() {
     initialState: effectiveInitial,
   });
 
-  filterBar.setTypeOptions(typeOptions);
-  filterBar.setMaterialsCounts(materialCounts);
-  filterBar.setFeatureChips(featureCounts);
+  filterBar.setTypeOptions(initialFacets.typeOptions);
+  filterBar.setMaterialsCounts(initialFacets.materialCounts);
+  filterBar.setFeatureChips(initialFacets.featureCounts);
 
-  const hasInitialFilters =
-    effectiveInitial.type !== "all" ||
-    effectiveInitial.flags.size > 0 ||
-    effectiveInitial.materials.size > 0;
+  if (nearbyPilotEnabled && filterBar.root && filterBar.root.parentNode) {
+    const nearbyWrap = document.createElement("section");
+    nearbyWrap.setAttribute("aria-label", "Nearby coverage");
+    nearbyWrap.style.marginTop = "8px";
+    nearbyWrap.style.marginBottom = "8px";
 
-  if (hasInitialFilters) {
-    applyFilters({
-      type: effectiveInitial.type,
-      flags: new Set(effectiveInitial.flags),
-      materials: new Set(effectiveInitial.materials),
+    const row = document.createElement("label");
+    row.style.display = "inline-flex";
+    row.style.alignItems = "center";
+    row.style.gap = "8px";
+    row.style.cursor = "pointer";
+    row.style.userSelect = "none";
+    row.style.padding = "6px 10px";
+    row.style.border = "1px solid var(--border)";
+    row.style.borderRadius = "999px";
+    row.style.background = "rgba(29,29,31,0.03)";
+    row.style.fontSize = "14px";
+    row.style.fontWeight = "600";
+    row.style.lineHeight = "1";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = false;
+    checkbox.setAttribute("aria-label", `Include nearby cities within ${nearbyDistanceLimitMi} miles`);
+    checkbox.style.margin = "0";
+
+    const text = document.createElement("span");
+    text.textContent = `Include nearby cities (${nearbyDistanceLimitMi} mi)`;
+
+    checkbox.addEventListener("change", async () => {
+      includeNearbyCities = checkbox.checked;
+      await applyFilters(currentFilterState);
     });
-  } else {
-    filterBar.setCounts(enriched.length, enriched.length);
-    render(enriched);
-    attachHandlers(resultsEl, mapCtl);
+
+    row.appendChild(checkbox);
+    row.appendChild(text);
+    nearbyWrap.appendChild(row);
+    filterBar.root.parentNode.insertBefore(nearbyWrap, filterBar.root);
   }
+
+  await applyFilters({
+    type: effectiveInitial.type,
+    flags: new Set(effectiveInitial.flags),
+    materials: new Set(effectiveInitial.materials),
+  });
 
   alignResultsAnchor(resultsEl);
 }
