@@ -309,8 +309,12 @@ function getCuratedItems(curated) {
 }
 
 function shouldBlendCuratedWithData(state, city) {
-  return String(state || "").toLowerCase() === "texas" &&
-    ["dallas", "austin", "san-antonio"].includes(String(city || "").toLowerCase());
+  const stateSlug = String(state || "").toLowerCase();
+  const citySlug = String(city || "").toLowerCase();
+  return (
+    (stateSlug === "texas" && ["dallas", "austin", "san-antonio"].includes(citySlug)) ||
+    (stateSlug === "california" && citySlug === "los-angeles")
+  );
 }
 
 async function fetchCityDataPayload(state, city, quiet = false) {

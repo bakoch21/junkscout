@@ -13,23 +13,20 @@
       "url": "https://junkscout.io/facility/f_e622571ec626/",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "13863 Poway Road Poway CA 92064",
-        "addressRegion": "TX",
-        "addressCountry": "US"
+        "addressRegion": "CA",
+        "addressCountry": "US",
+        "streetAddress": "13863 Poway Road Poway CA 92064"
       },
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 32.9559936,
         "longitude": -117.0306792
-      },
-      "sameAs": [
-        "https://www.openstreetmap.org/way/544423772"
-      ]
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://junkscout.io/facility/f_e622571ec626/#webpage",
-      "name": "Quality Recycling — recycling in San Diego, CALIFORNIA | JunkScout",
+      "name": "Quality Recycling (San Diego, CA) | JunkScout",
       "description": "Address, map, and source links for Quality Recycling. Always confirm fees, hours, and accepted materials before visiting.",
       "url": "https://junkscout.io/facility/f_e622571ec626/",
       "about": {
@@ -49,19 +46,21 @@
 
   <!-- generator will replace title/description/canonical -->
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260221b" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260221b" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260221b" />
 
-  <title>Quality Recycling — recycling in San Diego, CALIFORNIA | JunkScout</title>
+  <title>Quality Recycling (San Diego, CA) | JunkScout</title>
   <meta name="description" content="Address, map, and source links for Quality Recycling. Always confirm fees, hours, and accepted materials before visiting." />
   <link rel="canonical" href="https://junkscout.io/facility/f_e622571ec626/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Quality Recycling — recycling in San Diego, CALIFORNIA | JunkScout" />
+  <meta property="og:title" content="Quality Recycling (San Diego, CA) | JunkScout" />
   <meta property="og:description" content="Address, map, and source links for Quality Recycling. Always confirm fees, hours, and accepted materials before visiting." />
   <meta property="og:url" content="https://junkscout.io/facility/f_e622571ec626/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Quality Recycling — recycling in San Diego, CALIFORNIA | JunkScout" />
+  <meta name="twitter:title" content="Quality Recycling (San Diego, CA) | JunkScout" />
   <meta name="twitter:description" content="Address, map, and source links for Quality Recycling. Always confirm fees, hours, and accepted materials before visiting." />
 
 </head>
@@ -69,15 +68,13 @@
 <body data-state="california" data-city="san-diego">
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="/index.html">
-        <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260221b" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/index.html#browse-materials">Browse materials</a>
-        <a href="/texas/">Browse locations</a>
-        <a href="/index.html#how-it-works">How it works</a>
-        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
       </nav>
 
       <div class="nav__actions">
@@ -89,12 +86,10 @@
 
   <main class="hero">
     <div class="container">
-      <p class="muted small" id="facilityKicker">Facility</p>
+      <p class="muted small" id="facilityKicker">Recycling center</p>
 
-      <h1 id="facilityTitle">Facility name</h1>
-      <p class="subhead" id="facilitySubhead">
-        A listed dump / landfill / transfer station / recycling site.
-      </p>
+      <h1 id="facilityTitle">Quality Recycling</h1>
+      <p class="subhead" id="facilitySubhead">Recycling center in the area. Confirm hours, fees, and accepted materials before visiting.</p>
 
       <!-- ✅ FACILITY BADGES (injected by facility.js) -->
       <div id="facilityBadges"></div>
@@ -107,18 +102,18 @@
         <div class="wizard__row" style="grid-template-columns: 1fr 1fr 1fr; align-items:center">
           <div>
             <div class="label">Address</div>
-            <div id="facilityAddress" style="font-weight:700">—</div>
-            <div class="hint" id="facilityCoords">—</div>
+            <div id="facilityAddress" style="font-weight:700">13863 Poway Road Poway CA 92064</div>
+            <div class="hint" id="facilityCoords">Coordinates: 32.9559936, -117.0306792</div>
           </div>
 
           <div>
             <div class="label">Links</div>
             <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; align-items:center">
-              <a class="link" id="facilityDirections" href="#" target="_blank" rel="noopener">Directions</a>
+              <a class="link" id="facilityDirections" href="https://www.google.com/maps/search/?api=1&amp;query=32.9559936,-117.0306792" target="_blank" rel="noopener">Directions</a>
               <a class="link" id="facilityWebsite" href="#" target="_blank" rel="noopener" style="display:none">Website</a>
-              <a class="link" id="facilitySource" href="#" target="_blank" rel="noopener" style="display:none">Source</a>
+              <a class="link" id="facilitySource" href="https://www.openstreetmap.org/way/544423772" target="_blank" rel="noopener" style="display:inline">Source</a>
 
-              <!-- Houston-only trigger (houston-modal.js will show it when appropriate) -->
+              <!-- City rules trigger (houston-modal.js will show it when appropriate) -->
               <button
                 id="houstonRulesBtn"
                 type="button"
@@ -127,13 +122,13 @@
                 aria-haspopup="dialog"
                 aria-controls="houstonModal"
               >
-                Houston rules &amp; fees
+                City rules &amp; fees
               </button>
             </div>
           </div>
 
           <div>
-            <a class="btn btn--primary btn--big" id="facilityCta" href="#" target="_blank" rel="noopener">
+            <a class="btn btn--primary btn--big" id="facilityCta" href="https://www.google.com/maps/search/?api=1&amp;query=32.9559936,-117.0306792" target="_blank" rel="noopener">
               Open in Maps
             </a>
           </div>
@@ -147,15 +142,31 @@
 
       <section class="seo-copy" style="margin-top:26px">
         <h2>About this facility</h2>
-        <p id="facilityAbout">
-          This location is listed as a disposal / drop-off site in the area. Rules and requirements vary by site.
+        <p id="facilityAbout">This location is listed as a recycling center. Rules, residency requirements, and fees vary by facility. Always confirm details directly before visiting.</p>
+<div id="verifiedDetails">
+  <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
+    <h2>Verified facility details</h2>
+    
+    
+    
+    
+    
+    
+    <div style="margin-top:12px"><a class="link" href="https://www.openstreetmap.org/way/544423772" target="_blank" rel="noopener">Verified source</a></div>
+  </section>
+</div>
+
+        <h2>Nearby facilities</h2>
+        <p class="muted" style="margin-top:-6px">
+          Compare nearby options before you drive:
         </p>
+        <div class="cityhub__grid" id="facilityNearby" style="margin-top:10px"><a class="cityhub__pill" href="/facility/f_f8994f54f739/">EDCO Recycling Buyback Center (San Diego)</a><a class="cityhub__pill" href="/facility/f_97591d37d39b/">Goodwill (San Diego)</a><a class="cityhub__pill" href="/facility/f_8a0abefb0b52/">Greenfield Recycling Center (San Diego)</a><a class="cityhub__pill" href="/facility/f_579625fc2a3c/">Miramar Recycling Center (San Diego)</a><a class="cityhub__pill" href="/facility/f_5c0d829076c6/">Ponce Recycling (San Diego)</a><a class="cityhub__pill" href="/facility/f_ff7f92e7095e/">Quality Recycling (San Diego)</a><a class="cityhub__pill" href="/facility/f_81fa2ffceca0/">San Diego CRV Center (San Diego)</a><a class="cityhub__pill" href="/facility/f_6c3e1b0287d5/">SANCO Resource Recovery (San Diego)</a></div>
 
         <h2>May serve nearby cities</h2>
         <p class="muted" style="margin-top:-6px">
           This facility appears in city listings for:
         </p>
-        <div class="cityhub__grid" id="facilityCities" style="margin-top:10px"></div>
+        <div class="cityhub__grid" id="facilityCities" style="margin-top:10px"><a class="cityhub__pill" href="/california/san-diego/">San Diego</a></div>
       </section>
 
       <section class="report" style="margin-top:40px">
@@ -165,7 +176,7 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
-            <a class="btn" href="/index.html">Back to home</a>
+            <a class="btn" href="/">Back to home</a>
           </div>
         </div>
       </section>
@@ -175,7 +186,9 @@
   <!-- Modal mount point (houston-modal.js will inject the dialog here) -->
   <div id="houstonModalRoot"></div>
 
+  <script src="/analytics.js" defer></script>
   <script src="/facility.js"></script>
   <script src="/houston-modal.js" defer></script>
 </body>
 </html>
+

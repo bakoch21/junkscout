@@ -126,9 +126,9 @@
 
   <!-- Will be set dynamically by city.js -->
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
-  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260221b" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260221b" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260221b" />
 
   <!-- ✅ Leaflet (map) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
@@ -169,13 +169,11 @@
   <header class="nav">
     <div class="nav__inner">
       <a class="brand" href="/">
-        <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
+        <img src="/logo.svg?v=20260221b" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/#browse-materials">Browse materials</a>
-        <a href="/texas/">Browse locations</a>
-        <a href="/#how-it-works">How it works</a>
+        <a href="/#browse-locations">Browse locations</a>
         <a href="/about/" class="muted">About</a>
       </nav>
 
@@ -416,7 +414,41 @@
 
         <!-- NEARBY cities injected here at build time -->
         <!-- NEARBY:START -->
-        <!-- NEARBY:END -->
+<section class="seo-copy" aria-label="Nearby locations">
+  <h2>Nearby dump and landfill locations</h2>
+  <p class="muted">
+    If you do not see the right option in Austin, check these nearby cities in Texas.
+  </p>
+
+  <div class="cityhub__grid" style="margin-top:10px">
+    
+      <a class="cityhub__pill" href="/texas/buda/">
+        Buda <span class="muted" style="font-weight:600">&middot; 10 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/prairie-fulton/">
+        Prairie Fulton <span class="muted" style="font-weight:600">&middot; 11 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/lockhart/">
+        Lockhart <span class="muted" style="font-weight:600">&middot; 18 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/johnson-city/">
+        Johnson City <span class="muted" style="font-weight:600">&middot; 43 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/seguin/">
+        Seguin <span class="muted" style="font-weight:600">&middot; 43 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/texas/burnet/">
+        Burnet <span class="muted" style="font-weight:600">&middot; 50 mi</span>
+      </a>
+    
+  </div>
+</section>
+<!-- NEARBY:END -->
       </section>
       <!-- SEO COPY END -->
 
@@ -471,3 +503,4 @@
 </script>
 </body>
 </html>
+
