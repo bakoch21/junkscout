@@ -320,10 +320,6 @@ function shouldBlendCuratedWithData(state, city) {
   );
 }
 
-function isDallasNearbyPilot(state, city) {
-  return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "dallas";
-}
-
 function normalizePayloadItems(payload) {
   if (Array.isArray(payload)) return payload;
   if (payload && typeof payload === "object" && Array.isArray(payload.facilities)) return payload.facilities;
@@ -360,14 +356,110 @@ function normalizeNeighborRows(rows) {
     .sort((a, b) => a.distanceMi - b.distanceMi);
 }
 
-async function loadNearbyItemsForCity(state, city, cityItems, { maxRadiusMi = 30, maxNeighborCities = 12 } = {}) {
-  const neighborsPayload = await fetchCityDataPayload(state, "_neighbors", true);
-  if (!neighborsPayload || typeof neighborsPayload !== "object") return [];
+let facilitiesIndexPayloadPromise = null;
+async function fetchFacilitiesIndexPayload(quiet = true) {
+  if (!facilitiesIndexPayloadPromise) {
+    facilitiesIndexPayloadPromise = (async () => {
+      try {
+        const res = await fetch("/data/facilities/index.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`Failed to load /data/facilities/index.json (${res.status})`);
+        const json = await res.json();
+        return Array.isArray(json) ? json : [];
+      } catch (err) {
+        if (!quiet) console.error(err);
+        return [];
+      }
+    })();
+  }
+  return facilitiesIndexPayloadPromise;
+}
 
-  const resolvedRows = resolveNeighborEntriesForCity(neighborsPayload, city);
-  const neighborRows = normalizeNeighborRows(resolvedRows)
-    .filter((row) => row.distanceMi <= maxRadiusMi)
+function distanceMiles(lat1, lng1, lat2, lng2) {
+  const toRad = (deg) => (deg * Math.PI) / 180;
+  const R = 3958.8;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+    Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+
+function cityCenterFromItems(items) {
+  let latSum = 0;
+  let lngSum = 0;
+  let count = 0;
+  (Array.isArray(items) ? items : []).forEach((item) => {
+    const lat = getLat(item);
+    const lng = getLng(item);
+    if (lat === null || lng === null) return;
+    latSum += lat;
+    lngSum += lng;
+    count += 1;
+  });
+  if (!count) return null;
+  return { lat: latSum / count, lng: lngSum / count };
+}
+
+function buildNeighborRowsFromFacilitiesIndex(facilitiesIndex, state, city, cityItems, { maxRadiusMi = 50, maxNeighborCities = 20 } = {}) {
+  const center = cityCenterFromItems(cityItems);
+  if (!center) return [];
+
+  const stateSlug = String(state || "").toLowerCase().trim();
+  const citySlug = String(city || "").toLowerCase().trim();
+  const cityDistanceMap = new Map();
+
+  (Array.isArray(facilitiesIndex) ? facilitiesIndex : []).forEach((row) => {
+    const lat = toNum(row?.lat);
+    const lng = toNum(row?.lng);
+    if (!isValidCoordPair(lat, lng)) return;
+
+    const appears = Array.isArray(row?.appears_in) ? row.appears_in : [];
+    appears.forEach((loc) => {
+      const locState = String(loc?.state || "").toLowerCase().trim();
+      const locCity = String(loc?.city || "").toLowerCase().trim();
+      if (!locState || !locCity) return;
+      if (locState !== stateSlug || locCity === citySlug) return;
+
+      const dist = distanceMiles(center.lat, center.lng, lat, lng);
+      if (!Number.isFinite(dist)) return;
+
+      const prev = cityDistanceMap.get(locCity);
+      if (!prev || dist < prev.distanceMi) {
+        cityDistanceMap.set(locCity, { slug: locCity, distanceMi: dist });
+      }
+    });
+  });
+
+  return Array.from(cityDistanceMap.values())
+    .filter((row) => row.distanceMi > 0 && row.distanceMi <= maxRadiusMi)
+    .sort((a, b) => a.distanceMi - b.distanceMi)
     .slice(0, maxNeighborCities);
+}
+
+async function loadNearbyItemsForCity(state, city, cityItems, { maxRadiusMi = 30, maxNeighborCities = 12 } = {}) {
+  let neighborRows = [];
+
+  const neighborsPayload = await fetchCityDataPayload(state, "_neighbors", true);
+  if (neighborsPayload && typeof neighborsPayload === "object") {
+    const resolvedRows = resolveNeighborEntriesForCity(neighborsPayload, city);
+    neighborRows = normalizeNeighborRows(resolvedRows)
+      .filter((row) => row.distanceMi <= maxRadiusMi)
+      .slice(0, maxNeighborCities);
+  }
+
+  if (!neighborRows.length) {
+    const facilitiesIndex = await fetchFacilitiesIndexPayload(true);
+    neighborRows = buildNeighborRowsFromFacilitiesIndex(
+      facilitiesIndex,
+      state,
+      city,
+      cityItems,
+      { maxRadiusMi, maxNeighborCities }
+    );
+  }
 
   if (!neighborRows.length) return [];
 
@@ -1474,7 +1566,7 @@ async function loadCityData() {
     });
 
   const enrichedCity = enrichItems(items);
-  const nearbyPilotEnabled = isDallasNearbyPilot(state, city);
+  const nearbyPilotEnabled = true;
   const nearbyDistanceLimitMi = 50;
   let includeNearbyCities = false;
   let nearbyRowsCache = [];
