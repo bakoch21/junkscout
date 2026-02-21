@@ -249,23 +249,26 @@ function applyCitySEO({ cityName, stateName }) {
   setCanonical(canonical);
 }
 
+function scrollToWithNavOffset(targetEl, { extraOffset = 12, behavior = "auto" } = {}) {
+  if (!targetEl) return;
+  const nav = document.querySelector(".nav");
+  const navHeight = nav ? nav.getBoundingClientRect().height : 0;
+  const top = Math.max(
+    0,
+    Math.round(targetEl.getBoundingClientRect().top + window.scrollY - navHeight - extraOffset)
+  );
+  window.scrollTo({ top, behavior });
+}
+
 function alignResultsAnchor(targetEl) {
   if (!targetEl) return;
   const hash = String(window.location.hash || "").toLowerCase();
   if (!hash.startsWith("#results")) return;
 
-  const run = () => {
-    const nav = document.querySelector(".nav");
-    const navHeight = nav ? nav.getBoundingClientRect().height : 0;
-    const top = Math.max(
-      0,
-      Math.round(targetEl.getBoundingClientRect().top + window.scrollY - navHeight - 12)
-    );
-    window.scrollTo(0, top);
-  };
-
   requestAnimationFrame(() => {
-    requestAnimationFrame(run);
+    requestAnimationFrame(() => {
+      scrollToWithNavOffset(targetEl, { extraOffset: 12, behavior: "auto" });
+    });
   });
 }
 
@@ -1440,7 +1443,7 @@ async function loadCityData() {
     mapCtl.setMarkers(itemsToRender, (id) => {
       const card = resultsEl.querySelector(`article.card[data-id="${CSS.escape(id)}"]`);
       if (card) {
-        card.scrollIntoView({ behavior: "smooth", block: "start" });
+        scrollToWithNavOffset(card, { extraOffset: 18, behavior: "smooth" });
         card.style.outline = "2px solid rgba(46,110,166,0.35)";
         card.style.outlineOffset = "4px";
         setTimeout(() => { card.style.outline = ""; card.style.outlineOffset = ""; }, 1200);
