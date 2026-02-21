@@ -1,0 +1,302 @@
+{
+  "city": "Los Angeles",
+  "state": "CA",
+  "last_updated": "2026-02-21",
+  "facilities": [
+    {
+      "name": "Washington Blvd. S.A.F.E. Center",
+      "type": "Hazardous Waste Facility",
+      "address": "2649 East Washington Boulevard, Los Angeles, CA 90021",
+      "phone": "3-1-1",
+      "hours": "Check official S.A.F.E. center schedule before visiting.",
+      "fees": "Typically free for Los Angeles residents for household quantities; confirm limits before arrival.",
+      "accepted_materials": [
+        "Household hazardous waste",
+        "Paint and chemicals",
+        "Batteries",
+        "Used motor oil",
+        "Electronics (e-waste)"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Explosives or ammunition",
+        "Medical sharps outside posted program rules"
+      ],
+      "rules": "Resident-focused drop-off. Bring ID and confirm material limits, packaging rules, and schedule before driving.",
+      "source": "https://www.lacitysan.org/",
+      "verified_date": "2026-02-21",
+      "lat": 34.0178538,
+      "lng": -118.2254111
+    },
+    {
+      "name": "Nicole Bernson S.A.F.E. Center",
+      "type": "Hazardous Waste Facility",
+      "address": "10241 Balboa Boulevard, Northridge, CA 91325",
+      "phone": "3-1-1",
+      "hours": "Check official S.A.F.E. center schedule before visiting.",
+      "fees": "Typically free for Los Angeles residents for household quantities; confirm limits before arrival.",
+      "accepted_materials": [
+        "Household hazardous waste",
+        "Paint and chemicals",
+        "Batteries",
+        "Used motor oil",
+        "Electronics (e-waste)"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Explosives or ammunition",
+        "Materials outside posted household program scope"
+      ],
+      "rules": "Resident-focused drop-off. Verify accepted materials and load limits before visiting.",
+      "source": "https://www.lacitysan.org/",
+      "verified_date": "2026-02-21",
+      "lat": 34.2568956,
+      "lng": -118.5027189
+    },
+    {
+      "name": "Los Angeles County S.A.F.E. Center",
+      "type": "Hazardous Waste Facility",
+      "address": "Los Angeles County area (check county HHW page for active locations and schedules)",
+      "phone": "1-888-CLEAN-LA",
+      "hours": "Hours vary by site and event schedule; check county listings before visiting.",
+      "fees": "Generally free for residents with household quantities; verify current rules.",
+      "accepted_materials": [
+        "Household hazardous waste",
+        "Paint and chemicals",
+        "Batteries",
+        "Used oil and filters",
+        "E-waste"
+      ],
+      "not_accepted": [
+        "Business or commercial hazardous waste",
+        "Explosives",
+        "Materials outside county HHW scope"
+      ],
+      "rules": "Use county HHW guidance to confirm site eligibility, item limits, and appointment requirements if posted.",
+      "source": "https://cleanla.lacounty.gov/hhw/",
+      "verified_date": "2026-02-21",
+      "lat": 34.2375941,
+      "lng": -118.3714433
+    },
+    {
+      "name": "Central LA Recycling & Transfer Station",
+      "type": "Transfer Station",
+      "address": "2201 East Washington Boulevard, Los Angeles, CA 90021",
+      "phone": "Check operator listing",
+      "hours": "Check current gate hours before visiting.",
+      "fees": "Transfer fees vary by load size, weight, and material type.",
+      "accepted_materials": [
+        "Mixed municipal waste",
+        "Construction and demolition debris",
+        "General disposal loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Restricted loads not accepted by station policy"
+      ],
+      "rules": "Confirm accepted loads, payment terms, and vehicle restrictions before arrival.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 34.0202968,
+      "lng": -118.2344926
+    },
+    {
+      "name": "Glendale Waste Collection Center",
+      "type": "Transfer Station",
+      "address": "Glendale / Los Angeles area (confirm exact address and rules before visiting)",
+      "phone": "Check city listing",
+      "hours": "Check local listing for current operating hours.",
+      "fees": "Fees may vary by residency and load type.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Select bulky items",
+        "Recyclable material streams"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside posted acceptance rules"
+      ],
+      "rules": "Verify resident eligibility, accepted materials, and any ID requirements before arrival.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 34.1382923,
+      "lng": -118.2726631
+    },
+    {
+      "name": "South Gate Transfer Station",
+      "type": "Transfer Station",
+      "address": "South Gate / Los Angeles area (confirm exact address before visiting)",
+      "phone": "Check operator listing",
+      "hours": "Check operator listing for current gate hours.",
+      "fees": "Fees typically vary by material type and load size.",
+      "accepted_materials": [
+        "General waste",
+        "Mixed loads",
+        "Select recyclable materials"
+      ],
+      "not_accepted": [
+        "Hazardous materials not accepted by permit",
+        "Loads outside posted acceptance policy"
+      ],
+      "rules": "Call ahead to confirm current rates, accepted loads, and vehicle restrictions.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 33.9426856,
+      "lng": -118.1668389
+    },
+    {
+      "name": "Scholl Canyon Landfill",
+      "type": "Landfill",
+      "address": "3001 Scholl Canyon Rd, Glendale, CA 91206",
+      "phone": "Check operator listing",
+      "hours": "Check current landfill gate hours before visiting.",
+      "fees": "Landfill fees vary by weight, load type, and material class.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Approved bulky waste",
+        "Approved construction debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside permit scope"
+      ],
+      "rules": "Confirm accepted materials, safety rules, and payment methods before arrival.",
+      "source": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/scholl-canyon-landfill",
+      "verified_date": "2026-02-21",
+      "lat": 34.1582237,
+      "lng": -118.194043
+    },
+    {
+      "name": "Sunshine Canyon Landfill",
+      "type": "Landfill",
+      "address": "Los Angeles area (confirm exact gate address before visiting)",
+      "phone": "Check operator listing",
+      "hours": "Check current landfill gate hours before visiting.",
+      "fees": "Landfill fees vary by weight, material type, and account status.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Approved bulky waste",
+        "Approved disposal loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous materials",
+        "Loads outside permit acceptance"
+      ],
+      "rules": "Always confirm rates, accepted load categories, and required paperwork before driving.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 34.3275582,
+      "lng": -118.5150104
+    },
+    {
+      "name": "Sun Valley Landfill",
+      "type": "Landfill",
+      "address": "Sun Valley / Los Angeles area (confirm exact address before visiting)",
+      "phone": "Check operator listing",
+      "hours": "Check operator listing for current hours.",
+      "fees": "Fees vary by load size, weight, and waste class.",
+      "accepted_materials": [
+        "Approved landfill waste",
+        "Bulky disposal loads",
+        "Approved municipal waste streams"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside posted acceptance policy"
+      ],
+      "rules": "Confirm accepted materials and all gate requirements before arrival.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 34.2445314,
+      "lng": -118.3767656
+    },
+    {
+      "name": "Maple Canyon Landfill",
+      "type": "Landfill",
+      "address": "Los Angeles area (confirm exact address before visiting)",
+      "phone": "Check operator listing",
+      "hours": "Check operator listing for current hours.",
+      "fees": "Fees vary by load size, weight, and material type.",
+      "accepted_materials": [
+        "Approved landfill waste",
+        "Bulky disposal loads",
+        "General waste loads accepted by permit"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous materials",
+        "Loads outside permitted categories"
+      ],
+      "rules": "Call ahead to confirm disposal categories, rates, and any documentation requirements.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 34.283503,
+      "lng": -118.18512
+    },
+    {
+      "name": "De la Cruz Recycling",
+      "type": "Recycling Center",
+      "address": "15025 Roscoe Boulevard, North Hills, CA 91402",
+      "phone": "Check operator listing",
+      "hours": "Check site listing for current hours.",
+      "fees": "Material payouts and fees vary by commodity and quantity.",
+      "accepted_materials": [
+        "Scrap metal",
+        "Recyclable materials",
+        "Sorted recycling loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Contaminated loads outside recycling policy"
+      ],
+      "rules": "Confirm accepted materials, prep rules, and payment requirements before visiting.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 34.2220202,
+      "lng": -118.4600473
+    },
+    {
+      "name": "California Metals",
+      "type": "Recycling Center",
+      "address": "Los Angeles area (confirm exact address before visiting)",
+      "phone": "Check operator listing",
+      "hours": "Check operator listing for current hours.",
+      "fees": "Material payouts and fees vary by material type and quantity.",
+      "accepted_materials": [
+        "Scrap metal",
+        "Ferrous and non-ferrous materials",
+        "Sorted recyclable loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Materials outside current yard policy"
+      ],
+      "rules": "Verify accepted categories and any ID requirements before drop-off.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 33.9489773,
+      "lng": -118.178438
+    },
+    {
+      "name": "EDCO Recycling",
+      "type": "Recycling Center",
+      "address": "Los Angeles area (confirm exact address before visiting)",
+      "phone": "Check operator listing",
+      "hours": "Check operator listing for current hours.",
+      "fees": "Fees and payouts vary by material type, contamination, and market rates.",
+      "accepted_materials": [
+        "Common recyclables",
+        "Sorted material streams",
+        "Recyclable drop-off loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Contaminated materials outside program scope"
+      ],
+      "rules": "Call ahead to verify accepted streams and drop-off requirements before arrival.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-02-21",
+      "lat": 33.8076548,
+      "lng": -118.1820429
+    }
+  ]
+}

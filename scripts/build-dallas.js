@@ -9,10 +9,11 @@ function runStep(label, cmd, args) {
 }
 
 function run() {
-  runStep("1/4", "node", ["scripts/build-manual-facilities.js", "texas", "dallas"]);
-  runStep("2/4", "node", ["scripts/generate-city-pages.js", "texas", "dallas"]);
-  runStep("3/4", "node", ["scripts/generate-facility-pages.js", "texas", "--city", "dallas"]);
-  runStep("4/4", "node", ["scripts/generate-sitemap.js"]);
+  runStep("1/5", "node", ["scripts/build-manual-facilities.js", "texas", "dallas"]);
+  runStep("2/5", "node", ["scripts/generate-city-pages.js", "texas", "dallas"]);
+  runStep("3/5", "node", ["scripts/generate-facility-pages.js", "texas", "--city", "dallas"]);
+  runStep("4/5", "node", ["scripts/prune-generated-pages.js", "--apply"]);
+  runStep("5/5", "node", ["scripts/generate-sitemap.js"]);
 
   console.log("\nDallas build completed.");
 }

@@ -1,0 +1,33 @@
+{
+  "id": "f_manual_7fd36c830cab",
+  "name": "Nicole Bernson S.A.F.E. Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "10241 Balboa Boulevard, Northridge, CA 91325",
+  "phone": "3-1-1",
+  "hours": "Check official S.A.F.E. center schedule before visiting.",
+  "fees": "Typically free for Los Angeles residents for household quantities; confirm limits before arrival.",
+  "rules": "Resident-focused drop-off. Verify accepted materials and load limits before visiting.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and chemicals",
+    "Batteries",
+    "Used motor oil",
+    "Electronics (e-waste)"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Explosives or ammunition",
+    "Materials outside posted household program scope"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www.lacitysan.org/",
+  "osm_url": "https://www.lacitysan.org/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

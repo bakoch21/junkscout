@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_8ddfadc173db",
+  "name": "Sunshine Canyon Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "Los Angeles area (confirm exact gate address before visiting)",
+  "phone": "Check operator listing",
+  "hours": "Check current landfill gate hours before visiting.",
+  "fees": "Landfill fees vary by weight, material type, and account status.",
+  "rules": "Always confirm rates, accepted load categories, and required paperwork before driving.",
+  "accepted_materials": [
+    "Municipal solid waste",
+    "Approved bulky waste",
+    "Approved disposal loads"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous materials",
+    "Loads outside permit acceptance"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

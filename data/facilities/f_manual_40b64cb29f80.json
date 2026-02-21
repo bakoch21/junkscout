@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_40b64cb29f80",
+  "name": "De la Cruz Recycling",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "15025 Roscoe Boulevard, North Hills, CA 91402",
+  "phone": "Check operator listing",
+  "hours": "Check site listing for current hours.",
+  "fees": "Material payouts and fees vary by commodity and quantity.",
+  "rules": "Confirm accepted materials, prep rules, and payment requirements before visiting.",
+  "accepted_materials": [
+    "Scrap metal",
+    "Recyclable materials",
+    "Sorted recycling loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Contaminated loads outside recycling policy"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

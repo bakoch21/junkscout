@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_d8a556a053c4",
+  "name": "Central LA Recycling & Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "2201 East Washington Boulevard, Los Angeles, CA 90021",
+  "phone": "Check operator listing",
+  "hours": "Check current gate hours before visiting.",
+  "fees": "Transfer fees vary by load size, weight, and material type.",
+  "rules": "Confirm accepted loads, payment terms, and vehicle restrictions before arrival.",
+  "accepted_materials": [
+    "Mixed municipal waste",
+    "Construction and demolition debris",
+    "General disposal loads"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Restricted loads not accepted by station policy"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

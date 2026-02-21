@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_d5a7b522ff1a",
+  "name": "EDCO Recycling",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "Los Angeles area (confirm exact address before visiting)",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current hours.",
+  "fees": "Fees and payouts vary by material type, contamination, and market rates.",
+  "rules": "Call ahead to verify accepted streams and drop-off requirements before arrival.",
+  "accepted_materials": [
+    "Common recyclables",
+    "Sorted material streams",
+    "Recyclable drop-off loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Contaminated materials outside program scope"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

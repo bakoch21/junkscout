@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_ac8db580aff1",
+  "name": "Sun Valley Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "Sun Valley / Los Angeles area (confirm exact address before visiting)",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current hours.",
+  "fees": "Fees vary by load size, weight, and waste class.",
+  "rules": "Confirm accepted materials and all gate requirements before arrival.",
+  "accepted_materials": [
+    "Approved landfill waste",
+    "Bulky disposal loads",
+    "Approved municipal waste streams"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Loads outside posted acceptance policy"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_270d746afab7",
+  "name": "Glendale Waste Collection Center",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "Glendale / Los Angeles area (confirm exact address and rules before visiting)",
+  "phone": "Check city listing",
+  "hours": "Check local listing for current operating hours.",
+  "fees": "Fees may vary by residency and load type.",
+  "rules": "Verify resident eligibility, accepted materials, and any ID requirements before arrival.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Select bulky items",
+    "Recyclable material streams"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Materials outside posted acceptance rules"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

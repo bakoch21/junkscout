@@ -1,0 +1,33 @@
+{
+  "id": "f_manual_3f290a9734f9",
+  "name": "Los Angeles County S.A.F.E. Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "Los Angeles County area (check county HHW page for active locations and schedules)",
+  "phone": "1-888-CLEAN-LA",
+  "hours": "Hours vary by site and event schedule; check county listings before visiting.",
+  "fees": "Generally free for residents with household quantities; verify current rules.",
+  "rules": "Use county HHW guidance to confirm site eligibility, item limits, and appointment requirements if posted.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and chemicals",
+    "Batteries",
+    "Used oil and filters",
+    "E-waste"
+  ],
+  "not_accepted": [
+    "Business or commercial hazardous waste",
+    "Explosives",
+    "Materials outside county HHW scope"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://cleanla.lacounty.gov/hhw/",
+  "osm_url": "https://cleanla.lacounty.gov/hhw/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

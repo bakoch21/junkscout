@@ -100,6 +100,7 @@ function applyCitySEO({ cityName, stateName }) {
   const isDallas = String(cityName).toLowerCase() === "dallas" && String(stateName).toUpperCase() === "TX";
   const isAustin = String(cityName).toLowerCase() === "austin" && String(stateName).toUpperCase() === "TX";
   const isSanAntonio = String(cityName).toLowerCase() === "san antonio" && String(stateName).toUpperCase() === "TX";
+  const isLosAngeles = String(cityName).toLowerCase() === "los angeles" && String(stateName).toUpperCase() === "CA";
 
   const titleEl = document.getElementById("cityTitle");
   if (titleEl) {
@@ -111,6 +112,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Austin Trash Dump, Transfer Stations & Landfills"
       : isSanAntonio
       ? "San Antonio Trash Dump, Transfer Stations & Landfills"
+      : isLosAngeles
+      ? "Los Angeles Trash Dump, Transfer Stations & Landfills"
       : "Where to dump trash in " + pretty;
   }
 
@@ -124,6 +127,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Compare Austin dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : isSanAntonio
       ? "Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+      : isLosAngeles
+      ? "Compare Los Angeles dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ", " +
         "with hours, rules, and accepted materials when available.";
   }
@@ -138,6 +143,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Need to dump trash in Austin fast? Start with these verified options and confirm rules before you drive."
       : isSanAntonio
       ? "Need to dump trash in San Antonio fast? Start with these verified options and confirm rules before you drive."
+      : isLosAngeles
+      ? "Need to dump trash in Los Angeles fast? Start with these verified options and confirm rules before you drive."
       : "Public landfills, transfer stations, and disposal sites in " + cityName + ". " +
         "Always confirm fees, residency rules, and accepted materials before visiting.";
   }
@@ -212,6 +219,23 @@ function applyCitySEO({ cityName, stateName }) {
     if (faqDumpFreeBody) {
       faqDumpFreeBody.textContent =
         "Some San Antonio-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
+    }
+  } else if (isLosAngeles) {
+    document.title = "Los Angeles Trash Dump, Transfer Stations & Landfills | JunkScout";
+    setMetaDescription(
+      "Compare Los Angeles dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+    );
+
+    const faqDumpWhere = document.getElementById("faqDumpWhere");
+    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Los Angeles today?";
+
+    const faqDumpFree = document.getElementById("faqDumpFree");
+    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Los Angeles?";
+
+    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
+    if (faqDumpFreeBody) {
+      faqDumpFreeBody.textContent =
+        "Some Los Angeles-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
     }
   } else {
     document.title = cityName + ", " + stateName + " Trash Dump, Transfer Stations & Landfills | JunkScout";

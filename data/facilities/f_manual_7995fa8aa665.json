@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_7995fa8aa665",
+  "name": "South Gate Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "South Gate / Los Angeles area (confirm exact address before visiting)",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current gate hours.",
+  "fees": "Fees typically vary by material type and load size.",
+  "rules": "Call ahead to confirm current rates, accepted loads, and vehicle restrictions.",
+  "accepted_materials": [
+    "General waste",
+    "Mixed loads",
+    "Select recyclable materials"
+  ],
+  "not_accepted": [
+    "Hazardous materials not accepted by permit",
+    "Loads outside posted acceptance policy"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

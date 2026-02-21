@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_817ed325ff47",
+  "name": "California Metals",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "Los Angeles area (confirm exact address before visiting)",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current hours.",
+  "fees": "Material payouts and fees vary by material type and quantity.",
+  "rules": "Verify accepted categories and any ID requirements before drop-off.",
+  "accepted_materials": [
+    "Scrap metal",
+    "Ferrous and non-ferrous materials",
+    "Sorted recyclable loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Materials outside current yard policy"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

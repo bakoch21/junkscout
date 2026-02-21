@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_1f7e11df77d9",
+  "name": "Scholl Canyon Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "3001 Scholl Canyon Rd, Glendale, CA 91206",
+  "phone": "Check operator listing",
+  "hours": "Check current landfill gate hours before visiting.",
+  "fees": "Landfill fees vary by weight, load type, and material class.",
+  "rules": "Confirm accepted materials, safety rules, and payment methods before arrival.",
+  "accepted_materials": [
+    "Municipal solid waste",
+    "Approved bulky waste",
+    "Approved construction debris"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Materials outside permit scope"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/scholl-canyon-landfill",
+  "osm_url": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/scholl-canyon-landfill",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

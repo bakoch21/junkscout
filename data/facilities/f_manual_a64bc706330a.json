@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_a64bc706330a",
+  "name": "Maple Canyon Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "Los Angeles area (confirm exact address before visiting)",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current hours.",
+  "fees": "Fees vary by load size, weight, and material type.",
+  "rules": "Call ahead to confirm disposal categories, rates, and any documentation requirements.",
+  "accepted_materials": [
+    "Approved landfill waste",
+    "Bulky disposal loads",
+    "General waste loads accepted by permit"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous materials",
+    "Loads outside permitted categories"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

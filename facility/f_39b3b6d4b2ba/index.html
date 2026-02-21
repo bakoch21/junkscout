@@ -11,19 +11,21 @@
       "@id": "https://junkscout.io/facility/f_39b3b6d4b2ba/#place",
       "name": "Scholl Canyon Landfill",
       "url": "https://junkscout.io/facility/f_39b3b6d4b2ba/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 34.1582237,
         "longitude": -118.194043
-      },
-      "sameAs": [
-        "https://www.openstreetmap.org/way/39515897"
-      ]
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://junkscout.io/facility/f_39b3b6d4b2ba/#webpage",
-      "name": "Scholl Canyon Landfill — landfill in Los Angeles, CALIFORNIA | JunkScout",
+      "name": "Scholl Canyon Landfill (Los Angeles, CA) | JunkScout",
       "description": "Address, map, and source links for Scholl Canyon Landfill. Always confirm fees, hours, and accepted materials before visiting.",
       "url": "https://junkscout.io/facility/f_39b3b6d4b2ba/",
       "about": {
@@ -43,19 +45,21 @@
 
   <!-- generator will replace title/description/canonical -->
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
 
-  <title>Scholl Canyon Landfill — landfill in Los Angeles, CALIFORNIA | JunkScout</title>
+  <title>Scholl Canyon Landfill (Los Angeles, CA) | JunkScout</title>
   <meta name="description" content="Address, map, and source links for Scholl Canyon Landfill. Always confirm fees, hours, and accepted materials before visiting." />
   <link rel="canonical" href="https://junkscout.io/facility/f_39b3b6d4b2ba/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Scholl Canyon Landfill — landfill in Los Angeles, CALIFORNIA | JunkScout" />
+  <meta property="og:title" content="Scholl Canyon Landfill (Los Angeles, CA) | JunkScout" />
   <meta property="og:description" content="Address, map, and source links for Scholl Canyon Landfill. Always confirm fees, hours, and accepted materials before visiting." />
   <meta property="og:url" content="https://junkscout.io/facility/f_39b3b6d4b2ba/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Scholl Canyon Landfill — landfill in Los Angeles, CALIFORNIA | JunkScout" />
+  <meta name="twitter:title" content="Scholl Canyon Landfill (Los Angeles, CA) | JunkScout" />
   <meta name="twitter:description" content="Address, map, and source links for Scholl Canyon Landfill. Always confirm fees, hours, and accepted materials before visiting." />
 
 </head>
@@ -63,15 +67,15 @@
 <body data-state="california" data-city="los-angeles">
   <header class="nav">
     <div class="nav__inner">
-      <a class="brand" href="/index.html">
+      <a class="brand" href="/">
         <img src="/logo.svg" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
-        <a href="/index.html#browse-materials">Browse materials</a>
+        <a href="/#browse-materials">Browse materials</a>
         <a href="/texas/">Browse locations</a>
-        <a href="/index.html#how-it-works">How it works</a>
-        <a href="/index.html#pro" class="muted">Pro (coming soon)</a>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/about/" class="muted">About</a>
       </nav>
 
       <div class="nav__actions">
@@ -83,12 +87,10 @@
 
   <main class="hero">
     <div class="container">
-      <p class="muted small" id="facilityKicker">Facility</p>
+      <p class="muted small" id="facilityKicker">Landfill</p>
 
-      <h1 id="facilityTitle">Facility name</h1>
-      <p class="subhead" id="facilitySubhead">
-        A listed dump / landfill / transfer station / recycling site.
-      </p>
+      <h1 id="facilityTitle">Scholl Canyon Landfill</h1>
+      <p class="subhead" id="facilitySubhead">Landfill in the area. Confirm hours, fees, and accepted materials before visiting.</p>
 
       <!-- ✅ FACILITY BADGES (injected by facility.js) -->
       <div id="facilityBadges"></div>
@@ -101,18 +103,18 @@
         <div class="wizard__row" style="grid-template-columns: 1fr 1fr 1fr; align-items:center">
           <div>
             <div class="label">Address</div>
-            <div id="facilityAddress" style="font-weight:700">—</div>
-            <div class="hint" id="facilityCoords">—</div>
+            <div id="facilityAddress" style="font-weight:700">Address not provided</div>
+            <div class="hint" id="facilityCoords">Coordinates: 34.1582237, -118.194043</div>
           </div>
 
           <div>
             <div class="label">Links</div>
             <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; align-items:center">
-              <a class="link" id="facilityDirections" href="#" target="_blank" rel="noopener">Directions</a>
+              <a class="link" id="facilityDirections" href="https://www.google.com/maps/search/?api=1&amp;query=34.1582237,-118.194043" target="_blank" rel="noopener">Directions</a>
               <a class="link" id="facilityWebsite" href="#" target="_blank" rel="noopener" style="display:none">Website</a>
-              <a class="link" id="facilitySource" href="#" target="_blank" rel="noopener" style="display:none">Source</a>
+              <a class="link" id="facilitySource" href="https://www.openstreetmap.org/way/39515897" target="_blank" rel="noopener" style="display:inline">Source</a>
 
-              <!-- Houston-only trigger (houston-modal.js will show it when appropriate) -->
+              <!-- City rules trigger (houston-modal.js will show it when appropriate) -->
               <button
                 id="houstonRulesBtn"
                 type="button"
@@ -121,13 +123,13 @@
                 aria-haspopup="dialog"
                 aria-controls="houstonModal"
               >
-                Houston rules &amp; fees
+                City rules &amp; fees
               </button>
             </div>
           </div>
 
           <div>
-            <a class="btn btn--primary btn--big" id="facilityCta" href="#" target="_blank" rel="noopener">
+            <a class="btn btn--primary btn--big" id="facilityCta" href="https://www.google.com/maps/search/?api=1&amp;query=34.1582237,-118.194043" target="_blank" rel="noopener">
               Open in Maps
             </a>
           </div>
@@ -141,15 +143,31 @@
 
       <section class="seo-copy" style="margin-top:26px">
         <h2>About this facility</h2>
-        <p id="facilityAbout">
-          This location is listed as a disposal / drop-off site in the area. Rules and requirements vary by site.
+        <p id="facilityAbout">This location is listed as a landfill. Rules, residency requirements, and fees vary by facility. Always confirm details directly before visiting.</p>
+<div id="verifiedDetails">
+  <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
+    <h2>Verified facility details</h2>
+    
+    
+    
+    
+    
+    
+    <div style="margin-top:12px"><a class="link" href="https://www.openstreetmap.org/way/39515897" target="_blank" rel="noopener">Verified source</a></div>
+  </section>
+</div>
+
+        <h2>Nearby facilities</h2>
+        <p class="muted" style="margin-top:-6px">
+          Compare nearby options before you drive:
         </p>
+        <div class="cityhub__grid" id="facilityNearby" style="margin-top:10px"><a class="cityhub__pill" href="/facility/f_manual_a64bc706330a/">Maple Canyon Landfill (Los Angeles)</a><a class="cityhub__pill" href="/facility/f_manual_1f7e11df77d9/">Scholl Canyon Landfill (Los Angeles)</a><a class="cityhub__pill" href="/facility/f_manual_ac8db580aff1/">Sun Valley Landfill (Los Angeles)</a><a class="cityhub__pill" href="/facility/f_manual_8ddfadc173db/">Sunshine Canyon Landfill (Los Angeles)</a><a class="cityhub__pill" href="/facility/f_e76ce05562a8/">Bradley Landfill &amp; Sun Valley Recycling Park (Los Angeles)</a><a class="cityhub__pill" href="/facility/f_333a08c12c73/">City of Burbank Landfill No. 3 (Los Angeles)</a><a class="cityhub__pill" href="/facility/f_11123ccf58cc/">Maple Canyon Landfill (Los Angeles)</a><a class="cityhub__pill" href="/facility/f_7a4d2e253fed/">Palos Verdes Landfill (Los Angeles)</a></div>
 
         <h2>May serve nearby cities</h2>
         <p class="muted" style="margin-top:-6px">
           This facility appears in city listings for:
         </p>
-        <div class="cityhub__grid" id="facilityCities" style="margin-top:10px"></div>
+        <div class="cityhub__grid" id="facilityCities" style="margin-top:10px"><a class="cityhub__pill" href="/california/los-angeles/">Los Angeles</a></div>
       </section>
 
       <section class="report" style="margin-top:40px">
@@ -159,7 +177,7 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
-            <a class="btn" href="/index.html">Back to home</a>
+            <a class="btn" href="/">Back to home</a>
           </div>
         </div>
       </section>
@@ -169,6 +187,7 @@
   <!-- Modal mount point (houston-modal.js will inject the dialog here) -->
   <div id="houstonModalRoot"></div>
 
+  <script src="/analytics.js" defer></script>
   <script src="/facility.js"></script>
   <script src="/houston-modal.js" defer></script>
 </body>

@@ -1,0 +1,33 @@
+{
+  "id": "f_manual_796d320b84af",
+  "name": "Washington Blvd. S.A.F.E. Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2649 East Washington Boulevard, Los Angeles, CA 90021",
+  "phone": "3-1-1",
+  "hours": "Check official S.A.F.E. center schedule before visiting.",
+  "fees": "Typically free for Los Angeles residents for household quantities; confirm limits before arrival.",
+  "rules": "Resident-focused drop-off. Bring ID and confirm material limits, packaging rules, and schedule before driving.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and chemicals",
+    "Batteries",
+    "Used motor oil",
+    "Electronics (e-waste)"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Explosives or ammunition",
+    "Medical sharps outside posted program rules"
+  ],
+  "verified_date": "2026-02-21",
+  "source": "https://www.lacitysan.org/",
+  "osm_url": "https://www.lacitysan.org/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}
