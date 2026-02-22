@@ -48,84 +48,51 @@
           and more, with rules, hours, and fees when available.
         </p>
 
-        <!-- Wizard -->
-        <section class="wizard" aria-label="Search">
-          <div class="wizard__row">
-            <label class="field field--where">
-              <span class="label">Where are you?</span>
-              <div class="combo">
-                <input
-                  id="whereInput"
-                  type="text"
-                  placeholder="City, State (e.g., Austin, TX)"
-                  autocomplete="off"
-                  list="cityList"
-                />
-              </div>
 
-              <datalist id="cityList"></datalist>
-
-              <div class="filters">
-                <button class="link" id="toggleFilters" type="button">
-                  More filters
-                </button>
-              </div>
-            </label>
-
-            <div class="field field--cta">
-              <span class="label" aria-hidden="true">&nbsp;</span>
-              <button
-                class="btn btn--primary btn--big btn--search-primary"
-                id="searchBtn"
-                type="button"
-              >
-                Find drop-off options
-              </button>
-
-              <div class="trustline">
-                <span>✅ Source-linked</span>
-                <span>✅ Verified date</span>
-                <span>✅ Community updates</span>
+        <section class="state-lab" aria-label="State card design concepts">
+          <div class="state-lab__head">
+            <h2>Choose your state</h2>
+            <div class="state-lab__tools">
+              <p class="muted">Start with a state, then narrow by city.</p>
+              <div class="state-rail-controls" aria-label="State rail controls">
+                <button type="button" class="state-rail-btn" data-state-rail-prev aria-label="Scroll states left">&#8592;</button>
+                <button type="button" class="state-rail-btn" data-state-rail-next aria-label="Scroll states right">&#8594;</button>
               </div>
             </div>
           </div>
 
-          <!-- Expandable filters -->
-          <div class="wizard__filters" id="filtersPanel" hidden>
-            <div class="filters__grid">
-              <label class="field">
-                <span class="label">Load size</span>
-                <select id="loadSelect">
-                  <option value="">Optional</option>
-                  <option>A few items</option>
-                  <option>Car trunk</option>
-                  <option>Pickup bed</option>
-                  <option>Trailer</option>
-                  <option>Truck</option>
-                </select>
-              </label>
+          <div class="state-rail-wrap">
+            <div class="state-row state-row--bold" data-state-rail>
+              <a class="state-card state-card--bold state-card--tx" href="/texas/">
+                <span class="state-card__eyebrow">280 city pages</span>
+                <strong>Texas</strong>
+                <span class="state-card__desc">Houston, Dallas, Austin, San Antonio, plus full statewide directory.</span>
+                <span class="state-card__cta">Browse Texas -&gt;</span>
+              </a>
 
-              <label class="check">
-                <input id="openNow" type="checkbox" />
-                <span>Open now</span>
-              </label>
+              <a class="state-card state-card--bold state-card--ca" href="/california/">
+                <span class="state-card__eyebrow">7 city pages</span>
+                <strong>California</strong>
+                <span class="state-card__desc">Los Angeles live now, with fast expansion across major metro areas.</span>
+                <span class="state-card__cta">Browse California -&gt;</span>
+              </a>
 
-              <label class="check">
-                <input id="residentOnly" type="checkbox" />
-                <span>Include resident-only sites</span>
-              </label>
+              <div class="state-card state-card--bold state-card--future" role="group" aria-label="Florida coming soon">
+                <span class="state-card__eyebrow">Coming soon</span>
+                <strong>Florida</strong>
+                <span class="state-card__desc">Next wave candidate for statewide drop-off directory coverage.</span>
+                <span class="state-card__cta">State page in progress</span>
+              </div>
 
-              <label class="check">
-                <input id="mixedLoads" type="checkbox" />
-                <span>Show sites that take mixed loads</span>
-              </label>
+              <div class="state-card state-card--bold state-card--future" role="group" aria-label="Georgia coming soon">
+                <span class="state-card__eyebrow">Coming soon</span>
+                <strong>Georgia</strong>
+                <span class="state-card__desc">Planned expansion once initial state workflows are fully stable.</span>
+                <span class="state-card__cta">State page in progress</span>
+              </div>
             </div>
           </div>
-
-          <div class="wizard__note">
-            <span class="dot"></span>
-            Verified sources • No spam • Updated by community
-          </div>
+          <p class="state-lab__foot">Auto-scroll is on. Use arrows, swipe, or shift-wheel to explore states.</p>
         </section>
 
 <section class="top-guides" aria-label="Top city guides">

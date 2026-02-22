@@ -161,6 +161,169 @@ function wireHomepageCards() {
   });
 }
 
+function wireStateRail() {
+  const rail = document.querySelector("[data-state-rail]");
+  const prevBtn = document.querySelector("[data-state-rail-prev]");
+  const nextBtn = document.querySelector("[data-state-rail-next]");
+
+  if (!rail || !prevBtn || !nextBtn) return;
+
+  const prefersReducedMotion =
+    typeof window.matchMedia === "function" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  const baseCards = Array.from(
+    rail.querySelectorAll(".state-card:not([data-state-rail-clone='1'])")
+  );
+  if (baseCards.length < 2) {
+    prevBtn.hidden = true;
+    nextBtn.hidden = true;
+    return;
+  }
+
+  const markClone = (clone) => {
+    clone.setAttribute("data-state-rail-clone", "1");
+    clone.setAttribute("aria-hidden", "true");
+
+    if (clone instanceof HTMLElement) {
+      clone.tabIndex = -1;
+      const focusables = clone.querySelectorAll(
+        "a, button, input, select, textarea, [tabindex]"
+      );
+      for (const el of focusables) {
+        if (el instanceof HTMLElement) el.tabIndex = -1;
+      }
+    }
+  };
+
+  const getStep = () => {
+    const first = baseCards[0];
+    if (!first) return Math.max(220, Math.round(rail.clientWidth * 0.75));
+
+    const styles = window.getComputedStyle(rail);
+    const gap = parseFloat(styles.columnGap || styles.gap || "12") || 12;
+    return Math.round(first.getBoundingClientRect().width + gap);
+  };
+
+  let autoTimer = null;
+  let resumeTimer = null;
+  const AUTO_INTERVAL_MS = 2600;
+  const AUTO_RESUME_DELAY_MS = 2200;
+
+  const appendCycle = () => {
+    const frag = document.createDocumentFragment();
+    for (const card of baseCards) {
+      const clone = card.cloneNode(true);
+      markClone(clone);
+      frag.appendChild(clone);
+    }
+    rail.appendChild(frag);
+  };
+
+  const ensureTailSpace = () => {
+    const step = getStep();
+    const remaining = rail.scrollWidth - rail.clientWidth - rail.scrollLeft;
+    if (remaining < step * 2.2) appendCycle();
+  };
+
+  const updateButtons = () => {
+    const hasOverflow = rail.scrollWidth - rail.clientWidth > 4;
+    if (!hasOverflow) {
+      prevBtn.disabled = true;
+      nextBtn.disabled = true;
+      return;
+    }
+    prevBtn.disabled = rail.scrollLeft <= 4;
+    nextBtn.disabled = false;
+  };
+
+  const stopAuto = () => {
+    if (autoTimer) {
+      clearInterval(autoTimer);
+      autoTimer = null;
+    }
+  };
+
+  const stepRight = () => {
+    ensureTailSpace();
+    rail.scrollBy({
+      left: getStep(),
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+    });
+    setTimeout(ensureTailSpace, prefersReducedMotion ? 0 : 420);
+  };
+
+  const stepLeft = () => {
+    rail.scrollBy({
+      left: -getStep(),
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+    });
+  };
+
+  const startAuto = () => {
+    if (prefersReducedMotion || autoTimer) return;
+    ensureTailSpace();
+    autoTimer = setInterval(() => {
+      stepRight();
+    }, AUTO_INTERVAL_MS);
+  };
+
+  const scheduleAutoResume = () => {
+    if (prefersReducedMotion) return;
+    stopAuto();
+    if (resumeTimer) clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(() => {
+      ensureTailSpace();
+      updateButtons();
+      startAuto();
+    }, AUTO_RESUME_DELAY_MS);
+  };
+
+  prevBtn.addEventListener("click", () => {
+    stepLeft();
+    scheduleAutoResume();
+  });
+
+  nextBtn.addEventListener("click", () => {
+    stepRight();
+    scheduleAutoResume();
+  });
+
+  rail.addEventListener("scroll", () => {
+    ensureTailSpace();
+    updateButtons();
+  }, { passive: true });
+
+  rail.addEventListener("wheel", scheduleAutoResume, { passive: true });
+  rail.addEventListener("touchstart", scheduleAutoResume, { passive: true });
+  rail.addEventListener("pointerdown", scheduleAutoResume, { passive: true });
+  rail.addEventListener("mouseenter", stopAuto);
+  rail.addEventListener("mouseleave", scheduleAutoResume);
+  rail.addEventListener("focusin", stopAuto);
+  rail.addEventListener("focusout", scheduleAutoResume);
+
+  window.addEventListener("resize", () => {
+    ensureTailSpace();
+    updateButtons();
+    scheduleAutoResume();
+  }, { passive: true });
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      stopAuto();
+      return;
+    }
+    scheduleAutoResume();
+  });
+
+  if (!rail.querySelector("[data-state-rail-clone='1']")) appendCycle();
+  requestAnimationFrame(() => {
+    ensureTailSpace();
+    updateButtons();
+    startAuto();
+  });
+}
+
 // Wire up events
 if (toggleFilters) toggleFilters.addEventListener("click", toggleFiltersPanel);
 if (searchBtn) searchBtn.addEventListener("click", runSearch);
@@ -180,5 +343,6 @@ if (whereInput) {
 document.addEventListener("DOMContentLoaded", () => {
   populateCityDatalist();
   wireHomepageCards();
+  wireStateRail();
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
