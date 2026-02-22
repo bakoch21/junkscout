@@ -978,10 +978,63 @@ h2{font-size:28px; margin:0 0 14px}
 }
 
 @media (max-width: 620px){
+  .state-lab{
+    padding:14px 12px;
+    border-radius:16px;
+  }
+  .state-lab__head h2{
+    font-size:24px;
+  }
   .state-lab__tools{
     flex-direction:column;
     align-items:flex-start;
     gap:8px;
+    width:100%;
+  }
+  .state-lab__tools p{
+    font-size:13px;
+  }
+  .state-rail-controls{
+    align-self:flex-end;
+  }
+  .state-rail-btn{
+    width:30px;
+    height:30px;
+  }
+  .state-rail-wrap::before,
+  .state-rail-wrap::after{
+    width:10px;
+  }
+  .state-rail-wrap::before{
+    background:linear-gradient(90deg, rgba(247,250,255,.62), rgba(247,250,255,0));
+  }
+  .state-rail-wrap::after{
+    background:linear-gradient(270deg, rgba(247,250,255,.62), rgba(247,250,255,0));
+  }
+  .state-row{
+    grid-auto-columns:minmax(248px, calc(100% - 74px));
+    gap:10px;
+    padding:2px 8px 2px 2px;
+  }
+  .state-card{
+    padding:12px 14px;
+    border-radius:12px;
+  }
+  .state-row--bold .state-card{
+    min-height:152px;
+  }
+  .state-card strong,
+  .state-card--bold strong{
+    font-size:26px;
+  }
+  .state-card__desc{
+    font-size:13px;
+  }
+}
+
+@media (max-width: 430px){
+  .state-row{
+    grid-auto-columns:minmax(236px, calc(100% - 62px));
   }
 }
 
