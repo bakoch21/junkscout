@@ -115,6 +115,40 @@ function getCoordsFromRecord(record) {
   return { lat, lng };
 }
 
+function toRadians(deg) {
+  return (deg * Math.PI) / 180;
+}
+
+function distanceMiles(lat1, lng1, lat2, lng2) {
+  if (!isValidCoordPair(lat1, lng1) || !isValidCoordPair(lat2, lng2)) return null;
+
+  const dLat = toRadians(lat2 - lat1);
+  const dLng = toRadians(lng2 - lng1);
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2)) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const earthRadiusMi = 3958.8;
+  return earthRadiusMi * c;
+}
+
+function normalizeComparableText(value = "") {
+  return cleanString(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function nearbyDedupKey(facility) {
+  const name = normalizeComparableText(facility?.name || "");
+  const address = normalizeComparableText(facility?.address || "");
+  if (name && address) return `${name}|${address}`;
+  if (name) return `name:${name}`;
+  if (address) return `addr:${address}`;
+  return `id:${cleanString(facility?.id || "")}`;
+}
+
 function mergeUniqueStringArrays(a = [], b = []) {
   const out = [];
   const seen = new Set();
@@ -472,8 +506,25 @@ function buildNearbyFacilitiesHtml({ facility, poolFacilities, state, city }) {
   const currentType = cleanSlug(facility?.type || "");
   const stateSlug = cleanSlug(state || "");
   const citySlug = cleanSlug(city || "");
+  const currentCoords = getCoordsFromRecord(facility);
+  const hasCurrentCoords = currentCoords.lat !== null && currentCoords.lng !== null;
+  const maxNearbyDistanceMi = 75;
+  const maxLinksTotal = 6;
+  const maxFacilityLinks = citySlug ? maxLinksTotal - 1 : maxLinksTotal;
 
-  const candidates = [];
+  function rankNearbyCandidate(a, b) {
+    const aHasDistance = Number.isFinite(a.distanceMi);
+    const bHasDistance = Number.isFinite(b.distanceMi);
+    if (aHasDistance !== bHasDistance) return aHasDistance ? -1 : 1;
+    if (aHasDistance && bHasDistance && a.distanceMi !== b.distanceMi) return a.distanceMi - b.distanceMi;
+    if (a.sameCity !== b.sameCity) return a.sameCity ? -1 : 1;
+    if (a.typeMatch !== b.typeMatch) return a.typeMatch ? -1 : 1;
+    if (a.hasVerified !== b.hasVerified) return a.hasVerified ? -1 : 1;
+    if (a.hasAddress !== b.hasAddress) return a.hasAddress ? -1 : 1;
+    return a.name.localeCompare(b.name);
+  }
+
+  const deduped = new Map();
   for (const row of coerceArray(poolFacilities)) {
     const id = cleanString(row?.id || "");
     if (!id || id === currentId) continue;
@@ -483,40 +534,74 @@ function buildNearbyFacilitiesHtml({ facility, poolFacilities, state, city }) {
     const sameState = matchesState(row, stateSlug);
     if (!sameCity && !sameState) continue;
 
+    const rowCoords = getCoordsFromRecord(row);
+    const distanceMi =
+      hasCurrentCoords && rowCoords.lat !== null && rowCoords.lng !== null
+        ? distanceMiles(currentCoords.lat, currentCoords.lng, rowCoords.lat, rowCoords.lng)
+        : null;
+
+    // Nearby should be practical: when we have coordinates, keep nearby distance;
+    // if we cannot compute distance, keep only same-city options.
+    if (hasCurrentCoords) {
+      if (Number.isFinite(distanceMi) && distanceMi > maxNearbyDistanceMi) continue;
+      if (!Number.isFinite(distanceMi) && !sameCity) continue;
+    } else {
+      if (!sameCity) continue;
+    }
+
     const rowType = cleanSlug(row?.type || "");
-    let score = 0;
-    if (sameCity) score += 200;
-    else if (sameState) score += 90;
-    if (currentType && rowType && currentType === rowType) score += 40;
-    if (cleanString(row?.verified_date || "")) score += 10;
-    if (cleanString(row?.address || "")) score += 5;
+    const typeMatch = Boolean(currentType && rowType && currentType === rowType);
+    const hasVerified = Boolean(cleanString(row?.verified_date || ""));
+    const hasAddress = Boolean(cleanString(row?.address || ""));
+    const cityLabel = sameCity
+      ? titleCaseFromSlug(citySlug)
+      : getFacilityDisplayCity(row, stateSlug, citySlug);
 
-    const cityLabel = getFacilityDisplayCity(row, stateSlug, citySlug);
-    candidates.push({ id, name, cityLabel, score });
+    const candidate = {
+      id,
+      name,
+      cityLabel,
+      sameCity,
+      distanceMi: Number.isFinite(distanceMi) ? distanceMi : null,
+      typeMatch,
+      hasVerified,
+      hasAddress,
+    };
+
+    const dedupeKey = nearbyDedupKey(row);
+    const existing = deduped.get(dedupeKey);
+    if (!existing || rankNearbyCandidate(candidate, existing) < 0) {
+      deduped.set(dedupeKey, candidate);
+    }
   }
 
-  candidates.sort((a, b) => {
-    if (b.score !== a.score) return b.score - a.score;
-    return a.name.localeCompare(b.name);
-  });
+  const candidates = Array.from(deduped.values()).sort(rankNearbyCandidate);
+  const top = candidates.slice(0, maxFacilityLinks);
 
-  const top = candidates.slice(0, 8);
-  if (top.length === 0) {
-    if (stateSlug && citySlug) {
-      return `<a class="cityhub__pill" href="/${escapeHtml(stateSlug)}/${escapeHtml(citySlug)}/">See all ${escapeHtml(titleCaseFromSlug(citySlug))} facilities</a>`;
-    }
-    if (stateSlug) {
-      return `<a class="cityhub__pill" href="/${escapeHtml(stateSlug)}/">Browse ${escapeHtml(titleCaseFromSlug(stateSlug))} facilities</a>`;
-    }
-    return "";
-  }
-
-  return top
+  const links = top
     .map((x) => {
-      const label = x.cityLabel ? `${x.name} (${x.cityLabel})` : x.name;
+      let label = x.name;
+      if (x.cityLabel || Number.isFinite(x.distanceMi)) {
+        const parts = [];
+        if (x.cityLabel) parts.push(x.cityLabel);
+        if (Number.isFinite(x.distanceMi)) parts.push(`${x.distanceMi.toFixed(1)} mi`);
+        label = `${x.name} (${parts.join(", ")})`;
+      }
       return `<a class="cityhub__pill" href="/facility/${encodeURIComponent(x.id)}/">${escapeHtml(label)}</a>`;
-    })
-    .join("");
+    });
+
+  // Always keep one clear fallback back to the city directory when a city page exists.
+  if (stateSlug && citySlug) {
+    links.push(
+      `<a class="cityhub__pill" href="/${escapeHtml(stateSlug)}/${escapeHtml(citySlug)}/">See all ${escapeHtml(titleCaseFromSlug(citySlug))} facilities</a>`
+    );
+  } else if (links.length === 0 && stateSlug) {
+    links.push(
+      `<a class="cityhub__pill" href="/${escapeHtml(stateSlug)}/">Browse ${escapeHtml(titleCaseFromSlug(stateSlug))} facilities</a>`
+    );
+  }
+
+  return links.join("");
 }
 
 function buildServerRenderedVerifiedHtml(facility) {

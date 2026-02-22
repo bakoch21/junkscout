@@ -610,6 +610,28 @@ h2{font-size:28px; margin:0 0 14px}
   padding:12px 14px;
   box-shadow: 0 10px 20px rgba(20,37,63,0.06);
 }
+.locations-directory{
+  margin-top:14px;
+  background:linear-gradient(180deg, rgba(255,255,255,.95), rgba(247,250,255,.88));
+  border:1px solid rgba(35,93,158,.12);
+  border-radius:14px;
+  padding:14px;
+  box-shadow: 0 10px 20px rgba(20,37,63,0.05);
+  scroll-margin-top:84px;
+}
+.locations-directory h3{
+  margin:0 0 4px;
+  font-size:20px;
+}
+.locations-directory .muted.small{
+  margin:0;
+}
+.locations-directory__actions{
+  margin-top:10px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
 
 .report__box{
   background:
