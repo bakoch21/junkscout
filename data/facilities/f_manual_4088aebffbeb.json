@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_4088aebffbeb",
+  "name": "San Francisco Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "501 Tunnel Ave, San Francisco, CA 94134",
+  "phone": "Check operator listing",
+  "hours": "Check official Recology listing for current gate hours and holiday schedules.",
+  "fees": "Transfer fees vary by load size, weight, and material type.",
+  "rules": "Always confirm accepted load types, vehicle limits, and payment terms before driving.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Mixed waste",
+    "Bulky items (check restrictions)"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Loads outside posted acceptance policy"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://www.recology.com/recology-san-francisco/",
+  "osm_url": "https://www.recology.com/recology-san-francisco/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

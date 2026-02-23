@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_8ce6e6791361",
+  "name": "Urban Ore Donations",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "900 Murray St, Berkeley, CA 94710",
+  "phone": "Check operator listing",
+  "hours": "Check official listing for current donation and drop-off hours.",
+  "fees": "Fee policy varies by item type and condition.",
+  "rules": "Verify accepted item types and quality standards before drop-off.",
+  "accepted_materials": [
+    "Reusable household items",
+    "Salvaged building materials",
+    "Selected recyclables"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Items outside posted donation policy"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://urbanore.com/",
+  "osm_url": "https://urbanore.com/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

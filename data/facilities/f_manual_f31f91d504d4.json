@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_f31f91d504d4",
+  "name": "Recology Recycle Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1000 Amador St, San Francisco, CA 94124",
+  "phone": "Check operator listing",
+  "hours": "Check current hours before visiting.",
+  "fees": "Material payouts and fees vary by stream, contamination, and quantity.",
+  "rules": "Confirm prep requirements and accepted streams before drop-off.",
+  "accepted_materials": [
+    "Cardboard",
+    "Paper and common recyclables",
+    "Sorted drop-off materials"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Contaminated loads outside site policy"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://www.recology.com/recology-san-francisco/recycle-centralpier-96/",
+  "osm_url": "https://www.recology.com/recology-san-francisco/recycle-centralpier-96/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

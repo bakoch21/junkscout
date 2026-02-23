@@ -1,0 +1,33 @@
+{
+  "id": "f_manual_5921e739d3cb",
+  "name": "San Francisco Household Hazardous Waste Drop-off",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "501 Tunnel Ave, San Francisco, CA 94134",
+  "phone": "Check operator listing",
+  "hours": "Hours and appointment rules can change; verify before visiting.",
+  "fees": "Typically resident-focused for eligible household quantities; confirm current requirements.",
+  "rules": "Check eligibility, item limits, and appointment requirements before arrival.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and chemicals",
+    "Batteries",
+    "Used motor oil",
+    "E-waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Explosives or ammunition",
+    "Materials outside posted household program scope"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://www.recology.com/recology-san-francisco/",
+  "osm_url": "https://www.recology.com/recology-san-francisco/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

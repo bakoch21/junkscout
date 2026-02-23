@@ -101,6 +101,7 @@ function applyCitySEO({ cityName, stateName }) {
   const isAustin = String(cityName).toLowerCase() === "austin" && String(stateName).toUpperCase() === "TX";
   const isSanAntonio = String(cityName).toLowerCase() === "san antonio" && String(stateName).toUpperCase() === "TX";
   const isLosAngeles = String(cityName).toLowerCase() === "los angeles" && String(stateName).toUpperCase() === "CA";
+  const isSanFrancisco = String(cityName).toLowerCase() === "san francisco" && String(stateName).toUpperCase() === "CA";
 
   const titleEl = document.getElementById("cityTitle");
   if (titleEl) {
@@ -114,6 +115,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "San Antonio Trash Dump, Transfer Stations & Landfills"
       : isLosAngeles
       ? "Los Angeles Trash Dump, Transfer Stations & Landfills"
+      : isSanFrancisco
+      ? "San Francisco Trash Dump, Transfer Stations & Landfills"
       : "Where to dump trash in " + pretty;
   }
 
@@ -129,6 +132,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : isLosAngeles
       ? "Compare Los Angeles dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+      : isSanFrancisco
+      ? "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ", " +
         "with hours, rules, and accepted materials when available.";
   }
@@ -145,6 +150,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Need to dump trash in San Antonio fast? Start with these verified options and confirm rules before you drive."
       : isLosAngeles
       ? "Need to dump trash in Los Angeles fast? Start with these verified options and confirm rules before you drive."
+      : isSanFrancisco
+      ? "Need to dump trash in San Francisco fast? Start with these verified options and confirm rules before you drive."
       : "Public landfills, transfer stations, and disposal sites in " + cityName + ". " +
         "Always confirm fees, residency rules, and accepted materials before visiting.";
   }
@@ -237,6 +244,23 @@ function applyCitySEO({ cityName, stateName }) {
       faqDumpFreeBody.textContent =
         "Some Los Angeles-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
     }
+  } else if (isSanFrancisco) {
+    document.title = "San Francisco Trash Dump, Transfer Stations & Landfills | JunkScout";
+    setMetaDescription(
+      "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+    );
+
+    const faqDumpWhere = document.getElementById("faqDumpWhere");
+    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in San Francisco today?";
+
+    const faqDumpFree = document.getElementById("faqDumpFree");
+    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in San Francisco?";
+
+    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
+    if (faqDumpFreeBody) {
+      faqDumpFreeBody.textContent =
+        "Some San Francisco-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
+    }
   } else {
     document.title = cityName + ", " + stateName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
     setMetaDescription(
@@ -316,7 +340,7 @@ function shouldBlendCuratedWithData(state, city) {
   const citySlug = String(city || "").toLowerCase();
   return (
     (stateSlug === "texas" && ["dallas", "austin", "san-antonio"].includes(citySlug)) ||
-    (stateSlug === "california" && citySlug === "los-angeles")
+    (stateSlug === "california" && ["los-angeles", "san-francisco"].includes(citySlug))
   );
 }
 

@@ -69,8 +69,8 @@
     {
       "@type": "WebPage",
       "@id": "https://junkscout.io/california/san-francisco/#webpage",
-      "name": "San Francisco, CA Trash Dump, Transfer Stations & Landfills | JunkScout",
-      "description": "Public dumps, landfills, transfer stations, and recycling drop-offs near San Francisco, CA with rules and accepted materials when available.",
+      "name": "San Francisco Trash Dump, Transfer Stations & Landfills | JunkScout",
+      "description": "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.",
       "url": "https://junkscout.io/california/san-francisco/",
       "isPartOf": {
         "@id": "https://junkscout.io/#website"
@@ -81,6 +81,36 @@
       "breadcrumb": {
         "@id": "https://junkscout.io/california/san-francisco/#breadcrumb"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://junkscout.io/california/san-francisco/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I dump trash in San Francisco today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Francisco has city-focused and regional options including transfer stations, recycling centers, and nearby landfill access depending on load type and rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I drop off trash for free in San Francisco?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some San Francisco-area services are resident-focused and may offer low-cost or no-cost drop-off for specific items. Confirm eligibility, limits, and current rules before visiting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do San Francisco transfer stations and landfills charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees vary by load size, material type, and operator policy. Check source links and verify current pricing before you drive."
+          }
+        }
+      ]
     }
   ]
 }
@@ -96,9 +126,9 @@
 
   <!-- Will be set dynamically by city.js -->
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260221b" />
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260221b" />
-  <link rel="shortcut icon" href="/favicon.ico?v=20260221b" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
 
   <!-- ✅ Leaflet (map) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
@@ -120,18 +150,18 @@
     }
   </style>
 
-  <title>San Francisco, CA Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
-  <meta name="description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near San Francisco, CA with rules and accepted materials when available." />
+  <title>San Francisco Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
+  <meta name="description" content="Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
   <link rel="canonical" href="https://junkscout.io/california/san-francisco/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="San Francisco, CA Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
-  <meta property="og:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near San Francisco, CA with rules and accepted materials when available." />
+  <meta property="og:title" content="San Francisco Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta property="og:description" content="Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
   <meta property="og:url" content="https://junkscout.io/california/san-francisco/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="San Francisco, CA Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
-  <meta name="twitter:description" content="Public dumps, landfills, transfer stations, and recycling drop-offs near San Francisco, CA with rules and accepted materials when available." />
+  <meta name="twitter:title" content="San Francisco Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta name="twitter:description" content="Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
 
 </head>
 
@@ -139,7 +169,7 @@
   <header class="nav">
     <div class="nav__inner">
       <a class="brand" href="/">
-        <img src="/logo.svg?v=20260221b" alt="JunkScout" class="brand__logo" />
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
@@ -156,16 +186,38 @@
 
   <main class="hero">
     <div class="container">
-      <h1 id="cityTitle">Where to dump trash</h1>
+      <h1 id="cityTitle">San Francisco Trash Dump, Transfer Stations & Landfills</h1>
 
-      <p class="subhead" id="cityAnswer">
-        Find public landfills, transfer stations, and recycling drop-offs near this city — with hours, rules, and accepted
-        materials when available.
-      </p>
+      <p class="subhead" id="cityAnswer">Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.</p>
 
-      <p class="muted" id="citySubhead" style="margin-top:10px">
-        Compare drop-off options and confirm fees, residency rules, and accepted materials before you drive out.
-      </p>
+      <p class="muted" id="citySubhead" style="margin-top:10px">Need to dump trash in San Francisco fast? Start with these verified options and confirm rules before you drive.</p>
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/california/san-francisco/?type=hazardous-waste#results">
+      <span class="quickstart__title">Household hazardous waste</span>
+      <span class="quickstart__meta">Appointment rules and resident-focused drop-off</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/california/san-francisco/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads and faster unload</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/california/san-francisco/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/california/san-francisco/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">Metals, cardboard, and common recyclables</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
 
       <!-- ✅ Injected at build time -->
       <!-- STATEHUBLINK:START -->
@@ -202,6 +254,127 @@
       <!-- Results injected here -->
       <section class="cards" id="results" style="margin-top:14px">
 <article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>San Francisco Transfer Station</h3>
+          <p class="card__meta">501 Tunnel Ave, San Francisco, CA 94134</p>
+          <p class="card__meta">Accepts: General disposal loads, Mixed waste, Bulky items (check restrictions)</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=501%20Tunnel%20Ave%2C%20San%20Francisco%2C%20CA%2094134" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_4088aebffbeb/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Hazardous</span></div>
+          <h3>San Francisco Household Hazardous Waste Drop-off</h3>
+          <p class="card__meta">501 Tunnel Ave, San Francisco, CA 94134</p>
+          <p class="card__meta">Accepts: Household hazardous waste, Paint and chemicals, Batteries</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=501%20Tunnel%20Ave%2C%20San%20Francisco%2C%20CA%2094134" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_5921e739d3cb/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Recology Recycle Center</h3>
+          <p class="card__meta">1000 Amador St, San Francisco, CA 94124</p>
+          <p class="card__meta">Accepts: Cardboard, Paper and common recyclables, Sorted drop-off materials</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1000%20Amador%20St%2C%20San%20Francisco%2C%20CA%2094124" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_f31f91d504d4/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Smart Demolition &amp; Excavation Recycling Center</h3>
+          <p class="card__meta">231 Loomis St, San Francisco, CA 94124</p>
+          <p class="card__meta">Accepts: Construction and demolition debris, Recyclable C&amp;D materials, Sorted debris loads</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=231%20Loomis%20St%2C%20San%20Francisco%2C%20CA%2094124" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_434e8c34f677/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Circosta Iron &amp; Metal</h3>
+          <p class="card__meta">1801 Evans Ave, San Francisco, CA 94124</p>
+          <p class="card__meta">Accepts: Scrap metal, Ferrous and non-ferrous material, Sorted metal loads</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1801%20Evans%20Ave%2C%20San%20Francisco%2C%20CA%2094124" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_b443d685bc38/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Landfill</span></div>
+          <h3>Hillside Landfill</h3>
+          <p class="card__meta">1 Sand Hill Rd, Colma, CA 94014</p>
+          <p class="card__meta">Accepts: Municipal solid waste, Approved bulky disposal loads, Approved C&amp;D material</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1%20Sand%20Hill%20Rd%2C%20Colma%2C%20CA%2094014" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_bb2728973cf4/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>Berkeley Transfer Station</h3>
+          <p class="card__meta">1201 2nd St, Berkeley, CA 94710</p>
+          <p class="card__meta">Accepts: General disposal loads, Bulky items, Select recyclable streams</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1201%202nd%20St%2C%20Berkeley%2C%20CA%2094710" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_7aa9ac48bc10/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Berkeley Recycling Center</h3>
+          <p class="card__meta">669 Gilman St, Berkeley, CA 94710</p>
+          <p class="card__meta">Accepts: Cardboard and paper, Bottles and cans, Sorted recyclable materials</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=669%20Gilman%20St%2C%20Berkeley%2C%20CA%2094710" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_4f0e6f4f9bc0/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>El Cerrito Recycling Center</h3>
+          <p class="card__meta">7501 Schmidt Ln, El Cerrito, CA 94530</p>
+          <p class="card__meta">Accepts: Common recyclables, Bottles and cans, Sorted drop-off materials</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=7501%20Schmidt%20Ln%2C%20El%20Cerrito%2C%20CA%2094530" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_5221bdcf70cd/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Urban Ore Donations</h3>
+          <p class="card__meta">900 Murray St, Berkeley, CA 94710</p>
+          <p class="card__meta">Accepts: Reusable household items, Salvaged building materials, Selected recyclables</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=900%20Murray%20St%2C%20Berkeley%2C%20CA%2094710" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_8ce6e6791361/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>California Waste Solutions</h3>
+          <p class="card__meta">1820 10th St, Oakland, CA 94607</p>
+          <p class="card__meta">Accepts: Common recyclables, Commercial recycling loads, Sorted material streams</p>
+          <p class="card__meta">Verified 2026-02-23</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1820%2010th%20St%2C%20Oakland%2C%20CA%2094607" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_fa4a6701878f/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
           <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
           <h3>San Francisco Dump</h3>
           
@@ -210,127 +383,6 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=37.7080093,-122.399613" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_92cf0bf7936c/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>City of Berkeley Recycling</h3>
-          
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=37.8791787,-122.3055861" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_5d0fd3f12d2e/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>USAGain</h3>
-          
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=37.8477203,-122.2850771" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_79e436b749b4/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>El Cerrito Recycling Center</h3>
-          
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=37.9194287,-122.299252" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_6b12422f7b08/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>Urban Ore Donations</h3>
-          
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=37.8503618,-122.2899934" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_aae615b8a7c7/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>ewasteCollective</h3>
-          <p class="card__meta">620 CA</p>
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=620%20CA" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_854a09f1bea0/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>Ecology Center Store</h3>
-          <p class="card__meta">2530 San Pablo Avenue</p>
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=2530%20San%20Pablo%20Avenue" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_1368831fb48a/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>Berkeley Recycling Center</h3>
-          <p class="card__meta">669 Gilman Street Berkeley CA 94710</p>
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=669%20Gilman%20Street%20Berkeley%20CA%2094710" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_37f9966ea974/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
-          <h3>Berkeley Transfer Station</h3>
-          <p class="card__meta">1201 Second Street Berkeley CA 94710</p>
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1201%20Second%20Street%20Berkeley%20CA%2094710" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_4ff162d50e44/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
-          <h3>Berkeley Transfer Station</h3>
-          <p class="card__meta">1201 Berkeley CA</p>
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1201%20Berkeley%20CA" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_f4a224cdd4c1/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
-          <h3>Recycling Center</h3>
-          
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=37.7258946,-122.4471978" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_39715b1d76ca/">Facility page</a>
-          </div>
-        </article>
-<article class="card">
-          <div class="card__kicker"><span class="badge badge--orange">Landfill</span></div>
-          <h3>Hillside Landfill</h3>
-          <p class="card__meta">1 Sand Hill Road Colma 94014</p>
-          
-          
-          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
-            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1%20Sand%20Hill%20Road%20Colma%2094014" target="_blank" rel="noopener">Directions</a>
-            <a class="link" href="/facility/f_dfff7b0974a8/">Facility page</a>
           </div>
         </article>
 </section>
@@ -343,27 +395,24 @@
           JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
         </p>
 
-        <h2 id="faqDumpWhere">Where can I dump trash in this city?</h2>
+        <h2 id="faqDumpWhere">Where can I dump trash in San Francisco today?</h2>
         <p>
           Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
           The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
           Use the listings above to confirm what’s accepted before you drive out.
         </p>
 
-        <h2 id="faqDumpFree">Is dumping free in this city?</h2>
-        <p id="faqDumpFreeBody">
-          Some public facilities offer free or discounted drop-off for residents with proof of address, while private landfills and
-          transfer stations typically charge by load size, weight, or material type. Always confirm rules and fees before visiting.
-        </p>
+        <h2 id="faqDumpFree">Where can I drop off trash for free in San Francisco?</h2>
+        <p id="faqDumpFreeBody">Some San Francisco-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.</p>
 
-        <h2>What items are typically accepted?</h2>
+        <h2>San Francisco transfer stations and recycling centers: what they accept</h2>
         <p>
           Commonly accepted items include <strong>furniture</strong>, <strong>yard waste</strong>, <strong>brush</strong>,
           <strong>construction debris</strong> (C&amp;D), appliances (sometimes restricted), and mixed recyclables.
           Some facilities accept only certain materials or require loads to be separated.
         </p>
 
-        <h2>Fees, hours, and resident requirements</h2>
+        <h2>San Francisco landfill and transfer station fees, hours, and rules</h2>
         <p>
           Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
           Others charge based on load size, weight, or material type.
@@ -421,6 +470,10 @@
   <script src="/analytics.js" defer></script>
   <script src="/city.js" defer></script>
   <script src="/houston-modal.js" defer></script>
+
+<script id="CURATED:JSON" type="application/json">
+{"city":"San Francisco","state":"CA","last_updated":"2026-02-23","facilities":[{"name":"San Francisco Transfer Station","type":"Transfer Station","address":"501 Tunnel Ave, San Francisco, CA 94134","phone":"Check operator listing","hours":"Check official Recology listing for current gate hours and holiday schedules.","fees":"Transfer fees vary by load size, weight, and material type.","accepted_materials":["General disposal loads","Mixed waste","Bulky items (check restrictions)"],"not_accepted":["Unapproved hazardous waste","Loads outside posted acceptance policy"],"rules":"Always confirm accepted load types, vehicle limits, and payment terms before driving.","source":"https://www.recology.com/recology-san-francisco/","verified_date":"2026-02-23","lat":37.7080093,"lng":-122.399613,"facility_id":"f_manual_4088aebffbeb"},{"name":"San Francisco Household Hazardous Waste Drop-off","type":"Hazardous Waste Facility","address":"501 Tunnel Ave, San Francisco, CA 94134","phone":"Check operator listing","hours":"Hours and appointment rules can change; verify before visiting.","fees":"Typically resident-focused for eligible household quantities; confirm current requirements.","accepted_materials":["Household hazardous waste","Paint and chemicals","Batteries","Used motor oil","E-waste"],"not_accepted":["Commercial hazardous waste","Explosives or ammunition","Materials outside posted household program scope"],"rules":"Check eligibility, item limits, and appointment requirements before arrival.","source":"https://www.recology.com/recology-san-francisco/","verified_date":"2026-02-23","lat":37.7080093,"lng":-122.399613,"facility_id":"f_manual_5921e739d3cb"},{"name":"Recology Recycle Center","type":"Recycling Center","address":"1000 Amador St, San Francisco, CA 94124","phone":"Check operator listing","hours":"Check current hours before visiting.","fees":"Material payouts and fees vary by stream, contamination, and quantity.","accepted_materials":["Cardboard","Paper and common recyclables","Sorted drop-off materials"],"not_accepted":["Hazardous waste","Contaminated loads outside site policy"],"rules":"Confirm prep requirements and accepted streams before drop-off.","source":"https://www.recology.com/recology-san-francisco/recycle-centralpier-96/","verified_date":"2026-02-23","lat":37.7403009,"lng":-122.369822,"facility_id":"f_manual_f31f91d504d4"},{"name":"Smart Demolition & Excavation Recycling Center","type":"Recycling Center","address":"231 Loomis St, San Francisco, CA 94124","phone":"Check operator listing","hours":"Check operator listing for current gate hours.","fees":"Fees vary by material type and load profile.","accepted_materials":["Construction and demolition debris","Recyclable C&D materials","Sorted debris loads"],"not_accepted":["Hazardous materials not accepted by permit","Loads outside posted acceptance policy"],"rules":"Call ahead for load prep rules, contamination limits, and pricing.","source":"https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch","verified_date":"2026-02-23","lat":37.7392529,"lng":-122.4052215,"facility_id":"f_manual_434e8c34f677"},{"name":"Circosta Iron & Metal","type":"Recycling Center","address":"1801 Evans Ave, San Francisco, CA 94124","phone":"Check operator listing","hours":"Check operator listing for current hours.","fees":"Payouts and fees vary by commodity and quantity.","accepted_materials":["Scrap metal","Ferrous and non-ferrous material","Sorted metal loads"],"not_accepted":["Hazardous waste","Materials outside current yard policy"],"rules":"Confirm accepted categories, load prep, and any ID requirements.","source":"https://www.circostametals.com/","verified_date":"2026-02-23","lat":37.7446125,"lng":-122.393131,"facility_id":"f_manual_b443d685bc38"},{"name":"Hillside Landfill","type":"Landfill","address":"1 Sand Hill Rd, Colma, CA 94014","phone":"Check operator listing","hours":"Check landfill gate hours before visiting.","fees":"Landfill fees vary by weight, load type, and material class.","accepted_materials":["Municipal solid waste","Approved bulky disposal loads","Approved C&D material"],"not_accepted":["Unapproved hazardous waste","Materials outside permit scope"],"rules":"Always verify accepted categories, rates, and payment methods before driving.","source":"https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch","verified_date":"2026-02-23","lat":37.6828514,"lng":-122.4426565,"facility_id":"f_manual_bb2728973cf4"},{"name":"Berkeley Transfer Station","type":"Transfer Station","address":"1201 2nd St, Berkeley, CA 94710","phone":"Check city listing","hours":"Check official city listing for current hours.","fees":"Rates vary by load type and service class.","accepted_materials":["General disposal loads","Bulky items","Select recyclable streams"],"not_accepted":["Hazardous materials outside posted program scope","Loads outside current acceptance policy"],"rules":"Confirm accepted loads, residency rules, and payment terms before arrival.","source":"https://berkeleyca.gov/city-services/trash-recycling/transfer-station","verified_date":"2026-02-23","lat":37.8799328,"lng":-122.3059418,"facility_id":"f_manual_7aa9ac48bc10"},{"name":"Berkeley Recycling Center","type":"Recycling Center","address":"669 Gilman St, Berkeley, CA 94710","phone":"Check operator listing","hours":"Check operator listing for current hours.","fees":"Material payouts and processing fees vary by stream and quantity.","accepted_materials":["Cardboard and paper","Bottles and cans","Sorted recyclable materials"],"not_accepted":["Hazardous waste","Contaminated loads outside policy"],"rules":"Review prep rules and accepted streams before drop-off.","source":"https://berkeleyrecycling.org/","verified_date":"2026-02-23","lat":37.8788277,"lng":-122.3050969,"facility_id":"f_manual_4f0e6f4f9bc0"},{"name":"El Cerrito Recycling Center","type":"Recycling Center","address":"7501 Schmidt Ln, El Cerrito, CA 94530","phone":"Check city listing","hours":"Check city listing for current hours and holiday updates.","fees":"Fees and payouts vary by material and quantity.","accepted_materials":["Common recyclables","Bottles and cans","Sorted drop-off materials"],"not_accepted":["Hazardous waste","Materials outside program scope"],"rules":"Confirm accepted materials and prep requirements before arrival.","source":"https://www.el-cerrito.org/","verified_date":"2026-02-23","lat":37.9194287,"lng":-122.299252,"facility_id":"f_manual_5221bdcf70cd"},{"name":"Urban Ore Donations","type":"Recycling Center","address":"900 Murray St, Berkeley, CA 94710","phone":"Check operator listing","hours":"Check official listing for current donation and drop-off hours.","fees":"Fee policy varies by item type and condition.","accepted_materials":["Reusable household items","Salvaged building materials","Selected recyclables"],"not_accepted":["Hazardous waste","Items outside posted donation policy"],"rules":"Verify accepted item types and quality standards before drop-off.","source":"https://urbanore.com/","verified_date":"2026-02-23","lat":37.8503618,"lng":-122.2899934,"facility_id":"f_manual_8ce6e6791361"},{"name":"California Waste Solutions","type":"Recycling Center","address":"1820 10th St, Oakland, CA 94607","phone":"Check operator listing","hours":"Check operator listing for current operating hours.","fees":"Fees and commodity payouts vary by material stream and load quality.","accepted_materials":["Common recyclables","Commercial recycling loads","Sorted material streams"],"not_accepted":["Hazardous waste","Materials outside accepted stream categories"],"rules":"Confirm accepted materials, prep rules, and load requirements before arrival.","source":"https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch","verified_date":"2026-02-23","lat":37.8116308,"lng":-122.3021672,"facility_id":"f_manual_fa4a6701878f"}]}
+</script>
 </body>
 </html>
 

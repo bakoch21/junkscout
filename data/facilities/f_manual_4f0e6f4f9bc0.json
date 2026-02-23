@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_4f0e6f4f9bc0",
+  "name": "Berkeley Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "669 Gilman St, Berkeley, CA 94710",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current hours.",
+  "fees": "Material payouts and processing fees vary by stream and quantity.",
+  "rules": "Review prep rules and accepted streams before drop-off.",
+  "accepted_materials": [
+    "Cardboard and paper",
+    "Bottles and cans",
+    "Sorted recyclable materials"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Contaminated loads outside policy"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://berkeleyrecycling.org/",
+  "osm_url": "https://berkeleyrecycling.org/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

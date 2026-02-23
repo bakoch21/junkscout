@@ -60,8 +60,18 @@ function isLosAngelesCity(state, city) {
   return String(state || "").toLowerCase() === "california" && String(city || "").toLowerCase() === "los-angeles";
 }
 
+function isSanFranciscoCity(state, city) {
+  return String(state || "").toLowerCase() === "california" && String(city || "").toLowerCase() === "san-francisco";
+}
+
 function shouldBlendCuratedWithData(state, city) {
-  return isDallasCity(state, city) || isAustinCity(state, city) || isSanAntonioCity(state, city) || isLosAngelesCity(state, city);
+  return (
+    isDallasCity(state, city) ||
+    isAustinCity(state, city) ||
+    isSanAntonioCity(state, city) ||
+    isLosAngelesCity(state, city) ||
+    isSanFranciscoCity(state, city)
+  );
 }
 
 function escapeHtml(value = "") {
@@ -367,6 +377,10 @@ function buildMeta({ state, city }) {
     title = "Los Angeles Trash Dump, Transfer Stations & Landfills | JunkScout";
     description =
       "Compare Los Angeles dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
+  } else if (isSanFranciscoCity(state, city)) {
+    title = "San Francisco Trash Dump, Transfer Stations & Landfills | JunkScout";
+    description =
+      "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
   }
 
   const canonicalPath = `/${state}/${city}/`;
@@ -622,6 +636,40 @@ function buildJsonLd({ state, city, meta }) {
             "@type": "Answer",
             text:
               "Fees vary by load size, material type, and operator policy. Check source links and verify rates before you drive.",
+          },
+        },
+      ],
+    });
+  } else if (isSanFranciscoCity(state, city)) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Where can I dump trash in San Francisco today?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "San Francisco has city-focused and regional options including transfer stations, recycling centers, and nearby landfill access depending on load type and rules.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where can I drop off trash for free in San Francisco?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Some San Francisco-area services are resident-focused and may offer low-cost or no-cost drop-off for specific items. Confirm eligibility, limits, and current rules before visiting.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What do San Francisco transfer stations and landfills charge?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Fees vary by load size, material type, and operator policy. Check source links and verify current pricing before you drive.",
           },
         },
       ],
@@ -1201,6 +1249,81 @@ function injectLosAngelesIntentCopy(html) {
   return out;
 }
 
+function injectSanFranciscoIntentCopy(html) {
+  let out = html;
+  const quickStartBlock = `
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/california/san-francisco/?type=hazardous-waste#results">
+      <span class="quickstart__title">Household hazardous waste</span>
+      <span class="quickstart__meta">Appointment rules and resident-focused drop-off</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/california/san-francisco/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads and faster unload</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/california/san-francisco/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/california/san-francisco/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">Metals, cardboard, and common recyclables</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+`.trim();
+
+  out = out.replace(
+    /(<h1[^>]*id="cityTitle"[^>]*>)[\s\S]*?(<\/h1>)/i,
+    "$1San Francisco Trash Dump, Transfer Stations & Landfills$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="cityAnswer"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Need to dump trash in San Francisco fast? Start with these verified options and confirm rules before you drive.$2\n" + quickStartBlock
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I dump trash in San Francisco today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpFree"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I drop off trash for free in San Francisco?$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Some San Francisco-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.$2"
+  );
+
+  out = out.replace(
+    "<h2>What items are typically accepted?</h2>",
+    "<h2>San Francisco transfer stations and recycling centers: what they accept</h2>"
+  );
+
+  out = out.replace(
+    "<h2>Fees, hours, and resident requirements</h2>",
+    "<h2>San Francisco landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  return out;
+}
+
 function run() {
   if (!fs.existsSync(CITY_LIST_PATH)) {
     console.error(`City list not found: ${CITY_LIST_PATH}`);
@@ -1294,6 +1417,8 @@ function run() {
       outputHtml = injectSanAntonioIntentCopy(outputHtml);
     } else if (isLosAngelesCity(state, city)) {
       outputHtml = injectLosAngelesIntentCopy(outputHtml);
+    } else if (isSanFranciscoCity(state, city)) {
+      outputHtml = injectSanFranciscoIntentCopy(outputHtml);
     }
 
     const outDir = path.join(OUTPUT_BASE, state, city);

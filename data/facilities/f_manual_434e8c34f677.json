@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_434e8c34f677",
+  "name": "Smart Demolition & Excavation Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "231 Loomis St, San Francisco, CA 94124",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current gate hours.",
+  "fees": "Fees vary by material type and load profile.",
+  "rules": "Call ahead for load prep rules, contamination limits, and pricing.",
+  "accepted_materials": [
+    "Construction and demolition debris",
+    "Recyclable C&D materials",
+    "Sorted debris loads"
+  ],
+  "not_accepted": [
+    "Hazardous materials not accepted by permit",
+    "Loads outside posted acceptance policy"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

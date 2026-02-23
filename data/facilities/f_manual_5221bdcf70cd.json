@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_5221bdcf70cd",
+  "name": "El Cerrito Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "7501 Schmidt Ln, El Cerrito, CA 94530",
+  "phone": "Check city listing",
+  "hours": "Check city listing for current hours and holiday updates.",
+  "fees": "Fees and payouts vary by material and quantity.",
+  "rules": "Confirm accepted materials and prep requirements before arrival.",
+  "accepted_materials": [
+    "Common recyclables",
+    "Bottles and cans",
+    "Sorted drop-off materials"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Materials outside program scope"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://www.el-cerrito.org/",
+  "osm_url": "https://www.el-cerrito.org/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

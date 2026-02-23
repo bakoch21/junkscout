@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_7aa9ac48bc10",
+  "name": "Berkeley Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "1201 2nd St, Berkeley, CA 94710",
+  "phone": "Check city listing",
+  "hours": "Check official city listing for current hours.",
+  "fees": "Rates vary by load type and service class.",
+  "rules": "Confirm accepted loads, residency rules, and payment terms before arrival.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Bulky items",
+    "Select recyclable streams"
+  ],
+  "not_accepted": [
+    "Hazardous materials outside posted program scope",
+    "Loads outside current acceptance policy"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://berkeleyca.gov/city-services/trash-recycling/transfer-station",
+  "osm_url": "https://berkeleyca.gov/city-services/trash-recycling/transfer-station",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

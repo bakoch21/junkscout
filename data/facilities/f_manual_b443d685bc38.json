@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_b443d685bc38",
+  "name": "Circosta Iron & Metal",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1801 Evans Ave, San Francisco, CA 94124",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current hours.",
+  "fees": "Payouts and fees vary by commodity and quantity.",
+  "rules": "Confirm accepted categories, load prep, and any ID requirements.",
+  "accepted_materials": [
+    "Scrap metal",
+    "Ferrous and non-ferrous material",
+    "Sorted metal loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Materials outside current yard policy"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://www.circostametals.com/",
+  "osm_url": "https://www.circostametals.com/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

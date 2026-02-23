@@ -98,10 +98,13 @@ function checkRequiredFiles() {
   const required = [
     "index.html",
     "texas/index.html",
+    "california/index.html",
     "texas/houston/index.html",
     "texas/dallas/index.html",
     "texas/austin/index.html",
     "texas/san-antonio/index.html",
+    "california/los-angeles/index.html",
+    "california/san-francisco/index.html",
     "about/index.html",
     "contact/index.html",
     "privacy/index.html",
@@ -178,6 +181,14 @@ function checkCityLists() {
   }
   if (!tx.some((x) => String(x.city || "").toLowerCase() === "san-antonio")) {
     addError("San Antonio missing from scripts/cities-texas.json");
+  }
+
+  const ca = readJson(cityListPath("california"));
+  if (!ca.some((x) => String(x.city || "").toLowerCase() === "los-angeles")) {
+    addError("Los Angeles missing from scripts/cities-california.json");
+  }
+  if (!ca.some((x) => String(x.city || "").toLowerCase() === "san-francisco")) {
+    addError("San Francisco missing from scripts/cities-california.json");
   }
 }
 
@@ -370,6 +381,8 @@ function checkCanonicals() {
     { file: "texas/dallas/index.html", expected: `${BASE_URL}/texas/dallas/` },
     { file: "texas/austin/index.html", expected: `${BASE_URL}/texas/austin/` },
     { file: "texas/san-antonio/index.html", expected: `${BASE_URL}/texas/san-antonio/` },
+    { file: "california/los-angeles/index.html", expected: `${BASE_URL}/california/los-angeles/` },
+    { file: "california/san-francisco/index.html", expected: `${BASE_URL}/california/san-francisco/` },
   ];
 
   for (const check of checks) {
@@ -502,6 +515,29 @@ function checkSanAntonioSignals() {
   }
 }
 
+function checkSanFranciscoSignals() {
+  const rel = "california/san-francisco/index.html";
+  const full = path.join(ROOT, rel);
+  if (!exists(full)) {
+    addError("San Francisco page missing: california/san-francisco/index.html");
+    return;
+  }
+
+  const html = readText(full);
+
+  if (!html.includes("CURATED:JSON")) {
+    addWarning("San Francisco page missing CURATED:JSON overlay block.");
+  }
+
+  if (!html.includes("JSONLD:START")) {
+    addWarning("San Francisco page missing JSON-LD marker.");
+  }
+
+  if (!html.toLowerCase().includes("where can i dump trash in san francisco")) {
+    addWarning("San Francisco page may be missing key San Francisco intent phrase.");
+  }
+}
+
 function printSummaryAndExit() {
   console.log("Smoke check summary:");
 
@@ -526,6 +562,7 @@ function run() {
   checkDallasSignals();
   checkAustinSignals();
   checkSanAntonioSignals();
+  checkSanFranciscoSignals();
   printSummaryAndExit();
 }
 

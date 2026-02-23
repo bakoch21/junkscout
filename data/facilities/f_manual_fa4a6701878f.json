@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_fa4a6701878f",
+  "name": "California Waste Solutions",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1820 10th St, Oakland, CA 94607",
+  "phone": "Check operator listing",
+  "hours": "Check operator listing for current operating hours.",
+  "fees": "Fees and commodity payouts vary by material stream and load quality.",
+  "rules": "Confirm accepted materials, prep rules, and load requirements before arrival.",
+  "accepted_materials": [
+    "Common recyclables",
+    "Commercial recycling loads",
+    "Sorted material streams"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Materials outside accepted stream categories"
+  ],
+  "verified_date": "2026-02-23",
+  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-francisco"
+    }
+  ]
+}

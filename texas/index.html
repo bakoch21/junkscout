@@ -10,16 +10,16 @@
   <link rel="canonical" href="https://junkscout.io/texas/" />
 
   <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260221b" />
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260221b" />
-  <link rel="shortcut icon" href="/favicon.ico?v=20260221b" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
 </head>
 
 <body>
   <header class="nav">
     <div class="nav__inner">
       <a class="brand" href="/">
-        <img src="/logo.svg?v=20260221b" alt="JunkScout" class="brand__logo" />
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
       </a>
 
       <nav class="nav__links" aria-label="Primary">
@@ -38,13 +38,38 @@
     <div class="container">
       <h1>Browse locations in Texas</h1>
       <p class="subhead">Choose a city to find dumps, landfills, transfer stations, and recycling drop-offs.</p>
-      <p class="muted small" style="margin-top:8px">
-        Start here:
-        <a class="link" href="/texas/houston/">Houston</a> •
-        <a class="link" href="/texas/dallas/">Dallas</a> •
-        <a class="link" href="/texas/austin/">Austin</a> •
-        <a class="link" href="/texas/san-antonio/">San Antonio</a>
-      </p>
+      <section class="state-city-strip" aria-label="Top Texas city guides">
+        <div class="state-city-strip__head">
+          <h2>Start with top Texas cities</h2>
+          <p class="muted">Most clicked city guides with filters, rules, and map views.</p>
+        </div>
+        <div class="state-city-strip__grid">
+          <a class="state-city-card state-city-card--tx-a" href="/texas/houston/">
+            <span class="state-city-card__tag">Top city guide</span>
+            <strong>Houston</strong>
+            <span class="state-city-card__meta">Most complete guide with advanced filters, fees, and resident rules.</span>
+            <span class="state-city-card__cta">Open Houston -&gt;</span>
+          </a>
+          <a class="state-city-card state-city-card--tx-b" href="/texas/dallas/">
+            <span class="state-city-card__tag">Top city guide</span>
+            <strong>Dallas</strong>
+            <span class="state-city-card__meta">Detailed transfer station and landfill coverage across the metro area.</span>
+            <span class="state-city-card__cta">Open Dallas -&gt;</span>
+          </a>
+          <a class="state-city-card state-city-card--tx-c" href="/texas/austin/">
+            <span class="state-city-card__tag">Top city guide</span>
+            <strong>Austin</strong>
+            <span class="state-city-card__meta">Decision-ready drop-off options with accepted items and key restrictions.</span>
+            <span class="state-city-card__cta">Open Austin -&gt;</span>
+          </a>
+          <a class="state-city-card state-city-card--tx-d" href="/texas/san-antonio/">
+            <span class="state-city-card__tag">Top city guide</span>
+            <strong>San Antonio</strong>
+            <span class="state-city-card__meta">Citywide disposal and recycling guidance, including nearby options.</span>
+            <span class="state-city-card__cta">Open San Antonio -&gt;</span>
+          </a>
+        </div>
+      </section>
 
       <!-- Texas hub -->
       <section class="cityhub" style="margin-top:22px">
@@ -318,7 +343,7 @@
         </div>
 
         <p class="muted small" style="margin-top:12px">
-          Tip: If a city page shows “Unable to load locations right now,” it means that city’s data file hasn’t been generated yet.
+          Tip: If a city page shows "Unable to load locations right now," it means that city's data file has not been generated yet.
         </p>
       </section>
     </div>
