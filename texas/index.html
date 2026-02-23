@@ -38,37 +38,83 @@
     <div class="container">
       <h1>Browse locations in Texas</h1>
       <p class="subhead">Choose a city to find dumps, landfills, transfer stations, and recycling drop-offs.</p>
-      <section class="state-city-strip" aria-label="Top Texas city guides">
+      <section class="state-city-strip" aria-label="Top Texas city guides" data-state-rail-scope>
         <div class="state-city-strip__head">
-          <h2>Start with top Texas cities</h2>
-          <p class="muted">Most clicked city guides with filters, rules, and map views.</p>
+          <div>
+            <h2>Start with top Texas cities</h2>
+            <p class="muted">Top city guides with filters, rules, and map views.</p>
+          </div>
+          <div class="state-rail-controls" aria-label="Texas city rail controls">
+            <button type="button" class="state-rail-btn" data-state-rail-prev="tx-cities" aria-label="Scroll Texas cities left">&#8592;</button>
+            <button type="button" class="state-rail-btn" data-state-rail-next="tx-cities" aria-label="Scroll Texas cities right">&#8594;</button>
+          </div>
         </div>
-        <div class="state-city-strip__grid">
-          <a class="state-city-card state-city-card--tx-a" href="/texas/houston/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>Houston</strong>
-            <span class="state-city-card__meta">Most complete guide with advanced filters, fees, and resident rules.</span>
-            <span class="state-city-card__cta">Open Houston -&gt;</span>
-          </a>
-          <a class="state-city-card state-city-card--tx-b" href="/texas/dallas/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>Dallas</strong>
-            <span class="state-city-card__meta">Detailed transfer station and landfill coverage across the metro area.</span>
-            <span class="state-city-card__cta">Open Dallas -&gt;</span>
-          </a>
-          <a class="state-city-card state-city-card--tx-c" href="/texas/austin/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>Austin</strong>
-            <span class="state-city-card__meta">Decision-ready drop-off options with accepted items and key restrictions.</span>
-            <span class="state-city-card__cta">Open Austin -&gt;</span>
-          </a>
-          <a class="state-city-card state-city-card--tx-d" href="/texas/san-antonio/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>San Antonio</strong>
-            <span class="state-city-card__meta">Citywide disposal and recycling guidance, including nearby options.</span>
-            <span class="state-city-card__cta">Open San Antonio -&gt;</span>
-          </a>
+
+        <div class="state-rail-wrap">
+          <div class="state-city-strip__grid state-city-strip__grid--rail" data-state-rail="tx-cities" data-state-rail-item=".state-city-card">
+            <a class="state-city-card state-city-card--tx-a" href="/texas/houston/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Houston</strong>
+              <span class="state-city-card__meta">Most complete guide with advanced filters, fees, and resident rules.</span>
+              <span class="state-city-card__cta">Open Houston -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-b" href="/texas/dallas/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Dallas</strong>
+              <span class="state-city-card__meta">Detailed transfer station and landfill coverage across the metro area.</span>
+              <span class="state-city-card__cta">Open Dallas -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-c" href="/texas/austin/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Austin</strong>
+              <span class="state-city-card__meta">Decision-ready drop-off options with accepted items and key restrictions.</span>
+              <span class="state-city-card__cta">Open Austin -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-d" href="/texas/san-antonio/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>San Antonio</strong>
+              <span class="state-city-card__meta">Citywide disposal and recycling guidance with nearby options.</span>
+              <span class="state-city-card__cta">Open San Antonio -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-a" href="/texas/fort-worth/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Fort Worth</strong>
+              <span class="state-city-card__meta">Metro disposal options with transfer and landfill coverage.</span>
+              <span class="state-city-card__cta">Open Fort Worth -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-b" href="/texas/el-paso/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>El Paso</strong>
+              <span class="state-city-card__meta">Border-region drop-off options with practical site details.</span>
+              <span class="state-city-card__cta">Open El Paso -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-c" href="/texas/arlington/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Arlington</strong>
+              <span class="state-city-card__meta">DFW access with mixed-load and facility link comparisons.</span>
+              <span class="state-city-card__cta">Open Arlington -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-d" href="/texas/corpus-christi/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Corpus Christi</strong>
+              <span class="state-city-card__meta">Coastal city disposal and recycling choices with key rules.</span>
+              <span class="state-city-card__cta">Open Corpus Christi -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-a" href="/texas/plano/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Plano</strong>
+              <span class="state-city-card__meta">North DFW options for transfer, landfill, and recycling loads.</span>
+              <span class="state-city-card__cta">Open Plano -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--tx-b" href="/texas/waco/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Waco</strong>
+              <span class="state-city-card__meta">Central Texas options with fee and accepted-item checks.</span>
+              <span class="state-city-card__cta">Open Waco -&gt;</span>
+            </a>
+          </div>
         </div>
+        <p class="state-city-strip__foot">Auto-scroll is on. Use arrows, swipe, or shift-wheel to explore cities.</p>
       </section>
 
       <!-- Texas hub -->
@@ -350,6 +396,7 @@
   </main>
 
   <script src="/analytics.js" defer></script>
+  <script src="/app.js" defer></script>
   <script>
     (async function () {
       const listEl = document.getElementById("cityList");

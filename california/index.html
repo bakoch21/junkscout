@@ -38,37 +38,65 @@
     <div class="container">
       <h1>Browse locations in California</h1>
       <p class="subhead">Choose a city to find dumps, landfills, transfer stations, and recycling drop-offs.</p>
-      <section class="state-city-strip" aria-label="Top California city guides">
+      <section class="state-city-strip" aria-label="Top California city guides" data-state-rail-scope>
         <div class="state-city-strip__head">
-          <h2>Start with top California cities</h2>
-          <p class="muted">Most clicked city guides with filters, rules, and map views.</p>
+          <div>
+            <h2>Start with top California cities</h2>
+            <p class="muted">Top city guides with filters, rules, and map views.</p>
+          </div>
+          <div class="state-rail-controls" aria-label="California city rail controls">
+            <button type="button" class="state-rail-btn" data-state-rail-prev="ca-cities" aria-label="Scroll California cities left">&#8592;</button>
+            <button type="button" class="state-rail-btn" data-state-rail-next="ca-cities" aria-label="Scroll California cities right">&#8594;</button>
+          </div>
         </div>
-        <div class="state-city-strip__grid">
-          <a class="state-city-card state-city-card--ca-a" href="/california/los-angeles/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>Los Angeles</strong>
-            <span class="state-city-card__meta">Largest CA metro guide with transfer, landfill, and recycling options.</span>
-            <span class="state-city-card__cta">Open Los Angeles -&gt;</span>
-          </a>
-          <a class="state-city-card state-city-card--ca-b" href="/california/san-francisco/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>San Francisco</strong>
-            <span class="state-city-card__meta">Bay Area disposal and drop-off options with practical filtering.</span>
-            <span class="state-city-card__cta">Open San Francisco -&gt;</span>
-          </a>
-          <a class="state-city-card state-city-card--ca-c" href="/california/san-diego/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>San Diego</strong>
-            <span class="state-city-card__meta">Regional locations with accepted materials, fees, and hours when available.</span>
-            <span class="state-city-card__cta">Open San Diego -&gt;</span>
-          </a>
-          <a class="state-city-card state-city-card--ca-d" href="/california/san-jose/">
-            <span class="state-city-card__tag">Top city guide</span>
-            <strong>San Jose</strong>
-            <span class="state-city-card__meta">South Bay drop-off and transfer coverage with route-ready links.</span>
-            <span class="state-city-card__cta">Open San Jose -&gt;</span>
-          </a>
+
+        <div class="state-rail-wrap">
+          <div class="state-city-strip__grid state-city-strip__grid--rail" data-state-rail="ca-cities" data-state-rail-item=".state-city-card">
+            <a class="state-city-card state-city-card--ca-a" href="/california/los-angeles/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Los Angeles</strong>
+              <span class="state-city-card__meta">Largest CA metro guide with transfer, landfill, and recycling options.</span>
+              <span class="state-city-card__cta">Open Los Angeles -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ca-b" href="/california/san-francisco/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>San Francisco</strong>
+              <span class="state-city-card__meta">Bay Area disposal and drop-off options with practical filtering.</span>
+              <span class="state-city-card__cta">Open San Francisco -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ca-c" href="/california/san-diego/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>San Diego</strong>
+              <span class="state-city-card__meta">Regional locations with accepted materials, fees, and hours when available.</span>
+              <span class="state-city-card__cta">Open San Diego -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ca-d" href="/california/san-jose/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>San Jose</strong>
+              <span class="state-city-card__meta">South Bay drop-off and transfer coverage with route-ready links.</span>
+              <span class="state-city-card__cta">Open San Jose -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ca-a" href="/california/oakland/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Oakland</strong>
+              <span class="state-city-card__meta">East Bay drop-off and disposal options with clear site links.</span>
+              <span class="state-city-card__cta">Open Oakland -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ca-b" href="/california/fresno/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Fresno</strong>
+              <span class="state-city-card__meta">Central Valley facilities with practical rules and fee checks.</span>
+              <span class="state-city-card__cta">Open Fresno -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ca-c" href="/california/bakersfield/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Bakersfield</strong>
+              <span class="state-city-card__meta">Kern-area disposal options with transfer and landfill coverage.</span>
+              <span class="state-city-card__cta">Open Bakersfield -&gt;</span>
+            </a>
+          </div>
         </div>
+        <p class="state-city-strip__foot">Auto-scroll is on. Use arrows, swipe, or shift-wheel to explore cities.</p>
       </section>
 
       <!-- California hub -->
@@ -102,6 +130,7 @@
   </main>
 
   <script src="/analytics.js" defer></script>
+  <script src="/app.js" defer></script>
   <script>
     (async function () {
       const listEl = document.getElementById("cityList");
