@@ -672,28 +672,40 @@ select{
   color:#fff;
 }
 .state-city-card--tx-a{
-  background:linear-gradient(135deg, rgba(22,72,124,.95), rgba(35,93,158,.88));
+  background:linear-gradient(135deg, #1d4f91, #2e73b7);
 }
 .state-city-card--tx-b{
-  background:linear-gradient(135deg, rgba(21,88,133,.95), rgba(43,117,171,.86));
+  background:linear-gradient(135deg, #1f6a4f, #2f8b67);
 }
 .state-city-card--tx-c{
-  background:linear-gradient(135deg, rgba(30,108,88,.94), rgba(49,143,117,.86));
+  background:linear-gradient(135deg, #4c5d74, #73879f);
 }
 .state-city-card--tx-d{
-  background:linear-gradient(135deg, rgba(60,76,98,.9), rgba(89,111,138,.84));
+  background:linear-gradient(135deg, #8a5a2b, #b17a42);
+}
+.state-city-card--tx-e{
+  background:linear-gradient(135deg, #2b6f9e, #3b95c8);
+}
+.state-city-card--tx-f{
+  background:linear-gradient(135deg, #5b4b8c, #7b68b3);
 }
 .state-city-card--ca-a{
-  background:linear-gradient(135deg, rgba(30,108,88,.94), rgba(49,143,117,.86));
+  background:linear-gradient(135deg, #1d4f91, #2e73b7);
 }
 .state-city-card--ca-b{
-  background:linear-gradient(135deg, rgba(22,72,124,.95), rgba(35,93,158,.88));
+  background:linear-gradient(135deg, #1f6a4f, #2f8b67);
 }
 .state-city-card--ca-c{
-  background:linear-gradient(135deg, rgba(73,96,122,.9), rgba(102,124,150,.84));
+  background:linear-gradient(135deg, #4c5d74, #73879f);
 }
 .state-city-card--ca-d{
-  background:linear-gradient(135deg, rgba(49,94,82,.92), rgba(67,127,110,.86));
+  background:linear-gradient(135deg, #8a5a2b, #b17a42);
+}
+.state-city-card--ca-e{
+  background:linear-gradient(135deg, #2b6f9e, #3b95c8);
+}
+.state-city-card--ca-f{
+  background:linear-gradient(135deg, #5b4b8c, #7b68b3);
 }
 
 /* Shared glass treatment on major card surfaces (excluding dense utility pills) */
@@ -1029,17 +1041,23 @@ select{
   transform:translateX(-128%);
   transition:transform .58s ease;
 }
-.quickstart__item:nth-child(4n+1){
-  background:linear-gradient(135deg, rgba(22,72,124,.96), rgba(35,93,158,.90));
+.quickstart__item:nth-child(6n+1){
+  background:linear-gradient(135deg, #1d4f91, #2e73b7);
 }
-.quickstart__item:nth-child(4n+2){
-  background:linear-gradient(135deg, rgba(30,108,88,.95), rgba(49,143,117,.88));
+.quickstart__item:nth-child(6n+2){
+  background:linear-gradient(135deg, #1f6a4f, #2f8b67);
 }
-.quickstart__item:nth-child(4n+3){
-  background:linear-gradient(135deg, rgba(73,96,122,.92), rgba(102,124,150,.86));
+.quickstart__item:nth-child(6n+3){
+  background:linear-gradient(135deg, #4c5d74, #73879f);
 }
-.quickstart__item:nth-child(4n){
-  background:linear-gradient(135deg, rgba(22,72,124,.95), rgba(49,143,117,.84));
+.quickstart__item:nth-child(6n+4){
+  background:linear-gradient(135deg, #8a5a2b, #b17a42);
+}
+.quickstart__item:nth-child(6n+5){
+  background:linear-gradient(135deg, #2b6f9e, #3b95c8);
+}
+.quickstart__item:nth-child(6n){
+  background:linear-gradient(135deg, #5b4b8c, #7b68b3);
 }
 .quickstart__item:hover{
   transform:translateY(-2px);
