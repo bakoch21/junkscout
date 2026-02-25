@@ -28,11 +28,12 @@
     "build:facilities:pages:la": "node scripts/generate-facility-pages.js california --city los-angeles",
     "build:facilities:pages:sf": "node scripts/generate-facility-pages.js california --city san-francisco",
     "build:facilities": "npm run build:facilities:data && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas && npm run build:facilities:manual:austin && npm run build:facilities:manual:san-antonio && npm run build:facilities:manual:los-angeles && npm run build:facilities:manual:san-francisco && npm run build:facilities:pages && npm run build:facilities:pages:la && npm run build:facilities:pages:sf",
+    "build:research": "node scripts/build-research-report.js",
 
     "build:sitemap": "node scripts/generate-sitemap.js",
 
     "build:data": "npm run build:data:tx && npm run build:facilities:data && npm run build:citylist:tx && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas && npm run build:facilities:manual:austin && npm run build:facilities:manual:san-antonio && npm run build:facilities:manual:los-angeles && npm run build:facilities:manual:san-francisco",
-    "build:pages": "npm run build:statehubs && npm run build:pages:states && npm run build:facilities:pages && npm run build:facilities:pages:la && npm run build:facilities:pages:sf && npm run prune:apply && npm run build:sitemap",
+    "build:pages": "npm run build:statehubs && npm run build:pages:states && npm run build:facilities:pages && npm run build:facilities:pages:la && npm run build:facilities:pages:sf && npm run build:research && npm run prune:apply && npm run build:sitemap",
     "build": "npm run build:data && npm run build:pages",
 
     "verify:smoke": "node scripts/smoke-check.js",

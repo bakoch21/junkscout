@@ -17,6 +17,7 @@ const STATIC_PAGES = [
   "/privacy/",
   "/terms/",
   "/disclosure/",
+  "/research/public-waste-access-report-2026/",
 ];
 
 const FACILITIES_DIR = path.join("data", "facilities");

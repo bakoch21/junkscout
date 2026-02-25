@@ -1,0 +1,17 @@
+metric,texas,houston
+total_facilities,802,132
+total_cities,280,1
+pct_with_phone,7,25
+pct_with_hours,7,25
+pct_with_fees,7,25
+pct_with_official_source_link,15,39
+pct_with_any_url,28,53
+pct_mentions_residency_requirement,3,13
+pct_mentions_visit_limits,0,2
+pct_accepts_tires,1,9
+pct_mentions_CandD,0,2
+pct_mentions_hazardous_policy,5,18
+houston_visit_limit_sample_count,,4
+houston_visit_limit_min_per_month,,4
+houston_visit_limit_max_per_month,,4
+houston_visit_limit_typical_per_month,,4

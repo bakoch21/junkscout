@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Public Waste Access Report 2026 | JunkScout</title>
+  <meta name="description" content="Data-driven snapshot of public waste facility access rules in Texas: fees, residency requirements, visit limits, accepted materials, and source coverage." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://junkscout.io/research/public-waste-access-report-2026/" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Report",
+  "@id": "https://junkscout.io/research/public-waste-access-report-2026/#report",
+  "name": "Public Waste Access Report 2026",
+  "about": "Public waste disposal access rules in Texas",
+  "url": "https://junkscout.io/research/public-waste-access-report-2026/",
+  "datePublished": "2026-02-25",
+  "dateModified": "2026-02-25",
+  "author": {
+    "@type": "Organization",
+    "name": "JunkScout",
+    "url": "https://junkscout.io/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "JunkScout",
+    "url": "https://junkscout.io/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://junkscout.io/research/public-waste-access-report-2026/#dataset",
+  "name": "JunkScout Texas Public Waste Access Dataset (2026)",
+  "description": "Normalized fields for public waste facilities: fees, hours, residency signals, accepted materials, and source links.",
+  "creator": {
+    "@type": "Organization",
+    "name": "JunkScout",
+    "url": "https://junkscout.io/"
+  },
+  "temporalCoverage": "2026",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Texas"
+  },
+  "url": "https://junkscout.io/research/public-waste-access-report-2026/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Public Waste Access Report 2026 (JSON)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://junkscout.io/research/public-waste-access-report-2026/public-waste-access-report-2026.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Public Waste Access Report 2026 (CSV)",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://junkscout.io/research/public-waste-access-report-2026/public-waste-access-report-2026.csv"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do all public waste facilities list fees online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. In the current Texas dataset, 7% include fee details. Always confirm before driving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often do listings mention residency requirements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In this snapshot, 3% of Texas facilities mention residency or proof requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I bring to a drop-off facility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bring photo ID, proof of address if required, and sorted materials when possible. Rules vary by operator and city."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Neighborhood Depository?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A local public drop-off site for household trash, bulk waste, and select recyclables, typically with resident-only rules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a transfer station?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A transfer station is an intermediate facility where waste is consolidated before transport to landfill or processing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a landfill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A landfill is a permitted final disposal site for municipal solid waste and other approved materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does C&D waste mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C&D means construction and demolition waste, including debris like wood, drywall, roofing, and concrete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is household hazardous waste (HHW)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HHW includes products like paint, chemicals, batteries, and solvents that need special handling."
+      }
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://junkscout.io/#org",
+  "name": "JunkScout",
+  "url": "https://junkscout.io/"
+}
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1>Public Waste Access Report 2026</h1>
+      <p class="subhead">A structured snapshot of public waste facility access rules (fees, residency, limits, accepted materials) based on official sources.</p>
+      <p class="muted small">Last updated: <strong>2026-02-25</strong></p>
+      <p class="muted small">Data-driven, sourced from official pages when available.</p>
+
+      <section class="report__box research-downloads" aria-label="Download report files">
+        <h2>Download Report</h2>
+        <p class="muted">Download the full report metrics and machine-readable data.</p>
+        <div class="report__actions">
+          <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/public-waste-access-report-2026.json" download>Download JSON</a>
+          <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/public-waste-access-report-2026.csv" download>Download CSV</a>
+        </div>
+      </section>
+
+      <section class="seo-copy" style="margin-top:24px">
+        <h2>Key Findings</h2>
+        <ul class="research-list">
+          <li><strong>802</strong> facilities across <strong>280</strong> Texas cities in current coverage.</li>
+          <li><strong>7%</strong> list a phone number.</li>
+          <li><strong>7%</strong> list hours.</li>
+          <li><strong>7%</strong> include fee details.</li>
+          <li>15% of Texas facilities include an official source or website link.</li>
+          <li><strong>3%</strong> mention residency/proof requirements.</li>
+          <li><strong>0%</strong> mention visit limits or monthly caps.</li>
+          <li><strong>1%</strong> explicitly mention tire acceptance.</li>
+          <li><strong>0%</strong> mention construction/demolition/debris policy.</li>
+          <li><strong>5%</strong> mention hazardous materials policy.</li>
+        </ul>
+        <h3>Metric snapshot (Texas vs Houston)</h3>
+        <div class="research-table-wrap" role="region" aria-label="Computed metrics table">
+          <table class="research-table">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>Texas</th>
+                <th>Houston</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><code>total_facilities</code></td>
+              <td>802</td>
+              <td>132</td>
+            </tr>
+            <tr>
+              <td><code>total_cities</code></td>
+              <td>280</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td><code>pct_with_phone</code></td>
+              <td>7%</td>
+              <td>25%</td>
+            </tr>
+            <tr>
+              <td><code>pct_with_hours</code></td>
+              <td>7%</td>
+              <td>25%</td>
+            </tr>
+            <tr>
+              <td><code>pct_with_fees</code></td>
+              <td>7%</td>
+              <td>25%</td>
+            </tr>
+            <tr>
+              <td><code>pct_with_official_source_link</code></td>
+              <td>15%</td>
+              <td>39%</td>
+            </tr>
+            <tr>
+              <td><code>pct_with_any_url</code></td>
+              <td>28%</td>
+              <td>53%</td>
+            </tr>
+            <tr>
+              <td><code>pct_mentions_residency_requirement</code></td>
+              <td>3%</td>
+              <td>13%</td>
+            </tr>
+            <tr>
+              <td><code>pct_mentions_visit_limits</code></td>
+              <td>0%</td>
+              <td>2%</td>
+            </tr>
+            <tr>
+              <td><code>pct_accepts_tires</code></td>
+              <td>1%</td>
+              <td>9%</td>
+            </tr>
+            <tr>
+              <td><code>pct_mentions_CandD</code></td>
+              <td>0%</td>
+              <td>2%</td>
+            </tr>
+            <tr>
+              <td><code>pct_mentions_hazardous_policy</code></td>
+              <td>5%</td>
+              <td>18%</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Texas Focus + Houston Case Study</h2>
+        <p>
+          Texas has broad city-level coverage, but rule depth is uneven and concentrated in heavily verified metro pages.
+          Houston currently has the deepest structured policy fields, making it a strong case study for decision-ready guidance.
+        </p>
+        <ul class="research-list">
+          <li><strong>132</strong> Houston facilities represented in this dataset snapshot.</li>
+          <li><strong>25%</strong> include phone, <strong>25%</strong> include hours, and <strong>25%</strong> include fee details.</li>
+          <li><strong>13%</strong> mention residency/proof requirements and <strong>2%</strong> mention visit limits.</li>
+          <li><strong>9%</strong> mention tire handling and <strong>18%</strong> mention hazardous material policy.</li>
+          <li>
+            Parsed Houston monthly visit limits:
+            <strong>min 4</strong>,
+            <strong>max 4</strong>,
+            <strong>typical 4</strong>
+            (4 parseable mentions).
+          </li>
+        </ul>
+
+        <h2>Definitions</h2>
+        <ul class="research-list">
+          <li><strong>Neighborhood Depository:</strong> A local public drop-off location for household trash, bulk waste, and selected recyclables, often with resident-only requirements.</li>
+          <li><strong>Transfer station:</strong> An intermediate facility where waste is consolidated before transport to landfill or processing.</li>
+          <li><strong>Landfill:</strong> A permitted final disposal site for municipal solid waste and other approved material streams.</li>
+          <li><strong>C&amp;D waste:</strong> Construction and demolition waste, such as wood, drywall, roofing, concrete, and mixed debris.</li>
+          <li><strong>Bulk waste:</strong> Oversized household items that do not fit standard curbside service, such as furniture and large fixtures.</li>
+          <li><strong>Household hazardous waste (HHW):</strong> Home-use products like paint, chemicals, batteries, and solvents requiring special handling.</li>
+        </ul>
+
+        <h2>Methodology</h2>
+        <p>
+          This report aggregates structured facility records from JunkScout's Texas coverage using normalized fields
+          from city-level datasets, manual verification overlays, and facility-level records. Source URLs are preserved
+          where available, and metrics are computed on the current static build snapshot.
+        </p>
+        <p>
+          Update cadence is build-driven: whenever facility data is regenerated, this report can be rebuilt with the same script.
+        </p>
+
+        <h2>Notes &amp; Limitations</h2>
+        <ul class="research-list">
+          <li>Facility rules can change without notice; always verify before driving.</li>
+          <li>Some records are location-complete but policy-light (missing fees/hours/rules fields).</li>
+          <li>Keyword heuristics are used for residency, visit limits, C&amp;D, and hazardous policy signals.</li>
+          <li>Percentages are rounded to whole numbers for stability.</li>
+        </ul>
+
+        <h2>Explore</h2>
+        <div class="report__actions">
+          <a class="btn btn--ghost" href="/texas/houston/">Houston hub</a>
+          <a class="btn btn--ghost" href="/texas/">Texas page</a>
+          <a class="btn btn--ghost" href="/#browse-locations">Homepage search</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="/analytics.js" defer></script>
+</body>
+</html>

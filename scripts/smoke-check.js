@@ -110,6 +110,9 @@ function checkRequiredFiles() {
     "privacy/index.html",
     "terms/index.html",
     "disclosure/index.html",
+    "research/public-waste-access-report-2026/index.html",
+    "research/public-waste-access-report-2026/public-waste-access-report-2026.json",
+    "research/public-waste-access-report-2026/public-waste-access-report-2026.csv",
     "data/analytics/config.json",
     "sitemap.xml",
     "scripts/cities-texas.json",
@@ -383,6 +386,7 @@ function checkCanonicals() {
     { file: "texas/san-antonio/index.html", expected: `${BASE_URL}/texas/san-antonio/` },
     { file: "california/los-angeles/index.html", expected: `${BASE_URL}/california/los-angeles/` },
     { file: "california/san-francisco/index.html", expected: `${BASE_URL}/california/san-francisco/` },
+    { file: "research/public-waste-access-report-2026/index.html", expected: `${BASE_URL}/research/public-waste-access-report-2026/` },
   ];
 
   for (const check of checks) {

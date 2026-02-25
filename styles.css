@@ -1196,6 +1196,44 @@ h2{font-size:28px; margin:0 0 14px}
   box-shadow: var(--shadowStrong);
 }
 .report__actions{display:flex; gap:10px; margin-top:12px; flex-wrap:wrap}
+.research-downloads{
+  margin-top:16px;
+}
+.research-list{
+  margin:10px 0 0;
+  padding-left:20px;
+}
+.research-list li{
+  margin:8px 0;
+}
+.research-table-wrap{
+  margin-top:10px;
+  overflow-x:auto;
+}
+.research-table{
+  width:100%;
+  border-collapse:collapse;
+  min-width:560px;
+  background:linear-gradient(180deg, rgba(255,255,255,.94), rgba(247,251,255,.88));
+  border:1px solid rgba(35,93,158,.14);
+  border-radius:12px;
+}
+.research-table th,
+.research-table td{
+  padding:10px 12px;
+  border-bottom:1px solid rgba(35,93,158,.10);
+  text-align:left;
+  font-size:14px;
+}
+.research-table th{
+  font-size:13px;
+  letter-spacing:.02em;
+  text-transform:uppercase;
+  color:#3e4f68;
+}
+.research-table tbody tr:last-child td{
+  border-bottom:none;
+}
 
 /* Footer */
 .footer{

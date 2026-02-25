@@ -904,6 +904,14 @@ function injectHoustonIntentCopy(html) {
     </a>
   </div>
 </section>
+<section class="report__box" aria-label="Texas access research report" style="margin-top:12px">
+  <h2 style="margin:0; font-size:22px">Public Waste Access Report 2026</h2>
+  <p class="muted" style="margin-top:8px">Data-driven snapshot of Texas access rules: fees, residency requirements, visit limits, accepted materials, and source coverage.</p>
+  <div class="report__actions">
+    <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/">Open report</a>
+    <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/public-waste-access-report-2026.json" download>Download data</a>
+  </div>
+</section>
 `.trim();
 
   out = out.replace(
