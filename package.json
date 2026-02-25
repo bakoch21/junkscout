@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "junkscout",
   "version": "1.0.0",
   "description": "",
@@ -6,17 +6,13 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "import:tceq:msw": "node scripts/import-tceq-msw.js",
-
     "build:data:tx": "node scripts/build-city-json-from-facilities.js",
     "build:citylist:tx": "node scripts/build-texas-city-list.js",
-
     "build:pages:tx": "node scripts/generate-city-pages.js texas",
     "build:pages:ca": "node scripts/generate-city-pages.js california",
     "build:pages:states": "npm run build:pages:tx && npm run build:pages:ca",
     "build:statehubs": "node scripts/generate-state-hubs.js",
-
     "build:facilities:data": "node scripts/build-facilities.js texas",
     "build:facilities:manual:houston": "node scripts/build-manual-facilities.js texas houston",
     "build:facilities:manual:dallas": "node scripts/build-manual-facilities.js texas dallas",
@@ -29,16 +25,12 @@
     "build:facilities:pages:sf": "node scripts/generate-facility-pages.js california --city san-francisco",
     "build:facilities": "npm run build:facilities:data && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas && npm run build:facilities:manual:austin && npm run build:facilities:manual:san-antonio && npm run build:facilities:manual:los-angeles && npm run build:facilities:manual:san-francisco && npm run build:facilities:pages && npm run build:facilities:pages:la && npm run build:facilities:pages:sf",
     "build:research": "node scripts/build-research-report.js",
-
     "build:sitemap": "node scripts/generate-sitemap.js",
-
     "build:data": "npm run build:data:tx && npm run build:facilities:data && npm run build:citylist:tx && npm run build:facilities:manual:houston && npm run build:facilities:manual:dallas && npm run build:facilities:manual:austin && npm run build:facilities:manual:san-antonio && npm run build:facilities:manual:los-angeles && npm run build:facilities:manual:san-francisco",
     "build:pages": "npm run build:statehubs && npm run build:pages:states && npm run build:facilities:pages && npm run build:facilities:pages:la && npm run build:facilities:pages:sf && npm run build:research && npm run prune:apply && npm run build:sitemap",
     "build": "npm run build:data && npm run build:pages",
-
     "verify:smoke": "node scripts/smoke-check.js",
     "build:verified": "npm run build && npm run verify:smoke",
-
     "build:texas": "npm run build",
     "build:houston": "node scripts/build-houston.js",
     "build:houston:verified": "npm run build:houston && npm run verify:smoke",
@@ -52,19 +44,17 @@
     "build:los-angeles:verified": "npm run build:los-angeles && npm run verify:smoke",
     "build:san-francisco": "node scripts/build-san-francisco.js",
     "build:san-francisco:verified": "npm run build:san-francisco && npm run verify:smoke",
-
     "prune:report": "node scripts/prune-generated-pages.js",
     "prune:apply": "node scripts/prune-generated-pages.js --apply",
-
     "preview": "node scripts/preview.js",
     "push": "node scripts/push.js",
-
     "build:tx:all": "npm run import:tceq:msw && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "pdfkit": "^0.17.2"
   }
 }

@@ -909,7 +909,7 @@ function injectHoustonIntentCopy(html) {
   <p class="muted" style="margin-top:8px">Data-driven snapshot of Texas access rules: fees, residency requirements, visit limits, accepted materials, and source coverage.</p>
   <div class="report__actions">
     <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/">Open report</a>
-    <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/public-waste-access-report-2026.json" download>Download data</a>
+    <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/public-waste-access-report-2026.pdf" download>Download PDF</a>
   </div>
 </section>
 `.trim();

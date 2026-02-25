@@ -111,6 +111,7 @@ function checkRequiredFiles() {
     "terms/index.html",
     "disclosure/index.html",
     "research/public-waste-access-report-2026/index.html",
+    "research/public-waste-access-report-2026/public-waste-access-report-2026.pdf",
     "research/public-waste-access-report-2026/public-waste-access-report-2026.json",
     "research/public-waste-access-report-2026/public-waste-access-report-2026.csv",
     "data/analytics/config.json",

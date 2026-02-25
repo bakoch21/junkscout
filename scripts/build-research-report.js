@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const PDFDocument = require("pdfkit");
 
 const BASE_URL = "https://junkscout.io";
 const REPORT_SLUG = "public-waste-access-report-2026";
@@ -7,6 +8,7 @@ const REPORT_DIR = path.join("research", REPORT_SLUG);
 const REPORT_URL = `${BASE_URL}/research/${REPORT_SLUG}/`;
 const JSON_DOWNLOAD_URL = `${REPORT_URL}${REPORT_SLUG}.json`;
 const CSV_DOWNLOAD_URL = `${REPORT_URL}${REPORT_SLUG}.csv`;
+const PDF_DOWNLOAD_URL = `${REPORT_URL}${REPORT_SLUG}.pdf`;
 
 // Easy to edit without touching logic:
 const DATE_PUBLISHED = "2026-02-25";
@@ -408,6 +410,99 @@ function buildCsv(metricsTexas, metricsHouston, houstonVisitSummary) {
   return rows.map((row) => row.join(",")).join("\n");
 }
 
+function buildPdf(payload, outputPath) {
+  return new Promise((resolve, reject) => {
+    try {
+      fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+
+      const doc = new PDFDocument({
+        size: "LETTER",
+        margin: 50,
+        info: {
+          Title: "Public Waste Access Report 2026",
+          Author: "JunkScout",
+          Subject: "Public waste access rules in Texas",
+        },
+      });
+
+      const stream = fs.createWriteStream(outputPath);
+      doc.pipe(stream);
+
+      const tx = payload.metrics_texas;
+      const hou = payload.metrics_houston;
+      const visit = payload.houston_visit_limit_summary;
+
+      const keyFindings = [
+        `${formatNumber(tx.total_facilities)} facilities across ${formatNumber(tx.total_cities)} Texas cities.`,
+        `${prettyPct(tx.pct_with_phone)} list a phone number.`,
+        `${prettyPct(tx.pct_with_hours)} list hours.`,
+        `${prettyPct(tx.pct_with_fees)} include fee details.`,
+        `${prettyPct(tx.pct_with_official_source_link)} include official source links.`,
+        `${prettyPct(tx.pct_mentions_residency_requirement)} mention residency requirements.`,
+        `${prettyPct(tx.pct_mentions_visit_limits)} mention visit limits.`,
+      ];
+
+      doc.font("Helvetica-Bold").fontSize(22).fillColor("#0f172a").text("Public Waste Access Report 2026");
+      doc.moveDown(0.3);
+      doc
+        .font("Helvetica")
+        .fontSize(11)
+        .fillColor("#475569")
+        .text(
+          "A structured snapshot of public waste facility access rules (fees, residency, limits, accepted materials) based on official sources."
+        );
+      doc.moveDown(0.2);
+      doc
+        .font("Helvetica")
+        .fontSize(10)
+        .fillColor("#64748b")
+        .text(`Last updated: ${payload.last_updated}`);
+      doc.moveDown(1);
+
+      doc.font("Helvetica-Bold").fontSize(14).fillColor("#0f172a").text("Key Findings");
+      doc.moveDown(0.4);
+      doc.font("Helvetica").fontSize(11).fillColor("#111827");
+      for (const line of keyFindings) {
+        doc.text(`- ${line}`);
+      }
+      doc.moveDown(0.9);
+
+      doc.font("Helvetica-Bold").fontSize(14).fillColor("#0f172a").text("Texas vs Houston Snapshot");
+      doc.moveDown(0.4);
+      doc.font("Helvetica").fontSize(11).fillColor("#111827");
+      doc.text(`Texas facilities: ${formatNumber(tx.total_facilities)}`);
+      doc.text(`Houston facilities: ${formatNumber(hou.total_facilities)}`);
+      doc.text(`Houston fee coverage: ${prettyPct(hou.pct_with_fees)}`);
+      doc.text(`Houston residency mentions: ${prettyPct(hou.pct_mentions_residency_requirement)}`);
+      doc.text(`Houston visit-limit mentions: ${prettyPct(hou.pct_mentions_visit_limits)}`);
+      doc.text(
+        `Houston parsed monthly visit limits: min ${visit.min_per_month === null ? "N/A" : visit.min_per_month}, max ${visit.max_per_month === null ? "N/A" : visit.max_per_month}, typical ${visit.typical_per_month === null ? "N/A" : visit.typical_per_month} (${visit.sample_count} parseable mentions).`
+      );
+      doc.moveDown(0.9);
+
+      doc.font("Helvetica-Bold").fontSize(14).fillColor("#0f172a").text("Explore");
+      doc.moveDown(0.3);
+      doc.font("Helvetica").fontSize(11).fillColor("#1d4ed8");
+      doc.text("Houston hub: https://junkscout.io/texas/houston/", {
+        link: "https://junkscout.io/texas/houston/",
+      });
+      doc.text("Texas page: https://junkscout.io/texas/", {
+        link: "https://junkscout.io/texas/",
+      });
+      doc.text("Full report page: https://junkscout.io/research/public-waste-access-report-2026/", {
+        link: "https://junkscout.io/research/public-waste-access-report-2026/",
+      });
+
+      doc.end();
+
+      stream.on("finish", resolve);
+      stream.on("error", reject);
+    } catch (err) {
+      reject(err);
+    }
+  });
+}
+
 function buildReportHtml(payload) {
   const {
     metrics_texas: tx,
@@ -496,6 +591,12 @@ function buildReportHtml(payload) {
     },
     url: REPORT_URL,
     distribution: [
+      {
+        "@type": "DataDownload",
+        name: "Public Waste Access Report 2026 (PDF)",
+        encodingFormat: "application/pdf",
+        contentUrl: PDF_DOWNLOAD_URL,
+      },
       {
         "@type": "DataDownload",
         name: "Public Waste Access Report 2026 (JSON)",
@@ -629,6 +730,7 @@ ${JSON.stringify(orgLd, null, 2)}
         <h2>Download Report</h2>
         <p class="muted">Download the full report metrics and machine-readable data.</p>
         <div class="report__actions">
+          <a class="btn btn--ghost" href="/research/${REPORT_SLUG}/${REPORT_SLUG}.pdf" download>Download PDF</a>
           <a class="btn btn--ghost" href="/research/${REPORT_SLUG}/${REPORT_SLUG}.json" download>Download JSON</a>
           <a class="btn btn--ghost" href="/research/${REPORT_SLUG}/${REPORT_SLUG}.csv" download>Download CSV</a>
         </div>
@@ -726,7 +828,7 @@ ${JSON.stringify(orgLd, null, 2)}
 `;
 }
 
-function run() {
+async function run() {
   const cityRefsMap = readCityRefsByFacilityId();
   const facilities = readFacilityRecords(cityRefsMap);
   const texasCanonicalCities = readCanonicalCitySet("texas");
@@ -774,8 +876,10 @@ function run() {
   );
   writeText(path.join(REPORT_DIR, `${REPORT_SLUG}.csv`), `${csv}\n`);
   writeText(path.join(REPORT_DIR, "index.html"), html);
+  await buildPdf(payload, path.join(REPORT_DIR, `${REPORT_SLUG}.pdf`));
 
   console.log(`Built research report page: ${path.join(REPORT_DIR, "index.html")}`);
+  console.log(`Built PDF download: ${path.join(REPORT_DIR, `${REPORT_SLUG}.pdf`)}`);
   console.log(`Built JSON download: ${path.join(REPORT_DIR, `${REPORT_SLUG}.json`)}`);
   console.log(`Built CSV download: ${path.join(REPORT_DIR, `${REPORT_SLUG}.csv`)}`);
   console.log(
@@ -783,4 +887,7 @@ function run() {
   );
 }
 
-run();
+run().catch((err) => {
+  console.error("Failed to build research report:", err);
+  process.exit(1);
+});
