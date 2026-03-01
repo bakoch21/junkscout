@@ -24,5 +24,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.685856287287,
+  "lng": -95.616045495447,
+  "geocode_match": "13400 SANDERFORD LN, HOUSTON, TX, 77083",
+  "geocode_source": "census"
 }

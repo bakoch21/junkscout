@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_7096f77d788f",
+  "name": "Citizen Collection Station - Harrison",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "2492 Harrison Ave, El Paso, TX 79930",
+  "phone": "915-212-6000",
+  "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+  "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+  "rules": "Check current load limits, tire rules, and resident eligibility before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Yard waste",
+    "Bulk items",
+    "Recyclables"
+  ],
+  "not_accepted": [
+    "Commercial disposal loads",
+    "Materials outside posted station rules"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+  "osm_url": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "el-paso"
+    }
+  ],
+  "lat": 31.813867802469,
+  "lng": -106.467104994894,
+  "geocode_match": "2492 HARRISON AVE, EL PASO, TX, 79930",
+  "geocode_source": "census"
+}

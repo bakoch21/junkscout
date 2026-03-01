@@ -23,5 +23,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.820450144099,
+  "lng": -95.703377973925,
+  "geocode_match": "3510 GREENHOUSE RD, HOUSTON, TX, 77084",
+  "geocode_source": "census"
 }

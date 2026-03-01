@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_9cb8c75c26d1",
+  "name": "Davis Street Resource Recovery Complex",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "2615 Davis St, San Leandro, CA 94577",
+  "phone": "Check operator listing",
+  "hours": "Check the official Davis Street Resource Recovery Complex page for current gate hours.",
+  "fees": "Fees vary by waste type, weight, and service. Confirm current rates before arrival.",
+  "rules": "Use the operator page to confirm which public programs are active, accepted materials, and any appointment or residency requirements.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Recycling drop-off",
+    "Household hazardous waste programs"
+  ],
+  "not_accepted": [
+    "Loads outside current program rules",
+    "Unapproved hazardous materials"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.wmearthcare.com/facility/davis-street-resource-recovery-complex/",
+  "osm_url": "https://www.wmearthcare.com/facility/davis-street-resource-recovery-complex/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ],
+  "lat": 37.714651716366,
+  "lng": -122.192219986916,
+  "geocode_match": "2615 DAVIS ST, SAN LEANDRO, CA, 94577",
+  "geocode_source": "census"
+}

@@ -28,5 +28,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.650878031961,
+  "lng": -95.347430386139,
+  "geocode_match": "5100 SUNBEAM ST, HOUSTON, TX, 77033",
+  "geocode_source": "census"
 }

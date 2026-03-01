@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_e24bffa072d0",
+  "name": "Environmental Innovation Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1608 Las Plumas Ave, San Jose, CA 95133",
+  "phone": "3-1-1",
+  "hours": "Check the City of San Jose page for current self-load and public drop-off hours.",
+  "fees": "Program fees and eligibility depend on service type. Confirm current rules before visiting.",
+  "rules": "Use the city page to confirm uncovered-load rules, accepted materials, and any residency or program restrictions before arrival.",
+  "accepted_materials": [
+    "City-approved self-haul loads",
+    "Reusable and recyclable materials",
+    "Select specialty drop-off streams"
+  ],
+  "not_accepted": [
+    "Loads outside city self-load rules",
+    "Unapproved hazardous materials"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.sanjoseca.gov/your-government/environment/recycling-garbage/self-load-uncovered",
+  "osm_url": "https://www.sanjoseca.gov/your-government/environment/recycling-garbage/self-load-uncovered",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ],
+  "lat": 37.359909029466,
+  "lng": -121.868967211134,
+  "geocode_match": "1608 LAS PLUMAS AVE, SAN JOSE, CA, 95133",
+  "geocode_source": "census"
+}

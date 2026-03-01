@@ -1,6 +1,12 @@
 // app.js — location-first wizard + city autocomplete
 
-const CITY_LIST_URLS = ["/scripts/cities-texas.json", "/scripts/cities-california.json"];
+const CITY_LIST_URLS = [
+  "/scripts/cities-texas.json",
+  "/scripts/cities-california.json",
+  "/scripts/cities-georgia.json",
+  "/scripts/cities-florida.json",
+  "/scripts/cities-illinois.json",
+];
 
 const yearEl = document.getElementById("year");
 
@@ -33,7 +39,12 @@ function titleCaseFromSlug(slug = "") {
 function buildCityLabel(entry) {
   const cityName = titleCaseFromSlug(entry.city);
   const state = String(entry.state || "").toLowerCase();
-  const stateAbbrev = state === "california" ? "CA" : "TX";
+  const stateAbbrev =
+    state === "california" ? "CA" :
+    state === "georgia" ? "GA" :
+    state === "florida" ? "FL" :
+    state === "illinois" ? "IL" :
+    "TX";
   return `${cityName}, ${stateAbbrev}`;
 }
 

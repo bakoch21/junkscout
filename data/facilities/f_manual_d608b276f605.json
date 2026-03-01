@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_d608b276f605",
+  "name": "Environmental Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "6400 Bridge St, Fort Worth, TX 76112",
+  "phone": "817-392-1234",
+  "hours": "Fort Worth lists current hours on the Environmental Collection Center page. Confirm before visiting.",
+  "fees": "Many services are resident-focused and may be free for eligible Fort Worth residents. Confirm current limits and rules before arrival.",
+  "rules": "Bring ID and confirm current resident eligibility, quantity limits, and appointment or load rules before driving.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Electronics",
+    "Paint and chemicals",
+    "Batteries"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Commercial hazardous waste"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/environmental-collection-center",
+  "osm_url": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/environmental-collection-center",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ],
+  "lat": 32.762474310795,
+  "lng": -97.220222698564,
+  "geocode_match": "6400 BRIDGE ST, FORT WORTH, TX, 76112",
+  "geocode_source": "census"
+}

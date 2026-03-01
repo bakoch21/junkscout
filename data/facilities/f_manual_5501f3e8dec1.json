@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_5501f3e8dec1",
+  "name": "West Dade Home Chemical Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "8801 NW 58th St, Doral, FL 33178",
+  "phone": "311",
+  "hours": "Check the official Miami-Dade home chemical collection page for current hours and holiday schedules before visiting.",
+  "fees": "Household hazardous waste drop-off is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+  "rules": "Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Electronics"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside the posted household program"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
+  "osm_url": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "miami"
+    }
+  ],
+  "lat": 25.826317599158,
+  "lng": -80.33981369602,
+  "geocode_match": "8801 NW 58TH ST, DORAL, FL, 33178",
+  "geocode_source": "census"
+}

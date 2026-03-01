@@ -1,0 +1,70 @@
+{
+  "city": "Tampa",
+  "state": "FL",
+  "last_updated": "2026-03-01",
+  "facilities": [
+    {
+      "name": "Northwest County Solid Waste Facility",
+      "type": "Transfer Station",
+      "address": "8001 W Linebaugh Ave, Tampa, FL 33625",
+      "phone": "Check county listing",
+      "hours": "Hillsborough County posts current disposal facility hours on its waste disposal facility page. Confirm before visiting.",
+      "fees": "Fees and public drop-off rules vary by load type and residency. Confirm the current county guidance before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Loads outside county facility rules",
+        "Unapproved hazardous waste"
+      ],
+      "rules": "Use the county page to confirm accepted materials, residency rules, and self-haul instructions before driving.",
+      "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "South County Solid Waste Facility",
+      "type": "Transfer Station",
+      "address": "13000 US Highway 41 S, Gibsonton, FL 33534",
+      "phone": "Check county listing",
+      "hours": "Hillsborough County posts current disposal facility hours on its waste disposal facility page. Confirm before visiting.",
+      "fees": "Fees and public drop-off rules vary by load type and residency. Confirm the current county guidance before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Loads outside county facility rules",
+        "Unapproved hazardous waste"
+      ],
+      "rules": "Use the county page to confirm accepted materials, residency rules, and self-haul instructions before driving.",
+      "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "South County Household Hazardous Waste Collection",
+      "type": "Hazardous Waste Facility",
+      "address": "13000 US Highway 41 S, Gibsonton, FL 33534",
+      "phone": "Check county listing",
+      "hours": "Check Hillsborough County for current hazardous-waste collection hours and accepted-item rules before visiting.",
+      "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+      "accepted_materials": [
+        "Paint and chemicals",
+        "Batteries",
+        "Used oil",
+        "Household hazardous waste"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program rules"
+      ],
+      "rules": "Use the county disposal facility page to confirm hazardous-waste service availability, packaging rules, and proof-of-residency requirements before you drive.",
+      "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+      "verified_date": "2026-03-01"
+    }
+  ]
+}

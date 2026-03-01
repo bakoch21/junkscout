@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_5b30f0f4aaf9",
+  "name": "South County Solid Waste Facility",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "13000 US Highway 41 S, Gibsonton, FL 33534",
+  "phone": "Check county listing",
+  "hours": "Hillsborough County posts current disposal facility hours on its waste disposal facility page. Confirm before visiting.",
+  "fees": "Fees and public drop-off rules vary by load type and residency. Confirm the current county guidance before arrival.",
+  "rules": "Use the county page to confirm accepted materials, residency rules, and self-haul instructions before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulk waste",
+    "Yard waste",
+    "Recyclables"
+  ],
+  "not_accepted": [
+    "Loads outside county facility rules",
+    "Unapproved hazardous waste"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+  "osm_url": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "tampa"
+    }
+  ],
+  "lat": 27.797904886253,
+  "lng": -82.384313630822,
+  "geocode_match": "13000 S US HWY 41, GIBSONTON, FL, 33534",
+  "geocode_source": "census"
+}

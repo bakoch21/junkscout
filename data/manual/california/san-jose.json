@@ -1,0 +1,107 @@
+{
+  "city": "San Jose",
+  "state": "CA",
+  "last_updated": "2026-03-01",
+  "facilities": [
+    {
+      "name": "Zanker Road Resource Management",
+      "type": "Landfill",
+      "address": "705 Los Esteros Rd, San Jose, CA 95134",
+      "phone": "Check operator listing",
+      "hours": "Check the operator page for current public self-haul and landfill hours before visiting.",
+      "fees": "Fees vary by weight, material type, and load profile. Confirm the current rate sheet before arrival.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Construction and demolition debris",
+        "Approved recycling and recovery streams"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside facility acceptance rules"
+      ],
+      "rules": "Use the operator page to confirm self-haul rules, payment methods, and accepted material categories before you drive.",
+      "source": "https://zankerlandfill.com/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Newby Island Resource Recovery Park",
+      "type": "Transfer Station",
+      "address": "1601 Dixon Landing Rd, Milpitas, CA 95035",
+      "phone": "Check operator listing",
+      "hours": "Check the official Waste Management page for current gate hours and holiday schedules.",
+      "fees": "Fees vary by load type, weight, and material class. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "General waste",
+        "Bulky disposal loads",
+        "Approved recycling and C&D materials"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside posted site policy"
+      ],
+      "rules": "Confirm accepted materials, vehicle limits, and public self-haul access rules before visiting.",
+      "source": "https://www.wm.com/us/en/location/ca/san-jose/newby-island-resource-recovery-park",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Guadalupe Recycling and Disposal Facility",
+      "type": "Recycling Center",
+      "address": "15999 Guadalupe Mines Rd, San Jose, CA 95120",
+      "phone": "Check operator listing",
+      "hours": "Check the official facility listing for current hours before visiting.",
+      "fees": "Fees and payouts vary by material stream and quantity. Confirm before arrival.",
+      "accepted_materials": [
+        "Sorted recyclables",
+        "Green waste",
+        "Approved disposal loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside current facility policy"
+      ],
+      "rules": "Use the facility page to confirm public drop-off rules, accepted streams, and current pricing.",
+      "source": "https://www.wm.com/us/en/location/ca/san-jose/guadalupe-recycling-and-disposal-facility",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "GreenWaste Recovery",
+      "type": "Recycling Center",
+      "address": "625 Charles St, San Jose, CA 95112",
+      "phone": "Check operator listing",
+      "hours": "Check GreenWaste for current public drop-off or transfer hours before visiting.",
+      "fees": "Rates vary by material type, contamination, and quantity. Confirm the current fee schedule before arrival.",
+      "accepted_materials": [
+        "Recyclables",
+        "Organics and yard debris",
+        "Approved debris recovery loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Materials outside current site policy"
+      ],
+      "rules": "Confirm the specific San Jose public-facing services, accepted streams, and load prep rules before driving.",
+      "source": "https://www.greenwaste.com/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Environmental Innovation Center",
+      "type": "Recycling Center",
+      "address": "1608 Las Plumas Ave, San Jose, CA 95133",
+      "phone": "3-1-1",
+      "hours": "Check the City of San Jose page for current self-load and public drop-off hours.",
+      "fees": "Program fees and eligibility depend on service type. Confirm current rules before visiting.",
+      "accepted_materials": [
+        "City-approved self-haul loads",
+        "Reusable and recyclable materials",
+        "Select specialty drop-off streams"
+      ],
+      "not_accepted": [
+        "Loads outside city self-load rules",
+        "Unapproved hazardous materials"
+      ],
+      "rules": "Use the city page to confirm uncovered-load rules, accepted materials, and any residency or program restrictions before arrival.",
+      "source": "https://www.sanjoseca.gov/your-government/environment/recycling-garbage/self-load-uncovered",
+      "verified_date": "2026-03-01"
+    }
+  ]
+}

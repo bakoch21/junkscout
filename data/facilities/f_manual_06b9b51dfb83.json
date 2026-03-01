@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_06b9b51dfb83",
+  "name": "Household Electronics Drop-off",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "2675 Commonwealth Ave, Jacksonville, FL 32254",
+  "phone": "Check city listing",
+  "hours": "Check Jacksonville solid waste pages for current electronics and specialty recycling rules before visiting.",
+  "fees": "Electronics and special-item rules can vary. Confirm current eligibility and item limits before arrival.",
+  "rules": "Use Jacksonville's official solid waste pages to confirm current electronics drop-off guidance and accepted-item limits before driving.",
+  "accepted_materials": [
+    "Electronics",
+    "Computers",
+    "Televisions",
+    "Select specialty recyclables"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Materials outside the posted specialty recycling rules"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.jacksonville.gov/departments/public-works/solid-waste/household-hazardous-waste-(hhw)",
+  "osm_url": "https://www.jacksonville.gov/departments/public-works/solid-waste/household-hazardous-waste-(hhw)",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "jacksonville"
+    }
+  ],
+  "lat": 30.33671153607,
+  "lng": -81.711753984422,
+  "geocode_match": "2675 COMMONWEALTH AVE, JACKSONVILLE, FL, 32254",
+  "geocode_source": "census"
+}

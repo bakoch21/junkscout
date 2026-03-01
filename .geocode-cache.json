@@ -164,5 +164,243 @@
   "Tomball Public Dumpster (Harris County Precinct 4)||Service Center Rd, Tomball, TX 77377": {
     "geocode_source": "census",
     "geocode_error": "no_match"
+  },
+  "Miramar Landfill||5180 Convoy St, San Diego, CA 92111": {
+    "lat": 32.836054669745,
+    "lng": -117.152400077141,
+    "geocode_match": "5180 CONVOY ST, SAN DIEGO, CA, 92111",
+    "geocode_source": "census"
+  },
+  "Miramar Recycling Center||5165 Convoy St, San Diego, CA 92111": {
+    "lat": 32.835427133934,
+    "lng": -117.152381068793,
+    "geocode_match": "5165 CONVOY ST, SAN DIEGO, CA, 92111",
+    "geocode_source": "census"
+  },
+  "Household Hazardous Waste Transfer Facility||5161 Convoy St, San Diego, CA 92111": {
+    "lat": 32.835369847823,
+    "lng": -117.152397593636,
+    "geocode_match": "5161 CONVOY ST, SAN DIEGO, CA, 92111",
+    "geocode_source": "census"
+  },
+  "Sycamore Landfill||8514 Mast Blvd, Santee, CA 92071": {
+    "lat": 32.847765453578,
+    "lng": -117.02140381502,
+    "geocode_match": "8514 MAST BLVD, SANTEE, CA, 92071",
+    "geocode_source": "census"
+  },
+  "SANCO Resource Recovery||6750 Federal Blvd, Lemon Grove, CA 91945": {
+    "lat": 32.7379762431,
+    "lng": -117.053341004837,
+    "geocode_match": "6750 FEDERAL BLVD, LEMON GROVE, CA, 91945",
+    "geocode_source": "census"
+  },
+  "Zanker Road Resource Management||705 Los Esteros Rd, San Jose, CA 95134": {
+    "lat": 37.433376383411,
+    "lng": -121.950676015334,
+    "geocode_match": "705 LOS ESTEROS RD, SAN JOSE, CA, 95134",
+    "geocode_source": "census"
+  },
+  "Newby Island Resource Recovery Park||1601 Dixon Landing Rd, Milpitas, CA 95035": {
+    "lat": 37.455132759758,
+    "lng": -121.926652413283,
+    "geocode_match": "1601 DIXON LANDING RD, MILPITAS, CA, 95035",
+    "geocode_source": "census"
+  },
+  "Guadalupe Recycling and Disposal Facility||15999 Guadalupe Mines Rd, San Jose, CA 95120": {
+    "lat": 37.212850455824,
+    "lng": -121.902903811443,
+    "geocode_match": "15999 GUADALUPE MINES RD, SAN JOSE, CA, 95120",
+    "geocode_source": "census"
+  },
+  "GreenWaste Recovery||625 Charles St, San Jose, CA 95112": {
+    "lat": 37.365976535632,
+    "lng": -121.895264277172,
+    "geocode_match": "625 CHARLES ST, SAN JOSE, CA, 95112",
+    "geocode_source": "census"
+  },
+  "Environmental Innovation Center||1608 Las Plumas Ave, San Jose, CA 95133": {
+    "lat": 37.359909029466,
+    "lng": -121.868967211134,
+    "geocode_match": "1608 LAS PLUMAS AVE, SAN JOSE, CA, 95133",
+    "geocode_source": "census"
+  },
+  "Berkeley Transfer Station||1201 2nd St, Berkeley, CA 94710": {
+    "lat": 37.880154678207,
+    "lng": -122.306271150622,
+    "geocode_match": "1201 2ND ST, BERKELEY, CA, 94710",
+    "geocode_source": "census"
+  },
+  "Berkeley Recycling Center||669 Gilman St, Berkeley, CA 94710": {
+    "lat": 37.878651588092,
+    "lng": -122.305193976111,
+    "geocode_match": "669 GILMAN ST, BERKELEY, CA, 94710",
+    "geocode_source": "census"
+  },
+  "Davis Street Resource Recovery Complex||2615 Davis St, San Leandro, CA 94577": {
+    "lat": 37.714651716366,
+    "lng": -122.192219986916,
+    "geocode_match": "2615 DAVIS ST, SAN LEANDRO, CA, 94577",
+    "geocode_source": "census"
+  },
+  "California Waste Solutions||1820 10th St, Oakland, CA 94607": {
+    "lat": 37.811180587245,
+    "lng": -122.301724597114,
+    "geocode_match": "1820 10TH ST, OAKLAND, CA, 94607",
+    "geocode_source": "census"
+  },
+  "Environmental Collection Center||6400 Bridge St, Fort Worth, TX 76112": {
+    "lat": 32.762474310795,
+    "lng": -97.220222698564,
+    "geocode_match": "6400 BRIDGE ST, FORT WORTH, TX, 76112",
+    "geocode_source": "census"
+  },
+  "Southeast Drop-Off Station||5100 Martin Luther King Fwy, Fort Worth, TX 76119": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Cold Springs Processing & Disposal||1300 Cold Springs Rd Bldg 2, Fort Worth, TX 76102": {
+    "lat": 32.769098914587,
+    "lng": -97.327252061321,
+    "geocode_match": "1300 COLD SPRINGS RD, FORT WORTH, TX, 76102",
+    "geocode_source": "census"
+  },
+  "Waste Management Westside Transfer Station||12220 West Fwy, Fort Worth, TX 76108": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Citizen Collection Station - Westside||121 Atlantic Rd, El Paso, TX 79922": {
+    "lat": 31.817519320896,
+    "lng": -106.561418927581,
+    "geocode_match": "121 ATLANTIC RD, EL PASO, TX, 79922",
+    "geocode_source": "census"
+  },
+  "Citizen Collection Station - Hondo Pass||4501 Hondo Pass Dr, El Paso, TX 79904": {
+    "lat": 31.86976103258,
+    "lng": -106.437033163515,
+    "geocode_match": "4501 HONDO PASS AVE, EL PASO, TX, 79904",
+    "geocode_source": "census"
+  },
+  "Citizen Collection Station - Harrison||2492 Harrison Ave, El Paso, TX 79930": {
+    "lat": 31.813867802469,
+    "lng": -106.467104994894,
+    "geocode_match": "2492 HARRISON AVE, EL PASO, TX, 79930",
+    "geocode_source": "census"
+  },
+  "Citizen Collection Station - Confederate||3510 Confederate Dr, El Paso, TX 79936": {
+    "lat": 31.794192556927,
+    "lng": -106.292961794886,
+    "geocode_match": "3510 CONFEDERATE RD, EL PASO, TX, 79936",
+    "geocode_source": "census"
+  },
+  "Citizen Collection Station - Pendale||1034 Pendale Rd, El Paso, TX 79907": {
+    "lat": 31.726710510757,
+    "lng": -106.319379285527,
+    "geocode_match": "1034 PENDALE RD, EL PASO, TX, 79907",
+    "geocode_source": "census"
+  },
+  "North Dade Trash and Recycling Center||21500 NW 47th Ave, Miami Gardens, FL 33055": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Norwood Trash and Recycling Center||19400 NW 47th Ave, Miami Gardens, FL 33055": {
+    "lat": 25.949937065657,
+    "lng": -80.27805865019,
+    "geocode_match": "19400 NW 47TH AVE, MIAMI GARDENS, FL, 33055",
+    "geocode_source": "census"
+  },
+  "West Dade Home Chemical Collection Center||8801 NW 58th St, Doral, FL 33178": {
+    "lat": 25.826317599158,
+    "lng": -80.33981369602,
+    "geocode_match": "8801 NW 58TH ST, DORAL, FL, 33178",
+    "geocode_source": "census"
+  },
+  "South Dade Home Chemical Collection Center||23707 SW 97th Ave, Homestead, FL 33032": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Orange County Landfill||5901 Young Pine Rd, Orlando, FL 32829": {
+    "lat": 28.494750055296,
+    "lng": -81.233100185155,
+    "geocode_match": "5901 YOUNG PINE RD, ORLANDO, FL, 32829",
+    "geocode_source": "census"
+  },
+  "McLeod Road Transfer Station||5000 L B McLeod Rd, Orlando, FL 32811": {
+    "lat": 28.504723640659,
+    "lng": -81.445707438336,
+    "geocode_match": "5000 L B MCLEOD RD, ORLANDO, FL, 32811",
+    "geocode_source": "census"
+  },
+  "Porter Transfer Station||1326 Good Homes Rd, Orlando, FL 32818": {
+    "lat": 28.56076871456,
+    "lng": -81.504988689363,
+    "geocode_match": "1326 GOOD HOMES RD, ORLANDO, FL, 32818",
+    "geocode_source": "census"
+  },
+  "Northwest County Solid Waste Facility||8001 W Linebaugh Ave, Tampa, FL 33625": {
+    "lat": 28.040276864421,
+    "lng": -82.572193906065,
+    "geocode_match": "8001 W LINEBAUGH AVE, TAMPA, FL, 33625",
+    "geocode_source": "census"
+  },
+  "South County Solid Waste Facility||13000 US Highway 41 S, Gibsonton, FL 33534": {
+    "lat": 27.797904886253,
+    "lng": -82.384313630822,
+    "geocode_match": "13000 S US HWY 41, GIBSONTON, FL, 33534",
+    "geocode_source": "census"
+  },
+  "South County Household Hazardous Waste Collection||13000 US Highway 41 S, Gibsonton, FL 33534": {
+    "lat": 27.797904886253,
+    "lng": -82.384313630822,
+    "geocode_match": "13000 S US HWY 41, GIBSONTON, FL, 33534",
+    "geocode_source": "census"
+  },
+  "Trail Ridge Landfill||5110 US Highway 301, Baldwin, FL 32234": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Household Hazardous Waste Facility||2675 Commonwealth Ave, Jacksonville, FL 32254": {
+    "lat": 30.33671153607,
+    "lng": -81.711753984422,
+    "geocode_match": "2675 COMMONWEALTH AVE, JACKSONVILLE, FL, 32254",
+    "geocode_source": "census"
+  },
+  "Household Electronics Drop-off||2675 Commonwealth Ave, Jacksonville, FL 32254": {
+    "lat": 30.33671153607,
+    "lng": -81.711753984422,
+    "geocode_match": "2675 COMMONWEALTH AVE, JACKSONVILLE, FL, 32254",
+    "geocode_source": "census"
+  },
+  "Household Chemicals and Computer Recycling Facility||1150 N North Branch St, Chicago, IL 60642": {
+    "lat": 41.901778605604,
+    "lng": -87.654107364031,
+    "geocode_match": "1150 N NORTH BRANCH ST, CHICAGO, IL, 60642",
+    "geocode_source": "census"
+  },
+  "Chicago Electronics Recycling at HCCRF||1150 N North Branch St, Chicago, IL 60642": {
+    "lat": 41.901778605604,
+    "lng": -87.654107364031,
+    "geocode_match": "1150 N NORTH BRANCH ST, CHICAGO, IL, 60642",
+    "geocode_source": "census"
+  },
+  "Southeast Drop-Off Station||5100 Martin Luther King Freeway, Fort Worth, TX 76119": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Waste Management Westside Transfer Station||12220 West Freeway, Aledo, TX 76008": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "North Dade Trash and Recycling Center||21500 NW 47 Ave, Miami Gardens, FL 33055": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "South Dade Home Chemical Collection Center||23707 SW 97 Ave, Homestead, FL 33032": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Trail Ridge Landfill||5110 US Highway 301 S, Baldwin, FL 32234": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
   }
 }

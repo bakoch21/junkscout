@@ -1,0 +1,33 @@
+{
+  "id": "f_manual_ef97fc168d82",
+  "name": "Waste Management Westside Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "12220 West Freeway, Aledo, TX 76008",
+  "phone": "Check operator listing",
+  "hours": "Check the operator listing for current transfer station hours.",
+  "fees": "Transfer fees vary by material type and load size. Confirm the latest rate sheet before arrival.",
+  "rules": "Call ahead to confirm public self-haul access, accepted loads, and any vehicle restrictions before you drive.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Bulky waste",
+    "Approved transfer loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Loads outside current station policy"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.wm.com/us/en",
+  "osm_url": "https://www.wm.com/us/en",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ],
+  "lat": 32.7277117,
+  "lng": -97.5333019,
+  "geocode_source": "census"
+}

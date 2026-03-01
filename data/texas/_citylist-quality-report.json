@@ -1,10 +1,10 @@
 {
   "state": "texas",
-  "generated_at": "2026-02-19T03:14:47.845Z",
+  "generated_at": "2026-03-01T21:20:54.802Z",
   "source_file_count": 347,
   "accepted_count": 280,
   "rejected_count": 67,
-  "trusted_seed_count": 96,
+  "trusted_seed_count": 98,
   "accepted": [
     {
       "state": "texas",

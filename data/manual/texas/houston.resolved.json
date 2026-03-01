@@ -61,7 +61,9 @@
       "rules": "Residents only; proof required; arrive early.",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_ca074fd9f44d"
+      "facility_id": "f_manual_ca074fd9f44d",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Northeast Neighborhood Depository & Recycling Center",
@@ -165,7 +167,9 @@
       "rules": "Residents only",
       "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_f2e83795d0d0"
+      "facility_id": "f_manual_f2e83795d0d0",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Westpark Recycling Center",
@@ -195,7 +199,9 @@
       "rules": "Residents only; 4x/month limit; proof: TX ID + utility/lease/tax/student ID; arrive 30 min early; no commercial vehicles.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_b8611d1dc0a2"
+      "facility_id": "f_manual_b8611d1dc0a2",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Clear Lake/Ellington Airport Recycling Center",
@@ -224,7 +230,9 @@
       "rules": "Residents only; proof required; 4x/month.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_2b7ee1dc091c"
+      "facility_id": "f_manual_2b7ee1dc091c",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Kingwood Recycling Center",
@@ -253,7 +261,9 @@
       "rules": "Residents only; proof required.",
       "source": "https://www.houstontx.gov/solidwaste/recycling_centers.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_920e903eb797"
+      "facility_id": "f_manual_920e903eb797",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Reuse Warehouse",
@@ -314,7 +324,9 @@
       "rules": "Harris County residents only (no City of Houston services/taxes); appointment required; enter at Hahl Rd (290/Gessner).",
       "source": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_8ea5daf19171"
+      "facility_id": "f_manual_8ea5daf19171",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Environmental Service Center - South",
@@ -459,7 +471,9 @@
       "rules": "Public with fees",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_422e6d19df67"
+      "facility_id": "f_manual_422e6d19df67",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Coastal Plains Landfill (Alvin)",
@@ -478,7 +492,9 @@
       "rules": "Fees apply",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_6f039ab2f19a"
+      "facility_id": "f_manual_6f039ab2f19a",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "2020 Atascocita Landfill",
@@ -604,7 +620,9 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_b2de4af8355c"
+      "facility_id": "f_manual_b2de4af8355c",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Green House Road Landfill",
@@ -644,7 +662,9 @@
       "rules": "Heavy trash only",
       "source": "https://www.houstontx.gov/solidwaste/disposal.html",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_c72cf05570a4"
+      "facility_id": "f_manual_c72cf05570a4",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     },
     {
       "name": "Hawthorne Park Landfill",
@@ -796,7 +816,9 @@
       "rules": "Public use",
       "source": "https://cp4.harriscountytx.gov/Public-Dumpsters",
       "verified_date": "2026-01-29",
-      "facility_id": "f_manual_9a73248e106a"
+      "facility_id": "f_manual_9a73248e106a",
+      "geocode_source": "census",
+      "geocode_error": "no_match"
     }
   ]
 }

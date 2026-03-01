@@ -1,22 +1,22 @@
 {
   "report": "Public Waste Access Report 2026",
   "scope": "Texas",
-  "last_updated": "2026-02-25",
+  "last_updated": "2026-03-01",
   "date_published": "2026-02-25",
-  "source_facility_records": 1478,
+  "source_facility_records": 1545,
   "metrics_texas": {
-    "total_facilities": 802,
+    "total_facilities": 832,
     "total_cities": 280,
-    "pct_with_phone": 7,
-    "pct_with_hours": 7,
-    "pct_with_fees": 7,
-    "pct_with_official_source_link": 15,
+    "pct_with_phone": 8,
+    "pct_with_hours": 8,
+    "pct_with_fees": 8,
+    "pct_with_official_source_link": 16,
     "pct_with_any_url": 28,
-    "pct_mentions_residency_requirement": 3,
+    "pct_mentions_residency_requirement": 4,
     "pct_mentions_visit_limits": 0,
     "pct_accepts_tires": 1,
-    "pct_mentions_CandD": 0,
-    "pct_mentions_hazardous_policy": 5
+    "pct_mentions_CandD": 1,
+    "pct_mentions_hazardous_policy": 6
   },
   "metrics_houston": {
     "total_facilities": 132,

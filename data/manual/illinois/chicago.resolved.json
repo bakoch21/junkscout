@@ -1,0 +1,60 @@
+{
+  "city": "Chicago",
+  "state": "IL",
+  "last_updated": "2026-03-01",
+  "facilities": [
+    {
+      "name": "Household Chemicals and Computer Recycling Facility",
+      "type": "Hazardous Waste Facility",
+      "address": "1150 N North Branch St, Chicago, IL 60642",
+      "phone": "311",
+      "hours": "Check the official City of Chicago HCCRF page for current hours and holiday schedules before visiting.",
+      "fees": "The program is typically resident-focused for household quantities. Confirm current limits and eligibility before arrival.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Batteries",
+        "Electronics",
+        "Computers"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside the posted household program scope"
+      ],
+      "rules": "Use the official city page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before driving.",
+      "source": "https://www.chicago.gov/city/en/depts/streets/provdrs/rodent/svcs/household_chemicalscomputerrecyclingfacility.html",
+      "verified_date": "2026-03-01",
+      "lat": 41.901778605604,
+      "lng": -87.654107364031,
+      "geocode_match": "1150 N NORTH BRANCH ST, CHICAGO, IL, 60642",
+      "geocode_source": "census",
+      "facility_id": "f_manual_bb1a335a2faa"
+    },
+    {
+      "name": "Chicago Electronics Recycling at HCCRF",
+      "type": "Recycling Center",
+      "address": "1150 N North Branch St, Chicago, IL 60642",
+      "phone": "311",
+      "hours": "Check the official City of Chicago recycling guidance for current hours and accepted electronics before visiting.",
+      "fees": "Electronics drop-off rules can change. Confirm current item limits and eligibility before arrival.",
+      "accepted_materials": [
+        "Computers",
+        "Monitors",
+        "Televisions",
+        "Small electronics"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Materials outside posted recycling guidance"
+      ],
+      "rules": "Use the official city pages to confirm current electronics acceptance rules and any resident restrictions before driving.",
+      "source": "https://www.chicago.gov/city/en/depts/streets/supp_info/recycling1.html",
+      "verified_date": "2026-03-01",
+      "lat": 41.901778605604,
+      "lng": -87.654107364031,
+      "geocode_match": "1150 N NORTH BRANCH ST, CHICAGO, IL, 60642",
+      "geocode_source": "census",
+      "facility_id": "f_manual_c507f1b1cac3"
+    }
+  ]
+}

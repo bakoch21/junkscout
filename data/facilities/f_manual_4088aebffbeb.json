@@ -26,5 +26,7 @@
       "state": "california",
       "city": "san-francisco"
     }
-  ]
+  ],
+  "lat": 37.7080093,
+  "lng": -122.399613
 }

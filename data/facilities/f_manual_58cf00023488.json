@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_58cf00023488",
+  "name": "GreenWaste Recovery",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "625 Charles St, San Jose, CA 95112",
+  "phone": "Check operator listing",
+  "hours": "Check GreenWaste for current public drop-off or transfer hours before visiting.",
+  "fees": "Rates vary by material type, contamination, and quantity. Confirm the current fee schedule before arrival.",
+  "rules": "Confirm the specific San Jose public-facing services, accepted streams, and load prep rules before driving.",
+  "accepted_materials": [
+    "Recyclables",
+    "Organics and yard debris",
+    "Approved debris recovery loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Materials outside current site policy"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.greenwaste.com/",
+  "osm_url": "https://www.greenwaste.com/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-jose"
+    }
+  ],
+  "lat": 37.365976535632,
+  "lng": -121.895264277172,
+  "geocode_match": "625 CHARLES ST, SAN JOSE, CA, 95112",
+  "geocode_source": "census"
+}

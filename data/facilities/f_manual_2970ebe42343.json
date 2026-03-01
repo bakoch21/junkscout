@@ -1,0 +1,40 @@
+{
+  "id": "f_manual_2970ebe42343",
+  "name": "CHaRM DeKalb",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "1225 Columbia Dr, Decatur, GA 30032",
+  "phone": "Check official booking page",
+  "hours": "By appointment. Confirm the latest booking rules and operating hours before visiting.",
+  "fees": "Material-specific fees apply. Check the official CHaRM DeKalb fee list before arrival.",
+  "rules": "Appointment-based drop-off for hard-to-recycle and household hazardous items. Always review the current accepted-items list before driving.",
+  "accepted_materials": [
+    "Paint",
+    "Chemicals",
+    "Batteries",
+    "Electronics",
+    "Glass",
+    "Mattresses",
+    "Appliances",
+    "Tires"
+  ],
+  "not_accepted": [
+    "General household garbage",
+    "Mixed disposal loads",
+    "Items outside the posted CHaRM list"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://livethrive.org/charm/dekalb-charm/",
+  "osm_url": "https://livethrive.org/charm/dekalb-charm/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 33.754099161076,
+  "lng": -84.266920442411,
+  "geocode_match": "1225 COLUMBIA DR, DECATUR, GA, 30032",
+  "geocode_source": "census"
+}

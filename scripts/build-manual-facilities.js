@@ -25,6 +25,7 @@ if (!stateArg || !cityArg) {
 }
 
 const MANUAL_IN = path.join(".", "data", "manual", stateArg, `${cityArg}.json`);
+const MANUAL_IN_GEOCODED = path.join(".", "data", "manual", stateArg, `${cityArg}.geocoded.json`);
 const MANUAL_OUT_RESOLVED = path.join(".", "data", "manual", stateArg, `${cityArg}.resolved.json`);
 const FACILITIES_DIR = path.join(".", "data", "facilities");
 
@@ -86,7 +87,7 @@ function appearsIn(stateSlug, citySlug) {
 }
 
 function run() {
-  const manual = safeReadJson(MANUAL_IN);
+  const manual = safeReadJson(MANUAL_IN_GEOCODED) || safeReadJson(MANUAL_IN);
   if (!manual) {
     console.error(`❌ Missing or invalid manual file: ${MANUAL_IN}`);
     process.exit(1);
@@ -145,6 +146,11 @@ function run() {
 
       // For back-links and context on facility pages
       appears_in: appearsIn(stateArg, cityArg),
+
+      lat: typeof item.lat === "number" ? item.lat : undefined,
+      lng: typeof item.lng === "number" ? item.lng : undefined,
+      geocode_match: item.geocode_match || undefined,
+      geocode_source: item.geocode_source || undefined,
     };
 
     // Clean undefined keys

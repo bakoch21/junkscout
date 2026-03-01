@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_c507f1b1cac3",
+  "name": "Chicago Electronics Recycling at HCCRF",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1150 N North Branch St, Chicago, IL 60642",
+  "phone": "311",
+  "hours": "Check the official City of Chicago recycling guidance for current hours and accepted electronics before visiting.",
+  "fees": "Electronics drop-off rules can change. Confirm current item limits and eligibility before arrival.",
+  "rules": "Use the official city pages to confirm current electronics acceptance rules and any resident restrictions before driving.",
+  "accepted_materials": [
+    "Computers",
+    "Monitors",
+    "Televisions",
+    "Small electronics"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Materials outside posted recycling guidance"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.chicago.gov/city/en/depts/streets/supp_info/recycling1.html",
+  "osm_url": "https://www.chicago.gov/city/en/depts/streets/supp_info/recycling1.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "illinois",
+      "city": "chicago"
+    }
+  ],
+  "lat": 41.901778605604,
+  "lng": -87.654107364031,
+  "geocode_match": "1150 N NORTH BRANCH ST, CHICAGO, IL, 60642",
+  "geocode_source": "census"
+}

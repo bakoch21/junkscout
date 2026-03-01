@@ -37,6 +37,7 @@ function stateAbbrevFromSlug(stateSlug = "") {
   const state = String(stateSlug || "").toLowerCase();
   if (state === "texas") return "TX";
   if (state === "california") return "CA";
+  if (state === "georgia") return "GA";
   return state.toUpperCase();
 }
 
@@ -64,14 +65,22 @@ function isSanFranciscoCity(state, city) {
   return String(state || "").toLowerCase() === "california" && String(city || "").toLowerCase() === "san-francisco";
 }
 
+function isAtlantaCity(state, city) {
+  return String(state || "").toLowerCase() === "georgia" && String(city || "").toLowerCase() === "atlanta";
+}
+
+function hasCuratedManualData(state, city) {
+  return getCuratedItems(getCuratedObject(state, city)).length > 0;
+}
+
+function isEnhancedManualCity(state, city) {
+  return hasCuratedManualData(state, city);
+}
+
 function shouldBlendCuratedWithData(state, city) {
-  return (
-    isDallasCity(state, city) ||
-    isAustinCity(state, city) ||
-    isSanAntonioCity(state, city) ||
-    isLosAngelesCity(state, city) ||
-    isSanFranciscoCity(state, city)
-  );
+  if (isHoustonCity(state, city)) return false;
+  if (!hasCuratedManualData(state, city)) return false;
+  return getDataFileItems(state, city).length > 0;
 }
 
 function escapeHtml(value = "") {
@@ -381,6 +390,14 @@ function buildMeta({ state, city }) {
     title = "San Francisco Trash Dump, Transfer Stations & Landfills | JunkScout";
     description =
       "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
+  } else if (isAtlantaCity(state, city)) {
+    title = "Atlanta Trash Dump, Transfer Stations & Landfills | JunkScout";
+    description =
+      "Compare Atlanta dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
+  } else if (isEnhancedManualCity(state, city)) {
+    title = `${cityName} Trash Dump, Transfer Stations & Landfills | JunkScout`;
+    description =
+      `Compare ${cityName} dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.`;
   }
 
   const canonicalPath = `/${state}/${city}/`;
@@ -674,6 +691,83 @@ function buildJsonLd({ state, city, meta }) {
         },
       ],
     });
+  } else if (isAtlantaCity(state, city)) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Where can I dump trash in Atlanta today?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Atlanta has a mix of city, county, nonprofit, and private options including transfer stations, landfill access, hard-to-recycle drop-offs, and recycling centers depending on your load.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where can I recycle or drop off specialty items in Atlanta?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Atlanta-area residents often use CHaRM sites, city recycling events, and municipal recycling centers for paint, batteries, electronics, glass, tires, and specialty materials. Confirm the current accepted-items list before visiting.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What do Atlanta transfer stations and landfills charge?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Fees vary by facility, load type, and residency rules. Check source links and confirm rates, eligibility, and accepted materials before you drive.",
+          },
+        },
+      ],
+    });
+  } else if (isEnhancedManualCity(state, city)) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: `Where can I dump trash in ${cityName} today?`,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              `${cityName} has a mix of public drop-off sites, transfer stations, landfills, recycling centers, and specialty programs depending on your load. Use the city guide to compare source-linked options before you drive.`,
+          },
+        },
+        {
+          "@type": "Question",
+          name: `Are there free or resident-only dump options in ${cityName}?`,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              `Some ${cityName}-area services are resident-focused and may offer free or lower-cost drop-off for specific materials. Always confirm proof-of-address rules, item limits, and current eligibility before arrival.`,
+          },
+        },
+        {
+          "@type": "Question",
+          name: `What do ${cityName} transfer stations and landfills charge?`,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              `Fees vary by load size, material type, operator, and residency. Check the source links for each facility and verify the latest rates before you drive.`,
+          },
+        },
+        {
+          "@type": "Question",
+          name: `What materials can I bring to a drop-off site in ${cityName}?`,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              `Accepted materials vary by site and can include household trash, yard waste, construction debris, recyclables, tires, electronics, paint, batteries, and other specialty items. Always confirm the posted acceptance list before visiting.`,
+          },
+        },
+      ],
+    });
   }
 
   const json = JSON.stringify({ "@context": "https://schema.org", "@graph": graph }, null, 2);
@@ -707,8 +801,141 @@ function injectJsonLd(html, jsonLdScript) {
   return html.replace("</head>", `\n${jsonLdScript}\n</head>`);
 }
 
-function injectBodySeed(html, state, city) {
-  return html.replace("<body>", `<body data-state="${escapeHtml(state)}" data-city="${escapeHtml(city)}">`);
+function injectBodySeed(html, state, city, options = {}) {
+  const attrs = [
+    `data-state="${escapeHtml(state)}"`,
+    `data-city="${escapeHtml(city)}"`,
+  ];
+
+  if (options.enhancedCity) attrs.push(`data-enhanced-city="1"`);
+  if (options.blendCuratedWithData) attrs.push(`data-blend-curated-with-data="1"`);
+
+  return html.replace("<body>", `<body ${attrs.join(" ")}>`);
+}
+
+function normalizeQuickStartType(rawType = "") {
+  const value = String(rawType || "").toLowerCase();
+  if (value.includes("hazard")) {
+    return {
+      key: "hazardous-waste",
+      title: "Hazardous waste options",
+      meta: "Paint, chemicals, batteries, and specialty drop-off",
+    };
+  }
+  if (value.includes("recycl") || value.includes("reuse")) {
+    return {
+      key: "recycling",
+      title: "Recycling drop-off",
+      meta: "Sorted recyclables, electronics, and reusable materials",
+    };
+  }
+  if (value.includes("transfer")) {
+    return {
+      key: "transfer",
+      title: "Transfer stations",
+      meta: "Mixed loads and faster unload options",
+    };
+  }
+  if (value.includes("landfill")) {
+    return {
+      key: "landfill",
+      title: "Landfills",
+      meta: "Large loads and heavy disposal",
+    };
+  }
+  if (value.includes("dumpster")) {
+    return {
+      key: "dumpster",
+      title: "Public dumpster options",
+      meta: "Fast neighborhood and city drop-off points",
+    };
+  }
+  return {
+    key: "drop-off",
+    title: "Drop-off sites",
+    meta: "General public options with source-linked rules",
+  };
+}
+
+function buildGenericQuickStartBlock({ state, city, items }) {
+  const priorityOrder = [
+    "hazardous-waste",
+    "recycling",
+    "transfer",
+    "landfill",
+    "dumpster",
+    "drop-off",
+  ];
+  const byKey = new Map();
+
+  for (const item of Array.isArray(items) ? items : []) {
+    const quickType = normalizeQuickStartType(item?.type);
+    if (!byKey.has(quickType.key)) byKey.set(quickType.key, quickType);
+  }
+
+  const cards = priorityOrder
+    .map((key) => byKey.get(key))
+    .filter(Boolean)
+    .slice(0, 4);
+
+  if (cards.length === 0) return "";
+
+  return `
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    ${cards
+      .map(
+        (card) => `
+    <a class="quickstart__item" href="/${escapeHtml(state)}/${escapeHtml(city)}/?type=${escapeHtml(card.key)}#results">
+      <span class="quickstart__title">${escapeHtml(card.title)}</span>
+      <span class="quickstart__meta">${escapeHtml(card.meta)}</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>`
+      )
+      .join("\n")}
+  </div>
+</section>
+`.trim();
+}
+
+function injectGenericEnhancedIntentCopy(html, { state, city, items }) {
+  const cityName = titleCaseFromSlug(city);
+  const stateName = titleCaseFromSlug(state);
+  const quickStartBlock = buildGenericQuickStartBlock({ state, city, items });
+
+  let output = html;
+  output = output.replace(
+    /(<h1 id="cityTitle">)[\s\S]*?(<\/h1>)/,
+    `$1Where to dump trash in ${escapeHtml(cityName)}, ${escapeHtml(stateName)}$2`
+  );
+  output = output.replace(
+    /(<p class="subhead" id="cityAnswer">)[\s\S]*?(<\/p>)/,
+    `$1Find public landfills, transfer stations, and recycling drop-offs in ${escapeHtml(cityName)}, ${escapeHtml(stateName)}, with hours, rules, and accepted materials when available.$2`
+  );
+  output = output.replace(
+    /(<p class="muted" id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/,
+    `$1Need to dump trash in ${escapeHtml(cityName)} fast? Start with these verified options and confirm rules before you drive.$2${quickStartBlock ? `\n${quickStartBlock}` : ""}`
+  );
+  output = output.replace(
+    /(<span id="cityNameInline">)[\s\S]*?(<\/span>)/,
+    `$1${escapeHtml(cityName)}$2`
+  );
+  output = output.replace(
+    /(<h2 id="faqDumpWhere">)[\s\S]*?(<\/h2>)/,
+    `$1Where can I dump trash in ${escapeHtml(cityName)} today?$2`
+  );
+  output = output.replace(
+    /(<h2 id="faqDumpFree">)[\s\S]*?(<\/h2>)/,
+    `$1Where can I drop off trash for free in ${escapeHtml(cityName)}?$2`
+  );
+  output = output.replace(
+    /(<p id="faqDumpFreeBody">)[\s\S]*?(<\/p>)/,
+    `$1Some ${escapeHtml(cityName)}-area services are resident-focused and may offer free or lower-cost drop-off for specific materials, while private transfer stations and landfills usually charge by load size or material type.$2`
+  );
+  return output;
 }
 
 function buildNearbyHtml({ state, city, neighborsMap, validCitySet }) {
@@ -1332,6 +1559,81 @@ function injectSanFranciscoIntentCopy(html) {
   return out;
 }
 
+function injectAtlantaIntentCopy(html) {
+  let out = html;
+  const quickStartBlock = `
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/georgia/atlanta/?type=hazardous-waste#results">
+      <span class="quickstart__title">Hard-to-recycle and HHW</span>
+      <span class="quickstart__meta">CHaRM sites, paint, batteries, and electronics</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/georgia/atlanta/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads, county drop-off, and faster unload</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/georgia/atlanta/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/georgia/atlanta/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">City events, municipal centers, and sorted materials</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+`.trim();
+
+  out = out.replace(
+    /(<h1[^>]*id="cityTitle"[^>]*>)[\s\S]*?(<\/h1>)/i,
+    "$1Atlanta Trash Dump, Transfer Stations & Landfills$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="cityAnswer"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Compare Atlanta dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Need to dump trash in Atlanta fast? Start with these verified options and confirm rules before you drive.$2\n" + quickStartBlock
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I dump trash in Atlanta today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpFree"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I recycle or drop off specialty items in Atlanta?$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Atlanta-area residents use a mix of city events, CHaRM sites, county facilities, and municipal recycling centers depending on the material. Always confirm residency rules, accepted items, and current fees before visiting.$2"
+  );
+
+  out = out.replace(
+    "<h2>What items are typically accepted?</h2>",
+    "<h2>Atlanta transfer stations and recycling centers: what they accept</h2>"
+  );
+
+  out = out.replace(
+    "<h2>Fees, hours, and resident requirements</h2>",
+    "<h2>Atlanta landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  return out;
+}
+
 function run() {
   if (!fs.existsSync(CITY_LIST_PATH)) {
     console.error(`City list not found: ${CITY_LIST_PATH}`);
@@ -1370,17 +1672,19 @@ function run() {
   const renderable = [];
   const skippedNoData = [];
   const cityItemsByKey = new Map();
+  const citySourceByKey = new Map();
 
   for (const entry of filtered) {
     const state = String(entry.state).toLowerCase();
     const city = String(entry.city).toLowerCase();
-    const { items } = readCityDataItems(state, city);
+    const { items, source } = readCityDataItems(state, city);
     if (!Array.isArray(items) || items.length === 0) {
       skippedNoData.push(`${state}/${city}`);
       continue;
     }
     renderable.push(entry);
     cityItemsByKey.set(`${state}/${city}`, items);
+    citySourceByKey.set(`${state}/${city}`, source);
   }
 
   if (renderable.length === 0) {
@@ -1400,13 +1704,18 @@ function run() {
     const city = String(entry.city).toLowerCase();
     const key = `${state}/${city}`;
     const cityItems = cityItemsByKey.get(key) || [];
+    const citySource = citySourceByKey.get(key) || "none";
+    const isEnhanced = isEnhancedManualCity(state, city);
 
     const meta = buildMeta({ state, city });
 
     let outputHtml = template;
     outputHtml = injectHeadMeta(outputHtml, meta);
     outputHtml = injectJsonLd(outputHtml, buildJsonLd({ state, city, meta }));
-    outputHtml = injectBodySeed(outputHtml, state, city);
+    outputHtml = injectBodySeed(outputHtml, state, city, {
+      enhancedCity: isEnhanced,
+      blendCuratedWithData: citySource === "curated_blend",
+    });
     outputHtml = injectInitialResults(outputHtml, buildInitialResultsHtml(cityItems));
     outputHtml = injectStateHubLink(outputHtml, state);
     outputHtml = injectPopularCities(outputHtml, state);
@@ -1427,6 +1736,10 @@ function run() {
       outputHtml = injectLosAngelesIntentCopy(outputHtml);
     } else if (isSanFranciscoCity(state, city)) {
       outputHtml = injectSanFranciscoIntentCopy(outputHtml);
+    } else if (isAtlantaCity(state, city)) {
+      outputHtml = injectAtlantaIntentCopy(outputHtml);
+    } else if (isEnhanced) {
+      outputHtml = injectGenericEnhancedIntentCopy(outputHtml, { state, city, items: cityItems });
     }
 
     const outDir = path.join(OUTPUT_BASE, state, city);

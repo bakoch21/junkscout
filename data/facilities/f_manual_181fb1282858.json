@@ -28,5 +28,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.80804452191,
+  "lng": -95.291732899968,
+  "geocode_match": "5565 KIRKPATRICK BLVD, HOUSTON, TX, 77028",
+  "geocode_source": "census"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "f_manual_100f580ce3ed",
+  "name": "Trail Ridge Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "5110 US Highway 301 S, Baldwin, FL 32234",
+  "phone": "Check city listing",
+  "hours": "Jacksonville posts current disposal operations hours on the official solid waste pages. Confirm before visiting.",
+  "fees": "Landfill fees vary by load type and service class. Confirm current rates before arrival.",
+  "rules": "Use the official disposal operations page to confirm gate hours, accepted materials, and self-haul rules before driving.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Bulky waste",
+    "Approved landfill waste"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Materials outside landfill acceptance rules"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.jacksonville.gov/departments/public-works/solid-waste/disposal-operations",
+  "osm_url": "https://www.jacksonville.gov/departments/public-works/solid-waste/disposal-operations",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "jacksonville"
+    }
+  ],
+  "lat": 30.2173814,
+  "lng": -82.0087755,
+  "geocode_source": "census"
+}

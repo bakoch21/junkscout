@@ -1,0 +1,37 @@
+{
+  "id": "f_manual_ac98eb3ba2f5",
+  "name": "Seminole Road Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "4203 Clevemont Rd, Ellenwood, GA 30294",
+  "phone": "Check county listing",
+  "hours": "Check DeKalb County Sanitation for current landfill hours before visiting.",
+  "fees": "Landfill fees vary by load type and disposal category. Verify current tipping rules before arrival.",
+  "rules": "DeKalb notes a resident tire limit of up to 10 passenger car tires. Always confirm current landfill rules and any required paperwork before driving.",
+  "accepted_materials": [
+    "Home-generated refuse",
+    "Yard trimmings",
+    "Building materials",
+    "Commercial waste",
+    "Passenger car tires (resident limit applies)"
+  ],
+  "not_accepted": [
+    "Hazardous materials",
+    "Liquids",
+    "Lead-acid batteries"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.dekalbcountyga.gov/sanitation/transfer-stations-and-landfill",
+  "osm_url": "https://www.dekalbcountyga.gov/sanitation/transfer-stations-and-landfill",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 33.6569581,
+  "lng": -84.2603882,
+  "geocode_match": "Seminole Road Landfill, DeKalb County, Georgia",
+  "geocode_source": "openstreetmap"
+}

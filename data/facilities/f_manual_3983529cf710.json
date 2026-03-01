@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_3983529cf710",
+  "name": "Atlanta Recycles Day at Greenbriar Mall",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "2841 Greenbriar Pkwy SW, Atlanta, GA 30331",
+  "phone": "3-1-1",
+  "hours": "Typically held on selected Saturdays from 9:00 AM to 12:00 PM. Check the City of Atlanta schedule before visiting.",
+  "fees": "Typically free for City of Atlanta residents. Confirm current item caps and event rules before arrival.",
+  "rules": "Resident-focused city event. Verify the monthly schedule, item caps, and any ID or address requirements before driving.",
+  "accepted_materials": [
+    "Tires",
+    "Paper shredding",
+    "Single-stream recycling"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Commercial disposal loads",
+    "Items outside the posted event list"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://citycouncil.atlantaga.gov/Home/Components/News/News/1913/560",
+  "osm_url": "https://citycouncil.atlantaga.gov/Home/Components/News/News/1913/560",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 33.686407918023,
+  "lng": -84.492092297526,
+  "geocode_match": "2841 GREENBRIAR PKWY SW, ATLANTA, GA, 30331",
+  "geocode_source": "census"
+}

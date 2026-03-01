@@ -25,5 +25,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.955084727439,
+  "lng": -95.248167375904,
+  "geocode_match": "3623 WILSON RD, HUMBLE, TX, 77396",
+  "geocode_source": "census"
 }

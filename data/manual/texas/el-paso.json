@@ -1,0 +1,112 @@
+{
+  "city": "El Paso",
+  "state": "TX",
+  "last_updated": "2026-03-01",
+  "facilities": [
+    {
+      "name": "Citizen Collection Station - Westside",
+      "type": "Transfer Station",
+      "address": "121 Atlantic Rd, El Paso, TX 79922",
+      "phone": "915-212-6000",
+      "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm current hours before visiting.",
+      "fees": "Most routine residential services are free for El Paso residents. Confirm current limits and any special-item fees before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Yard waste",
+        "Bulk items",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside posted station rules"
+      ],
+      "rules": "Use the official city page to confirm resident eligibility, load limits, and accepted items before driving.",
+      "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Citizen Collection Station - Hondo Pass",
+      "type": "Transfer Station",
+      "address": "4501 Hondo Pass Dr, El Paso, TX 79904",
+      "phone": "915-212-6000",
+      "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+      "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Yard waste",
+        "Bulk items",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside posted station rules"
+      ],
+      "rules": "Verify current resident rules and accepted material limits before driving.",
+      "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Citizen Collection Station - Harrison",
+      "type": "Transfer Station",
+      "address": "2492 Harrison Ave, El Paso, TX 79930",
+      "phone": "915-212-6000",
+      "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+      "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Yard waste",
+        "Bulk items",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside posted station rules"
+      ],
+      "rules": "Check current load limits, tire rules, and resident eligibility before driving.",
+      "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Citizen Collection Station - Confederate",
+      "type": "Transfer Station",
+      "address": "3510 Confederate Dr, El Paso, TX 79936",
+      "phone": "915-212-6000",
+      "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+      "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Yard waste",
+        "Bulk items",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside posted station rules"
+      ],
+      "rules": "Check the official city page for any brush, tire, appliance, or special-item restrictions before you drive.",
+      "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Citizen Collection Station - Pendale",
+      "type": "Transfer Station",
+      "address": "1034 Pendale Rd, El Paso, TX 79907",
+      "phone": "915-212-6000",
+      "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+      "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Yard waste",
+        "Bulk items",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside posted station rules"
+      ],
+      "rules": "Confirm current resident rules, tire limits, and accepted materials before driving.",
+      "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+      "verified_date": "2026-03-01"
+    }
+  ]
+}

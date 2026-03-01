@@ -1,0 +1,40 @@
+{
+  "id": "f_manual_e9aa02582dcd",
+  "name": "CHaRM Atlanta",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "1110 Hill St SE, Atlanta, GA 30315",
+  "phone": "Check official booking page",
+  "hours": "By appointment. Check current booking windows and posted hours before visiting.",
+  "fees": "Material-specific fees apply. Review the current CHaRM pricing list before arrival.",
+  "rules": "Best for hard-to-recycle and household hazardous materials. Use the official accepted-items list and appointment system before you drive.",
+  "accepted_materials": [
+    "Paint",
+    "Chemicals",
+    "Batteries",
+    "Electronics",
+    "Glass",
+    "Mattresses",
+    "Appliances",
+    "Tires"
+  ],
+  "not_accepted": [
+    "General household garbage",
+    "Unsorted mixed disposal loads",
+    "Items outside the posted CHaRM list"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://livethrive.org/charm/",
+  "osm_url": "https://livethrive.org/charm/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 33.724929800342,
+  "lng": -84.37850878066,
+  "geocode_match": "1110 HILL ST SE, ATLANTA, GA, 30315",
+  "geocode_source": "census"
+}

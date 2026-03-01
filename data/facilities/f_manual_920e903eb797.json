@@ -34,5 +34,6 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "geocode_source": "census"
 }

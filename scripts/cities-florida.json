@@ -1,0 +1,6 @@
+[
+  { "state": "florida", "city": "miami", "query": "Miami, FL" },
+  { "state": "florida", "city": "orlando", "query": "Orlando, FL" },
+  { "state": "florida", "city": "tampa", "query": "Tampa, FL" },
+  { "state": "florida", "city": "jacksonville", "query": "Jacksonville, FL" }
+]

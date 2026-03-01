@@ -31,5 +31,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.868588490982,
+  "lng": -95.542360875681,
+  "geocode_match": "6900 HAHL RD, HOUSTON, TX, 77040",
+  "geocode_source": "census"
 }

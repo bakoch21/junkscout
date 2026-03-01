@@ -23,5 +23,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.850227629469,
+  "lng": -95.550260967299,
+  "geocode_match": "10332 TANNER RD, HOUSTON, TX, 77041",
+  "geocode_source": "census"
 }

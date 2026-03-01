@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_c66ac1b054b4",
+  "name": "North Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "2784 Woodwin Rd, Doraville, GA 30360",
+  "phone": "Check county listing",
+  "hours": "Check DeKalb County for current operating hours before visiting.",
+  "fees": "Commercial tipping fees may apply. Verify current rate and account rules before arrival.",
+  "rules": "County listing describes this station as commercial-only. Confirm eligibility before driving any self-haul load.",
+  "accepted_materials": [
+    "Municipal solid waste from commercial collection vehicles",
+    "Yard trimmings from commercial collection vehicles"
+  ],
+  "not_accepted": [
+    "Construction and demolition debris",
+    "Residential self-haul loads",
+    "Hazardous waste"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.dekalbcountyga.gov/sanitation/transfer-stations-and-landfill",
+  "osm_url": "https://www.dekalbcountyga.gov/sanitation/transfer-stations-and-landfill",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 33.916848703761,
+  "lng": -84.274087194714,
+  "geocode_match": "2784 WOODWIN RD, DORAVILLE, GA, 30360",
+  "geocode_source": "census"
+}

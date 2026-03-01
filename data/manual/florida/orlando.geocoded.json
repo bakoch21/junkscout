@@ -1,0 +1,79 @@
+{
+  "city": "Orlando",
+  "state": "FL",
+  "last_updated": "2026-03-01",
+  "facilities": [
+    {
+      "name": "Orange County Landfill",
+      "type": "Landfill",
+      "address": "5901 Young Pine Rd, Orlando, FL 32829",
+      "phone": "Check county listing",
+      "hours": "Orange County posts current landfill hours on its landfill and transfer station page. Confirm before visiting.",
+      "fees": "Landfill fees vary by load type, weight, and residency. Check the county rate schedule before arrival.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Bulky waste",
+        "Approved construction debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside posted county rules"
+      ],
+      "rules": "Use the county page to confirm accepted materials, payment methods, and public self-haul rules before driving.",
+      "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
+      "verified_date": "2026-03-01",
+      "lat": 28.494750055296,
+      "lng": -81.233100185155,
+      "geocode_match": "5901 YOUNG PINE RD, ORLANDO, FL, 32829",
+      "geocode_source": "census"
+    },
+    {
+      "name": "McLeod Road Transfer Station",
+      "type": "Transfer Station",
+      "address": "5000 L B McLeod Rd, Orlando, FL 32811",
+      "phone": "Check county listing",
+      "hours": "Orange County posts current transfer station hours on its landfill and transfer station page. Confirm before visiting.",
+      "fees": "Transfer fees vary by load type and residency. Confirm the current county fee schedule before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside current county policy"
+      ],
+      "rules": "Confirm accepted loads, vehicle rules, and any proof-of-residency requirements before driving.",
+      "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
+      "verified_date": "2026-03-01",
+      "lat": 28.504723640659,
+      "lng": -81.445707438336,
+      "geocode_match": "5000 L B MCLEOD RD, ORLANDO, FL, 32811",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Porter Transfer Station",
+      "type": "Transfer Station",
+      "address": "1326 Good Homes Rd, Orlando, FL 32818",
+      "phone": "Check county listing",
+      "hours": "Orange County posts current transfer station hours on its landfill and transfer station page. Confirm before visiting.",
+      "fees": "Transfer fees vary by load type and residency. Confirm the current county fee schedule before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside current county policy"
+      ],
+      "rules": "Confirm accepted loads, vehicle rules, and any proof-of-residency requirements before driving.",
+      "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
+      "verified_date": "2026-03-01",
+      "lat": 28.56076871456,
+      "lng": -81.504988689363,
+      "geocode_match": "1326 GOOD HOMES RD, ORLANDO, FL, 32818",
+      "geocode_source": "census"
+    }
+  ]
+}

@@ -14,7 +14,7 @@ const path = require("path");
 const APPLY = process.argv.includes("--apply");
 
 const ROOT = process.cwd();
-const STATES = ["texas", "california"];
+const STATES = ["texas", "california", "georgia", "florida", "illinois"];
 const CURATED_BASE = path.join(ROOT, "data", "manual");
 
 function safeReadJson(filePath, fallback) {

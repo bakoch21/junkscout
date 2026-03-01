@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_275ddfef23c1",
+  "name": "Smyrna Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "95 Lake Dr, Smyrna, GA 30080",
+  "phone": "Check city listing",
+  "hours": "Check the City of Smyrna page for current operating hours before visiting.",
+  "fees": "Some specialty items such as TVs, monitors, and paint can carry fees. Confirm the current fee list before arrival.",
+  "rules": "Smyrna allows resident and non-resident use. Materials should be clean, dry, and empty, and payment methods can vary by item type.",
+  "accepted_materials": [
+    "Paper and cardboard",
+    "Glass",
+    "Metal",
+    "Used cooking oil",
+    "Car batteries",
+    "Electronics"
+  ],
+  "not_accepted": [
+    "Wet or dirty recyclables",
+    "Unlisted disposal loads",
+    "Hazardous waste outside posted programs"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.smyrnaga.gov/services/garbage-and-recycling/recycling-center",
+  "osm_url": "https://www.smyrnaga.gov/services/garbage-and-recycling/recycling-center",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 33.8691837,
+  "lng": -84.5297552,
+  "geocode_match": "City of Smyrna Recycling Center",
+  "geocode_source": "openstreetmap"
+}

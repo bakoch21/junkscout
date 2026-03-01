@@ -1,0 +1,108 @@
+{
+  "city": "San Diego",
+  "state": "CA",
+  "last_updated": "2026-03-01",
+  "facilities": [
+    {
+      "name": "Miramar Landfill",
+      "type": "Landfill",
+      "address": "5180 Convoy St, San Diego, CA 92111",
+      "phone": "858-573-1413",
+      "hours": "Check the official City of San Diego Miramar Landfill page for current gate hours and holiday schedules.",
+      "fees": "Landfill fees vary by load size, weight, and material type. Review the current city rate schedule before arrival.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Bulky disposal loads",
+        "Approved construction debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside landfill acceptance rules"
+      ],
+      "rules": "Use the city landfill page to confirm vehicle rules, payment methods, and any special-load limits before driving.",
+      "source": "https://www.sandiego.gov/environmental-services/miramar/landfill",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Miramar Recycling Center",
+      "type": "Recycling Center",
+      "address": "5165 Convoy St, San Diego, CA 92111",
+      "phone": "858-573-1412",
+      "hours": "Check the official Miramar Recycling Center page for current hours before visiting.",
+      "fees": "Many common drop-off streams are resident-focused or low-cost, but fees and payouts vary by material. Confirm before arrival.",
+      "accepted_materials": [
+        "Paper and cardboard",
+        "Bottles and cans",
+        "Select electronics and reusable materials"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Unapproved hazardous materials"
+      ],
+      "rules": "Review the official city accepted-items list and sorting instructions before you drive.",
+      "source": "https://www.sandiego.gov/environmental-services/miramar/recyclingcenter",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Household Hazardous Waste Transfer Facility",
+      "type": "Hazardous Waste Facility",
+      "address": "5161 Convoy St, San Diego, CA 92111",
+      "phone": "858-573-1413",
+      "hours": "Check the City of San Diego environmental services page for current hazardous-waste drop-off hours and any appointment rules.",
+      "fees": "Typically resident-focused for household quantities. Confirm current eligibility and limits before arrival.",
+      "accepted_materials": [
+        "Paint and chemicals",
+        "Batteries",
+        "Used motor oil",
+        "Household hazardous waste"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program scope"
+      ],
+      "rules": "Use the official city guidance to confirm packaging rules, quantity limits, and current household hazardous waste eligibility before visiting.",
+      "source": "https://www.sandiego.gov/environmental-services",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Sycamore Landfill",
+      "type": "Landfill",
+      "address": "8514 Mast Blvd, Santee, CA 92071",
+      "phone": "Check operator listing",
+      "hours": "Check the operator and CalRecycle listing for current gate hours before visiting.",
+      "fees": "Fees vary by material type, vehicle, and weight. Confirm current pricing before arrival.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Bulky waste",
+        "Approved construction and demolition debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside permit scope"
+      ],
+      "rules": "Always confirm accepted loads, payment terms, and any special handling rules before driving.",
+      "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "SANCO Resource Recovery",
+      "type": "Recycling Center",
+      "address": "6750 Federal Blvd, Lemon Grove, CA 91945",
+      "phone": "Check operator listing",
+      "hours": "Check the operator page for current recycling and drop-off hours.",
+      "fees": "Fees or payouts vary by material stream, contamination, and quantity.",
+      "accepted_materials": [
+        "Common recyclables",
+        "Cardboard and paper",
+        "Sorted drop-off materials"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Hazardous waste"
+      ],
+      "rules": "Confirm accepted streams, prep rules, and current public drop-off policy before visiting.",
+      "source": "https://www.sancord.com/",
+      "verified_date": "2026-03-01"
+    }
+  ]
+}

@@ -26,5 +26,7 @@
       "state": "texas",
       "city": "austin"
     }
-  ]
+  ],
+  "lat": 30.32,
+  "lng": -97.77
 }

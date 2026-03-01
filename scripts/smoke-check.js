@@ -10,7 +10,7 @@ const path = require("path");
 
 const ROOT = process.cwd();
 const BASE_URL = "https://junkscout.io";
-const STATES = ["texas", "california"];
+const STATES = ["texas", "california", "georgia", "florida", "illinois"];
 const CURATED_BASE = path.join(ROOT, "data", "manual");
 
 const errors = [];
@@ -99,12 +99,26 @@ function checkRequiredFiles() {
     "index.html",
     "texas/index.html",
     "california/index.html",
+    "georgia/index.html",
+    "florida/index.html",
+    "illinois/index.html",
     "texas/houston/index.html",
     "texas/dallas/index.html",
     "texas/austin/index.html",
     "texas/san-antonio/index.html",
+    "texas/fort-worth/index.html",
+    "texas/el-paso/index.html",
     "california/los-angeles/index.html",
     "california/san-francisco/index.html",
+    "california/san-diego/index.html",
+    "california/san-jose/index.html",
+    "california/oakland/index.html",
+    "georgia/atlanta/index.html",
+    "florida/miami/index.html",
+    "florida/orlando/index.html",
+    "florida/tampa/index.html",
+    "florida/jacksonville/index.html",
+    "illinois/chicago/index.html",
     "about/index.html",
     "contact/index.html",
     "privacy/index.html",
@@ -118,6 +132,9 @@ function checkRequiredFiles() {
     "sitemap.xml",
     "scripts/cities-texas.json",
     "scripts/cities-california.json",
+    "scripts/cities-georgia.json",
+    "scripts/cities-florida.json",
+    "scripts/cities-illinois.json",
   ];
 
   for (const rel of required) {
@@ -127,7 +144,7 @@ function checkRequiredFiles() {
 }
 
 function checkCityLists() {
-  const states = ["texas", "california"];
+  const states = ["texas", "california", "georgia", "florida", "illinois"];
 
   for (const state of states) {
     const filePath = cityListPath(state);
@@ -194,6 +211,31 @@ function checkCityLists() {
   if (!ca.some((x) => String(x.city || "").toLowerCase() === "san-francisco")) {
     addError("San Francisco missing from scripts/cities-california.json");
   }
+
+  const ga = readJson(cityListPath("georgia"));
+  if (!ga.some((x) => String(x.city || "").toLowerCase() === "atlanta")) {
+    addError("Atlanta missing from scripts/cities-georgia.json");
+  }
+
+  const fl = readJson(cityListPath("florida"));
+  for (const city of ["miami", "orlando", "tampa", "jacksonville"]) {
+    if (!fl.some((x) => String(x.city || "").toLowerCase() === city)) {
+      addError(`${titleCase(city)} missing from scripts/cities-florida.json`);
+    }
+  }
+
+  const il = readJson(cityListPath("illinois"));
+  if (!il.some((x) => String(x.city || "").toLowerCase() === "chicago")) {
+    addError("Chicago missing from scripts/cities-illinois.json");
+  }
+}
+
+function titleCase(slug) {
+  return String(slug || "")
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
 }
 
 function checkCityDataCoverage() {
@@ -381,12 +423,26 @@ function checkCanonicals() {
     { file: "index.html", expected: `${BASE_URL}/` },
     { file: "texas/index.html", expected: `${BASE_URL}/texas/` },
     { file: "california/index.html", expected: `${BASE_URL}/california/` },
+    { file: "georgia/index.html", expected: `${BASE_URL}/georgia/` },
+    { file: "florida/index.html", expected: `${BASE_URL}/florida/` },
+    { file: "illinois/index.html", expected: `${BASE_URL}/illinois/` },
     { file: "texas/houston/index.html", expected: `${BASE_URL}/texas/houston/` },
     { file: "texas/dallas/index.html", expected: `${BASE_URL}/texas/dallas/` },
     { file: "texas/austin/index.html", expected: `${BASE_URL}/texas/austin/` },
     { file: "texas/san-antonio/index.html", expected: `${BASE_URL}/texas/san-antonio/` },
+    { file: "texas/fort-worth/index.html", expected: `${BASE_URL}/texas/fort-worth/` },
+    { file: "texas/el-paso/index.html", expected: `${BASE_URL}/texas/el-paso/` },
     { file: "california/los-angeles/index.html", expected: `${BASE_URL}/california/los-angeles/` },
     { file: "california/san-francisco/index.html", expected: `${BASE_URL}/california/san-francisco/` },
+    { file: "california/san-diego/index.html", expected: `${BASE_URL}/california/san-diego/` },
+    { file: "california/san-jose/index.html", expected: `${BASE_URL}/california/san-jose/` },
+    { file: "california/oakland/index.html", expected: `${BASE_URL}/california/oakland/` },
+    { file: "georgia/atlanta/index.html", expected: `${BASE_URL}/georgia/atlanta/` },
+    { file: "florida/miami/index.html", expected: `${BASE_URL}/florida/miami/` },
+    { file: "florida/orlando/index.html", expected: `${BASE_URL}/florida/orlando/` },
+    { file: "florida/tampa/index.html", expected: `${BASE_URL}/florida/tampa/` },
+    { file: "florida/jacksonville/index.html", expected: `${BASE_URL}/florida/jacksonville/` },
+    { file: "illinois/chicago/index.html", expected: `${BASE_URL}/illinois/chicago/` },
     { file: "research/public-waste-access-report-2026/index.html", expected: `${BASE_URL}/research/public-waste-access-report-2026/` },
   ];
 
@@ -543,6 +599,19 @@ function checkSanFranciscoSignals() {
   }
 }
 
+function checkCitySignals(rel, phrase, label) {
+  const full = path.join(ROOT, rel);
+  if (!exists(full)) {
+    addError(`${label} page missing: ${rel}`);
+    return;
+  }
+
+  const html = readText(full);
+  if (!html.includes("CURATED:JSON")) addWarning(`${label} page missing CURATED:JSON overlay block.`);
+  if (!html.includes("JSONLD:START")) addWarning(`${label} page missing JSON-LD marker.`);
+  if (!html.toLowerCase().includes(phrase.toLowerCase())) addWarning(`${label} page may be missing key intent phrase.`);
+}
+
 function printSummaryAndExit() {
   console.log("Smoke check summary:");
 
@@ -568,6 +637,17 @@ function run() {
   checkAustinSignals();
   checkSanAntonioSignals();
   checkSanFranciscoSignals();
+  checkCitySignals("georgia/atlanta/index.html", "where can i dump trash in atlanta", "Atlanta");
+  checkCitySignals("texas/fort-worth/index.html", "where can i dump trash in fort worth", "Fort Worth");
+  checkCitySignals("texas/el-paso/index.html", "where can i dump trash in el paso", "El Paso");
+  checkCitySignals("california/san-diego/index.html", "where can i dump trash in san diego", "San Diego");
+  checkCitySignals("california/san-jose/index.html", "where can i dump trash in san jose", "San Jose");
+  checkCitySignals("california/oakland/index.html", "where can i dump trash in oakland", "Oakland");
+  checkCitySignals("florida/miami/index.html", "where can i dump trash in miami", "Miami");
+  checkCitySignals("florida/orlando/index.html", "where can i dump trash in orlando", "Orlando");
+  checkCitySignals("florida/tampa/index.html", "where can i dump trash in tampa", "Tampa");
+  checkCitySignals("florida/jacksonville/index.html", "where can i dump trash in jacksonville", "Jacksonville");
+  checkCitySignals("illinois/chicago/index.html", "where can i dump trash in chicago", "Chicago");
   printSummaryAndExit();
 }
 

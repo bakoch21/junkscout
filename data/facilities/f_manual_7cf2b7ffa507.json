@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_7cf2b7ffa507",
+  "name": "Household Hazardous Waste Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2675 Commonwealth Ave, Jacksonville, FL 32254",
+  "phone": "Check city listing",
+  "hours": "Jacksonville posts current household hazardous waste hours on the official HHW page. Confirm before visiting.",
+  "fees": "Service is typically resident-focused for household quantities. Confirm current item limits and eligibility before arrival.",
+  "rules": "Use the official HHW page to confirm accepted items, packaging rules, and any proof-of-residency requirements before driving.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and chemicals",
+    "Batteries",
+    "Used oil"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.jacksonville.gov/departments/public-works/solid-waste/household-hazardous-waste-(hhw)",
+  "osm_url": "https://www.jacksonville.gov/departments/public-works/solid-waste/household-hazardous-waste-(hhw)",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "jacksonville"
+    }
+  ],
+  "lat": 30.33671153607,
+  "lng": -81.711753984422,
+  "geocode_match": "2675 COMMONWEALTH AVE, JACKSONVILLE, FL, 32254",
+  "geocode_source": "census"
+}

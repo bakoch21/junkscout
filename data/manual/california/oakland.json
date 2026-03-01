@@ -1,0 +1,87 @@
+{
+  "city": "Oakland",
+  "state": "CA",
+  "last_updated": "2026-03-01",
+  "facilities": [
+    {
+      "name": "Berkeley Transfer Station",
+      "type": "Transfer Station",
+      "address": "1201 2nd St, Berkeley, CA 94710",
+      "phone": "Check city listing",
+      "hours": "Check the City of Berkeley transfer station page for current gate hours before visiting.",
+      "fees": "Rates vary by load type, residency, and material class. Confirm current pricing before arrival.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Bulky items",
+        "Select recyclable streams"
+      ],
+      "not_accepted": [
+        "Hazardous materials outside posted program scope",
+        "Loads outside current site policy"
+      ],
+      "rules": "Confirm residency rules, accepted loads, and payment methods before driving.",
+      "source": "https://berkeleyca.gov/city-services/trash-recycling/transfer-station",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Berkeley Recycling Center",
+      "type": "Recycling Center",
+      "address": "669 Gilman St, Berkeley, CA 94710",
+      "phone": "Check operator listing",
+      "hours": "Check the recycling center listing for current hours before visiting.",
+      "fees": "Fees and payouts vary by material stream and quantity.",
+      "accepted_materials": [
+        "Cardboard and paper",
+        "Bottles and cans",
+        "Sorted recyclable materials"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Contaminated loads"
+      ],
+      "rules": "Confirm prep rules, accepted streams, and any public drop-off limits before arrival.",
+      "source": "https://berkeleyrecycling.org/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "Davis Street Resource Recovery Complex",
+      "type": "Transfer Station",
+      "address": "2615 Davis St, San Leandro, CA 94577",
+      "phone": "Check operator listing",
+      "hours": "Check the official Davis Street Resource Recovery Complex page for current gate hours.",
+      "fees": "Fees vary by waste type, weight, and service. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Recycling drop-off",
+        "Household hazardous waste programs"
+      ],
+      "not_accepted": [
+        "Loads outside current program rules",
+        "Unapproved hazardous materials"
+      ],
+      "rules": "Use the operator page to confirm which public programs are active, accepted materials, and any appointment or residency requirements.",
+      "source": "https://www.wmearthcare.com/facility/davis-street-resource-recovery-complex/",
+      "verified_date": "2026-03-01"
+    },
+    {
+      "name": "California Waste Solutions",
+      "type": "Recycling Center",
+      "address": "1820 10th St, Oakland, CA 94607",
+      "phone": "Check operator listing",
+      "hours": "Check the operator page for current public-facing recycling or buyback hours.",
+      "fees": "Fees or payouts vary by material stream and quantity.",
+      "accepted_materials": [
+        "Common recyclables",
+        "Cardboard and paper",
+        "Sorted drop-off materials"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Hazardous waste"
+      ],
+      "rules": "Confirm current public drop-off availability, accepted materials, and prep rules before visiting.",
+      "source": "https://calwaste.com/",
+      "verified_date": "2026-03-01"
+    }
+  ]
+}

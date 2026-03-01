@@ -25,5 +25,7 @@
       "state": "texas",
       "city": "san-antonio"
     }
-  ]
+  ],
+  "lat": 29.614,
+  "lng": -98.308
 }

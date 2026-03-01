@@ -23,5 +23,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.522871231081,
+  "lng": -95.258389508584,
+  "geocode_match": "4649 DIXIE FARM RD, PEARLAND, TX, 77581",
+  "geocode_source": "census"
 }

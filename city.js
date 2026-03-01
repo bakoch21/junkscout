@@ -96,6 +96,7 @@ function setCanonical(url) {
 
 function applyCitySEO({ cityName, stateName }) {
   const pretty = cityName + ", " + stateName;
+  const enhancedManualCity = document.body?.dataset?.enhancedCity === "1";
   const isHouston = String(cityName).toLowerCase() === "houston" && String(stateName).toUpperCase() === "TX";
   const isDallas = String(cityName).toLowerCase() === "dallas" && String(stateName).toUpperCase() === "TX";
   const isAustin = String(cityName).toLowerCase() === "austin" && String(stateName).toUpperCase() === "TX";
@@ -117,6 +118,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Los Angeles Trash Dump, Transfer Stations & Landfills"
       : isSanFrancisco
       ? "San Francisco Trash Dump, Transfer Stations & Landfills"
+      : enhancedManualCity
+      ? cityName + " Trash Dump, Transfer Stations & Landfills"
       : "Where to dump trash in " + pretty;
   }
 
@@ -134,6 +137,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Compare Los Angeles dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : isSanFrancisco
       ? "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+      : enhancedManualCity
+      ? "Compare " + cityName + " dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
       : "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ", " +
         "with hours, rules, and accepted materials when available.";
   }
@@ -152,6 +157,8 @@ function applyCitySEO({ cityName, stateName }) {
       ? "Need to dump trash in Los Angeles fast? Start with these verified options and confirm rules before you drive."
       : isSanFrancisco
       ? "Need to dump trash in San Francisco fast? Start with these verified options and confirm rules before you drive."
+      : enhancedManualCity
+      ? "Need to dump trash in " + cityName + " fast? Start with these verified options and confirm rules before you drive."
       : "Public landfills, transfer stations, and disposal sites in " + cityName + ". " +
         "Always confirm fees, residency rules, and accepted materials before visiting.";
   }
@@ -261,6 +268,23 @@ function applyCitySEO({ cityName, stateName }) {
       faqDumpFreeBody.textContent =
         "Some San Francisco-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
     }
+  } else if (enhancedManualCity) {
+    document.title = cityName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
+    setMetaDescription(
+      "Compare " + cityName + " dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
+    );
+
+    const faqDumpWhere = document.getElementById("faqDumpWhere");
+    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in " + cityName + " today?";
+
+    const faqDumpFree = document.getElementById("faqDumpFree");
+    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in " + cityName + "?";
+
+    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
+    if (faqDumpFreeBody) {
+      faqDumpFreeBody.textContent =
+        "Some " + cityName + "-area services are resident-focused and may offer free or lower-cost drop-off for specific materials, while private transfer stations and landfills usually charge by load size or material type.";
+    }
   } else {
     document.title = cityName + ", " + stateName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
     setMetaDescription(
@@ -336,6 +360,8 @@ function getCuratedItems(curated) {
 }
 
 function shouldBlendCuratedWithData(state, city) {
+  if (document.body?.dataset?.blendCuratedWithData === "1") return true;
+
   const stateSlug = String(state || "").toLowerCase();
   const citySlug = String(city || "").toLowerCase();
   return (

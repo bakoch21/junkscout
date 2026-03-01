@@ -25,5 +25,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 30.034813601696,
+  "lng": -95.867063235605,
+  "geocode_match": "28511 OLD WASHINGTON RD, HOCKLEY, TX, 77447",
+  "geocode_source": "census"
 }

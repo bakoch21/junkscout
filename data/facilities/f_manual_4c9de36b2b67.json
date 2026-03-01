@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_4c9de36b2b67",
+  "name": "Northwest County Solid Waste Facility",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "8001 W Linebaugh Ave, Tampa, FL 33625",
+  "phone": "Check county listing",
+  "hours": "Hillsborough County posts current disposal facility hours on its waste disposal facility page. Confirm before visiting.",
+  "fees": "Fees and public drop-off rules vary by load type and residency. Confirm the current county guidance before arrival.",
+  "rules": "Use the county page to confirm accepted materials, residency rules, and self-haul instructions before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulk waste",
+    "Yard waste",
+    "Recyclables"
+  ],
+  "not_accepted": [
+    "Loads outside county facility rules",
+    "Unapproved hazardous waste"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+  "osm_url": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "tampa"
+    }
+  ],
+  "lat": 28.040276864421,
+  "lng": -82.572193906065,
+  "geocode_match": "8001 W LINEBAUGH AVE, TAMPA, FL, 33625",
+  "geocode_source": "census"
+}

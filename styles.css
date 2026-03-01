@@ -524,6 +524,18 @@ select{
   background:
     linear-gradient(135deg, rgba(30,108,88,.94), rgba(49,143,117,.86));
 }
+.state-card--ga{
+  background:
+    linear-gradient(135deg, rgba(36,93,147,.95), rgba(84,121,185,.88));
+}
+.state-card--fl{
+  background:
+    linear-gradient(135deg, rgba(18,103,132,.94), rgba(42,156,164,.86));
+}
+.state-card--il{
+  background:
+    linear-gradient(135deg, rgba(103,43,77,.94), rgba(154,76,116,.86));
+}
 .state-card--future{
   background:linear-gradient(135deg, rgba(60,76,98,.86), rgba(91,110,135,.78));
   border-color:rgba(222,233,247,.22);
@@ -705,6 +717,60 @@ select{
   background:linear-gradient(135deg, #2b6f9e, #3b95c8);
 }
 .state-city-card--ca-f{
+  background:linear-gradient(135deg, #5b4b8c, #7b68b3);
+}
+.state-city-card--ga-a{
+  background:linear-gradient(135deg, #1d4f91, #2e73b7);
+}
+.state-city-card--ga-b{
+  background:linear-gradient(135deg, #1f6a4f, #2f8b67);
+}
+.state-city-card--ga-c{
+  background:linear-gradient(135deg, #4c5d74, #73879f);
+}
+.state-city-card--ga-d{
+  background:linear-gradient(135deg, #8a5a2b, #b17a42);
+}
+.state-city-card--ga-e{
+  background:linear-gradient(135deg, #2b6f9e, #3b95c8);
+}
+.state-city-card--ga-f{
+  background:linear-gradient(135deg, #5b4b8c, #7b68b3);
+}
+.state-city-card--fl-a{
+  background:linear-gradient(135deg, #1d4f91, #2e73b7);
+}
+.state-city-card--fl-b{
+  background:linear-gradient(135deg, #1f6a4f, #2f8b67);
+}
+.state-city-card--fl-c{
+  background:linear-gradient(135deg, #4c5d74, #73879f);
+}
+.state-city-card--fl-d{
+  background:linear-gradient(135deg, #8a5a2b, #b17a42);
+}
+.state-city-card--fl-e{
+  background:linear-gradient(135deg, #2b6f9e, #3b95c8);
+}
+.state-city-card--fl-f{
+  background:linear-gradient(135deg, #5b4b8c, #7b68b3);
+}
+.state-city-card--il-a{
+  background:linear-gradient(135deg, #1d4f91, #2e73b7);
+}
+.state-city-card--il-b{
+  background:linear-gradient(135deg, #1f6a4f, #2f8b67);
+}
+.state-city-card--il-c{
+  background:linear-gradient(135deg, #4c5d74, #73879f);
+}
+.state-city-card--il-d{
+  background:linear-gradient(135deg, #8a5a2b, #b17a42);
+}
+.state-city-card--il-e{
+  background:linear-gradient(135deg, #2b6f9e, #3b95c8);
+}
+.state-city-card--il-f{
   background:linear-gradient(135deg, #5b4b8c, #7b68b3);
 }
 

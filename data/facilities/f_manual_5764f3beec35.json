@@ -27,5 +27,9 @@
       "state": "texas",
       "city": "houston"
     }
-  ]
+  ],
+  "lat": 29.64879099457,
+  "lng": -95.463835075515,
+  "geocode_match": "11500 S POST OAK RD, HOUSTON, TX, 77035",
+  "geocode_source": "census"
 }

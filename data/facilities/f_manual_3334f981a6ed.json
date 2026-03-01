@@ -1,0 +1,37 @@
+{
+  "id": "f_manual_3334f981a6ed",
+  "name": "Keep North Fulton Beautiful Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "470 Morgan Falls Rd, Sandy Springs, GA 30350",
+  "phone": "Check operator listing",
+  "hours": "Monday, Tuesday, Thursday, Friday, and Saturday from 9:00 AM to 5:00 PM. Check official updates before visiting.",
+  "fees": "Some specialty recycling streams may carry fees. Confirm current pricing before arrival.",
+  "rules": "Use the Sandy Springs or KNFB listing to verify specialty items, fee-based streams, and any program-specific instructions before driving.",
+  "accepted_materials": [
+    "Plastic #1 and #2",
+    "Aluminum cans",
+    "Paper",
+    "Cardboard",
+    "Glass"
+  ],
+  "not_accepted": [
+    "General trash",
+    "Mixed disposal loads",
+    "Materials outside posted recycling streams"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.sandyspringsga.gov/recycling-center",
+  "osm_url": "https://www.sandyspringsga.gov/recycling-center",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 33.970104396759,
+  "lng": -84.373599384545,
+  "geocode_match": "470 MORGAN FALLS RD NE, SANDY SPRINGS, GA, 30350",
+  "geocode_source": "census"
+}

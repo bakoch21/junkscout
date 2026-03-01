@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://junkscout.io/#org",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://junkscout.io/#website",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/",
+      "publisher": {
+        "@id": "https://junkscout.io/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://junkscout.io/?where={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://junkscout.io/georgia/atlanta/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://junkscout.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Georgia",
+          "item": "https://junkscout.io/georgia/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Atlanta",
+          "item": "https://junkscout.io/georgia/atlanta/"
+        }
+      ]
+    },
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/georgia/atlanta/#place",
+      "name": "Dump and landfill options in Atlanta, Georgia",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Atlanta",
+        "addressRegion": "GA",
+        "addressCountry": "US"
+      },
+      "hasMap": "https://www.google.com/maps/search/dump%20landfill%20Atlanta%20GA",
+      "url": "https://junkscout.io/georgia/atlanta/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/georgia/atlanta/#webpage",
+      "name": "Atlanta Trash Dump, Transfer Stations & Landfills | JunkScout",
+      "description": "Compare Atlanta dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.",
+      "url": "https://junkscout.io/georgia/atlanta/",
+      "isPartOf": {
+        "@id": "https://junkscout.io/#website"
+      },
+      "about": {
+        "@id": "https://junkscout.io/georgia/atlanta/#place"
+      },
+      "breadcrumb": {
+        "@id": "https://junkscout.io/georgia/atlanta/#breadcrumb"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://junkscout.io/georgia/atlanta/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I dump trash in Atlanta today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Atlanta has a mix of city, county, nonprofit, and private options including transfer stations, landfill access, hard-to-recycle drop-offs, and recycling centers depending on your load."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I recycle or drop off specialty items in Atlanta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Atlanta-area residents often use CHaRM sites, city recycling events, and municipal recycling centers for paint, batteries, electronics, glass, tires, and specialty materials. Confirm the current accepted-items list before visiting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Atlanta transfer stations and landfills charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees vary by facility, load type, and residency rules. Check source links and confirm rates, eligibility, and accepted materials before you drive."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO CONTROL -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- Will be set dynamically by city.js -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+
+  <!-- ✅ Leaflet (map) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    /* Minimal map styling */
+    #mapWrap { margin-top: 14px; }
+    #map {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+      background: rgba(29,29,31,0.03);
+      overflow: hidden;
+    }
+    @media (max-width: 720px) {
+      #map { height: 260px; }
+    }
+  </style>
+
+  <title>Atlanta Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
+  <meta name="description" content="Compare Atlanta dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <link rel="canonical" href="https://junkscout.io/georgia/atlanta/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Atlanta Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta property="og:description" content="Compare Atlanta dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <meta property="og:url" content="https://junkscout.io/georgia/atlanta/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Atlanta Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta name="twitter:description" content="Compare Atlanta dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+
+</head>
+
+<body data-state="georgia" data-city="atlanta" data-enhanced-city="1">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1 id="cityTitle">Atlanta Trash Dump, Transfer Stations & Landfills</h1>
+
+      <p class="subhead" id="cityAnswer">Compare Atlanta dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.</p>
+
+      <p class="muted" id="citySubhead" style="margin-top:10px">Need to dump trash in Atlanta fast? Start with these verified options and confirm rules before you drive.</p>
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/georgia/atlanta/?type=hazardous-waste#results">
+      <span class="quickstart__title">Hard-to-recycle and HHW</span>
+      <span class="quickstart__meta">CHaRM sites, paint, batteries, and electronics</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/georgia/atlanta/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads, county drop-off, and faster unload</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/georgia/atlanta/?type=landfill#results">
+      <span class="quickstart__title">Landfills</span>
+      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/georgia/atlanta/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">City events, municipal centers, and sorted materials</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+
+      <!-- ✅ Injected at build time -->
+      <!-- STATEHUBLINK:START -->
+<div class="cityhub__backnav">
+  <a class="cityhub__backlink" href="/georgia/">&larr; Back to Georgia cities</a>
+</div>
+<!-- STATEHUBLINK:END -->
+
+      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- POPULARCITIES:START -->
+      <!-- POPULARCITIES:END -->
+
+      <div class="muted small" role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
+        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      </div>
+
+      <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
+        City rules &amp; fees
+      </button>
+
+      <!-- ✅ Map -->
+      <section id="mapWrap" aria-label="Map">
+        <div id="map"></div>
+      </section>
+
+      <!-- Results injected here -->
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Atlanta Recycles Day at Greenbriar Mall</h3>
+          <p class="card__meta">2841 Greenbriar Pkwy SW, Atlanta, GA 30331</p>
+          <p class="card__meta">Accepts: Tires, Paper shredding, Single-stream recycling</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=2841%20Greenbriar%20Pkwy%20SW%2C%20Atlanta%2C%20GA%2030331" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_3983529cf710/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Hazardous</span></div>
+          <h3>CHaRM Atlanta</h3>
+          <p class="card__meta">1110 Hill St SE, Atlanta, GA 30315</p>
+          <p class="card__meta">Accepts: Paint, Chemicals, Batteries</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1110%20Hill%20St%20SE%2C%20Atlanta%2C%20GA%2030315" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_e9aa02582dcd/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Hazardous</span></div>
+          <h3>CHaRM DeKalb</h3>
+          <p class="card__meta">1225 Columbia Dr, Decatur, GA 30032</p>
+          <p class="card__meta">Accepts: Paint, Chemicals, Batteries</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1225%20Columbia%20Dr%2C%20Decatur%2C%20GA%2030032" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_2970ebe42343/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>Merk Miles Transfer Station</h3>
+          <p class="card__meta">3220 Merk Rd SW, Atlanta, GA 30336</p>
+          <p class="card__meta">Accepts: Household garbage, Yard trimmings, Recycling drop-off</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=3220%20Merk%20Rd%20SW%2C%20Atlanta%2C%20GA%2030336" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_176381de538f/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Landfill</span></div>
+          <h3>Seminole Road Landfill</h3>
+          <p class="card__meta">4203 Clevemont Rd, Ellenwood, GA 30294</p>
+          <p class="card__meta">Accepts: Home-generated refuse, Yard trimmings, Building materials</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=4203%20Clevemont%20Rd%2C%20Ellenwood%2C%20GA%2030294" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_ac98eb3ba2f5/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>Central Transfer Station</h3>
+          <p class="card__meta">3720 Leroy Scott Dr, Decatur, GA 30032</p>
+          <p class="card__meta">Accepts: Municipal solid waste from commercial collection vehicles, Yard trimmings from commercial collection vehicles</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=3720%20Leroy%20Scott%20Dr%2C%20Decatur%2C%20GA%2030032" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_6a6e5254c619/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>North Transfer Station</h3>
+          <p class="card__meta">2784 Woodwin Rd, Doraville, GA 30360</p>
+          <p class="card__meta">Accepts: Municipal solid waste from commercial collection vehicles, Yard trimmings from commercial collection vehicles</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=2784%20Woodwin%20Rd%2C%20Doraville%2C%20GA%2030360" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_c66ac1b054b4/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Roswell Recycling Center</h3>
+          <p class="card__meta">11570 Maxwell Rd, Alpharetta, GA 30009</p>
+          <p class="card__meta">Accepts: Aluminum cans, Plastic bottles, Cardboard</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=11570%20Maxwell%20Rd%2C%20Alpharetta%2C%20GA%2030009" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_3952e4af8d39/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>Roswell Transfer Station</h3>
+          <p class="card__meta">11570 Maxwell Rd, Alpharetta, GA 30009</p>
+          <p class="card__meta">Accepts: Non-construction disposal loads, Construction materials from Roswell residents, Self-haul household waste</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=11570%20Maxwell%20Rd%2C%20Alpharetta%2C%20GA%2030009" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_79552a1e6928/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Smyrna Recycling Center</h3>
+          <p class="card__meta">95 Lake Dr, Smyrna, GA 30080</p>
+          <p class="card__meta">Accepts: Paper and cardboard, Glass, Metal</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=95%20Lake%20Dr%2C%20Smyrna%2C%20GA%2030080" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_275ddfef23c1/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Keep North Fulton Beautiful Recycling Center</h3>
+          <p class="card__meta">470 Morgan Falls Rd, Sandy Springs, GA 30350</p>
+          <p class="card__meta">Accepts: Plastic #1 and #2, Aluminum cans, Paper</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=470%20Morgan%20Falls%20Rd%2C%20Sandy%20Springs%2C%20GA%2030350" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_3334f981a6ed/">Facility page</a>
+          </div>
+        </article>
+</section>
+
+      <!-- SEO COPY START -->
+      <section class="seo-copy" style="margin-top:26px">
+        <p>
+          Looking for a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
+          <strong>recycling drop-off</strong> near <span id="cityNameInline">this city</span>?
+          JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
+        </p>
+
+        <h2 id="faqDumpWhere">Where can I dump trash in Atlanta today?</h2>
+        <p>
+          Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
+          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what’s accepted before you drive out.
+        </p>
+
+        <h2 id="faqDumpFree">Where can I recycle or drop off specialty items in Atlanta?</h2>
+        <p id="faqDumpFreeBody">Atlanta-area residents use a mix of city events, CHaRM sites, county facilities, and municipal recycling centers depending on the material. Always confirm residency rules, accepted items, and current fees before visiting.</p>
+
+        <h2>Atlanta transfer stations and recycling centers: what they accept</h2>
+        <p>
+          Commonly accepted items include <strong>furniture</strong>, <strong>yard waste</strong>, <strong>brush</strong>,
+          <strong>construction debris</strong> (C&amp;D), appliances (sometimes restricted), and mixed recyclables.
+          Some facilities accept only certain materials or require loads to be separated.
+        </p>
+
+        <h2>Atlanta landfill and transfer station fees, hours, and rules</h2>
+        <p>
+          Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
+          Others charge based on load size, weight, or material type.
+          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+        </p>
+
+        <!-- NEARBY cities injected here at build time -->
+        <!-- NEARBY:START -->
+        <!-- NEARBY:END -->
+      </section>
+      <!-- SEO COPY END -->
+
+      <p class="muted small" style="margin-top:12px">
+        Results are sourced from public listings and community contributions. Always confirm before visiting.
+      </p>
+
+      <section class="why" style="margin-top:40px">
+        <h2>About dumping in this city</h2>
+        <div class="why__grid">
+          <div class="why__item">
+            <div class="icon">🪪</div>
+            <h3>Resident rules vary</h3>
+            <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">🧱</div>
+            <h3>Construction debris</h3>
+            <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">☎️</div>
+            <h3>Always confirm</h3>
+            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>Explore more locations</h2>
+          <p class="muted">Browse more city directories by state.</p>
+          <div class="report__actions">
+            <a class="btn btn--ghost" href="/texas/">Texas</a>
+            <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/georgia/">Georgia</a>
+            <a class="btn btn--ghost" href="/florida/">Florida</a>
+            <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ✅ Leaflet JS must load before city.js -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
+
+  <script src="/analytics.js" defer></script>
+  <script src="/city.js" defer></script>
+  <script src="/houston-modal.js" defer></script>
+
+<script id="CURATED:JSON" type="application/json">
+{"city":"Atlanta","state":"GA","last_updated":"2026-03-01","facilities":[{"name":"Atlanta Recycles Day at Greenbriar Mall","type":"Recycling Center","address":"2841 Greenbriar Pkwy SW, Atlanta, GA 30331","phone":"3-1-1","hours":"Typically held on selected Saturdays from 9:00 AM to 12:00 PM. Check the City of Atlanta schedule before visiting.","fees":"Typically free for City of Atlanta residents. Confirm current item caps and event rules before arrival.","accepted_materials":["Tires","Paper shredding","Single-stream recycling"],"not_accepted":["General household trash","Commercial disposal loads","Items outside the posted event list"],"rules":"Resident-focused city event. Verify the monthly schedule, item caps, and any ID or address requirements before driving.","source":"https://citycouncil.atlantaga.gov/Home/Components/News/News/1913/560","verified_date":"2026-03-01","lat":33.686407918023,"lng":-84.492092297526,"geocode_match":"2841 GREENBRIAR PKWY SW, ATLANTA, GA, 30331","geocode_source":"census","facility_id":"f_manual_3983529cf710"},{"name":"CHaRM Atlanta","type":"Hazardous Waste Facility","address":"1110 Hill St SE, Atlanta, GA 30315","phone":"Check official booking page","hours":"By appointment. Check current booking windows and posted hours before visiting.","fees":"Material-specific fees apply. Review the current CHaRM pricing list before arrival.","accepted_materials":["Paint","Chemicals","Batteries","Electronics","Glass","Mattresses","Appliances","Tires"],"not_accepted":["General household garbage","Unsorted mixed disposal loads","Items outside the posted CHaRM list"],"rules":"Best for hard-to-recycle and household hazardous materials. Use the official accepted-items list and appointment system before you drive.","source":"https://livethrive.org/charm/","verified_date":"2026-03-01","lat":33.724929800342,"lng":-84.37850878066,"geocode_match":"1110 HILL ST SE, ATLANTA, GA, 30315","geocode_source":"census","facility_id":"f_manual_e9aa02582dcd"},{"name":"CHaRM DeKalb","type":"Hazardous Waste Facility","address":"1225 Columbia Dr, Decatur, GA 30032","phone":"Check official booking page","hours":"By appointment. Confirm the latest booking rules and operating hours before visiting.","fees":"Material-specific fees apply. Check the official CHaRM DeKalb fee list before arrival.","accepted_materials":["Paint","Chemicals","Batteries","Electronics","Glass","Mattresses","Appliances","Tires"],"not_accepted":["General household garbage","Mixed disposal loads","Items outside the posted CHaRM list"],"rules":"Appointment-based drop-off for hard-to-recycle and household hazardous items. Always review the current accepted-items list before driving.","source":"https://livethrive.org/charm/dekalb-charm/","verified_date":"2026-03-01","lat":33.754099161076,"lng":-84.266920442411,"geocode_match":"1225 COLUMBIA DR, DECATUR, GA, 30032","geocode_source":"census","facility_id":"f_manual_2970ebe42343"},{"name":"Merk Miles Transfer Station","type":"Transfer Station","address":"3220 Merk Rd SW, Atlanta, GA 30336","phone":"Check city listing","hours":"Check the City of South Fulton page for current gate hours and holiday closures.","fees":"Confirm current disposal fees and payment rules directly with the operator before arrival.","accepted_materials":["Household garbage","Yard trimmings","Recycling drop-off"],"not_accepted":["Hazardous waste","Restricted loads outside station policy"],"rules":"Use the official station page to confirm who can use the site, what loads are accepted, and whether any residency rules apply.","source":"https://www.cityofsouthfultonga.gov/312/Transfer-Station","verified_date":"2026-03-01","lat":33.667973052117,"lng":-84.563533004759,"geocode_match":"3220 MERK RD SW, ATLANTA, GA, 30349","geocode_source":"census","facility_id":"f_manual_176381de538f"},{"name":"Seminole Road Landfill","type":"Landfill","address":"4203 Clevemont Rd, Ellenwood, GA 30294","phone":"Check county listing","hours":"Check DeKalb County Sanitation for current landfill hours before visiting.","fees":"Landfill fees vary by load type and disposal category. Verify current tipping rules before arrival.","accepted_materials":["Home-generated refuse","Yard trimmings","Building materials","Commercial waste","Passenger car tires (resident limit applies)"],"not_accepted":["Hazardous materials","Liquids","Lead-acid batteries"],"rules":"DeKalb notes a resident tire limit of up to 10 passenger car tires. Always confirm current landfill rules and any required paperwork before driving.","source":"https://www.dekalbcountyga.gov/sanitation/transfer-stations-and-landfill","verified_date":"2026-03-01","lat":33.6569581,"lng":-84.2603882,"geocode_match":"Seminole Road Landfill, DeKalb County, Georgia","geocode_source":"openstreetmap","facility_id":"f_manual_ac98eb3ba2f5"},{"name":"Central Transfer Station","type":"Transfer Station","address":"3720 Leroy Scott Dr, Decatur, GA 30032","phone":"Check county listing","hours":"Check DeKalb County for current operating hours before visiting.","fees":"Commercial tipping fees may apply. Verify current rate and account requirements before arrival.","accepted_materials":["Municipal solid waste from commercial collection vehicles","Yard trimmings from commercial collection vehicles"],"not_accepted":["Construction and demolition debris","Residential self-haul loads","Hazardous waste"],"rules":"DeKalb County describes this site as commercial-only. Do not rely on it for residential self-haul unless the county updates the rule.","source":"https://www.dekalbcountyga.gov/sanitation/transfer-stations-and-landfill","verified_date":"2026-03-01","lat":33.77368047131,"lng":-84.238588302472,"geocode_match":"3720 LEROY SCOTT DR, DECATUR, GA, 30032","geocode_source":"census","facility_id":"f_manual_6a6e5254c619"},{"name":"North Transfer Station","type":"Transfer Station","address":"2784 Woodwin Rd, Doraville, GA 30360","phone":"Check county listing","hours":"Check DeKalb County for current operating hours before visiting.","fees":"Commercial tipping fees may apply. Verify current rate and account rules before arrival.","accepted_materials":["Municipal solid waste from commercial collection vehicles","Yard trimmings from commercial collection vehicles"],"not_accepted":["Construction and demolition debris","Residential self-haul loads","Hazardous waste"],"rules":"County listing describes this station as commercial-only. Confirm eligibility before driving any self-haul load.","source":"https://www.dekalbcountyga.gov/sanitation/transfer-stations-and-landfill","verified_date":"2026-03-01","lat":33.916848703761,"lng":-84.274087194714,"geocode_match":"2784 WOODWIN RD, DORAVILLE, GA, 30360","geocode_source":"census","facility_id":"f_manual_c66ac1b054b4"},{"name":"Roswell Recycling Center","type":"Recycling Center","address":"11570 Maxwell Rd, Alpharetta, GA 30009","phone":"Check city listing","hours":"Check the City of Roswell page for current daily hours before visiting.","fees":"Business drop-off can involve fees on designated days. Confirm current fee policy before arrival.","accepted_materials":["Aluminum cans","Plastic bottles","Cardboard","Electronics","Motor oil","Paint","Tires","Appliances"],"not_accepted":["Unlisted materials","Contaminated loads outside site policy"],"rules":"Roswell residents and businesses can use the recycling center. Review the accepted-items list and business-day rules before you drive.","source":"https://www.roswellgov.com/government/departments/environmental-public-works/recycling-center-transfer-station","verified_date":"2026-03-01","lat":34.060110547042,"lng":-84.302547810879,"geocode_match":"11570 MAXWELL RD, ALPHARETTA, GA, 30009","geocode_source":"census","facility_id":"f_manual_3952e4af8d39"},{"name":"Roswell Transfer Station","type":"Transfer Station","address":"11570 Maxwell Rd, Alpharetta, GA 30009","phone":"Check city listing","hours":"Check the City of Roswell page for current transfer station hours before visiting.","fees":"Fees can vary by load type and residency. Confirm the latest schedule and rate sheet before arrival.","accepted_materials":["Non-construction disposal loads","Construction materials from Roswell residents","Self-haul household waste"],"not_accepted":["Construction debris from non-residents","Hazardous waste","Restricted loads outside station policy"],"rules":"Roswell states that residents and non-residents may bring non-construction items, but construction materials are limited to Roswell residents. Bring the right proof if you want resident access or rates.","source":"https://www.roswellgov.com/government/departments/environmental-public-works/recycling-center-transfer-station","verified_date":"2026-03-01","lat":34.060110547042,"lng":-84.302547810879,"geocode_match":"11570 MAXWELL RD, ALPHARETTA, GA, 30009","geocode_source":"census","facility_id":"f_manual_79552a1e6928"},{"name":"Smyrna Recycling Center","type":"Recycling Center","address":"95 Lake Dr, Smyrna, GA 30080","phone":"Check city listing","hours":"Check the City of Smyrna page for current operating hours before visiting.","fees":"Some specialty items such as TVs, monitors, and paint can carry fees. Confirm the current fee list before arrival.","accepted_materials":["Paper and cardboard","Glass","Metal","Used cooking oil","Car batteries","Electronics"],"not_accepted":["Wet or dirty recyclables","Unlisted disposal loads","Hazardous waste outside posted programs"],"rules":"Smyrna allows resident and non-resident use. Materials should be clean, dry, and empty, and payment methods can vary by item type.","source":"https://www.smyrnaga.gov/services/garbage-and-recycling/recycling-center","verified_date":"2026-03-01","lat":33.8691837,"lng":-84.5297552,"geocode_match":"City of Smyrna Recycling Center","geocode_source":"openstreetmap","facility_id":"f_manual_275ddfef23c1"},{"name":"Keep North Fulton Beautiful Recycling Center","type":"Recycling Center","address":"470 Morgan Falls Rd, Sandy Springs, GA 30350","phone":"Check operator listing","hours":"Monday, Tuesday, Thursday, Friday, and Saturday from 9:00 AM to 5:00 PM. Check official updates before visiting.","fees":"Some specialty recycling streams may carry fees. Confirm current pricing before arrival.","accepted_materials":["Plastic #1 and #2","Aluminum cans","Paper","Cardboard","Glass"],"not_accepted":["General trash","Mixed disposal loads","Materials outside posted recycling streams"],"rules":"Use the Sandy Springs or KNFB listing to verify specialty items, fee-based streams, and any program-specific instructions before driving.","source":"https://www.sandyspringsga.gov/recycling-center","verified_date":"2026-03-01","lat":33.970104396759,"lng":-84.373599384545,"geocode_match":"470 MORGAN FALLS RD NE, SANDY SPRINGS, GA, 30350","geocode_source":"census","facility_id":"f_manual_3334f981a6ed"}]}
+</script>
+</body>
+</html>
+

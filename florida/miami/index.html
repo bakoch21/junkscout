@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://junkscout.io/#org",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://junkscout.io/#website",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/",
+      "publisher": {
+        "@id": "https://junkscout.io/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://junkscout.io/?where={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://junkscout.io/florida/miami/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://junkscout.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Florida",
+          "item": "https://junkscout.io/florida/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Miami",
+          "item": "https://junkscout.io/florida/miami/"
+        }
+      ]
+    },
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/florida/miami/#place",
+      "name": "Dump and landfill options in Miami, Florida",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Miami",
+        "addressRegion": "FLORIDA",
+        "addressCountry": "US"
+      },
+      "hasMap": "https://www.google.com/maps/search/dump%20landfill%20Miami%20FLORIDA",
+      "url": "https://junkscout.io/florida/miami/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/florida/miami/#webpage",
+      "name": "Miami Trash Dump, Transfer Stations & Landfills | JunkScout",
+      "description": "Compare Miami dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.",
+      "url": "https://junkscout.io/florida/miami/",
+      "isPartOf": {
+        "@id": "https://junkscout.io/#website"
+      },
+      "about": {
+        "@id": "https://junkscout.io/florida/miami/#place"
+      },
+      "breadcrumb": {
+        "@id": "https://junkscout.io/florida/miami/#breadcrumb"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://junkscout.io/florida/miami/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I dump trash in Miami today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Miami has a mix of public drop-off sites, transfer stations, landfills, recycling centers, and specialty programs depending on your load. Use the city guide to compare source-linked options before you drive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there free or resident-only dump options in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some Miami-area services are resident-focused and may offer free or lower-cost drop-off for specific materials. Always confirm proof-of-address rules, item limits, and current eligibility before arrival."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Miami transfer stations and landfills charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees vary by load size, material type, operator, and residency. Check the source links for each facility and verify the latest rates before you drive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What materials can I bring to a drop-off site in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accepted materials vary by site and can include household trash, yard waste, construction debris, recyclables, tires, electronics, paint, batteries, and other specialty items. Always confirm the posted acceptance list before visiting."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO CONTROL -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- Will be set dynamically by city.js -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+
+  <!-- ✅ Leaflet (map) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    /* Minimal map styling */
+    #mapWrap { margin-top: 14px; }
+    #map {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+      background: rgba(29,29,31,0.03);
+      overflow: hidden;
+    }
+    @media (max-width: 720px) {
+      #map { height: 260px; }
+    }
+  </style>
+
+  <title>Miami Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
+  <meta name="description" content="Compare Miami dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <link rel="canonical" href="https://junkscout.io/florida/miami/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Miami Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta property="og:description" content="Compare Miami dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <meta property="og:url" content="https://junkscout.io/florida/miami/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Miami Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta name="twitter:description" content="Compare Miami dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+
+</head>
+
+<body data-state="florida" data-city="miami" data-enhanced-city="1">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1 id="cityTitle">Where to dump trash in Miami, Florida</h1>
+
+      <p class="subhead" id="cityAnswer">Find public landfills, transfer stations, and recycling drop-offs in Miami, Florida, with hours, rules, and accepted materials when available.</p>
+
+      <p class="muted" id="citySubhead" style="margin-top:10px">Need to dump trash in Miami fast? Start with these verified options and confirm rules before you drive.</p>
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    
+    <a class="quickstart__item" href="/florida/miami/?type=hazardous-waste#results">
+      <span class="quickstart__title">Hazardous waste options</span>
+      <span class="quickstart__meta">Paint, chemicals, batteries, and specialty drop-off</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+
+    <a class="quickstart__item" href="/florida/miami/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads and faster unload options</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+
+      <!-- ✅ Injected at build time -->
+      <!-- STATEHUBLINK:START -->
+<div class="cityhub__backnav">
+  <a class="cityhub__backlink" href="/florida/">&larr; Back to Florida cities</a>
+</div>
+<!-- STATEHUBLINK:END -->
+
+      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- POPULARCITIES:START -->
+      <!-- POPULARCITIES:END -->
+
+      <div class="muted small" role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
+        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      </div>
+
+      <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
+        City rules &amp; fees
+      </button>
+
+      <!-- ✅ Map -->
+      <section id="mapWrap" aria-label="Map">
+        <div id="map"></div>
+      </section>
+
+      <!-- Results injected here -->
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>North Dade Trash and Recycling Center</h3>
+          <p class="card__meta">21500 NW 47 Ave, Miami Gardens, FL 33055</p>
+          <p class="card__meta">Accepts: Household trash, Bulky waste, Yard waste</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=21500%20NW%2047%20Ave%2C%20Miami%20Gardens%2C%20FL%2033055" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_d205ae4088f9/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>Norwood Trash and Recycling Center</h3>
+          <p class="card__meta">19400 NW 47th Ave, Miami Gardens, FL 33055</p>
+          <p class="card__meta">Accepts: Household trash, Bulky waste, Yard waste</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=19400%20NW%2047th%20Ave%2C%20Miami%20Gardens%2C%20FL%2033055" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_8fe9455eca9d/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Hazardous</span></div>
+          <h3>West Dade Home Chemical Collection Center</h3>
+          <p class="card__meta">8801 NW 58th St, Doral, FL 33178</p>
+          <p class="card__meta">Accepts: Household chemicals, Paint, Batteries</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=8801%20NW%2058th%20St%2C%20Doral%2C%20FL%2033178" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_5501f3e8dec1/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Hazardous</span></div>
+          <h3>South Dade Home Chemical Collection Center</h3>
+          <p class="card__meta">23707 SW 97 Ave, Homestead, FL 33032</p>
+          <p class="card__meta">Accepts: Household chemicals, Paint, Batteries</p>
+          <p class="card__meta">Verified 2026-03-01</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=23707%20SW%2097%20Ave%2C%20Homestead%2C%20FL%2033032" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_c1afe1660434/">Facility page</a>
+          </div>
+        </article>
+</section>
+
+      <!-- SEO COPY START -->
+      <section class="seo-copy" style="margin-top:26px">
+        <p>
+          Looking for a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
+          <strong>recycling drop-off</strong> near <span id="cityNameInline">Miami</span>?
+          JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
+        </p>
+
+        <h2 id="faqDumpWhere">Where can I dump trash in Miami today?</h2>
+        <p>
+          Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
+          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what’s accepted before you drive out.
+        </p>
+
+        <h2 id="faqDumpFree">Where can I drop off trash for free in Miami?</h2>
+        <p id="faqDumpFreeBody">Some Miami-area services are resident-focused and may offer free or lower-cost drop-off for specific materials, while private transfer stations and landfills usually charge by load size or material type.</p>
+
+        <h2>What items are typically accepted?</h2>
+        <p>
+          Commonly accepted items include <strong>furniture</strong>, <strong>yard waste</strong>, <strong>brush</strong>,
+          <strong>construction debris</strong> (C&amp;D), appliances (sometimes restricted), and mixed recyclables.
+          Some facilities accept only certain materials or require loads to be separated.
+        </p>
+
+        <h2>Fees, hours, and resident requirements</h2>
+        <p>
+          Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
+          Others charge based on load size, weight, or material type.
+          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+        </p>
+
+        <!-- NEARBY cities injected here at build time -->
+        <!-- NEARBY:START -->
+        <!-- NEARBY:END -->
+      </section>
+      <!-- SEO COPY END -->
+
+      <p class="muted small" style="margin-top:12px">
+        Results are sourced from public listings and community contributions. Always confirm before visiting.
+      </p>
+
+      <section class="why" style="margin-top:40px">
+        <h2>About dumping in this city</h2>
+        <div class="why__grid">
+          <div class="why__item">
+            <div class="icon">🪪</div>
+            <h3>Resident rules vary</h3>
+            <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">🧱</div>
+            <h3>Construction debris</h3>
+            <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">☎️</div>
+            <h3>Always confirm</h3>
+            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>Explore more locations</h2>
+          <p class="muted">Browse more city directories by state.</p>
+          <div class="report__actions">
+            <a class="btn btn--ghost" href="/texas/">Texas</a>
+            <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/georgia/">Georgia</a>
+            <a class="btn btn--ghost" href="/florida/">Florida</a>
+            <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ✅ Leaflet JS must load before city.js -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
+
+  <script src="/analytics.js" defer></script>
+  <script src="/city.js" defer></script>
+  <script src="/houston-modal.js" defer></script>
+
+<script id="CURATED:JSON" type="application/json">
+{"city":"Miami","state":"FL","last_updated":"2026-03-01","facilities":[{"name":"North Dade Trash and Recycling Center","type":"Transfer Station","address":"21500 NW 47 Ave, Miami Gardens, FL 33055","phone":"311","hours":"Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.","fees":"Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.","accepted_materials":["Household trash","Bulky waste","Yard waste","Recyclables"],"not_accepted":["Commercial disposal loads","Materials outside county center rules"],"rules":"Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.","source":"https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page","verified_date":"2026-03-01","lat":25.9700432,"lng":-80.2794748,"geocode_source":"census","geocode_error":"no_match","facility_id":"f_manual_d205ae4088f9"},{"name":"Norwood Trash and Recycling Center","type":"Transfer Station","address":"19400 NW 47th Ave, Miami Gardens, FL 33055","phone":"311","hours":"Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.","fees":"Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.","accepted_materials":["Household trash","Bulky waste","Yard waste","Recyclables"],"not_accepted":["Commercial disposal loads","Materials outside county center rules"],"rules":"Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.","source":"https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page","verified_date":"2026-03-01","lat":25.949937065657,"lng":-80.27805865019,"geocode_match":"19400 NW 47TH AVE, MIAMI GARDENS, FL, 33055","geocode_source":"census","facility_id":"f_manual_8fe9455eca9d"},{"name":"West Dade Home Chemical Collection Center","type":"Hazardous Waste Facility","address":"8801 NW 58th St, Doral, FL 33178","phone":"311","hours":"Check the official Miami-Dade home chemical collection page for current hours and holiday schedules before visiting.","fees":"Household hazardous waste drop-off is generally resident-focused. Confirm current eligibility and item limits before arrival.","accepted_materials":["Household chemicals","Paint","Batteries","Used oil","Electronics"],"not_accepted":["Commercial hazardous waste","Materials outside the posted household program"],"rules":"Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.","source":"https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page","verified_date":"2026-03-01","lat":25.826317599158,"lng":-80.33981369602,"geocode_match":"8801 NW 58TH ST, DORAL, FL, 33178","geocode_source":"census","facility_id":"f_manual_5501f3e8dec1"},{"name":"South Dade Home Chemical Collection Center","type":"Hazardous Waste Facility","address":"23707 SW 97 Ave, Homestead, FL 33032","phone":"311","hours":"Check the official Miami-Dade home chemical collection page for current hours and holiday schedules before visiting.","fees":"Household hazardous waste drop-off is generally resident-focused. Confirm current eligibility and item limits before arrival.","accepted_materials":["Household chemicals","Paint","Batteries","Used oil","Electronics"],"not_accepted":["Commercial hazardous waste","Materials outside the posted household program"],"rules":"Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.","source":"https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page","verified_date":"2026-03-01","geocode_source":"census","geocode_error":"no_match","facility_id":"f_manual_c1afe1660434"}]}
+</script>
+</body>
+</html>
+

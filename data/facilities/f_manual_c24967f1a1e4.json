@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_c24967f1a1e4",
+  "name": "Citizen Collection Station - Westside",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "121 Atlantic Rd, El Paso, TX 79922",
+  "phone": "915-212-6000",
+  "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm current hours before visiting.",
+  "fees": "Most routine residential services are free for El Paso residents. Confirm current limits and any special-item fees before arrival.",
+  "rules": "Use the official city page to confirm resident eligibility, load limits, and accepted items before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Yard waste",
+    "Bulk items",
+    "Recyclables"
+  ],
+  "not_accepted": [
+    "Commercial disposal loads",
+    "Materials outside posted station rules"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+  "osm_url": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "el-paso"
+    }
+  ],
+  "lat": 31.817519320896,
+  "lng": -106.561418927581,
+  "geocode_match": "121 ATLANTIC RD, EL PASO, TX, 79922",
+  "geocode_source": "census"
+}

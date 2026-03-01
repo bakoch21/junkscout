@@ -29,5 +29,7 @@
       "state": "california",
       "city": "los-angeles"
     }
-  ]
+  ],
+  "lat": 34.0178538,
+  "lng": -118.2254111
 }

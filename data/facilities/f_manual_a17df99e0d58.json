@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_a17df99e0d58",
+  "name": "Household Hazardous Waste Transfer Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "5161 Convoy St, San Diego, CA 92111",
+  "phone": "858-573-1413",
+  "hours": "Check the City of San Diego environmental services page for current hazardous-waste drop-off hours and any appointment rules.",
+  "fees": "Typically resident-focused for household quantities. Confirm current eligibility and limits before arrival.",
+  "rules": "Use the official city guidance to confirm packaging rules, quantity limits, and current household hazardous waste eligibility before visiting.",
+  "accepted_materials": [
+    "Paint and chemicals",
+    "Batteries",
+    "Used motor oil",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program scope"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.sandiego.gov/environmental-services",
+  "osm_url": "https://www.sandiego.gov/environmental-services",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ],
+  "lat": 32.835369847823,
+  "lng": -117.152397593636,
+  "geocode_match": "5161 CONVOY ST, SAN DIEGO, CA, 92111",
+  "geocode_source": "census"
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Florida Dump, Landfill & Transfer Station Locations by City | JunkScout</title>
+  <meta name="description" content="Browse Florida cities to find dumps, landfills, transfer stations, and recycling drop-off locations." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://junkscout.io/florida/" />
+
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1>Browse locations in Florida</h1>
+      <p class="subhead">Choose a city to find dumps, landfills, transfer stations, and recycling drop-offs.</p>
+      <section class="state-city-strip" aria-label="Top Florida city guides" data-state-rail-scope>
+        <div class="state-city-strip__head">
+          <div>
+            <h2>Start with top Florida cities</h2>
+            <p class="muted">Major-metro guides with filters, rules, and map views.</p>
+          </div>
+          <div class="state-rail-controls" aria-label="Florida city rail controls">
+            <button type="button" class="state-rail-btn" data-state-rail-prev="fl-cities" aria-label="Scroll Florida cities left">&#8592;</button>
+            <button type="button" class="state-rail-btn" data-state-rail-next="fl-cities" aria-label="Scroll Florida cities right">&#8594;</button>
+          </div>
+        </div>
+
+        <div class="state-rail-wrap">
+          <div class="state-city-strip__grid state-city-strip__grid--rail" data-state-rail="fl-cities" data-state-rail-item=".state-city-card">
+            <a class="state-city-card state-city-card--fl-a" href="/florida/miami/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Miami</strong>
+              <span class="state-city-card__meta">County trash centers, HHW options, and resident-focused rules across the Miami area.</span>
+              <span class="state-city-card__cta">Open Miami -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--fl-b" href="/florida/orlando/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Orlando</strong>
+              <span class="state-city-card__meta">Orange County landfill, transfer, and specialty disposal options with source links.</span>
+              <span class="state-city-card__cta">Open Orlando -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--fl-c" href="/florida/tampa/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Tampa</strong>
+              <span class="state-city-card__meta">Hillsborough disposal and drop-off locations with facility-level rules and map pins.</span>
+              <span class="state-city-card__cta">Open Tampa -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--fl-d" href="/florida/jacksonville/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Jacksonville</strong>
+              <span class="state-city-card__meta">Duval-area landfill, HHW, and recycling options with practical self-haul guidance.</span>
+              <span class="state-city-card__cta">Open Jacksonville -&gt;</span>
+            </a>
+          </div>
+        </div>
+        <p class="state-city-strip__foot">Auto-scroll is on. Use arrows, swipe, or shift-wheel to explore cities.</p>
+      </section>
+
+      <section class="cityhub" style="margin-top:22px">
+        <div class="cityhub__controls">
+          <input
+            id="citySearch"
+            class="cityhub__search"
+            type="search"
+            placeholder="Search Florida cities (e.g., Miami, Orlando, Tampa)"
+            aria-label="Search Florida cities"
+          />
+          <div class="muted small" id="cityCount"></div>
+        </div>
+
+        <div class="cityhub__grid" id="cityList">
+  <a class="cityhub__pill" href="/florida/jacksonville/">Jacksonville</a>
+  <a class="cityhub__pill" href="/florida/miami/">Miami</a>
+  <a class="cityhub__pill" href="/florida/orlando/">Orlando</a>
+  <a class="cityhub__pill" href="/florida/tampa/">Tampa</a>
+        </div>
+
+        <p class="muted small" style="margin-top:12px">
+          Florida is live with four major metro guides first so each page is useful before statewide expansion.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <script src="/analytics.js" defer></script>
+  <script src="/app.js" defer></script>
+</body>
+</html>

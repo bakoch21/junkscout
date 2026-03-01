@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_79552a1e6928",
+  "name": "Roswell Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "11570 Maxwell Rd, Alpharetta, GA 30009",
+  "phone": "Check city listing",
+  "hours": "Check the City of Roswell page for current transfer station hours before visiting.",
+  "fees": "Fees can vary by load type and residency. Confirm the latest schedule and rate sheet before arrival.",
+  "rules": "Roswell states that residents and non-residents may bring non-construction items, but construction materials are limited to Roswell residents. Bring the right proof if you want resident access or rates.",
+  "accepted_materials": [
+    "Non-construction disposal loads",
+    "Construction materials from Roswell residents",
+    "Self-haul household waste"
+  ],
+  "not_accepted": [
+    "Construction debris from non-residents",
+    "Hazardous waste",
+    "Restricted loads outside station policy"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.roswellgov.com/government/departments/environmental-public-works/recycling-center-transfer-station",
+  "osm_url": "https://www.roswellgov.com/government/departments/environmental-public-works/recycling-center-transfer-station",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "georgia",
+      "city": "atlanta"
+    }
+  ],
+  "lat": 34.060110547042,
+  "lng": -84.302547810879,
+  "geocode_match": "11570 MAXWELL RD, ALPHARETTA, GA, 30009",
+  "geocode_source": "census"
+}

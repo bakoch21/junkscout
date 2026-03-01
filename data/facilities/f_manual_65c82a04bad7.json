@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_65c82a04bad7",
+  "name": "Porter Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "1326 Good Homes Rd, Orlando, FL 32818",
+  "phone": "Check county listing",
+  "hours": "Orange County posts current transfer station hours on its landfill and transfer station page. Confirm before visiting.",
+  "fees": "Transfer fees vary by load type and residency. Confirm the current county fee schedule before arrival.",
+  "rules": "Confirm accepted loads, vehicle rules, and any proof-of-residency requirements before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulky waste",
+    "Approved self-haul loads"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Loads outside current county policy"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
+  "osm_url": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "orlando"
+    }
+  ],
+  "lat": 28.56076871456,
+  "lng": -81.504988689363,
+  "geocode_match": "1326 GOOD HOMES RD, ORLANDO, FL, 32818",
+  "geocode_source": "census"
+}

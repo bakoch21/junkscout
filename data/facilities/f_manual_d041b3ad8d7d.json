@@ -26,5 +26,7 @@
       "state": "texas",
       "city": "dallas"
     }
-  ]
+  ],
+  "lat": 32.88,
+  "lng": -96.75
 }

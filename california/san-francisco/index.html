@@ -165,7 +165,7 @@
 
 </head>
 
-<body data-state="california" data-city="san-francisco">
+<body data-state="california" data-city="san-francisco" data-enhanced-city="1" data-blend-curated-with-data="1">
   <header class="nav">
     <div class="nav__inner">
       <a class="brand" href="/">
@@ -421,7 +421,41 @@
 
         <!-- NEARBY cities injected here at build time -->
         <!-- NEARBY:START -->
-        <!-- NEARBY:END -->
+<section class="seo-copy" aria-label="Nearby locations">
+  <h2>Nearby dump and landfill locations</h2>
+  <p class="muted">
+    If you do not see the right option in San Francisco, check these nearby cities in California.
+  </p>
+
+  <div class="cityhub__grid" style="margin-top:10px">
+    
+      <a class="cityhub__pill" href="/california/oakland/">
+        Oakland <span class="muted" style="font-weight:600">&middot; 4 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/california/san-jose/">
+        San Jose <span class="muted" style="font-weight:600">&middot; 40 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/california/fresno/">
+        Fresno <span class="muted" style="font-weight:600">&middot; 161 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/california/bakersfield/">
+        Bakersfield <span class="muted" style="font-weight:600">&middot; 250 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/california/los-angeles/">
+        Los Angeles <span class="muted" style="font-weight:600">&middot; 342 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/california/san-diego/">
+        San Diego <span class="muted" style="font-weight:600">&middot; 453 mi</span>
+      </a>
+    
+  </div>
+</section>
+<!-- NEARBY:END -->
       </section>
       <!-- SEO COPY END -->
 
@@ -457,6 +491,9 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/georgia/">Georgia</a>
+            <a class="btn btn--ghost" href="/florida/">Florida</a>
+            <a class="btn btn--ghost" href="/illinois/">Illinois</a>
             <a class="btn" href="/">Back to home</a>
           </div>
         </div>

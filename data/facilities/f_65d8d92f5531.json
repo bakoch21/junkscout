@@ -1,0 +1,17 @@
+{
+  "id": "f_65d8d92f5531",
+  "slug": "terrabella-environmental-services",
+  "name": "TERRABELLA ENVIRONMENTAL SERVICES",
+  "type": "landfill",
+  "address": "433 ZANDER LN PLEASANTON TX 78064",
+  "lat": null,
+  "lng": null,
+  "website": null,
+  "osm_url": null,
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "pleasanton"
+    }
+  ]
+}

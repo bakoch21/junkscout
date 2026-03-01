@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_846d960a3d39",
+  "name": "Miramar Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "5165 Convoy St, San Diego, CA 92111",
+  "phone": "858-573-1412",
+  "hours": "Check the official Miramar Recycling Center page for current hours before visiting.",
+  "fees": "Many common drop-off streams are resident-focused or low-cost, but fees and payouts vary by material. Confirm before arrival.",
+  "rules": "Review the official city accepted-items list and sorting instructions before you drive.",
+  "accepted_materials": [
+    "Paper and cardboard",
+    "Bottles and cans",
+    "Select electronics and reusable materials"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Unapproved hazardous materials"
+  ],
+  "verified_date": "2026-03-01",
+  "source": "https://www.sandiego.gov/environmental-services/miramar/recyclingcenter",
+  "osm_url": "https://www.sandiego.gov/environmental-services/miramar/recyclingcenter",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "san-diego"
+    }
+  ],
+  "lat": 32.835427133934,
+  "lng": -117.152381068793,
+  "geocode_match": "5165 CONVOY ST, SAN DIEGO, CA, 92111",
+  "geocode_source": "census"
+}

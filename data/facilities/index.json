@@ -594,13 +594,13 @@
     ]
   },
   {
-    "id": "f_b6434e3fed8e",
+    "id": "f_f1f717ffeae2",
     "slug": "baylor-marina-closed-landfill",
     "name": "BAYLOR MARINA CLOSED LANDFILL",
     "type": "landfill",
     "address": "1202 S UNIVERSITY PARKS DR WACO TX 76706",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -734,13 +734,13 @@
     ]
   },
   {
-    "id": "f_c551a5360f61",
+    "id": "f_95ebe9736148",
     "slug": "bgico-rng-facility",
     "name": "BGICO RNG FACILITY",
     "type": "landfill",
     "address": "LOCATED 0.4 MILES NORTHEAST OF THE INTERSECTION OF FM 1327 AND CARL ROAD IN CREEDMOOR, TEXAS CREEDMOOR TX 78610",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -823,13 +823,13 @@
     ]
   },
   {
-    "id": "f_ba647ae44890",
+    "id": "f_c2e1a8ec539a",
     "slug": "blossom-prairie-landfill",
     "name": "BLOSSOM PRAIRIE LANDFILL",
     "type": "landfill",
     "address": "EAST SIDE OF CR 15100 1 MI S OF SH 194 BLOSSOM TX 75416",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -1022,13 +1022,13 @@
     ]
   },
   {
-    "id": "f_8e524b4d3b6b",
+    "id": "f_64e51c12f060",
     "slug": "buffalo-creek-renewable-natural-gas-facility",
     "name": "BUFFALO CREEK RENEWABLE NATURAL GAS FACILITY",
     "type": "landfill",
     "address": "1499 W. SMITH AVE IOWA PARK TX 76367",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -1501,13 +1501,13 @@
     ]
   },
   {
-    "id": "f_7ef306a8ee09",
+    "id": "f_af47f71f3191",
     "slug": "city-of-arlington-landfill-gas-processing-facility",
     "name": "CITY OF ARLINGTON LANDFILL GAS PROCESSING FACILITY",
     "type": "landfill",
     "address": "800 MOSIER VALLEY RD ARLINGTON TX 76155",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -1967,13 +1967,13 @@
     ]
   },
   {
-    "id": "f_ceb2bab85f8a",
+    "id": "f_135c4ed48cf1",
     "slug": "city-of-cleburne-transfer-station-facility",
     "name": "CITY OF CLEBURNE TRANSFER STATION FACILITY",
     "type": "transfer_station",
     "address": "2625 PIPELINE RD CLEBURNE TX 76031",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -2069,13 +2069,13 @@
     ]
   },
   {
-    "id": "f_b6489ada4326",
+    "id": "f_147a83efe007",
     "slug": "city-of-cotulla-transfer-station",
     "name": "CITY OF COTULLA TRANSFER STATION",
     "type": "transfer_station",
     "address": "857 FM 624 COTULLA TX 78014",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -2751,13 +2751,13 @@
     ]
   },
   {
-    "id": "f_972798ecbe64",
+    "id": "f_68393eb6a292",
     "slug": "city-of-hedley",
     "name": "CITY OF HEDLEY",
     "type": "landfill",
     "address": "HWY 287 TURN RIGHT AT MAIN ST GO TO LINE ST TURN LEFT GO DOWN LINE RD BEFORE BAILEY HAS NO SIGN TURN RIGHT GO DOWN TO DEAD END TURN LEFT AND GO TO LOCKED GATE HEDLEY TX 79237",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -3370,13 +3370,13 @@
     ]
   },
   {
-    "id": "f_f6b181dd13d6",
+    "id": "f_2c1b1a73040f",
     "slug": "city-of-paducah",
     "name": "CITY OF PADUCAH",
     "type": "landfill",
     "address": "approx. 2 miles southeast of the City of Paducah on FM 1038 in Cottle County. PADUCAH TX 79248",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -3425,13 +3425,13 @@
     ]
   },
   {
-    "id": "f_ce597bf9b9e4",
+    "id": "f_fb8c24a9d159",
     "slug": "city-of-pampa-liquid-waste-processing-facility",
     "name": "CITY OF PAMPA LIQUID WASTE PROCESSING FACILITY",
     "type": "landfill",
     "address": "PAMPA GRAY COUNTY TEXAS PAMPA TX 79066",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -3930,13 +3930,13 @@
     ]
   },
   {
-    "id": "f_a6d4eabddca8",
+    "id": "f_5c6bbe709dc0",
     "slug": "city-of-sweetwater-type-iv-ae-landfill",
     "name": "CITY OF SWEETWATER TYPE IV AE LANDFILL",
     "type": "landfill",
     "address": "3000 W ALABAMA SWEETWATER TX  79556 SWEETWATER TX 79556",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -4210,13 +4210,13 @@
     ]
   },
   {
-    "id": "f_afd1e922afd1",
+    "id": "f_b58234c3c27c",
     "slug": "city-of-wichita-falls-landfill",
     "name": "CITY OF WICHITA FALLS LANDFILL",
     "type": "landfill",
     "address": "10984 WILEY RD WICHITA FALLS TX 76308",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -4244,13 +4244,13 @@
     ]
   },
   {
-    "id": "f_cdac8152ca59",
+    "id": "f_69afffa32547",
     "slug": "city-of-winters",
     "name": "CITY OF WINTERS",
     "type": "landfill",
     "address": "8065 SH 153 E WINTERS TX 79567",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -4418,13 +4418,13 @@
     ]
   },
   {
-    "id": "f_3fd8ad3214e3",
+    "id": "f_a2df49869ff1",
     "slug": "coastal-plains-renewable-energy-plant",
     "name": "COASTAL PLAINS RENEWABLE ENERGY PLANT",
     "type": "landfill",
     "address": "21000-1 E HWY 6 ALVIN TX 77511 ALVIN TX 77511",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -4520,13 +4520,13 @@
     ]
   },
   {
-    "id": "f_b7da9256ad6e",
+    "id": "f_20ba42d75933",
     "slug": "commonwealth-center",
     "name": "COMMONWEALTH CENTER",
     "type": "landfill",
     "address": "3131,3137 & 3141 IRVING BLVD, 3140 & 3160 COMMONWEALTH DR., & 5021 LAKAWANA ST DALLAS TX 75247",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -5008,13 +5008,13 @@
     ]
   },
   {
-    "id": "f_8a6d401061ea",
+    "id": "f_3029480ce6dc",
     "slug": "don-tol-compost-facility",
     "name": "DON TOL COMPOST FACILITY",
     "type": "recycling",
     "address": "4 MILE S OF BOLING  ALONG FM 1301 AT INTERSECTION OF FM 1301 AND WHARTON COUNTY ROAD 101 ALSO KNOW AS DON TOL ROAD VAN VLECK TX 77420",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -5237,13 +5237,13 @@
     ]
   },
   {
-    "id": "f_ee95994f1831",
+    "id": "f_5b5b89ba2587",
     "slug": "el-paso-c-and-d-recycling-plant",
     "name": "EL PASO C&D RECYCLING PLANT",
     "type": "recycling",
     "address": "1290 FT SOUTH OF FM ROAD 659/PELLICANO DR AND 900 FT WEST OF AVIATION WAY EL PASO TX 79928",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -9477,13 +9477,13 @@
     ]
   },
   {
-    "id": "f_e64749aa88a2",
+    "id": "f_65d8d92f5531",
     "slug": "terrabella-environmental-services",
     "name": "TERRABELLA ENVIRONMENTAL SERVICES",
     "type": "landfill",
     "address": "433 ZANDER LN PLEASANTON TX 78064",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -10003,13 +10003,13 @@
     ]
   },
   {
-    "id": "f_72930670cd6a",
+    "id": "f_bd86c1aebb87",
     "slug": "twin-oaks-renewable-natural-gas-facility",
     "name": "TWIN OAKS RENEWABLE NATURAL GAS FACILITY",
     "type": "landfill",
     "address": "FROM ROANS PRAIRIE, HEAD WEST ON HWY 30 FOR 13 MILES. SITE IS TO THE LEFT LOCATED WITHIN BVSWMA TWIN OAKS LANDFILL. ANDERSON TX 77830",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -10368,13 +10368,13 @@
     ]
   },
   {
-    "id": "f_4d5e0a2d3f51",
+    "id": "f_6516b9a12dc7",
     "slug": "warehouse-industry-gabriel-place",
     "name": "WAREHOUSE INDUSTRY GABRIEL PLACE",
     "type": "landfill",
     "address": "10903 INDUSTRY DR STE 101 SAN ANTONIO TX 78217",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
@@ -10525,13 +10525,13 @@
     ]
   },
   {
-    "id": "f_8700277d19a4",
+    "id": "f_07ed58c3484d",
     "slug": "weatherford-renewalbe-natural-gas-facility",
     "name": "WEATHERFORD RENEWALBE NATURAL GAS FACILITY",
     "type": "landfill",
     "address": "3131 OLD BROCK ROAD WEATHERFORD TX 76087",
-    "lat": 0,
-    "lng": 0,
+    "lat": null,
+    "lng": null,
     "website": null,
     "osm_url": null,
     "appears_in": [
