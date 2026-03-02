@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_ea3d1cca825a",
+  "name": "Kiefer Landfill ABOP & Special Waste Drop-Off",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "12701 Kiefer Blvd, Sloughhouse, CA 95683",
+  "phone": "916-875-5555",
+  "hours": "Check Sacramento County for current special-waste and ABOP drop-off hours before visiting.",
+  "fees": "Special-waste fees and program rules vary by item type. Review the county instructions before you arrive.",
+  "rules": "Follow county packaging, screening, and load-separation rules. Always verify accepted items before driving to the Kiefer special-waste area.",
+  "accepted_materials": [
+    "Automotive batteries",
+    "Used oil and oil filters",
+    "Paint and household chemicals",
+    "Special waste accepted under county rules"
+  ],
+  "not_accepted": [
+    "Business hazardous waste outside program rules",
+    "Explosives or materials the county does not accept"
+  ],
+  "verified_date": "2026-03-02",
+  "source": "https://wmr.saccounty.gov/Pages/KieferLandfill-SWDropOff.aspx",
+  "osm_url": "https://wmr.saccounty.gov/Pages/KieferLandfill-SWDropOff.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "sacramento"
+    }
+  ],
+  "lat": 38.514738086191,
+  "lng": -121.195423089478,
+  "geocode_match": "12701 KIEFER BLVD, SLOUGHHOUSE, CA, 95683",
+  "geocode_source": "census"
+}

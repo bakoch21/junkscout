@@ -1,60 +1,8 @@
 {
-  "bakersfield": [
-    {
-      "slug": "los-angeles",
-      "distance_mi": 96.8
-    },
-    {
-      "slug": "fresno",
-      "distance_mi": 102.6
-    },
-    {
-      "slug": "san-diego",
-      "distance_mi": 205.8
-    },
-    {
-      "slug": "san-jose",
-      "distance_mi": 210.4
-    },
-    {
-      "slug": "oakland",
-      "distance_mi": 248.1
-    },
-    {
-      "slug": "san-francisco",
-      "distance_mi": 249.7
-    }
-  ],
-  "fresno": [
-    {
-      "slug": "bakersfield",
-      "distance_mi": 102.6
-    },
-    {
-      "slug": "san-jose",
-      "distance_mi": 126.3
-    },
-    {
-      "slug": "oakland",
-      "distance_mi": 158.8
-    },
-    {
-      "slug": "san-francisco",
-      "distance_mi": 161.2
-    },
-    {
-      "slug": "los-angeles",
-      "distance_mi": 199.3
-    },
-    {
-      "slug": "san-diego",
-      "distance_mi": 307.1
-    }
-  ],
   "los-angeles": [
     {
       "slug": "bakersfield",
-      "distance_mi": 96.8
+      "distance_mi": 96.7
     },
     {
       "slug": "san-diego",
@@ -75,32 +23,10 @@
     {
       "slug": "san-francisco",
       "distance_mi": 341.9
-    }
-  ],
-  "oakland": [
-    {
-      "slug": "san-francisco",
-      "distance_mi": 3.9
     },
     {
-      "slug": "san-jose",
-      "distance_mi": 39.4
-    },
-    {
-      "slug": "fresno",
-      "distance_mi": 158.8
-    },
-    {
-      "slug": "bakersfield",
-      "distance_mi": 248.1
-    },
-    {
-      "slug": "los-angeles",
-      "distance_mi": 340.7
-    },
-    {
-      "slug": "san-diego",
-      "distance_mi": 451.7
+      "slug": "sacramento",
+      "distance_mi": 352.3
     }
   ],
   "san-diego": [
@@ -114,7 +40,7 @@
     },
     {
       "slug": "fresno",
-      "distance_mi": 307.1
+      "distance_mi": 307
     },
     {
       "slug": "san-jose",
@@ -127,6 +53,40 @@
     {
       "slug": "san-francisco",
       "distance_mi": 452.9
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 461
+    }
+  ],
+  "san-jose": [
+    {
+      "slug": "oakland",
+      "distance_mi": 39.4
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "fresno",
+      "distance_mi": 126.3
+    },
+    {
+      "slug": "bakersfield",
+      "distance_mi": 210.4
+    },
+    {
+      "slug": "los-angeles",
+      "distance_mi": 301.9
+    },
+    {
+      "slug": "san-diego",
+      "distance_mi": 413
     }
   ],
   "san-francisco": [
@@ -137,6 +97,10 @@
     {
       "slug": "san-jose",
       "distance_mi": 40.2
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 76.6
     },
     {
       "slug": "fresno",
@@ -155,30 +119,124 @@
       "distance_mi": 452.9
     }
   ],
-  "san-jose": [
+  "fresno": [
     {
-      "slug": "oakland",
-      "distance_mi": 39.4
+      "slug": "bakersfield",
+      "distance_mi": 102.6
     },
     {
-      "slug": "san-francisco",
-      "distance_mi": 40.2
-    },
-    {
-      "slug": "fresno",
+      "slug": "san-jose",
       "distance_mi": 126.3
     },
     {
-      "slug": "bakersfield",
-      "distance_mi": 210.4
+      "slug": "sacramento",
+      "distance_mi": 154.1
+    },
+    {
+      "slug": "oakland",
+      "distance_mi": 158.8
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 161.2
     },
     {
       "slug": "los-angeles",
-      "distance_mi": 301.9
+      "distance_mi": 199.3
     },
     {
       "slug": "san-diego",
-      "distance_mi": 413
+      "distance_mi": 307
+    }
+  ],
+  "oakland": [
+    {
+      "slug": "san-francisco",
+      "distance_mi": 3.9
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 39.4
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 73
+    },
+    {
+      "slug": "fresno",
+      "distance_mi": 158.8
+    },
+    {
+      "slug": "bakersfield",
+      "distance_mi": 248.1
+    },
+    {
+      "slug": "los-angeles",
+      "distance_mi": 340.7
+    },
+    {
+      "slug": "san-diego",
+      "distance_mi": 451.7
+    }
+  ],
+  "sacramento": [
+    {
+      "slug": "oakland",
+      "distance_mi": 73
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 76.6
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "fresno",
+      "distance_mi": 154.1
+    },
+    {
+      "slug": "bakersfield",
+      "distance_mi": 255.7
+    },
+    {
+      "slug": "los-angeles",
+      "distance_mi": 352.3
+    },
+    {
+      "slug": "san-diego",
+      "distance_mi": 461
+    }
+  ],
+  "bakersfield": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 96.7
+    },
+    {
+      "slug": "fresno",
+      "distance_mi": 102.6
+    },
+    {
+      "slug": "san-diego",
+      "distance_mi": 205.8
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 210.4
+    },
+    {
+      "slug": "oakland",
+      "distance_mi": 248.1
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 249.7
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 255.7
     }
   ]
 }

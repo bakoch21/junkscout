@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_4db938f56ffb",
+  "name": "North Area Recovery Station HHW Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "4450 Roseville Rd, North Highlands, CA 95660",
+  "phone": "3-1-1 / 916-875-5555",
+  "hours": "Check Sacramento County for current household hazardous waste drop-off hours and any temporary closures before visiting.",
+  "fees": "Household hazardous waste drop-off is resident-focused. Confirm current eligibility, quantity limits, and any fees before arrival.",
+  "rules": "Sacramento County asks residents to verify accepted items, package materials safely, and follow current HHW instructions before arrival.",
+  "accepted_materials": [
+    "Paint and chemicals",
+    "Batteries",
+    "Fluorescent bulbs",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program scope"
+  ],
+  "verified_date": "2026-03-02",
+  "source": "https://wmr.saccounty.gov/Pages/NARS-HHWFacility.aspx",
+  "osm_url": "https://wmr.saccounty.gov/Pages/NARS-HHWFacility.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "sacramento"
+    }
+  ],
+  "lat": 38.648912100048,
+  "lng": -121.393571666153,
+  "geocode_match": "4450 ROSEVILLE RD, NORTH HIGHLANDS, CA, 95660",
+  "geocode_source": "census"
+}

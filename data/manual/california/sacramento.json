@@ -1,0 +1,109 @@
+{
+  "city": "Sacramento",
+  "state": "CA",
+  "last_updated": "2026-03-02",
+  "facilities": [
+    {
+      "name": "Sacramento Recycling & Transfer Station",
+      "type": "Transfer Station",
+      "address": "8491 Fruitridge Rd, Sacramento, CA 95826",
+      "phone": "916-387-1300",
+      "hours": "Public disposal and recycling hours can change. Check the current operator listing before visiting.",
+      "fees": "Rates vary by load size, material type, and public self-haul rules. Confirm current pricing and any city coupon rules before arrival.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Bulky household items",
+        "Select recycling drop-off materials"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside posted station rules"
+      ],
+      "rules": "Secure your load and confirm public drop-off hours, accepted materials, and payment rules before you drive.",
+      "source": "https://wmr.saccounty.gov/Pages/LocalDisposalFacilities.aspx",
+      "verified_date": "2026-03-02"
+    },
+    {
+      "name": "Kiefer Landfill",
+      "type": "Landfill",
+      "address": "12701 Kiefer Blvd, Sloughhouse, CA 95683",
+      "phone": "916-875-5555",
+      "hours": "Check Sacramento County for current landfill gate hours, holiday schedules, and any weather-related closures.",
+      "fees": "Sacramento County posts separate rates for small vehicles, pickups, and weighed loads. Review the current county fee schedule before arrival.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Bulky disposal loads",
+        "Approved construction and demolition debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside county acceptance rules"
+      ],
+      "rules": "County guidance requires covered loads and directs drivers to the scale house before unloading. Confirm accepted materials and current rates before visiting.",
+      "source": "https://wmr.saccounty.gov/Pages/KieferLandfill.aspx",
+      "verified_date": "2026-03-02"
+    },
+    {
+      "name": "Kiefer Landfill ABOP & Special Waste Drop-Off",
+      "type": "Hazardous Waste Facility",
+      "address": "12701 Kiefer Blvd, Sloughhouse, CA 95683",
+      "phone": "916-875-5555",
+      "hours": "Check Sacramento County for current special-waste and ABOP drop-off hours before visiting.",
+      "fees": "Special-waste fees and program rules vary by item type. Review the county instructions before you arrive.",
+      "accepted_materials": [
+        "Automotive batteries",
+        "Used oil and oil filters",
+        "Paint and household chemicals",
+        "Special waste accepted under county rules"
+      ],
+      "not_accepted": [
+        "Business hazardous waste outside program rules",
+        "Explosives or materials the county does not accept"
+      ],
+      "rules": "Follow county packaging, screening, and load-separation rules. Always verify accepted items before driving to the Kiefer special-waste area.",
+      "source": "https://wmr.saccounty.gov/Pages/KieferLandfill-SWDropOff.aspx",
+      "verified_date": "2026-03-02"
+    },
+    {
+      "name": "North Area Recovery Station",
+      "type": "Transfer Station",
+      "address": "4450 Roseville Rd, North Highlands, CA 95660",
+      "phone": "916-875-5555",
+      "hours": "Check Sacramento County for current North Area Recovery Station gate hours and holiday changes.",
+      "fees": "Sacramento County posts separate rates for cars, pickups, and weighed loads at NARS. Review the current county fee schedule before arrival.",
+      "accepted_materials": [
+        "General waste",
+        "Bulky disposal loads",
+        "Recycling drop-off materials"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside county site rules"
+      ],
+      "rules": "County guidance requires covered loads and directs customers to check current site rules before arrival.",
+      "source": "https://wmr.saccounty.gov/Pages/NARS.aspx",
+      "verified_date": "2026-03-02"
+    },
+    {
+      "name": "North Area Recovery Station HHW Facility",
+      "type": "Hazardous Waste Facility",
+      "address": "4450 Roseville Rd, North Highlands, CA 95660",
+      "phone": "3-1-1 / 916-875-5555",
+      "hours": "Check Sacramento County for current household hazardous waste drop-off hours and any temporary closures before visiting.",
+      "fees": "Household hazardous waste drop-off is resident-focused. Confirm current eligibility, quantity limits, and any fees before arrival.",
+      "accepted_materials": [
+        "Paint and chemicals",
+        "Batteries",
+        "Fluorescent bulbs",
+        "Household hazardous waste"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program scope"
+      ],
+      "rules": "Sacramento County asks residents to verify accepted items, package materials safely, and follow current HHW instructions before arrival.",
+      "source": "https://wmr.saccounty.gov/Pages/NARS-HHWFacility.aspx",
+      "verified_date": "2026-03-02"
+    }
+  ]
+}

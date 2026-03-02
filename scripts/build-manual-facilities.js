@@ -10,6 +10,7 @@
 // Output:
 //   ./data/facilities/f_manual_<hash>.json   (one per manual facility)
 //   ./data/manual/<state>/<city>.resolved.json  (same as input but with facility_id per item)
+//   ./data/<state>/<city>.json   (city payload used by client fallback + nearby aggregation)
 
 const fs = require("fs");
 const path = require("path");
@@ -28,6 +29,7 @@ const MANUAL_IN = path.join(".", "data", "manual", stateArg, `${cityArg}.json`);
 const MANUAL_IN_GEOCODED = path.join(".", "data", "manual", stateArg, `${cityArg}.geocoded.json`);
 const MANUAL_OUT_RESOLVED = path.join(".", "data", "manual", stateArg, `${cityArg}.resolved.json`);
 const FACILITIES_DIR = path.join(".", "data", "facilities");
+const CITY_DATA_OUT = path.join(".", "data", stateArg, `${cityArg}.json`);
 
 function safeReadJson(p) {
   try {
@@ -103,6 +105,7 @@ function run() {
 
   const resolved = { ...manual };
   resolved.facilities = facilities.map((x) => ({ ...x }));
+  const cityData = [];
 
   let wrote = 0;
 
@@ -158,6 +161,11 @@ function run() {
       if (facilityRecord[k] === undefined) delete facilityRecord[k];
     });
 
+    cityData.push({
+      ...facilityRecord,
+      facility_id: id,
+    });
+
     const outPath = path.join(FACILITIES_DIR, `${id}.json`);
 
     // Don’t overwrite if already exists — stable IDs mean it should match
@@ -171,9 +179,11 @@ function run() {
   }
 
   writeJson(MANUAL_OUT_RESOLVED, resolved);
+  writeJson(CITY_DATA_OUT, cityData);
 
   console.log(`✅ Resolved manual city file → ${MANUAL_OUT_RESOLVED}`);
   console.log(`✅ Wrote/updated manual facility records in → ${FACILITIES_DIR}`);
+  console.log(`âœ… Wrote city data payload â†’ ${CITY_DATA_OUT}`);
   console.log(`   Total manual facilities processed: ${resolved.facilities.length}`);
   console.log(`   Records written/updated: ${resolved.facilities.length} (stable IDs)`);
 }

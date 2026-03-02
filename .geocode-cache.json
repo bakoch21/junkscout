@@ -402,5 +402,35 @@
   "Trail Ridge Landfill||5110 US Highway 301 S, Baldwin, FL 32234": {
     "geocode_source": "census",
     "geocode_error": "no_match"
+  },
+  "Sacramento Recycling & Transfer Station||8491 Fruitridge Rd, Sacramento, CA 95826": {
+    "lat": 38.525236212599,
+    "lng": -121.391174324262,
+    "geocode_match": "8491 FRUITRIDGE RD, SACRAMENTO, CA, 95826",
+    "geocode_source": "census"
+  },
+  "Kiefer Landfill||12701 Kiefer Blvd, Sloughhouse, CA 95683": {
+    "lat": 38.514738086191,
+    "lng": -121.195423089478,
+    "geocode_match": "12701 KIEFER BLVD, SLOUGHHOUSE, CA, 95683",
+    "geocode_source": "census"
+  },
+  "Kiefer Landfill ABOP & Special Waste Drop-Off||12701 Kiefer Blvd, Sloughhouse, CA 95683": {
+    "lat": 38.514738086191,
+    "lng": -121.195423089478,
+    "geocode_match": "12701 KIEFER BLVD, SLOUGHHOUSE, CA, 95683",
+    "geocode_source": "census"
+  },
+  "North Area Recovery Station||4450 Roseville Rd, North Highlands, CA 95660": {
+    "lat": 38.648912100048,
+    "lng": -121.393571666153,
+    "geocode_match": "4450 ROSEVILLE RD, NORTH HIGHLANDS, CA, 95660",
+    "geocode_source": "census"
+  },
+  "North Area Recovery Station HHW Facility||4450 Roseville Rd, North Highlands, CA 95660": {
+    "lat": 38.648912100048,
+    "lng": -121.393571666153,
+    "geocode_match": "4450 ROSEVILLE RD, NORTH HIGHLANDS, CA, 95660",
+    "geocode_source": "census"
   }
 }

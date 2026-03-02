@@ -109,6 +109,7 @@ function checkRequiredFiles() {
     "texas/fort-worth/index.html",
     "texas/el-paso/index.html",
     "california/los-angeles/index.html",
+    "california/sacramento/index.html",
     "california/san-francisco/index.html",
     "california/san-diego/index.html",
     "california/san-jose/index.html",
@@ -207,6 +208,9 @@ function checkCityLists() {
   const ca = readJson(cityListPath("california"));
   if (!ca.some((x) => String(x.city || "").toLowerCase() === "los-angeles")) {
     addError("Los Angeles missing from scripts/cities-california.json");
+  }
+  if (!ca.some((x) => String(x.city || "").toLowerCase() === "sacramento")) {
+    addError("Sacramento missing from scripts/cities-california.json");
   }
   if (!ca.some((x) => String(x.city || "").toLowerCase() === "san-francisco")) {
     addError("San Francisco missing from scripts/cities-california.json");
@@ -433,6 +437,7 @@ function checkCanonicals() {
     { file: "texas/fort-worth/index.html", expected: `${BASE_URL}/texas/fort-worth/` },
     { file: "texas/el-paso/index.html", expected: `${BASE_URL}/texas/el-paso/` },
     { file: "california/los-angeles/index.html", expected: `${BASE_URL}/california/los-angeles/` },
+    { file: "california/sacramento/index.html", expected: `${BASE_URL}/california/sacramento/` },
     { file: "california/san-francisco/index.html", expected: `${BASE_URL}/california/san-francisco/` },
     { file: "california/san-diego/index.html", expected: `${BASE_URL}/california/san-diego/` },
     { file: "california/san-jose/index.html", expected: `${BASE_URL}/california/san-jose/` },
@@ -640,6 +645,7 @@ function run() {
   checkCitySignals("georgia/atlanta/index.html", "where can i dump trash in atlanta", "Atlanta");
   checkCitySignals("texas/fort-worth/index.html", "where can i dump trash in fort worth", "Fort Worth");
   checkCitySignals("texas/el-paso/index.html", "where can i dump trash in el paso", "El Paso");
+  checkCitySignals("california/sacramento/index.html", "where can i dump trash in sacramento", "Sacramento");
   checkCitySignals("california/san-diego/index.html", "where can i dump trash in san diego", "San Diego");
   checkCitySignals("california/san-jose/index.html", "where can i dump trash in san jose", "San Jose");
   checkCitySignals("california/oakland/index.html", "where can i dump trash in oakland", "Oakland");
