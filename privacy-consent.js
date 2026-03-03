@@ -1,6 +1,7 @@
 (function () {
   const STORAGE_KEY = "junkscout_privacy_preferences_v1";
   const BANNER_DISMISS_KEY = "junkscout_privacy_banner_dismissed_v1";
+  const COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 180;
   const ADSENSE_CLIENT = "ca-pub-6737290012723041";
   const ADSENSE_SRC =
     "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" +
@@ -30,16 +31,53 @@
   let gpcNoteEl = null;
   let adsenseLoaded = false;
   let lastFocusEl = null;
+  let memoryPreferences = null;
+  let bannerDismissedOverride = null;
 
   function isBrowserGpcEnabled() {
     return Boolean(window.navigator && window.navigator.globalPrivacyControl === true);
   }
 
-  function readStoredPreferences() {
+  function readCookie(name) {
     try {
-      const raw = window.localStorage.getItem(STORAGE_KEY);
-      if (!raw) return null;
+      const encodedName = `${encodeURIComponent(name)}=`;
+      const parts = String(document.cookie || "").split(/;\s*/);
+      for (const part of parts) {
+        if (!part || !part.startsWith(encodedName)) continue;
+        return decodeURIComponent(part.slice(encodedName.length));
+      }
+    } catch {
+      return "";
+    }
 
+    return "";
+  }
+
+  function writeCookie(name, value, maxAgeSeconds) {
+    try {
+      const pieces = [
+        `${encodeURIComponent(name)}=${encodeURIComponent(value)}`,
+        "Path=/",
+        `Max-Age=${maxAgeSeconds}`,
+        "SameSite=Lax",
+      ];
+      if (window.location && window.location.protocol === "https:") {
+        pieces.push("Secure");
+      }
+      document.cookie = pieces.join("; ");
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  function clearCookie(name) {
+    writeCookie(name, "", 0);
+  }
+
+  function parsePreferences(raw) {
+    if (!raw) return null;
+    try {
       const parsed = JSON.parse(raw);
       return parsed && typeof parsed === "object" ? parsed : null;
     } catch {
@@ -47,23 +85,78 @@
     }
   }
 
+  function setElementHidden(element, isHidden) {
+    if (!element) return;
+    element.hidden = isHidden;
+    element.style.display = isHidden ? "none" : "";
+    element.setAttribute("aria-hidden", isHidden ? "true" : "false");
+  }
+
+  function readStoredPreferences() {
+    if (memoryPreferences && typeof memoryPreferences === "object") {
+      return { ...memoryPreferences };
+    }
+
+    try {
+      const raw = window.localStorage.getItem(STORAGE_KEY);
+      const parsed = parsePreferences(raw);
+      if (parsed) {
+        memoryPreferences = { ...parsed };
+        return parsed;
+      }
+    } catch {
+      // ignore storage failures and try the cookie fallback
+    }
+
+    const cookieValue = readCookie(STORAGE_KEY);
+    const parsed = parsePreferences(cookieValue);
+    if (parsed) {
+      memoryPreferences = { ...parsed };
+      return parsed;
+    }
+
+    return null;
+  }
+
   function writeStoredPreferences(preferences) {
+    if (!preferences || typeof preferences !== "object") return;
+
+    memoryPreferences = { ...preferences };
     try {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(preferences));
     } catch {
-      // ignore storage failures and keep preferences in memory for the session
+      // ignore storage failures and keep preferences in memory/cookie for the session
     }
+
+    writeCookie(STORAGE_KEY, JSON.stringify(preferences), COOKIE_MAX_AGE_SECONDS);
   }
 
   function readBannerDismissed() {
-    try {
-      return window.localStorage.getItem(BANNER_DISMISS_KEY) === "1";
-    } catch {
-      return false;
+    if (typeof bannerDismissedOverride === "boolean") {
+      return bannerDismissedOverride;
     }
+
+    try {
+      const isDismissed = window.localStorage.getItem(BANNER_DISMISS_KEY) === "1";
+      if (isDismissed) {
+        bannerDismissedOverride = true;
+        return true;
+      }
+    } catch {
+      // ignore storage failures and try the cookie fallback
+    }
+
+    const isDismissed = readCookie(BANNER_DISMISS_KEY) === "1";
+    if (isDismissed) {
+      bannerDismissedOverride = true;
+      return true;
+    }
+
+    return false;
   }
 
   function writeBannerDismissed(isDismissed) {
+    bannerDismissedOverride = isDismissed;
     try {
       if (isDismissed) {
         window.localStorage.setItem(BANNER_DISMISS_KEY, "1");
@@ -72,6 +165,12 @@
       }
     } catch {
       // ignore storage failures
+    }
+
+    if (isDismissed) {
+      writeCookie(BANNER_DISMISS_KEY, "1", COOKIE_MAX_AGE_SECONDS);
+    } else {
+      clearCookie(BANNER_DISMISS_KEY);
     }
   }
 
@@ -191,7 +290,7 @@
   function updateBannerState(preferences) {
     if (!bannerEl || !bannerStateEl) return;
 
-    bannerEl.hidden = !shouldShowBanner(preferences);
+    setElementHidden(bannerEl, !shouldShowBanner(preferences));
 
     if (preferences.consentMode === "accepted") {
       bannerStateEl.textContent = "Using analytics cookies and ad cookies.";
@@ -220,7 +319,7 @@
   function updateLauncherState(preferences) {
     if (!launcherEl) return;
 
-    launcherEl.hidden = !shouldShowLauncher(preferences);
+    setElementHidden(launcherEl, !shouldShowLauncher(preferences));
 
     let label = "Privacy choices";
     if (preferences.consentMode === "accepted") {
@@ -268,6 +367,7 @@
     writeBannerDismissed(true);
     const preferences = getPreferences();
     closeModal();
+    setElementHidden(bannerEl, true);
     updateBannerState(preferences);
     updateLauncherState(preferences);
   }
@@ -277,7 +377,7 @@
 
     lastFocusEl = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     syncModalControls(getPreferences());
-    modalRootEl.hidden = false;
+    setElementHidden(modalRootEl, false);
     document.body.classList.add("privacy-modal-open");
     modalEl.focus();
   }
@@ -285,7 +385,7 @@
   function closeModal() {
     if (!modalRootEl || modalRootEl.hidden) return;
 
-    modalRootEl.hidden = true;
+    setElementHidden(modalRootEl, true);
     document.body.classList.remove("privacy-modal-open");
     if (lastFocusEl) {
       lastFocusEl.focus();
@@ -397,7 +497,7 @@
   function buildModal() {
     modalRootEl = document.createElement("div");
     modalRootEl.className = "privacy-modal-root";
-    modalRootEl.hidden = true;
+    setElementHidden(modalRootEl, true);
 
     modalRootEl.innerHTML = [
       '<div class="privacy-modal-backdrop" data-privacy-close></div>',
