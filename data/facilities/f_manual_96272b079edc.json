@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_96272b079edc",
+  "name": "North Household Hazardous Waste Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "12550 Stone Ave N, Seattle, WA 98133",
+  "phone": "206-296-4692",
+  "hours": "King County lists the north household hazardous waste facility as open Tuesday, Wednesday, Friday, Saturday, and Sunday from 9:00 AM to 5:00 PM. Confirm holiday schedules before visiting.",
+  "fees": "Household hazardous waste service is resident-focused. Confirm accepted items, quantity limits, and any fees before arrival.",
+  "rules": "Confirm accepted items and packaging instructions before bringing HHW to the site.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint",
+    "Batteries",
+    "Automotive fluids",
+    "Household chemicals"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside local HHW program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "",
+  "osm_url": "",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "washington",
+      "city": "seattle"
+    }
+  ],
+  "lat": 47.7202547551,
+  "lng": -122.342136968978,
+  "geocode_match": "12550 STONE AVE N, SEATTLE, WA, 98133",
+  "geocode_source": "census"
+}

@@ -23,7 +23,7 @@ const FACILITIES_DIR = path.join("data", "facilities");
 const TEMPLATE_PATH = "facility-template.html";
 const OUTPUT_BASE = ".";
 const BASE_URL = "https://junkscout.io";
-const CITY_DATA_STATES = ["texas", "california", "georgia", "florida", "illinois"];
+const CITY_DATA_STATES = ["texas", "california", "arizona", "georgia", "florida", "illinois", "north-carolina", "washington"];
 
 function safeReadJson(filePath, fallback = null) {
   try {
@@ -66,9 +66,12 @@ function stateAbbrevFromSlug(stateSlug = "") {
   const state = String(stateSlug || "").toLowerCase();
   if (state === "texas") return "TX";
   if (state === "california") return "CA";
+  if (state === "arizona") return "AZ";
   if (state === "georgia") return "GA";
   if (state === "florida") return "FL";
   if (state === "illinois") return "IL";
+  if (state === "north-carolina") return "NC";
+  if (state === "washington") return "WA";
   return state.toUpperCase();
 }
 

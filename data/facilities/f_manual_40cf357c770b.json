@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_40cf357c770b",
+  "name": "Mesa Household Hazardous Materials Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2412 N Center St, Mesa, AZ 85201",
+  "phone": "480-644-2221",
+  "hours": "Mesa lists this HHM facility as open Monday, Thursday, Friday, and Saturday from 8:00 AM to 12:00 PM. Confirm holiday schedules before visiting.",
+  "fees": "Household hazardous materials service is resident-focused. Confirm current eligibility, quantity limits, and any fees before you drive.",
+  "rules": "Review Mesa's preparation and quantity rules before arriving with household hazardous materials.",
+  "accepted_materials": [
+    "Paint",
+    "Household chemicals",
+    "Batteries",
+    "Automotive fluids",
+    "Pesticides"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside the city household program"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.mesaaz.gov/Utilities/Trash-Recycling",
+  "osm_url": "https://www.mesaaz.gov/Utilities/Trash-Recycling",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "arizona",
+      "city": "mesa"
+    }
+  ],
+  "lat": 33.457919622854,
+  "lng": -111.831101204055,
+  "geocode_match": "2412 N CENTER ST, MESA, AZ, 85201",
+  "geocode_source": "census"
+}

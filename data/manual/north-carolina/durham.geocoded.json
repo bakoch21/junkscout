@@ -1,0 +1,83 @@
+{
+  "city": "Durham",
+  "state": "NC",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "Durham Waste Disposal and Recycling Center",
+      "type": "Transfer Station",
+      "address": "2115 E Club Blvd, Durham, NC 27704",
+      "phone": "919-560-4186",
+      "hours": "Durham lists the Waste Disposal and Recycling Center as open Tuesday through Saturday, 7:30 AM to 4:00 PM. Confirm holiday schedules before visiting.",
+      "fees": "Fees vary by load type, volume, and residency. Check Durham's current center rules before you drive.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Recyclables",
+        "Yard waste"
+      ],
+      "not_accepted": [
+        "Commercial loads outside county policy",
+        "Materials outside posted center rules"
+      ],
+      "rules": "Review Durham's latest disposal and recycling guidance for accepted materials, fees, and resident requirements before arriving.",
+      "source": "https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center",
+      "verified_date": "2026-03-03",
+      "lat": 36.026113734546,
+      "lng": -78.857257159105,
+      "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Durham Household Hazardous Waste Facility",
+      "type": "Hazardous Waste Facility",
+      "address": "2115 E Club Blvd, Durham, NC 27704",
+      "phone": "919-560-4186",
+      "hours": "Durham lists the household hazardous waste facility at the same East Club Boulevard campus. Confirm current HHW days and hours before visiting.",
+      "fees": "Household hazardous waste service is resident-focused. Confirm current eligibility, quantity limits, and accepted materials before arrival.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Batteries",
+        "Electronics",
+        "Automotive fluids"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside Durham's HHW program"
+      ],
+      "rules": "Use Durham's current HHW guidance to confirm accepted items, proof-of-residency rules, and packaging instructions before you drive.",
+      "source": "https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center",
+      "verified_date": "2026-03-03",
+      "lat": 36.026113734546,
+      "lng": -78.857257159105,
+      "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Durham Yard Waste Facility",
+      "type": "Recycling Center",
+      "address": "2115 E Club Blvd, Durham, NC 27704",
+      "phone": "919-560-4186",
+      "hours": "Durham lists the yard waste facility at the Waste Disposal and Recycling Center campus. Confirm current public hours before visiting.",
+      "fees": "Yard waste service may be resident-focused or load-specific. Confirm current charges and material rules before arrival.",
+      "accepted_materials": [
+        "Yard waste",
+        "Brush",
+        "Leaves",
+        "Organics accepted under city rules"
+      ],
+      "not_accepted": [
+        "Mixed trash loads",
+        "Materials outside posted yard-waste rules"
+      ],
+      "rules": "Separate yard waste from trash and review Durham's current facility instructions before using the site.",
+      "source": "https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center",
+      "verified_date": "2026-03-03",
+      "lat": 36.026113734546,
+      "lng": -78.857257159105,
+      "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+      "geocode_source": "census"
+    }
+  ]
+}

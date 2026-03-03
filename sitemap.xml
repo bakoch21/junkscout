@@ -1915,6 +1915,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/arizona/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/arizona/phoenix/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/arizona/mesa/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/arizona/tucson/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/georgia/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1964,6 +1988,60 @@
   </url>
   <url>
     <loc>https://junkscout.io/illinois/chicago/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/north-carolina/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/north-carolina/charlotte/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/north-carolina/durham/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/north-carolina/greensboro/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/north-carolina/winston-salem/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/washington/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/washington/seattle/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/washington/tacoma/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/washington/spokane/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -6397,6 +6475,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_02f1a0e902b4/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_03ea51363c00/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_05020d5eade7/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_06b9b51dfb83/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -6416,6 +6512,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_0996f0a915bf/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_0b1f900fe075/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -6476,6 +6578,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_243ef4ba5b8c/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_24774d0dccfa/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -6601,6 +6709,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_40cf357c770b/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_422e6d19df67/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -6614,6 +6728,18 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_43bcceacdf01/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_4657c547fc92/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_4973267a735b/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -6649,6 +6775,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_4e1f40fa9dc7/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_4f0e6f4f9bc0/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -6668,6 +6800,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_53b60ac1367f/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_54ed9f1ede21/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -6788,6 +6926,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_6b95237438d8/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_6c23f1ee3557/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -6937,6 +7081,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_882011e4603e/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_8b19a710a0e6/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_8c4cf24ac1cb/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_8c590779cdae/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -6968,6 +7130,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_8ea5daf19171/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_8f201ee057bb/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -7009,6 +7177,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_96272b079edc/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_9a73248e106a/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -7033,6 +7207,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_a0542a280203/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_a17df99e0d58/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -7046,6 +7226,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_a64bc706330a/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_a80b13588652/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -7081,6 +7267,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_ad3264194c19/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_af14f1b0b05b/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -7093,13 +7285,37 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_b0772a1b9c30/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_b201a7ca6cf8/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_b2b4bdff6076/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_b2de4af8355c/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_b3105cc0cdb0/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_b33c1f918f51/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -7226,6 +7442,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_c72cf05570a4/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_c98c80a45a01/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -7369,13 +7591,43 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_e9be840f3e6d/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_e9c14ed66852/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_ea3d1cca825a/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_eb6dd9a13112/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_ec72f5545e83/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_ee29eb4aa4ae/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_ef839adc6aaf/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -7429,6 +7681,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://junkscout.io/facility/f_manual_f3b005708989/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://junkscout.io/facility/f_manual_f994fd25db28/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -7436,6 +7694,12 @@
   </url>
   <url>
     <loc>https://junkscout.io/facility/f_manual_f9b0eb3908d2/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://junkscout.io/facility/f_manual_fa10ddab3b28/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

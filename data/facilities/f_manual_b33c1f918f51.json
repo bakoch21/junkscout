@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_b33c1f918f51",
+  "name": "Los Reales Household Hazardous Waste and E-Waste Drop-Off",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "5300 E Los Reales Rd, Tucson, AZ 85756",
+  "phone": "520-791-3171",
+  "hours": "The city directs Tucson residents to use Los Reales for household hazardous waste and e-waste. Confirm the current HHW schedule before visiting.",
+  "fees": "Household hazardous waste service is resident-focused. Confirm current eligibility, accepted items, and quantity limits before arrival.",
+  "rules": "Use Tucson's HHW guidance to confirm accepted items, proof-of-residency requirements, and material-preparation rules before you drive.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "E-waste",
+    "Paint",
+    "Batteries",
+    "Household chemicals"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside the city HHW program"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.tucsonaz.gov/Departments/Environmental-Services/Household-Hazardous-Waste",
+  "osm_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Household-Hazardous-Waste",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "arizona",
+      "city": "tucson"
+    }
+  ],
+  "lat": 32.119405306671,
+  "lng": -110.87727116001,
+  "geocode_match": "5300 E LOS REALES RD, TUCSON, AZ, 85756",
+  "geocode_source": "census"
+}

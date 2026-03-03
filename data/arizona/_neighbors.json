@@ -1,0 +1,32 @@
+{
+  "phoenix": [
+    {
+      "slug": "mesa",
+      "distance_mi": 20.9
+    },
+    {
+      "slug": "tucson",
+      "distance_mi": 115
+    }
+  ],
+  "mesa": [
+    {
+      "slug": "phoenix",
+      "distance_mi": 20.9
+    },
+    {
+      "slug": "tucson",
+      "distance_mi": 104.8
+    }
+  ],
+  "tucson": [
+    {
+      "slug": "mesa",
+      "distance_mi": 104.8
+    },
+    {
+      "slug": "phoenix",
+      "distance_mi": 115
+    }
+  ]
+}

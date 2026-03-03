@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_0b1f900fe075",
+  "name": "3RC EnviroStation",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "1401 S Martin Luther King Jr Dr, Winston-Salem, NC 27107",
+  "phone": "336-727-8000",
+  "hours": "Winston-Salem lists the 3RC EnviroStation on the city's solid waste pages. Confirm current days and hours before visiting.",
+  "fees": "Special-waste services are resident-focused and material-specific. Confirm accepted items and any fees before arrival.",
+  "rules": "Use Winston-Salem's current EnviroStation guidance to confirm accepted items, preparation rules, and eligibility before driving.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Electronics",
+    "Paint",
+    "Batteries",
+    "Special recycling materials"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted EnviroStation rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "",
+  "osm_url": "",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "north-carolina",
+      "city": "winston-salem"
+    }
+  ],
+  "lat": 36.080603365812,
+  "lng": -80.22039459113,
+  "geocode_match": "1401 S MARTIN LUTHER KING JR DR SE, WINSTON SALEM, NC, 27107",
+  "geocode_source": "census"
+}

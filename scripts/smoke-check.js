@@ -10,7 +10,7 @@ const path = require("path");
 
 const ROOT = process.cwd();
 const BASE_URL = "https://junkscout.io";
-const STATES = ["texas", "california", "georgia", "florida", "illinois"];
+const STATES = ["texas", "california", "arizona", "georgia", "florida", "illinois", "north-carolina", "washington"];
 const CURATED_BASE = path.join(ROOT, "data", "manual");
 
 const errors = [];
@@ -99,9 +99,12 @@ function checkRequiredFiles() {
     "index.html",
     "texas/index.html",
     "california/index.html",
+    "arizona/index.html",
     "georgia/index.html",
     "florida/index.html",
     "illinois/index.html",
+    "north-carolina/index.html",
+    "washington/index.html",
     "texas/houston/index.html",
     "texas/dallas/index.html",
     "texas/austin/index.html",
@@ -120,6 +123,16 @@ function checkRequiredFiles() {
     "florida/tampa/index.html",
     "florida/jacksonville/index.html",
     "illinois/chicago/index.html",
+    "arizona/phoenix/index.html",
+    "arizona/mesa/index.html",
+    "arizona/tucson/index.html",
+    "north-carolina/charlotte/index.html",
+    "north-carolina/durham/index.html",
+    "north-carolina/greensboro/index.html",
+    "north-carolina/winston-salem/index.html",
+    "washington/seattle/index.html",
+    "washington/tacoma/index.html",
+    "washington/spokane/index.html",
     "about/index.html",
     "contact/index.html",
     "privacy/index.html",
@@ -136,6 +149,9 @@ function checkRequiredFiles() {
     "scripts/cities-georgia.json",
     "scripts/cities-florida.json",
     "scripts/cities-illinois.json",
+    "scripts/cities-arizona.json",
+    "scripts/cities-north-carolina.json",
+    "scripts/cities-washington.json",
   ];
 
   for (const rel of required) {
@@ -145,7 +161,7 @@ function checkRequiredFiles() {
 }
 
 function checkCityLists() {
-  const states = ["texas", "california", "georgia", "florida", "illinois"];
+  const states = ["texas", "california", "arizona", "georgia", "florida", "illinois", "north-carolina", "washington"];
 
   for (const state of states) {
     const filePath = cityListPath(state);
@@ -221,6 +237,13 @@ function checkCityLists() {
     addError("Atlanta missing from scripts/cities-georgia.json");
   }
 
+  const az = readJson(cityListPath("arizona"));
+  for (const city of ["phoenix", "mesa", "tucson"]) {
+    if (!az.some((x) => String(x.city || "").toLowerCase() === city)) {
+      addError(`${titleCase(city)} missing from scripts/cities-arizona.json`);
+    }
+  }
+
   const fl = readJson(cityListPath("florida"));
   for (const city of ["miami", "orlando", "tampa", "jacksonville"]) {
     if (!fl.some((x) => String(x.city || "").toLowerCase() === city)) {
@@ -231,6 +254,20 @@ function checkCityLists() {
   const il = readJson(cityListPath("illinois"));
   if (!il.some((x) => String(x.city || "").toLowerCase() === "chicago")) {
     addError("Chicago missing from scripts/cities-illinois.json");
+  }
+
+  const nc = readJson(cityListPath("north-carolina"));
+  for (const city of ["charlotte", "durham", "greensboro", "winston-salem"]) {
+    if (!nc.some((x) => String(x.city || "").toLowerCase() === city)) {
+      addError(`${titleCase(city)} missing from scripts/cities-north-carolina.json`);
+    }
+  }
+
+  const wa = readJson(cityListPath("washington"));
+  for (const city of ["seattle", "tacoma", "spokane"]) {
+    if (!wa.some((x) => String(x.city || "").toLowerCase() === city)) {
+      addError(`${titleCase(city)} missing from scripts/cities-washington.json`);
+    }
   }
 }
 
@@ -427,9 +464,12 @@ function checkCanonicals() {
     { file: "index.html", expected: `${BASE_URL}/` },
     { file: "texas/index.html", expected: `${BASE_URL}/texas/` },
     { file: "california/index.html", expected: `${BASE_URL}/california/` },
+    { file: "arizona/index.html", expected: `${BASE_URL}/arizona/` },
     { file: "georgia/index.html", expected: `${BASE_URL}/georgia/` },
     { file: "florida/index.html", expected: `${BASE_URL}/florida/` },
     { file: "illinois/index.html", expected: `${BASE_URL}/illinois/` },
+    { file: "north-carolina/index.html", expected: `${BASE_URL}/north-carolina/` },
+    { file: "washington/index.html", expected: `${BASE_URL}/washington/` },
     { file: "texas/houston/index.html", expected: `${BASE_URL}/texas/houston/` },
     { file: "texas/dallas/index.html", expected: `${BASE_URL}/texas/dallas/` },
     { file: "texas/austin/index.html", expected: `${BASE_URL}/texas/austin/` },
@@ -448,6 +488,16 @@ function checkCanonicals() {
     { file: "florida/tampa/index.html", expected: `${BASE_URL}/florida/tampa/` },
     { file: "florida/jacksonville/index.html", expected: `${BASE_URL}/florida/jacksonville/` },
     { file: "illinois/chicago/index.html", expected: `${BASE_URL}/illinois/chicago/` },
+    { file: "arizona/phoenix/index.html", expected: `${BASE_URL}/arizona/phoenix/` },
+    { file: "arizona/mesa/index.html", expected: `${BASE_URL}/arizona/mesa/` },
+    { file: "arizona/tucson/index.html", expected: `${BASE_URL}/arizona/tucson/` },
+    { file: "north-carolina/charlotte/index.html", expected: `${BASE_URL}/north-carolina/charlotte/` },
+    { file: "north-carolina/durham/index.html", expected: `${BASE_URL}/north-carolina/durham/` },
+    { file: "north-carolina/greensboro/index.html", expected: `${BASE_URL}/north-carolina/greensboro/` },
+    { file: "north-carolina/winston-salem/index.html", expected: `${BASE_URL}/north-carolina/winston-salem/` },
+    { file: "washington/seattle/index.html", expected: `${BASE_URL}/washington/seattle/` },
+    { file: "washington/tacoma/index.html", expected: `${BASE_URL}/washington/tacoma/` },
+    { file: "washington/spokane/index.html", expected: `${BASE_URL}/washington/spokane/` },
     { file: "research/public-waste-access-report-2026/index.html", expected: `${BASE_URL}/research/public-waste-access-report-2026/` },
   ];
 
@@ -654,6 +704,16 @@ function run() {
   checkCitySignals("florida/tampa/index.html", "where can i dump trash in tampa", "Tampa");
   checkCitySignals("florida/jacksonville/index.html", "where can i dump trash in jacksonville", "Jacksonville");
   checkCitySignals("illinois/chicago/index.html", "where can i dump trash in chicago", "Chicago");
+  checkCitySignals("arizona/phoenix/index.html", "where can i dump trash in phoenix", "Phoenix");
+  checkCitySignals("arizona/mesa/index.html", "where can i dump trash in mesa", "Mesa");
+  checkCitySignals("arizona/tucson/index.html", "where can i dump trash in tucson", "Tucson");
+  checkCitySignals("north-carolina/charlotte/index.html", "where can i dump trash in charlotte", "Charlotte");
+  checkCitySignals("north-carolina/durham/index.html", "where can i dump trash in durham", "Durham");
+  checkCitySignals("north-carolina/greensboro/index.html", "where can i dump trash in greensboro", "Greensboro");
+  checkCitySignals("north-carolina/winston-salem/index.html", "where can i dump trash in winston salem", "Winston-Salem");
+  checkCitySignals("washington/seattle/index.html", "where can i dump trash in seattle", "Seattle");
+  checkCitySignals("washington/tacoma/index.html", "where can i dump trash in tacoma", "Tacoma");
+  checkCitySignals("washington/spokane/index.html", "where can i dump trash in spokane", "Spokane");
   printSummaryAndExit();
 }
 

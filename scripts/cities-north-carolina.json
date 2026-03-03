@@ -1,0 +1,6 @@
+[
+  { "state": "north-carolina", "city": "charlotte", "query": "Charlotte, NC" },
+  { "state": "north-carolina", "city": "durham", "query": "Durham, NC" },
+  { "state": "north-carolina", "city": "greensboro", "query": "Greensboro, NC" },
+  { "state": "north-carolina", "city": "winston-salem", "query": "Winston-Salem, NC" }
+]

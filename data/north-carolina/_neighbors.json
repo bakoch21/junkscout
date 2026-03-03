@@ -1,0 +1,58 @@
+{
+  "charlotte": [
+    {
+      "slug": "winston-salem",
+      "distance_mi": 70.5
+    },
+    {
+      "slug": "greensboro",
+      "distance_mi": 81.3
+    },
+    {
+      "slug": "durham",
+      "distance_mi": 123.7
+    }
+  ],
+  "durham": [
+    {
+      "slug": "greensboro",
+      "distance_mi": 54.5
+    },
+    {
+      "slug": "winston-salem",
+      "distance_mi": 78.2
+    },
+    {
+      "slug": "charlotte",
+      "distance_mi": 123.7
+    }
+  ],
+  "greensboro": [
+    {
+      "slug": "winston-salem",
+      "distance_mi": 23.7
+    },
+    {
+      "slug": "durham",
+      "distance_mi": 54.5
+    },
+    {
+      "slug": "charlotte",
+      "distance_mi": 81.3
+    }
+  ],
+  "winston-salem": [
+    {
+      "slug": "greensboro",
+      "distance_mi": 23.7
+    },
+    {
+      "slug": "charlotte",
+      "distance_mi": 70.5
+    },
+    {
+      "slug": "durham",
+      "distance_mi": 78.2
+    }
+  ]
+}

@@ -37,7 +37,12 @@ function stateAbbrevFromSlug(stateSlug = "") {
   const state = String(stateSlug || "").toLowerCase();
   if (state === "texas") return "TX";
   if (state === "california") return "CA";
+  if (state === "arizona") return "AZ";
   if (state === "georgia") return "GA";
+  if (state === "florida") return "FL";
+  if (state === "illinois") return "IL";
+  if (state === "north-carolina") return "NC";
+  if (state === "washington") return "WA";
   return state.toUpperCase();
 }
 

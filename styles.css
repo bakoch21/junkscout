@@ -524,6 +524,10 @@ select{
   background:
     linear-gradient(135deg, rgba(30,108,88,.94), rgba(49,143,117,.86));
 }
+.state-card--az{
+  background:
+    linear-gradient(135deg, rgba(138,76,24,.94), rgba(196,118,37,.86));
+}
 .state-card--ga{
   background:
     linear-gradient(135deg, rgba(36,93,147,.95), rgba(84,121,185,.88));
@@ -535,6 +539,14 @@ select{
 .state-card--il{
   background:
     linear-gradient(135deg, rgba(103,43,77,.94), rgba(154,76,116,.86));
+}
+.state-card--nc{
+  background:
+    linear-gradient(135deg, rgba(30,74,132,.94), rgba(71,129,190,.86));
+}
+.state-card--wa{
+  background:
+    linear-gradient(135deg, rgba(27,98,76,.94), rgba(54,151,112,.86));
 }
 .state-card--future{
   background:linear-gradient(135deg, rgba(60,76,98,.86), rgba(91,110,135,.78));

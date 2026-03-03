@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>North Carolina Dump, Landfill & Transfer Station Locations by City | JunkScout</title>
+  <meta name="description" content="Browse North Carolina cities to find dumps, landfills, transfer stations, and recycling drop-off locations." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://junkscout.io/north-carolina/" />
+
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1>Browse locations in North Carolina</h1>
+      <p class="subhead">Choose a city to find dumps, landfills, transfer stations, and recycling drop-offs.</p>
+      <section class="state-city-strip" aria-label="Top North Carolina city guides" data-state-rail-scope>
+        <div class="state-city-strip__head">
+          <div>
+            <h2>Start with top North Carolina cities</h2>
+            <p class="muted">Major metro guides built around county-backed disposal, transfer, and recycling facilities.</p>
+          </div>
+          <div class="state-rail-controls" aria-label="North Carolina city rail controls">
+            <button type="button" class="state-rail-btn" data-state-rail-prev="nc-cities" aria-label="Scroll North Carolina cities left">&#8592;</button>
+            <button type="button" class="state-rail-btn" data-state-rail-next="nc-cities" aria-label="Scroll North Carolina cities right">&#8594;</button>
+          </div>
+        </div>
+
+        <div class="state-rail-wrap">
+          <div class="state-city-strip__grid state-city-strip__grid--rail" data-state-rail="nc-cities" data-state-rail-item=".state-city-card">
+            <a class="state-city-card state-city-card--ga-a" href="/north-carolina/charlotte/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Charlotte</strong>
+              <span class="state-city-card__meta">Mecklenburg County drop-off, compost, and recycling options around the metro core.</span>
+              <span class="state-city-card__cta">Open Charlotte -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ga-b" href="/north-carolina/durham/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Durham</strong>
+              <span class="state-city-card__meta">Landfill, yard waste, and household hazardous waste access from one county campus.</span>
+              <span class="state-city-card__cta">Open Durham -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ga-c" href="/north-carolina/greensboro/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Greensboro</strong>
+              <span class="state-city-card__meta">White Street, transfer-station, and HHW guidance for the Triad.</span>
+              <span class="state-city-card__cta">Open Greensboro -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--ga-d" href="/north-carolina/winston-salem/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Winston-Salem</strong>
+              <span class="state-city-card__meta">Landfill and EnviroStation options with practical self-haul details.</span>
+              <span class="state-city-card__cta">Open Winston-Salem -&gt;</span>
+            </a>
+          </div>
+        </div>
+        <p class="state-city-strip__foot">Auto-scroll is on. Use arrows, swipe, or shift-wheel to explore cities.</p>
+      </section>
+
+      <section class="cityhub" style="margin-top:22px">
+        <div class="cityhub__controls">
+          <input
+            id="citySearch"
+            class="cityhub__search"
+            type="search"
+            placeholder="Search North Carolina cities (e.g., Charlotte, Durham, Greensboro)"
+            aria-label="Search North Carolina cities"
+          />
+          <div class="muted small" id="cityCount"></div>
+        </div>
+
+        <div class="cityhub__grid" id="cityList">
+  <a class="cityhub__pill" href="/north-carolina/charlotte/">Charlotte</a>
+  <a class="cityhub__pill" href="/north-carolina/durham/">Durham</a>
+  <a class="cityhub__pill" href="/north-carolina/greensboro/">Greensboro</a>
+  <a class="cityhub__pill" href="/north-carolina/winston-salem/">Winston Salem</a>
+        </div>
+
+        <p class="muted small" style="margin-top:12px">
+          North Carolina launches with four major metros first so the pages are decision-ready before broader statewide expansion.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <script src="/privacy-consent.js?v=20260303e" defer></script>
+  <script src="/analytics.js" defer></script>
+  <script src="/app.js" defer></script>
+  <script>
+    (async function () {
+      const listEl = document.getElementById("cityList");
+      const searchEl = document.getElementById("citySearch");
+      const countEl = document.getElementById("cityCount");
+
+      function titleCaseFromSlug(slug = "") {
+        return slug
+          .split("-")
+          .filter(Boolean)
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ");
+      }
+
+      let cities = [];
+
+      const seededCities = Array.from(listEl.querySelectorAll("a.cityhub__pill"))
+        .map((a) => ({
+          label: String(a.textContent || "").trim(),
+          href: String(a.getAttribute("href") || "").trim(),
+        }))
+        .filter((x) => x.label && x.href);
+
+      function render(list) {
+        listEl.innerHTML = list
+          .map(
+            (c) => `
+              <a class="cityhub__pill" href="${c.href}">
+                ${c.label}
+              </a>
+            `
+          )
+          .join("");
+
+        countEl.textContent = `${list.length} cities`;
+      }
+
+      function filter(q) {
+        const query = (q || "").trim().toLowerCase();
+        if (!query) return cities;
+        return cities.filter((c) => c.label.toLowerCase().includes(query));
+      }
+
+      function bindSearch() {
+        if (searchEl.dataset.bound === "1") return;
+        searchEl.dataset.bound = "1";
+        searchEl.addEventListener("input", () => {
+          render(filter(searchEl.value));
+        });
+      }
+
+      if (seededCities.length > 0) {
+        cities = seededCities.sort((a, b) => a.label.localeCompare(b.label));
+        render(cities);
+        bindSearch();
+        return;
+      }
+
+      try {
+        const res = await fetch("/scripts/cities-north-carolina.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`Failed to load city list: ${res.status}`);
+        const data = await res.json();
+
+        cities = (data || [])
+          .filter((x) => x && String(x.state).toLowerCase() === "north-carolina" && x.city)
+          .map((x) => {
+            const slug = String(x.city).toLowerCase();
+            return {
+              slug,
+              label: titleCaseFromSlug(slug),
+              href: `/north-carolina/${slug}/`,
+            };
+          })
+          .sort((a, b) => a.label.localeCompare(b.label));
+
+        render(cities);
+        bindSearch();
+      } catch (err) {
+        console.error(err);
+        if (cities.length === 0) {
+          listEl.innerHTML = `<div class="muted">Unable to load city list right now.</div>`;
+          countEl.textContent = "";
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

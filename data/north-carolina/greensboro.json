@@ -1,0 +1,109 @@
+[
+  {
+    "id": "f_manual_b0772a1b9c30",
+    "name": "White Street Landfill",
+    "type": "landfill",
+    "type_label": "Landfill",
+    "address": "2503 White St, Greensboro, NC 27405",
+    "phone": "336-373-7658",
+    "hours": "Greensboro lists the White Street Landfill on the city's field-operations pages. Confirm current gate hours and holiday schedules before visiting.",
+    "fees": "Landfill charges vary by load size and material type. Check Greensboro's current fee and acceptance guidance before you drive.",
+    "rules": "Secure your load and review current city landfill rules before arriving at White Street.",
+    "accepted_materials": [
+      "Household trash",
+      "Bulky disposal loads",
+      "Approved self-haul materials"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Loads outside posted landfill rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.greensboro-nc.gov/departments/field-operations/white-street-landfill",
+    "osm_url": "https://www.greensboro-nc.gov/departments/field-operations/white-street-landfill",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "north-carolina",
+        "city": "greensboro"
+      }
+    ],
+    "lat": 36.108246503736,
+    "lng": -79.729755237998,
+    "geocode_match": "2503 WHITE ST, GREENSBORO, NC, 27405",
+    "geocode_source": "census",
+    "facility_id": "f_manual_b0772a1b9c30"
+  },
+  {
+    "id": "f_manual_4e1f40fa9dc7",
+    "name": "Greensboro Transfer Station",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "6310 Burnt Poplar Rd, Greensboro, NC 27214",
+    "phone": "336-373-7658",
+    "hours": "Greensboro lists this transfer station on the city's field-operations pages. Confirm current public hours and holiday schedules before visiting.",
+    "fees": "Transfer-station pricing varies by load type and size. Check Greensboro's current guidance before you drive.",
+    "rules": "Use Greensboro's current transfer-station guidance to confirm rates, accepted materials, and arrival rules.",
+    "accepted_materials": [
+      "Household trash",
+      "Bulky waste",
+      "Approved self-haul disposal loads"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Loads outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.greensboro-nc.gov/departments/field-operations/transfer-station",
+    "osm_url": "https://www.greensboro-nc.gov/departments/field-operations/transfer-station",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "north-carolina",
+        "city": "greensboro"
+      }
+    ],
+    "lat": 36.072617640642,
+    "lng": -79.923176401024,
+    "geocode_match": "6310 BURNT POPLAR RD, GREENSBORO, NC, 27409",
+    "geocode_source": "census",
+    "facility_id": "f_manual_4e1f40fa9dc7"
+  },
+  {
+    "id": "f_manual_8f201ee057bb",
+    "name": "Greensboro Household Hazardous Waste Collection Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "2750 Patterson St, Greensboro, NC 27407",
+    "phone": "336-373-2196",
+    "hours": "Greensboro lists this HHW center as open Wednesdays from 1:00 PM to 7:30 PM and Thursdays through Fridays from 8:00 AM to 2:00 PM. Confirm holiday schedules before visiting.",
+    "fees": "Household hazardous waste drop-off is resident-focused. Confirm accepted items, quantity limits, and current rules before arrival.",
+    "rules": "Use Greensboro's current HHW guidance to confirm accepted items, proof-of-residency expectations, and packaging instructions before you drive.",
+    "accepted_materials": [
+      "Household chemicals",
+      "Paint",
+      "Batteries",
+      "Automotive fluids",
+      "Electronics accepted under city rules"
+    ],
+    "not_accepted": [
+      "Commercial hazardous waste",
+      "Materials outside Greensboro's HHW program"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.greensboro-nc.gov/departments/field-operations/household-hazardous-waste",
+    "osm_url": "https://www.greensboro-nc.gov/departments/field-operations/household-hazardous-waste",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "north-carolina",
+        "city": "greensboro"
+      }
+    ],
+    "lat": 36.057789867152,
+    "lng": -79.838988593366,
+    "geocode_match": "2750 PATTERSON ST, GREENSBORO, NC, 27407",
+    "geocode_source": "census",
+    "facility_id": "f_manual_8f201ee057bb"
+  }
+]

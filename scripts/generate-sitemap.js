@@ -10,9 +10,12 @@ const CURATED_BASE = path.join("data", "manual");
 const STATE_CITY_LISTS = [
   { state: "texas", file: path.join("scripts", "cities-texas.json") },
   { state: "california", file: path.join("scripts", "cities-california.json") },
+  { state: "arizona", file: path.join("scripts", "cities-arizona.json") },
   { state: "georgia", file: path.join("scripts", "cities-georgia.json") },
   { state: "florida", file: path.join("scripts", "cities-florida.json") },
   { state: "illinois", file: path.join("scripts", "cities-illinois.json") },
+  { state: "north-carolina", file: path.join("scripts", "cities-north-carolina.json") },
+  { state: "washington", file: path.join("scripts", "cities-washington.json") },
 ];
 const STATIC_PAGES = [
   "/about/",

@@ -1,0 +1,5 @@
+[
+  { "state": "washington", "city": "seattle", "query": "Seattle, WA" },
+  { "state": "washington", "city": "tacoma", "query": "Tacoma, WA" },
+  { "state": "washington", "city": "spokane", "query": "Spokane, WA" }
+]

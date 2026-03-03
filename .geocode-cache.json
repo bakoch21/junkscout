@@ -536,5 +536,175 @@
   "121 Regional Disposal Facility||3820 Sam Rayburn Hwy, Melissa, TX 75454": {
     "geocode_source": "census",
     "geocode_error": "no_match"
+  },
+  "North Gateway Transfer Station||30205 N Black Canyon Hwy, Phoenix, AZ 85085": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "27th Avenue Transfer Station||3060 S 27th Ave, Phoenix, AZ 85009": {
+    "lat": 33.416643863296,
+    "lng": -112.117296584296,
+    "geocode_match": "3060 S 27TH AVE, PHOENIX, AZ, 85009",
+    "geocode_source": "census"
+  },
+  "Mesa Household Hazardous Materials Facility||2412 N Center St, Mesa, AZ 85201": {
+    "lat": 33.457919622854,
+    "lng": -111.831101204055,
+    "geocode_match": "2412 N CENTER ST, MESA, AZ, 85201",
+    "geocode_source": "census"
+  },
+  "Salt River Landfill||13686 N Beeline Hwy, Scottsdale, AZ 85256": {
+    "lat": 33.509827434391,
+    "lng": -111.764975923614,
+    "geocode_match": "13686 N BEELINE HWY, SCOTTSDALE, AZ, 85256",
+    "geocode_source": "census"
+  },
+  "Republic Services Mesa Transfer Station||2741 S Sossaman Rd, Mesa, AZ 85209": {
+    "lat": 33.36590805645,
+    "lng": -111.670707275898,
+    "geocode_match": "2741 S SOSSAMAN RD, MESA, AZ, 85209",
+    "geocode_source": "census"
+  },
+  "Los Reales Sustainability Campus Landfill||5300 E Los Reales Rd, Tucson, AZ 85756": {
+    "lat": 32.119405306671,
+    "lng": -110.87727116001,
+    "geocode_match": "5300 E LOS REALES RD, TUCSON, AZ, 85756",
+    "geocode_source": "census"
+  },
+  "Los Reales Sustainability Campus Recycling Drop-Off||5300 E Los Reales Rd, Tucson, AZ 85756": {
+    "lat": 32.119405306671,
+    "lng": -110.87727116001,
+    "geocode_match": "5300 E LOS REALES RD, TUCSON, AZ, 85756",
+    "geocode_source": "census"
+  },
+  "Los Reales Household Hazardous Waste and E-Waste Drop-Off||5300 E Los Reales Rd, Tucson, AZ 85756": {
+    "lat": 32.119405306671,
+    "lng": -110.87727116001,
+    "geocode_match": "5300 E LOS REALES RD, TUCSON, AZ, 85756",
+    "geocode_source": "census"
+  },
+  "Hickory Grove Recycling Center||8007 Pence Rd, Charlotte, NC 28215": {
+    "lat": 35.218599436794,
+    "lng": -80.697514374208,
+    "geocode_match": "8007 PENCE RD, CHARLOTTE, NC, 28215",
+    "geocode_source": "census"
+  },
+  "Foxhole Recycling Center||17131 Lancaster Hwy, Charlotte, NC 28277": {
+    "lat": 35.017189828371,
+    "lng": -80.850281543417,
+    "geocode_match": "17131 LANCASTER HWY, CHARLOTTE, NC, 28277",
+    "geocode_source": "census"
+  },
+  "Compost Central and Recycling Center||140 Valleydale Rd, Charlotte, NC 28214": {
+    "lat": 35.284486283221,
+    "lng": -80.919794992006,
+    "geocode_match": "140 VALLEYDALE RD, CHARLOTTE, NC, 28214",
+    "geocode_source": "census"
+  },
+  "North Mecklenburg Recycling Center||12300 N Statesville Rd, Huntersville, NC 28078": {
+    "lat": 35.387632426359,
+    "lng": -80.84697408875,
+    "geocode_match": "12300 STATESVILLE RD, HUNTERSVILLE, NC, 28078",
+    "geocode_source": "census"
+  },
+  "Durham Waste Disposal and Recycling Center||2115 E Club Blvd, Durham, NC 27704": {
+    "lat": 36.026113734546,
+    "lng": -78.857257159105,
+    "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+    "geocode_source": "census"
+  },
+  "Durham Household Hazardous Waste Facility||2115 E Club Blvd, Durham, NC 27704": {
+    "lat": 36.026113734546,
+    "lng": -78.857257159105,
+    "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+    "geocode_source": "census"
+  },
+  "Durham Yard Waste Facility||2115 E Club Blvd, Durham, NC 27704": {
+    "lat": 36.026113734546,
+    "lng": -78.857257159105,
+    "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+    "geocode_source": "census"
+  },
+  "White Street Landfill||2503 White St, Greensboro, NC 27405": {
+    "lat": 36.108246503736,
+    "lng": -79.729755237998,
+    "geocode_match": "2503 WHITE ST, GREENSBORO, NC, 27405",
+    "geocode_source": "census"
+  },
+  "Greensboro Transfer Station||6310 Burnt Poplar Rd, Greensboro, NC 27214": {
+    "lat": 36.072617640642,
+    "lng": -79.923176401024,
+    "geocode_match": "6310 BURNT POPLAR RD, GREENSBORO, NC, 27409",
+    "geocode_source": "census"
+  },
+  "Greensboro Household Hazardous Waste Collection Center||2750 Patterson St, Greensboro, NC 27407": {
+    "lat": 36.057789867152,
+    "lng": -79.838988593366,
+    "geocode_match": "2750 PATTERSON ST, GREENSBORO, NC, 27407",
+    "geocode_source": "census"
+  },
+  "Hanes Mill Road Landfill||325 W Hanes Mill Rd, Winston-Salem, NC 27105": {
+    "lat": 36.18665345796,
+    "lng": -80.280967870824,
+    "geocode_match": "325 W HANES MILL RD, WINSTON SALEM, NC, 27105",
+    "geocode_source": "census"
+  },
+  "3RC EnviroStation||1401 S Martin Luther King Jr Dr, Winston-Salem, NC 27107": {
+    "lat": 36.080603365812,
+    "lng": -80.22039459113,
+    "geocode_match": "1401 S MARTIN LUTHER KING JR DR SE, WINSTON SALEM, NC, 27107",
+    "geocode_source": "census"
+  },
+  "Old Salisbury Road Landfill||336 Old Salisbury Rd, Winston-Salem, NC 27127": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "North Transfer Station||1350 N 34th St, Seattle, WA 98103": {
+    "lat": 47.64825145024,
+    "lng": -122.34046512684,
+    "geocode_match": "1350 N 34TH ST, SEATTLE, WA, 98103",
+    "geocode_source": "census"
+  },
+  "South Transfer Station||130 S Kenyon St, Seattle, WA 98108": {
+    "lat": 47.532087958045,
+    "lng": -122.333415328005,
+    "geocode_match": "130 S KENYON ST, SEATTLE, WA, 98108",
+    "geocode_source": "census"
+  },
+  "North Household Hazardous Waste Facility||12550 Stone Ave N, Seattle, WA 98133": {
+    "lat": 47.7202547551,
+    "lng": -122.342136968978,
+    "geocode_match": "12550 STONE AVE N, SEATTLE, WA, 98133",
+    "geocode_source": "census"
+  },
+  "Tacoma Recovery & Transfer Center||3510 S Mullen St, Tacoma, WA 98409": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Tacoma Recycle Center||3510 S Mullen St, Tacoma, WA 98409": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Tacoma Household Hazardous Waste Facility||3510 S Mullen St, Tacoma, WA 98409": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "North Transfer Station||22123 N Elk-Chattaroy Rd, Colbert, WA 99005": {
+    "lat": 47.858943653678,
+    "lng": -117.354501281888,
+    "geocode_match": "22123 N ELK CHATTAROY RD, COLBERT, WA, 99005",
+    "geocode_source": "census"
+  },
+  "Valley Transfer Station||3941 N Sullivan Rd, Spokane Valley, WA 99216": {
+    "lat": 47.691492444179,
+    "lng": -117.196968117744,
+    "geocode_match": "3941 N SULLIVAN RD, SPOKANE VALLEY, WA, 99216",
+    "geocode_source": "census"
+  },
+  "Spokane Waste to Energy Facility||2900 S Geiger Blvd, Spokane, WA 99224": {
+    "lat": 47.62844001284,
+    "lng": -117.499573150028,
+    "geocode_match": "2900 S GEIGER BLVD, SPOKANE, WA, 99224",
+    "geocode_source": "census"
   }
 }

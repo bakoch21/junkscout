@@ -1,0 +1,32 @@
+{
+  "id": "f_manual_8b19a710a0e6",
+  "name": "Phoenix Household Hazardous Waste Collection Program",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "Phoenix residents schedule pickup service; no public drop-off address",
+  "phone": "602-262-6251",
+  "hours": "The city requires an appointment for household hazardous waste pickup. Use the official city page to review current scheduling instructions before setting material out.",
+  "fees": "This program is resident-focused. Confirm current eligibility, accepted items, and any fees before scheduling service.",
+  "rules": "Phoenix asks residents to schedule service in advance and follow packaging guidance on the official program page.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Automotive fluids",
+    "Batteries",
+    "Pesticides"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside the city household program"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/household-hazardous-waste-collection.html",
+  "osm_url": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/household-hazardous-waste-collection.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "arizona",
+      "city": "phoenix"
+    }
+  ]
+}

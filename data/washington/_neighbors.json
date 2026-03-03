@@ -1,0 +1,32 @@
+{
+  "seattle": [
+    {
+      "slug": "tacoma",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "spokane",
+      "distance_mi": 232.1
+    }
+  ],
+  "tacoma": [
+    {
+      "slug": "seattle",
+      "distance_mi": 28.9
+    },
+    {
+      "slug": "spokane",
+      "distance_mi": 242.9
+    }
+  ],
+  "spokane": [
+    {
+      "slug": "seattle",
+      "distance_mi": 232.1
+    },
+    {
+      "slug": "tacoma",
+      "distance_mi": 242.9
+    }
+  ]
+}

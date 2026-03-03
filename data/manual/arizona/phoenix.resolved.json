@@ -1,0 +1,78 @@
+{
+  "city": "Phoenix",
+  "state": "AZ",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "North Gateway Transfer Station",
+      "type": "Transfer Station",
+      "address": "30205 N Black Canyon Hwy, Phoenix, AZ 85085",
+      "phone": "602-262-6251",
+      "hours": "City of Phoenix lists this transfer station as open Monday through Saturday, 5:30 AM to 5:00 PM. Confirm holiday hours before visiting.",
+      "fees": "Transfer-station fees vary by load size, material type, and residency. Check the current city rate information before you drive.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky items",
+        "Yard waste",
+        "Self-haul disposal loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste in the transfer line",
+        "Loads outside posted city rules"
+      ],
+      "rules": "Secure and cover your load, follow site unloading directions, and confirm accepted materials before arrival.",
+      "source": "https://www.phoenix.gov/publicworks/garbage/transfer-stations.html",
+      "verified_date": "2026-03-03",
+      "facility_id": "f_manual_fa10ddab3b28"
+    },
+    {
+      "name": "27th Avenue Transfer Station",
+      "type": "Transfer Station",
+      "address": "3060 S 27th Ave, Phoenix, AZ 85009",
+      "phone": "602-262-6251",
+      "hours": "City of Phoenix lists this transfer station as open Monday through Saturday, 5:30 AM to 5:00 PM. Confirm holiday hours before visiting.",
+      "fees": "Transfer-station fees vary by load size, material type, and residency. Check the current city rate information before you drive.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky items",
+        "Yard waste",
+        "Self-haul disposal loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste in the transfer line",
+        "Loads outside posted city rules"
+      ],
+      "rules": "Secure and cover your load, follow site unloading directions, and confirm accepted materials before arrival.",
+      "source": "https://www.phoenix.gov/publicworks/garbage/transfer-stations.html",
+      "verified_date": "2026-03-03",
+      "lat": 33.416643863296,
+      "lng": -112.117296584296,
+      "geocode_match": "3060 S 27TH AVE, PHOENIX, AZ, 85009",
+      "geocode_source": "census",
+      "facility_id": "f_manual_ee29eb4aa4ae"
+    },
+    {
+      "name": "Phoenix Household Hazardous Waste Collection Program",
+      "type": "Hazardous Waste Facility",
+      "address": "Phoenix residents schedule pickup service; no public drop-off address",
+      "phone": "602-262-6251",
+      "hours": "The city requires an appointment for household hazardous waste pickup. Use the official city page to review current scheduling instructions before setting material out.",
+      "fees": "This program is resident-focused. Confirm current eligibility, accepted items, and any fees before scheduling service.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Automotive fluids",
+        "Batteries",
+        "Pesticides"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside the city household program"
+      ],
+      "rules": "Phoenix asks residents to schedule service in advance and follow packaging guidance on the official program page.",
+      "source": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/household-hazardous-waste-collection.html",
+      "verified_date": "2026-03-03",
+      "facility_id": "f_manual_8b19a710a0e6"
+    }
+  ]
+}

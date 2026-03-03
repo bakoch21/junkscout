@@ -1,0 +1,107 @@
+{
+  "city": "Charlotte",
+  "state": "NC",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "Hickory Grove Recycling Center",
+      "type": "Recycling Center",
+      "address": "8007 Pence Rd, Charlotte, NC 28215",
+      "phone": "980-314-3867",
+      "hours": "Mecklenburg County lists this full-service recycling center as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday hours before visiting.",
+      "fees": "Many county recycling services are resident-focused and may be free for accepted materials. Confirm current rules and any charges before arrival.",
+      "accepted_materials": [
+        "Recyclables",
+        "Yard waste",
+        "Bulky residential items",
+        "Special materials accepted under county rules"
+      ],
+      "not_accepted": [
+        "Commercial loads outside county policy",
+        "Materials outside posted center rules"
+      ],
+      "rules": "Use current Mecklenburg County guidance to confirm accepted materials, separation rules, and residency requirements before you drive.",
+      "verified_date": "2026-03-03",
+      "lat": 35.218599436794,
+      "lng": -80.697514374208,
+      "geocode_match": "8007 PENCE RD, CHARLOTTE, NC, 28215",
+      "geocode_source": "census",
+      "facility_id": "f_manual_e9be840f3e6d"
+    },
+    {
+      "name": "Foxhole Recycling Center",
+      "type": "Recycling Center",
+      "address": "17131 Lancaster Hwy, Charlotte, NC 28277",
+      "phone": "980-314-3867",
+      "hours": "Mecklenburg County lists this full-service recycling center as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday hours before visiting.",
+      "fees": "Many county recycling services are resident-focused and may be free for accepted materials. Confirm current rules and any charges before arrival.",
+      "accepted_materials": [
+        "Recyclables",
+        "Yard waste",
+        "Bulky residential items",
+        "Special materials accepted under county rules"
+      ],
+      "not_accepted": [
+        "Commercial loads outside county policy",
+        "Materials outside posted center rules"
+      ],
+      "rules": "Use current Mecklenburg County guidance to confirm accepted materials, separation rules, and residency requirements before you drive.",
+      "verified_date": "2026-03-03",
+      "lat": 35.017189828371,
+      "lng": -80.850281543417,
+      "geocode_match": "17131 LANCASTER HWY, CHARLOTTE, NC, 28277",
+      "geocode_source": "census",
+      "facility_id": "f_manual_eb6dd9a13112"
+    },
+    {
+      "name": "Compost Central and Recycling Center",
+      "type": "Recycling Center",
+      "address": "140 Valleydale Rd, Charlotte, NC 28214",
+      "phone": "980-314-3867",
+      "hours": "Mecklenburg County lists this site as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday schedules before visiting.",
+      "fees": "County compost and recycling services may be resident-focused or material-specific. Confirm current rules before arrival.",
+      "accepted_materials": [
+        "Compost-related yard waste",
+        "Recyclables",
+        "Bulky residential items",
+        "Special materials accepted under county rules"
+      ],
+      "not_accepted": [
+        "Commercial loads outside county policy",
+        "Materials outside posted site rules"
+      ],
+      "rules": "Review current Mecklenburg County site guidance for accepted materials and any proof-of-residency requirements before visiting.",
+      "verified_date": "2026-03-03",
+      "lat": 35.284486283221,
+      "lng": -80.919794992006,
+      "geocode_match": "140 VALLEYDALE RD, CHARLOTTE, NC, 28214",
+      "geocode_source": "census",
+      "facility_id": "f_manual_f3b005708989"
+    },
+    {
+      "name": "North Mecklenburg Recycling Center",
+      "type": "Recycling Center",
+      "address": "12300 N Statesville Rd, Huntersville, NC 28078",
+      "phone": "980-314-3867",
+      "hours": "Mecklenburg County lists this full-service recycling center as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday schedules before visiting.",
+      "fees": "Many county recycling services are resident-focused and may be free for accepted materials. Confirm current rules and any charges before arrival.",
+      "accepted_materials": [
+        "Recyclables",
+        "Yard waste",
+        "Bulky residential items",
+        "Special materials accepted under county rules"
+      ],
+      "not_accepted": [
+        "Commercial loads outside county policy",
+        "Materials outside posted center rules"
+      ],
+      "rules": "Use current Mecklenburg County guidance to confirm accepted materials, separation rules, and residency requirements before you drive.",
+      "verified_date": "2026-03-03",
+      "lat": 35.387632426359,
+      "lng": -80.84697408875,
+      "geocode_match": "12300 STATESVILLE RD, HUNTERSVILLE, NC, 28078",
+      "geocode_source": "census",
+      "facility_id": "f_manual_24774d0dccfa"
+    }
+  ]
+}

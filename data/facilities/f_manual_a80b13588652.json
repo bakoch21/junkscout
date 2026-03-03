@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_a80b13588652",
+  "name": "Durham Household Hazardous Waste Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2115 E Club Blvd, Durham, NC 27704",
+  "phone": "919-560-4186",
+  "hours": "Durham lists the household hazardous waste facility at the same East Club Boulevard campus. Confirm current HHW days and hours before visiting.",
+  "fees": "Household hazardous waste service is resident-focused. Confirm current eligibility, quantity limits, and accepted materials before arrival.",
+  "rules": "Use Durham's current HHW guidance to confirm accepted items, proof-of-residency rules, and packaging instructions before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Electronics",
+    "Automotive fluids"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside Durham's HHW program"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center",
+  "osm_url": "https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "north-carolina",
+      "city": "durham"
+    }
+  ],
+  "lat": 36.026113734546,
+  "lng": -78.857257159105,
+  "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+  "geocode_source": "census"
+}

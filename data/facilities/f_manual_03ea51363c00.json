@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_03ea51363c00",
+  "name": "Tacoma Recycle Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "3510 S Mullen St, Tacoma, WA 98409",
+  "phone": "253-591-5543",
+  "hours": "Use Tacoma's solid waste page to confirm current recycle-center hours and holiday schedules before visiting the Mullen Street campus.",
+  "fees": "Many recycling services are material-specific and may be low-cost or resident-focused. Confirm current rules before arrival.",
+  "rules": "Separate materials before you arrive and confirm current Tacoma recycling rules at the campus before unloading.",
+  "accepted_materials": [
+    "Recyclables",
+    "Cardboard",
+    "Metals",
+    "Common household recycling materials"
+  ],
+  "not_accepted": [
+    "Mixed trash loads",
+    "Materials outside posted recycling rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://tacoma.gov/government/departments/environmental-services/solid-waste/",
+  "osm_url": "https://tacoma.gov/government/departments/environmental-services/solid-waste/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "washington",
+      "city": "tacoma"
+    }
+  ],
+  "lat": 47.2301174,
+  "lng": -122.5005197,
+  "geocode_source": "census"
+}

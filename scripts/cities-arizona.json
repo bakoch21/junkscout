@@ -1,0 +1,5 @@
+[
+  { "state": "arizona", "city": "phoenix", "query": "Phoenix, AZ" },
+  { "state": "arizona", "city": "mesa", "query": "Mesa, AZ" },
+  { "state": "arizona", "city": "tucson", "query": "Tucson, AZ" }
+]

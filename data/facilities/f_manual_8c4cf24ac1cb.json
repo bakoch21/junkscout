@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_8c4cf24ac1cb",
+  "name": "Los Reales Sustainability Campus Recycling Drop-Off",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "5300 E Los Reales Rd, Tucson, AZ 85756",
+  "phone": "520-791-3171",
+  "hours": "Use the city campus page to confirm current public recycling drop-off hours before visiting.",
+  "fees": "Many recycling drop-off services are low-cost or resident-focused, but rules vary by material. Confirm current requirements before arrival.",
+  "rules": "Separate materials before you arrive and review the city's latest campus instructions before using the drop-off area.",
+  "accepted_materials": [
+    "Recyclables",
+    "Sorted paper and cardboard",
+    "Common household recycling materials"
+  ],
+  "not_accepted": [
+    "Unsorted mixed disposal loads",
+    "Materials outside posted recycling rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.tucsonaz.gov/Departments/Environmental-Services/Los-Reales-Sustainability-Campus",
+  "osm_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Los-Reales-Sustainability-Campus",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "arizona",
+      "city": "tucson"
+    }
+  ],
+  "lat": 32.119405306671,
+  "lng": -110.87727116001,
+  "geocode_match": "5300 E LOS REALES RD, TUCSON, AZ, 85756",
+  "geocode_source": "census"
+}

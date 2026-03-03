@@ -1,0 +1,80 @@
+{
+  "city": "Seattle",
+  "state": "WA",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "North Transfer Station",
+      "type": "Transfer Station",
+      "address": "1350 N 34th St, Seattle, WA 98103",
+      "phone": "206-684-8400",
+      "hours": "Seattle Public Utilities lists the North Transfer Station as open daily from 8:00 AM to 5:30 PM. Confirm holiday schedules before visiting.",
+      "fees": "Transfer-station fees vary by load type and size. Check Seattle Public Utilities for current rates before you drive.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Self-haul disposal loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside posted station rules"
+      ],
+      "rules": "Secure and cover your load and review current Seattle transfer-station rules before arrival.",
+      "source": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/transfer-stations",
+      "verified_date": "2026-03-03",
+      "lat": 47.64825145024,
+      "lng": -122.34046512684,
+      "geocode_match": "1350 N 34TH ST, SEATTLE, WA, 98103",
+      "geocode_source": "census"
+    },
+    {
+      "name": "South Transfer Station",
+      "type": "Transfer Station",
+      "address": "130 S Kenyon St, Seattle, WA 98108",
+      "phone": "206-684-8400",
+      "hours": "Seattle Public Utilities lists the South Transfer Station as open daily from 8:00 AM to 5:30 PM. Confirm holiday schedules before visiting.",
+      "fees": "Transfer-station fees vary by load type and size. Check Seattle Public Utilities for current rates before you drive.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Self-haul disposal loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Loads outside posted station rules"
+      ],
+      "rules": "Secure and cover your load and review current Seattle transfer-station rules before arrival.",
+      "source": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/transfer-stations",
+      "verified_date": "2026-03-03",
+      "lat": 47.532087958045,
+      "lng": -122.333415328005,
+      "geocode_match": "130 S KENYON ST, SEATTLE, WA, 98108",
+      "geocode_source": "census"
+    },
+    {
+      "name": "North Household Hazardous Waste Facility",
+      "type": "Hazardous Waste Facility",
+      "address": "12550 Stone Ave N, Seattle, WA 98133",
+      "phone": "206-296-4692",
+      "hours": "King County lists the north household hazardous waste facility as open Tuesday, Wednesday, Friday, Saturday, and Sunday from 9:00 AM to 5:00 PM. Confirm holiday schedules before visiting.",
+      "fees": "Household hazardous waste service is resident-focused. Confirm accepted items, quantity limits, and any fees before arrival.",
+      "accepted_materials": [
+        "Household hazardous waste",
+        "Paint",
+        "Batteries",
+        "Automotive fluids",
+        "Household chemicals"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside local HHW program rules"
+      ],
+      "rules": "Confirm accepted items and packaging instructions before bringing HHW to the site.",
+      "verified_date": "2026-03-03",
+      "lat": 47.7202547551,
+      "lng": -122.342136968978,
+      "geocode_match": "12550 STONE AVE N, SEATTLE, WA, 98133",
+      "geocode_source": "census"
+    }
+  ]
+}

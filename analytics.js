@@ -99,7 +99,9 @@
       const target = new URL(href, window.location.origin);
       if (target.origin !== window.location.origin) return "outbound";
       if (target.pathname.startsWith("/facility/")) return "facility";
-      if (target.pathname.startsWith("/texas/") || target.pathname.startsWith("/california/")) return "location";
+      if (/^\/(texas|california|georgia|florida|illinois|arizona|north-carolina|washington)\//.test(target.pathname)) {
+        return "location";
+      }
       return "internal";
     } catch {
       return "unknown";

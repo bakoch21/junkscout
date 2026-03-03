@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_f3b005708989",
+  "name": "Compost Central and Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "140 Valleydale Rd, Charlotte, NC 28214",
+  "phone": "980-314-3867",
+  "hours": "Mecklenburg County lists this site as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday schedules before visiting.",
+  "fees": "County compost and recycling services may be resident-focused or material-specific. Confirm current rules before arrival.",
+  "rules": "Review current Mecklenburg County site guidance for accepted materials and any proof-of-residency requirements before visiting.",
+  "accepted_materials": [
+    "Compost-related yard waste",
+    "Recyclables",
+    "Bulky residential items",
+    "Special materials accepted under county rules"
+  ],
+  "not_accepted": [
+    "Commercial loads outside county policy",
+    "Materials outside posted site rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "",
+  "osm_url": "",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "north-carolina",
+      "city": "charlotte"
+    }
+  ],
+  "lat": 35.284486283221,
+  "lng": -80.919794992006,
+  "geocode_match": "140 VALLEYDALE RD, CHARLOTTE, NC, 28214",
+  "geocode_source": "census"
+}

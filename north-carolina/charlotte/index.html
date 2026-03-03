@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://junkscout.io/#org",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://junkscout.io/#website",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/",
+      "publisher": {
+        "@id": "https://junkscout.io/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://junkscout.io/?where={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://junkscout.io/north-carolina/charlotte/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://junkscout.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "North Carolina",
+          "item": "https://junkscout.io/north-carolina/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Charlotte",
+          "item": "https://junkscout.io/north-carolina/charlotte/"
+        }
+      ]
+    },
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/north-carolina/charlotte/#place",
+      "name": "Dump and landfill options in Charlotte, North Carolina",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Charlotte",
+        "addressRegion": "NC",
+        "addressCountry": "US"
+      },
+      "hasMap": "https://www.google.com/maps/search/dump%20landfill%20Charlotte%20NC",
+      "url": "https://junkscout.io/north-carolina/charlotte/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/north-carolina/charlotte/#webpage",
+      "name": "Charlotte Trash Dump, Transfer Stations & Landfills | JunkScout",
+      "description": "Compare Charlotte dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.",
+      "url": "https://junkscout.io/north-carolina/charlotte/",
+      "isPartOf": {
+        "@id": "https://junkscout.io/#website"
+      },
+      "about": {
+        "@id": "https://junkscout.io/north-carolina/charlotte/#place"
+      },
+      "breadcrumb": {
+        "@id": "https://junkscout.io/north-carolina/charlotte/#breadcrumb"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://junkscout.io/north-carolina/charlotte/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I dump trash in Charlotte today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Charlotte has a mix of public drop-off sites, transfer stations, landfills, recycling centers, and specialty programs depending on your load. Use the city guide to compare source-linked options before you drive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there free or resident-only dump options in Charlotte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some Charlotte-area services are resident-focused and may offer free or lower-cost drop-off for specific materials. Always confirm proof-of-address rules, item limits, and current eligibility before arrival."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Charlotte transfer stations and landfills charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees vary by load size, material type, operator, and residency. Check the source links for each facility and verify the latest rates before you drive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What materials can I bring to a drop-off site in Charlotte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accepted materials vary by site and can include household trash, yard waste, construction debris, recyclables, tires, electronics, paint, batteries, and other specialty items. Always confirm the posted acceptance list before visiting."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO CONTROL -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- Will be set dynamically by city.js -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+
+  <!-- ✅ Leaflet (map) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    /* Minimal map styling */
+    #mapWrap { margin-top: 14px; }
+    #map {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+      background: rgba(29,29,31,0.03);
+      overflow: hidden;
+    }
+    @media (max-width: 720px) {
+      #map { height: 260px; }
+    }
+  </style>
+  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
+
+  <title>Charlotte Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
+  <meta name="description" content="Compare Charlotte dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <link rel="canonical" href="https://junkscout.io/north-carolina/charlotte/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Charlotte Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta property="og:description" content="Compare Charlotte dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <meta property="og:url" content="https://junkscout.io/north-carolina/charlotte/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Charlotte Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta name="twitter:description" content="Compare Charlotte dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+
+</head>
+
+<body data-state="north-carolina" data-city="charlotte" data-enhanced-city="1" data-blend-curated-with-data="1">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1 id="cityTitle">Where to dump trash in Charlotte, North Carolina</h1>
+
+      <p class="subhead" id="cityAnswer">Find public landfills, transfer stations, and recycling drop-offs in Charlotte, North Carolina, with hours, rules, and accepted materials when available.</p>
+
+      <p class="muted" id="citySubhead" style="margin-top:10px">Need to dump trash in Charlotte fast? Start with these verified options and confirm rules before you drive.</p>
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    
+    <a class="quickstart__item" href="/north-carolina/charlotte/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">Sorted recyclables, electronics, and reusable materials</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+
+      <!-- ✅ Injected at build time -->
+      <!-- STATEHUBLINK:START -->
+<div class="cityhub__backnav">
+  <a class="cityhub__backlink" href="/north-carolina/">&larr; Back to North Carolina cities</a>
+</div>
+<!-- STATEHUBLINK:END -->
+
+      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- POPULARCITIES:START -->
+      <!-- POPULARCITIES:END -->
+
+      <div class="muted small" role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
+        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      </div>
+
+      <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
+        City rules &amp; fees
+      </button>
+
+      <!-- ✅ Map -->
+      <section id="mapWrap" aria-label="Map">
+        <div id="map"></div>
+      </section>
+
+      <!-- Results injected here -->
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Hickory Grove Recycling Center</h3>
+          <p class="card__meta">8007 Pence Rd, Charlotte, NC 28215</p>
+          <p class="card__meta">Accepts: Recyclables, Yard waste, Bulky residential items</p>
+          <p class="card__meta">Verified 2026-03-03</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=8007%20Pence%20Rd%2C%20Charlotte%2C%20NC%2028215" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_e9be840f3e6d/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Foxhole Recycling Center</h3>
+          <p class="card__meta">17131 Lancaster Hwy, Charlotte, NC 28277</p>
+          <p class="card__meta">Accepts: Recyclables, Yard waste, Bulky residential items</p>
+          <p class="card__meta">Verified 2026-03-03</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=17131%20Lancaster%20Hwy%2C%20Charlotte%2C%20NC%2028277" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_eb6dd9a13112/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Compost Central and Recycling Center</h3>
+          <p class="card__meta">140 Valleydale Rd, Charlotte, NC 28214</p>
+          <p class="card__meta">Accepts: Compost-related yard waste, Recyclables, Bulky residential items</p>
+          <p class="card__meta">Verified 2026-03-03</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=140%20Valleydale%20Rd%2C%20Charlotte%2C%20NC%2028214" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_f3b005708989/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>North Mecklenburg Recycling Center</h3>
+          <p class="card__meta">12300 N Statesville Rd, Huntersville, NC 28078</p>
+          <p class="card__meta">Accepts: Recyclables, Yard waste, Bulky residential items</p>
+          <p class="card__meta">Verified 2026-03-03</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=12300%20N%20Statesville%20Rd%2C%20Huntersville%2C%20NC%2028078" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_24774d0dccfa/">Facility page</a>
+          </div>
+        </article>
+</section>
+
+      <!-- SEO COPY START -->
+      <section class="seo-copy" style="margin-top:26px">
+        <p>
+          Looking for a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
+          <strong>recycling drop-off</strong> near <span id="cityNameInline">Charlotte</span>?
+          JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
+        </p>
+
+        <h2 id="faqDumpWhere">Where can I dump trash in Charlotte today?</h2>
+        <p>
+          Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
+          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what’s accepted before you drive out.
+        </p>
+
+        <h2 id="faqDumpFree">Where can I drop off trash for free in Charlotte?</h2>
+        <p id="faqDumpFreeBody">Some Charlotte-area services are resident-focused and may offer free or lower-cost drop-off for specific materials, while private transfer stations and landfills usually charge by load size or material type.</p>
+
+        <h2>What items are typically accepted?</h2>
+        <p>
+          Commonly accepted items include <strong>furniture</strong>, <strong>yard waste</strong>, <strong>brush</strong>,
+          <strong>construction debris</strong> (C&amp;D), appliances (sometimes restricted), and mixed recyclables.
+          Some facilities accept only certain materials or require loads to be separated.
+        </p>
+
+        <h2>Fees, hours, and resident requirements</h2>
+        <p>
+          Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
+          Others charge based on load size, weight, or material type.
+          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+        </p>
+
+        <!-- NEARBY cities injected here at build time -->
+        <!-- NEARBY:START -->
+<section class="seo-copy" aria-label="Nearby locations">
+  <h2>Nearby dump and landfill locations</h2>
+  <p class="muted">
+    If you do not see the right option in Charlotte, check these nearby cities in North Carolina.
+  </p>
+
+  <div class="cityhub__grid" style="margin-top:10px">
+    
+      <a class="cityhub__pill" href="/north-carolina/winston-salem/">
+        Winston Salem <span class="muted" style="font-weight:600">&middot; 71 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/north-carolina/greensboro/">
+        Greensboro <span class="muted" style="font-weight:600">&middot; 81 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/north-carolina/durham/">
+        Durham <span class="muted" style="font-weight:600">&middot; 124 mi</span>
+      </a>
+    
+  </div>
+</section>
+<!-- NEARBY:END -->
+      </section>
+      <!-- SEO COPY END -->
+
+      <p class="muted small" style="margin-top:12px">
+        Results are sourced from public listings and community contributions. Always confirm before visiting.
+      </p>
+
+      <section class="why" style="margin-top:40px">
+        <h2>About dumping in this city</h2>
+        <div class="why__grid">
+          <div class="why__item">
+            <div class="icon">🪪</div>
+            <h3>Resident rules vary</h3>
+            <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">🧱</div>
+            <h3>Construction debris</h3>
+            <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">☎️</div>
+            <h3>Always confirm</h3>
+            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>Explore more locations</h2>
+          <p class="muted">Browse more city directories by state.</p>
+          <div class="report__actions">
+            <a class="btn btn--ghost" href="/texas/">Texas</a>
+            <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
+            <a class="btn btn--ghost" href="/georgia/">Georgia</a>
+            <a class="btn btn--ghost" href="/florida/">Florida</a>
+            <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
+            <a class="btn" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ✅ Leaflet JS must load before city.js -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
+
+  <script src="/privacy-consent.js?v=20260303e" defer></script>
+  <script src="/analytics.js" defer></script>
+  <script src="/city.js" defer></script>
+  <script src="/houston-modal.js" defer></script>
+
+<script id="CURATED:JSON" type="application/json">
+{"city":"Charlotte","state":"NC","last_updated":"2026-03-03","facilities":[{"name":"Hickory Grove Recycling Center","type":"Recycling Center","address":"8007 Pence Rd, Charlotte, NC 28215","phone":"980-314-3867","hours":"Mecklenburg County lists this full-service recycling center as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday hours before visiting.","fees":"Many county recycling services are resident-focused and may be free for accepted materials. Confirm current rules and any charges before arrival.","accepted_materials":["Recyclables","Yard waste","Bulky residential items","Special materials accepted under county rules"],"not_accepted":["Commercial loads outside county policy","Materials outside posted center rules"],"rules":"Use current Mecklenburg County guidance to confirm accepted materials, separation rules, and residency requirements before you drive.","verified_date":"2026-03-03","lat":35.218599436794,"lng":-80.697514374208,"geocode_match":"8007 PENCE RD, CHARLOTTE, NC, 28215","geocode_source":"census","facility_id":"f_manual_e9be840f3e6d"},{"name":"Foxhole Recycling Center","type":"Recycling Center","address":"17131 Lancaster Hwy, Charlotte, NC 28277","phone":"980-314-3867","hours":"Mecklenburg County lists this full-service recycling center as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday hours before visiting.","fees":"Many county recycling services are resident-focused and may be free for accepted materials. Confirm current rules and any charges before arrival.","accepted_materials":["Recyclables","Yard waste","Bulky residential items","Special materials accepted under county rules"],"not_accepted":["Commercial loads outside county policy","Materials outside posted center rules"],"rules":"Use current Mecklenburg County guidance to confirm accepted materials, separation rules, and residency requirements before you drive.","verified_date":"2026-03-03","lat":35.017189828371,"lng":-80.850281543417,"geocode_match":"17131 LANCASTER HWY, CHARLOTTE, NC, 28277","geocode_source":"census","facility_id":"f_manual_eb6dd9a13112"},{"name":"Compost Central and Recycling Center","type":"Recycling Center","address":"140 Valleydale Rd, Charlotte, NC 28214","phone":"980-314-3867","hours":"Mecklenburg County lists this site as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday schedules before visiting.","fees":"County compost and recycling services may be resident-focused or material-specific. Confirm current rules before arrival.","accepted_materials":["Compost-related yard waste","Recyclables","Bulky residential items","Special materials accepted under county rules"],"not_accepted":["Commercial loads outside county policy","Materials outside posted site rules"],"rules":"Review current Mecklenburg County site guidance for accepted materials and any proof-of-residency requirements before visiting.","verified_date":"2026-03-03","lat":35.284486283221,"lng":-80.919794992006,"geocode_match":"140 VALLEYDALE RD, CHARLOTTE, NC, 28214","geocode_source":"census","facility_id":"f_manual_f3b005708989"},{"name":"North Mecklenburg Recycling Center","type":"Recycling Center","address":"12300 N Statesville Rd, Huntersville, NC 28078","phone":"980-314-3867","hours":"Mecklenburg County lists this full-service recycling center as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday schedules before visiting.","fees":"Many county recycling services are resident-focused and may be free for accepted materials. Confirm current rules and any charges before arrival.","accepted_materials":["Recyclables","Yard waste","Bulky residential items","Special materials accepted under county rules"],"not_accepted":["Commercial loads outside county policy","Materials outside posted center rules"],"rules":"Use current Mecklenburg County guidance to confirm accepted materials, separation rules, and residency requirements before you drive.","verified_date":"2026-03-03","lat":35.387632426359,"lng":-80.84697408875,"geocode_match":"12300 STATESVILLE RD, HUNTERSVILLE, NC, 28078","geocode_source":"census","facility_id":"f_manual_24774d0dccfa"}]}
+</script>
+</body>
+</html>
+

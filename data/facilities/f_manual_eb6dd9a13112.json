@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_eb6dd9a13112",
+  "name": "Foxhole Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "17131 Lancaster Hwy, Charlotte, NC 28277",
+  "phone": "980-314-3867",
+  "hours": "Mecklenburg County lists this full-service recycling center as open Tuesday through Saturday, 7:00 AM to 4:00 PM. Confirm holiday hours before visiting.",
+  "fees": "Many county recycling services are resident-focused and may be free for accepted materials. Confirm current rules and any charges before arrival.",
+  "rules": "Use current Mecklenburg County guidance to confirm accepted materials, separation rules, and residency requirements before you drive.",
+  "accepted_materials": [
+    "Recyclables",
+    "Yard waste",
+    "Bulky residential items",
+    "Special materials accepted under county rules"
+  ],
+  "not_accepted": [
+    "Commercial loads outside county policy",
+    "Materials outside posted center rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "",
+  "osm_url": "",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "north-carolina",
+      "city": "charlotte"
+    }
+  ],
+  "lat": 35.017189828371,
+  "lng": -80.850281543417,
+  "geocode_match": "17131 LANCASTER HWY, CHARLOTTE, NC, 28277",
+  "geocode_source": "census"
+}

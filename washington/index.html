@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Washington Dump, Landfill & Transfer Station Locations by City | JunkScout</title>
+  <meta name="description" content="Browse Washington cities to find dumps, landfills, transfer stations, and recycling drop-off locations." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://junkscout.io/washington/" />
+
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1>Browse locations in Washington</h1>
+      <p class="subhead">Choose a city to find dumps, landfills, transfer stations, and recycling drop-offs.</p>
+      <section class="state-city-strip" aria-label="Top Washington city guides" data-state-rail-scope>
+        <div class="state-city-strip__head">
+          <div>
+            <h2>Start with top Washington cities</h2>
+            <p class="muted">Metro guides built around transfer stations, recycling centers, and household hazardous waste access.</p>
+          </div>
+          <div class="state-rail-controls" aria-label="Washington city rail controls">
+            <button type="button" class="state-rail-btn" data-state-rail-prev="wa-cities" aria-label="Scroll Washington cities left">&#8592;</button>
+            <button type="button" class="state-rail-btn" data-state-rail-next="wa-cities" aria-label="Scroll Washington cities right">&#8594;</button>
+          </div>
+        </div>
+
+        <div class="state-rail-wrap">
+          <div class="state-city-strip__grid state-city-strip__grid--rail" data-state-rail="wa-cities" data-state-rail-item=".state-city-card">
+            <a class="state-city-card state-city-card--fl-a" href="/washington/seattle/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Seattle</strong>
+              <span class="state-city-card__meta">Transfer-station and HHW access across north and south Seattle.</span>
+              <span class="state-city-card__cta">Open Seattle -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--fl-b" href="/washington/tacoma/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Tacoma</strong>
+              <span class="state-city-card__meta">Recovery, recycling, and HHW options from the Tacoma solid-waste campus.</span>
+              <span class="state-city-card__cta">Open Tacoma -&gt;</span>
+            </a>
+            <a class="state-city-card state-city-card--fl-c" href="/washington/spokane/">
+              <span class="state-city-card__tag">Top city guide</span>
+              <strong>Spokane</strong>
+              <span class="state-city-card__meta">Regional transfer-station and disposal options across the Spokane area.</span>
+              <span class="state-city-card__cta">Open Spokane -&gt;</span>
+            </a>
+          </div>
+        </div>
+        <p class="state-city-strip__foot">Auto-scroll is on. Use arrows, swipe, or shift-wheel to explore cities.</p>
+      </section>
+
+      <section class="cityhub" style="margin-top:22px">
+        <div class="cityhub__controls">
+          <input
+            id="citySearch"
+            class="cityhub__search"
+            type="search"
+            placeholder="Search Washington cities (e.g., Seattle, Tacoma, Spokane)"
+            aria-label="Search Washington cities"
+          />
+          <div class="muted small" id="cityCount"></div>
+        </div>
+
+        <div class="cityhub__grid" id="cityList">
+  <a class="cityhub__pill" href="/washington/seattle/">Seattle</a>
+  <a class="cityhub__pill" href="/washington/spokane/">Spokane</a>
+  <a class="cityhub__pill" href="/washington/tacoma/">Tacoma</a>
+        </div>
+
+        <p class="muted small" style="margin-top:12px">
+          Washington launches with three major metros first so each page is useful before statewide expansion.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <script src="/privacy-consent.js?v=20260303e" defer></script>
+  <script src="/analytics.js" defer></script>
+  <script src="/app.js" defer></script>
+  <script>
+    (async function () {
+      const listEl = document.getElementById("cityList");
+      const searchEl = document.getElementById("citySearch");
+      const countEl = document.getElementById("cityCount");
+
+      function titleCaseFromSlug(slug = "") {
+        return slug
+          .split("-")
+          .filter(Boolean)
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ");
+      }
+
+      let cities = [];
+
+      const seededCities = Array.from(listEl.querySelectorAll("a.cityhub__pill"))
+        .map((a) => ({
+          label: String(a.textContent || "").trim(),
+          href: String(a.getAttribute("href") || "").trim(),
+        }))
+        .filter((x) => x.label && x.href);
+
+      function render(list) {
+        listEl.innerHTML = list
+          .map(
+            (c) => `
+              <a class="cityhub__pill" href="${c.href}">
+                ${c.label}
+              </a>
+            `
+          )
+          .join("");
+
+        countEl.textContent = `${list.length} cities`;
+      }
+
+      function filter(q) {
+        const query = (q || "").trim().toLowerCase();
+        if (!query) return cities;
+        return cities.filter((c) => c.label.toLowerCase().includes(query));
+      }
+
+      function bindSearch() {
+        if (searchEl.dataset.bound === "1") return;
+        searchEl.dataset.bound = "1";
+        searchEl.addEventListener("input", () => {
+          render(filter(searchEl.value));
+        });
+      }
+
+      if (seededCities.length > 0) {
+        cities = seededCities.sort((a, b) => a.label.localeCompare(b.label));
+        render(cities);
+        bindSearch();
+        return;
+      }
+
+      try {
+        const res = await fetch("/scripts/cities-washington.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`Failed to load city list: ${res.status}`);
+        const data = await res.json();
+
+        cities = (data || [])
+          .filter((x) => x && String(x.state).toLowerCase() === "washington" && x.city)
+          .map((x) => {
+            const slug = String(x.city).toLowerCase();
+            return {
+              slug,
+              label: titleCaseFromSlug(slug),
+              href: `/washington/${slug}/`,
+            };
+          })
+          .sort((a, b) => a.label.localeCompare(b.label));
+
+        render(cities);
+        bindSearch();
+      } catch (err) {
+        console.error(err);
+        if (cities.length === 0) {
+          listEl.innerHTML = `<div class="muted">Unable to load city list right now.</div>`;
+          countEl.textContent = "";
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

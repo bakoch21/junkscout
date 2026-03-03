@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_ee29eb4aa4ae",
+  "name": "27th Avenue Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "3060 S 27th Ave, Phoenix, AZ 85009",
+  "phone": "602-262-6251",
+  "hours": "City of Phoenix lists this transfer station as open Monday through Saturday, 5:30 AM to 5:00 PM. Confirm holiday hours before visiting.",
+  "fees": "Transfer-station fees vary by load size, material type, and residency. Check the current city rate information before you drive.",
+  "rules": "Secure and cover your load, follow site unloading directions, and confirm accepted materials before arrival.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulky items",
+    "Yard waste",
+    "Self-haul disposal loads"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste in the transfer line",
+    "Loads outside posted city rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.phoenix.gov/publicworks/garbage/transfer-stations.html",
+  "osm_url": "https://www.phoenix.gov/publicworks/garbage/transfer-stations.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "arizona",
+      "city": "phoenix"
+    }
+  ],
+  "lat": 33.416643863296,
+  "lng": -112.117296584296,
+  "geocode_match": "3060 S 27TH AVE, PHOENIX, AZ, 85009",
+  "geocode_source": "census"
+}

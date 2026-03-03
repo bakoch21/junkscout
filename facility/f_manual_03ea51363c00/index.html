@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/facility/f_manual_03ea51363c00/#place",
+      "name": "Tacoma Recycle Center",
+      "url": "https://junkscout.io/facility/f_manual_03ea51363c00/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "WA",
+        "addressCountry": "US",
+        "streetAddress": "3510 S Mullen St, Tacoma, WA 98409"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.2301174,
+        "longitude": -122.5005197
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/facility/f_manual_03ea51363c00/#webpage",
+      "name": "Tacoma Recycle Center (Tacoma, WA) - Hours, Fees, Rules | JunkScout",
+      "description": "Address, map, and source links for Tacoma Recycle Center. Always confirm fees, hours, and accepted materials before visiting.",
+      "url": "https://junkscout.io/facility/f_manual_03ea51363c00/",
+      "about": {
+        "@id": "https://junkscout.io/facility/f_manual_03ea51363c00/#place"
+      }
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="robots" content="index,follow" />
+
+  <!-- generator will replace title/description/canonical -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
+
+  <title>Tacoma Recycle Center (Tacoma, WA) - Hours, Fees, Rules | JunkScout</title>
+  <meta name="description" content="Address, map, and source links for Tacoma Recycle Center. Always confirm fees, hours, and accepted materials before visiting." />
+  <link rel="canonical" href="https://junkscout.io/facility/f_manual_03ea51363c00/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tacoma Recycle Center (Tacoma, WA) - Hours, Fees, Rules | JunkScout" />
+  <meta property="og:description" content="Address, map, and source links for Tacoma Recycle Center. Always confirm fees, hours, and accepted materials before visiting." />
+  <meta property="og:url" content="https://junkscout.io/facility/f_manual_03ea51363c00/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Tacoma Recycle Center (Tacoma, WA) - Hours, Fees, Rules | JunkScout" />
+  <meta name="twitter:description" content="Address, map, and source links for Tacoma Recycle Center. Always confirm fees, hours, and accepted materials before visiting." />
+
+</head>
+
+<body data-state="washington" data-city="tacoma">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <p class="muted small" id="facilityKicker">Recycling center</p>
+
+      <h1 id="facilityTitle">Tacoma Recycle Center</h1>
+      <p class="subhead" id="facilitySubhead">Recycling center in the area. Confirm hours, fees, and accepted materials before visiting.</p>
+
+      <!-- ✅ FACILITY BADGES (injected by facility.js) -->
+      <div id="facilityBadges"></div>
+
+      <p class="muted small" style="margin:10px 0 10px">
+        Source-linked where possible • Always confirm fees/rules before visiting
+      </p>
+
+      <section class="wizard" style="margin-top:14px">
+        <div class="wizard__row" style="grid-template-columns: 1fr 1fr 1fr; align-items:center">
+          <div>
+            <div class="label">Address</div>
+            <div id="facilityAddress" style="font-weight:700">3510 S Mullen St, Tacoma, WA 98409</div>
+            <div class="hint" id="facilityCoords">Coordinates: 47.2301174, -122.5005197</div>
+          </div>
+
+          <div>
+            <div class="label">Links</div>
+            <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; align-items:center">
+              <a class="link" id="facilityDirections" href="https://www.google.com/maps/search/?api=1&amp;query=47.2301174,-122.5005197" target="_blank" rel="noopener">Directions</a>
+              <a class="link" id="facilityWebsite" href="#" target="_blank" rel="noopener" style="display:none">Website</a>
+              <a class="link" id="facilitySource" href="https://tacoma.gov/government/departments/environmental-services/solid-waste/" target="_blank" rel="noopener" style="display:inline">Source</a>
+
+              <!-- City rules trigger (houston-modal.js will show it when appropriate) -->
+              <button
+                id="houstonRulesBtn"
+                type="button"
+                class="btn btn--ghost"
+                style="display:none; padding:8px 10px; border-radius:12px; font-weight:700"
+                aria-haspopup="dialog"
+                aria-controls="houstonModal"
+              >
+                City rules &amp; fees
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <a class="btn btn--primary btn--big" id="facilityCta" href="https://www.google.com/maps/search/?api=1&amp;query=47.2301174,-122.5005197" target="_blank" rel="noopener">
+              Open in Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="wizard__note" style="margin-top:16px">
+          <span class="dot"></span>
+          <span>Fees, hours, and accepted materials vary — confirm with the facility directly.</span>
+        </div>
+      </section>
+
+      <section class="seo-copy" style="margin-top:26px">
+        <h2>About this facility</h2>
+        <p id="facilityAbout">This location is listed as a recycling center. Rules, residency requirements, and fees vary by facility. Always confirm details directly before visiting.</p>
+<div id="verifiedDetails">
+  <section class="seo-copy" aria-label="Verified facility details" style="margin-top:18px">
+    <h2>Verified facility details</h2>
+    <p class="muted" style="margin-top:6px">Verified: 2026-03-03</p>
+    <div style="margin-top:10px"><strong>Hours:</strong> Use Tacoma&#39;s solid waste page to confirm current recycle-center hours and holiday schedules before visiting the Mullen Street campus.</div>
+    <div style="margin-top:8px"><strong>Fees:</strong> Many recycling services are material-specific and may be low-cost or resident-focused. Confirm current rules before arrival.</div>
+    <div style="margin-top:8px"><strong>Rules:</strong> Separate materials before you arrive and confirm current Tacoma recycling rules at the campus before unloading.</div>
+    <div style="margin-top:10px"><strong>Accepted:</strong><ul style="margin:6px 0 0 18px"><li>Recyclables</li><li>Cardboard</li><li>Metals</li><li>Common household recycling materials</li></ul></div>
+    <div style="margin-top:10px"><strong>Not accepted:</strong><ul style="margin:6px 0 0 18px"><li>Mixed trash loads</li><li>Materials outside posted recycling rules</li></ul></div>
+    <div style="margin-top:12px"><a class="link" href="https://tacoma.gov/government/departments/environmental-services/solid-waste/" target="_blank" rel="noopener">Verified source</a></div>
+  </section>
+</div>
+
+        <h2>Nearby facilities</h2>
+        <p class="muted" style="margin-top:-6px">
+          Compare nearby options before you drive:
+        </p>
+        <div class="cityhub__grid" id="facilityNearby" style="margin-top:10px"><a class="cityhub__pill" href="/facility/f_manual_882011e4603e/">Tacoma Household Hazardous Waste Facility (Tacoma, 0.0 mi)</a><a class="cityhub__pill" href="/facility/f_manual_4657c547fc92/">Tacoma Recovery &amp; Transfer Center (Tacoma, 0.0 mi)</a><a class="cityhub__pill" href="/facility/f_manual_b3105cc0cdb0/">South Transfer Station (Seattle, 22.3 mi)</a><a class="cityhub__pill" href="/facility/f_manual_c98c80a45a01/">North Transfer Station (Seattle, 29.8 mi)</a><a class="cityhub__pill" href="/facility/f_manual_96272b079edc/">North Household Hazardous Waste Facility (Seattle, 34.7 mi)</a><a class="cityhub__pill" href="/washington/tacoma/">See all Tacoma facilities</a></div>
+
+        <h2>May serve nearby cities</h2>
+        <p class="muted" style="margin-top:-6px">
+          This facility appears in city listings for:
+        </p>
+        <div class="cityhub__grid" id="facilityCities" style="margin-top:10px"><a class="cityhub__pill" href="/washington/tacoma/">Tacoma</a></div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>Explore more locations</h2>
+          <p class="muted">Browse more city directories by state.</p>
+          <div class="report__actions">
+            <a class="btn btn--ghost" href="/texas/">Texas</a>
+            <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
+            <a class="btn btn--ghost" href="/georgia/">Georgia</a>
+            <a class="btn btn--ghost" href="/florida/">Florida</a>
+            <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
+            <a class="btn" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Modal mount point (houston-modal.js will inject the dialog here) -->
+  <div id="houstonModalRoot"></div>
+
+  <script src="/privacy-consent.js?v=20260303e" defer></script>
+  <script src="/analytics.js" defer></script>
+  <script src="/facility.js"></script>
+  <script src="/houston-modal.js" defer></script>
+</body>
+</html>
+

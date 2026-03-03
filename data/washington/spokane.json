@@ -1,0 +1,107 @@
+[
+  {
+    "id": "f_manual_05020d5eade7",
+    "name": "North Transfer Station",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "22123 N Elk-Chattaroy Rd, Colbert, WA 99005",
+    "phone": "509-625-6580",
+    "hours": "Use Spokane's solid waste locations page to confirm current transfer-station hours and holiday schedules before visiting.",
+    "fees": "Transfer-station fees vary by load type and size. Check Spokane's current guidance before you drive.",
+    "rules": "Secure your load and confirm current site rules, accepted materials, and rates before arrival.",
+    "accepted_materials": [
+      "Household trash",
+      "Bulky waste",
+      "Self-haul disposal loads"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Loads outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://my.spokanecity.org/solidwaste/locations/",
+    "osm_url": "https://my.spokanecity.org/solidwaste/locations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "washington",
+        "city": "spokane"
+      }
+    ],
+    "lat": 47.858943653678,
+    "lng": -117.354501281888,
+    "geocode_match": "22123 N ELK CHATTAROY RD, COLBERT, WA, 99005",
+    "geocode_source": "census",
+    "facility_id": "f_manual_05020d5eade7"
+  },
+  {
+    "id": "f_manual_02f1a0e902b4",
+    "name": "Valley Transfer Station",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "3941 N Sullivan Rd, Spokane Valley, WA 99216",
+    "phone": "509-625-6580",
+    "hours": "Use Spokane's solid waste locations page to confirm current transfer-station hours and holiday schedules before visiting.",
+    "fees": "Transfer-station fees vary by load type and size. Check Spokane's current guidance before you drive.",
+    "rules": "Secure your load and confirm current site rules, accepted materials, and rates before arrival.",
+    "accepted_materials": [
+      "Household trash",
+      "Bulky waste",
+      "Self-haul disposal loads"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Loads outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://my.spokanecity.org/solidwaste/locations/",
+    "osm_url": "https://my.spokanecity.org/solidwaste/locations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "washington",
+        "city": "spokane"
+      }
+    ],
+    "lat": 47.691492444179,
+    "lng": -117.196968117744,
+    "geocode_match": "3941 N SULLIVAN RD, SPOKANE VALLEY, WA, 99216",
+    "geocode_source": "census",
+    "facility_id": "f_manual_02f1a0e902b4"
+  },
+  {
+    "id": "f_manual_b2b4bdff6076",
+    "name": "Spokane Waste to Energy Facility",
+    "type": "landfill",
+    "type_label": "Landfill",
+    "address": "2900 S Geiger Blvd, Spokane, WA 99224",
+    "phone": "509-625-6580",
+    "hours": "Use Spokane's solid waste locations page to confirm current disposal-facility hours and holiday schedules before visiting.",
+    "fees": "Disposal charges vary by load type and size. Check Spokane's current guidance before you drive.",
+    "rules": "Secure your load and review Spokane's current disposal guidance before arriving at the Geiger campus.",
+    "accepted_materials": [
+      "Household trash",
+      "Self-haul disposal loads",
+      "Approved bulky waste"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Loads outside posted facility rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://my.spokanecity.org/solidwaste/locations/",
+    "osm_url": "https://my.spokanecity.org/solidwaste/locations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "washington",
+        "city": "spokane"
+      }
+    ],
+    "lat": 47.62844001284,
+    "lng": -117.499573150028,
+    "geocode_match": "2900 S GEIGER BLVD, SPOKANE, WA, 99224",
+    "geocode_source": "census",
+    "facility_id": "f_manual_b2b4bdff6076"
+  }
+]

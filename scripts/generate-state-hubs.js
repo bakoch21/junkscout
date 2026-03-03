@@ -4,9 +4,12 @@ const path = require("path");
 const STATES = [
   { slug: "texas", file: path.join("texas", "index.html") },
   { slug: "california", file: path.join("california", "index.html") },
+  { slug: "arizona", file: path.join("arizona", "index.html") },
   { slug: "georgia", file: path.join("georgia", "index.html") },
   { slug: "florida", file: path.join("florida", "index.html") },
   { slug: "illinois", file: path.join("illinois", "index.html") },
+  { slug: "north-carolina", file: path.join("north-carolina", "index.html") },
+  { slug: "washington", file: path.join("washington", "index.html") },
 ];
 
 const NOISE_PREFIX_TOKENS = new Set([

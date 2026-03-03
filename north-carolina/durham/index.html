@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<!-- JSON-LD (injected during generation) -->
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://junkscout.io/#org",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://junkscout.io/#website",
+      "name": "JunkScout",
+      "url": "https://junkscout.io/",
+      "publisher": {
+        "@id": "https://junkscout.io/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://junkscout.io/?where={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://junkscout.io/north-carolina/durham/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://junkscout.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "North Carolina",
+          "item": "https://junkscout.io/north-carolina/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Durham",
+          "item": "https://junkscout.io/north-carolina/durham/"
+        }
+      ]
+    },
+    {
+      "@type": "Place",
+      "@id": "https://junkscout.io/north-carolina/durham/#place",
+      "name": "Dump and landfill options in Durham, North Carolina",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Durham",
+        "addressRegion": "NC",
+        "addressCountry": "US"
+      },
+      "hasMap": "https://www.google.com/maps/search/dump%20landfill%20Durham%20NC",
+      "url": "https://junkscout.io/north-carolina/durham/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://junkscout.io/north-carolina/durham/#webpage",
+      "name": "Durham Trash Dump, Transfer Stations & Landfills | JunkScout",
+      "description": "Compare Durham dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.",
+      "url": "https://junkscout.io/north-carolina/durham/",
+      "isPartOf": {
+        "@id": "https://junkscout.io/#website"
+      },
+      "about": {
+        "@id": "https://junkscout.io/north-carolina/durham/#place"
+      },
+      "breadcrumb": {
+        "@id": "https://junkscout.io/north-carolina/durham/#breadcrumb"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://junkscout.io/north-carolina/durham/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I dump trash in Durham today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Durham has a mix of public drop-off sites, transfer stations, landfills, recycling centers, and specialty programs depending on your load. Use the city guide to compare source-linked options before you drive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there free or resident-only dump options in Durham?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some Durham-area services are resident-focused and may offer free or lower-cost drop-off for specific materials. Always confirm proof-of-address rules, item limits, and current eligibility before arrival."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Durham transfer stations and landfills charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees vary by load size, material type, operator, and residency. Check the source links for each facility and verify the latest rates before you drive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What materials can I bring to a drop-off site in Durham?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accepted materials vary by site and can include household trash, yard waste, construction debris, recyclables, tires, electronics, paint, batteries, and other specialty items. Always confirm the posted acceptance list before visiting."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- JSONLD:END -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO CONTROL -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- Will be set dynamically by city.js -->
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+
+  <!-- ✅ Leaflet (map) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    /* Minimal map styling */
+    #mapWrap { margin-top: 14px; }
+    #map {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+      background: rgba(29,29,31,0.03);
+      overflow: hidden;
+    }
+    @media (max-width: 720px) {
+      #map { height: 260px; }
+    }
+  </style>
+  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
+
+  <title>Durham Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
+  <meta name="description" content="Compare Durham dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <link rel="canonical" href="https://junkscout.io/north-carolina/durham/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Durham Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta property="og:description" content="Compare Durham dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+  <meta property="og:url" content="https://junkscout.io/north-carolina/durham/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Durham Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
+  <meta name="twitter:description" content="Compare Durham dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
+
+</head>
+
+<body data-state="north-carolina" data-city="durham" data-enhanced-city="1" data-blend-curated-with-data="1">
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="/">
+        <img src="/logo.svg?v=20260223a" alt="JunkScout" class="brand__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="/#browse-locations">Browse locations</a>
+        <a href="/about/" class="muted">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/texas/">Texas</a>
+        <a class="btn btn--primary" href="/california/">California</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container">
+      <h1 id="cityTitle">Where to dump trash in Durham, North Carolina</h1>
+
+      <p class="subhead" id="cityAnswer">Find public landfills, transfer stations, and recycling drop-offs in Durham, North Carolina, with hours, rules, and accepted materials when available.</p>
+
+      <p class="muted" id="citySubhead" style="margin-top:10px">Need to dump trash in Durham fast? Start with these verified options and confirm rules before you drive.</p>
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    
+    <a class="quickstart__item" href="/north-carolina/durham/?type=hazardous-waste#results">
+      <span class="quickstart__title">Hazardous waste options</span>
+      <span class="quickstart__meta">Paint, chemicals, batteries, and specialty drop-off</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+
+    <a class="quickstart__item" href="/north-carolina/durham/?type=recycling#results">
+      <span class="quickstart__title">Recycling drop-off</span>
+      <span class="quickstart__meta">Sorted recyclables, electronics, and reusable materials</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+
+    <a class="quickstart__item" href="/north-carolina/durham/?type=transfer#results">
+      <span class="quickstart__title">Transfer stations</span>
+      <span class="quickstart__meta">Mixed loads and faster unload options</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+
+      <!-- ✅ Injected at build time -->
+      <!-- STATEHUBLINK:START -->
+<div class="cityhub__backnav">
+  <a class="cityhub__backlink" href="/north-carolina/">&larr; Back to North Carolina cities</a>
+</div>
+<!-- STATEHUBLINK:END -->
+
+      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- POPULARCITIES:START -->
+      <!-- POPULARCITIES:END -->
+
+      <div class="muted small" role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
+        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      </div>
+
+      <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
+        City rules &amp; fees
+      </button>
+
+      <!-- ✅ Map -->
+      <section id="mapWrap" aria-label="Map">
+        <div id="map"></div>
+      </section>
+
+      <!-- Results injected here -->
+      <section class="cards" id="results" style="margin-top:14px">
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Transfer</span></div>
+          <h3>Durham Waste Disposal and Recycling Center</h3>
+          <p class="card__meta">2115 E Club Blvd, Durham, NC 27704</p>
+          <p class="card__meta">Accepts: Household trash, Bulky waste, Recyclables</p>
+          <p class="card__meta">Verified 2026-03-03</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=2115%20E%20Club%20Blvd%2C%20Durham%2C%20NC%2027704" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_54ed9f1ede21/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--orange">Hazardous</span></div>
+          <h3>Durham Household Hazardous Waste Facility</h3>
+          <p class="card__meta">2115 E Club Blvd, Durham, NC 27704</p>
+          <p class="card__meta">Accepts: Household chemicals, Paint, Batteries</p>
+          <p class="card__meta">Verified 2026-03-03</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=2115%20E%20Club%20Blvd%2C%20Durham%2C%20NC%2027704" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_a80b13588652/">Facility page</a>
+          </div>
+        </article>
+<article class="card">
+          <div class="card__kicker"><span class="badge badge--blue">Recycling</span></div>
+          <h3>Durham Yard Waste Facility</h3>
+          <p class="card__meta">2115 E Club Blvd, Durham, NC 27704</p>
+          <p class="card__meta">Accepts: Yard waste, Brush, Leaves</p>
+          <p class="card__meta">Verified 2026-03-03</p>
+          <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=2115%20E%20Club%20Blvd%2C%20Durham%2C%20NC%2027704" target="_blank" rel="noopener">Directions</a>
+            <a class="link" href="/facility/f_manual_a0542a280203/">Facility page</a>
+          </div>
+        </article>
+</section>
+
+      <!-- SEO COPY START -->
+      <section class="seo-copy" style="margin-top:26px">
+        <p>
+          Looking for a <strong>dump</strong>, <strong>landfill</strong>, <strong>transfer station</strong>, or
+          <strong>recycling drop-off</strong> near <span id="cityNameInline">Durham</span>?
+          JunkScout lists nearby disposal and drop-off locations with hours, rules, and accepted materials when available.
+        </p>
+
+        <h2 id="faqDumpWhere">Where can I dump trash in Durham today?</h2>
+        <p>
+          Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
+          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what’s accepted before you drive out.
+        </p>
+
+        <h2 id="faqDumpFree">Where can I drop off trash for free in Durham?</h2>
+        <p id="faqDumpFreeBody">Some Durham-area services are resident-focused and may offer free or lower-cost drop-off for specific materials, while private transfer stations and landfills usually charge by load size or material type.</p>
+
+        <h2>What items are typically accepted?</h2>
+        <p>
+          Commonly accepted items include <strong>furniture</strong>, <strong>yard waste</strong>, <strong>brush</strong>,
+          <strong>construction debris</strong> (C&amp;D), appliances (sometimes restricted), and mixed recyclables.
+          Some facilities accept only certain materials or require loads to be separated.
+        </p>
+
+        <h2>Fees, hours, and resident requirements</h2>
+        <p>
+          Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
+          Others charge based on load size, weight, or material type.
+          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+        </p>
+
+        <!-- NEARBY cities injected here at build time -->
+        <!-- NEARBY:START -->
+<section class="seo-copy" aria-label="Nearby locations">
+  <h2>Nearby dump and landfill locations</h2>
+  <p class="muted">
+    If you do not see the right option in Durham, check these nearby cities in North Carolina.
+  </p>
+
+  <div class="cityhub__grid" style="margin-top:10px">
+    
+      <a class="cityhub__pill" href="/north-carolina/greensboro/">
+        Greensboro <span class="muted" style="font-weight:600">&middot; 55 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/north-carolina/winston-salem/">
+        Winston Salem <span class="muted" style="font-weight:600">&middot; 78 mi</span>
+      </a>
+    
+      <a class="cityhub__pill" href="/north-carolina/charlotte/">
+        Charlotte <span class="muted" style="font-weight:600">&middot; 124 mi</span>
+      </a>
+    
+  </div>
+</section>
+<!-- NEARBY:END -->
+      </section>
+      <!-- SEO COPY END -->
+
+      <p class="muted small" style="margin-top:12px">
+        Results are sourced from public listings and community contributions. Always confirm before visiting.
+      </p>
+
+      <section class="why" style="margin-top:40px">
+        <h2>About dumping in this city</h2>
+        <div class="why__grid">
+          <div class="why__item">
+            <div class="icon">🪪</div>
+            <h3>Resident rules vary</h3>
+            <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">🧱</div>
+            <h3>Construction debris</h3>
+            <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
+          </div>
+          <div class="why__item">
+            <div class="icon">☎️</div>
+            <h3>Always confirm</h3>
+            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="report" style="margin-top:40px">
+        <div class="report__box">
+          <h2>Explore more locations</h2>
+          <p class="muted">Browse more city directories by state.</p>
+          <div class="report__actions">
+            <a class="btn btn--ghost" href="/texas/">Texas</a>
+            <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
+            <a class="btn btn--ghost" href="/georgia/">Georgia</a>
+            <a class="btn btn--ghost" href="/florida/">Florida</a>
+            <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
+            <a class="btn" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ✅ Leaflet JS must load before city.js -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
+
+  <script src="/privacy-consent.js?v=20260303e" defer></script>
+  <script src="/analytics.js" defer></script>
+  <script src="/city.js" defer></script>
+  <script src="/houston-modal.js" defer></script>
+
+<script id="CURATED:JSON" type="application/json">
+{"city":"Durham","state":"NC","last_updated":"2026-03-03","facilities":[{"name":"Durham Waste Disposal and Recycling Center","type":"Transfer Station","address":"2115 E Club Blvd, Durham, NC 27704","phone":"919-560-4186","hours":"Durham lists the Waste Disposal and Recycling Center as open Tuesday through Saturday, 7:30 AM to 4:00 PM. Confirm holiday schedules before visiting.","fees":"Fees vary by load type, volume, and residency. Check Durham's current center rules before you drive.","accepted_materials":["Household trash","Bulky waste","Recyclables","Yard waste"],"not_accepted":["Commercial loads outside county policy","Materials outside posted center rules"],"rules":"Review Durham's latest disposal and recycling guidance for accepted materials, fees, and resident requirements before arriving.","source":"https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center","verified_date":"2026-03-03","lat":36.026113734546,"lng":-78.857257159105,"geocode_match":"2115 E CLUB BLVD, DURHAM, NC, 27704","geocode_source":"census","facility_id":"f_manual_54ed9f1ede21"},{"name":"Durham Household Hazardous Waste Facility","type":"Hazardous Waste Facility","address":"2115 E Club Blvd, Durham, NC 27704","phone":"919-560-4186","hours":"Durham lists the household hazardous waste facility at the same East Club Boulevard campus. Confirm current HHW days and hours before visiting.","fees":"Household hazardous waste service is resident-focused. Confirm current eligibility, quantity limits, and accepted materials before arrival.","accepted_materials":["Household chemicals","Paint","Batteries","Electronics","Automotive fluids"],"not_accepted":["Commercial hazardous waste","Materials outside Durham's HHW program"],"rules":"Use Durham's current HHW guidance to confirm accepted items, proof-of-residency rules, and packaging instructions before you drive.","source":"https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center","verified_date":"2026-03-03","lat":36.026113734546,"lng":-78.857257159105,"geocode_match":"2115 E CLUB BLVD, DURHAM, NC, 27704","geocode_source":"census","facility_id":"f_manual_a80b13588652"},{"name":"Durham Yard Waste Facility","type":"Recycling Center","address":"2115 E Club Blvd, Durham, NC 27704","phone":"919-560-4186","hours":"Durham lists the yard waste facility at the Waste Disposal and Recycling Center campus. Confirm current public hours before visiting.","fees":"Yard waste service may be resident-focused or load-specific. Confirm current charges and material rules before arrival.","accepted_materials":["Yard waste","Brush","Leaves","Organics accepted under city rules"],"not_accepted":["Mixed trash loads","Materials outside posted yard-waste rules"],"rules":"Separate yard waste from trash and review Durham's current facility instructions before using the site.","source":"https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center","verified_date":"2026-03-03","lat":36.026113734546,"lng":-78.857257159105,"geocode_match":"2115 E CLUB BLVD, DURHAM, NC, 27704","geocode_source":"census","facility_id":"f_manual_a0542a280203"}]}
+</script>
+</body>
+</html>
+

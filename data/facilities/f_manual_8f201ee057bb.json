@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_8f201ee057bb",
+  "name": "Greensboro Household Hazardous Waste Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2750 Patterson St, Greensboro, NC 27407",
+  "phone": "336-373-2196",
+  "hours": "Greensboro lists this HHW center as open Wednesdays from 1:00 PM to 7:30 PM and Thursdays through Fridays from 8:00 AM to 2:00 PM. Confirm holiday schedules before visiting.",
+  "fees": "Household hazardous waste drop-off is resident-focused. Confirm accepted items, quantity limits, and current rules before arrival.",
+  "rules": "Use Greensboro's current HHW guidance to confirm accepted items, proof-of-residency expectations, and packaging instructions before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Automotive fluids",
+    "Electronics accepted under city rules"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside Greensboro's HHW program"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.greensboro-nc.gov/departments/field-operations/household-hazardous-waste",
+  "osm_url": "https://www.greensboro-nc.gov/departments/field-operations/household-hazardous-waste",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "north-carolina",
+      "city": "greensboro"
+    }
+  ],
+  "lat": 36.057789867152,
+  "lng": -79.838988593366,
+  "geocode_match": "2750 PATTERSON ST, GREENSBORO, NC, 27407",
+  "geocode_source": "census"
+}

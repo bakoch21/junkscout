@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_54ed9f1ede21",
+  "name": "Durham Waste Disposal and Recycling Center",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "2115 E Club Blvd, Durham, NC 27704",
+  "phone": "919-560-4186",
+  "hours": "Durham lists the Waste Disposal and Recycling Center as open Tuesday through Saturday, 7:30 AM to 4:00 PM. Confirm holiday schedules before visiting.",
+  "fees": "Fees vary by load type, volume, and residency. Check Durham's current center rules before you drive.",
+  "rules": "Review Durham's latest disposal and recycling guidance for accepted materials, fees, and resident requirements before arriving.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulky waste",
+    "Recyclables",
+    "Yard waste"
+  ],
+  "not_accepted": [
+    "Commercial loads outside county policy",
+    "Materials outside posted center rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center",
+  "osm_url": "https://www.durhamnc.gov/878/Waste-Disposal-Recycling-Center",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "north-carolina",
+      "city": "durham"
+    }
+  ],
+  "lat": 36.026113734546,
+  "lng": -78.857257159105,
+  "geocode_match": "2115 E CLUB BLVD, DURHAM, NC, 27704",
+  "geocode_source": "census"
+}

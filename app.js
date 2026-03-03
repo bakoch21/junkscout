@@ -6,6 +6,9 @@ const CITY_LIST_URLS = [
   "/scripts/cities-georgia.json",
   "/scripts/cities-florida.json",
   "/scripts/cities-illinois.json",
+  "/scripts/cities-arizona.json",
+  "/scripts/cities-north-carolina.json",
+  "/scripts/cities-washington.json",
 ];
 
 const yearEl = document.getElementById("year");
@@ -41,9 +44,12 @@ function buildCityLabel(entry) {
   const state = String(entry.state || "").toLowerCase();
   const stateAbbrev =
     state === "california" ? "CA" :
+    state === "arizona" ? "AZ" :
     state === "georgia" ? "GA" :
     state === "florida" ? "FL" :
     state === "illinois" ? "IL" :
+    state === "north-carolina" ? "NC" :
+    state === "washington" ? "WA" :
     "TX";
   return `${cityName}, ${stateAbbrev}`;
 }
