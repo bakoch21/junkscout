@@ -1,6 +1,6 @@
 // analytics.js
 // Lightweight event capture for later provider wiring.
-// Stores a rolling local queue and optionally forwards to gtag/plausible.
+// Analytics stay off until the user opts in through privacy-consent.js.
 
 (function () {
   const QUEUE_KEY = "junkscout_analytics_events_v1";
@@ -10,6 +10,9 @@
   let provider = "none";
   let measurementId = "";
   let debug = false;
+  let clickTrackingWired = false;
+  let pageViewTracked = false;
+  let analyticsReady = false;
 
   function nowIso() {
     return new Date().toISOString();
@@ -24,18 +27,36 @@
   }
 
   function readQueue() {
-    const raw = window.localStorage.getItem(QUEUE_KEY);
-    if (!raw) return [];
-    const parsed = safeJsonParse(raw, []);
-    return Array.isArray(parsed) ? parsed : [];
+    try {
+      const raw = window.localStorage.getItem(QUEUE_KEY);
+      if (!raw) return [];
+      const parsed = safeJsonParse(raw, []);
+      return Array.isArray(parsed) ? parsed : [];
+    } catch {
+      return [];
+    }
   }
 
   function writeQueue(events) {
-    const trimmed = events.slice(-MAX_EVENTS);
-    window.localStorage.setItem(QUEUE_KEY, JSON.stringify(trimmed));
+    try {
+      const trimmed = events.slice(-MAX_EVENTS);
+      window.localStorage.setItem(QUEUE_KEY, JSON.stringify(trimmed));
+    } catch {
+      // ignore storage failures
+    }
+  }
+
+  function hasAnalyticsConsent() {
+    return Boolean(
+      window.JunkScoutPrivacy &&
+        typeof window.JunkScoutPrivacy.canTrackAnalytics === "function" &&
+        window.JunkScoutPrivacy.canTrackAnalytics()
+    );
   }
 
   function pushEvent(eventName, payload) {
+    if (!hasAnalyticsConsent()) return;
+
     const event = {
       name: String(eventName || "").trim(),
       ts: nowIso(),
@@ -86,6 +107,9 @@
   }
 
   function wireClickTracking() {
+    if (clickTrackingWired) return;
+    clickTrackingWired = true;
+
     document.addEventListener("click", (e) => {
       const link = e.target.closest("a[href]");
       if (!link) return;
@@ -132,15 +156,46 @@
     }
   }
 
+  async function ensureAnalyticsReady() {
+    if (analyticsReady) return;
+    analyticsReady = true;
+    await loadConfig();
+    wireClickTracking();
+  }
+
+  async function startAnalytics() {
+    if (!hasAnalyticsConsent()) return;
+
+    await ensureAnalyticsReady();
+
+    if (!pageViewTracked) {
+      pageViewTracked = true;
+      pushEvent("page_view", { title: document.title });
+    }
+  }
+
+  function stopAnalytics() {
+    pageViewTracked = false;
+    writeQueue([]);
+  }
+
   window.JunkScoutAnalytics = {
     getQueue: () => readQueue(),
     clearQueue: () => writeQueue([]),
     track: (eventName, payload) => pushEvent(eventName, payload),
   };
 
-  document.addEventListener("DOMContentLoaded", async () => {
-    await loadConfig();
-    pushEvent("page_view", { title: document.title });
-    wireClickTracking();
+  document.addEventListener("DOMContentLoaded", () => {
+    if (hasAnalyticsConsent()) {
+      startAnalytics();
+    }
+
+    document.addEventListener("junkscout:privacy-consent-changed", () => {
+      if (hasAnalyticsConsent()) {
+        startAnalytics();
+      } else {
+        stopAnalytics();
+      }
+    });
   });
 })();
