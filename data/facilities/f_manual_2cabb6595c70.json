@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_2cabb6595c70",
+  "name": "Porter Transfer Station Household Hazardous Waste Drop-Off",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "1326 Good Homes Rd, Orlando, FL 32818",
+  "phone": "Check county listing",
+  "hours": "Orange County posts current household hazardous waste hours and site availability on its official hazardous waste page. Confirm before visiting.",
+  "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+  "rules": "Use the county page to confirm accepted items, packaging rules, and any proof-of-residency requirements before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Electronics"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/HouseholdHazardousWaste.aspx",
+  "osm_url": "https://www.orangecountyfl.net/WaterGarbageRecycling/HouseholdHazardousWaste.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "orlando"
+    }
+  ],
+  "lat": 28.56076871456,
+  "lng": -81.504988689363,
+  "geocode_match": "1326 GOOD HOMES RD, ORLANDO, FL, 32818",
+  "geocode_source": "census"
+}

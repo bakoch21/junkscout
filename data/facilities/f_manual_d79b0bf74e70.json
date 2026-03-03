@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_d79b0bf74e70",
+  "name": "Lookout Drive Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "1601 E Lookout Dr, Richardson, TX 75082",
+  "phone": "Check city listing",
+  "hours": "Check McKinney residential services for current transfer-station hours before visiting.",
+  "fees": "Regional disposal fees vary by load type and residency program rules. Confirm current rates before arrival.",
+  "rules": "Use the official city page to confirm accepted loads, any residency restrictions, and current disposal procedures before driving.",
+  "accepted_materials": [
+    "Residential trash",
+    "Bulky waste",
+    "Approved self-haul loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste outside posted program rules",
+    "Loads outside current station policy"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "osm_url": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mckinney"
+    }
+  ],
+  "lat": 32.985473364317,
+  "lng": -96.69506945413,
+  "geocode_match": "1601 E LOOKOUT DR, RICHARDSON, TX, 75082",
+  "geocode_source": "census"
+}

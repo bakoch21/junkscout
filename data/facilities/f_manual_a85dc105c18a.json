@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_a85dc105c18a",
+  "name": "Bakersfield Special Waste Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "4951 Standard St, Bakersfield, CA 93308",
+  "phone": "Check county listing",
+  "hours": "Check Kern County Public Works for current special-waste drop-off hours before visiting.",
+  "fees": "Household hazardous waste programs are generally resident-focused. Confirm eligibility and limits before arrival.",
+  "rules": "Use the official county page to confirm accepted items, packaging rules, and appointment or residency requirements before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.kernpublicworks.com/Home/Components/News/News/4154/36403",
+  "osm_url": "https://www.kernpublicworks.com/Home/Components/News/News/4154/36403",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "bakersfield"
+    }
+  ],
+  "lat": 35.39966844341,
+  "lng": -119.047823734381,
+  "geocode_match": "4951 STANDARD ST, BAKERSFIELD, CA, 93308",
+  "geocode_source": "census"
+}

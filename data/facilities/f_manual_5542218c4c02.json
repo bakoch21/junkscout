@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_5542218c4c02",
+  "name": "East Hastings Recycling Drop-Off",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "208 E Hastings Ave, Amarillo, TX 79108",
+  "phone": "806-378-6813",
+  "hours": "Check the City of Amarillo for current recycling drop-off guidance before visiting.",
+  "fees": "Most city recycling drop-off services are free for residents. Confirm current rules before arrival.",
+  "rules": "Use the official city page to confirm accepted materials, site instructions, and any resident requirements before driving.",
+  "accepted_materials": [
+    "Used oil",
+    "Oil filters",
+    "Tin and aluminum",
+    "Program-approved recyclables"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Materials outside posted recycling rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.amarillo.gov/solid-waste/recycling-services/",
+  "osm_url": "https://www.amarillo.gov/solid-waste/recycling-services/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ],
+  "lat": 35.250848771154,
+  "lng": -101.831885951489,
+  "geocode_match": "208 E HASTINGS AVE, AMARILLO, TX, 79108",
+  "geocode_source": "census"
+}

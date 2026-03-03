@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_ba8c26b8e0b9",
+  "name": "West Brush Site",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "3401 Broadway Dr, Amarillo, TX 79107",
+  "phone": "806-378-6813",
+  "hours": "Check the City of Amarillo for current brush site hours before visiting.",
+  "fees": "Brush site service is generally free for residents. Confirm current ID or utility-bill requirements before arrival.",
+  "rules": "Use the official city page to confirm resident requirements and accepted yard-waste materials before driving.",
+  "accepted_materials": [
+    "Brush",
+    "Tree limbs and trunks",
+    "Grass",
+    "Leaves",
+    "Cacti"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Non-organic materials"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.amarillo.gov/solid-waste/brush-sites/",
+  "osm_url": "https://www.amarillo.gov/solid-waste/brush-sites/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "amarillo"
+    }
+  ],
+  "lat": 35.2461001,
+  "lng": -101.849907
+}

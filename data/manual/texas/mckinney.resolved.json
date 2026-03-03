@@ -1,0 +1,127 @@
+{
+  "city": "McKinney",
+  "state": "TX",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "Custer Road Transfer Station",
+      "type": "Transfer Station",
+      "address": "9901 Custer Rd, Plano, TX 75025",
+      "phone": "Check city listing",
+      "hours": "Check McKinney residential services for current regional transfer-station hours before visiting.",
+      "fees": "Regional disposal fees vary by load type and residency program rules. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Residential trash",
+        "Bulky waste",
+        "Yard waste",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste outside posted program rules",
+        "Loads outside current station policy"
+      ],
+      "rules": "Use the official city page to confirm which regional facilities McKinney residents may use, accepted loads, and payment rules before driving.",
+      "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+      "verified_date": "2026-03-03",
+      "lat": 33.113680623772,
+      "lng": -96.733611999263,
+      "geocode_match": "9901 CUSTER RD, PLANO, TX, 75025",
+      "geocode_source": "census",
+      "facility_id": "f_manual_bf7cb27b495c"
+    },
+    {
+      "name": "Living Earth",
+      "type": "Recycling Center",
+      "address": "4290 FM 2933, McKinney, TX 75071",
+      "phone": "Check city listing",
+      "hours": "Check McKinney residential services for current regional green-waste or compost facility hours before visiting.",
+      "fees": "Fees vary by load type and current program rules. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Yard waste",
+        "Brush",
+        "Program-approved green waste"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Materials outside current site policy"
+      ],
+      "rules": "Use the official city page to confirm accepted materials, vehicle rules, and any resident requirements before driving.",
+      "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+      "verified_date": "2026-03-03",
+      "facility_id": "f_manual_d8dcd3d55b75"
+    },
+    {
+      "name": "Lookout Drive Transfer Station",
+      "type": "Transfer Station",
+      "address": "1601 E Lookout Dr, Richardson, TX 75082",
+      "phone": "Check city listing",
+      "hours": "Check McKinney residential services for current transfer-station hours before visiting.",
+      "fees": "Regional disposal fees vary by load type and residency program rules. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Residential trash",
+        "Bulky waste",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste outside posted program rules",
+        "Loads outside current station policy"
+      ],
+      "rules": "Use the official city page to confirm accepted loads, any residency restrictions, and current disposal procedures before driving.",
+      "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+      "verified_date": "2026-03-03",
+      "lat": 32.985473364317,
+      "lng": -96.69506945413,
+      "geocode_match": "1601 E LOOKOUT DR, RICHARDSON, TX, 75082",
+      "geocode_source": "census",
+      "facility_id": "f_manual_d79b0bf74e70"
+    },
+    {
+      "name": "Plano Parkway Transfer Station",
+      "type": "Transfer Station",
+      "address": "4030 W Plano Pkwy, Plano, TX 75093",
+      "phone": "Check city listing",
+      "hours": "Check McKinney residential services for current transfer-station hours before visiting.",
+      "fees": "Regional disposal fees vary by load type and residency program rules. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Residential trash",
+        "Bulky waste",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste outside posted program rules",
+        "Loads outside current station policy"
+      ],
+      "rules": "Use the official city page to confirm accepted loads, any residency restrictions, and current disposal procedures before driving.",
+      "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+      "verified_date": "2026-03-03",
+      "lat": 33.010763277474,
+      "lng": -96.771238251195,
+      "geocode_match": "4030 W PLANO PKWY, PLANO, TX, 75093",
+      "geocode_source": "census",
+      "facility_id": "f_manual_43bcceacdf01"
+    },
+    {
+      "name": "121 Regional Disposal Facility",
+      "type": "Landfill",
+      "address": "3820 Sam Rayburn Hwy, Melissa, TX 75454",
+      "phone": "Check city listing",
+      "hours": "Check McKinney residential services for current regional landfill hours before visiting.",
+      "fees": "Regional landfill fees vary by load type, weight, and residency program rules. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Bulky disposal loads",
+        "Approved construction debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside landfill acceptance rules"
+      ],
+      "rules": "Use the official city page to confirm eligible facilities for McKinney residents, accepted loads, and disposal procedures before driving.",
+      "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+      "verified_date": "2026-03-03",
+      "lat": 33.2843391,
+      "lng": -96.5596043,
+      "facility_id": "f_manual_d0ddc285f03b"
+    }
+  ]
+}

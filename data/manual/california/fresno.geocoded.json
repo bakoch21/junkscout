@@ -1,0 +1,80 @@
+{
+  "city": "Fresno",
+  "state": "CA",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "Cedar Avenue Recycling and Transfer Station",
+      "type": "Transfer Station",
+      "address": "3457 S Cedar Ave, Fresno, CA 93725",
+      "phone": "Check city listing",
+      "hours": "Check Fresno Public Utilities for current Cedar Avenue Recycling and Transfer Station hours before visiting.",
+      "fees": "Fees vary by load type, material, and residency. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "General disposal loads",
+        "Bulky items",
+        "Recyclables",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside current station policy"
+      ],
+      "rules": "Use the official city facilities page to confirm public access, accepted loads, and payment rules before driving.",
+      "source": "https://www.fresno.gov/publicutilities/trash-disposal-recycling/solid-waste-facilities/",
+      "verified_date": "2026-03-03",
+      "lat": 36.685482959586,
+      "lng": -119.754738267757,
+      "geocode_match": "3457 S CEDAR AVE, FRESNO, CA, 93725",
+      "geocode_source": "census"
+    },
+    {
+      "name": "American Avenue Disposal Site",
+      "type": "Landfill",
+      "address": "18950 W American Ave, Kerman, CA 93630",
+      "phone": "Check county listing",
+      "hours": "Check Fresno County Landfill Operations for current gate hours before visiting.",
+      "fees": "Disposal fees vary by load type, weight, and waste class. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Bulky disposal loads",
+        "Approved construction debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside landfill acceptance rules"
+      ],
+      "rules": "Use the county page to confirm accepted loads, special handling requirements, and payment rules before driving.",
+      "source": "https://www.fresnocountyca.gov/Departments/Public-Works-and-Planning/landfill-operations",
+      "verified_date": "2026-03-03",
+      "lat": 36.661916637574,
+      "lng": -120.111884314027,
+      "geocode_match": "18950 W AMERICAN AVE, KERMAN, CA, 93630",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Fresno County Environmental Compliance Center",
+      "type": "Hazardous Waste Facility",
+      "address": "1327 W Dan Ronquillo Dr, Fresno, CA 93706",
+      "phone": "Check county listing",
+      "hours": "Check Fresno County special waste disposal guidance for current hazardous-waste hours and appointment rules before visiting.",
+      "fees": "Household hazardous waste programs are generally resident-focused. Confirm eligibility and limits before arrival.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Batteries",
+        "Used oil",
+        "Household hazardous waste"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program rules"
+      ],
+      "rules": "Use the county page to confirm accepted items, packaging rules, and any residency requirements before you drive.",
+      "source": "https://www.fresnocountyca.gov/Departments/Public-Works-and-Planning/divisions-of-public-works-and-planning/resources/special-waste-disposal",
+      "verified_date": "2026-03-03",
+      "lat": 36.7386107,
+      "lng": -119.8365367
+    }
+  ]
+}

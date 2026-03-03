@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_f171b2a1d637",
+  "name": "Irving Recycling Drop-Off Station",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "110 E Hunter Ferrell Rd, Irving, TX 75060",
+  "phone": "972-721-8059",
+  "hours": "Irving lists the recycling drop-off station as open 7:00 AM to 5:30 PM Monday through Saturday. Confirm before visiting.",
+  "fees": "The drop-off station is a resident benefit. Confirm current eligibility and accepted materials before arrival.",
+  "rules": "Use the official city page to confirm accepted materials, current holiday closures, and any residency requirements before driving.",
+  "accepted_materials": [
+    "Aluminum and steel cans",
+    "Cardboard and paper",
+    "Glass bottles and jars",
+    "Program-approved recyclables"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Materials outside posted recycling rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://irvingtx.gov/recycling-drop-off",
+  "osm_url": "https://irvingtx.gov/recycling-drop-off",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "irving"
+    }
+  ],
+  "lat": 32.786572764444,
+  "lng": -96.934504596965,
+  "geocode_match": "110 E HUNTER FERRELL RD, IRVING, TX, 75060",
+  "geocode_source": "census"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "f_manual_d8dcd3d55b75",
+  "name": "Living Earth",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "4290 FM 2933, McKinney, TX 75071",
+  "phone": "Check city listing",
+  "hours": "Check McKinney residential services for current regional green-waste or compost facility hours before visiting.",
+  "fees": "Fees vary by load type and current program rules. Confirm current rates before arrival.",
+  "rules": "Use the official city page to confirm accepted materials, vehicle rules, and any resident requirements before driving.",
+  "accepted_materials": [
+    "Yard waste",
+    "Brush",
+    "Program-approved green waste"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Materials outside current site policy"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "osm_url": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mckinney"
+    }
+  ]
+}

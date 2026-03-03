@@ -1,7 +1,7 @@
 {
   "city": "Tampa",
   "state": "FL",
-  "last_updated": "2026-03-01",
+  "last_updated": "2026-03-03",
   "facilities": [
     {
       "name": "Northwest County Solid Waste Facility",
@@ -22,7 +22,7 @@
       ],
       "rules": "Use the county page to confirm accepted materials, residency rules, and self-haul instructions before driving.",
       "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 28.040276864421,
       "lng": -82.572193906065,
       "geocode_match": "8001 W LINEBAUGH AVE, TAMPA, FL, 33625",
@@ -48,7 +48,7 @@
       ],
       "rules": "Use the county page to confirm accepted materials, residency rules, and self-haul instructions before driving.",
       "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 27.797904886253,
       "lng": -82.384313630822,
       "geocode_match": "13000 S US HWY 41, GIBSONTON, FL, 33534",
@@ -74,12 +74,90 @@
       ],
       "rules": "Use the county disposal facility page to confirm hazardous-waste service availability, packaging rules, and proof-of-residency requirements before you drive.",
       "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 27.797904886253,
       "lng": -82.384313630822,
       "geocode_match": "13000 S US HWY 41, GIBSONTON, FL, 33534",
       "geocode_source": "census",
       "facility_id": "f_manual_ec72f5545e83"
+    },
+    {
+      "name": "Hillsborough Heights Solid Waste Facility",
+      "type": "Transfer Station",
+      "address": "6209 County Road 579, Seffner, FL 33584",
+      "phone": "Check county listing",
+      "hours": "Hillsborough County posts current disposal facility hours on its waste disposal facility page. Confirm before visiting.",
+      "fees": "Fees and public drop-off rules vary by load type and residency. Confirm the current county guidance before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Loads outside county facility rules",
+        "Unapproved hazardous waste"
+      ],
+      "rules": "Use the county page to confirm accepted materials, residency rules, and self-haul instructions before driving.",
+      "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+      "verified_date": "2026-03-03",
+      "lat": 28.015979588099,
+      "lng": -82.302429738688,
+      "geocode_match": "6209 CO RD 579, SEFFNER, FL, 33584",
+      "geocode_source": "census",
+      "facility_id": "f_manual_0996f0a915bf"
+    },
+    {
+      "name": "Sheldon Road Household Hazardous Waste Collection Center",
+      "type": "Hazardous Waste Facility",
+      "address": "9805 Sheldon Rd, Tampa, FL 33635",
+      "phone": "Check county listing",
+      "hours": "Check Hillsborough County for current household hazardous waste collection hours and accepted-item rules before visiting.",
+      "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+      "accepted_materials": [
+        "Paint and chemicals",
+        "Batteries",
+        "Used oil",
+        "Household hazardous waste"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program rules"
+      ],
+      "rules": "Use the county disposal facility page to confirm hazardous-waste service availability, packaging rules, and proof-of-residency requirements before you drive.",
+      "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/discarding-household-hazardous-waste",
+      "verified_date": "2026-03-03",
+      "lat": 28.038293348039,
+      "lng": -82.582756707309,
+      "geocode_match": "9805 SHELDON RD, TAMPA, FL, 33635",
+      "geocode_source": "census",
+      "facility_id": "f_manual_af14f1b0b05b"
+    },
+    {
+      "name": "Southeast County Landfill",
+      "type": "Landfill",
+      "address": "15960 County Road 672, Lithia, FL 33547",
+      "phone": "Check county listing",
+      "hours": "Hillsborough County posts current landfill hours on its waste disposal facility page. Confirm before visiting.",
+      "fees": "Landfill fees vary by load type, weight, and residency. Confirm the latest county guidance before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulk waste",
+        "Yard waste",
+        "Approved disposal loads"
+      ],
+      "not_accepted": [
+        "Loads outside county landfill rules",
+        "Unapproved hazardous waste"
+      ],
+      "rules": "Use the county page to confirm accepted materials, self-haul rules, and any residency requirements before driving.",
+      "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+      "verified_date": "2026-03-03",
+      "lat": 27.762631161256,
+      "lng": -82.171809110283,
+      "geocode_match": "15960 CO RD 672, LITHIA, FL, 33547",
+      "geocode_source": "census",
+      "facility_id": "f_manual_8d286ab83502"
     }
   ]
 }

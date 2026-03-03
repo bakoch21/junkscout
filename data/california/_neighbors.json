@@ -1,68 +1,108 @@
 {
   "los-angeles": [
     {
-      "slug": "bakersfield",
-      "distance_mi": 96.7
+      "slug": "long-beach",
+      "distance_mi": 0
     },
     {
-      "slug": "san-diego",
-      "distance_mi": 111
+      "slug": "anaheim",
+      "distance_mi": 0
     },
     {
-      "slug": "fresno",
-      "distance_mi": 199.3
+      "slug": "santa-ana",
+      "distance_mi": 0
     },
     {
-      "slug": "san-jose",
-      "distance_mi": 301.9
+      "slug": "riverside",
+      "distance_mi": 0
     },
     {
-      "slug": "oakland",
-      "distance_mi": 340.7
+      "slug": "irvine",
+      "distance_mi": 0
     },
     {
-      "slug": "san-francisco",
-      "distance_mi": 341.9
+      "slug": "san-bernardino",
+      "distance_mi": 0
     },
     {
-      "slug": "sacramento",
-      "distance_mi": 352.3
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
     }
   ],
   "san-diego": [
+    {
+      "slug": "chula-vista",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oceanside",
+      "distance_mi": 0
+    },
     {
       "slug": "los-angeles",
       "distance_mi": 111
     },
     {
-      "slug": "bakersfield",
-      "distance_mi": 205.8
+      "slug": "long-beach",
+      "distance_mi": 111
     },
     {
-      "slug": "fresno",
-      "distance_mi": 307
+      "slug": "anaheim",
+      "distance_mi": 111
     },
     {
-      "slug": "san-jose",
-      "distance_mi": 413
+      "slug": "santa-ana",
+      "distance_mi": 111
     },
     {
-      "slug": "oakland",
-      "distance_mi": 451.7
+      "slug": "riverside",
+      "distance_mi": 111
     },
     {
-      "slug": "san-francisco",
-      "distance_mi": 452.9
+      "slug": "irvine",
+      "distance_mi": 111
     },
     {
-      "slug": "sacramento",
-      "distance_mi": 461
+      "slug": "san-bernardino",
+      "distance_mi": 111
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 111
     }
   ],
   "san-jose": [
     {
+      "slug": "fremont",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 0
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 0
+    },
+    {
       "slug": "oakland",
-      "distance_mi": 39.4
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 38.2
     },
     {
       "slug": "san-francisco",
@@ -73,20 +113,16 @@
       "distance_mi": 90.7
     },
     {
-      "slug": "fresno",
-      "distance_mi": 126.3
+      "slug": "stockton",
+      "distance_mi": 90.7
     },
     {
-      "slug": "bakersfield",
-      "distance_mi": 210.4
+      "slug": "modesto",
+      "distance_mi": 90.7
     },
     {
-      "slug": "los-angeles",
-      "distance_mi": 301.9
-    },
-    {
-      "slug": "san-diego",
-      "distance_mi": 413
+      "slug": "elk-grove",
+      "distance_mi": 90.7
     }
   ],
   "san-francisco": [
@@ -95,7 +131,23 @@
       "distance_mi": 3.9
     },
     {
+      "slug": "berkeley",
+      "distance_mi": 3.9
+    },
+    {
       "slug": "san-jose",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "sunnyvale",
       "distance_mi": 40.2
     },
     {
@@ -103,86 +155,80 @@
       "distance_mi": 76.6
     },
     {
-      "slug": "fresno",
-      "distance_mi": 161.2
+      "slug": "stockton",
+      "distance_mi": 76.6
     },
     {
-      "slug": "bakersfield",
-      "distance_mi": 249.7
+      "slug": "modesto",
+      "distance_mi": 76.6
     },
     {
-      "slug": "los-angeles",
-      "distance_mi": 341.9
-    },
-    {
-      "slug": "san-diego",
-      "distance_mi": 452.9
+      "slug": "elk-grove",
+      "distance_mi": 76.6
     }
   ],
   "fresno": [
     {
       "slug": "bakersfield",
-      "distance_mi": 102.6
+      "distance_mi": 101
     },
     {
       "slug": "san-jose",
-      "distance_mi": 126.3
+      "distance_mi": 119
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 119
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 119
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 119
     },
     {
       "slug": "sacramento",
-      "distance_mi": 154.1
+      "distance_mi": 150.9
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 150.9
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 150.9
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 150.9
     },
     {
       "slug": "oakland",
-      "distance_mi": 158.8
-    },
-    {
-      "slug": "san-francisco",
-      "distance_mi": 161.2
-    },
-    {
-      "slug": "los-angeles",
-      "distance_mi": 199.3
-    },
-    {
-      "slug": "san-diego",
-      "distance_mi": 307
-    }
-  ],
-  "oakland": [
-    {
-      "slug": "san-francisco",
-      "distance_mi": 3.9
-    },
-    {
-      "slug": "san-jose",
-      "distance_mi": 39.4
-    },
-    {
-      "slug": "sacramento",
-      "distance_mi": 73
-    },
-    {
-      "slug": "fresno",
-      "distance_mi": 158.8
-    },
-    {
-      "slug": "bakersfield",
-      "distance_mi": 248.1
-    },
-    {
-      "slug": "los-angeles",
-      "distance_mi": 340.7
-    },
-    {
-      "slug": "san-diego",
-      "distance_mi": 451.7
+      "distance_mi": 151.4
     }
   ],
   "sacramento": [
     {
+      "slug": "stockton",
+      "distance_mi": 0
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 0
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 0
+    },
+    {
       "slug": "oakland",
-      "distance_mi": 73
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 73.7
     },
     {
       "slug": "san-francisco",
@@ -193,50 +239,1024 @@
       "distance_mi": 90.7
     },
     {
-      "slug": "fresno",
-      "distance_mi": 154.1
+      "slug": "fremont",
+      "distance_mi": 90.7
     },
     {
-      "slug": "bakersfield",
-      "distance_mi": 255.7
+      "slug": "santa-clara",
+      "distance_mi": 90.7
     },
     {
-      "slug": "los-angeles",
-      "distance_mi": 352.3
+      "slug": "sunnyvale",
+      "distance_mi": 90.7
+    }
+  ],
+  "oakland": [
+    {
+      "slug": "berkeley",
+      "distance_mi": 0
     },
     {
-      "slug": "san-diego",
-      "distance_mi": 461
+      "slug": "san-francisco",
+      "distance_mi": 3.9
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 73.7
     }
   ],
   "bakersfield": [
     {
       "slug": "los-angeles",
-      "distance_mi": 96.7
+      "distance_mi": 100.8
     },
     {
-      "slug": "fresno",
-      "distance_mi": 102.6
+      "slug": "long-beach",
+      "distance_mi": 100.8
     },
+    {
+      "slug": "anaheim",
+      "distance_mi": 100.8
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 100.8
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 100.8
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 100.8
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 100.8
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 100.8
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 100.8
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 100.8
+    }
+  ],
+  "long-beach": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "anaheim": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "santa-ana": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "riverside": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "irvine": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "chula-vista": [
     {
       "slug": "san-diego",
-      "distance_mi": 205.8
+      "distance_mi": 0
     },
     {
+      "slug": "oceanside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "los-angeles",
+      "distance_mi": 111
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 111
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 111
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 111
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 111
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 111
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 111
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 111
+    }
+  ],
+  "fremont": [
+    {
       "slug": "san-jose",
-      "distance_mi": 210.4
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 0
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 0
     },
     {
       "slug": "oakland",
-      "distance_mi": 248.1
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 38.2
     },
     {
       "slug": "san-francisco",
-      "distance_mi": 249.7
+      "distance_mi": 40.2
     },
     {
       "slug": "sacramento",
-      "distance_mi": 255.7
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 90.7
+    }
+  ],
+  "stockton": [
+    {
+      "slug": "sacramento",
+      "distance_mi": 0
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 0
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oakland",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 76.6
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 90.7
+    }
+  ],
+  "modesto": [
+    {
+      "slug": "sacramento",
+      "distance_mi": 0
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 0
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oakland",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 76.6
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 90.7
+    }
+  ],
+  "san-bernardino": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "oxnard": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "glendale": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "huntington-beach": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clarita",
+      "distance_mi": 0
+    }
+  ],
+  "santa-clarita": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    }
+  ],
+  "garden-grove": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    }
+  ],
+  "oceanside": [
+    {
+      "slug": "san-diego",
+      "distance_mi": 0
+    },
+    {
+      "slug": "chula-vista",
+      "distance_mi": 0
+    },
+    {
+      "slug": "los-angeles",
+      "distance_mi": 111
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 111
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 111
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 111
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 111
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 111
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 111
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 111
+    }
+  ],
+  "rancho-cucamonga": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    }
+  ],
+  "ontario": [
+    {
+      "slug": "los-angeles",
+      "distance_mi": 0
+    },
+    {
+      "slug": "long-beach",
+      "distance_mi": 0
+    },
+    {
+      "slug": "anaheim",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-ana",
+      "distance_mi": 0
+    },
+    {
+      "slug": "riverside",
+      "distance_mi": 0
+    },
+    {
+      "slug": "irvine",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-bernardino",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oxnard",
+      "distance_mi": 0
+    },
+    {
+      "slug": "glendale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "huntington-beach",
+      "distance_mi": 0
+    }
+  ],
+  "elk-grove": [
+    {
+      "slug": "sacramento",
+      "distance_mi": 0
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 0
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oakland",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 76.6
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 90.7
+    }
+  ],
+  "berkeley": [
+    {
+      "slug": "oakland",
+      "distance_mi": 0
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 3.9
+    },
+    {
+      "slug": "san-jose",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 73.7
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 73.7
+    }
+  ],
+  "santa-clara": [
+    {
+      "slug": "san-jose",
+      "distance_mi": 0
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 0
+    },
+    {
+      "slug": "sunnyvale",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oakland",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 90.7
+    }
+  ],
+  "sunnyvale": [
+    {
+      "slug": "san-jose",
+      "distance_mi": 0
+    },
+    {
+      "slug": "fremont",
+      "distance_mi": 0
+    },
+    {
+      "slug": "santa-clara",
+      "distance_mi": 0
+    },
+    {
+      "slug": "oakland",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "berkeley",
+      "distance_mi": 38.2
+    },
+    {
+      "slug": "san-francisco",
+      "distance_mi": 40.2
+    },
+    {
+      "slug": "sacramento",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "stockton",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "modesto",
+      "distance_mi": 90.7
+    },
+    {
+      "slug": "elk-grove",
+      "distance_mi": 90.7
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_8d286ab83502",
+  "name": "Southeast County Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "15960 County Road 672, Lithia, FL 33547",
+  "phone": "Check county listing",
+  "hours": "Hillsborough County posts current landfill hours on its waste disposal facility page. Confirm before visiting.",
+  "fees": "Landfill fees vary by load type, weight, and residency. Confirm the latest county guidance before arrival.",
+  "rules": "Use the county page to confirm accepted materials, self-haul rules, and any residency requirements before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulk waste",
+    "Yard waste",
+    "Approved disposal loads"
+  ],
+  "not_accepted": [
+    "Loads outside county landfill rules",
+    "Unapproved hazardous waste"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+  "osm_url": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "tampa"
+    }
+  ],
+  "lat": 27.762631161256,
+  "lng": -82.171809110283,
+  "geocode_match": "15960 CO RD 672, LITHIA, FL, 33547",
+  "geocode_source": "census"
+}

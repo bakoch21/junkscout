@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_5bd8288de838",
+  "name": "Environmental Collection Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "6616 Walnut St, Frisco, TX 75034",
+  "phone": "Check city listing",
+  "hours": "Check Frisco Environmental Services for current Environmental Collection Center hours before visiting.",
+  "fees": "Many drop-off services are resident-focused and may be free for qualifying Frisco households. Confirm current limits before arrival.",
+  "rules": "Use the official city page to confirm accepted items, proof-of-residency rules, and current limits before driving.",
+  "accepted_materials": [
+    "Electronics",
+    "Batteries",
+    "Styrofoam",
+    "Program-approved recyclables"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Materials outside current program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.friscotexas.gov/185/Household-Chemical-Disposal",
+  "osm_url": "https://www.friscotexas.gov/185/Household-Chemical-Disposal",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "frisco"
+    }
+  ],
+  "lat": 33.153328850148,
+  "lng": -96.827890128468,
+  "geocode_match": "6616 WALNUT ST, FRISCO, TX, 75033",
+  "geocode_source": "census"
+}

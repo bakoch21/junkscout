@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_bed6279c1dfa",
+  "name": "Cedar Avenue Recycling and Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "3457 S Cedar Ave, Fresno, CA 93725",
+  "phone": "Check city listing",
+  "hours": "Check Fresno Public Utilities for current Cedar Avenue Recycling and Transfer Station hours before visiting.",
+  "fees": "Fees vary by load type, material, and residency. Confirm current rates before arrival.",
+  "rules": "Use the official city facilities page to confirm public access, accepted loads, and payment rules before driving.",
+  "accepted_materials": [
+    "General disposal loads",
+    "Bulky items",
+    "Recyclables",
+    "Approved self-haul loads"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Materials outside current station policy"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.fresno.gov/publicutilities/trash-disposal-recycling/solid-waste-facilities/",
+  "osm_url": "https://www.fresno.gov/publicutilities/trash-disposal-recycling/solid-waste-facilities/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "fresno"
+    }
+  ],
+  "lat": 36.685482959586,
+  "lng": -119.754738267757,
+  "geocode_match": "3457 S CEDAR AVE, FRESNO, CA, 93725",
+  "geocode_source": "census"
+}

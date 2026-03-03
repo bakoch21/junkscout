@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_93d5027e8265",
+  "name": "Garland Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1426 Commerce St, Garland, TX 75040",
+  "phone": "Check city listing",
+  "hours": "Check Garland for current recycling center hours before visiting.",
+  "fees": "Many city recycling services are resident-focused and may be free for qualifying households. Confirm current rules before arrival.",
+  "rules": "Use the official city page to confirm accepted materials, sorting requirements, and proof-of-residency rules before driving.",
+  "accepted_materials": [
+    "Cardboard and paper",
+    "Bottles and cans",
+    "Program-approved recyclables"
+  ],
+  "not_accepted": [
+    "General household trash",
+    "Materials outside posted recycling rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.garlandtx.gov/427/Recycling-Center",
+  "osm_url": "https://www.garlandtx.gov/427/Recycling-Center",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "garland"
+    }
+  ],
+  "lat": 32.908685114972,
+  "lng": -96.607918482924,
+  "geocode_match": "1426 COMMERCE ST, GARLAND, TX, 75040",
+  "geocode_source": "census"
+}

@@ -5,28 +5,30 @@
   "type_label": "Recycling Center",
   "address": "1820 10th St, Oakland, CA 94607",
   "phone": "Check operator listing",
-  "hours": "Check operator listing for current operating hours.",
-  "fees": "Fees and commodity payouts vary by material stream and load quality.",
-  "rules": "Confirm accepted materials, prep rules, and load requirements before arrival.",
+  "hours": "Check the operator page for current public-facing recycling or buyback hours.",
+  "fees": "Fees or payouts vary by material stream and quantity.",
+  "rules": "Confirm current public drop-off availability, accepted materials, and prep rules before visiting.",
   "accepted_materials": [
     "Common recyclables",
-    "Commercial recycling loads",
-    "Sorted material streams"
+    "Cardboard and paper",
+    "Sorted drop-off materials"
   ],
   "not_accepted": [
-    "Hazardous waste",
-    "Materials outside accepted stream categories"
+    "General household trash",
+    "Hazardous waste"
   ],
-  "verified_date": "2026-02-23",
-  "source": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
-  "osm_url": "https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch",
+  "verified_date": "2026-03-03",
+  "source": "https://calwaste.com/",
+  "osm_url": "https://calwaste.com/",
   "website": "",
   "appears_in": [
     {
       "state": "california",
-      "city": "san-francisco"
+      "city": "oakland"
     }
   ],
-  "lat": 37.8116308,
-  "lng": -122.3021672
+  "lat": 37.811180587245,
+  "lng": -122.301724597114,
+  "geocode_match": "1820 10TH ST, OAKLAND, CA, 94607",
+  "geocode_source": "census"
 }

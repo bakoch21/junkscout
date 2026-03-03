@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_4a0ff545d86c",
+  "name": "Twin Oaks Landfill Used Motor Oil and Oil Filter Drop-Off",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2690 State Highway 30, Anderson, TX 77830",
+  "phone": "Check operator listing",
+  "hours": "Bryan notes that Twin Oaks Landfill accepts used motor oil and oil filters during normal business hours. Confirm before visiting.",
+  "fees": "Used motor oil and oil filter drop-off is generally free for qualifying household quantities. Confirm current limits before arrival.",
+  "rules": "Use the Bryan recycling programs page to confirm accepted quantities and any preparation requirements before driving.",
+  "accepted_materials": [
+    "Used motor oil",
+    "Oil filters"
+  ],
+  "not_accepted": [
+    "Commercial quantities",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+  "osm_url": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "bryan"
+    }
+  ]
+}

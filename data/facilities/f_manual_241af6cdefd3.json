@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_241af6cdefd3",
+  "name": "Brownsville Landfill Used Motor Oil and Filter Drop-Off",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "5955 Jules Ave, Brownsville, TX 78521",
+  "phone": "Check city listing",
+  "hours": "Check the City of Brownsville for current used motor oil and filter drop-off guidance before visiting.",
+  "fees": "Household used motor oil and filter drop-off is generally resident-focused. Confirm current limits before arrival.",
+  "rules": "Use the official city landfill page to confirm quantity limits and any preparation requirements before driving.",
+  "accepted_materials": [
+    "Used motor oil",
+    "Oil filters"
+  ],
+  "not_accepted": [
+    "Commercial quantities",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.brownsvilletx.gov/180/Landfill",
+  "osm_url": "https://www.brownsvilletx.gov/180/Landfill",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brownsville"
+    }
+  ]
+}

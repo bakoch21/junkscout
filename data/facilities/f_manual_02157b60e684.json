@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_02157b60e684",
+  "name": "J.C. Elliott Transfer Station and Citizens Collection Center",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "7001 Ayers St, Corpus Christi, TX 78415",
+  "phone": "Check city listing",
+  "hours": "Check Corpus Christi Solid Waste Services for current J.C. Elliott Transfer Station hours before visiting.",
+  "fees": "Fees and resident load rules vary by material type. Confirm current rates and eligibility before arrival.",
+  "rules": "Use the official city page to confirm accepted loads, residency rules, and current disposal procedures before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulky waste",
+    "Yard waste",
+    "Approved self-haul loads"
+  ],
+  "not_accepted": [
+    "Materials outside city disposal rules",
+    "Unapproved hazardous waste"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/landfill-and-collection-centers/",
+  "osm_url": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/landfill-and-collection-centers/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "corpus-christi"
+    }
+  ],
+  "lat": 27.711296751751,
+  "lng": -97.442558469061,
+  "geocode_match": "7001 AYERS ST, CORPUS CHRISTI, TX, 78415",
+  "geocode_source": "census"
+}

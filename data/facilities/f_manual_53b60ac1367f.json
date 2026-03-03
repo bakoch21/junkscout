@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_53b60ac1367f",
+  "name": "Used Oil and Tire Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1111 Waco St, Bryan, TX 77803",
+  "phone": "979-209-5900",
+  "hours": "Bryan posts current Used Oil and Tire Recycling Center hours on its recycling programs page. Confirm before visiting.",
+  "fees": "Residential drop-off is generally free for qualifying Bryan customers. Confirm current limits before arrival.",
+  "rules": "Bring proof of Bryan residency or service if required, and use the city page to confirm current quantity limits before driving.",
+  "accepted_materials": [
+    "Used motor oil",
+    "Oil filters",
+    "Cooking grease",
+    "Residential tires"
+  ],
+  "not_accepted": [
+    "Commercial oils or tires",
+    "Materials outside posted recycling rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+  "osm_url": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "bryan"
+    }
+  ],
+  "lat": 30.680921955441,
+  "lng": -96.355768186069,
+  "geocode_match": "1111 WACO ST, BRYAN, TX, 77803",
+  "geocode_source": "census"
+}

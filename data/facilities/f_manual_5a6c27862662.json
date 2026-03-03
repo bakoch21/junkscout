@@ -1,0 +1,32 @@
+{
+  "id": "f_manual_5a6c27862662",
+  "name": "South Dade Home Chemical Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "23707 SW 97 Ave, Cutler Bay, FL 33190",
+  "phone": "311",
+  "hours": "Check the official Miami-Dade home chemical collection page for current hours and holiday schedules before visiting.",
+  "fees": "Household hazardous waste drop-off is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+  "rules": "Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Electronics"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside the posted household program"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
+  "osm_url": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "miami"
+    }
+  ]
+}

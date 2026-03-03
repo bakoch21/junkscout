@@ -1,7 +1,7 @@
 {
   "city": "Oakland",
   "state": "CA",
-  "last_updated": "2026-03-01",
+  "last_updated": "2026-03-03",
   "facilities": [
     {
       "name": "Berkeley Transfer Station",
@@ -21,7 +21,7 @@
       ],
       "rules": "Confirm residency rules, accepted loads, and payment methods before driving.",
       "source": "https://berkeleyca.gov/city-services/trash-recycling/transfer-station",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 37.880154678207,
       "lng": -122.306271150622,
       "geocode_match": "1201 2ND ST, BERKELEY, CA, 94710",
@@ -45,7 +45,7 @@
       ],
       "rules": "Confirm prep rules, accepted streams, and any public drop-off limits before arrival.",
       "source": "https://berkeleyrecycling.org/",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 37.878651588092,
       "lng": -122.305193976111,
       "geocode_match": "669 GILMAN ST, BERKELEY, CA, 94710",
@@ -69,7 +69,7 @@
       ],
       "rules": "Use the operator page to confirm which public programs are active, accepted materials, and any appointment or residency requirements.",
       "source": "https://www.wmearthcare.com/facility/davis-street-resource-recovery-complex/",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 37.714651716366,
       "lng": -122.192219986916,
       "geocode_match": "2615 DAVIS ST, SAN LEANDRO, CA, 94577",
@@ -93,10 +93,36 @@
       ],
       "rules": "Confirm current public drop-off availability, accepted materials, and prep rules before visiting.",
       "source": "https://calwaste.com/",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 37.811180587245,
       "lng": -122.301724597114,
       "geocode_match": "1820 10TH ST, OAKLAND, CA, 94607",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Alameda County Household Hazardous Waste Facility",
+      "type": "Hazardous Waste Facility",
+      "address": "2100 East 7th St, Oakland, CA 94606",
+      "phone": "Check county listing",
+      "hours": "StopWaste posts current household hazardous waste appointment and drop-off guidance for the Oakland facility. Confirm before visiting.",
+      "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility, appointment rules, and item limits before arrival.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Batteries",
+        "Used oil",
+        "Household hazardous waste"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program rules"
+      ],
+      "rules": "Use the county page to confirm appointment requirements, accepted items, and packaging instructions before you drive.",
+      "source": "https://www.stopwaste.org/at-home/hhw",
+      "verified_date": "2026-03-03",
+      "lat": 37.775443650155,
+      "lng": -122.239989373262,
+      "geocode_match": "2100 E 7TH, OAKLAND, CA, 94606",
       "geocode_source": "census"
     }
   ]

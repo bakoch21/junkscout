@@ -1,7 +1,7 @@
 {
   "city": "Orlando",
   "state": "FL",
-  "last_updated": "2026-03-01",
+  "last_updated": "2026-03-03",
   "facilities": [
     {
       "name": "Orange County Landfill",
@@ -21,7 +21,7 @@
       ],
       "rules": "Use the county page to confirm accepted materials, payment methods, and public self-haul rules before driving.",
       "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 28.494750055296,
       "lng": -81.233100185155,
       "geocode_match": "5901 YOUNG PINE RD, ORLANDO, FL, 32829",
@@ -45,7 +45,7 @@
       ],
       "rules": "Confirm accepted loads, vehicle rules, and any proof-of-residency requirements before driving.",
       "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 28.504723640659,
       "lng": -81.445707438336,
       "geocode_match": "5000 L B MCLEOD RD, ORLANDO, FL, 32811",
@@ -69,7 +69,59 @@
       ],
       "rules": "Confirm accepted loads, vehicle rules, and any proof-of-residency requirements before driving.",
       "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/LandfillandTransferStations.aspx",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
+      "lat": 28.56076871456,
+      "lng": -81.504988689363,
+      "geocode_match": "1326 GOOD HOMES RD, ORLANDO, FL, 32818",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Orange County Landfill Household Hazardous Waste Drop-Off",
+      "type": "Hazardous Waste Facility",
+      "address": "5901 Young Pine Rd, Orlando, FL 32829",
+      "phone": "Check county listing",
+      "hours": "Orange County posts current household hazardous waste hours and site availability on its official hazardous waste page. Confirm before visiting.",
+      "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Batteries",
+        "Used oil",
+        "Electronics"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program rules"
+      ],
+      "rules": "Use the county page to confirm accepted items, packaging rules, and any proof-of-residency requirements before you drive.",
+      "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/HouseholdHazardousWaste.aspx",
+      "verified_date": "2026-03-03",
+      "lat": 28.494750055296,
+      "lng": -81.233100185155,
+      "geocode_match": "5901 YOUNG PINE RD, ORLANDO, FL, 32829",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Porter Transfer Station Household Hazardous Waste Drop-Off",
+      "type": "Hazardous Waste Facility",
+      "address": "1326 Good Homes Rd, Orlando, FL 32818",
+      "phone": "Check county listing",
+      "hours": "Orange County posts current household hazardous waste hours and site availability on its official hazardous waste page. Confirm before visiting.",
+      "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Batteries",
+        "Used oil",
+        "Electronics"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program rules"
+      ],
+      "rules": "Use the county page to confirm accepted items, packaging rules, and any proof-of-residency requirements before you drive.",
+      "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/HouseholdHazardousWaste.aspx",
+      "verified_date": "2026-03-03",
       "lat": 28.56076871456,
       "lng": -81.504988689363,
       "geocode_match": "1326 GOOD HOMES RD, ORLANDO, FL, 32818",

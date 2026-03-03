@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_af14f1b0b05b",
+  "name": "Sheldon Road Household Hazardous Waste Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "9805 Sheldon Rd, Tampa, FL 33635",
+  "phone": "Check county listing",
+  "hours": "Check Hillsborough County for current household hazardous waste collection hours and accepted-item rules before visiting.",
+  "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+  "rules": "Use the county disposal facility page to confirm hazardous-waste service availability, packaging rules, and proof-of-residency requirements before you drive.",
+  "accepted_materials": [
+    "Paint and chemicals",
+    "Batteries",
+    "Used oil",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/discarding-household-hazardous-waste",
+  "osm_url": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/discarding-household-hazardous-waste",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "tampa"
+    }
+  ],
+  "lat": 28.038293348039,
+  "lng": -82.582756707309,
+  "geocode_match": "9805 SHELDON RD, TAMPA, FL, 33635",
+  "geocode_source": "census"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_bf7cb27b495c",
+  "name": "Custer Road Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "9901 Custer Rd, Plano, TX 75025",
+  "phone": "Check city listing",
+  "hours": "Check McKinney residential services for current regional transfer-station hours before visiting.",
+  "fees": "Regional disposal fees vary by load type and residency program rules. Confirm current rates before arrival.",
+  "rules": "Use the official city page to confirm which regional facilities McKinney residents may use, accepted loads, and payment rules before driving.",
+  "accepted_materials": [
+    "Residential trash",
+    "Bulky waste",
+    "Yard waste",
+    "Approved self-haul loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste outside posted program rules",
+    "Loads outside current station policy"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "osm_url": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mckinney"
+    }
+  ],
+  "lat": 33.113680623772,
+  "lng": -96.733611999263,
+  "geocode_match": "9901 CUSTER RD, PLANO, TX, 75025",
+  "geocode_source": "census"
+}

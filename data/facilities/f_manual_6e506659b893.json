@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_6e506659b893",
+  "name": "Golden Glades Trash and Recycling Center",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "140 NW 160 St, Miami, FL",
+  "phone": "311",
+  "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
+  "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
+  "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+  "accepted_materials": [
+    "Household trash",
+    "Bulky waste",
+    "Yard waste",
+    "Recyclables"
+  ],
+  "not_accepted": [
+    "Commercial disposal loads",
+    "Materials outside county center rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+  "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "miami"
+    }
+  ],
+  "lat": 25.921538051422,
+  "lng": -80.202838082184,
+  "geocode_match": "140 NW 160TH ST, MIAMI, FL, 33169",
+  "geocode_source": "census"
+}

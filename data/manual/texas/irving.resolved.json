@@ -1,0 +1,58 @@
+{
+  "city": "Irving",
+  "state": "TX",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "Hunter Ferrell Landfill Scalehouse and Administration Complex",
+      "type": "Landfill",
+      "address": "110 E Hunter Ferrell Rd, Irving, TX 75060",
+      "phone": "972-721-8059",
+      "hours": "Irving lists the landfill complex as open 7:00 AM to 5:30 PM Monday through Saturday. Confirm before visiting.",
+      "fees": "Landfill and disposal fees vary by load type and residency status. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Waste generated within the City of Irving",
+        "Bulky disposal loads",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Waste generated outside Irving",
+        "Materials outside posted landfill rules"
+      ],
+      "rules": "Bring photo ID and proof of Irving residency, and use the official city page to confirm accepted loads before driving.",
+      "source": "https://irvingtx.gov/Landfill",
+      "verified_date": "2026-03-03",
+      "lat": 32.786572764444,
+      "lng": -96.934504596965,
+      "geocode_match": "110 E HUNTER FERRELL RD, IRVING, TX, 75060",
+      "geocode_source": "census",
+      "facility_id": "f_manual_fcf6ff9f955d"
+    },
+    {
+      "name": "Irving Recycling Drop-Off Station",
+      "type": "Recycling Center",
+      "address": "110 E Hunter Ferrell Rd, Irving, TX 75060",
+      "phone": "972-721-8059",
+      "hours": "Irving lists the recycling drop-off station as open 7:00 AM to 5:30 PM Monday through Saturday. Confirm before visiting.",
+      "fees": "The drop-off station is a resident benefit. Confirm current eligibility and accepted materials before arrival.",
+      "accepted_materials": [
+        "Aluminum and steel cans",
+        "Cardboard and paper",
+        "Glass bottles and jars",
+        "Program-approved recyclables"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Materials outside posted recycling rules"
+      ],
+      "rules": "Use the official city page to confirm accepted materials, current holiday closures, and any residency requirements before driving.",
+      "source": "https://irvingtx.gov/recycling-drop-off",
+      "verified_date": "2026-03-03",
+      "lat": 32.786572764444,
+      "lng": -96.934504596965,
+      "geocode_match": "110 E HUNTER FERRELL RD, IRVING, TX, 75060",
+      "geocode_source": "census",
+      "facility_id": "f_manual_f171b2a1d637"
+    }
+  ]
+}

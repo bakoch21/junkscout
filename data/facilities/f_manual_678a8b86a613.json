@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_678a8b86a613",
+  "name": "Dallas County Home Chemical Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "11234 Plano Rd, Dallas, TX 75238",
+  "phone": "Check city listing",
+  "hours": "Check Garland's household hazardous waste guidance for current appointment and drop-off requirements before visiting.",
+  "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility and item limits before arrival.",
+  "rules": "Use the official city page to confirm who may use the county HHW program, accepted items, and appointment rules before driving.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.garlandtx.gov/467/Household-Hazardous-Waste",
+  "osm_url": "https://www.garlandtx.gov/467/Household-Hazardous-Waste",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "garland"
+    }
+  ],
+  "lat": 32.9018107,
+  "lng": -96.7006982
+}

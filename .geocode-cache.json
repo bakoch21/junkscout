@@ -432,5 +432,109 @@
     "lng": -121.393571666153,
     "geocode_match": "4450 ROSEVILLE RD, NORTH HIGHLANDS, CA, 95660",
     "geocode_source": "census"
+  },
+  "Hillsborough Heights Solid Waste Facility||6209 County Road 579, Seffner, FL 33584": {
+    "lat": 28.015979588099,
+    "lng": -82.302429738688,
+    "geocode_match": "6209 CO RD 579, SEFFNER, FL, 33584",
+    "geocode_source": "census"
+  },
+  "Sheldon Road Household Hazardous Waste Collection Center||9805 Sheldon Rd, Tampa, FL 33635": {
+    "lat": 28.038293348039,
+    "lng": -82.582756707309,
+    "geocode_match": "9805 SHELDON RD, TAMPA, FL, 33635",
+    "geocode_source": "census"
+  },
+  "Southeast County Landfill||15960 County Road 672, Lithia, FL 33547": {
+    "lat": 27.762631161256,
+    "lng": -82.171809110283,
+    "geocode_match": "15960 CO RD 672, LITHIA, FL, 33547",
+    "geocode_source": "census"
+  },
+  "Palm Springs North Trash and Recycling Center||7870 NW 178 St, Hialeah, FL 33018": {
+    "lat": 25.93503688278,
+    "lng": -80.329074963139,
+    "geocode_match": "7870 NW 178TH ST, HIALEAH, FL, 33015",
+    "geocode_source": "census"
+  },
+  "West Little River Trash and Recycling Center||1830 NW 79 St, Miami, FL": {
+    "lat": 25.846405157845,
+    "lng": -80.227773576262,
+    "geocode_match": "1830 NW 79TH ST, MIAMI, FL, 33147",
+    "geocode_source": "census"
+  },
+  "Golden Glades Trash and Recycling Center||140 NW 160 St, Miami, FL": {
+    "lat": 25.921538051422,
+    "lng": -80.202838082184,
+    "geocode_match": "140 NW 160TH ST, MIAMI, FL, 33169",
+    "geocode_source": "census"
+  },
+  "Sunset Kendall Trash and Recycling Center||8000 SW 107 Ave, Miami, FL": {
+    "lat": 25.694796445599,
+    "lng": -80.366103693564,
+    "geocode_match": "8000 SW 107TH AVE, MIAMI, FL, 33173",
+    "geocode_source": "census"
+  },
+  "Snapper Creek Trash and Recycling Center||2200 SW 117 Ave, Miami, FL 33175": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "South Miami Heights Trash and Recycling Center||20800 SW 117 Ct, Miami, FL": {
+    "lat": 25.573864620251,
+    "lng": -80.379462304486,
+    "geocode_match": "20800 SW 117TH AVE, MIAMI, FL, 33177",
+    "geocode_source": "census"
+  },
+  "South Dade Home Chemical Collection Center||23707 SW 97 Ave, Cutler Bay, FL 33190": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Bena Landfill||2951 Neumarkel Rd, Bakersfield, CA 93307": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Roberts Lane Transfer Station||1900 Roberts Ln, Bakersfield, CA 93308": {
+    "lat": 35.418397028602,
+    "lng": -119.056729432353,
+    "geocode_match": "1900 ROBERTS LN, BAKERSFIELD, CA, 93308",
+    "geocode_source": "census"
+  },
+  "Bakersfield Special Waste Facility||4951 Standard St, Bakersfield, CA 93308": {
+    "lat": 35.39966844341,
+    "lng": -119.047823734381,
+    "geocode_match": "4951 STANDARD ST, BAKERSFIELD, CA, 93308",
+    "geocode_source": "census"
+  },
+  "Stop 'n' Shop Reuse Center||4951 Standard St, Bakersfield, CA 93308": {
+    "lat": 35.39966844341,
+    "lng": -119.047823734381,
+    "geocode_match": "4951 STANDARD ST, BAKERSFIELD, CA, 93308",
+    "geocode_source": "census"
+  },
+  "Custer Road Transfer Station||9901 Custer Rd, Plano, TX 75025": {
+    "lat": 33.113680623772,
+    "lng": -96.733611999263,
+    "geocode_match": "9901 CUSTER RD, PLANO, TX, 75025",
+    "geocode_source": "census"
+  },
+  "Living Earth||4290 FM 2933, McKinney, TX 75071": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Lookout Drive Transfer Station||1601 E Lookout Dr, Richardson, TX 75082": {
+    "lat": 32.985473364317,
+    "lng": -96.69506945413,
+    "geocode_match": "1601 E LOOKOUT DR, RICHARDSON, TX, 75082",
+    "geocode_source": "census"
+  },
+  "Plano Parkway Transfer Station||4030 W Plano Pkwy, Plano, TX 75093": {
+    "lat": 33.010763277474,
+    "lng": -96.771238251195,
+    "geocode_match": "4030 W PLANO PKWY, PLANO, TX, 75093",
+    "geocode_source": "census"
+  },
+  "121 Regional Disposal Facility||3820 Sam Rayburn Hwy, Melissa, TX 75454": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
   }
 }

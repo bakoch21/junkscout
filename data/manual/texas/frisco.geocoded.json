@@ -1,0 +1,105 @@
+{
+  "city": "Frisco",
+  "state": "TX",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "Environmental Collection Center",
+      "type": "Recycling Center",
+      "address": "6616 Walnut St, Frisco, TX 75034",
+      "phone": "Check city listing",
+      "hours": "Check Frisco Environmental Services for current Environmental Collection Center hours before visiting.",
+      "fees": "Many drop-off services are resident-focused and may be free for qualifying Frisco households. Confirm current limits before arrival.",
+      "accepted_materials": [
+        "Electronics",
+        "Batteries",
+        "Styrofoam",
+        "Program-approved recyclables"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Materials outside current program rules"
+      ],
+      "rules": "Use the official city page to confirm accepted items, proof-of-residency rules, and current limits before driving.",
+      "source": "https://www.friscotexas.gov/185/Household-Chemical-Disposal",
+      "verified_date": "2026-03-03",
+      "lat": 33.153328850148,
+      "lng": -96.827890128468,
+      "geocode_match": "6616 WALNUT ST, FRISCO, TX, 75033",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Household Chemical Disposal Center",
+      "type": "Hazardous Waste Facility",
+      "address": "6616 Walnut St, Frisco, TX 75034",
+      "phone": "Check city listing",
+      "hours": "Check Frisco for current household chemical disposal hours before visiting.",
+      "fees": "Household hazardous waste service is generally resident-focused. Confirm eligibility and item limits before arrival.",
+      "accepted_materials": [
+        "Household chemicals",
+        "Paint",
+        "Batteries",
+        "Used oil",
+        "Household hazardous waste"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Materials outside posted household program rules"
+      ],
+      "rules": "Use the official city page to confirm accepted items, packaging instructions, and any proof-of-residency requirements before driving.",
+      "source": "https://www.friscotexas.gov/185/Household-Chemical-Disposal",
+      "verified_date": "2026-03-03",
+      "lat": 33.153328850148,
+      "lng": -96.827890128468,
+      "geocode_match": "6616 WALNUT ST, FRISCO, TX, 75033",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Custer Road Transfer Station",
+      "type": "Transfer Station",
+      "address": "9901 Custer Rd, Plano, TX 75025",
+      "phone": "Check city listing",
+      "hours": "Check Frisco's do-it-yourself trash disposal guidance for current regional transfer-station hours before visiting.",
+      "fees": "Regional disposal fees vary by load type and residency program rules. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Residential trash",
+        "Bulky waste",
+        "Yard waste",
+        "Approved self-haul loads"
+      ],
+      "not_accepted": [
+        "Hazardous waste outside posted program rules",
+        "Loads outside current station policy"
+      ],
+      "rules": "Use the official city page to confirm which regional facilities Frisco residents may use, accepted loads, and payment rules before driving.",
+      "source": "https://www.friscotexas.gov/189/Do-It-Yourself-Trash-Disposal",
+      "verified_date": "2026-03-03",
+      "lat": 33.113680623772,
+      "lng": -96.733611999263,
+      "geocode_match": "9901 CUSTER RD, PLANO, TX, 75025",
+      "geocode_source": "census"
+    },
+    {
+      "name": "121 Regional Disposal Facility",
+      "type": "Landfill",
+      "address": "3820 Sam Rayburn Hwy, Melissa, TX 75454",
+      "phone": "Check city listing",
+      "hours": "Check Frisco's do-it-yourself trash disposal guidance for current regional landfill hours before visiting.",
+      "fees": "Regional landfill fees vary by load type, weight, and residency program rules. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Bulky disposal loads",
+        "Approved construction debris"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside landfill acceptance rules"
+      ],
+      "rules": "Use the official city page to confirm eligible facilities for Frisco residents, accepted loads, and disposal procedures before driving.",
+      "source": "https://www.friscotexas.gov/189/Do-It-Yourself-Trash-Disposal",
+      "verified_date": "2026-03-03",
+      "lat": 33.2843391,
+      "lng": -96.5596043
+    }
+  ]
+}

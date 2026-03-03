@@ -1,0 +1,109 @@
+{
+  "city": "Amarillo",
+  "state": "TX",
+  "last_updated": "2026-03-03",
+  "facilities": [
+    {
+      "name": "Amarillo Landfill",
+      "type": "Landfill",
+      "address": "16250 Bezner Dr, Amarillo, TX 79124",
+      "phone": "806-359-2056",
+      "hours": "Check the City of Amarillo for current landfill hours before visiting.",
+      "fees": "Landfill fees vary by load type, weight, and waste class. Confirm current rates before arrival.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Bulky disposal loads",
+        "Approved construction debris",
+        "Organic materials"
+      ],
+      "not_accepted": [
+        "Unapproved hazardous waste",
+        "Materials outside landfill acceptance rules"
+      ],
+      "rules": "Use the official city page to confirm accepted loads, appliance preparation rules, and payment requirements before driving.",
+      "source": "https://www.amarillo.gov/solid-waste/amarillo-landfill/",
+      "verified_date": "2026-03-03",
+      "lat": 35.221246278097,
+      "lng": -102.028725090071,
+      "geocode_match": "16250 BEZNER RD, AMARILLO, TX, 79124",
+      "geocode_source": "census",
+      "facility_id": "f_manual_dbe61370125f"
+    },
+    {
+      "name": "West Brush Site",
+      "type": "Recycling Center",
+      "address": "3401 Broadway Dr, Amarillo, TX 79107",
+      "phone": "806-378-6813",
+      "hours": "Check the City of Amarillo for current brush site hours before visiting.",
+      "fees": "Brush site service is generally free for residents. Confirm current ID or utility-bill requirements before arrival.",
+      "accepted_materials": [
+        "Brush",
+        "Tree limbs and trunks",
+        "Grass",
+        "Leaves",
+        "Cacti"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Non-organic materials"
+      ],
+      "rules": "Use the official city page to confirm resident requirements and accepted yard-waste materials before driving.",
+      "source": "https://www.amarillo.gov/solid-waste/brush-sites/",
+      "verified_date": "2026-03-03",
+      "lat": 35.2461001,
+      "lng": -101.849907,
+      "facility_id": "f_manual_ba8c26b8e0b9"
+    },
+    {
+      "name": "East Brush Site",
+      "type": "Recycling Center",
+      "address": "3718 S Eastern St, Amarillo, TX 79103",
+      "phone": "806-378-6813",
+      "hours": "Check the City of Amarillo for current brush site hours before visiting.",
+      "fees": "Brush site service is generally free for residents. Confirm current ID or utility-bill requirements before arrival.",
+      "accepted_materials": [
+        "Brush",
+        "Tree limbs and trunks",
+        "Grass",
+        "Leaves",
+        "Cacti"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Non-organic materials"
+      ],
+      "rules": "Use the official city page to confirm resident requirements and accepted yard-waste materials before driving.",
+      "source": "https://www.amarillo.gov/solid-waste/brush-sites/",
+      "verified_date": "2026-03-03",
+      "lat": 35.1555557,
+      "lng": -101.7777,
+      "facility_id": "f_manual_9ffc9e154dfd"
+    },
+    {
+      "name": "East Hastings Recycling Drop-Off",
+      "type": "Recycling Center",
+      "address": "208 E Hastings Ave, Amarillo, TX 79108",
+      "phone": "806-378-6813",
+      "hours": "Check the City of Amarillo for current recycling drop-off guidance before visiting.",
+      "fees": "Most city recycling drop-off services are free for residents. Confirm current rules before arrival.",
+      "accepted_materials": [
+        "Used oil",
+        "Oil filters",
+        "Tin and aluminum",
+        "Program-approved recyclables"
+      ],
+      "not_accepted": [
+        "General household trash",
+        "Materials outside posted recycling rules"
+      ],
+      "rules": "Use the official city page to confirm accepted materials, site instructions, and any resident requirements before driving.",
+      "source": "https://www.amarillo.gov/solid-waste/recycling-services/",
+      "verified_date": "2026-03-03",
+      "lat": 35.250848771154,
+      "lng": -101.831885951489,
+      "geocode_match": "208 E HASTINGS AVE, AMARILLO, TX, 79108",
+      "geocode_source": "census",
+      "facility_id": "f_manual_5542218c4c02"
+    }
+  ]
+}

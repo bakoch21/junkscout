@@ -1,7 +1,7 @@
 {
   "city": "Miami",
   "state": "FL",
-  "last_updated": "2026-03-01",
+  "last_updated": "2026-03-03",
   "facilities": [
     {
       "name": "North Dade Trash and Recycling Center",
@@ -22,7 +22,7 @@
       ],
       "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
       "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 25.9700432,
       "lng": -80.2794748
     },
@@ -45,7 +45,133 @@
       ],
       "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
       "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-      "verified_date": "2026-03-01"
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "Palm Springs North Trash and Recycling Center",
+      "type": "Transfer Station",
+      "address": "7870 NW 178 St, Hialeah, FL 33018",
+      "phone": "311",
+      "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
+      "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside county center rules"
+      ],
+      "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+      "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "West Little River Trash and Recycling Center",
+      "type": "Transfer Station",
+      "address": "1830 NW 79 St, Miami, FL",
+      "phone": "311",
+      "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
+      "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside county center rules"
+      ],
+      "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+      "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "Golden Glades Trash and Recycling Center",
+      "type": "Transfer Station",
+      "address": "140 NW 160 St, Miami, FL",
+      "phone": "311",
+      "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
+      "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside county center rules"
+      ],
+      "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+      "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "Sunset Kendall Trash and Recycling Center",
+      "type": "Transfer Station",
+      "address": "8000 SW 107 Ave, Miami, FL",
+      "phone": "311",
+      "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
+      "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside county center rules"
+      ],
+      "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+      "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "Snapper Creek Trash and Recycling Center",
+      "type": "Transfer Station",
+      "address": "2200 SW 117 Ave, Miami, FL 33175",
+      "phone": "311",
+      "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
+      "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside county center rules"
+      ],
+      "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+      "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "South Miami Heights Trash and Recycling Center",
+      "type": "Transfer Station",
+      "address": "20800 SW 117 Ct, Miami, FL",
+      "phone": "311",
+      "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
+      "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
+      "accepted_materials": [
+        "Household trash",
+        "Bulky waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Commercial disposal loads",
+        "Materials outside county center rules"
+      ],
+      "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+      "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+      "verified_date": "2026-03-03"
     },
     {
       "name": "West Dade Home Chemical Collection Center",
@@ -67,12 +193,12 @@
       ],
       "rules": "Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.",
       "source": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
-      "verified_date": "2026-03-01"
+      "verified_date": "2026-03-03"
     },
     {
       "name": "South Dade Home Chemical Collection Center",
       "type": "Hazardous Waste Facility",
-      "address": "23707 SW 97 Ave, Homestead, FL 33032",
+      "address": "23707 SW 97 Ave, Cutler Bay, FL 33190",
       "phone": "311",
       "hours": "Check the official Miami-Dade home chemical collection page for current hours and holiday schedules before visiting.",
       "fees": "Household hazardous waste drop-off is generally resident-focused. Confirm current eligibility and item limits before arrival.",
@@ -89,7 +215,7 @@
       ],
       "rules": "Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.",
       "source": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
-      "verified_date": "2026-03-01"
+      "verified_date": "2026-03-03"
     }
   ]
 }

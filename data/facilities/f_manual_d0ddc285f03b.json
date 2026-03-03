@@ -1,0 +1,32 @@
+{
+  "id": "f_manual_d0ddc285f03b",
+  "name": "121 Regional Disposal Facility",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "3820 Sam Rayburn Hwy, Melissa, TX 75454",
+  "phone": "Check city listing",
+  "hours": "Check McKinney residential services for current regional landfill hours before visiting.",
+  "fees": "Regional landfill fees vary by load type, weight, and residency program rules. Confirm current rates before arrival.",
+  "rules": "Use the official city page to confirm eligible facilities for McKinney residents, accepted loads, and disposal procedures before driving.",
+  "accepted_materials": [
+    "Municipal solid waste",
+    "Bulky disposal loads",
+    "Approved construction debris"
+  ],
+  "not_accepted": [
+    "Unapproved hazardous waste",
+    "Materials outside landfill acceptance rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "osm_url": "https://www.mckinneytexas.org/3438/Residential-Services",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "mckinney"
+    }
+  ],
+  "lat": 33.2843391,
+  "lng": -96.5596043
+}

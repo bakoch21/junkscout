@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_b45bd9c8dd3b",
+  "name": "Alameda County Household Hazardous Waste Facility",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2100 East 7th St, Oakland, CA 94606",
+  "phone": "Check county listing",
+  "hours": "StopWaste posts current household hazardous waste appointment and drop-off guidance for the Oakland facility. Confirm before visiting.",
+  "fees": "Household hazardous waste service is generally resident-focused. Confirm current eligibility, appointment rules, and item limits before arrival.",
+  "rules": "Use the county page to confirm appointment requirements, accepted items, and packaging instructions before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.stopwaste.org/at-home/hhw",
+  "osm_url": "https://www.stopwaste.org/at-home/hhw",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "oakland"
+    }
+  ],
+  "lat": 37.775443650155,
+  "lng": -122.239989373262,
+  "geocode_match": "2100 E 7TH, OAKLAND, CA, 94606",
+  "geocode_source": "census"
+}

@@ -1,32 +1,213 @@
 [
   {
-    "name": "Pull-A-Part",
-    "type": "recycling",
-    "address": "12000 Montana Avenue El Paso City TX",
-    "lat": 31.8018486,
-    "lng": -106.2742016,
-    "website": null,
-    "source": null,
-    "facility_id": "f_7e3b2858f9e1"
+    "id": "f_manual_c24967f1a1e4",
+    "name": "Citizen Collection Station - Westside",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "121 Atlantic Rd, El Paso, TX 79922",
+    "phone": "915-212-6000",
+    "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm current hours before visiting.",
+    "fees": "Most routine residential services are free for El Paso residents. Confirm current limits and any special-item fees before arrival.",
+    "rules": "Use the official city page to confirm resident eligibility, load limits, and accepted items before driving.",
+    "accepted_materials": [
+      "Household trash",
+      "Yard waste",
+      "Bulk items",
+      "Recyclables"
+    ],
+    "not_accepted": [
+      "Commercial disposal loads",
+      "Materials outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "osm_url": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ],
+    "lat": 31.817519320896,
+    "lng": -106.561418927581,
+    "geocode_match": "121 ATLANTIC RD, EL PASO, TX, 79922",
+    "geocode_source": "census",
+    "facility_id": "f_manual_c24967f1a1e4"
   },
   {
-    "name": "Recicladora Fenix",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.6526946,
-    "lng": -106.4297797,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e4434c595a4b"
+    "id": "f_manual_a91d0bd132e1",
+    "name": "Citizen Collection Station - Hondo Pass",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "4501 Hondo Pass Dr, El Paso, TX 79904",
+    "phone": "915-212-6000",
+    "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+    "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+    "rules": "Verify current resident rules and accepted material limits before driving.",
+    "accepted_materials": [
+      "Household trash",
+      "Yard waste",
+      "Bulk items",
+      "Recyclables"
+    ],
+    "not_accepted": [
+      "Commercial disposal loads",
+      "Materials outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "osm_url": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ],
+    "lat": 31.86976103258,
+    "lng": -106.437033163515,
+    "geocode_match": "4501 HONDO PASS AVE, EL PASO, TX, 79904",
+    "geocode_source": "census",
+    "facility_id": "f_manual_a91d0bd132e1"
   },
   {
-    "name": "Yonke",
-    "type": "recycling",
-    "address": "",
-    "lat": 31.6907705,
-    "lng": -106.3832234,
-    "website": null,
-    "source": null,
-    "facility_id": "f_02694e431077"
+    "id": "f_manual_7096f77d788f",
+    "name": "Citizen Collection Station - Harrison",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "2492 Harrison Ave, El Paso, TX 79930",
+    "phone": "915-212-6000",
+    "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+    "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+    "rules": "Check current load limits, tire rules, and resident eligibility before driving.",
+    "accepted_materials": [
+      "Household trash",
+      "Yard waste",
+      "Bulk items",
+      "Recyclables"
+    ],
+    "not_accepted": [
+      "Commercial disposal loads",
+      "Materials outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "osm_url": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ],
+    "lat": 31.813867802469,
+    "lng": -106.467104994894,
+    "geocode_match": "2492 HARRISON AVE, EL PASO, TX, 79930",
+    "geocode_source": "census",
+    "facility_id": "f_manual_7096f77d788f"
+  },
+  {
+    "id": "f_manual_ba62349c13d4",
+    "name": "Citizen Collection Station - Confederate",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "3510 Confederate Dr, El Paso, TX 79936",
+    "phone": "915-212-6000",
+    "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+    "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+    "rules": "Check the official city page for any brush, tire, appliance, or special-item restrictions before you drive.",
+    "accepted_materials": [
+      "Household trash",
+      "Yard waste",
+      "Bulk items",
+      "Recyclables"
+    ],
+    "not_accepted": [
+      "Commercial disposal loads",
+      "Materials outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "osm_url": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ],
+    "lat": 31.794192556927,
+    "lng": -106.292961794886,
+    "geocode_match": "3510 CONFEDERATE RD, EL PASO, TX, 79936",
+    "geocode_source": "census",
+    "facility_id": "f_manual_ba62349c13d4"
+  },
+  {
+    "id": "f_manual_f132c09608d4",
+    "name": "Citizen Collection Station - Pendale",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "1034 Pendale Rd, El Paso, TX 79907",
+    "phone": "915-212-6000",
+    "hours": "El Paso Environmental Services lists citizen collection stations as Tuesday through Saturday, 8:00 AM to 4:00 PM. Confirm before visiting.",
+    "fees": "Most routine residential services are free for El Paso residents. Confirm current item limits before arrival.",
+    "rules": "Confirm current resident rules, tire limits, and accepted materials before driving.",
+    "accepted_materials": [
+      "Household trash",
+      "Yard waste",
+      "Bulk items",
+      "Recyclables"
+    ],
+    "not_accepted": [
+      "Commercial disposal loads",
+      "Materials outside posted station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "osm_url": "https://www.elpasotexas.gov/environmental-services/citizen-collection-stations/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ],
+    "lat": 31.726710510757,
+    "lng": -106.319379285527,
+    "geocode_match": "1034 PENDALE RD, EL PASO, TX, 79907",
+    "geocode_source": "census",
+    "facility_id": "f_manual_f132c09608d4"
+  },
+  {
+    "id": "f_manual_8c590779cdae",
+    "name": "Greater El Paso Landfill",
+    "type": "landfill",
+    "type_label": "Landfill",
+    "address": "2600 Darrington Rd, Clint, TX 79836",
+    "phone": "915-212-6000",
+    "hours": "El Paso Environmental Services posts current landfill hours on the official landfill page. Confirm before visiting.",
+    "fees": "Landfill fees vary by load type, weight, and residency or account status. Confirm current pricing before arrival.",
+    "rules": "Use the official city landfill page to confirm accepted loads, payment rules, and any self-haul restrictions before driving.",
+    "accepted_materials": [
+      "Municipal solid waste",
+      "Bulky disposal loads",
+      "Approved construction debris"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Materials outside landfill acceptance rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.elpasotexas.gov/environmental-services/landfill/",
+    "osm_url": "https://www.elpasotexas.gov/environmental-services/landfill/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "el-paso"
+      }
+    ],
+    "facility_id": "f_manual_8c590779cdae"
   }
 ]

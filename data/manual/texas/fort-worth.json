@@ -1,7 +1,7 @@
 {
   "city": "Fort Worth",
   "state": "TX",
-  "last_updated": "2026-03-01",
+  "last_updated": "2026-03-03",
   "facilities": [
     {
       "name": "Environmental Collection Center",
@@ -27,7 +27,7 @@
     {
       "name": "Southeast Drop-Off Station",
       "type": "Transfer Station",
-      "address": "5100 Martin Luther King Freeway, Fort Worth, TX 76119",
+      "address": "5150 Martin Luther King Fwy, Fort Worth, TX 76119",
       "phone": "817-392-1234",
       "hours": "Fort Worth posts current Southeast Drop-Off Station hours on the official station page. Confirm before visiting.",
       "fees": "Some services are limited to residents or specific load types. Confirm current fees and eligibility before arrival.",
@@ -43,9 +43,72 @@
       ],
       "rules": "Use the city page to verify accepted items, proof-of-residency rules, and any vehicle restrictions before driving.",
       "source": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/southeast-drop-off-station",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 32.6925259,
       "lng": -97.2449727
+    },
+    {
+      "name": "Hillshire Drop-Off Station",
+      "type": "Transfer Station",
+      "address": "301 Hillshire Dr, Fort Worth, TX 76131",
+      "phone": "817-392-1234",
+      "hours": "Fort Worth posts current Hillshire Drop-Off Station hours on the official drop-off station page. Confirm before visiting.",
+      "fees": "Some services are limited to residents or specific load types. Confirm current fees and eligibility before arrival.",
+      "accepted_materials": [
+        "Residential trash",
+        "Bulk waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Loads outside posted station policy"
+      ],
+      "rules": "Use the city page to verify accepted items, proof-of-residency rules, and any vehicle restrictions before driving.",
+      "source": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/drop-off-stations",
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "Old Hemphill Drop-Off Station",
+      "type": "Transfer Station",
+      "address": "9500 Old Hemphill Rd, Fort Worth, TX 76134",
+      "phone": "817-392-1234",
+      "hours": "Fort Worth posts current Old Hemphill Drop-Off Station hours on the official drop-off station page. Confirm before visiting.",
+      "fees": "Some services are limited to residents or specific load types. Confirm current fees and eligibility before arrival.",
+      "accepted_materials": [
+        "Residential trash",
+        "Bulk waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Loads outside posted station policy"
+      ],
+      "rules": "Use the city page to verify accepted items, proof-of-residency rules, and any vehicle restrictions before driving.",
+      "source": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/drop-off-stations",
+      "verified_date": "2026-03-03"
+    },
+    {
+      "name": "Brennan Drop-Off Station",
+      "type": "Transfer Station",
+      "address": "3200 Brennan Ave, Fort Worth, TX 76106",
+      "phone": "817-392-1234",
+      "hours": "Fort Worth posts current Brennan Drop-Off Station hours on the official drop-off station page. Confirm before visiting.",
+      "fees": "Some services are limited to residents or specific load types. Confirm current fees and eligibility before arrival.",
+      "accepted_materials": [
+        "Residential trash",
+        "Bulk waste",
+        "Yard waste",
+        "Recyclables"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Loads outside posted station policy"
+      ],
+      "rules": "Use the city page to verify accepted items, proof-of-residency rules, and any vehicle restrictions before driving.",
+      "source": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/drop-off-stations",
+      "verified_date": "2026-03-03"
     },
     {
       "name": "Cold Springs Processing & Disposal",
@@ -65,7 +128,7 @@
       ],
       "rules": "Always confirm accepted materials, safety rules, and payment terms before driving.",
       "source": "https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html",
-      "verified_date": "2026-03-01"
+      "verified_date": "2026-03-03"
     },
     {
       "name": "Waste Management Westside Transfer Station",
@@ -85,7 +148,7 @@
       ],
       "rules": "Call ahead to confirm public self-haul access, accepted loads, and any vehicle restrictions before you drive.",
       "source": "https://www.wm.com/us/en",
-      "verified_date": "2026-03-01",
+      "verified_date": "2026-03-03",
       "lat": 32.7277117,
       "lng": -97.5333019
     }

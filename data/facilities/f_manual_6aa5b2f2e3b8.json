@@ -1,0 +1,29 @@
+{
+  "id": "f_manual_6aa5b2f2e3b8",
+  "name": "Brownsville Landfill Tire Drop-Off",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "5955 Jules Ave, Brownsville, TX 78521",
+  "phone": "Check city listing",
+  "hours": "Check the City of Brownsville for current tire disposal guidance before visiting.",
+  "fees": "Tire disposal rules and limits vary. Confirm current limits and any fees before arrival.",
+  "rules": "Use the official city landfill page to confirm the current tire limit per visit and any preparation requirements before driving.",
+  "accepted_materials": [
+    "Passenger tires",
+    "Program-approved residential tire loads"
+  ],
+  "not_accepted": [
+    "Commercial tire loads",
+    "Materials outside posted disposal rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.brownsvilletx.gov/180/Landfill",
+  "osm_url": "https://www.brownsvilletx.gov/180/Landfill",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "brownsville"
+    }
+  ]
+}

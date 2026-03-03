@@ -1,22 +1,145 @@
 [
   {
-    "name": "Coal Storage",
-    "type": "landfill",
-    "address": "",
-    "lat": 27.8145365,
-    "lng": -97.4972275,
-    "website": null,
-    "source": null,
-    "facility_id": "f_1c4931be8147"
+    "id": "f_manual_02157b60e684",
+    "name": "J.C. Elliott Transfer Station and Citizens Collection Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "7001 Ayers St, Corpus Christi, TX 78415",
+    "phone": "Check city listing",
+    "hours": "Check Corpus Christi Solid Waste Services for current J.C. Elliott Transfer Station hours before visiting.",
+    "fees": "Fees and resident load rules vary by material type. Confirm current rates and eligibility before arrival.",
+    "rules": "Use the official city page to confirm accepted loads, residency rules, and current disposal procedures before driving.",
+    "accepted_materials": [
+      "Household trash",
+      "Bulky waste",
+      "Yard waste",
+      "Approved self-haul loads"
+    ],
+    "not_accepted": [
+      "Materials outside city disposal rules",
+      "Unapproved hazardous waste"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/landfill-and-collection-centers/",
+    "osm_url": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/landfill-and-collection-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "corpus-christi"
+      }
+    ],
+    "lat": 27.711296751751,
+    "lng": -97.442558469061,
+    "geocode_match": "7001 AYERS ST, CORPUS CHRISTI, TX, 78415",
+    "geocode_source": "census",
+    "facility_id": "f_manual_02157b60e684"
   },
   {
-    "name": "GULLEY-HURST LLC",
+    "id": "f_manual_e785f398fa00",
+    "name": "Household Hazardous Waste Disposal at J.C. Elliott",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "7001 Ayers St, Corpus Christi, TX 78415",
+    "phone": "Check city listing",
+    "hours": "Check Corpus Christi household hazardous waste guidance for current drop-off hours before visiting.",
+    "fees": "Household hazardous waste service is generally resident-focused. Confirm eligibility and item limits before arrival.",
+    "rules": "Use the official city page to confirm accepted items, packaging rules, and any residency requirements before you drive.",
+    "accepted_materials": [
+      "Household chemicals",
+      "Paint",
+      "Batteries",
+      "Used oil",
+      "Household hazardous waste"
+    ],
+    "not_accepted": [
+      "Commercial hazardous waste",
+      "Materials outside posted household program rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/household-hazardous-waste-disposal/",
+    "osm_url": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/household-hazardous-waste-disposal/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "corpus-christi"
+      }
+    ],
+    "lat": 27.711296751751,
+    "lng": -97.442558469061,
+    "geocode_match": "7001 AYERS ST, CORPUS CHRISTI, TX, 78415",
+    "geocode_source": "census",
+    "facility_id": "f_manual_e785f398fa00"
+  },
+  {
+    "id": "f_manual_bf6414dea1c9",
+    "name": "Republic Services Recycling Center",
+    "type": "recycling",
+    "type_label": "Recycling Center",
+    "address": "4414 Agnes St, Corpus Christi, TX 78405",
+    "phone": "Check city listing",
+    "hours": "Check Corpus Christi recycling guidance for current public recycling options before visiting.",
+    "fees": "Fees or payouts vary by material stream and program rules. Confirm current policy before arrival.",
+    "rules": "Use the official city recycling page to confirm accepted materials, prep rules, and public access before driving.",
+    "accepted_materials": [
+      "Cardboard and paper",
+      "Bottles and cans",
+      "Sorted recyclable materials"
+    ],
+    "not_accepted": [
+      "General household trash",
+      "Hazardous waste"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/recycling/",
+    "osm_url": "https://www.corpuschristitx.gov/department-directory/solid-waste-services/recycling/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "corpus-christi"
+      }
+    ],
+    "lat": 27.786049569398,
+    "lng": -97.442525203139,
+    "geocode_match": "4414 AGNES ST, CORPUS CHRISTI, TX, 78405",
+    "geocode_source": "census",
+    "facility_id": "f_manual_bf6414dea1c9"
+  },
+  {
+    "id": "f_manual_684ecc8ff0b9",
+    "name": "Cefe Valenzuela Landfill",
     "type": "landfill",
-    "address": "1435 COUNTY ROAD 26 CORPUS CHRISTI TEXAS 78415 CORPUS CHRISTI TX 78413",
-    "lat": 27.71,
-    "lng": -97.49,
-    "website": null,
-    "source": null,
-    "facility_id": "f_74f820a2d6d2"
+    "type_label": "Landfill",
+    "address": "2397 County Road 20, Robstown, TX 78380",
+    "phone": "Check city listing",
+    "hours": "Check city landfill notices for current Cefe Valenzuela Landfill hours before visiting.",
+    "fees": "Landfill fees vary by load type and weight. Confirm current rates before arrival.",
+    "rules": "Use the official city landfill guidance to confirm accepted loads, payment requirements, and current operating conditions before driving.",
+    "accepted_materials": [
+      "Municipal solid waste",
+      "Bulky disposal loads",
+      "Approved construction debris"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Materials outside landfill acceptance rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.corpuschristitx.gov/news/posts/city-celebrates-opening-of-landfill-gas-to-energy-plant/",
+    "osm_url": "https://www.corpuschristitx.gov/news/posts/city-celebrates-opening-of-landfill-gas-to-energy-plant/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "corpus-christi"
+      }
+    ],
+    "lat": 27.6585220078,
+    "lng": -97.565609552859,
+    "geocode_match": "2397 CO RD 20, ROBSTOWN, TX, 78380",
+    "geocode_source": "census",
+    "facility_id": "f_manual_684ecc8ff0b9"
   }
 ]

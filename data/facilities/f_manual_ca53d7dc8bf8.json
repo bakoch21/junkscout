@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_ca53d7dc8bf8",
+  "name": "Fresno County Environmental Compliance Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "1327 W Dan Ronquillo Dr, Fresno, CA 93706",
+  "phone": "Check county listing",
+  "hours": "Check Fresno County special waste disposal guidance for current hazardous-waste hours and appointment rules before visiting.",
+  "fees": "Household hazardous waste programs are generally resident-focused. Confirm eligibility and limits before arrival.",
+  "rules": "Use the county page to confirm accepted items, packaging rules, and any residency requirements before you drive.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.fresnocountyca.gov/Departments/Public-Works-and-Planning/divisions-of-public-works-and-planning/resources/special-waste-disposal",
+  "osm_url": "https://www.fresnocountyca.gov/Departments/Public-Works-and-Planning/divisions-of-public-works-and-planning/resources/special-waste-disposal",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "fresno"
+    }
+  ],
+  "lat": 36.7386107,
+  "lng": -119.8365367
+}

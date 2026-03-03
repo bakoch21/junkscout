@@ -1,0 +1,211 @@
+[
+  {
+    "name": "San Diego CRV Center",
+    "type": "recycling",
+    "address": "855 32nd Street San Diego 92102",
+    "lat": 32.714454,
+    "lng": -117.124829,
+    "website": "https://www.sandiegorecyclingleaders.com/",
+    "osm_url": "https://www.openstreetmap.org/node/597165916",
+    "source": "osm",
+    "facility_id": "f_81fa2ffceca0"
+  },
+  {
+    "name": "Campanile Mall Recycling",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.7724678,
+    "lng": -117.071715,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/2131607153",
+    "source": "osm",
+    "facility_id": "f_d1a84bd609e4"
+  },
+  {
+    "name": "SDSU Recycling",
+    "type": "recycling",
+    "address": "5299 Campanile Mall San Diego",
+    "lat": 32.7723134,
+    "lng": -117.071728,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/2131638589",
+    "source": "osm",
+    "facility_id": "f_079afcbdac50"
+  },
+  {
+    "name": "Goodwill",
+    "type": "recycling",
+    "address": "La Costa Avenue Encinitas",
+    "lat": 33.0850663,
+    "lng": -117.2976556,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/2869782662",
+    "source": "osm",
+    "facility_id": "f_97591d37d39b"
+  },
+  {
+    "name": "Goodwill Donations",
+    "type": "recycling",
+    "address": "",
+    "lat": 32.8224165,
+    "lng": -117.1024273,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/6636240799",
+    "source": "osm",
+    "facility_id": "f_06b5dabcea9b"
+  },
+  {
+    "name": "Ponce Recycling",
+    "type": "recycling",
+    "address": "World Trade Drive San Diego CA 92128",
+    "lat": 32.980538,
+    "lng": -117.0754208,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/node/9944351001",
+    "source": "osm",
+    "facility_id": "f_5c0d829076c6"
+  },
+  {
+    "name": "Miramar Recycling Center",
+    "type": "recycling",
+    "address": "5165 Convoy Street San Diego CA 92111",
+    "lat": 32.8399894,
+    "lng": -117.1504429,
+    "website": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "osm_url": "https://www.openstreetmap.org/way/128818002",
+    "source": "osm",
+    "facility_id": "f_579625fc2a3c"
+  },
+  {
+    "name": "Household Hazardous Waste Transfer Facility",
+    "type": "transfer_station",
+    "address": "5161 Convoy Street San Diego CA 92111",
+    "lat": 32.8392977,
+    "lng": -117.1507257,
+    "website": "https://www.sandiego.gov/environmental-services/miramar/hhwtransfac",
+    "osm_url": "https://www.openstreetmap.org/way/128819056",
+    "source": "osm",
+    "facility_id": "f_bcdbf07a4346"
+  },
+  {
+    "name": "Sycamore Landfill",
+    "type": "landfill",
+    "address": "8514 Mast Boulevard Santee CA 92071",
+    "lat": 32.8599783,
+    "lng": -117.0283918,
+    "website": "https://www.sandiego.gov/department/environmental-services/sycamore-landfill",
+    "osm_url": "https://www.openstreetmap.org/way/212614733",
+    "source": "osm",
+    "facility_id": "f_862f0f57ebf3"
+  },
+  {
+    "name": "San Marcos Landfill (Closed)",
+    "type": "landfill",
+    "address": "",
+    "lat": 33.0898849,
+    "lng": -117.1979477,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/401746646",
+    "source": "osm",
+    "facility_id": "f_17b5f18b3cff"
+  },
+  {
+    "name": "Reuben Fleet Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.8214303,
+    "lng": -116.9852238,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/538368988",
+    "source": "osm",
+    "facility_id": "f_15bbb992edb8"
+  },
+  {
+    "name": "Quality Recycling",
+    "type": "recycling",
+    "address": "13863 Poway Road Poway CA 92064",
+    "lat": 32.9559936,
+    "lng": -117.0306792,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/way/544423772",
+    "source": "osm",
+    "facility_id": "f_e622571ec626"
+  },
+  {
+    "name": "Greenfield Recycling Center",
+    "type": "recycling",
+    "address": "1235 Greenfield Drive El Cajon CA 92021",
+    "lat": 32.8128769,
+    "lng": -116.9386298,
+    "website": "https://www.greenfieldrecycling.net/",
+    "osm_url": "https://www.openstreetmap.org/way/957710393",
+    "source": "osm",
+    "facility_id": "f_8a0abefb0b52"
+  },
+  {
+    "name": "Quality Recycling",
+    "type": "recycling",
+    "address": "10027 Vine Street Lakeside CA 92040",
+    "lat": 32.8609774,
+    "lng": -116.9207053,
+    "website": "https://www.qualityrecycling.net/",
+    "osm_url": "https://www.openstreetmap.org/way/961157266",
+    "source": "osm",
+    "facility_id": "f_ff7f92e7095e"
+  },
+  {
+    "name": "Spring Valley Recycling",
+    "type": "recycling",
+    "address": "1069 Elkelton Boulevard Spring Valley CA 91977",
+    "lat": 32.7142959,
+    "lng": -117.0169997,
+    "website": "https://www.recyclingcenters.org/",
+    "osm_url": "https://www.openstreetmap.org/way/1020142447",
+    "source": "osm",
+    "facility_id": "f_a86e5bad1008"
+  },
+  {
+    "name": "Republic Services",
+    "type": "transfer_station",
+    "address": "",
+    "lat": 32.8358293,
+    "lng": -117.1450523,
+    "website": "https://www.republicservices.com/",
+    "osm_url": "https://www.openstreetmap.org/way/1305283848",
+    "source": "osm",
+    "facility_id": "f_3d79b5faf531"
+  },
+  {
+    "name": "SANCO Resource Recovery",
+    "type": "recycling",
+    "address": "6750 Federal Boulevard Lemon Grove CA 91945",
+    "lat": 32.7385267,
+    "lng": -117.0535557,
+    "website": "https://lemon-grove.edcodisposal.com/public-facilities/sanco-resource-recovery-lemon-grove/",
+    "osm_url": "https://www.openstreetmap.org/way/1369817634",
+    "source": "osm",
+    "facility_id": "f_6c3e1b0287d5"
+  },
+  {
+    "name": "EDCO Recycling Buyback Center",
+    "type": "recycling",
+    "address": "6700 Federal Boulevard Lemon Grove CA 91945",
+    "lat": 32.7372317,
+    "lng": -117.0547671,
+    "website": "https://lemon-grove.edcodisposal.com/public-facilities/edco-recycling-buyback-center-lemon-grove/",
+    "osm_url": "https://www.openstreetmap.org/way/1369863831",
+    "source": "osm",
+    "facility_id": "f_f8994f54f739"
+  },
+  {
+    "name": "Miramar Landfill",
+    "type": "landfill",
+    "address": "",
+    "lat": 32.8546061,
+    "lng": -117.1553915,
+    "website": null,
+    "osm_url": "https://www.openstreetmap.org/relation/14514161",
+    "source": "osm",
+    "facility_id": "f_b7dd1d3def98"
+  }
+]

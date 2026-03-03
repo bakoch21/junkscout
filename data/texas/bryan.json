@@ -1,22 +1,99 @@
 [
   {
-    "name": "BRYAN COMPOSTING FACILITY",
+    "id": "f_manual_53b60ac1367f",
+    "name": "Used Oil and Tire Recycling Center",
     "type": "recycling",
-    "address": "2988 PLEASANT HILL RD BRYAN TX 77807",
-    "lat": 30.39,
-    "lng": -97.67,
-    "website": null,
-    "source": null,
-    "facility_id": "f_e6d4c086f80a"
+    "type_label": "Recycling Center",
+    "address": "1111 Waco St, Bryan, TX 77803",
+    "phone": "979-209-5900",
+    "hours": "Bryan posts current Used Oil and Tire Recycling Center hours on its recycling programs page. Confirm before visiting.",
+    "fees": "Residential drop-off is generally free for qualifying Bryan customers. Confirm current limits before arrival.",
+    "rules": "Bring proof of Bryan residency or service if required, and use the city page to confirm current quantity limits before driving.",
+    "accepted_materials": [
+      "Used motor oil",
+      "Oil filters",
+      "Cooking grease",
+      "Residential tires"
+    ],
+    "not_accepted": [
+      "Commercial oils or tires",
+      "Materials outside posted recycling rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+    "osm_url": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "bryan"
+      }
+    ],
+    "lat": 30.680921955441,
+    "lng": -96.355768186069,
+    "geocode_match": "1111 WACO ST, BRYAN, TX, 77803",
+    "geocode_source": "census",
+    "facility_id": "f_manual_53b60ac1367f"
   },
   {
-    "name": "STILL CREEK LIQUID WASTE PROCESSING FACILITY",
+    "id": "f_manual_3aa7d63ab2b3",
+    "name": "Twin Oaks Landfill",
     "type": "landfill",
-    "address": "2028 QUALITY PARK LN BRYAN TX 77803",
-    "lat": 30.67,
-    "lng": -96.41,
-    "website": null,
-    "source": null,
-    "facility_id": "f_1a14c894eb61"
+    "type_label": "Landfill",
+    "address": "2690 State Highway 30, Anderson, TX 77830",
+    "phone": "Check operator listing",
+    "hours": "Check Twin Oaks Landfill for current gate hours before visiting.",
+    "fees": "Landfill fees vary by load type, weight, and waste class. Confirm current rates before arrival.",
+    "rules": "Use the operator page to confirm accepted loads, payment methods, and any resident or account requirements before driving.",
+    "accepted_materials": [
+      "Municipal solid waste",
+      "Bulky disposal loads",
+      "Approved construction debris"
+    ],
+    "not_accepted": [
+      "Unapproved hazardous waste",
+      "Materials outside landfill acceptance rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://twinoakslandfill.com/",
+    "osm_url": "https://twinoakslandfill.com/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "bryan"
+      }
+    ],
+    "facility_id": "f_manual_3aa7d63ab2b3"
+  },
+  {
+    "id": "f_manual_4a0ff545d86c",
+    "name": "Twin Oaks Landfill Used Motor Oil and Oil Filter Drop-Off",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "2690 State Highway 30, Anderson, TX 77830",
+    "phone": "Check operator listing",
+    "hours": "Bryan notes that Twin Oaks Landfill accepts used motor oil and oil filters during normal business hours. Confirm before visiting.",
+    "fees": "Used motor oil and oil filter drop-off is generally free for qualifying household quantities. Confirm current limits before arrival.",
+    "rules": "Use the Bryan recycling programs page to confirm accepted quantities and any preparation requirements before driving.",
+    "accepted_materials": [
+      "Used motor oil",
+      "Oil filters"
+    ],
+    "not_accepted": [
+      "Commercial quantities",
+      "Materials outside posted household program rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+    "osm_url": "https://www.bryantx.gov/solid-waste/recycling-programs/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "bryan"
+      }
+    ],
+    "facility_id": "f_manual_4a0ff545d86c"
   }
 ]

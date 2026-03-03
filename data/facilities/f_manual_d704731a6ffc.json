@@ -1,0 +1,31 @@
+{
+  "id": "f_manual_d704731a6ffc",
+  "name": "Hillshire Drop-Off Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "301 Hillshire Dr, Fort Worth, TX 76131",
+  "phone": "817-392-1234",
+  "hours": "Fort Worth posts current Hillshire Drop-Off Station hours on the official drop-off station page. Confirm before visiting.",
+  "fees": "Some services are limited to residents or specific load types. Confirm current fees and eligibility before arrival.",
+  "rules": "Use the city page to verify accepted items, proof-of-residency rules, and any vehicle restrictions before driving.",
+  "accepted_materials": [
+    "Residential trash",
+    "Bulk waste",
+    "Yard waste",
+    "Recyclables"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Loads outside posted station policy"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/drop-off-stations",
+  "osm_url": "https://www.fortworthtexas.gov/departments/code-compliance/solidwaste/drop-off-stations",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "fort-worth"
+    }
+  ]
+}

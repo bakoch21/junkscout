@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_db4a6ee96dbe",
+  "name": "Household Chemical Disposal Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "6616 Walnut St, Frisco, TX 75034",
+  "phone": "Check city listing",
+  "hours": "Check Frisco for current household chemical disposal hours before visiting.",
+  "fees": "Household hazardous waste service is generally resident-focused. Confirm eligibility and item limits before arrival.",
+  "rules": "Use the official city page to confirm accepted items, packaging instructions, and any proof-of-residency requirements before driving.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint",
+    "Batteries",
+    "Used oil",
+    "Household hazardous waste"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Materials outside posted household program rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.friscotexas.gov/185/Household-Chemical-Disposal",
+  "osm_url": "https://www.friscotexas.gov/185/Household-Chemical-Disposal",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "frisco"
+    }
+  ],
+  "lat": 33.153328850148,
+  "lng": -96.827890128468,
+  "geocode_match": "6616 WALNUT ST, FRISCO, TX, 75033",
+  "geocode_source": "census"
+}

@@ -1,32 +1,73 @@
 [
   {
-    "name": "CARMAX AUTO 7115 ENCLOSED STRUCTURE OVER CLOSED LANDFILL",
+    "id": "f_manual_fcf6ff9f955d",
+    "name": "Hunter Ferrell Landfill Scalehouse and Administration Complex",
     "type": "landfill",
-    "address": "3100 SPUR 482 IRVING TX 75062",
-    "lat": 32.84,
-    "lng": -96.9,
-    "website": null,
-    "source": null,
-    "facility_id": "f_3e5badbbc492"
+    "type_label": "Landfill",
+    "address": "110 E Hunter Ferrell Rd, Irving, TX 75060",
+    "phone": "972-721-8059",
+    "hours": "Irving lists the landfill complex as open 7:00 AM to 5:30 PM Monday through Saturday. Confirm before visiting.",
+    "fees": "Landfill and disposal fees vary by load type and residency status. Confirm current rates before arrival.",
+    "rules": "Bring photo ID and proof of Irving residency, and use the official city page to confirm accepted loads before driving.",
+    "accepted_materials": [
+      "Waste generated within the City of Irving",
+      "Bulky disposal loads",
+      "Approved self-haul loads"
+    ],
+    "not_accepted": [
+      "Waste generated outside Irving",
+      "Materials outside posted landfill rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://irvingtx.gov/Landfill",
+    "osm_url": "https://irvingtx.gov/Landfill",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "irving"
+      }
+    ],
+    "lat": 32.786572764444,
+    "lng": -96.934504596965,
+    "geocode_match": "110 E HUNTER FERRELL RD, IRVING, TX, 75060",
+    "geocode_source": "census",
+    "facility_id": "f_manual_fcf6ff9f955d"
   },
   {
-    "name": "HUNTER FERRELL LANDFILL",
-    "type": "landfill",
-    "address": "220 W HUNTER FERRELL RD IRVING TX 75060",
-    "lat": 32.78,
-    "lng": -96.95,
-    "website": null,
-    "source": null,
-    "facility_id": "f_c78dec158628"
-  },
-  {
-    "name": "United Electronic Recycling",
+    "id": "f_manual_f171b2a1d637",
+    "name": "Irving Recycling Drop-Off Station",
     "type": "recycling",
-    "address": "505 Airline Drive",
-    "lat": 32.9430728,
-    "lng": -97.003908,
-    "website": "https://unitedelectronicrecycling.com",
-    "source": null,
-    "facility_id": "f_d7c679532679"
+    "type_label": "Recycling Center",
+    "address": "110 E Hunter Ferrell Rd, Irving, TX 75060",
+    "phone": "972-721-8059",
+    "hours": "Irving lists the recycling drop-off station as open 7:00 AM to 5:30 PM Monday through Saturday. Confirm before visiting.",
+    "fees": "The drop-off station is a resident benefit. Confirm current eligibility and accepted materials before arrival.",
+    "rules": "Use the official city page to confirm accepted materials, current holiday closures, and any residency requirements before driving.",
+    "accepted_materials": [
+      "Aluminum and steel cans",
+      "Cardboard and paper",
+      "Glass bottles and jars",
+      "Program-approved recyclables"
+    ],
+    "not_accepted": [
+      "General household trash",
+      "Materials outside posted recycling rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://irvingtx.gov/recycling-drop-off",
+    "osm_url": "https://irvingtx.gov/recycling-drop-off",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "texas",
+        "city": "irving"
+      }
+    ],
+    "lat": 32.786572764444,
+    "lng": -96.934504596965,
+    "geocode_match": "110 E HUNTER FERRELL RD, IRVING, TX, 75060",
+    "geocode_source": "census",
+    "facility_id": "f_manual_f171b2a1d637"
   }
 ]
