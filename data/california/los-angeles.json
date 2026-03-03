@@ -1,706 +1,604 @@
 [
   {
-    "name": "RePlanet",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.1872277,
-    "lng": -118.6270012,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/1532946649",
-    "source": "osm",
-    "facility_id": "f_adf377ff7712"
-  },
-  {
-    "name": "California Metals",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.9489773,
-    "lng": -118.178438,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4010235118",
-    "source": "osm",
-    "facility_id": "f_f37864c0dd58"
-  },
-  {
-    "name": "free mulch pick-up",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.8074844,
-    "lng": -118.1765948,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6415540965",
-    "source": "osm",
-    "facility_id": "f_63b4fef10276"
-  },
-  {
-    "name": "The City of Glendale Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.1330331,
-    "lng": -118.263824,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6625254250",
-    "source": "osm",
-    "facility_id": "f_096ed3c0fa8c"
-  },
-  {
-    "name": "The Salvation Army",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.1869291,
-    "lng": -118.458718,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/7510039808",
-    "source": "osm",
-    "facility_id": "f_89a4460213b2"
-  },
-  {
-    "name": "Goodwill Donation Site",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0370084,
-    "lng": -118.4358631,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/8569870496",
-    "source": "osm",
-    "facility_id": "f_c55e30d711d0"
-  },
-  {
-    "name": "Miguel Mendoza Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.2280204,
-    "lng": -118.4684809,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/10976093091",
-    "source": "osm",
-    "facility_id": "f_124c46c2ae39"
-  },
-  {
-    "name": "Flores Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0803617,
-    "lng": -118.2697786,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/11390840166",
-    "source": "osm",
-    "facility_id": "f_28ef6388b36f"
-  },
-  {
-    "name": "De la Cruz Recycling",
-    "type": "recycling",
-    "address": "15025 Roscoe Boulevard North Hills CA 91402",
-    "lat": 34.2220202,
-    "lng": -118.4600473,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/11637348505",
-    "source": "osm",
-    "facility_id": "f_024d9954b4f7"
-  },
-  {
-    "name": "",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0207964,
-    "lng": -118.4674062,
-    "website": "https://treemachine.us",
-    "osm_url": "https://www.openstreetmap.org/node/12695709798",
-    "source": "osm",
-    "facility_id": "f_163e7ce35258"
-  },
-  {
-    "name": "",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0207873,
-    "lng": -118.4673972,
-    "website": "https://treemachine.us",
-    "osm_url": "https://www.openstreetmap.org/node/12695709799",
-    "source": "osm",
-    "facility_id": "f_123e3f36aa38"
-  },
-  {
-    "name": "Maple Canyon Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.283503,
-    "lng": -118.18512,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/31009621",
-    "source": "osm",
-    "facility_id": "f_11123ccf58cc"
-  },
-  {
-    "name": "Pomeroy Canyon Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.1869898,
-    "lng": -118.2714759,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/31721502",
-    "source": "osm",
-    "facility_id": "f_d36cb725d031"
-  },
-  {
-    "name": "Scholl Canyon Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.1582237,
-    "lng": -118.194043,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/39515897",
-    "source": "osm",
-    "facility_id": "f_39b3b6d4b2ba"
-  },
-  {
-    "name": "Central LA Recycling & Transfer Station",
-    "type": "transfer_station",
-    "address": "2201 East Washington Boulevard Los Angeles CA 90021",
-    "lat": 34.0202968,
-    "lng": -118.2344926,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/48278597",
-    "source": "osm",
-    "facility_id": "f_b851ae715761"
-  },
-  {
-    "name": "Los Angeles County S.A.F.E Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.2375941,
-    "lng": -118.3714433,
-    "website": "http://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
-    "osm_url": "https://www.openstreetmap.org/way/62551420",
-    "source": "osm",
-    "facility_id": "f_7c2964f42f8a"
-  },
-  {
-    "name": "Palos Verdes Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.7886843,
-    "lng": -118.3483211,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195841959",
-    "source": "osm",
-    "facility_id": "f_7a4d2e253fed"
-  },
-  {
-    "name": "City of Burbank Landfill No. 3",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.2089623,
-    "lng": -118.3122772,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/199045527",
-    "source": "osm",
-    "facility_id": "f_333a08c12c73"
-  },
-  {
-    "name": "Sunshine Canyon Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.3275582,
-    "lng": -118.5150104,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/220684352",
-    "source": "osm",
-    "facility_id": "f_f0ccc7ed2dc6"
-  },
-  {
-    "name": "SA Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0110034,
-    "lng": -118.2421367,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/351913959",
-    "source": "osm",
-    "facility_id": "f_def2f996427c"
-  },
-  {
-    "name": "Goodwill Donation Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0512766,
-    "lng": -118.4183903,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/391058661",
-    "source": "osm",
-    "facility_id": "f_464a76c54b32"
-  },
-  {
-    "name": "EDCO Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.8076548,
-    "lng": -118.1820429,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/418106125",
-    "source": "osm",
-    "facility_id": "f_67f46a8d4f84"
-  },
-  {
-    "name": "Canco Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.8603832,
-    "lng": -118.1594361,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/441318937",
-    "source": "osm",
-    "facility_id": "f_61ecdd7e4371"
-  },
-  {
-    "name": "Sun Valley Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.2445314,
-    "lng": -118.3767656,
-    "website": "https://www.vulcanmaterials.com/construction-materials/facilities/sun-valley-landfill",
-    "osm_url": "https://www.openstreetmap.org/way/731254098",
-    "source": "osm",
-    "facility_id": "f_d089c19e06f9"
-  },
-  {
-    "name": "Glendale Waste Collection Center",
-    "type": "transfer_station",
-    "address": "",
-    "lat": 34.1382923,
-    "lng": -118.2726631,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/736634391",
-    "source": "osm",
-    "facility_id": "f_7103e82aa05f"
-  },
-  {
+    "id": "f_manual_6259b46e2fa4",
     "name": "South Gate Transfer Station",
     "type": "transfer_station",
-    "address": "",
-    "lat": 33.9426856,
-    "lng": -118.1668389,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/872765445",
-    "source": "osm",
-    "facility_id": "f_30f56504b778"
+    "type_label": "Transfer Station",
+    "address": "9530 Garfield Avenue, South Gate, CA 90280",
+    "phone": "562-908-4288 ext. 4731",
+    "hours": "Open Monday through Saturday from 6:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM, no automatic dump vehicles after 4:45 PM, and unloading must be complete by 4:50 PM.",
+    "fees": "Disposal fees vary by material type, load size, and vehicle class. The district accepts cash, credit card, debit card, or pre-arranged credit; no checks.",
+    "rules": "Secure your load, bring only non-hazardous material, and review current rate information before driving.",
+    "accepted_materials": [
+      "Non-hazardous municipal solid waste",
+      "General self-haul disposal loads",
+      "Inert material"
+    ],
+    "not_accepted": [
+      "Hazardous waste",
+      "Liquid waste",
+      "Loads outside posted transfer-station rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lacsd.org/services/solid-waste/facilities/south-gate-transfer-station",
+    "osm_url": "https://www.lacsd.org/services/solid-waste/facilities/south-gate-transfer-station",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 33.944207452759,
+    "lng": -118.166347931661,
+    "geocode_match": "9530 GARFIELD AVE, SOUTH GATE, CA, 90280",
+    "geocode_source": "census",
+    "facility_id": "f_manual_6259b46e2fa4"
   },
   {
-    "name": "Bradley Landfill & Sun Valley Recycling Park",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.2392547,
-    "lng": -118.3850687,
-    "website": "https://www.wmsolutions.com/locations/details/id/1105",
-    "osm_url": "https://www.openstreetmap.org/way/1074041260",
-    "source": "osm",
-    "facility_id": "f_e76ce05562a8"
-  },
-  {
-    "name": "Nicole Bernsone SAFE Center",
+    "id": "f_manual_8fb9f4832ef9",
+    "name": "Puente Hills Material Recovery Facility & Transfer Station",
     "type": "transfer_station",
-    "address": "10241 Balboa Boulevard Northridge CA 91325",
-    "lat": 34.2568956,
-    "lng": -118.5027189,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1152879487",
-    "source": "osm",
-    "facility_id": "f_853de71119cf"
+    "type_label": "Transfer Station",
+    "address": "13130 Crossroads Parkway South, City of Industry, CA 91746",
+    "phone": "562-908-4288 ext. 6071",
+    "hours": "Open Monday through Saturday from 4:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM, no automatic dump vehicles after 4:45 PM, and unloading must be complete by 4:50 PM.",
+    "fees": "Transfer fees vary by load type, weight, and vehicle class. The district accepts cash, credit card, debit card, or pre-arranged credit; no checks.",
+    "rules": "A safety vest is required whenever you exit your vehicle. Secure your load and confirm current material restrictions before arrival.",
+    "accepted_materials": [
+      "Mixed self-haul disposal loads",
+      "Municipal solid waste",
+      "Recoverable recyclable materials"
+    ],
+    "not_accepted": [
+      "Hazardous waste",
+      "Paint or chemicals",
+      "E-waste",
+      "Asbestos"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lacsd.org/services/solid-waste/facilities/puente-hills-materials-recovery-facility-mrf",
+    "osm_url": "https://www.lacsd.org/services/solid-waste/facilities/puente-hills-materials-recovery-facility-mrf",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.02967918251,
+    "lng": -118.011888485035,
+    "geocode_match": "13130 CROSSROADS PKWY S, CITY OF INDUSTRY, CA, 91746",
+    "geocode_source": "census",
+    "facility_id": "f_manual_8fb9f4832ef9"
   },
   {
-    "name": "Southwest Marine Disposal Site",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.729855,
-    "lng": -118.2697591,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1172426496",
-    "source": "osm",
-    "facility_id": "f_f3bf85e0adea"
-  },
-  {
-    "name": "Washington Blvd. S.A.F.E. Center",
-    "type": "transfer_station",
-    "address": "2649 East Washington Boulevard Los Angeles CA 90021",
-    "lat": 34.0178538,
-    "lng": -118.2254111,
-    "website": "https://www.lacitysan.org/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw/s-lsh-wwd-s-c-hw-safemc?_adf.ctrl-state=vczkvt7hx_738",
-    "osm_url": "https://www.openstreetmap.org/way/1261050567",
-    "source": "osm",
-    "facility_id": "f_67f2fa2460b9"
-  },
-  {
-    "name": "Deniz Recycling",
-    "type": "recycling",
-    "address": "10706 Vanowen Street North Hollywood Ca 91605",
-    "lat": 34.1936032,
-    "lng": -118.3641573,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1409639503",
-    "source": "osm",
-    "facility_id": "f_57192477ecab"
-  },
-  {
-    "name": "SA Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.7593212,
-    "lng": -118.2525802,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/relation/14285490",
-    "source": "osm",
-    "facility_id": "f_1863a5732ec2"
-  },
-  {
-    "name": "RePlanet",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.1872277,
-    "lng": -118.6270012,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/1532946649",
-    "source": "osm",
-    "facility_id": "f_adf377ff7712"
-  },
-  {
-    "name": "California Metals",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.9489773,
-    "lng": -118.178438,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/4010235118",
-    "source": "osm",
-    "facility_id": "f_f37864c0dd58"
-  },
-  {
-    "name": "free mulch pick-up",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.8074844,
-    "lng": -118.1765948,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6415540965",
-    "source": "osm",
-    "facility_id": "f_63b4fef10276"
-  },
-  {
-    "name": "The City of Glendale Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.1330331,
-    "lng": -118.263824,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/6625254250",
-    "source": "osm",
-    "facility_id": "f_096ed3c0fa8c"
-  },
-  {
-    "name": "The Salvation Army",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.1869291,
-    "lng": -118.458718,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/7510039808",
-    "source": "osm",
-    "facility_id": "f_89a4460213b2"
-  },
-  {
-    "name": "Goodwill Donation Site",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0370084,
-    "lng": -118.4358631,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/8569870496",
-    "source": "osm",
-    "facility_id": "f_c55e30d711d0"
-  },
-  {
-    "name": "Miguel Mendoza Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.2280204,
-    "lng": -118.4684809,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/10976093091",
-    "source": "osm",
-    "facility_id": "f_124c46c2ae39"
-  },
-  {
-    "name": "Flores Recycling Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0803617,
-    "lng": -118.2697786,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/11390840166",
-    "source": "osm",
-    "facility_id": "f_28ef6388b36f"
-  },
-  {
-    "name": "De la Cruz Recycling",
-    "type": "recycling",
-    "address": "15025 Roscoe Boulevard North Hills CA 91402",
-    "lat": 34.2220202,
-    "lng": -118.4600473,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/node/11637348505",
-    "source": "osm",
-    "facility_id": "f_024d9954b4f7"
-  },
-  {
-    "name": "",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0207964,
-    "lng": -118.4674062,
-    "website": "https://treemachine.us",
-    "osm_url": "https://www.openstreetmap.org/node/12695709798",
-    "source": "osm",
-    "facility_id": "f_163e7ce35258"
-  },
-  {
-    "name": "",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.0207873,
-    "lng": -118.4673972,
-    "website": "https://treemachine.us",
-    "osm_url": "https://www.openstreetmap.org/node/12695709799",
-    "source": "osm",
-    "facility_id": "f_123e3f36aa38"
-  },
-  {
-    "name": "Maple Canyon Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.283503,
-    "lng": -118.18512,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/31009621",
-    "source": "osm",
-    "facility_id": "f_11123ccf58cc"
-  },
-  {
-    "name": "Pomeroy Canyon Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.1869898,
-    "lng": -118.2714759,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/31721502",
-    "source": "osm",
-    "facility_id": "f_d36cb725d031"
-  },
-  {
+    "id": "f_manual_fa1c19780fe3",
     "name": "Scholl Canyon Landfill",
     "type": "landfill",
-    "address": "",
-    "lat": 34.1582237,
-    "lng": -118.194043,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/39515897",
-    "source": "osm",
-    "facility_id": "f_39b3b6d4b2ba"
+    "type_label": "Landfill",
+    "address": "3001 Scholl Canyon Road, Glendale, CA 91206",
+    "phone": "818-243-9779",
+    "hours": "Self-haul hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 3:30 PM. Closed Sunday.",
+    "fees": "Landfill fees vary by load size, weight, and material type. Check the official landfill page for current rates before you drive.",
+    "rules": "Covered loads and landfill safety rules apply. Confirm accepted materials and payment methods before arrival.",
+    "accepted_materials": [
+      "Municipal solid waste",
+      "Approved bulky waste",
+      "Approved construction debris"
+    ],
+    "not_accepted": [
+      "Hazardous waste",
+      "Materials outside landfill permit scope"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lacsd.org/services/solid-waste/facilities/scholl-canyon-landfill",
+    "osm_url": "https://www.lacsd.org/services/solid-waste/facilities/scholl-canyon-landfill",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "geocode_source": "census",
+    "facility_id": "f_manual_fa1c19780fe3"
   },
   {
-    "name": "Central LA Recycling & Transfer Station",
-    "type": "transfer_station",
-    "address": "2201 East Washington Boulevard Los Angeles CA 90021",
-    "lat": 34.0202968,
-    "lng": -118.2344926,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/48278597",
-    "source": "osm",
-    "facility_id": "f_b851ae715761"
-  },
-  {
-    "name": "Los Angeles County S.A.F.E Center",
-    "type": "recycling",
-    "address": "",
-    "lat": 34.2375941,
-    "lng": -118.3714433,
-    "website": "http://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
-    "osm_url": "https://www.openstreetmap.org/way/62551420",
-    "source": "osm",
-    "facility_id": "f_7c2964f42f8a"
-  },
-  {
-    "name": "Palos Verdes Landfill",
+    "id": "f_manual_5dd44a44cea2",
+    "name": "Calabasas Landfill",
     "type": "landfill",
-    "address": "",
-    "lat": 33.7886843,
-    "lng": -118.3483211,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/195841959",
-    "source": "osm",
-    "facility_id": "f_7a4d2e253fed"
+    "type_label": "Landfill",
+    "address": "5300 Lost Hills Road, Agoura, CA 91301",
+    "phone": "818-889-0363",
+    "hours": "Current operating hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 2:30 PM. Closed Sunday.",
+    "fees": "Landfill fees vary by load type, weight, and material class. Review the current Calabasas rate schedule before driving.",
+    "rules": "The landfill limits solid-waste disposal to the Calabasas wasteshed. Confirm current wasteshed rules and accepted materials before arrival.",
+    "accepted_materials": [
+      "Solid waste from the Calabasas wasteshed",
+      "Green waste",
+      "Dirt",
+      "Asphalt"
+    ],
+    "not_accepted": [
+      "Hazardous waste",
+      "Solid waste from outside the Calabasas wasteshed",
+      "Loads outside posted landfill rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lacsd.org/Services/Solid-Waste/Facilities/Calabasas-Landfill",
+    "osm_url": "https://www.lacsd.org/Services/Solid-Waste/Facilities/Calabasas-Landfill",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.143485304579,
+    "lng": -118.709134594424,
+    "geocode_match": "5300 LOST HILLS RD, AGOURA, CA, 91301",
+    "geocode_source": "census",
+    "facility_id": "f_manual_5dd44a44cea2"
   },
   {
-    "name": "City of Burbank Landfill No. 3",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.2089623,
-    "lng": -118.3122772,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/199045527",
-    "source": "osm",
-    "facility_id": "f_333a08c12c73"
-  },
-  {
+    "id": "f_manual_3b36b161066b",
     "name": "Sunshine Canyon Landfill",
     "type": "landfill",
-    "address": "",
-    "lat": 34.3275582,
-    "lng": -118.5150104,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/220684352",
-    "source": "osm",
-    "facility_id": "f_f0ccc7ed2dc6"
+    "type_label": "Landfill",
+    "address": "14747 San Fernando Road, Sylmar, CA 91342",
+    "phone": "818-362-2124",
+    "hours": "Regular hours are Monday through Friday from 6:00 AM to 6:00 PM and Saturday from 7:00 AM to 12:00 PM. Hand-unload loads must be on the scales by 5:00 PM weekdays and 11:00 AM on Saturday.",
+    "fees": "Public self-haul pricing varies by material. The landfill applies a one-ton minimum for many disposal categories, so confirm current rates before you drive.",
+    "rules": "An origin report form is required for every transaction. If you exit your vehicle, safety glasses, a hard hat, and a reflective vest are required.",
+    "accepted_materials": [
+      "Municipal solid waste",
+      "Bulky self-haul disposal loads",
+      "Green waste",
+      "Approved appliances for recycling"
+    ],
+    "not_accepted": [
+      "Hazardous waste",
+      "Liquids",
+      "Paint",
+      "Automotive batteries",
+      "Asbestos"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://sunshinecanyonlandfill.com/drop-off-information",
+    "osm_url": "https://sunshinecanyonlandfill.com/drop-off-information",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.324148949027,
+    "lng": -118.503462217144,
+    "geocode_match": "14747 SAN FERNANDO RD, SYLMAR, CA, 91342",
+    "geocode_source": "census",
+    "facility_id": "f_manual_3b36b161066b"
   },
   {
-    "name": "SA Recycling",
+    "id": "f_manual_b600214f6d94",
+    "name": "Glendale Recycling Center",
     "type": "recycling",
-    "address": "",
-    "lat": 34.0110034,
-    "lng": -118.2421367,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/351913959",
-    "source": "osm",
-    "facility_id": "f_def2f996427c"
+    "type_label": "Recycling Center",
+    "address": "540 W. Chevy Chase Drive, Glendale, CA 91204",
+    "phone": "818-552-2870",
+    "hours": "Open Monday through Friday from 7:30 AM to 4:45 PM and Saturday from 8:00 AM to 3:30 PM.",
+    "fees": "CRV payouts are available for eligible containers. Other accepted household recyclables are generally drop-off items; confirm any item-specific fees before arrival.",
+    "rules": "Use the city recycling center page to confirm current accepted items and any holiday closures before driving.",
+    "accepted_materials": [
+      "Cardboard and mixed paper",
+      "Bottles and cans",
+      "Used motor oil and oil filters",
+      "Scrap metal",
+      "Antifreeze"
+    ],
+    "not_accepted": [
+      "Household trash",
+      "Hazardous waste outside posted program scope"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/recycling-center",
+    "osm_url": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/recycling-center",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.133375435607,
+    "lng": -118.263584072204,
+    "geocode_match": "540 W CHEVY CHASE DR, GLENDALE, CA, 91204",
+    "geocode_source": "census",
+    "facility_id": "f_manual_b600214f6d94"
   },
   {
-    "name": "Goodwill Donation Center",
+    "id": "f_manual_6004d1336e49",
+    "name": "Burbank Recycle Center",
     "type": "recycling",
-    "address": "",
-    "lat": 34.0512766,
-    "lng": -118.4183903,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/391058661",
-    "source": "osm",
-    "facility_id": "f_464a76c54b32"
+    "type_label": "Recycling Center",
+    "address": "500 S. Flower Street, Burbank, CA 91502",
+    "phone": "818-238-3900",
+    "hours": "Drop-off recycling and CRV hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 4:00 PM. Electronic drop-off is not accepted on weekends or city holidays.",
+    "fees": "CRV redemption is available for qualifying beverage containers. Confirm any special program rules before arrival.",
+    "rules": "This is a resident-focused city program. Confirm current accepted materials and any proof-of-residency requirements before driving.",
+    "accepted_materials": [
+      "CRV bottles and cans",
+      "Cardboard and paper",
+      "Common recyclables",
+      "Electronic waste on weekdays"
+    ],
+    "not_accepted": [
+      "Household trash",
+      "Weekend e-waste drop-off"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.burbankca.gov/web/public-works/recycle-center",
+    "osm_url": "https://www.burbankca.gov/web/public-works/recycle-center",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.175452320258,
+    "lng": -118.309029851385,
+    "geocode_match": "500 S FLOWER ST, BURBANK, CA, 91502",
+    "geocode_source": "census",
+    "facility_id": "f_manual_6004d1336e49"
   },
   {
-    "name": "EDCO Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.8076548,
-    "lng": -118.1820429,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/418106125",
-    "source": "osm",
-    "facility_id": "f_67f46a8d4f84"
+    "id": "f_manual_fec6fc7b0b07",
+    "name": "Burbank Recycle Center Drop Zone",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "500 S. Flower Street, Burbank, CA 91502",
+    "phone": "818-238-3900",
+    "hours": "The drop zone is open Monday through Friday from 8:00 AM to 5:00 PM and closed Saturday, Sunday, and city holidays. The office closes from 12:00 PM to 1:00 PM for lunch.",
+    "fees": "The city lists this as a resident and qualifying small-business drop zone. Confirm current eligibility and any item limits before arrival.",
+    "rules": "Review the city's universal and HHW guidance before you drive because the drop zone accepts a narrower set of materials than a full HHW facility.",
+    "accepted_materials": [
+      "Household batteries",
+      "Fluorescent bulbs",
+      "Electronic waste",
+      "Sharps in approved containers",
+      "Universal waste"
+    ],
+    "not_accepted": [
+      "Paint",
+      "Used motor oil",
+      "Oil filters",
+      "Loose e-bike batteries",
+      "Medical waste outside posted rules"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.burbankca.gov/web/public-works/universal-and-hhw",
+    "osm_url": "https://www.burbankca.gov/web/public-works/universal-and-hhw",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.175452320258,
+    "lng": -118.309029851385,
+    "geocode_match": "500 S FLOWER ST, BURBANK, CA, 91502",
+    "geocode_source": "census",
+    "facility_id": "f_manual_fec6fc7b0b07"
   },
   {
-    "name": "Canco Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.8603832,
-    "lng": -118.1594361,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/441318937",
-    "source": "osm",
-    "facility_id": "f_61ecdd7e4371"
-  },
-  {
-    "name": "Sun Valley Landfill",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.2445314,
-    "lng": -118.3767656,
-    "website": "https://www.vulcanmaterials.com/construction-materials/facilities/sun-valley-landfill",
-    "osm_url": "https://www.openstreetmap.org/way/731254098",
-    "source": "osm",
-    "facility_id": "f_d089c19e06f9"
-  },
-  {
-    "name": "Glendale Waste Collection Center",
-    "type": "transfer_station",
-    "address": "",
-    "lat": 34.1382923,
-    "lng": -118.2726631,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/736634391",
-    "source": "osm",
-    "facility_id": "f_7103e82aa05f"
-  },
-  {
-    "name": "South Gate Transfer Station",
-    "type": "transfer_station",
-    "address": "",
-    "lat": 33.9426856,
-    "lng": -118.1668389,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/872765445",
-    "source": "osm",
-    "facility_id": "f_30f56504b778"
-  },
-  {
-    "name": "Bradley Landfill & Sun Valley Recycling Park",
-    "type": "landfill",
-    "address": "",
-    "lat": 34.2392547,
-    "lng": -118.3850687,
-    "website": "https://www.wmsolutions.com/locations/details/id/1105",
-    "osm_url": "https://www.openstreetmap.org/way/1074041260",
-    "source": "osm",
-    "facility_id": "f_e76ce05562a8"
-  },
-  {
-    "name": "Nicole Bernsone SAFE Center",
-    "type": "transfer_station",
-    "address": "10241 Balboa Boulevard Northridge CA 91325",
-    "lat": 34.2568956,
-    "lng": -118.5027189,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1152879487",
-    "source": "osm",
-    "facility_id": "f_853de71119cf"
-  },
-  {
-    "name": "Southwest Marine Disposal Site",
-    "type": "landfill",
-    "address": "",
-    "lat": 33.729855,
-    "lng": -118.2697591,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1172426496",
-    "source": "osm",
-    "facility_id": "f_f3bf85e0adea"
-  },
-  {
+    "id": "f_manual_4085a95a83e9",
     "name": "Washington Blvd. S.A.F.E. Center",
-    "type": "transfer_station",
-    "address": "2649 East Washington Boulevard Los Angeles CA 90021",
-    "lat": 34.0178538,
-    "lng": -118.2254111,
-    "website": "https://www.lacitysan.org/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw/s-lsh-wwd-s-c-hw-safemc?_adf.ctrl-state=vczkvt7hx_738",
-    "osm_url": "https://www.openstreetmap.org/way/1261050567",
-    "source": "osm",
-    "facility_id": "f_67f2fa2460b9"
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "2649 E. Washington Boulevard, Los Angeles, CA 90021",
+    "phone": "1-800-773-2489",
+    "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
+    "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+    "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Used motor oil",
+      "Batteries",
+      "Electronics (e-waste)"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Tires"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lastormwater.org/general-info/safe-centers/",
+    "osm_url": "https://www.lastormwater.org/general-info/safe-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.017519982163,
+    "lng": -118.226871124366,
+    "geocode_match": "2649 E WASHINGTON BLVD, LOS ANGELES, CA, 90021",
+    "geocode_source": "census",
+    "facility_id": "f_manual_4085a95a83e9"
   },
   {
-    "name": "Deniz Recycling",
-    "type": "recycling",
-    "address": "10706 Vanowen Street North Hollywood Ca 91605",
-    "lat": 34.1936032,
-    "lng": -118.3641573,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/way/1409639503",
-    "source": "osm",
-    "facility_id": "f_57192477ecab"
+    "id": "f_manual_e7e63fc8ab33",
+    "name": "Nicole Bernson S.A.F.E. Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "10241 N. Balboa Boulevard, Northridge, CA 91325",
+    "phone": "1-800-773-2489",
+    "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
+    "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+    "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Used motor oil",
+      "Batteries",
+      "Electronics (e-waste)"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Tires"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lastormwater.org/general-info/safe-centers/",
+    "osm_url": "https://www.lastormwater.org/general-info/safe-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.256428358655,
+    "lng": -118.502414537577,
+    "geocode_match": "10241 BALBOA BLVD, NORTHRIDGE, CA, 91325",
+    "geocode_source": "census",
+    "facility_id": "f_manual_e7e63fc8ab33"
   },
   {
-    "name": "SA Recycling",
-    "type": "recycling",
-    "address": "",
-    "lat": 33.7593212,
-    "lng": -118.2525802,
-    "website": null,
-    "osm_url": "https://www.openstreetmap.org/relation/14285490",
-    "source": "osm",
-    "facility_id": "f_1863a5732ec2"
+    "id": "f_manual_f771abb9fbc7",
+    "name": "Gaffey Street S.A.F.E. Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "1400 N. Gaffey Street, San Pedro, CA 90731",
+    "phone": "1-800-773-2489",
+    "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
+    "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+    "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Used motor oil",
+      "Batteries",
+      "Electronics (e-waste)"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Tires"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lastormwater.org/general-info/safe-centers/",
+    "osm_url": "https://www.lastormwater.org/general-info/safe-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 33.763965019003,
+    "lng": -118.293337375224,
+    "geocode_match": "1400 N GAFFEY ST, SAN PEDRO, CA, 90731",
+    "geocode_source": "census",
+    "facility_id": "f_manual_f771abb9fbc7"
+  },
+  {
+    "id": "f_manual_2e1c62b766ba",
+    "name": "Randall Street S.A.F.E. Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "11025 Randall Street, Sun Valley, CA 91352",
+    "phone": "1-800-773-2489",
+    "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
+    "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+    "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Used motor oil",
+      "Batteries",
+      "Electronics (e-waste)"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Tires"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lastormwater.org/general-info/safe-centers/",
+    "osm_url": "https://www.lastormwater.org/general-info/safe-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.237888833786,
+    "lng": -118.370433524529,
+    "geocode_match": "11025 RANDALL ST, SUN VALLEY, CA, 91352",
+    "geocode_source": "census",
+    "facility_id": "f_manual_2e1c62b766ba"
+  },
+  {
+    "id": "f_manual_ad19fd910446",
+    "name": "Hyperion S.A.F.E. Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "7660 W. Imperial Highway, Gate B, Playa Del Rey, CA 90293",
+    "phone": "1-800-773-2489",
+    "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
+    "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+    "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Used motor oil",
+      "Batteries",
+      "Electronics (e-waste)"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Tires"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lastormwater.org/general-info/safe-centers/",
+    "osm_url": "https://www.lastormwater.org/general-info/safe-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "facility_id": "f_manual_ad19fd910446"
+  },
+  {
+    "id": "f_manual_ffdb93d73ac4",
+    "name": "Los Angeles/Glendale S.A.F.E. Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "4600 Colorado Boulevard, Los Angeles, CA 90039",
+    "phone": "1-800-773-2489",
+    "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
+    "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+    "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Used motor oil",
+      "Batteries",
+      "Electronics (e-waste)"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Tires"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://www.lastormwater.org/general-info/safe-centers/",
+    "osm_url": "https://www.lastormwater.org/general-info/safe-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.141077391643,
+    "lng": -118.273149075417,
+    "geocode_match": "4600 COLORADO BLVD, LOS ANGELES, CA, 90039",
+    "geocode_source": "census",
+    "facility_id": "f_manual_ffdb93d73ac4"
+  },
+  {
+    "id": "f_manual_dfc3ade1927c",
+    "name": "Antelope Valley Environmental Collection Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "1200 W. City Ranch Road, Palmdale, CA 93551",
+    "phone": "1-888-CLEAN-LA",
+    "hours": "Open on the first and third Saturday of each month from 9:00 AM to 3:00 PM.",
+    "fees": "This county program is generally free for residents with household hazardous waste and e-waste. Confirm current item limits and eligibility before driving.",
+    "rules": "Use the county HHW page to confirm accepted items, packaging instructions, and any weather-related schedule changes before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Batteries",
+      "Used motor oil",
+      "E-waste"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Trash loads"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "osm_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 34.567766953988,
+    "lng": -118.146597840242,
+    "geocode_match": "1200 CITY RANCH RD, PALMDALE, CA, 93551",
+    "geocode_source": "census",
+    "facility_id": "f_manual_dfc3ade1927c"
+  },
+  {
+    "id": "f_manual_9b5c41d7ee86",
+    "name": "EDCO Environmental Collection Center",
+    "type": "hazardous_waste",
+    "type_label": "Hazardous Waste Facility",
+    "address": "2755 California Avenue, Signal Hill, CA 90755",
+    "phone": "1-888-CLEAN-LA",
+    "hours": "Open on the second and fourth Saturday of each month from 9:00 AM to 2:00 PM.",
+    "fees": "This county program is generally free for residents with household hazardous waste and e-waste. Confirm current item limits and eligibility before driving.",
+    "rules": "Use the county HHW page to confirm accepted items, packaging instructions, and any weather-related schedule changes before visiting.",
+    "accepted_materials": [
+      "Household hazardous waste",
+      "Paint and solvents",
+      "Batteries",
+      "Used motor oil",
+      "E-waste"
+    ],
+    "not_accepted": [
+      "Business hazardous waste",
+      "Explosives or ammunition",
+      "Radioactive materials",
+      "Trash loads"
+    ],
+    "verified_date": "2026-03-03",
+    "source": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "osm_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "california",
+        "city": "los-angeles"
+      }
+    ],
+    "lat": 33.807239112178,
+    "lng": -118.180716159198,
+    "geocode_match": "2755 CALIFORNIA AVE, SIGNAL HILL, CA, 90755",
+    "geocode_source": "census",
+    "facility_id": "f_manual_9b5c41d7ee86"
   }
 ]

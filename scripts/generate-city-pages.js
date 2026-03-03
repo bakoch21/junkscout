@@ -313,8 +313,10 @@ function cityHasRenderableData(state, city) {
   return Array.isArray(items) && items.length > 0;
 }
 
-function buildInitialResultsHtml(items = []) {
-  const slice = Array.isArray(items) ? items.slice(0, 12) : [];
+function buildInitialResultsHtml(items = [], options = {}) {
+  const requestedLimit = Number(options?.limit);
+  const limit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? Math.floor(requestedLimit) : 12;
+  const slice = Array.isArray(items) ? items.slice(0, limit) : [];
   if (slice.length === 0) return `<p class="muted">No locations found.</p>`;
 
   return slice
@@ -324,6 +326,11 @@ function buildInitialResultsHtml(items = []) {
       const facilityId = String(item?.facility_id || item?.id || "").trim();
       const facilityHref = facilityId ? `/facility/${encodeURIComponent(facilityId)}/` : "";
       const mapsUrl = mapsUrlForItem(item);
+      const rawSourceUrl = String(item?.source || item?.website || item?.osm_url || "").trim();
+      const sourceUrl =
+        /^https?:\/\//i.test(rawSourceUrl) && rawSourceUrl.toLowerCase() !== "https://osm"
+          ? rawSourceUrl
+          : "";
 
       const t = normalizeType(item?.type);
       const badgeHtml = `<span class="badge ${t.badgeClass}">${escapeHtml(t.label)}</span>`;
@@ -349,6 +356,7 @@ function buildInitialResultsHtml(items = []) {
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             ${mapsUrl ? `<a class="link" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener">Directions</a>` : ""}
             ${facilityHref ? `<a class="link" href="${facilityHref}">Facility page</a>` : ""}
+            ${sourceUrl ? `<a class="link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener">Source</a>` : ""}
           </div>
         </article>
       `.trim();
@@ -639,7 +647,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Los Angeles has city, county, and private options including transfer stations, landfills, recycling centers, and household hazardous waste drop-offs depending on your load.",
+              "Los Angeles-area residents typically compare S.A.F.E. centers for household hazardous waste, South Gate or Puente Hills for transfer-station access, and regional landfill options such as Scholl Canyon, Sunshine Canyon, or other source-linked sites depending on the load.",
           },
         },
         {
@@ -648,7 +656,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Some Los Angeles services are resident-focused and may include low-cost or free drop-off for specific items. Confirm rules, quantity limits, and fees before visiting.",
+              "Los Angeles household hazardous waste programs and some residential recycling programs can be free for eligible household quantities, while most transfer stations and landfills charge by load size or weight. Confirm eligibility before visiting.",
           },
         },
         {
@@ -963,7 +971,7 @@ function buildNearbyHtml({ state, city, neighborsMap, validCitySet }) {
       const d =
         (n && (n.distance_mi ?? n.distanceMiles ?? n.mi ?? n.distance)) ?? null;
       const distanceText =
-        typeof d === "number" && Number.isFinite(d) ? `${Math.round(d)} mi` : "";
+        typeof d === "number" && Number.isFinite(d) && d >= 1 ? `${Math.round(d)} mi` : "";
 
       return { slug: cleanSlug, label, distanceText };
     })
@@ -1444,6 +1452,10 @@ function injectLosAngelesIntentCopy(html) {
     </a>
   </div>
 </section>
+<section class="report__box" aria-label="Los Angeles guide review" style="margin-top:12px">
+  <h2 style="margin:0; font-size:22px">Los Angeles guide review</h2>
+  <p class="muted" style="margin-top:8px">Last reviewed March 3, 2026 using LA County household hazardous waste pages, LACSD transfer and landfill pages, Glendale public works, Sunshine Canyon, and Vulcan facility pages.</p>
+</section>
 `.trim();
 
   out = out.replace(
@@ -1467,13 +1479,18 @@ function injectLosAngelesIntentCopy(html) {
   );
 
   out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>[\s\S]*?<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1For mixed self-haul loads, Los Angeles-area residents usually compare South Gate or Puente Hills transfer-station access, while landfill-scale loads often route to sites such as Scholl Canyon or Sunshine Canyon. For paint, chemicals, batteries, oil, and e-waste, start with the S.A.F.E. centers listed above rather than a landfill.$2"
+  );
+
+  out = out.replace(
     /(<h2[^>]*id="faqDumpFree"[^>]*>)[\s\S]*?(<\/h2>)/i,
     "$1Where can I drop off trash for free in Los Angeles?$2"
   );
 
   out = out.replace(
     /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Some Los Angeles-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.$2"
+    "$1Los Angeles household hazardous waste and e-waste programs are often free for household quantities, and some nearby municipal recycling programs offer low-cost or no-cost residential drop-off. Transfer stations and landfills usually charge by weight, load size, or material type.$2"
   );
 
   out = out.replace(
@@ -1482,8 +1499,35 @@ function injectLosAngelesIntentCopy(html) {
   );
 
   out = out.replace(
+    /(<h2>Los Angeles transfer stations and recycling centers: what they accept<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Los Angeles-area transfer stations typically handle mixed household trash, bulky items, and construction debris, while landfill and recycling rules split out loads such as clean dirt, concrete, cardboard, bottles and cans, used oil, and special recycling streams. Household hazardous waste, paint, batteries, and e-waste should go to a S.A.F.E. center instead of a landfill.$2"
+  );
+
+  out = out.replace(
     "<h2>Fees, hours, and resident requirements</h2>",
     "<h2>Los Angeles landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  out = out.replace(
+    /(<h2>Los Angeles landfill and transfer station fees, hours, and rules<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Expect transfer stations and landfills to price by weight, vehicle class, or load type, while many hazardous-waste programs are resident-focused and ask for an address or other proof of eligibility. Covered-load rules, holiday schedules, and construction-debris restrictions are common, so the source link on each facility card matters.$2"
+  );
+
+  out = out.replace(
+    /<!-- NEARBY:START -->/i,
+    `<h2>Best Los Angeles option by load type</h2>
+        <p>
+          Use a <strong>S.A.F.E. center</strong> for paint, batteries, used oil, cleaners, and e-waste. Use a
+          <strong>transfer station</strong> for mixed self-haul loads you want off the truck fast. Use a
+          <strong>landfill</strong> for larger disposal loads, and use a <strong>recycling center</strong> when you already know the material stream is sortable.
+        </p>
+
+        <h2>Before you drive to a Los Angeles drop-off site</h2>
+        <p>
+          Los Angeles-area disposal rules split sharply by load type. Household hazardous waste, e-waste, and batteries have one set of rules; mixed trash and bulky items have another; and construction debris often has its own rate sheet and contamination rules. If you are paying by the load, checking the source link first is usually worth the time.
+        </p>
+
+        <!-- NEARBY:START -->`
   );
 
   return out;
@@ -1721,7 +1765,8 @@ function run() {
       enhancedCity: isEnhanced,
       blendCuratedWithData: citySource === "curated_blend",
     });
-    outputHtml = injectInitialResults(outputHtml, buildInitialResultsHtml(cityItems));
+    const initialResultsLimit = isLosAngelesCity(state, city) ? 15 : 12;
+    outputHtml = injectInitialResults(outputHtml, buildInitialResultsHtml(cityItems, { limit: initialResultsLimit }));
     outputHtml = injectStateHubLink(outputHtml, state);
     outputHtml = injectPopularCities(outputHtml, state);
 

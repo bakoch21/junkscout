@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_f771abb9fbc7",
+  "name": "Gaffey Street S.A.F.E. Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "1400 N. Gaffey Street, San Pedro, CA 90731",
+  "phone": "1-800-773-2489",
+  "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
+  "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+  "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and solvents",
+    "Used motor oil",
+    "Batteries",
+    "Electronics (e-waste)"
+  ],
+  "not_accepted": [
+    "Business hazardous waste",
+    "Explosives or ammunition",
+    "Radioactive materials",
+    "Tires"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.lastormwater.org/general-info/safe-centers/",
+  "osm_url": "https://www.lastormwater.org/general-info/safe-centers/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ],
+  "lat": 33.763965019003,
+  "lng": -118.293337375224,
+  "geocode_match": "1400 N GAFFEY ST, SAN PEDRO, CA, 90731",
+  "geocode_source": "census"
+}

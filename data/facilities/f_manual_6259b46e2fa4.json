@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_6259b46e2fa4",
+  "name": "South Gate Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "9530 Garfield Avenue, South Gate, CA 90280",
+  "phone": "562-908-4288 ext. 4731",
+  "hours": "Open Monday through Saturday from 6:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM, no automatic dump vehicles after 4:45 PM, and unloading must be complete by 4:50 PM.",
+  "fees": "Disposal fees vary by material type, load size, and vehicle class. The district accepts cash, credit card, debit card, or pre-arranged credit; no checks.",
+  "rules": "Secure your load, bring only non-hazardous material, and review current rate information before driving.",
+  "accepted_materials": [
+    "Non-hazardous municipal solid waste",
+    "General self-haul disposal loads",
+    "Inert material"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Liquid waste",
+    "Loads outside posted transfer-station rules"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://www.lacsd.org/services/solid-waste/facilities/south-gate-transfer-station",
+  "osm_url": "https://www.lacsd.org/services/solid-waste/facilities/south-gate-transfer-station",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ],
+  "lat": 33.944207452759,
+  "lng": -118.166347931661,
+  "geocode_match": "9530 GARFIELD AVE, SOUTH GATE, CA, 90280",
+  "geocode_source": "census"
+}

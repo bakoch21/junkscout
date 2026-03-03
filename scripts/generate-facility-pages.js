@@ -155,6 +155,23 @@ function nearbyDedupKey(facility) {
   return `id:${cleanString(facility?.id || "")}`;
 }
 
+function facilitiesRepresentSamePlace(a, b) {
+  const nameA = normalizeComparableText(a?.name || "");
+  const nameB = normalizeComparableText(b?.name || "");
+  if (!nameA || !nameB || nameA !== nameB) return false;
+
+  const addressA = normalizeComparableText(a?.address || "");
+  const addressB = normalizeComparableText(b?.address || "");
+  if (addressA && addressB) return addressA === addressB;
+
+  const coordsA = getCoordsFromRecord(a);
+  const coordsB = getCoordsFromRecord(b);
+  if (coordsA.lat === null || coordsA.lng === null || coordsB.lat === null || coordsB.lng === null) return false;
+
+  const distanceMi = distanceMiles(coordsA.lat, coordsA.lng, coordsB.lat, coordsB.lng);
+  return Number.isFinite(distanceMi) && distanceMi <= 0.15;
+}
+
 function mergeUniqueStringArrays(a = [], b = []) {
   const out = [];
   const seen = new Set();
@@ -510,6 +527,8 @@ function getFacilityDisplayCity(facility, state, preferredCity = "") {
 function buildNearbyFacilitiesHtml({ facility, poolFacilities, state, city }) {
   const currentId = cleanString(facility?.id || "");
   const currentType = cleanSlug(facility?.type || "");
+  const currentDedupeKey = nearbyDedupKey(facility);
+  const currentNameNormalized = normalizeComparableText(facility?.name || "");
   const stateSlug = cleanSlug(state || "");
   const citySlug = cleanSlug(city || "");
   const currentCoords = getCoordsFromRecord(facility);
@@ -534,6 +553,8 @@ function buildNearbyFacilitiesHtml({ facility, poolFacilities, state, city }) {
   for (const row of coerceArray(poolFacilities)) {
     const id = cleanString(row?.id || "");
     if (!id || id === currentId) continue;
+    if (nearbyDedupKey(row) === currentDedupeKey) continue;
+    if (facilitiesRepresentSamePlace(row, facility)) continue;
 
     const name = cleanString(row?.name || "Unnamed site");
     const sameCity = citySlug ? facilityAppearsInLocation(row, stateSlug, citySlug) : false;
@@ -581,7 +602,13 @@ function buildNearbyFacilitiesHtml({ facility, poolFacilities, state, city }) {
     }
   }
 
-  const candidates = Array.from(deduped.values()).sort(rankNearbyCandidate);
+  const candidates = Array.from(deduped.values())
+    .filter((x) => {
+      const sameName = currentNameNormalized && normalizeComparableText(x.name) === currentNameNormalized;
+      const sameSpot = Number.isFinite(x.distanceMi) && x.distanceMi <= 0.15;
+      return !(sameName && sameSpot);
+    })
+    .sort(rankNearbyCandidate);
   const top = candidates.slice(0, maxFacilityLinks);
 
   const links = top

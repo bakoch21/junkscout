@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_3b36b161066b",
+  "name": "Sunshine Canyon Landfill",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "14747 San Fernando Road, Sylmar, CA 91342",
+  "phone": "818-362-2124",
+  "hours": "Regular hours are Monday through Friday from 6:00 AM to 6:00 PM and Saturday from 7:00 AM to 12:00 PM. Hand-unload loads must be on the scales by 5:00 PM weekdays and 11:00 AM on Saturday.",
+  "fees": "Public self-haul pricing varies by material. The landfill applies a one-ton minimum for many disposal categories, so confirm current rates before you drive.",
+  "rules": "An origin report form is required for every transaction. If you exit your vehicle, safety glasses, a hard hat, and a reflective vest are required.",
+  "accepted_materials": [
+    "Municipal solid waste",
+    "Bulky self-haul disposal loads",
+    "Green waste",
+    "Approved appliances for recycling"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Liquids",
+    "Paint",
+    "Automotive batteries",
+    "Asbestos"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://sunshinecanyonlandfill.com/drop-off-information",
+  "osm_url": "https://sunshinecanyonlandfill.com/drop-off-information",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ],
+  "lat": 34.324148949027,
+  "lng": -118.503462217144,
+  "geocode_match": "14747 SAN FERNANDO RD, SYLMAR, CA, 91342",
+  "geocode_source": "census"
+}

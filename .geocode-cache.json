@@ -706,5 +706,139 @@
     "lng": -117.499573150028,
     "geocode_match": "2900 S GEIGER BLVD, SPOKANE, WA, 99224",
     "geocode_source": "census"
+  },
+  "South Gate Transfer Station||9531 State Street, South Gate, CA 90280": {
+    "lat": 33.948907266892,
+    "lng": -118.213109013143,
+    "geocode_match": "9531 STATE ST, SOUTH GATE, CA, 90280",
+    "geocode_source": "census"
+  },
+  "Puente Hills Material Recovery Facility & Transfer Station||13130 Crossroads Parkway South, City of Industry, CA 91746": {
+    "lat": 34.02967918251,
+    "lng": -118.011888485035,
+    "geocode_match": "13130 CROSSROADS PKWY S, CITY OF INDUSTRY, CA, 91746",
+    "geocode_source": "census"
+  },
+  "Scholl Canyon Landfill||3001 Scholl Canyon Road, Glendale, CA 91206": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Sunshine Canyon Landfill||14747 San Fernando Road, Sylmar, CA 91342": {
+    "lat": 34.324148949027,
+    "lng": -118.503462217144,
+    "geocode_match": "14747 SAN FERNANDO RD, SYLMAR, CA, 91342",
+    "geocode_source": "census"
+  },
+  "Sun Valley Recycling and Disposal Facility||11075 Tuxford Street, Sun Valley, CA 91352": {
+    "lat": 34.233772943925,
+    "lng": -118.372467474267,
+    "geocode_match": "11075 TUXFORD ST, SUN VALLEY, CA, 91352",
+    "geocode_source": "census"
+  },
+  "Glendale Recycling Center||540 West Chevy Chase Drive, Glendale, CA": {
+    "lat": 34.133375435607,
+    "lng": -118.263584072204,
+    "geocode_match": "540 W CHEVY CHASE DR, GLENDALE, CA, 91204",
+    "geocode_source": "census"
+  },
+  "Washington Blvd. S.A.F.E. Center||2649 East Washington Boulevard, Los Angeles, CA 90021": {
+    "lat": 34.017519982163,
+    "lng": -118.226871124366,
+    "geocode_match": "2649 E WASHINGTON BLVD, LOS ANGELES, CA, 90021",
+    "geocode_source": "census"
+  },
+  "Nicole Bernson S.A.F.E. Center||10241 Balboa Boulevard, Northridge, CA 91325": {
+    "lat": 34.256428358655,
+    "lng": -118.502414537577,
+    "geocode_match": "10241 BALBOA BLVD, NORTHRIDGE, CA, 91325",
+    "geocode_source": "census"
+  },
+  "Gaffey Street S.A.F.E. Center||1400 North Gaffey Street, San Pedro, CA 90731": {
+    "lat": 33.763965019003,
+    "lng": -118.293337375224,
+    "geocode_match": "1400 N GAFFEY ST, SAN PEDRO, CA, 90731",
+    "geocode_source": "census"
+  },
+  "Randall Street S.A.F.E. Center||11025 Randall Street, Sun Valley, CA 91352": {
+    "lat": 34.237888833786,
+    "lng": -118.370433524529,
+    "geocode_match": "11025 RANDALL ST, SUN VALLEY, CA, 91352",
+    "geocode_source": "census"
+  },
+  "Hyperion S.A.F.E. Center||7660 West Imperial Highway, Playa Del Rey, CA 90293": {
+    "lat": 33.93071588462,
+    "lng": -118.430629334007,
+    "geocode_match": "7660 E IMPERIAL HWY, PLAYA DEL REY, CA, 90293",
+    "geocode_source": "census"
+  },
+  "South Gate Transfer Station||9530 Garfield Avenue, South Gate, CA 90280": {
+    "lat": 33.944207452759,
+    "lng": -118.166347931661,
+    "geocode_match": "9530 GARFIELD AVE, SOUTH GATE, CA, 90280",
+    "geocode_source": "census"
+  },
+  "Calabasas Landfill||5300 Lost Hills Road, Agoura, CA 91301": {
+    "lat": 34.143485304579,
+    "lng": -118.709134594424,
+    "geocode_match": "5300 LOST HILLS RD, AGOURA, CA, 91301",
+    "geocode_source": "census"
+  },
+  "Glendale Recycling Center||540 W. Chevy Chase Drive, Glendale, CA 91204": {
+    "lat": 34.133375435607,
+    "lng": -118.263584072204,
+    "geocode_match": "540 W CHEVY CHASE DR, GLENDALE, CA, 91204",
+    "geocode_source": "census"
+  },
+  "Burbank Recycle Center||500 S. Flower Street, Burbank, CA 91502": {
+    "lat": 34.175452320258,
+    "lng": -118.309029851385,
+    "geocode_match": "500 S FLOWER ST, BURBANK, CA, 91502",
+    "geocode_source": "census"
+  },
+  "Burbank Recycle Center Drop Zone||500 S. Flower Street, Burbank, CA 91502": {
+    "lat": 34.175452320258,
+    "lng": -118.309029851385,
+    "geocode_match": "500 S FLOWER ST, BURBANK, CA, 91502",
+    "geocode_source": "census"
+  },
+  "Washington Blvd. S.A.F.E. Center||2649 E. Washington Boulevard, Los Angeles, CA 90021": {
+    "lat": 34.017519982163,
+    "lng": -118.226871124366,
+    "geocode_match": "2649 E WASHINGTON BLVD, LOS ANGELES, CA, 90021",
+    "geocode_source": "census"
+  },
+  "Nicole Bernson S.A.F.E. Center||10241 N. Balboa Boulevard, Northridge, CA 91325": {
+    "lat": 34.256428358655,
+    "lng": -118.502414537577,
+    "geocode_match": "10241 BALBOA BLVD, NORTHRIDGE, CA, 91325",
+    "geocode_source": "census"
+  },
+  "Gaffey Street S.A.F.E. Center||1400 N. Gaffey Street, San Pedro, CA 90731": {
+    "lat": 33.763965019003,
+    "lng": -118.293337375224,
+    "geocode_match": "1400 N GAFFEY ST, SAN PEDRO, CA, 90731",
+    "geocode_source": "census"
+  },
+  "Hyperion S.A.F.E. Center||7660 W. Imperial Highway, Gate B, Playa Del Rey, CA 90293": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Los Angeles/Glendale S.A.F.E. Center||4600 Colorado Boulevard, Los Angeles, CA 90039": {
+    "lat": 34.141077391643,
+    "lng": -118.273149075417,
+    "geocode_match": "4600 COLORADO BLVD, LOS ANGELES, CA, 90039",
+    "geocode_source": "census"
+  },
+  "Antelope Valley Environmental Collection Center||1200 W. City Ranch Road, Palmdale, CA 93551": {
+    "lat": 34.567766953988,
+    "lng": -118.146597840242,
+    "geocode_match": "1200 CITY RANCH RD, PALMDALE, CA, 93551",
+    "geocode_source": "census"
+  },
+  "EDCO Environmental Collection Center||2755 California Avenue, Signal Hill, CA 90755": {
+    "lat": 33.807239112178,
+    "lng": -118.180716159198,
+    "geocode_match": "2755 CALIFORNIA AVE, SIGNAL HILL, CA, 90755",
+    "geocode_source": "census"
   }
 }

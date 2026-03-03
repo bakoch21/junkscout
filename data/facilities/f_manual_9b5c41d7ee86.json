@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_9b5c41d7ee86",
+  "name": "EDCO Environmental Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2755 California Avenue, Signal Hill, CA 90755",
+  "phone": "1-888-CLEAN-LA",
+  "hours": "Open on the second and fourth Saturday of each month from 9:00 AM to 2:00 PM.",
+  "fees": "This county program is generally free for residents with household hazardous waste and e-waste. Confirm current item limits and eligibility before driving.",
+  "rules": "Use the county HHW page to confirm accepted items, packaging instructions, and any weather-related schedule changes before visiting.",
+  "accepted_materials": [
+    "Household hazardous waste",
+    "Paint and solvents",
+    "Batteries",
+    "Used motor oil",
+    "E-waste"
+  ],
+  "not_accepted": [
+    "Business hazardous waste",
+    "Explosives or ammunition",
+    "Radioactive materials",
+    "Trash loads"
+  ],
+  "verified_date": "2026-03-03",
+  "source": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+  "osm_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ],
+  "lat": 33.807239112178,
+  "lng": -118.180716159198,
+  "geocode_match": "2755 CALIFORNIA AVE, SIGNAL HILL, CA, 90755",
+  "geocode_source": "census"
+}
