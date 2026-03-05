@@ -502,7 +502,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Houston residents can use city neighborhood depositories and recycling centers for many household items. Private transfer stations and landfills also accept paid loads.",
+              "Houston residents often start with City of Houston neighborhood depositories and recycling centers for household loads. Private transfer stations and landfills also accept paid loads.",
           },
         },
         {
@@ -511,12 +511,12 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Some Houston drop-off locations are free for residents with proof of address and valid ID. Visit limits and material restrictions can apply.",
+              "Some city and county Houston-area drop-off programs are free for eligible residents with proof of address and valid ID. Visit limits and material restrictions can apply.",
           },
         },
         {
           "@type": "Question",
-          name: "What do garbage transfer stations in Houston charge?",
+          name: "What do Houston transfer stations and landfills charge?",
           acceptedAnswer: {
             "@type": "Answer",
             text:
@@ -529,7 +529,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Yes. Several landfill and transfer options near Houston accept larger loads, but accepted materials, hours, and fees vary by site.",
+              "Yes. Several Houston-area landfill and transfer options accept larger loads, but accepted materials, hours, and fees vary by site.",
           },
         },
       ],
@@ -1137,9 +1137,9 @@ function injectHoustonIntentCopy(html) {
       <span class="quickstart__meta">Large loads and heavy disposal</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
-    <a class="quickstart__item" href="/texas/houston/?type=dumpster#results">
-      <span class="quickstart__title">Public dumpster options</span>
-      <span class="quickstart__meta">Fast neighborhood drop-off points</span>
+    <a class="quickstart__item" href="/texas/houston/?type=hazardous-waste#results">
+      <span class="quickstart__title">Household hazardous waste</span>
+      <span class="quickstart__meta">Paint, chemicals, oil, and batteries</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
   </div>
@@ -1166,12 +1166,17 @@ function injectHoustonIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive.$2\n" + quickStartBlock
+    "$1Need to dump trash in Houston fast? This guide shows where to dump, recycle, or drop off by load type before you drive.$2\n" + quickStartBlock
   );
 
   out = out.replace(
     /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
     "$1Where can I dump trash in Houston today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>[\s\S]*?<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Houston residents usually compare city neighborhood depositories for resident drop-off, private transfer stations for mixed paid loads, and landfill options for heavier disposal. For paint, oil, batteries, and household chemicals, use the hazardous-waste facilities listed above rather than standard trash drop-off.$2"
   );
 
   out = out.replace(
@@ -1181,17 +1186,22 @@ function injectHoustonIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Some Houston facilities offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.$2"
+    "$1Some Houston city and county programs offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.$2"
   );
 
   out = out.replace(
     "<h2>What items are typically accepted?</h2>",
-    "<h2>Garbage transfer stations in Houston: what they accept</h2>"
+    "<h2>Houston transfer stations and recycling centers: what they accept</h2>"
   );
 
   out = out.replace(
     "<h2>Fees, hours, and resident requirements</h2>",
     "<h2>Houston landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  out = out.replace(
+    /(<section class="seo-copy" style="margin-top:26px">\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Compare public and private Houston disposal options with source links, hours, rules, and accepted materials so you can choose the right site before you drive.$2"
   );
 
   return out;
@@ -1470,7 +1480,12 @@ function injectLosAngelesIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Need to dump trash in Los Angeles fast? Start with these verified options and confirm rules before you drive.$2\n" + quickStartBlock
+    "$1Need to dump trash in Los Angeles fast? Start with source-linked options and confirm rules before you drive.$2\n" + quickStartBlock
+  );
+
+  out = out.replace(
+    /(<section class="seo-copy" style="margin-top:26px">\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Compare public and private Los Angeles disposal options with source links, hours, rules, and accepted materials so you can choose the right site before you drive.$2"
   );
 
   out = out.replace(
