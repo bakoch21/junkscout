@@ -1,0 +1,39 @@
+{
+  "id": "f_manual_1ecdc853757c",
+  "name": "Culebra HHW Drop-Off Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "7030 Culebra Rd, San Antonio, TX 78238",
+  "phone": "3-1-1",
+  "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday. Appointments may be required for some loads.",
+  "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+  "rules": "San Antonio caps household hazardous waste drop-off at 220 pounds per visit and requires proof that you pay the city environmental fee through CPS Energy. Use the city HHW page before visiting because appointment rules and accepted-item limits can change.",
+  "accepted_materials": [
+    "Paint and paint-related products",
+    "Pesticides and pool chemicals",
+    "Automotive fluids and batteries",
+    "Fluorescent bulbs",
+    "Used motor oil",
+    "Household cleaners"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Medical waste",
+    "Explosives or ammunition",
+    "Loads over posted quantity limits"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW-Drop-Off",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/HHW-Drop-Off",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ],
+  "lat": 29.451626441059,
+  "lng": -98.628003814803,
+  "geocode_match": "7030 CULEBRA RD, SAN ANTONIO, TX, 78238",
+  "geocode_source": "census"
+}

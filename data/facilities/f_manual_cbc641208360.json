@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_cbc641208360",
+  "name": "Covel Gardens Recycling and Disposal Facility",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "8611 Covel Rd, San Antonio, TX 78252",
+  "phone": "210-623-8780",
+  "hours": "Monday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-1:00 PM. Closed Sunday.",
+  "fees": "WM charges by load, weight, and material type. Call ahead for current public rates and any special-waste paperwork.",
+  "rules": "Covel Gardens is a paid WM landfill and disposal facility serving the San Antonio area. Confirm current public access, gate rates, and any material-specific restrictions before you drive.",
+  "accepted_materials": [
+    "Municipal solid waste",
+    "Construction and demolition debris",
+    "Bulky disposal loads",
+    "Approved non-hazardous special waste"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Bulk liquids",
+    "Unapproved special waste"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.wm.com/us/en/facilities/covel-gardens-recycling-disposal-facility",
+  "osm_url": "https://www.wm.com/us/en/facilities/covel-gardens-recycling-disposal-facility",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ],
+  "lat": 29.341443001984,
+  "lng": -98.646452455173,
+  "geocode_match": "8611 COVEL RD, SAN ANTONIO, TX, 78252",
+  "geocode_source": "census"
+}

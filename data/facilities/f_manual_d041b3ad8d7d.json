@@ -4,22 +4,26 @@
   "type": "transfer_station",
   "type_label": "Transfer Station",
   "address": "7677 Fair Oaks Ave, Dallas, TX 75231",
-  "phone": "3-1-1",
-  "hours": "Check official Dallas Sanitation page for current hours.",
-  "fees": "Some drop-off services may be resident-only; private/commercial loads may have fees.",
-  "rules": "Check proof-of-residency requirements and load limits before visiting.",
+  "phone": "214-670-6126",
+  "hours": "Dallas lists Fair Oaks as open Monday through Friday, 7:00 AM to 9:00 AM, and Saturday, 7:00 AM to 4:00 PM. Closed Sunday.",
+  "fees": "Dallas residents in qualifying residential vehicles can use city transfer stations at no charge with valid ID and proof of residency.",
+  "rules": "Open to Dallas residents only. No commercial customers. Bring a current valid driver's license and proof of Dallas residency before arrival.",
   "accepted_materials": [
-    "Household trash",
-    "Bulk items",
-    "General disposal loads"
+    "Recyclables",
+    "Electronics from residents",
+    "Grass clippings and brush",
+    "Scrap metal",
+    "Household waste",
+    "Furniture",
+    "Tires from Dallas residents"
   ],
   "not_accepted": [
-    "Hazardous chemicals",
-    "Restricted materials (confirm before arrival)"
+    "Commercial loads",
+    "Household hazardous waste"
   ],
-  "verified_date": "2026-02-19",
-  "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
-  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "verified_date": "2026-03-06",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/northeast_fairoaks.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/northeast_fairoaks.aspx",
   "website": "",
   "appears_in": [
     {
@@ -27,6 +31,8 @@
       "city": "dallas"
     }
   ],
-  "lat": 32.88,
-  "lng": -96.75
+  "lat": 32.876512212253,
+  "lng": -96.753760197986,
+  "geocode_match": "7677 FAIR OAKS AVE, DALLAS, TX, 75231",
+  "geocode_source": "census"
 }

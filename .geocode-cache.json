@@ -840,5 +840,187 @@
     "lng": -118.180716159198,
     "geocode_match": "2755 CALIFORNIA AVE, SIGNAL HILL, CA, 90755",
     "geocode_source": "census"
+  },
+  "Chapman Field Trash and Recycling Center||13600 Old Cutler Rd, Coral Gables, FL 33158": {
+    "lat": 25.644812857987,
+    "lng": -80.301634892328,
+    "geocode_match": "13600 W OLD CUTLER RD, CORAL GABLES, FL, 33158",
+    "geocode_source": "census"
+  },
+  "Eureka Drive Trash and Recycling Center||9401 SW 184th St, Palmetto Bay, FL 33157": {
+    "lat": 25.598931143108,
+    "lng": -80.344160447173,
+    "geocode_match": "9401 SW 184TH ST, PALMETTO BAY, FL, 33157",
+    "geocode_source": "census"
+  },
+  "Golden Glades Trash and Recycling Center||140 NW 160th Street, Miami, FL 33169": {
+    "lat": 25.921538051422,
+    "lng": -80.202838082184,
+    "geocode_match": "140 NW 160TH ST, MIAMI, FL, 33169",
+    "geocode_source": "census"
+  },
+  "Moody Drive Trash and Recycling Center||12970 SW 268th St, Homestead, FL 33032": {
+    "lat": 25.518154607978,
+    "lng": -80.401723429618,
+    "geocode_match": "12970 SW 268TH ST, HOMESTEAD, FL, 33032",
+    "geocode_source": "census"
+  },
+  "North Dade Trash and Recycling Center||21500 NW 47th Avenue, Miami, FL 33055": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Norwood Trash and Recycling Center||19901 NW 7th Avenue, Miami Gardens, FL 33169": {
+    "lat": 25.956846639972,
+    "lng": -80.213781481226,
+    "geocode_match": "19901 NW 7TH AVE, MIAMI GARDENS, FL, 33169",
+    "geocode_source": "census"
+  },
+  "Palm Springs North Trash and Recycling Center||7870 NW 178th St, Hialeah, FL 33015": {
+    "lat": 25.93503688278,
+    "lng": -80.329074963139,
+    "geocode_match": "7870 NW 178TH ST, HIALEAH, FL, 33015",
+    "geocode_source": "census"
+  },
+  "Richmond Heights Trash and Recycling Center||14050 Boggs Drive, Miami, FL 33176": {
+    "lat": 25.638344890121,
+    "lng": -80.374926484295,
+    "geocode_match": "14050 BOGGS DR, MIAMI, FL, 33176",
+    "geocode_source": "census"
+  },
+  "Snapper Creek Trash and Recycling Center||2200 SW 117th Avenue, Miami, FL 33165": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "South Miami Heights Trash and Recycling Center||20800 SW 117th Court, Miami, FL 33177": {
+    "lat": 25.573864620251,
+    "lng": -80.379462304486,
+    "geocode_match": "20800 SW 117TH AVE, MIAMI, FL, 33177",
+    "geocode_source": "census"
+  },
+  "Sunset Kendall Trash and Recycling Center||8000 SW 107th Ave, Miami, FL 33173": {
+    "lat": 25.694796445599,
+    "lng": -80.366103693564,
+    "geocode_match": "8000 SW 107TH AVE, MIAMI, FL, 33173",
+    "geocode_source": "census"
+  },
+  "West Little River Trash and Recycling Center||1830 NW 79th Street, Miami, FL 33147": {
+    "lat": 25.846405157845,
+    "lng": -80.227773576262,
+    "geocode_match": "1830 NW 79TH ST, MIAMI, FL, 33147",
+    "geocode_source": "census"
+  },
+  "West Perrine Trash and Recycling Center||16651 SW 107th Ave, Miami, FL 33157": {
+    "lat": 25.614834004964,
+    "lng": -80.366934744149,
+    "geocode_match": "16651 SW 107TH PL, MIAMI, FL, 33157",
+    "geocode_source": "census"
+  },
+  "West Dade Home Chemical Collection Center||8801 NW 58th Street, Doral, FL 33178": {
+    "lat": 25.826317599158,
+    "lng": -80.33981369602,
+    "geocode_match": "8801 NW 58TH ST, DORAL, FL, 33178",
+    "geocode_source": "census"
+  },
+  "South Dade Home Chemical Collection Center||23707 SW 97th Avenue, Homestead, FL 33032": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "McCommas Bluff Landfill||5100 Youngblood Rd, Dallas, TX 75241": {
+    "lat": 32.674473580966,
+    "lng": -96.737461428886,
+    "geocode_match": "5100 YOUNGBLOOD RD, DALLAS, TX, 75241",
+    "geocode_source": "census"
+  },
+  "Northeast (Fair Oaks) Transfer Station||7677 Fair Oaks Ave, Dallas, TX 75231": {
+    "lat": 32.876512212253,
+    "lng": -96.753760197986,
+    "geocode_match": "7677 FAIR OAKS AVE, DALLAS, TX, 75231",
+    "geocode_source": "census"
+  },
+  "Northwest (Bachman) Transfer Station||9500 Harry Hines Blvd, Dallas, TX 75220": {
+    "lat": 32.845610291998,
+    "lng": -96.87498233714,
+    "geocode_match": "9500 HARRY HINES BLVD, DALLAS, TX, 75220",
+    "geocode_source": "census"
+  },
+  "Southwest (Westmoreland) Transfer Station||4610 S Westmoreland Rd, Dallas, TX 75237": {
+    "lat": 32.687889615883,
+    "lng": -96.882287628891,
+    "geocode_match": "4610 S WESTMORELAND RD, DALLAS, TX, 75237",
+    "geocode_source": "census"
+  },
+  "Customer Convenience Recycling Center at McCommas Bluff||5450 Simpson Stuart Rd, Dallas, TX 75241": {
+    "lat": 32.68662037666,
+    "lng": -96.734315115941,
+    "geocode_match": "5450 SIMPSON STUART RD, DALLAS, TX, 75241",
+    "geocode_source": "census"
+  },
+  "Dallas County Home Chemical Collection Center||11234 Plano Rd, Dallas, TX 75243": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Bitters Bulky Waste Collection Center||1800 Wurzbach Pkwy, San Antonio, TX 78216": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Frio City Road Bulky Waste Collection Center||1531 Frio City Rd, San Antonio, TX 78226": {
+    "lat": 29.39514181241,
+    "lng": -98.533941961165,
+    "geocode_match": "1531 FRIO CITY RD, SAN ANTONIO, TX, 78226",
+    "geocode_source": "census"
+  },
+  "Culebra Bulky Waste Collection Center||7030 Culebra Rd, San Antonio, TX 78238": {
+    "lat": 29.451626441059,
+    "lng": -98.628003814803,
+    "geocode_match": "7030 CULEBRA RD, SAN ANTONIO, TX, 78238",
+    "geocode_source": "census"
+  },
+  "Rigsby Road Bulky Waste Collection Center||2755 Rigsby Ave, San Antonio, TX 78222": {
+    "lat": 29.398600378173,
+    "lng": -98.412473992355,
+    "geocode_match": "2755 RIGSBY AVE, SAN ANTONIO, TX, 78222",
+    "geocode_source": "census"
+  },
+  "Culebra HHW Drop-Off Center||7030 Culebra Rd, San Antonio, TX 78238": {
+    "lat": 29.451626441059,
+    "lng": -98.628003814803,
+    "geocode_match": "7030 CULEBRA RD, SAN ANTONIO, TX, 78238",
+    "geocode_source": "census"
+  },
+  "Bitters Monthly HHW Drop-Off Event||1800 Wurzbach Pkwy, San Antonio, TX 78216": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Rigsby Quarterly HHW Drop-Off Event||2755 Rigsby Ave, San Antonio, TX 78222": {
+    "lat": 29.398600378173,
+    "lng": -98.412473992355,
+    "geocode_match": "2755 RIGSBY AVE, SAN ANTONIO, TX, 78222",
+    "geocode_source": "census"
+  },
+  "Bitters Brush Recycling Center||1800 Wurzbach Pkwy, San Antonio, TX 78216": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Nelson Gardens Brush Recycling Center||8963 Nelson Rd, San Antonio, TX 78252": {
+    "lat": 29.328163409386,
+    "lng": -98.671410817557,
+    "geocode_match": "8963 NELSON RD, SAN ANTONIO, TX, 78252",
+    "geocode_source": "census"
+  },
+  "Covel Gardens Recycling and Disposal Facility||8611 Covel Rd, San Antonio, TX 78252": {
+    "lat": 29.341443001984,
+    "lng": -98.646452455173,
+    "geocode_match": "8611 COVEL RD, SAN ANTONIO, TX, 78252",
+    "geocode_source": "census"
+  },
+  "Texas Disposal Systems Starcrest Transfer Station||1601 Cornerway Blvd, San Antonio, TX 78219": {
+    "geocode_source": "census",
+    "geocode_error": "no_match"
+  },
+  "Republic Services Landfill Free Disposal Day||7000 Interstate 10 E, San Antonio, TX 78219": {
+    "lat": 29.444942955549,
+    "lng": -98.359177263386,
+    "geocode_match": "7000 I- 10 ACCESS RD, SAN ANTONIO, TX, 78219",
+    "geocode_source": "census"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_216388b77ec6",
+  "name": "Dallas County Home Chemical Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "11234 Plano Rd, Dallas, TX 75243",
+  "phone": "214-553-1765",
+  "hours": "Dallas County lists the home chemical collection center as open Tuesday, 9:00 AM to 7:30 PM; Wednesday and Thursday, 8:30 AM to 5:00 PM; and the second and fourth Saturday, 9:00 AM to 3:00 PM.",
+  "fees": "The center is free for residents of participating cities and unincorporated Dallas County. Residents of non-participating cities should confirm current per-load fees before arrival.",
+  "rules": "Bring your driver's license and a current water or utility bill showing an address in a participating city or unincorporated Dallas County. Use the county list to confirm accepted materials, packaging rules, and city eligibility before driving.",
+  "accepted_materials": [
+    "Household chemicals",
+    "Paint and paint-related products",
+    "Automotive fluids",
+    "Batteries",
+    "Cleaners",
+    "Pesticides"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Medical waste",
+    "Explosives or ammunition"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.dallascounty.org/departments/consolidated-services/hhw/",
+  "osm_url": "https://www.dallascounty.org/departments/consolidated-services/hhw/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ],
+  "lat": 32.9018107,
+  "lng": -96.7006982
+}

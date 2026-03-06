@@ -1,27 +1,29 @@
 [
   {
-    "id": "f_manual_d205ae4088f9",
-    "name": "North Dade Trash and Recycling Center",
+    "id": "f_manual_bb3c76fcf668",
+    "name": "Chapman Field Trash and Recycling Center",
     "type": "transfer_station",
     "type_label": "Transfer Station",
-    "address": "21500 NW 47 Ave, Miami Gardens, FL 33055",
+    "address": "13600 Old Cutler Rd, Coral Gables, FL 33158",
     "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Chapman Field does not accept tires, white goods, or mattresses.",
     "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards"
     ],
     "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Tires",
+      "White goods",
+      "Mattresses"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
     "website": "",
     "appears_in": [
       {
@@ -29,34 +31,37 @@
         "city": "miami"
       }
     ],
-    "lat": 25.9700432,
-    "lng": -80.2794748,
+    "lat": 25.644812857987,
+    "lng": -80.301634892328,
+    "geocode_match": "13600 W OLD CUTLER RD, CORAL GABLES, FL, 33158",
     "geocode_source": "census",
-    "facility_id": "f_manual_d205ae4088f9"
+    "facility_id": "f_manual_bb3c76fcf668"
   },
   {
-    "id": "f_manual_8fe9455eca9d",
-    "name": "Norwood Trash and Recycling Center",
+    "id": "f_manual_ea1411c334b5",
+    "name": "Eureka Drive Trash and Recycling Center",
     "type": "transfer_station",
     "type_label": "Transfer Station",
-    "address": "19400 NW 47th Ave, Miami Gardens, FL 33055",
+    "address": "9401 SW 184th St, Palmetto Bay, FL 33157",
     "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Eureka Drive is one of the centers that accepts used electronics and cardboard recycling.",
     "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used electronics",
+      "Cardboard for recycling"
     ],
     "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
     "website": "",
     "appears_in": [
       {
@@ -64,107 +69,38 @@
         "city": "miami"
       }
     ],
-    "lat": 25.949937065657,
-    "lng": -80.27805865019,
-    "geocode_match": "19400 NW 47TH AVE, MIAMI GARDENS, FL, 33055",
+    "lat": 25.598931143108,
+    "lng": -80.344160447173,
+    "geocode_match": "9401 SW 184TH ST, PALMETTO BAY, FL, 33157",
     "geocode_source": "census",
-    "facility_id": "f_manual_8fe9455eca9d"
+    "facility_id": "f_manual_ea1411c334b5"
   },
   {
-    "id": "f_manual_082b4a860d7d",
-    "name": "Palm Springs North Trash and Recycling Center",
-    "type": "transfer_station",
-    "type_label": "Transfer Station",
-    "address": "7870 NW 178 St, Hialeah, FL 33018",
-    "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
-    "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
-    ],
-    "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
-    ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "website": "",
-    "appears_in": [
-      {
-        "state": "florida",
-        "city": "miami"
-      }
-    ],
-    "lat": 25.93503688278,
-    "lng": -80.329074963139,
-    "geocode_match": "7870 NW 178TH ST, HIALEAH, FL, 33015",
-    "geocode_source": "census",
-    "facility_id": "f_manual_082b4a860d7d"
-  },
-  {
-    "id": "f_manual_2cbc005d1708",
-    "name": "West Little River Trash and Recycling Center",
-    "type": "transfer_station",
-    "type_label": "Transfer Station",
-    "address": "1830 NW 79 St, Miami, FL",
-    "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
-    "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
-    ],
-    "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
-    ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "website": "",
-    "appears_in": [
-      {
-        "state": "florida",
-        "city": "miami"
-      }
-    ],
-    "lat": 25.846405157845,
-    "lng": -80.227773576262,
-    "geocode_match": "1830 NW 79TH ST, MIAMI, FL, 33147",
-    "geocode_source": "census",
-    "facility_id": "f_manual_2cbc005d1708"
-  },
-  {
-    "id": "f_manual_6e506659b893",
+    "id": "f_manual_53683eacac59",
     "name": "Golden Glades Trash and Recycling Center",
     "type": "transfer_station",
     "type_label": "Transfer Station",
-    "address": "140 NW 160 St, Miami, FL",
+    "address": "140 NW 160th Street, Miami, FL 33169",
     "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Golden Glades is one of the centers that accepts used motor oil, used electronics, and cardboard recycling.",
     "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used motor oil",
+      "Used electronics",
+      "Cardboard for recycling"
     ],
     "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
     "website": "",
     "appears_in": [
       {
@@ -176,31 +112,34 @@
     "lng": -80.202838082184,
     "geocode_match": "140 NW 160TH ST, MIAMI, FL, 33169",
     "geocode_source": "census",
-    "facility_id": "f_manual_6e506659b893"
+    "facility_id": "f_manual_53683eacac59"
   },
   {
-    "id": "f_manual_9227cd236cb0",
-    "name": "Sunset Kendall Trash and Recycling Center",
+    "id": "f_manual_f8ee8cf55047",
+    "name": "Moody Drive Trash and Recycling Center",
     "type": "transfer_station",
     "type_label": "Transfer Station",
-    "address": "8000 SW 107 Ave, Miami, FL",
+    "address": "12970 SW 268th St, Homestead, FL 33032",
     "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Moody Drive is one of the centers that accepts used motor oil, used electronics, and cardboard recycling.",
     "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used motor oil",
+      "Used electronics",
+      "Cardboard for recycling"
     ],
     "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
     "website": "",
     "appears_in": [
       {
@@ -208,35 +147,188 @@
         "city": "miami"
       }
     ],
-    "lat": 25.694796445599,
-    "lng": -80.366103693564,
-    "geocode_match": "8000 SW 107TH AVE, MIAMI, FL, 33173",
+    "lat": 25.518154607978,
+    "lng": -80.401723429618,
+    "geocode_match": "12970 SW 268TH ST, HOMESTEAD, FL, 33032",
     "geocode_source": "census",
-    "facility_id": "f_manual_9227cd236cb0"
+    "facility_id": "f_manual_f8ee8cf55047"
   },
   {
-    "id": "f_manual_3e06b114b2a4",
+    "id": "f_manual_cdc40e691844",
+    "name": "North Dade Trash and Recycling Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "21500 NW 47th Avenue, Miami, FL 33055",
+    "phone": "311",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. North Dade is one of the centers that accepts used motor oil and used electronics.",
+    "accepted_materials": [
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used motor oil",
+      "Used electronics"
+    ],
+    "not_accepted": [
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
+    ],
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "florida",
+        "city": "miami"
+      }
+    ],
+    "lat": 25.9700432,
+    "lng": -80.2794748,
+    "geocode_source": "census",
+    "facility_id": "f_manual_cdc40e691844"
+  },
+  {
+    "id": "f_manual_8ac3615bef47",
+    "name": "Norwood Trash and Recycling Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "19901 NW 7th Avenue, Miami Gardens, FL 33169",
+    "phone": "311",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Norwood does not accept white goods.",
+    "accepted_materials": [
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Tires"
+    ],
+    "not_accepted": [
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "White goods",
+      "Commercial disposal loads"
+    ],
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "florida",
+        "city": "miami"
+      }
+    ],
+    "lat": 25.956846639972,
+    "lng": -80.213781481226,
+    "geocode_match": "19901 NW 7TH AVE, MIAMI GARDENS, FL, 33169",
+    "geocode_source": "census",
+    "facility_id": "f_manual_8ac3615bef47"
+  },
+  {
+    "id": "f_manual_278fc13b7342",
+    "name": "Palm Springs North Trash and Recycling Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "7870 NW 178th St, Hialeah, FL 33015",
+    "phone": "311",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Palm Springs North is one of the centers that accepts used motor oil and used electronics.",
+    "accepted_materials": [
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used motor oil",
+      "Used electronics"
+    ],
+    "not_accepted": [
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
+    ],
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "florida",
+        "city": "miami"
+      }
+    ],
+    "lat": 25.93503688278,
+    "lng": -80.329074963139,
+    "geocode_match": "7870 NW 178TH ST, HIALEAH, FL, 33015",
+    "geocode_source": "census",
+    "facility_id": "f_manual_278fc13b7342"
+  },
+  {
+    "id": "f_manual_8509a6c9a6a3",
+    "name": "Richmond Heights Trash and Recycling Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "14050 Boggs Drive, Miami, FL 33176",
+    "phone": "311",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Richmond Heights accepts cardboard recycling but does not accept white goods or mattresses.",
+    "accepted_materials": [
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Cardboard for recycling"
+    ],
+    "not_accepted": [
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "White goods",
+      "Mattresses",
+      "Commercial disposal loads"
+    ],
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "florida",
+        "city": "miami"
+      }
+    ],
+    "lat": 25.638344890121,
+    "lng": -80.374926484295,
+    "geocode_match": "14050 BOGGS DR, MIAMI, FL, 33176",
+    "geocode_source": "census",
+    "facility_id": "f_manual_8509a6c9a6a3"
+  },
+  {
+    "id": "f_manual_2fcc4a076e70",
     "name": "Snapper Creek Trash and Recycling Center",
     "type": "transfer_station",
     "type_label": "Transfer Station",
-    "address": "2200 SW 117 Ave, Miami, FL 33175",
+    "address": "2200 SW 117th Avenue, Miami, FL 33165",
     "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Snapper Creek is one of the centers that accepts used motor oil.",
     "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used motor oil"
     ],
     "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
     "website": "",
     "appears_in": [
       {
@@ -244,31 +336,36 @@
         "city": "miami"
       }
     ],
-    "facility_id": "f_manual_3e06b114b2a4"
+    "lat": 25.7492044,
+    "lng": -80.3836197,
+    "geocode_source": "census",
+    "facility_id": "f_manual_2fcc4a076e70"
   },
   {
-    "id": "f_manual_82e983a9ba7e",
+    "id": "f_manual_41e5d061d095",
     "name": "South Miami Heights Trash and Recycling Center",
     "type": "transfer_station",
     "type_label": "Transfer Station",
-    "address": "20800 SW 117 Ct, Miami, FL",
+    "address": "20800 SW 117th Court, Miami, FL 33177",
     "phone": "311",
-    "hours": "Miami-Dade lists neighborhood trash and recycling centers as Wednesday through Sunday, 9:00 AM to 5:30 PM. Confirm before visiting.",
-    "fees": "Many neighborhood center services are resident-focused and may be free for eligible Miami-Dade residents. Confirm current limits and ID rules before arrival.",
-    "rules": "Use the official county page to confirm resident eligibility, load prep, and current item limits before driving.",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. South Miami Heights is one of the centers that accepts used motor oil and cardboard recycling.",
     "accepted_materials": [
-      "Household trash",
-      "Bulky waste",
-      "Yard waste",
-      "Recyclables"
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used motor oil",
+      "Cardboard for recycling"
     ],
     "not_accepted": [
-      "Commercial disposal loads",
-      "Materials outside county center rules"
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/trash-and-recycling-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
     "website": "",
     "appears_in": [
       {
@@ -280,32 +377,148 @@
     "lng": -80.379462304486,
     "geocode_match": "20800 SW 117TH AVE, MIAMI, FL, 33177",
     "geocode_source": "census",
-    "facility_id": "f_manual_82e983a9ba7e"
+    "facility_id": "f_manual_41e5d061d095"
   },
   {
-    "id": "f_manual_5501f3e8dec1",
+    "id": "f_manual_14c99f7c4830",
+    "name": "Sunset Kendall Trash and Recycling Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "8000 SW 107th Ave, Miami, FL 33173",
+    "phone": "311",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. Sunset Kendall is one of the centers that accepts used motor oil, used electronics, and cardboard recycling.",
+    "accepted_materials": [
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used motor oil",
+      "Used electronics",
+      "Cardboard for recycling"
+    ],
+    "not_accepted": [
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
+    ],
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "florida",
+        "city": "miami"
+      }
+    ],
+    "lat": 25.694796445599,
+    "lng": -80.366103693564,
+    "geocode_match": "8000 SW 107TH AVE, MIAMI, FL, 33173",
+    "geocode_source": "census",
+    "facility_id": "f_manual_14c99f7c4830"
+  },
+  {
+    "id": "f_manual_27c89b05b352",
+    "name": "West Little River Trash and Recycling Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "1830 NW 79th Street, Miami, FL 33147",
+    "phone": "311",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. West Little River is one of the centers that accepts used electronics.",
+    "accepted_materials": [
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used electronics"
+    ],
+    "not_accepted": [
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
+    ],
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "florida",
+        "city": "miami"
+      }
+    ],
+    "lat": 25.846405157845,
+    "lng": -80.227773576262,
+    "geocode_match": "1830 NW 79TH ST, MIAMI, FL, 33147",
+    "geocode_source": "census",
+    "facility_id": "f_manual_27c89b05b352"
+  },
+  {
+    "id": "f_manual_aea8a481cc2a",
+    "name": "West Perrine Trash and Recycling Center",
+    "type": "transfer_station",
+    "type_label": "Transfer Station",
+    "address": "16651 SW 107th Ave, Miami, FL 33157",
+    "phone": "311",
+    "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+    "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+    "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. West Perrine is one of the centers that accepts used electronics and cardboard recycling.",
+    "accepted_materials": [
+      "Bulky household trash",
+      "Tree and yard cuttings",
+      "Construction and demolition debris up to 3 cubic yards",
+      "Used electronics",
+      "Cardboard for recycling"
+    ],
+    "not_accepted": [
+      "Garbage, food, or kitchen waste",
+      "Oversize vehicles or trailers",
+      "Commercial disposal loads"
+    ],
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+    "website": "",
+    "appears_in": [
+      {
+        "state": "florida",
+        "city": "miami"
+      }
+    ],
+    "lat": 25.614834004964,
+    "lng": -80.366934744149,
+    "geocode_match": "16651 SW 107TH PL, MIAMI, FL, 33157",
+    "geocode_source": "census",
+    "facility_id": "f_manual_aea8a481cc2a"
+  },
+  {
+    "id": "f_manual_d0f8b4e08f6f",
     "name": "West Dade Home Chemical Collection Center",
     "type": "hazardous_waste",
     "type_label": "Hazardous Waste Facility",
-    "address": "8801 NW 58th St, Doral, FL 33178",
+    "address": "8801 NW 58th Street, Doral, FL 33178",
     "phone": "311",
-    "hours": "Check the official Miami-Dade home chemical collection page for current hours and holiday schedules before visiting.",
-    "fees": "Household hazardous waste drop-off is generally resident-focused. Confirm current eligibility and item limits before arrival.",
-    "rules": "Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.",
+    "hours": "Miami-Dade lists the home chemical collection centers as open Wednesday through Sunday, 9:00 AM to 5:00 PM. Confirm holiday schedules before visiting.",
+    "fees": "Home chemical drop-off is a Miami-Dade resident service for household quantities. Commercial waste is not accepted.",
+    "rules": "Open to all Miami-Dade County residents. Use the county guidance to confirm packaging requirements before you drive.",
     "accepted_materials": [
-      "Household chemicals",
-      "Paint",
-      "Batteries",
-      "Used oil",
-      "Electronics"
+      "Household cleaners",
+      "Paint thinners",
+      "Fertilizers",
+      "Lithium batteries",
+      "Fluorescent lightbulbs",
+      "Laptops and other home electronics"
     ],
     "not_accepted": [
       "Commercial hazardous waste",
-      "Materials outside the posted household program"
+      "Regular household trash",
+      "Materials outside the county home chemical program"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/news-item.page?Mduid_news=news1590103824791588",
+    "osm_url": "https://www.miamidade.gov/global/news-item.page?Mduid_news=news1590103824791588",
     "website": "",
     "appears_in": [
       {
@@ -317,32 +530,34 @@
     "lng": -80.33981369602,
     "geocode_match": "8801 NW 58TH ST, DORAL, FL, 33178",
     "geocode_source": "census",
-    "facility_id": "f_manual_5501f3e8dec1"
+    "facility_id": "f_manual_d0f8b4e08f6f"
   },
   {
-    "id": "f_manual_5a6c27862662",
+    "id": "f_manual_05e8a1216ff1",
     "name": "South Dade Home Chemical Collection Center",
     "type": "hazardous_waste",
     "type_label": "Hazardous Waste Facility",
-    "address": "23707 SW 97 Ave, Cutler Bay, FL 33190",
+    "address": "23707 SW 97th Avenue, Homestead, FL 33032",
     "phone": "311",
-    "hours": "Check the official Miami-Dade home chemical collection page for current hours and holiday schedules before visiting.",
-    "fees": "Household hazardous waste drop-off is generally resident-focused. Confirm current eligibility and item limits before arrival.",
-    "rules": "Use the county page to confirm accepted materials, packaging rules, and any proof-of-residency requirements before you drive.",
+    "hours": "Miami-Dade lists the home chemical collection centers as open Wednesday through Sunday, 9:00 AM to 5:00 PM. Confirm holiday schedules before visiting.",
+    "fees": "Home chemical drop-off is a Miami-Dade resident service for household quantities. Commercial waste is not accepted.",
+    "rules": "Open to all Miami-Dade County residents. South Dade uses Gate B. Use the county guidance to confirm packaging requirements before you drive.",
     "accepted_materials": [
-      "Household chemicals",
-      "Paint",
-      "Batteries",
-      "Used oil",
-      "Electronics"
+      "Household cleaners",
+      "Paint thinners",
+      "Fertilizers",
+      "Lithium batteries",
+      "Fluorescent lightbulbs",
+      "Laptops and other home electronics"
     ],
     "not_accepted": [
       "Commercial hazardous waste",
-      "Materials outside the posted household program"
+      "Regular household trash",
+      "Materials outside the county home chemical program"
     ],
-    "verified_date": "2026-03-03",
-    "source": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
-    "osm_url": "https://www.miamidade.gov/global/solidwaste/home-chemical-collection-centers.page",
+    "verified_date": "2026-03-06",
+    "source": "https://www.miamidade.gov/global/news-item.page?Mduid_news=news1590103824791588",
+    "osm_url": "https://www.miamidade.gov/global/news-item.page?Mduid_news=news1590103824791588",
     "website": "",
     "appears_in": [
       {
@@ -350,6 +565,9 @@
         "city": "miami"
       }
     ],
-    "facility_id": "f_manual_5a6c27862662"
+    "lat": 25.5465272,
+    "lng": -80.3473246,
+    "geocode_source": "census",
+    "facility_id": "f_manual_05e8a1216ff1"
   }
 ]

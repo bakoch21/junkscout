@@ -1,0 +1,37 @@
+{
+  "id": "f_manual_05e8a1216ff1",
+  "name": "South Dade Home Chemical Collection Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "23707 SW 97th Avenue, Homestead, FL 33032",
+  "phone": "311",
+  "hours": "Miami-Dade lists the home chemical collection centers as open Wednesday through Sunday, 9:00 AM to 5:00 PM. Confirm holiday schedules before visiting.",
+  "fees": "Home chemical drop-off is a Miami-Dade resident service for household quantities. Commercial waste is not accepted.",
+  "rules": "Open to all Miami-Dade County residents. South Dade uses Gate B. Use the county guidance to confirm packaging requirements before you drive.",
+  "accepted_materials": [
+    "Household cleaners",
+    "Paint thinners",
+    "Fertilizers",
+    "Lithium batteries",
+    "Fluorescent lightbulbs",
+    "Laptops and other home electronics"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Regular household trash",
+    "Materials outside the county home chemical program"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.miamidade.gov/global/news-item.page?Mduid_news=news1590103824791588",
+  "osm_url": "https://www.miamidade.gov/global/news-item.page?Mduid_news=news1590103824791588",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "miami"
+    }
+  ],
+  "lat": 25.5465272,
+  "lng": -80.3473246,
+  "geocode_source": "census"
+}

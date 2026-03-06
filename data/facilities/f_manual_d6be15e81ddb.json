@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_d6be15e81ddb",
+  "name": "Texas Disposal Systems Starcrest Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "1601 Cornerway Blvd, San Antonio, TX 78219",
+  "phone": "800-375-8375",
+  "hours": "Monday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday.",
+  "fees": "Texas Disposal Systems posts gate rates for compactable trash, non-compactable debris, tires, appliances, and recycling. Confirm current pricing and any load fees before arrival.",
+  "rules": "Texas Disposal Systems applies gate-rate categories by material type and charges additional fees for some unsecured loads. Use the operator's rate sheet before driving so you know whether your load belongs in the compactable, non-compactable, tire, or recycling line.",
+  "accepted_materials": [
+    "Loose compactable debris",
+    "Concrete, brick, dirt, and shingles",
+    "Railroad ties and lumber",
+    "Non-refrigerated appliances",
+    "Tires off the rim",
+    "Program-approved recycling"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Bulk liquids",
+    "Refrigerated appliances",
+    "Loads outside posted transfer station rules"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.texasdisposal.com/wp-content/uploads/2025/06/SA-Transfer-Station-Rates_06.2025.pdf",
+  "osm_url": "https://www.texasdisposal.com/wp-content/uploads/2025/06/SA-Transfer-Station-Rates_06.2025.pdf",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

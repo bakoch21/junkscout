@@ -4,22 +4,25 @@
   "type": "landfill",
   "type_label": "Landfill",
   "address": "5100 Youngblood Rd, Dallas, TX 75241",
-  "phone": "3-1-1",
-  "hours": "Check official Dallas Sanitation page for current hours.",
-  "fees": "Fees vary by load type and residency. Confirm before arrival.",
-  "rules": "Rules vary by residency, load type, and vehicle. Bring photo ID and confirm requirements before visiting.",
+  "phone": "214-670-0977",
+  "hours": "Dallas lists McCommas Bluff as open Monday through Friday, 5:00 AM to 8:00 PM, and Saturday, 6:00 AM to 4:00 PM. Closed Sunday. Confirm holiday hours before visiting.",
+  "fees": "Dallas residents in passenger cars, pickups, and trailers under 15 feet hauling waste from their residence can use Dallas landfill and transfer stations at no charge with valid ID and proof of residency. Commercial disposal fees apply to other loads.",
+  "rules": "Bring a current valid driver's license and proof of Dallas residency, such as a Dallas address on the license or a current Dallas water bill. Covered-load rules and commercial fee rules still apply.",
   "accepted_materials": [
-    "Household trash",
-    "Large loads",
-    "Mixed waste (check restrictions)"
+    "Household waste",
+    "Municipal waste",
+    "Grass clippings and brush",
+    "Appliances with refrigerants removed",
+    "Furniture",
+    "Tires from Dallas residents"
   ],
   "not_accepted": [
-    "Hazardous waste",
-    "Unapproved commercial loads"
+    "Household hazardous waste",
+    "Loads that do not meet Dallas disposal rules"
   ],
-  "verified_date": "2026-02-19",
-  "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
-  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
+  "verified_date": "2026-03-06",
+  "source": "https://dallascityhall.com/departments/sanitation/pages/mccommas_bluff.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/pages/mccommas_bluff.aspx",
   "website": "",
   "appears_in": [
     {
@@ -27,6 +30,8 @@
       "city": "dallas"
     }
   ],
-  "lat": 32.68,
-  "lng": -96.72
+  "lat": 32.674473580966,
+  "lng": -96.737461428886,
+  "geocode_match": "5100 YOUNGBLOOD RD, DALLAS, TX, 75241",
+  "geocode_source": "census"
 }

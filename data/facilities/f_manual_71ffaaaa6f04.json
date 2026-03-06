@@ -5,21 +5,27 @@
   "type_label": "Transfer Station",
   "address": "1531 Frio City Rd, San Antonio, TX 78226",
   "phone": "3-1-1",
-  "hours": "Check official city page for current hours and holiday schedules.",
-  "fees": "Some services are free for eligible residents; confirm fees and limits before arrival.",
-  "rules": "Resident-focused city service. Confirm ID/proof-of-address requirements and daily limits before visiting.",
+  "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday.",
+  "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+  "rules": "San Antonio limits bulky drop-off to solid waste fee-paying residential customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, keep debris within the truck bed, and cover your load before driving.",
   "accepted_materials": [
-    "Bulky waste",
-    "General household disposal loads",
-    "Select recyclable materials"
+    "Bulky household items",
+    "Furniture and mattresses",
+    "Large appliances",
+    "Flattened cardboard",
+    "Up to six car tires without rims",
+    "Small construction debris loads"
   ],
   "not_accepted": [
-    "Unapproved hazardous waste",
-    "Commercial loads outside program rules"
+    "Bagged household garbage",
+    "Brush, leaves, and yard waste",
+    "Hazardous waste",
+    "Commercial loads",
+    "Large dirt, rock, or concrete loads"
   ],
-  "verified_date": "2026-02-20",
-  "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky",
-  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/Bulky",
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
   "website": "",
   "appears_in": [
     {
@@ -27,6 +33,8 @@
       "city": "san-antonio"
     }
   ],
-  "lat": 29.407,
-  "lng": -98.516
+  "lat": 29.39514181241,
+  "lng": -98.533941961165,
+  "geocode_match": "1531 FRIO CITY RD, SAN ANTONIO, TX, 78226",
+  "geocode_source": "census"
 }

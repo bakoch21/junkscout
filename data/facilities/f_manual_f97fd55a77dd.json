@@ -1,0 +1,34 @@
+{
+  "id": "f_manual_f97fd55a77dd",
+  "name": "Bitters Brush Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "1800 Wurzbach Pkwy, San Antonio, TX 78216",
+  "phone": "3-1-1",
+  "hours": "Monday-Saturday: 8:00 AM-5:00 PM. Closed Sunday and city holidays.",
+  "fees": "San Antonio charges brush drop-off in 20-pound increments for Solid Waste Management customers. Loads up to 20 pounds are $0.25; larger loads are priced by weight under the city's posted fee schedule.",
+  "rules": "San Antonio brush drop-off is for city solid waste customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, and separate brush from trash before arrival.",
+  "accepted_materials": [
+    "Tree branches",
+    "Shrubs and woody vines",
+    "Leaves in paper bags",
+    "Clean brush"
+  ],
+  "not_accepted": [
+    "Plastic-bagged leaves",
+    "Bulky household junk",
+    "Construction debris",
+    "Hazardous waste",
+    "Trash"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/Brush-Drop-Off",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/Brush-Drop-Off",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

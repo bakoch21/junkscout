@@ -1,167 +1,176 @@
 {
   "city": "Dallas",
   "state": "TX",
-  "last_updated": "2026-02-19",
+  "last_updated": "2026-03-06",
   "facilities": [
     {
       "name": "McCommas Bluff Landfill",
       "type": "Landfill",
       "address": "5100 Youngblood Rd, Dallas, TX 75241",
-      "phone": "3-1-1",
-      "hours": "Check official Dallas Sanitation page for current hours.",
-      "fees": "Fees vary by load type and residency. Confirm before arrival.",
+      "phone": "214-670-0977",
+      "hours": "Dallas lists McCommas Bluff as open Monday through Friday, 5:00 AM to 8:00 PM, and Saturday, 6:00 AM to 4:00 PM. Closed Sunday. Confirm holiday hours before visiting.",
+      "fees": "Dallas residents in passenger cars, pickups, and trailers under 15 feet hauling waste from their residence can use Dallas landfill and transfer stations at no charge with valid ID and proof of residency. Commercial disposal fees apply to other loads.",
       "accepted_materials": [
-        "Household trash",
-        "Large loads",
-        "Mixed waste (check restrictions)"
+        "Household waste",
+        "Municipal waste",
+        "Grass clippings and brush",
+        "Appliances with refrigerants removed",
+        "Furniture",
+        "Tires from Dallas residents"
       ],
       "not_accepted": [
-        "Hazardous waste",
-        "Unapproved commercial loads"
+        "Household hazardous waste",
+        "Loads that do not meet Dallas disposal rules"
       ],
-      "rules": "Rules vary by residency, load type, and vehicle. Bring photo ID and confirm requirements before visiting.",
-      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
-      "verified_date": "2026-02-19",
-      "lat": 32.68,
-      "lng": -96.72,
+      "rules": "Bring a current valid driver's license and proof of Dallas residency, such as a Dallas address on the license or a current Dallas water bill. Covered-load rules and commercial fee rules still apply.",
+      "source": "https://dallascityhall.com/departments/sanitation/pages/mccommas_bluff.aspx",
+      "verified_date": "2026-03-06",
+      "lat": 32.674473580966,
+      "lng": -96.737461428886,
+      "geocode_match": "5100 YOUNGBLOOD RD, DALLAS, TX, 75241",
+      "geocode_source": "census",
       "facility_id": "f_manual_c6f3f1db0700"
     },
     {
       "name": "Northeast (Fair Oaks) Transfer Station",
       "type": "Transfer Station",
       "address": "7677 Fair Oaks Ave, Dallas, TX 75231",
-      "phone": "3-1-1",
-      "hours": "Check official Dallas Sanitation page for current hours.",
-      "fees": "Some drop-off services may be resident-only; private/commercial loads may have fees.",
+      "phone": "214-670-6126",
+      "hours": "Dallas lists Fair Oaks as open Monday through Friday, 7:00 AM to 9:00 AM, and Saturday, 7:00 AM to 4:00 PM. Closed Sunday.",
+      "fees": "Dallas residents in qualifying residential vehicles can use city transfer stations at no charge with valid ID and proof of residency.",
       "accepted_materials": [
-        "Household trash",
-        "Bulk items",
-        "General disposal loads"
+        "Recyclables",
+        "Electronics from residents",
+        "Grass clippings and brush",
+        "Scrap metal",
+        "Household waste",
+        "Furniture",
+        "Tires from Dallas residents"
       ],
       "not_accepted": [
-        "Hazardous chemicals",
-        "Restricted materials (confirm before arrival)"
+        "Commercial loads",
+        "Household hazardous waste"
       ],
-      "rules": "Check proof-of-residency requirements and load limits before visiting.",
-      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
-      "verified_date": "2026-02-19",
-      "lat": 32.88,
-      "lng": -96.75,
+      "rules": "Open to Dallas residents only. No commercial customers. Bring a current valid driver's license and proof of Dallas residency before arrival.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/northeast_fairoaks.aspx",
+      "verified_date": "2026-03-06",
+      "lat": 32.876512212253,
+      "lng": -96.753760197986,
+      "geocode_match": "7677 FAIR OAKS AVE, DALLAS, TX, 75231",
+      "geocode_source": "census",
       "facility_id": "f_manual_d041b3ad8d7d"
     },
     {
-      "name": "Southwest (Oak Cliff) Transfer Station",
-      "type": "Transfer Station",
-      "address": "4610 S Westmoreland Rd, Dallas, TX 75237",
-      "phone": "3-1-1",
-      "hours": "Check official Dallas Sanitation page for current hours.",
-      "fees": "Fees and eligibility vary by service type and residency.",
-      "accepted_materials": [
-        "Household trash",
-        "Bulk waste",
-        "General transfer loads"
-      ],
-      "not_accepted": [
-        "Hazardous waste",
-        "Unapproved commercial loads"
-      ],
-      "rules": "Confirm accepted materials and documentation requirements before visiting.",
-      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
-      "verified_date": "2026-02-19",
-      "lat": 32.69,
-      "lng": -96.88,
-      "facility_id": "f_manual_74a5269ff65e"
-    },
-    {
-      "name": "Harry Hines Transfer Station",
+      "name": "Northwest (Bachman) Transfer Station",
       "type": "Transfer Station",
       "address": "9500 Harry Hines Blvd, Dallas, TX 75220",
-      "phone": "3-1-1",
-      "hours": "Check official Dallas Sanitation page for current hours.",
-      "fees": "Fees vary by load and service type.",
+      "phone": "214-670-6161",
+      "hours": "Dallas lists Bachman as open Monday through Saturday, 7:00 AM to 4:30 PM. Closed Sunday.",
+      "fees": "Dallas residents in qualifying residential vehicles can use the station at no charge with valid ID and proof of residency. Small commercial customers should confirm current pricing before arrival.",
       "accepted_materials": [
-        "Household trash",
-        "Bulk items",
-        "Mixed disposal loads"
+        "Recyclables",
+        "Electronics from residents",
+        "Grass clippings and brush",
+        "Scrap metal",
+        "Household waste",
+        "Furniture",
+        "Tires from Dallas residents"
       ],
       "not_accepted": [
-        "Hazardous chemicals",
-        "Restricted commercial materials"
+        "Household hazardous waste",
+        "Loads outside Bachman station policy"
       ],
-      "rules": "Verify load restrictions and required documentation before arrival.",
-      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
-      "verified_date": "2026-02-19",
-      "lat": 32.85,
-      "lng": -96.88,
-      "facility_id": "f_manual_843e06eb0d72"
+      "rules": "Open to Dallas residents and small commercial customers only. Bring a current valid driver's license and proof of Dallas residency for resident drop-off.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/northwest_bachman.aspx",
+      "verified_date": "2026-03-06",
+      "lat": 32.845610291998,
+      "lng": -96.87498233714,
+      "geocode_match": "9500 HARRY HINES BLVD, DALLAS, TX, 75220",
+      "geocode_source": "census",
+      "facility_id": "f_manual_fc4f29fb2838"
     },
     {
-      "name": "University Park Transfer Station",
+      "name": "Southwest (Westmoreland) Transfer Station",
       "type": "Transfer Station",
-      "address": "2525 University Blvd, Dallas, TX 75206",
-      "phone": "3-1-1",
-      "hours": "Check official Dallas Sanitation page for current hours.",
-      "fees": "Fees and access rules vary by jurisdiction and service level.",
+      "address": "4610 S Westmoreland Rd, Dallas, TX 75237",
+      "phone": "214-670-1927",
+      "hours": "Dallas lists Westmoreland as open Monday through Friday, 7:00 AM to 9:00 AM, and Saturday, 7:00 AM to 4:00 PM. Closed Sunday.",
+      "fees": "Dallas residents in qualifying residential vehicles can use city transfer stations at no charge with valid ID and proof of residency.",
       "accepted_materials": [
-        "General household trash",
-        "Residential disposal loads"
+        "Recyclables",
+        "Electronics from residents",
+        "Grass clippings and brush",
+        "Scrap metal",
+        "Household waste",
+        "Furniture",
+        "Tires from Dallas residents"
       ],
       "not_accepted": [
-        "Hazardous waste",
-        "Restricted commercial loads"
+        "Commercial loads",
+        "Household hazardous waste"
       ],
-      "rules": "Confirm service area eligibility and accepted materials before visiting.",
-      "source": "https://dallascityhall.com/departments/sanitation/Pages/default.aspx",
-      "verified_date": "2026-02-19",
-      "lat": 32.85,
-      "lng": -96.77,
-      "facility_id": "f_manual_f029c4690e82"
+      "rules": "Open to Dallas residents only. No commercial customers. Bring a current valid driver's license and proof of Dallas residency before arrival.",
+      "source": "https://dallascityhall.com/departments/sanitation/Pages/southwest_oakcliff.aspx",
+      "verified_date": "2026-03-06",
+      "lat": 32.687889615883,
+      "lng": -96.882287628891,
+      "geocode_match": "4610 S WESTMORELAND RD, DALLAS, TX, 75237",
+      "geocode_source": "census",
+      "facility_id": "f_manual_154342ac01c6"
     },
     {
       "name": "Customer Convenience Recycling Center at McCommas Bluff",
       "type": "Recycling Center",
       "address": "5450 Simpson Stuart Rd, Dallas, TX 75241",
-      "phone": "3-1-1",
-      "hours": "Check official page for current hours and holiday schedules.",
-      "fees": "Service availability and fees vary by material and residency.",
+      "phone": "214-670-0977",
+      "hours": "Dallas directs residents to McCommas Bluff and the three city transfer stations for electronics recycling during normal residential drop-off hours. Confirm current schedules before visiting.",
+      "fees": "Electronics recycling is a resident service. Confirm current item limits and eligibility before arrival.",
       "accepted_materials": [
-        "Electronics (check program rules)",
-        "Recyclables",
-        "Select household drop-off items"
+        "Computer monitors and televisions",
+        "Computers and laptops",
+        "Printers",
+        "Cell phones and tablets",
+        "Program-approved electronics"
       ],
       "not_accepted": [
-        "Unapproved hazardous materials",
-        "Items outside posted program scope"
+        "Business electronics that require separate handling",
+        "Items outside Dallas electronics recycling rules"
       ],
-      "rules": "Follow posted material prep rules and residency requirements.",
+      "rules": "Dallas residents can drop off electronics at McCommas Bluff or any of the three city transfer stations. Use the city's electronics recycling page for accepted device examples before you drive.",
       "source": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
-      "verified_date": "2026-02-19",
-      "lat": 32.6805119,
-      "lng": -96.7281282,
+      "verified_date": "2026-03-06",
+      "lat": 32.68662037666,
+      "lng": -96.734315115941,
+      "geocode_match": "5450 SIMPSON STUART RD, DALLAS, TX, 75241",
+      "geocode_source": "census",
       "facility_id": "f_manual_bf0e78019a5b"
     },
     {
-      "name": "City of Mesquite Recycling and Compost Center",
-      "type": "Recycling / Compost Center",
-      "address": "3550 Lawson Rd, Mesquite, TX 75181",
-      "phone": "972-216-6284",
-      "hours": "Check official page for current operating hours.",
-      "fees": "Fees may apply depending on residency and load type.",
+      "name": "Dallas County Home Chemical Collection Center",
+      "type": "Hazardous Waste Facility",
+      "address": "11234 Plano Rd, Dallas, TX 75243",
+      "phone": "214-553-1765",
+      "hours": "Dallas County lists the home chemical collection center as open Tuesday, 9:00 AM to 7:30 PM; Wednesday and Thursday, 8:30 AM to 5:00 PM; and the second and fourth Saturday, 9:00 AM to 3:00 PM.",
+      "fees": "The center is free for residents of participating cities and unincorporated Dallas County. Residents of non-participating cities should confirm current per-load fees before arrival.",
       "accepted_materials": [
-        "Yard waste",
-        "Recyclables",
-        "Compost-eligible material"
+        "Household chemicals",
+        "Paint and paint-related products",
+        "Automotive fluids",
+        "Batteries",
+        "Cleaners",
+        "Pesticides"
       ],
       "not_accepted": [
-        "Hazardous chemicals",
-        "Unsorted restricted materials"
+        "Commercial hazardous waste",
+        "Medical waste",
+        "Explosives or ammunition"
       ],
-      "rules": "Confirm eligibility and accepted load types before visiting.",
-      "source": "https://www.cityofmesquite.com/376/Solid-Waste",
-      "verified_date": "2026-02-19",
-      "lat": 32.7132744,
-      "lng": -96.5474446,
-      "facility_id": "f_manual_27cde11709ed"
+      "rules": "Bring your driver's license and a current water or utility bill showing an address in a participating city or unincorporated Dallas County. Use the county list to confirm accepted materials, packaging rules, and city eligibility before driving.",
+      "source": "https://www.dallascounty.org/departments/consolidated-services/hhw/",
+      "verified_date": "2026-03-06",
+      "lat": 32.9018107,
+      "lng": -96.7006982,
+      "facility_id": "f_manual_216388b77ec6"
     }
   ]
 }

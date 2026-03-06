@@ -1,0 +1,340 @@
+{
+  "city": "San Antonio",
+  "state": "TX",
+  "last_updated": "2026-03-06",
+  "facilities": [
+    {
+      "name": "Bitters Bulky Waste Collection Center",
+      "type": "Transfer Station",
+      "address": "1800 Wurzbach Pkwy, San Antonio, TX 78216",
+      "phone": "3-1-1",
+      "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday.",
+      "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+      "accepted_materials": [
+        "Bulky household items",
+        "Furniture and mattresses",
+        "Large appliances",
+        "Flattened cardboard",
+        "Up to six car tires without rims",
+        "Small construction debris loads"
+      ],
+      "not_accepted": [
+        "Bagged household garbage",
+        "Brush, leaves, and yard waste",
+        "Hazardous waste",
+        "Commercial loads",
+        "Large dirt, rock, or concrete loads"
+      ],
+      "rules": "San Antonio limits bulky drop-off to solid waste fee-paying residential customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, keep debris within the truck bed, and cover your load before driving.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
+      "verified_date": "2026-03-06"
+    },
+    {
+      "name": "Frio City Road Bulky Waste Collection Center",
+      "type": "Transfer Station",
+      "address": "1531 Frio City Rd, San Antonio, TX 78226",
+      "phone": "3-1-1",
+      "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday.",
+      "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+      "accepted_materials": [
+        "Bulky household items",
+        "Furniture and mattresses",
+        "Large appliances",
+        "Flattened cardboard",
+        "Up to six car tires without rims",
+        "Small construction debris loads"
+      ],
+      "not_accepted": [
+        "Bagged household garbage",
+        "Brush, leaves, and yard waste",
+        "Hazardous waste",
+        "Commercial loads",
+        "Large dirt, rock, or concrete loads"
+      ],
+      "rules": "San Antonio limits bulky drop-off to solid waste fee-paying residential customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, keep debris within the truck bed, and cover your load before driving.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
+      "verified_date": "2026-03-06",
+      "lat": 29.39514181241,
+      "lng": -98.533941961165,
+      "geocode_match": "1531 FRIO CITY RD, SAN ANTONIO, TX, 78226",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Culebra Bulky Waste Collection Center",
+      "type": "Transfer Station",
+      "address": "7030 Culebra Rd, San Antonio, TX 78238",
+      "phone": "3-1-1",
+      "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday.",
+      "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+      "accepted_materials": [
+        "Bulky household items",
+        "Furniture and mattresses",
+        "Large appliances",
+        "Flattened cardboard",
+        "Up to six car tires without rims",
+        "Small construction debris loads"
+      ],
+      "not_accepted": [
+        "Bagged household garbage",
+        "Brush, leaves, and yard waste",
+        "Hazardous waste",
+        "Commercial loads",
+        "Large dirt, rock, or concrete loads"
+      ],
+      "rules": "San Antonio limits bulky drop-off to solid waste fee-paying residential customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, keep debris within the truck bed, and cover your load before driving.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
+      "verified_date": "2026-03-06",
+      "lat": 29.451626441059,
+      "lng": -98.628003814803,
+      "geocode_match": "7030 CULEBRA RD, SAN ANTONIO, TX, 78238",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Rigsby Road Bulky Waste Collection Center",
+      "type": "Transfer Station",
+      "address": "2755 Rigsby Ave, San Antonio, TX 78222",
+      "phone": "3-1-1",
+      "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday.",
+      "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+      "accepted_materials": [
+        "Bulky household items",
+        "Furniture and mattresses",
+        "Large appliances",
+        "Flattened cardboard",
+        "Up to six car tires without rims",
+        "Small construction debris loads"
+      ],
+      "not_accepted": [
+        "Bagged household garbage",
+        "Brush, leaves, and yard waste",
+        "Hazardous waste",
+        "Commercial loads",
+        "Large dirt, rock, or concrete loads"
+      ],
+      "rules": "San Antonio limits bulky drop-off to solid waste fee-paying residential customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, keep debris within the truck bed, and cover your load before driving.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
+      "verified_date": "2026-03-06",
+      "lat": 29.398600378173,
+      "lng": -98.412473992355,
+      "geocode_match": "2755 RIGSBY AVE, SAN ANTONIO, TX, 78222",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Culebra HHW Drop-Off Center",
+      "type": "Hazardous Waste Facility",
+      "address": "7030 Culebra Rd, San Antonio, TX 78238",
+      "phone": "3-1-1",
+      "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday. Appointments may be required for some loads.",
+      "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+      "accepted_materials": [
+        "Paint and paint-related products",
+        "Pesticides and pool chemicals",
+        "Automotive fluids and batteries",
+        "Fluorescent bulbs",
+        "Used motor oil",
+        "Household cleaners"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Medical waste",
+        "Explosives or ammunition",
+        "Loads over posted quantity limits"
+      ],
+      "rules": "San Antonio caps household hazardous waste drop-off at 220 pounds per visit and requires proof that you pay the city environmental fee through CPS Energy. Use the city HHW page before visiting because appointment rules and accepted-item limits can change.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW-Drop-Off",
+      "verified_date": "2026-03-06",
+      "lat": 29.451626441059,
+      "lng": -98.628003814803,
+      "geocode_match": "7030 CULEBRA RD, SAN ANTONIO, TX, 78238",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Bitters Monthly HHW Drop-Off Event",
+      "type": "Hazardous Waste Facility",
+      "address": "1800 Wurzbach Pkwy, San Antonio, TX 78216",
+      "phone": "3-1-1",
+      "hours": "Monthly on the first Friday and following Saturday, 8:00 AM-12:00 PM, except holidays. Confirm the current calendar before visiting.",
+      "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+      "accepted_materials": [
+        "Paint and paint-related products",
+        "Household chemicals",
+        "Automotive fluids",
+        "Batteries",
+        "Fluorescent bulbs",
+        "Electronics approved by the city HHW program"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Medical waste",
+        "Explosives or ammunition",
+        "Loads over posted quantity limits"
+      ],
+      "rules": "This is a city-run monthly household hazardous waste event, not a daily drop-off center. Bring a recent CPS Energy bill showing the environmental fee, photo ID, and keep household hazardous waste under the city's posted 220-pound limit.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW/Monthly",
+      "verified_date": "2026-03-06"
+    },
+    {
+      "name": "Rigsby Quarterly HHW Drop-Off Event",
+      "type": "Hazardous Waste Facility",
+      "address": "2755 Rigsby Ave, San Antonio, TX 78222",
+      "phone": "3-1-1",
+      "hours": "Quarterly on select Saturdays, 8:00 AM-12:00 PM. Confirm the current city HHW event calendar before visiting.",
+      "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+      "accepted_materials": [
+        "Paint and paint-related products",
+        "Household chemicals",
+        "Automotive fluids",
+        "Batteries",
+        "Fluorescent bulbs",
+        "Electronics approved by the city HHW program"
+      ],
+      "not_accepted": [
+        "Commercial hazardous waste",
+        "Medical waste",
+        "Explosives or ammunition",
+        "Loads over posted quantity limits"
+      ],
+      "rules": "This is a periodic city HHW event rather than a daily service. Bring a recent CPS Energy bill showing the environmental fee, photo ID, and keep household hazardous waste under the city's posted 220-pound limit.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW/Quarterly",
+      "verified_date": "2026-03-06",
+      "lat": 29.398600378173,
+      "lng": -98.412473992355,
+      "geocode_match": "2755 RIGSBY AVE, SAN ANTONIO, TX, 78222",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Bitters Brush Recycling Center",
+      "type": "Recycling Center",
+      "address": "1800 Wurzbach Pkwy, San Antonio, TX 78216",
+      "phone": "3-1-1",
+      "hours": "Monday-Saturday: 8:00 AM-5:00 PM. Closed Sunday and city holidays.",
+      "fees": "San Antonio charges brush drop-off in 20-pound increments for Solid Waste Management customers. Loads up to 20 pounds are $0.25; larger loads are priced by weight under the city's posted fee schedule.",
+      "accepted_materials": [
+        "Tree branches",
+        "Shrubs and woody vines",
+        "Leaves in paper bags",
+        "Clean brush"
+      ],
+      "not_accepted": [
+        "Plastic-bagged leaves",
+        "Bulky household junk",
+        "Construction debris",
+        "Hazardous waste",
+        "Trash"
+      ],
+      "rules": "San Antonio brush drop-off is for city solid waste customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, and separate brush from trash before arrival.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/Brush-Drop-Off",
+      "verified_date": "2026-03-06"
+    },
+    {
+      "name": "Nelson Gardens Brush Recycling Center",
+      "type": "Recycling Center",
+      "address": "8963 Nelson Rd, San Antonio, TX 78252",
+      "phone": "3-1-1",
+      "hours": "Monday-Sunday: 8:00 AM-5:00 PM. Friday and Saturday hours extend to 6:00 PM in June and July. Closed on city-observed holidays.",
+      "fees": "San Antonio charges brush drop-off in 20-pound increments for Solid Waste Management customers. Use the city service guide or current operator notice to confirm exact rates before driving.",
+      "accepted_materials": [
+        "Tree branches",
+        "Shrubs and woody vines",
+        "Leaves in paper bags",
+        "Clean brush"
+      ],
+      "not_accepted": [
+        "Plastic-bagged leaves",
+        "Bulky household junk",
+        "Construction debris",
+        "Hazardous waste",
+        "Trash"
+      ],
+      "rules": "Nelson Gardens is the city-linked west-side brush drop-off site. Bring a recent CPS Energy bill with the environmental fee plus photo ID and confirm any holiday schedule changes before driving.",
+      "source": "https://www.sa.gov/files/assets/main/v/1/swmd/documents/servicesguideen.pdf",
+      "verified_date": "2026-03-06",
+      "lat": 29.328163409386,
+      "lng": -98.671410817557,
+      "geocode_match": "8963 NELSON RD, SAN ANTONIO, TX, 78252",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Covel Gardens Recycling and Disposal Facility",
+      "type": "Landfill",
+      "address": "8611 Covel Rd, San Antonio, TX 78252",
+      "phone": "210-623-8780",
+      "hours": "Monday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-1:00 PM. Closed Sunday.",
+      "fees": "WM charges by load, weight, and material type. Call ahead for current public rates and any special-waste paperwork.",
+      "accepted_materials": [
+        "Municipal solid waste",
+        "Construction and demolition debris",
+        "Bulky disposal loads",
+        "Approved non-hazardous special waste"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Bulk liquids",
+        "Unapproved special waste"
+      ],
+      "rules": "Covel Gardens is a paid WM landfill and disposal facility serving the San Antonio area. Confirm current public access, gate rates, and any material-specific restrictions before you drive.",
+      "source": "https://www.wm.com/us/en/facilities/covel-gardens-recycling-disposal-facility",
+      "verified_date": "2026-03-06",
+      "lat": 29.341443001984,
+      "lng": -98.646452455173,
+      "geocode_match": "8611 COVEL RD, SAN ANTONIO, TX, 78252",
+      "geocode_source": "census"
+    },
+    {
+      "name": "Texas Disposal Systems Starcrest Transfer Station",
+      "type": "Transfer Station",
+      "address": "1601 Cornerway Blvd, San Antonio, TX 78219",
+      "phone": "800-375-8375",
+      "hours": "Monday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday.",
+      "fees": "Texas Disposal Systems posts gate rates for compactable trash, non-compactable debris, tires, appliances, and recycling. Confirm current pricing and any load fees before arrival.",
+      "accepted_materials": [
+        "Loose compactable debris",
+        "Concrete, brick, dirt, and shingles",
+        "Railroad ties and lumber",
+        "Non-refrigerated appliances",
+        "Tires off the rim",
+        "Program-approved recycling"
+      ],
+      "not_accepted": [
+        "Hazardous waste",
+        "Bulk liquids",
+        "Refrigerated appliances",
+        "Loads outside posted transfer station rules"
+      ],
+      "rules": "Texas Disposal Systems applies gate-rate categories by material type and charges additional fees for some unsecured loads. Use the operator's rate sheet before driving so you know whether your load belongs in the compactable, non-compactable, tire, or recycling line.",
+      "source": "https://www.texasdisposal.com/wp-content/uploads/2025/06/SA-Transfer-Station-Rates_06.2025.pdf",
+      "verified_date": "2026-03-06"
+    },
+    {
+      "name": "Republic Services Landfill Free Disposal Day",
+      "type": "Landfill",
+      "address": "7000 Interstate 10 E, San Antonio, TX 78219",
+      "phone": "3-1-1",
+      "hours": "Quarterly on select Saturdays, 8:00 AM-1:00 PM, during the city's Free Landfill Day program. Confirm the next event date before visiting.",
+      "fees": "Free during San Antonio Free Landfill Day for eligible city solid waste customers. Normal landfill charges apply outside the city event.",
+      "accepted_materials": [
+        "Appliances",
+        "Bagged litter loads",
+        "Carpet",
+        "Fencing material",
+        "Furniture and mattresses",
+        "Up to six tires"
+      ],
+      "not_accepted": [
+        "Brush",
+        "Commercial or industrial waste",
+        "Construction debris",
+        "Dirt or rock",
+        "Lumber",
+        "Roofing material or sheetrock"
+      ],
+      "rules": "This is a city Free Landfill Day event, not a daily free dump. San Antonio requires a valid photo ID, a recent CPS Energy bill showing the environmental fee, and a covered load before arrival.",
+      "source": "https://www.sa.gov/Directory/Departments/SWMD/Garbage/Landfill",
+      "verified_date": "2026-03-06",
+      "lat": 29.444942955549,
+      "lng": -98.359177263386,
+      "geocode_match": "7000 I- 10 ACCESS RD, SAN ANTONIO, TX, 78219",
+      "geocode_source": "census"
+    }
+  ]
+}

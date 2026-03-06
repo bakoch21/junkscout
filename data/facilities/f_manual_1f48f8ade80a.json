@@ -1,0 +1,41 @@
+{
+  "id": "f_manual_1f48f8ade80a",
+  "name": "Republic Services Landfill Free Disposal Day",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "7000 Interstate 10 E, San Antonio, TX 78219",
+  "phone": "3-1-1",
+  "hours": "Quarterly on select Saturdays, 8:00 AM-1:00 PM, during the city's Free Landfill Day program. Confirm the next event date before visiting.",
+  "fees": "Free during San Antonio Free Landfill Day for eligible city solid waste customers. Normal landfill charges apply outside the city event.",
+  "rules": "This is a city Free Landfill Day event, not a daily free dump. San Antonio requires a valid photo ID, a recent CPS Energy bill showing the environmental fee, and a covered load before arrival.",
+  "accepted_materials": [
+    "Appliances",
+    "Bagged litter loads",
+    "Carpet",
+    "Fencing material",
+    "Furniture and mattresses",
+    "Up to six tires"
+  ],
+  "not_accepted": [
+    "Brush",
+    "Commercial or industrial waste",
+    "Construction debris",
+    "Dirt or rock",
+    "Lumber",
+    "Roofing material or sheetrock"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/Garbage/Landfill",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/Garbage/Landfill",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ],
+  "lat": 29.444942955549,
+  "lng": -98.359177263386,
+  "geocode_match": "7000 I- 10 ACCESS RD, SAN ANTONIO, TX, 78219",
+  "geocode_source": "census"
+}

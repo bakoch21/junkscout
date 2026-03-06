@@ -54,6 +54,10 @@ function isDallasCity(state, city) {
   return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "dallas";
 }
 
+function isMiamiCity(state, city) {
+  return String(state || "").toLowerCase() === "florida" && String(city || "").toLowerCase() === "miami";
+}
+
 function isAustinCity(state, city) {
   return String(state || "").toLowerCase() === "texas" && String(city || "").toLowerCase() === "austin";
 }
@@ -387,6 +391,10 @@ function buildMeta({ state, city }) {
     title = "Dallas Trash Dump, Transfer Stations & Landfills | JunkScout";
     description =
       "Compare Dallas dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.";
+  } else if (isMiamiCity(state, city)) {
+    title = "Miami Trash Dump, Transfer Stations & Landfills | JunkScout";
+    description =
+      "Compare Miami-Dade trash and recycling centers, home chemical collection sites, and nearby disposal options with hours, resident rules, and accepted materials.";
   } else if (isAustinCity(state, city)) {
     title = "Austin Trash Dump, Transfer Stations & Landfills | JunkScout";
     description =
@@ -545,7 +553,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Dallas has municipal and private options including transfer stations, landfill access points, and recycling drop-offs depending on load type and eligibility.",
+              "Dallas residents usually compare the three city transfer stations and McCommas Bluff Landfill for household self-haul loads, then use the Dallas County home chemical collection center for paint, batteries, and other hazardous household items.",
           },
         },
         {
@@ -554,7 +562,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Some Dallas-area services are resident-focused and may include low-cost or free options for specific materials. Always confirm residency rules, limits, and current fees.",
+              "Dallas residents in passenger cars, pickups, and trailers under 15 feet hauling waste from their residence can use city landfill and transfer station services at no charge with valid ID and proof of residency.",
           },
         },
         {
@@ -564,6 +572,40 @@ function buildJsonLd({ state, city, meta }) {
             "@type": "Answer",
             text:
               "Fees vary by load size, material type, and facility policy. Check source links and verify before you drive.",
+          },
+        },
+      ],
+    });
+  } else if (isMiamiCity(state, city)) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Where can I dump trash in Miami today?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Eligible Miami-Dade residents usually use neighborhood trash and recycling centers for bulky household cleanup, yard cuttings, and small construction debris, then use the county home chemical centers for paint, batteries, bulbs, and electronics.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where can I drop off trash for free in Miami?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Miami-Dade neighborhood centers and home chemical centers are resident services tied to eligible waste-fee customers or Miami-Dade residents, not general public landfills. Bring valid Florida ID and confirm the county rules before visiting.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are Miami trash and recycling centers open daily?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes. Miami-Dade lists neighborhood trash and recycling centers as open daily from 7 a.m. to 5:30 p.m., while the home chemical centers run Wednesday through Sunday from 9 a.m. to 5 p.m.",
           },
         },
       ],
@@ -613,7 +655,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "San Antonio has city, county, and private options including recycling drop-offs, transfer stations, and landfill access depending on your load.",
+              "Most San Antonio residents start with the city's bulky waste collection centers for household cleanup, use the Culebra HHW site or city HHW events for paint and chemicals, and compare private options such as TDS Starcrest or Covel Gardens when they need paid transfer or landfill disposal.",
           },
         },
         {
@@ -622,7 +664,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Some San Antonio services include resident-focused or low-cost options for specific materials. Always confirm current rules, fees, and accepted items before visiting.",
+              "San Antonio bulky drop-off and household hazardous waste services are free for eligible solid waste customers who show a recent CPS Energy bill with the environmental fee plus photo ID. Free landfill days also exist, but only on select city event dates.",
           },
         },
         {
@@ -631,7 +673,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Fees vary by load size, material type, and facility policy. Check source links and confirm current pricing before driving.",
+              "Private San Antonio disposal sites usually charge by material category, weight, or load type, while city-run bulky and HHW programs use eligibility rules instead of a standard public gate fee. Check the source link on each listing before you drive.",
           },
         },
       ],
@@ -1240,25 +1282,29 @@ function injectDallasIntentCopy(html) {
   <div class="quickstart__grid">
     <a class="quickstart__item" href="/texas/dallas/?type=recycling#results">
       <span class="quickstart__title">Recycling drop-off</span>
-      <span class="quickstart__meta">Electronics, recyclables, and sorted materials</span>
+      <span class="quickstart__meta">Electronics and resident recycling options</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
     <a class="quickstart__item" href="/texas/dallas/?type=transfer#results">
       <span class="quickstart__title">Transfer stations</span>
-      <span class="quickstart__meta">Fast unload options for mixed loads</span>
+      <span class="quickstart__meta">Dallas resident self-haul options</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
     <a class="quickstart__item" href="/texas/dallas/?type=landfill#results">
       <span class="quickstart__title">Landfills</span>
-      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__meta">McCommas Bluff and larger loads</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
-    <a class="quickstart__item" href="/texas/dallas/?type=dumpster#results">
-      <span class="quickstart__title">Public dumpster options</span>
-      <span class="quickstart__meta">Simple drop-off points and city options</span>
+    <a class="quickstart__item" href="/texas/dallas/?type=hazardous-waste#results">
+      <span class="quickstart__title">Household chemicals</span>
+      <span class="quickstart__meta">Paint, oil, batteries, and cleaners</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
   </div>
+</section>
+<section class="report__box" aria-label="Dallas guide review" style="margin-top:12px">
+  <h2 style="margin:0; font-size:22px">Dallas guide review</h2>
+  <p class="muted" style="margin-top:8px">Last reviewed March 6, 2026 using Dallas Sanitation landfill, transfer station, and electronics recycling pages plus the Dallas County home chemical collection page.</p>
 </section>
 `.trim();
 
@@ -1274,12 +1320,17 @@ function injectDallasIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Need to dump trash in Dallas fast? Start with these verified options and confirm rules before you drive.$2\n" + quickStartBlock
+    "$1Need to dump trash in Dallas fast? Start with Dallas transfer stations or McCommas Bluff, then use the county home chemical center for paint, oil, batteries, and other hazardous items.$2\n" + quickStartBlock
   );
 
   out = out.replace(
     /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
     "$1Where can I dump trash in Dallas today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>[\s\S]*?<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Dallas residents usually start with the three city transfer stations or McCommas Bluff for household cleanup. Electronics can go to McCommas Bluff or the city transfer stations, while paint, batteries, cleaners, and other hazardous items belong at the Dallas County Home Chemical Collection Center.$2"
   );
 
   out = out.replace(
@@ -1289,7 +1340,7 @@ function injectDallasIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Some Dallas-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.$2"
+    "$1Dallas residents hauling waste from their residence in passenger cars, pickups, and trailers under 15 feet can use city landfill and transfer station services at no charge with valid ID and proof of residency. Dallas County household chemicals have their own eligibility rules and schedules, so confirm the listing first.$2"
   );
 
   out = out.replace(
@@ -1300,6 +1351,158 @@ function injectDallasIntentCopy(html) {
   out = out.replace(
     "<h2>Fees, hours, and resident requirements</h2>",
     "<h2>Dallas landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  out = out.replace(
+    /(<section class="seo-copy" style="margin-top:26px">\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Compare Dallas disposal options with source links, hours, resident rules, and accepted materials so you can choose the right site before you drive.$2"
+  );
+
+  out = out.replace(
+    /(<h2>Dallas transfer stations and recycling centers: what they accept<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Dallas transfer stations and McCommas Bluff cover most resident cleanup needs, including household waste, brush, furniture, tires, and recyclables, while the city's electronics recycling program handles TVs, monitors, computers, printers, and other approved devices. Household chemicals, automotive fluids, and similar hazardous items should go to the Dallas County home chemical center instead of a standard trash site.$2"
+  );
+
+  out = out.replace(
+    /(<h2>Dallas landfill and transfer station fees, hours, and rules<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Dallas city drop-off is structured around residency. McCommas Bluff runs earlier and later hours for larger loads, Bachman also serves small commercial customers, and Fair Oaks and Westmoreland have short weekday resident windows. Always bring current ID, proof of Dallas residency, and confirm whether your load belongs at the city site or the county chemical program.$2"
+  );
+
+  out = out.replace(
+    /<!-- NEARBY:START -->/i,
+    `<h2>Best Dallas option by load type</h2>
+        <p>
+          Use a <strong>Dallas transfer station</strong> for most resident self-haul cleanup, <strong>McCommas Bluff Landfill</strong> for larger disposal loads,
+          <strong>Dallas electronics recycling</strong> for TVs and computers, and the <strong>Dallas County Home Chemical Collection Center</strong> for paint,
+          batteries, cleaners, pesticides, and other hazardous household items.
+        </p>
+
+        <h2>Before you drive to a Dallas drop-off site</h2>
+        <p>
+          Dallas resident access depends on documentation and vehicle type. The city expects a current driver's license and proof of Dallas residency, the county
+          chemical center has participating-city rules, and oversize or commercial loads can push you into a different fee structure. Checking the source link
+          first usually prevents a wasted trip.
+        </p>
+
+        <!-- NEARBY:START -->`
+  );
+
+  return out;
+}
+
+function injectMiamiIntentCopy(html) {
+  let out = html;
+  const quickStartBlock = `
+<section class="quickstart" aria-label="Start here">
+  <div class="quickstart__head">
+    <div class="quickstart__titleline">Start here</div>
+  </div>
+  <div class="quickstart__grid">
+    <a class="quickstart__item" href="/florida/miami/?type=transfer#results">
+      <span class="quickstart__title">Neighborhood TRCs</span>
+      <span class="quickstart__meta">Bulky trash, yard waste, and small debris loads</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/florida/miami/?type=hazardous-waste#results">
+      <span class="quickstart__title">Home chemical centers</span>
+      <span class="quickstart__meta">Paint, batteries, bulbs, and electronics</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/florida/miami/?type=transfer#results">
+      <span class="quickstart__title">Used oil and electronics</span>
+      <span class="quickstart__meta">Only certain county TRCs accept them</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/florida/miami/#faqDumpFree">
+      <span class="quickstart__title">County resident rules</span>
+      <span class="quickstart__meta">Florida ID and service-area eligibility matter</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+  </div>
+</section>
+<section class="report__box" aria-label="Miami guide review" style="margin-top:12px">
+  <h2 style="margin:0; font-size:22px">Miami guide review</h2>
+  <p class="muted" style="margin-top:8px">Last reviewed March 6, 2026 using Miami-Dade's neighborhood trash and recycling center service page plus the county spring-cleaning home chemical collection guidance.</p>
+</section>
+`.trim();
+
+  out = out.replace(
+    /(<h1[^>]*id="cityTitle"[^>]*>)[\s\S]*?(<\/h1>)/i,
+    "$1Miami Trash Dump, Transfer Stations & Landfills$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="cityAnswer"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Compare Miami-Dade trash and recycling centers, home chemical collection sites, and nearby disposal options with hours, resident rules, and accepted materials.$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Need to dump trash in Miami fast? Start with Miami-Dade neighborhood TRCs for bulky cleanup and the home chemical centers for paint, batteries, electronics, and chemicals.$2\n" + quickStartBlock
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I dump trash in Miami today?$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>[\s\S]*?<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Most Miami household drop-off traffic goes to Miami-Dade Neighborhood Trash and Recycling Centers, which handle bulky cleanup, yard cuttings, and small construction debris for eligible residents. Use the county home chemical collection centers for paint, cleaners, batteries, bulbs, and home electronics instead of a standard trash site.$2"
+  );
+
+  out = out.replace(
+    /(<h2[^>]*id="faqDumpFree"[^>]*>)[\s\S]*?(<\/h2>)/i,
+    "$1Where can I drop off trash for free in Miami?$2"
+  );
+
+  out = out.replace(
+    /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
+    "$1Miami-Dade neighborhood centers and home chemical centers are resident services, not general public landfills. Eligible customers usually do not pay a standard gate fee, but they do need valid Florida ID tied to an eligible waste-fee account, and oversize vehicles must use county landfill options instead.$2"
+  );
+
+  out = out.replace(
+    "<h2>What items are typically accepted?</h2>",
+    "<h2>Miami trash and recycling centers: what they accept</h2>"
+  );
+
+  out = out.replace(
+    "<h2>Fees, hours, and resident requirements</h2>",
+    "<h2>Miami drop-off hours, resident rules, and county limits</h2>"
+  );
+
+  out = out.replace(
+    /(<section class="seo-copy" style="margin-top:26px">\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Compare Miami-Dade neighborhood centers and home chemical drop-off sites with source links, hours, resident rules, and accepted materials so you can choose the right option before you drive.$2"
+  );
+
+  out = out.replace(
+    /(<h2>Miami trash and recycling centers: what they accept<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Miami-Dade TRCs focus on bulky household cleanup, yard cuttings, and construction debris loads up to three cubic yards. Some centers also take used motor oil, used electronics, cardboard, tires, or white goods, while the county home chemical centers handle household cleaners, paint thinners, fertilizers, batteries, bulbs, and laptops.$2"
+  );
+
+  out = out.replace(
+    /(<h2>Miami drop-off hours, resident rules, and county limits<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Miami-Dade lists neighborhood TRCs as open daily from 7:00 AM to 5:30 PM and the home chemical centers as open Wednesday through Sunday from 9:00 AM to 5:00 PM. Florida ID is scanned against the county waste-fee customer database, oversize vehicles are not allowed at TRCs, and regular garbage, food, and kitchen waste are prohibited there.$2"
+  );
+
+  out = out.replace(
+    /<!-- NEARBY:START -->/i,
+    `<h2>Best Miami option by load type</h2>
+        <p>
+          Use a <strong>Miami-Dade neighborhood TRC</strong> for bulky household cleanup, tree and yard cuttings, and smaller construction debris loads,
+          then use a <strong>home chemical collection center</strong> for paint, cleaners, batteries, bulbs, and many household electronics. If your vehicle
+          is oversize or your load falls outside TRC rules, Miami-Dade directs you to county landfill options with per-ton pricing.
+        </p>
+
+        <h2>Before you drive to a Miami drop-off site</h2>
+        <p>
+          In Miami, eligibility matters as much as distance. The county scans Florida ID against an eligible waste-fee account, some centers have special
+          rules for tires, white goods, mattresses, or electronics, and regular garbage or kitchen waste are not accepted at the neighborhood TRCs. Check
+          the source link first so you arrive at the right center with the right load.
+        </p>
+
+        <!-- NEARBY:START -->`
   );
 
   return out;
@@ -1388,27 +1591,31 @@ function injectSanAntonioIntentCopy(html) {
     <div class="quickstart__titleline">Start here</div>
   </div>
   <div class="quickstart__grid">
-    <a class="quickstart__item" href="/texas/san-antonio/?type=recycling#results">
-      <span class="quickstart__title">Recycling drop-off</span>
-      <span class="quickstart__meta">City and private recycling options</span>
-      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
-    </a>
     <a class="quickstart__item" href="/texas/san-antonio/?type=transfer#results">
-      <span class="quickstart__title">Transfer stations</span>
-      <span class="quickstart__meta">Mixed loads and faster unload</span>
-      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
-    </a>
-    <a class="quickstart__item" href="/texas/san-antonio/?type=landfill#results">
-      <span class="quickstart__title">Landfills</span>
-      <span class="quickstart__meta">Large loads and heavy disposal</span>
+      <span class="quickstart__title">Free resident bulky drop-off</span>
+      <span class="quickstart__meta">City self-haul cleanup centers</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
     <a class="quickstart__item" href="/texas/san-antonio/?type=hazardous-waste#results">
-      <span class="quickstart__title">Hazardous waste options</span>
-      <span class="quickstart__meta">Special handling and appointment rules</span>
+      <span class="quickstart__title">Household hazardous waste</span>
+      <span class="quickstart__meta">Paint, chemicals, oil, and batteries</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/san-antonio/?type=recycling#results">
+      <span class="quickstart__title">Brush and recycling drop-off</span>
+      <span class="quickstart__meta">Brush-only loads and green waste</span>
+      <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
+    </a>
+    <a class="quickstart__item" href="/texas/san-antonio/?type=landfill#results">
+      <span class="quickstart__title">Paid landfill and transfer</span>
+      <span class="quickstart__meta">Private daily disposal options</span>
       <span class="quickstart__arrow" aria-hidden="true">&rsaquo;</span>
     </a>
   </div>
+</section>
+<section class="report__box" aria-label="San Antonio guide review" style="margin-top:12px">
+  <h2 style="margin:0; font-size:22px">San Antonio guide review</h2>
+  <p class="muted" style="margin-top:8px">Last reviewed March 6, 2026 using San Antonio Solid Waste bulky, HHW, brush, and landfill pages plus WM, Texas Disposal Systems, and the city service guide.</p>
 </section>
 `.trim();
 
@@ -1424,7 +1631,7 @@ function injectSanAntonioIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Need to dump trash in San Antonio fast? Start with these verified options and confirm rules before you drive.$2\n" + quickStartBlock
+    "$1Need to dump trash in San Antonio fast? Start with city bulky drop-off if you pay the environmental fee, use the HHW program for paint and chemicals, and move to paid landfill or transfer options only when your load falls outside city rules.$2\n" + quickStartBlock
   );
 
   out = out.replace(
@@ -1438,8 +1645,13 @@ function injectSanAntonioIntentCopy(html) {
   );
 
   out = out.replace(
+    /(<h2[^>]*id="faqDumpWhere"[^>]*>[\s\S]*?<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Most San Antonio household cleanup runs through the four city bulky waste collection centers, with the Culebra HHW drop-off site and scheduled HHW events handling paint, batteries, oil, and household chemicals. When you have construction debris, larger mixed loads, or a load that does not qualify for city drop-off, compare TDS Starcrest and Covel Gardens before you drive.$2"
+  );
+
+  out = out.replace(
     /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Some San Antonio-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.$2"
+    "$1San Antonio's best free options are city-run and eligibility-based, not open-public gate sites. If you are a Solid Waste Management customer with a recent CPS Energy bill showing the environmental fee and matching photo ID, bulky drop-off and HHW services can be free. Free landfill days exist too, but only on select event dates.$2"
   );
 
   out = out.replace(
@@ -1450,6 +1662,39 @@ function injectSanAntonioIntentCopy(html) {
   out = out.replace(
     "<h2>Fees, hours, and resident requirements</h2>",
     "<h2>San Antonio landfill and transfer station fees, hours, and rules</h2>"
+  );
+
+  out = out.replace(
+    /(<section class="seo-copy" style="margin-top:26px">\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Compare San Antonio disposal options with source links, hours, resident rules, and accepted materials so you can choose the right site before you drive.$2"
+  );
+
+  out = out.replace(
+    /(<h2>San Antonio transfer stations and recycling centers: what they accept<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1San Antonio splits self-haul by program. City bulky centers handle household cleanup, furniture, appliances, tires, and smaller construction debris for eligible residents, while the brush sites take tree limbs, leaves, and other green waste only. Household hazardous waste, paint, oil, batteries, and similar materials belong at the Culebra HHW site or one of the city's scheduled HHW events instead of a standard trash drop-off.$2"
+  );
+
+  out = out.replace(
+    /(<h2>San Antonio landfill and transfer station fees, hours, and rules<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1San Antonio's city-run drop-off system is built around eligibility, not walk-up public gate fees. You usually need a recent CPS Energy bill showing the environmental fee plus matching photo ID. Private sites such as TDS Starcrest and Covel Gardens charge by material class, weight, or load type, and free landfill access only appears on select city event dates, so the source link on each card matters.$2"
+  );
+
+  out = out.replace(
+    /<!-- NEARBY:START -->/i,
+    `<h2>Best San Antonio option by load type</h2>
+        <p>
+          Use a <strong>city bulky waste collection center</strong> for general household cleanup if you qualify as a San Antonio solid waste customer.
+          Use a <strong>brush recycling center</strong> for limbs and leaves, a <strong>city HHW site or HHW event</strong> for paint, chemicals, batteries, and automotive fluids,
+          a <strong>transfer station</strong> for faster unloading of paid mixed debris, and a <strong>landfill</strong> when you have a larger disposal or construction-heavy load.
+        </p>
+
+        <h2>Before you drive to a San Antonio drop-off site</h2>
+        <p>
+          San Antonio rules change sharply by program. City sites usually require a recent CPS Energy bill with the environmental fee plus photo ID, brush and bulky loads are screened differently,
+          and free landfill access is only available on certain city event dates. If you have paint, oil, batteries, or chemicals, do not assume a bulky site or landfill will take them.
+        </p>
+
+        <!-- NEARBY:START -->`
   );
 
   return out;
@@ -1803,7 +2048,7 @@ function run() {
       enhancedCity: isEnhanced,
       blendCuratedWithData: citySource === "curated_blend",
     });
-    const initialResultsLimit = (isLosAngelesCity(state, city) || isHoustonCity(state, city)) ? 15 : 12;
+    const initialResultsLimit = (isLosAngelesCity(state, city) || isHoustonCity(state, city) || isMiamiCity(state, city)) ? 15 : 12;
     outputHtml = injectInitialResults(outputHtml, buildInitialResultsHtml(cityItems, { limit: initialResultsLimit }));
     outputHtml = injectStateHubLink(outputHtml, state);
     outputHtml = injectPopularCities(outputHtml, state);
@@ -1816,6 +2061,8 @@ function run() {
       outputHtml = injectHoustonIntentCopy(outputHtml);
     } else if (isDallasCity(state, city)) {
       outputHtml = injectDallasIntentCopy(outputHtml);
+    } else if (isMiamiCity(state, city)) {
+      outputHtml = injectMiamiIntentCopy(outputHtml);
     } else if (isAustinCity(state, city)) {
       outputHtml = injectAustinIntentCopy(outputHtml);
     } else if (isSanAntonioCity(state, city)) {

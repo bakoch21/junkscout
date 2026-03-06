@@ -4,20 +4,22 @@
   "type": "recycling",
   "type_label": "Recycling Center",
   "address": "5450 Simpson Stuart Rd, Dallas, TX 75241",
-  "phone": "3-1-1",
-  "hours": "Check official page for current hours and holiday schedules.",
-  "fees": "Service availability and fees vary by material and residency.",
-  "rules": "Follow posted material prep rules and residency requirements.",
+  "phone": "214-670-0977",
+  "hours": "Dallas directs residents to McCommas Bluff and the three city transfer stations for electronics recycling during normal residential drop-off hours. Confirm current schedules before visiting.",
+  "fees": "Electronics recycling is a resident service. Confirm current item limits and eligibility before arrival.",
+  "rules": "Dallas residents can drop off electronics at McCommas Bluff or any of the three city transfer stations. Use the city's electronics recycling page for accepted device examples before you drive.",
   "accepted_materials": [
-    "Electronics (check program rules)",
-    "Recyclables",
-    "Select household drop-off items"
+    "Computer monitors and televisions",
+    "Computers and laptops",
+    "Printers",
+    "Cell phones and tablets",
+    "Program-approved electronics"
   ],
   "not_accepted": [
-    "Unapproved hazardous materials",
-    "Items outside posted program scope"
+    "Business electronics that require separate handling",
+    "Items outside Dallas electronics recycling rules"
   ],
-  "verified_date": "2026-02-19",
+  "verified_date": "2026-03-06",
   "source": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
   "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/electronic_waste.aspx",
   "website": "",
@@ -27,6 +29,8 @@
       "city": "dallas"
     }
   ],
-  "lat": 32.6805119,
-  "lng": -96.7281282
+  "lat": 32.68662037666,
+  "lng": -96.734315115941,
+  "geocode_match": "5450 SIMPSON STUART RD, DALLAS, TX, 75241",
+  "geocode_source": "census"
 }

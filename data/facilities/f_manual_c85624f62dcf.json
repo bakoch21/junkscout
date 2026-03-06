@@ -1,0 +1,40 @@
+{
+  "id": "f_manual_c85624f62dcf",
+  "name": "Culebra Bulky Waste Collection Center",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "7030 Culebra Rd, San Antonio, TX 78238",
+  "phone": "3-1-1",
+  "hours": "Tuesday-Friday: 8:00 AM-5:00 PM. Saturday: 8:00 AM-12:00 PM. Closed Sunday and Monday.",
+  "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+  "rules": "San Antonio limits bulky drop-off to solid waste fee-paying residential customers. Bring a recent CPS Energy bill with the environmental fee plus photo ID, keep debris within the truck bed, and cover your load before driving.",
+  "accepted_materials": [
+    "Bulky household items",
+    "Furniture and mattresses",
+    "Large appliances",
+    "Flattened cardboard",
+    "Up to six car tires without rims",
+    "Small construction debris loads"
+  ],
+  "not_accepted": [
+    "Bagged household garbage",
+    "Brush, leaves, and yard waste",
+    "Hazardous waste",
+    "Commercial loads",
+    "Large dirt, rock, or concrete loads"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/Bulky-Drop-Off",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ],
+  "lat": 29.451626441059,
+  "lng": -98.628003814803,
+  "geocode_match": "7030 CULEBRA RD, SAN ANTONIO, TX, 78238",
+  "geocode_source": "census"
+}

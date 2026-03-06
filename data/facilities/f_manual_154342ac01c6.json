@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_154342ac01c6",
+  "name": "Southwest (Westmoreland) Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "4610 S Westmoreland Rd, Dallas, TX 75237",
+  "phone": "214-670-1927",
+  "hours": "Dallas lists Westmoreland as open Monday through Friday, 7:00 AM to 9:00 AM, and Saturday, 7:00 AM to 4:00 PM. Closed Sunday.",
+  "fees": "Dallas residents in qualifying residential vehicles can use city transfer stations at no charge with valid ID and proof of residency.",
+  "rules": "Open to Dallas residents only. No commercial customers. Bring a current valid driver's license and proof of Dallas residency before arrival.",
+  "accepted_materials": [
+    "Recyclables",
+    "Electronics from residents",
+    "Grass clippings and brush",
+    "Scrap metal",
+    "Household waste",
+    "Furniture",
+    "Tires from Dallas residents"
+  ],
+  "not_accepted": [
+    "Commercial loads",
+    "Household hazardous waste"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/southwest_oakcliff.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/southwest_oakcliff.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ],
+  "lat": 32.687889615883,
+  "lng": -96.882287628891,
+  "geocode_match": "4610 S WESTMORELAND RD, DALLAS, TX, 75237",
+  "geocode_source": "census"
+}

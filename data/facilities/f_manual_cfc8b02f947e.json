@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_cfc8b02f947e",
+  "name": "Nelson Gardens Brush Recycling Center",
+  "type": "recycling",
+  "type_label": "Recycling Center",
+  "address": "8963 Nelson Rd, San Antonio, TX 78252",
+  "phone": "3-1-1",
+  "hours": "Monday-Sunday: 8:00 AM-5:00 PM. Friday and Saturday hours extend to 6:00 PM in June and July. Closed on city-observed holidays.",
+  "fees": "San Antonio charges brush drop-off in 20-pound increments for Solid Waste Management customers. Use the city service guide or current operator notice to confirm exact rates before driving.",
+  "rules": "Nelson Gardens is the city-linked west-side brush drop-off site. Bring a recent CPS Energy bill with the environmental fee plus photo ID and confirm any holiday schedule changes before driving.",
+  "accepted_materials": [
+    "Tree branches",
+    "Shrubs and woody vines",
+    "Leaves in paper bags",
+    "Clean brush"
+  ],
+  "not_accepted": [
+    "Plastic-bagged leaves",
+    "Bulky household junk",
+    "Construction debris",
+    "Hazardous waste",
+    "Trash"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/files/assets/main/v/1/swmd/documents/servicesguideen.pdf",
+  "osm_url": "https://www.sa.gov/files/assets/main/v/1/swmd/documents/servicesguideen.pdf",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ],
+  "lat": 29.328163409386,
+  "lng": -98.671410817557,
+  "geocode_match": "8963 NELSON RD, SAN ANTONIO, TX, 78252",
+  "geocode_source": "census"
+}

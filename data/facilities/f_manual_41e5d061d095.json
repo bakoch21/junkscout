@@ -1,0 +1,37 @@
+{
+  "id": "f_manual_41e5d061d095",
+  "name": "South Miami Heights Trash and Recycling Center",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "20800 SW 117th Court, Miami, FL 33177",
+  "phone": "311",
+  "hours": "Miami-Dade lists neighborhood trash and recycling centers as open daily from 7:00 AM to 5:30 PM. Confirm holiday closures before visiting.",
+  "fees": "Neighborhood TRCs are county resident services for eligible residential waste-fee customers, not general public landfills. Oversize vehicles must use a county landfill and pay the per-ton fee.",
+  "rules": "Present a valid Florida driver's license or ID that matches an eligible Miami-Dade waste-fee account. South Miami Heights is one of the centers that accepts used motor oil and cardboard recycling.",
+  "accepted_materials": [
+    "Bulky household trash",
+    "Tree and yard cuttings",
+    "Construction and demolition debris up to 3 cubic yards",
+    "Used motor oil",
+    "Cardboard for recycling"
+  ],
+  "not_accepted": [
+    "Garbage, food, or kitchen waste",
+    "Oversize vehicles or trailers",
+    "Commercial disposal loads"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+  "osm_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "florida",
+      "city": "miami"
+    }
+  ],
+  "lat": 25.573864620251,
+  "lng": -80.379462304486,
+  "geocode_match": "20800 SW 117TH AVE, MIAMI, FL, 33177",
+  "geocode_source": "census"
+}

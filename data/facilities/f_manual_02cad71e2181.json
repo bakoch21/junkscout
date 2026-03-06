@@ -1,0 +1,39 @@
+{
+  "id": "f_manual_02cad71e2181",
+  "name": "Rigsby Quarterly HHW Drop-Off Event",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "2755 Rigsby Ave, San Antonio, TX 78222",
+  "phone": "3-1-1",
+  "hours": "Quarterly on select Saturdays, 8:00 AM-12:00 PM. Confirm the current city HHW event calendar before visiting.",
+  "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+  "rules": "This is a periodic city HHW event rather than a daily service. Bring a recent CPS Energy bill showing the environmental fee, photo ID, and keep household hazardous waste under the city's posted 220-pound limit.",
+  "accepted_materials": [
+    "Paint and paint-related products",
+    "Household chemicals",
+    "Automotive fluids",
+    "Batteries",
+    "Fluorescent bulbs",
+    "Electronics approved by the city HHW program"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Medical waste",
+    "Explosives or ammunition",
+    "Loads over posted quantity limits"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW/Quarterly",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/HHW/Quarterly",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ],
+  "lat": 29.398600378173,
+  "lng": -98.412473992355,
+  "geocode_match": "2755 RIGSBY AVE, SAN ANTONIO, TX, 78222",
+  "geocode_source": "census"
+}

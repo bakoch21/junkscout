@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_69dd941ce2d6",
+  "name": "Bitters Monthly HHW Drop-Off Event",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "1800 Wurzbach Pkwy, San Antonio, TX 78216",
+  "phone": "3-1-1",
+  "hours": "Monthly on the first Friday and following Saturday, 8:00 AM-12:00 PM, except holidays. Confirm the current calendar before visiting.",
+  "fees": "Free for City of San Antonio Solid Waste Management customers who show the environmental fee on a recent CPS Energy bill and a matching photo ID.",
+  "rules": "This is a city-run monthly household hazardous waste event, not a daily drop-off center. Bring a recent CPS Energy bill showing the environmental fee, photo ID, and keep household hazardous waste under the city's posted 220-pound limit.",
+  "accepted_materials": [
+    "Paint and paint-related products",
+    "Household chemicals",
+    "Automotive fluids",
+    "Batteries",
+    "Fluorescent bulbs",
+    "Electronics approved by the city HHW program"
+  ],
+  "not_accepted": [
+    "Commercial hazardous waste",
+    "Medical waste",
+    "Explosives or ammunition",
+    "Loads over posted quantity limits"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://www.sa.gov/Directory/Departments/SWMD/HHW/Monthly",
+  "osm_url": "https://www.sa.gov/Directory/Departments/SWMD/HHW/Monthly",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "san-antonio"
+    }
+  ]
+}

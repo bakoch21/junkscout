@@ -1,0 +1,38 @@
+{
+  "id": "f_manual_fc4f29fb2838",
+  "name": "Northwest (Bachman) Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "9500 Harry Hines Blvd, Dallas, TX 75220",
+  "phone": "214-670-6161",
+  "hours": "Dallas lists Bachman as open Monday through Saturday, 7:00 AM to 4:30 PM. Closed Sunday.",
+  "fees": "Dallas residents in qualifying residential vehicles can use the station at no charge with valid ID and proof of residency. Small commercial customers should confirm current pricing before arrival.",
+  "rules": "Open to Dallas residents and small commercial customers only. Bring a current valid driver's license and proof of Dallas residency for resident drop-off.",
+  "accepted_materials": [
+    "Recyclables",
+    "Electronics from residents",
+    "Grass clippings and brush",
+    "Scrap metal",
+    "Household waste",
+    "Furniture",
+    "Tires from Dallas residents"
+  ],
+  "not_accepted": [
+    "Household hazardous waste",
+    "Loads outside Bachman station policy"
+  ],
+  "verified_date": "2026-03-06",
+  "source": "https://dallascityhall.com/departments/sanitation/Pages/northwest_bachman.aspx",
+  "osm_url": "https://dallascityhall.com/departments/sanitation/Pages/northwest_bachman.aspx",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "dallas"
+    }
+  ],
+  "lat": 32.845610291998,
+  "lng": -96.87498233714,
+  "geocode_match": "9500 HARRY HINES BLVD, DALLAS, TX, 75220",
+  "geocode_source": "census"
+}
