@@ -5,7 +5,7 @@
   "type_label": "Transfer Station",
   "address": "13130 Crossroads Parkway South, City of Industry, CA 91746",
   "phone": "562-908-4288 ext. 6071",
-  "hours": "Open Monday through Saturday from 4:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM, no automatic dump vehicles after 4:45 PM, and unloading must be complete by 4:50 PM.",
+  "hours": "Open Monday-Saturday from 4:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM and unloading must be complete by 4:50 PM.",
   "fees": "Transfer fees vary by load type, weight, and vehicle class. The district accepts cash, credit card, debit card, or pre-arranged credit; no checks.",
   "rules": "A safety vest is required whenever you exit your vehicle. Secure your load and confirm current material restrictions before arrival.",
   "accepted_materials": [
@@ -19,7 +19,7 @@
     "E-waste",
     "Asbestos"
   ],
-  "verified_date": "2026-03-03",
+  "verified_date": "2026-03-05",
   "source": "https://www.lacsd.org/services/solid-waste/facilities/puente-hills-materials-recovery-facility-mrf",
   "osm_url": "https://www.lacsd.org/services/solid-waste/facilities/puente-hills-materials-recovery-facility-mrf",
   "website": "",

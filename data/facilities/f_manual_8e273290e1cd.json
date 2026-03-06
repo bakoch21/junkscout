@@ -5,23 +5,30 @@
   "type_label": "Neighborhood Depository & Recycling Center",
   "address": "2240 Central St, Houston, TX 77017",
   "phone": "3-1-1",
-  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
-  "fees": "Free",
-  "rules": "Residents only",
+  "hours": "Tuesday-Saturday: 9:00 AM-6:00 PM. Closed Monday and Sunday.",
+  "fees": "Free for City of Houston residents, with up to four visits per month.",
+  "rules": "City of Houston residents must show a Texas photo ID plus matching proof of address. Arrive early enough to unload before closing and do not bring commercial vehicles.",
   "accepted_materials": [
-    "Trash",
-    "Yard waste",
-    "Bulk",
-    "Recyclables",
-    "Tires"
+    "Household trash",
+    "Yard waste and tree limbs",
+    "Bulk items",
+    "Mattresses",
+    "Cardboard and newspapers",
+    "Glass bottles and jars",
+    "All plastics",
+    "Used motor oil",
+    "Up to five automobile tires per visit without rims"
   ],
   "not_accepted": [
-    "Commercial",
-    "Hazardous"
+    "Commercial waste",
+    "Household hazardous waste",
+    "Tires with rims",
+    "Rubber tubes or hoses",
+    "Extension cords or string lights"
   ],
-  "verified_date": "2026-01-29",
-  "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-  "osm_url": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "verified_date": "2026-03-05",
+  "source": "https://www.houstontx.gov/solidwaste/depository.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/depository.html",
   "website": "",
   "appears_in": [
     {

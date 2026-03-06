@@ -4,19 +4,26 @@
   "type": "landfill",
   "type_label": "Public Dumpster",
   "address": "28511 Old Washington Rd, Hockley, TX 77447",
-  "phone": "Call Precinct 4",
-  "hours": "Monday–Saturday: 7 a.m.–3 p.m.",
-  "fees": "Free for large items/misc junk",
-  "rules": "Public convenience; hassle-free disposal.",
+  "phone": "832-927-4444",
+  "hours": "Monday-Saturday: 7:00 AM-3:00 PM.",
+  "fees": "Free for homeowners.",
+  "rules": "Homeowners only. No commercial vehicles or box trucks and trailers. One load per day.",
   "accepted_materials": [
-    "Large items",
-    "Miscellaneous junk"
+    "Shrubs and branches",
+    "Old deck boards",
+    "Fence lumber with hardware removed",
+    "Storm debris",
+    "Dismantled bulky household junk"
   ],
   "not_accepted": [
-    "Hazardous",
-    "Commercial?"
+    "Contractor or commercial loads",
+    "Tires",
+    "Batteries",
+    "Motor oil or paint cans",
+    "Chemicals or household garbage",
+    "Roofing, sheetrock, carpet, concrete, brick, dirt, or mulch"
   ],
-  "verified_date": "2026-01-29",
+  "verified_date": "2026-03-05",
   "source": "https://cp4.harriscountytx.gov/Public-Dumpsters",
   "osm_url": "https://cp4.harriscountytx.gov/Public-Dumpsters",
   "website": "",

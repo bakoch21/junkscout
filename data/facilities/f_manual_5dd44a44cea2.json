@@ -5,7 +5,7 @@
   "type_label": "Landfill",
   "address": "5300 Lost Hills Road, Agoura, CA 91301",
   "phone": "818-889-0363",
-  "hours": "Current operating hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 2:30 PM. Closed Sunday.",
+  "hours": "Current operating hours are Monday-Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 2:30 PM. Closed Sunday.",
   "fees": "Landfill fees vary by load type, weight, and material class. Review the current Calabasas rate schedule before driving.",
   "rules": "The landfill limits solid-waste disposal to the Calabasas wasteshed. Confirm current wasteshed rules and accepted materials before arrival.",
   "accepted_materials": [
@@ -19,7 +19,7 @@
     "Solid waste from outside the Calabasas wasteshed",
     "Loads outside posted landfill rules"
   ],
-  "verified_date": "2026-03-03",
+  "verified_date": "2026-03-05",
   "source": "https://www.lacsd.org/Services/Solid-Waste/Facilities/Calabasas-Landfill",
   "osm_url": "https://www.lacsd.org/Services/Solid-Waste/Facilities/Calabasas-Landfill",
   "website": "",

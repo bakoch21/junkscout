@@ -5,29 +5,30 @@
   "type_label": "Neighborhood Depository & Recycling Center",
   "address": "9003 N Main St, Houston, TX 77022",
   "phone": "3-1-1",
-  "hours": "Tuesday–Saturday: 8 a.m.–5 p.m.",
-  "fees": "Free for residents (up to 4 visits/month)",
-  "rules": "Houston residents only; proof required (TX ID + utility bill/lease/tax bill/student ID); arrive 30 min before closing; no commercial vehicles.",
+  "hours": "Tuesday-Saturday: 9:00 AM-6:00 PM. Closed Monday and Sunday.",
+  "fees": "Free for City of Houston residents, with up to four visits per month.",
+  "rules": "City of Houston residents must show a Texas photo ID plus matching proof of address. Arrive early enough to unload before closing and do not bring commercial vehicles.",
   "accepted_materials": [
     "Household trash",
-    "Yard waste",
+    "Yard waste and tree limbs",
     "Bulk items",
-    "Recyclables (plastics, paper, glass, metals)",
-    "Up to 5 tires/month (no rims)",
+    "Mattresses",
+    "Cardboard and newspapers",
+    "Glass bottles and jars",
+    "All plastics",
     "Used motor oil",
-    "Tree waste",
-    "Cardboard"
+    "Up to five automobile tires per visit without rims"
   ],
   "not_accepted": [
     "Commercial waste",
-    "Hazardous materials (except at designated centers)",
-    "Rubber materials (tubes, hoses, gloves)",
-    "Extension cords",
-    "Wiring/string lights"
+    "Household hazardous waste",
+    "Tires with rims",
+    "Rubber tubes or hoses",
+    "Extension cords or string lights"
   ],
-  "verified_date": "2026-01-29",
-  "source": "https://www.houstontx.gov/solidwaste/dropoff.html",
-  "osm_url": "https://www.houstontx.gov/solidwaste/dropoff.html",
+  "verified_date": "2026-03-05",
+  "source": "https://www.houstontx.gov/solidwaste/depository.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/depository.html",
   "website": "",
   "appears_in": [
     {

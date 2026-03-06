@@ -1,0 +1,43 @@
+{
+  "id": "f_manual_41c09d9503e4",
+  "name": "Southwest Neighborhood Depository & Recycling Center",
+  "type": "recycling",
+  "type_label": "Neighborhood Depository & Recycling Center",
+  "address": "10785 Southwest Fwy, Houston, TX 77074",
+  "phone": "3-1-1",
+  "hours": "Tuesday-Saturday: 9:00 AM-6:00 PM. Closed Monday and Sunday.",
+  "fees": "Free for City of Houston residents, with up to four visits per month.",
+  "rules": "City of Houston residents must show a Texas photo ID plus matching proof of address. Arrive early enough to unload before closing and do not bring commercial vehicles.",
+  "accepted_materials": [
+    "Household trash",
+    "Yard waste and tree limbs",
+    "Bulk items",
+    "Mattresses",
+    "Cardboard and newspapers",
+    "Glass bottles and jars",
+    "All plastics",
+    "Used motor oil",
+    "Up to five automobile tires per visit without rims"
+  ],
+  "not_accepted": [
+    "Commercial waste",
+    "Household hazardous waste",
+    "Tires with rims",
+    "Rubber tubes or hoses",
+    "Extension cords or string lights"
+  ],
+  "verified_date": "2026-03-05",
+  "source": "https://www.houstontx.gov/solidwaste/depository.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/depository.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ],
+  "lat": 29.664292566058,
+  "lng": -95.553574960516,
+  "geocode_match": "10785 SOUTHWEST FWY, HOUSTON, TX, 77074",
+  "geocode_source": "census"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "f_manual_bdd4dc505f8c",
+  "name": "Environmental Service Center - North",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "5614 Neches St, Houston, TX 77026",
+  "phone": "3-1-1",
+  "hours": "Second Thursday of each month: 9:00 AM-3:00 PM.",
+  "fees": "Free for City of Houston residents.",
+  "rules": "Bring a Texas photo ID plus matching proof of City of Houston residency. This city site runs only once each month, so confirm the calendar before driving.",
+  "accepted_materials": [
+    "Aerosol cans",
+    "Antifreeze and auto fluids",
+    "Lead-acid and rechargeable batteries",
+    "Drain cleaners and household cleaners",
+    "Fertilizers and pesticides",
+    "Fluorescent bulbs",
+    "Electronics scrap",
+    "Pool chemicals",
+    "Up to five tires per residence each month"
+  ],
+  "not_accepted": [
+    "Business hazardous waste",
+    "Explosives or ammunition",
+    "Medical waste"
+  ],
+  "verified_date": "2026-03-05",
+  "source": "https://www.houstontx.gov/solidwaste/esc.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/esc.html",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ]
+}

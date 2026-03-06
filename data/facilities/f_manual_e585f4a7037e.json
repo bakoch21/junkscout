@@ -1,0 +1,33 @@
+{
+  "id": "f_manual_e585f4a7037e",
+  "name": "UCLA West S.A.F.E. Center",
+  "type": "hazardous_waste",
+  "type_label": "Hazardous Waste Facility",
+  "address": "550 Charles E. Young Drive West, Los Angeles, CA 90095",
+  "phone": "1-800-773-2489",
+  "hours": "Open Saturday from 8:00 AM to 2:00 PM for e-waste only.",
+  "fees": "This city program is generally free for Los Angeles City and County residents bringing household electronic waste. Confirm current eligibility before arrival.",
+  "rules": "This S.A.F.E. location is for e-waste only. Stay in your vehicle and confirm current eligibility or closures on the city S.A.F.E. page before visiting.",
+  "accepted_materials": [
+    "Computers and monitors",
+    "Televisions",
+    "Small household electronics",
+    "Other covered e-waste accepted by the city program"
+  ],
+  "not_accepted": [
+    "General household hazardous waste",
+    "Business loads",
+    "Explosives or ammunition",
+    "Tires"
+  ],
+  "verified_date": "2026-03-05",
+  "source": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+  "osm_url": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "california",
+      "city": "los-angeles"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "type_label": "Recycling Center",
   "address": "500 S. Flower Street, Burbank, CA 91502",
   "phone": "818-238-3900",
-  "hours": "Drop-off recycling and CRV hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 4:00 PM. Electronic drop-off is not accepted on weekends or city holidays.",
+  "hours": "Drop-off recycling and CRV hours are Monday-Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 4:00 PM. Electronic drop-off is not accepted on weekends or city holidays.",
   "fees": "CRV redemption is available for qualifying beverage containers. Confirm any special program rules before arrival.",
   "rules": "This is a resident-focused city program. Confirm current accepted materials and any proof-of-residency requirements before driving.",
   "accepted_materials": [
@@ -18,7 +18,7 @@
     "Household trash",
     "Weekend e-waste drop-off"
   ],
-  "verified_date": "2026-03-03",
+  "verified_date": "2026-03-05",
   "source": "https://www.burbankca.gov/web/public-works/recycle-center",
   "osm_url": "https://www.burbankca.gov/web/public-works/recycle-center",
   "website": "",

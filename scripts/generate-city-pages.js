@@ -502,7 +502,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Houston residents often start with City of Houston neighborhood depositories and recycling centers for household loads. Private transfer stations and landfills also accept paid loads.",
+              "Houston residents usually start with City of Houston depositories or recycling centers for household cleanup, use Environmental Service Centers for paint and chemicals, and compare private transfer or landfill options for heavier paid loads.",
           },
         },
         {
@@ -511,7 +511,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Some city and county Houston-area drop-off programs are free for eligible residents with proof of address and valid ID. Visit limits and material restrictions can apply.",
+              "Some Houston city and county programs are free for eligible residents with valid ID and proof of address, but they usually limit visit counts, load types, or accepted materials.",
           },
         },
         {
@@ -529,7 +529,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Yes. Several Houston-area landfill and transfer options accept larger loads, but accepted materials, hours, and fees vary by site.",
+              "Yes. Houston-area options such as Atascocita, Fairbanks, and private transfer facilities can take larger paid loads, but material rules and pricing vary by site.",
           },
         },
       ],
@@ -647,7 +647,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Los Angeles-area residents typically compare S.A.F.E. centers for household hazardous waste, South Gate or Puente Hills for transfer-station access, and regional landfill options such as Scholl Canyon, Sunshine Canyon, or other source-linked sites depending on the load.",
+              "Los Angeles-area residents typically compare S.A.F.E. centers for household hazardous waste or e-waste, South Gate or Puente Hills for transfer-station access, and regional landfill options such as Scholl Canyon or Sunshine Canyon depending on the load.",
           },
         },
         {
@@ -656,7 +656,7 @@ function buildJsonLd({ state, city, meta }) {
           acceptedAnswer: {
             "@type": "Answer",
             text:
-              "Los Angeles household hazardous waste programs and some residential recycling programs can be free for eligible household quantities, while most transfer stations and landfills charge by load size or weight. Confirm eligibility before visiting.",
+              "Los Angeles household hazardous waste programs and some residential recycling programs can be free for eligible household quantities, while most transfer stations and landfills charge by load size or weight. Some S.A.F.E. locations have limited schedules or e-waste-only rules, so confirm eligibility before visiting.",
           },
         },
         {
@@ -1144,13 +1144,9 @@ function injectHoustonIntentCopy(html) {
     </a>
   </div>
 </section>
-<section class="report__box" aria-label="Texas access research report" style="margin-top:12px">
-  <h2 style="margin:0; font-size:22px">Public Waste Access Report 2026</h2>
-  <p class="muted" style="margin-top:8px">Data-driven snapshot of Texas access rules: fees, residency requirements, visit limits, accepted materials, and source coverage.</p>
-  <div class="report__actions">
-    <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/">Open report</a>
-    <a class="btn btn--ghost" href="/research/public-waste-access-report-2026/public-waste-access-report-2026.pdf" download>Download PDF</a>
-  </div>
+<section class="report__box" aria-label="Houston guide review" style="margin-top:12px">
+  <h2 style="margin:0; font-size:22px">Houston guide review</h2>
+  <p class="muted" style="margin-top:8px">Last reviewed March 5, 2026 using City of Houston depository, recycling, reuse, and Environmental Service Center pages plus Harris County Precinct 4, WM, and Waste Connections sources.</p>
 </section>
 `.trim();
 
@@ -1166,7 +1162,7 @@ function injectHoustonIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="citySubhead"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Need to dump trash in Houston fast? This guide shows where to dump, recycle, or drop off by load type before you drive.$2\n" + quickStartBlock
+    "$1Need to know where to dump trash in Houston fast? Start with resident drop-off and recycling centers, then move to paid transfer or landfill options for heavier loads.$2\n" + quickStartBlock
   );
 
   out = out.replace(
@@ -1176,7 +1172,7 @@ function injectHoustonIntentCopy(html) {
 
   out = out.replace(
     /(<h2[^>]*id="faqDumpWhere"[^>]*>[\s\S]*?<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
-    "$1Houston residents usually compare city neighborhood depositories for resident drop-off, private transfer stations for mixed paid loads, and landfill options for heavier disposal. For paint, oil, batteries, and household chemicals, use the hazardous-waste facilities listed above rather than standard trash drop-off.$2"
+    "$1Houston residents usually compare city neighborhood depositories for household cleanup, recycling centers for sorted materials, private transfer stations for mixed paid loads, and landfill options for heavier disposal. For paint, oil, batteries, and household chemicals, start with the Environmental Service Centers listed above rather than a standard trash site.$2"
   );
 
   out = out.replace(
@@ -1186,7 +1182,7 @@ function injectHoustonIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Some Houston city and county programs offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.$2"
+    "$1Some Houston city and county programs offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight. Free access usually comes with visit caps, homeowner-only rules, or tighter material limits.$2"
   );
 
   out = out.replace(
@@ -1202,6 +1198,33 @@ function injectHoustonIntentCopy(html) {
   out = out.replace(
     /(<section class="seo-copy" style="margin-top:26px">\s*<p>)[\s\S]*?(<\/p>)/i,
     "$1Compare public and private Houston disposal options with source links, hours, rules, and accepted materials so you can choose the right site before you drive.$2"
+  );
+
+  out = out.replace(
+    /(<h2>Houston transfer stations and recycling centers: what they accept<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Houston city sites split by use case. Neighborhood depositories handle household trash, bulky cleanup, yard waste, and some recyclables. Recycling centers focus on sorted material streams such as bottles, cans, cardboard, motor oil, and tires. Private transfer and landfill sites are better fits for heavier mixed loads, brush, or construction debris.$2"
+  );
+
+  out = out.replace(
+    /(<h2>Houston landfill and transfer station fees, hours, and rules<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
+    "$1Expect Houston transfer stations and landfills to charge by weight, vehicle class, or load type, while city-run sites are usually resident-only and free with ID and proof of address. Visit caps, covered-load rules, and hazardous-waste restrictions are common, so checking the source link first usually saves a wasted trip.$2"
+  );
+
+  out = out.replace(
+    /<!-- NEARBY:START -->/i,
+    `<h2>Best Houston option by load type</h2>
+        <p>
+          Use a <strong>city depository</strong> for household cleanup, yard waste, mattresses, and bulky items if you qualify as a Houston resident. Use a
+          <strong>recycling center</strong> for sorted recyclables and used motor oil, an <strong>Environmental Service Center</strong> for paint, batteries, and chemicals,
+          a <strong>transfer station</strong> for faster paid unloading of mixed debris, and a <strong>landfill</strong> when you have a larger disposal load or construction-heavy material.
+        </p>
+
+        <h2>Before you drive to a Houston drop-off site</h2>
+        <p>
+          Houston rules change sharply by operator. City-run sites ask for Texas ID and matching proof of address, county dumpster sites are homeowner-only, and private landfill or transfer operators set their own fees and material screens. If you have paint, oil, chemicals, or batteries, do not assume a standard trash site will take them.
+        </p>
+
+        <!-- NEARBY:START -->`
   );
 
   return out;
@@ -1464,7 +1487,7 @@ function injectLosAngelesIntentCopy(html) {
 </section>
 <section class="report__box" aria-label="Los Angeles guide review" style="margin-top:12px">
   <h2 style="margin:0; font-size:22px">Los Angeles guide review</h2>
-  <p class="muted" style="margin-top:8px">Last reviewed March 3, 2026 using LA County household hazardous waste pages, LACSD transfer and landfill pages, Glendale public works, Sunshine Canyon, and Vulcan facility pages.</p>
+  <p class="muted" style="margin-top:8px">Last reviewed March 5, 2026 using LA Stormwater S.A.F.E. pages, LA County household hazardous waste pages, LACSD transfer and landfill pages, Glendale public works, Sunshine Canyon, and Burbank public works pages.</p>
 </section>
 `.trim();
 
@@ -1495,7 +1518,7 @@ function injectLosAngelesIntentCopy(html) {
 
   out = out.replace(
     /(<h2[^>]*id="faqDumpWhere"[^>]*>[\s\S]*?<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
-    "$1For mixed self-haul loads, Los Angeles-area residents usually compare South Gate or Puente Hills transfer-station access, while landfill-scale loads often route to sites such as Scholl Canyon or Sunshine Canyon. For paint, chemicals, batteries, oil, and e-waste, start with the S.A.F.E. centers listed above rather than a landfill.$2"
+    "$1For mixed self-haul loads, Los Angeles-area residents usually compare South Gate or Puente Hills transfer-station access, while landfill-scale loads often route to sites such as Scholl Canyon or Sunshine Canyon. For paint, chemicals, batteries, oil, and e-waste, start with the S.A.F.E. centers listed above rather than a landfill, and check the source link because some sites have narrower schedules or e-waste-only rules.$2"
   );
 
   out = out.replace(
@@ -1505,7 +1528,7 @@ function injectLosAngelesIntentCopy(html) {
 
   out = out.replace(
     /(<p[^>]*id="faqDumpFreeBody"[^>]*>)[\s\S]*?(<\/p>)/i,
-    "$1Los Angeles household hazardous waste and e-waste programs are often free for household quantities, and some nearby municipal recycling programs offer low-cost or no-cost residential drop-off. Transfer stations and landfills usually charge by weight, load size, or material type.$2"
+    "$1Los Angeles household hazardous waste and e-waste programs are often free for household quantities, and some nearby municipal recycling programs offer low-cost or no-cost residential drop-off. Transfer stations and landfills usually charge by weight, load size, or material type, and some S.A.F.E. sites have narrower program scope than others.$2"
   );
 
   out = out.replace(
@@ -1515,7 +1538,7 @@ function injectLosAngelesIntentCopy(html) {
 
   out = out.replace(
     /(<h2>Los Angeles transfer stations and recycling centers: what they accept<\/h2>\s*<p>)[\s\S]*?(<\/p>)/i,
-    "$1Los Angeles-area transfer stations typically handle mixed household trash, bulky items, and construction debris, while landfill and recycling rules split out loads such as clean dirt, concrete, cardboard, bottles and cans, used oil, and special recycling streams. Household hazardous waste, paint, batteries, and e-waste should go to a S.A.F.E. center instead of a landfill.$2"
+    "$1Los Angeles-area transfer stations typically handle mixed household trash, bulky items, and construction debris, while landfill and recycling rules split out loads such as clean dirt, concrete, cardboard, bottles and cans, used oil, and special recycling streams. Household hazardous waste, paint, batteries, and e-waste should go to a S.A.F.E. center instead of a landfill, and e-waste-only city sites should be treated as a separate category.$2"
   );
 
   out = out.replace(
@@ -1539,7 +1562,7 @@ function injectLosAngelesIntentCopy(html) {
 
         <h2>Before you drive to a Los Angeles drop-off site</h2>
         <p>
-          Los Angeles-area disposal rules split sharply by load type. Household hazardous waste, e-waste, and batteries have one set of rules; mixed trash and bulky items have another; and construction debris often has its own rate sheet and contamination rules. If you are paying by the load, checking the source link first is usually worth the time.
+          Los Angeles-area disposal rules split sharply by load type. Household hazardous waste, e-waste, and batteries have one set of rules; mixed trash and bulky items have another; and construction debris often has its own rate sheet and contamination rules. Some S.A.F.E. sites are temporary, temporarily closed, or limited to e-waste, so checking the source link first is usually worth the time.
         </p>
 
         <!-- NEARBY:START -->`
@@ -1780,7 +1803,7 @@ function run() {
       enhancedCity: isEnhanced,
       blendCuratedWithData: citySource === "curated_blend",
     });
-    const initialResultsLimit = isLosAngelesCity(state, city) ? 15 : 12;
+    const initialResultsLimit = (isLosAngelesCity(state, city) || isHoustonCity(state, city)) ? 15 : 12;
     outputHtml = injectInitialResults(outputHtml, buildInitialResultsHtml(cityItems, { limit: initialResultsLimit }));
     outputHtml = injectStateHubLink(outputHtml, state);
     outputHtml = injectPopularCities(outputHtml, state);

@@ -1,14 +1,14 @@
 {
   "city": "Los Angeles",
   "state": "CA",
-  "last_updated": "2026-03-03",
+  "last_updated": "2026-03-05",
   "facilities": [
     {
       "name": "South Gate Transfer Station",
       "type": "Transfer Station",
       "address": "9530 Garfield Avenue, South Gate, CA 90280",
       "phone": "562-908-4288 ext. 4731",
-      "hours": "Open Monday through Saturday from 6:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM, no automatic dump vehicles after 4:45 PM, and unloading must be complete by 4:50 PM.",
+      "hours": "Open Monday-Saturday from 6:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM and unloading must be complete by 4:50 PM.",
       "fees": "Disposal fees vary by material type, load size, and vehicle class. The district accepts cash, credit card, debit card, or pre-arranged credit; no checks.",
       "accepted_materials": [
         "Non-hazardous municipal solid waste",
@@ -22,7 +22,7 @@
       ],
       "rules": "Secure your load, bring only non-hazardous material, and review current rate information before driving.",
       "source": "https://www.lacsd.org/services/solid-waste/facilities/south-gate-transfer-station",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 33.944207452759,
       "lng": -118.166347931661,
       "geocode_match": "9530 GARFIELD AVE, SOUTH GATE, CA, 90280",
@@ -34,7 +34,7 @@
       "type": "Transfer Station",
       "address": "13130 Crossroads Parkway South, City of Industry, CA 91746",
       "phone": "562-908-4288 ext. 6071",
-      "hours": "Open Monday through Saturday from 4:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM, no automatic dump vehicles after 4:45 PM, and unloading must be complete by 4:50 PM.",
+      "hours": "Open Monday-Saturday from 4:00 AM to 5:00 PM. No hand-unloaded vehicles after 4:30 PM and unloading must be complete by 4:50 PM.",
       "fees": "Transfer fees vary by load type, weight, and vehicle class. The district accepts cash, credit card, debit card, or pre-arranged credit; no checks.",
       "accepted_materials": [
         "Mixed self-haul disposal loads",
@@ -49,7 +49,7 @@
       ],
       "rules": "A safety vest is required whenever you exit your vehicle. Secure your load and confirm current material restrictions before arrival.",
       "source": "https://www.lacsd.org/services/solid-waste/facilities/puente-hills-materials-recovery-facility-mrf",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 34.02967918251,
       "lng": -118.011888485035,
       "geocode_match": "13130 CROSSROADS PKWY S, CITY OF INDUSTRY, CA, 91746",
@@ -61,7 +61,7 @@
       "type": "Landfill",
       "address": "3001 Scholl Canyon Road, Glendale, CA 91206",
       "phone": "818-243-9779",
-      "hours": "Self-haul hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 3:30 PM. Closed Sunday.",
+      "hours": "Self-haul hours are Monday-Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 3:30 PM. Closed Sunday.",
       "fees": "Landfill fees vary by load size, weight, and material type. Check the official landfill page for current rates before you drive.",
       "accepted_materials": [
         "Municipal solid waste",
@@ -74,7 +74,7 @@
       ],
       "rules": "Covered loads and landfill safety rules apply. Confirm accepted materials and payment methods before arrival.",
       "source": "https://www.lacsd.org/services/solid-waste/facilities/scholl-canyon-landfill",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "geocode_source": "census",
       "geocode_error": "no_match",
       "facility_id": "f_manual_fa1c19780fe3"
@@ -84,7 +84,7 @@
       "type": "Landfill",
       "address": "5300 Lost Hills Road, Agoura, CA 91301",
       "phone": "818-889-0363",
-      "hours": "Current operating hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 2:30 PM. Closed Sunday.",
+      "hours": "Current operating hours are Monday-Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 2:30 PM. Closed Sunday.",
       "fees": "Landfill fees vary by load type, weight, and material class. Review the current Calabasas rate schedule before driving.",
       "accepted_materials": [
         "Solid waste from the Calabasas wasteshed",
@@ -99,7 +99,7 @@
       ],
       "rules": "The landfill limits solid-waste disposal to the Calabasas wasteshed. Confirm current wasteshed rules and accepted materials before arrival.",
       "source": "https://www.lacsd.org/Services/Solid-Waste/Facilities/Calabasas-Landfill",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 34.143485304579,
       "lng": -118.709134594424,
       "geocode_match": "5300 LOST HILLS RD, AGOURA, CA, 91301",
@@ -111,7 +111,7 @@
       "type": "Landfill",
       "address": "14747 San Fernando Road, Sylmar, CA 91342",
       "phone": "818-362-2124",
-      "hours": "Regular hours are Monday through Friday from 6:00 AM to 6:00 PM and Saturday from 7:00 AM to 12:00 PM. Hand-unload loads must be on the scales by 5:00 PM weekdays and 11:00 AM on Saturday.",
+      "hours": "Regular hours are Monday-Friday from 6:00 AM to 6:00 PM and Saturday from 7:00 AM to 12:00 PM. Hand-unload loads must be on the scales by 5:00 PM weekdays and 11:00 AM on Saturday.",
       "fees": "Public self-haul pricing varies by material. The landfill applies a one-ton minimum for many disposal categories, so confirm current rates before you drive.",
       "accepted_materials": [
         "Municipal solid waste",
@@ -128,7 +128,7 @@
       ],
       "rules": "An origin report form is required for every transaction. If you exit your vehicle, safety glasses, a hard hat, and a reflective vest are required.",
       "source": "https://sunshinecanyonlandfill.com/drop-off-information",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 34.324148949027,
       "lng": -118.503462217144,
       "geocode_match": "14747 SAN FERNANDO RD, SYLMAR, CA, 91342",
@@ -140,7 +140,7 @@
       "type": "Recycling Center",
       "address": "540 W. Chevy Chase Drive, Glendale, CA 91204",
       "phone": "818-552-2870",
-      "hours": "Open Monday through Friday from 7:30 AM to 4:45 PM and Saturday from 8:00 AM to 3:30 PM.",
+      "hours": "Open Monday-Friday from 7:30 AM to 4:45 PM and Saturday from 8:00 AM to 3:30 PM.",
       "fees": "CRV payouts are available for eligible containers. Other accepted household recyclables are generally drop-off items; confirm any item-specific fees before arrival.",
       "accepted_materials": [
         "Cardboard and mixed paper",
@@ -155,7 +155,7 @@
       ],
       "rules": "Use the city recycling center page to confirm current accepted items and any holiday closures before driving.",
       "source": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/recycling-center",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 34.133375435607,
       "lng": -118.263584072204,
       "geocode_match": "540 W CHEVY CHASE DR, GLENDALE, CA, 91204",
@@ -167,7 +167,7 @@
       "type": "Recycling Center",
       "address": "500 S. Flower Street, Burbank, CA 91502",
       "phone": "818-238-3900",
-      "hours": "Drop-off recycling and CRV hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 4:00 PM. Electronic drop-off is not accepted on weekends or city holidays.",
+      "hours": "Drop-off recycling and CRV hours are Monday-Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 4:00 PM. Electronic drop-off is not accepted on weekends or city holidays.",
       "fees": "CRV redemption is available for qualifying beverage containers. Confirm any special program rules before arrival.",
       "accepted_materials": [
         "CRV bottles and cans",
@@ -181,7 +181,7 @@
       ],
       "rules": "This is a resident-focused city program. Confirm current accepted materials and any proof-of-residency requirements before driving.",
       "source": "https://www.burbankca.gov/web/public-works/recycle-center",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 34.175452320258,
       "lng": -118.309029851385,
       "geocode_match": "500 S FLOWER ST, BURBANK, CA, 91502",
@@ -193,7 +193,7 @@
       "type": "Hazardous Waste Facility",
       "address": "500 S. Flower Street, Burbank, CA 91502",
       "phone": "818-238-3900",
-      "hours": "The drop zone is open Monday through Friday from 8:00 AM to 5:00 PM and closed Saturday, Sunday, and city holidays. The office closes from 12:00 PM to 1:00 PM for lunch.",
+      "hours": "The drop zone is open Monday-Friday from 8:00 AM to 5:00 PM and closed Saturday, Sunday, and city holidays. The office closes from 12:00 PM to 1:00 PM for lunch.",
       "fees": "The city lists this as a resident and qualifying small-business drop zone. Confirm current eligibility and any item limits before arrival.",
       "accepted_materials": [
         "Household batteries",
@@ -211,7 +211,7 @@
       ],
       "rules": "Review the city's universal and HHW guidance before you drive because the drop zone accepts a narrower set of materials than a full HHW facility.",
       "source": "https://www.burbankca.gov/web/public-works/universal-and-hhw",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 34.175452320258,
       "lng": -118.309029851385,
       "geocode_match": "500 S FLOWER ST, BURBANK, CA, 91502",
@@ -230,7 +230,7 @@
         "Paint and solvents",
         "Used motor oil",
         "Batteries",
-        "Electronics (e-waste)"
+        "Electronics"
       ],
       "not_accepted": [
         "Business hazardous waste",
@@ -238,9 +238,9 @@
         "Radioactive materials",
         "Tires"
       ],
-      "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
-      "source": "https://www.lastormwater.org/general-info/safe-centers/",
-      "verified_date": "2026-03-03",
+      "rules": "Bring household quantities only, stay in your vehicle, and use the city S.A.F.E. page to confirm current limits or temporary closures before visiting.",
+      "source": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+      "verified_date": "2026-03-05",
       "lat": 34.017519982163,
       "lng": -118.226871124366,
       "geocode_match": "2649 E WASHINGTON BLVD, LOS ANGELES, CA, 90021",
@@ -259,7 +259,7 @@
         "Paint and solvents",
         "Used motor oil",
         "Batteries",
-        "Electronics (e-waste)"
+        "Electronics"
       ],
       "not_accepted": [
         "Business hazardous waste",
@@ -267,9 +267,9 @@
         "Radioactive materials",
         "Tires"
       ],
-      "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
-      "source": "https://www.lastormwater.org/general-info/safe-centers/",
-      "verified_date": "2026-03-03",
+      "rules": "Bring household quantities only, stay in your vehicle, and use the city S.A.F.E. page to confirm current limits or temporary closures before visiting.",
+      "source": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+      "verified_date": "2026-03-05",
       "lat": 34.256428358655,
       "lng": -118.502414537577,
       "geocode_match": "10241 BALBOA BLVD, NORTHRIDGE, CA, 91325",
@@ -288,7 +288,7 @@
         "Paint and solvents",
         "Used motor oil",
         "Batteries",
-        "Electronics (e-waste)"
+        "Electronics"
       ],
       "not_accepted": [
         "Business hazardous waste",
@@ -296,9 +296,9 @@
         "Radioactive materials",
         "Tires"
       ],
-      "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
-      "source": "https://www.lastormwater.org/general-info/safe-centers/",
-      "verified_date": "2026-03-03",
+      "rules": "Bring household quantities only, stay in your vehicle, and use the city S.A.F.E. page to confirm current limits or temporary closures before visiting.",
+      "source": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+      "verified_date": "2026-03-05",
       "lat": 33.763965019003,
       "lng": -118.293337375224,
       "geocode_match": "1400 N GAFFEY ST, SAN PEDRO, CA, 90731",
@@ -317,7 +317,7 @@
         "Paint and solvents",
         "Used motor oil",
         "Batteries",
-        "Electronics (e-waste)"
+        "Electronics"
       ],
       "not_accepted": [
         "Business hazardous waste",
@@ -325,9 +325,9 @@
         "Radioactive materials",
         "Tires"
       ],
-      "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
-      "source": "https://www.lastormwater.org/general-info/safe-centers/",
-      "verified_date": "2026-03-03",
+      "rules": "Bring household quantities only, stay in your vehicle, and use the city S.A.F.E. page to confirm current limits or temporary closures before visiting.",
+      "source": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+      "verified_date": "2026-03-05",
       "lat": 34.237888833786,
       "lng": -118.370433524529,
       "geocode_match": "11025 RANDALL ST, SUN VALLEY, CA, 91352",
@@ -346,7 +346,7 @@
         "Paint and solvents",
         "Used motor oil",
         "Batteries",
-        "Electronics (e-waste)"
+        "Electronics"
       ],
       "not_accepted": [
         "Business hazardous waste",
@@ -354,39 +354,36 @@
         "Radioactive materials",
         "Tires"
       ],
-      "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
-      "source": "https://www.lastormwater.org/general-info/safe-centers/",
-      "verified_date": "2026-03-03",
+      "rules": "Bring household quantities only, stay in your vehicle, and use the city S.A.F.E. page to confirm current limits or temporary closures before visiting.",
+      "source": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+      "verified_date": "2026-03-05",
+      "geocode_source": "census",
+      "geocode_error": "no_match",
       "facility_id": "f_manual_ad19fd910446"
     },
     {
-      "name": "Los Angeles/Glendale S.A.F.E. Center",
+      "name": "UCLA West S.A.F.E. Center",
       "type": "Hazardous Waste Facility",
-      "address": "4600 Colorado Boulevard, Los Angeles, CA 90039",
+      "address": "550 Charles E. Young Drive West, Los Angeles, CA 90095",
       "phone": "1-800-773-2489",
-      "hours": "Open Saturday and Sunday from 9:00 AM to 3:00 PM.",
-      "fees": "Household hazardous waste and e-waste drop-off is generally free for Los Angeles City and County residents with household quantities. Confirm current eligibility before arrival.",
+      "hours": "Open Saturday from 8:00 AM to 2:00 PM for e-waste only.",
+      "fees": "This city program is generally free for Los Angeles City and County residents bringing household electronic waste. Confirm current eligibility before arrival.",
       "accepted_materials": [
-        "Household hazardous waste",
-        "Paint and solvents",
-        "Used motor oil",
-        "Batteries",
-        "Electronics (e-waste)"
+        "Computers and monitors",
+        "Televisions",
+        "Small household electronics",
+        "Other covered e-waste accepted by the city program"
       ],
       "not_accepted": [
-        "Business hazardous waste",
+        "General household hazardous waste",
+        "Business loads",
         "Explosives or ammunition",
-        "Radioactive materials",
         "Tires"
       ],
-      "rules": "Bring household quantities only and use the S.A.F.E. program guidance to confirm the latest temporary closures or load limits before visiting.",
-      "source": "https://www.lastormwater.org/general-info/safe-centers/",
-      "verified_date": "2026-03-03",
-      "lat": 34.141077391643,
-      "lng": -118.273149075417,
-      "geocode_match": "4600 COLORADO BLVD, LOS ANGELES, CA, 90039",
-      "geocode_source": "census",
-      "facility_id": "f_manual_ffdb93d73ac4"
+      "rules": "This S.A.F.E. location is for e-waste only. Stay in your vehicle and confirm current eligibility or closures on the city S.A.F.E. page before visiting.",
+      "source": "https://www.lastormwater.org/take-action/practice-good-housekeeping/disposal-of-household-hazardous-waste/",
+      "verified_date": "2026-03-05",
+      "facility_id": "f_manual_e585f4a7037e"
     },
     {
       "name": "Antelope Valley Environmental Collection Center",
@@ -410,7 +407,7 @@
       ],
       "rules": "Use the county HHW page to confirm accepted items, packaging instructions, and any weather-related schedule changes before visiting.",
       "source": "https://cleanla.lacounty.gov/hhw/collection-centers/",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 34.567766953988,
       "lng": -118.146597840242,
       "geocode_match": "1200 CITY RANCH RD, PALMDALE, CA, 93551",
@@ -439,7 +436,7 @@
       ],
       "rules": "Use the county HHW page to confirm accepted items, packaging instructions, and any weather-related schedule changes before visiting.",
       "source": "https://cleanla.lacounty.gov/hhw/collection-centers/",
-      "verified_date": "2026-03-03",
+      "verified_date": "2026-03-05",
       "lat": 33.807239112178,
       "lng": -118.180716159198,
       "geocode_match": "2755 CALIFORNIA AVE, SIGNAL HILL, CA, 90755",

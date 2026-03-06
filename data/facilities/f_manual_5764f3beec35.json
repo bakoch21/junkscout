@@ -4,23 +4,29 @@
   "type": "hazardous_waste",
   "type_label": "Hazardous Waste Facility",
   "address": "11500 S Post Oak Rd, Houston, TX 77035",
-  "phone": "832-393-7766",
-  "hours": "Call for schedule (similar to North)",
-  "fees": "Free for residents",
-  "rules": "Residents only; appointment may be required.",
+  "phone": "3-1-1",
+  "hours": "Tuesday, Wednesday, Friday, and Saturday: 8:00 AM-5:00 PM.",
+  "fees": "Free for City of Houston residents.",
+  "rules": "Bring a Texas photo ID plus matching proof of City of Houston residency. Pack chemicals upright and use the city guidance before visiting.",
   "accepted_materials": [
-    "Paint",
-    "Cleaners",
-    "Pesticides",
-    "Batteries",
-    "Chemicals"
+    "Aerosol cans",
+    "Antifreeze and auto fluids",
+    "Lead-acid and rechargeable batteries",
+    "Drain cleaners and household cleaners",
+    "Fertilizers and pesticides",
+    "Fluorescent bulbs",
+    "Electronics scrap",
+    "Pool chemicals",
+    "Up to five tires per residence each month"
   ],
   "not_accepted": [
-    "Commercial"
+    "Business hazardous waste",
+    "Explosives or ammunition",
+    "Medical waste"
   ],
-  "verified_date": "2026-01-29",
-  "source": "https://www.houstontx.gov/solidwaste/disposal.html",
-  "osm_url": "https://www.houstontx.gov/solidwaste/disposal.html",
+  "verified_date": "2026-03-05",
+  "source": "https://www.houstontx.gov/solidwaste/esc.html",
+  "osm_url": "https://www.houstontx.gov/solidwaste/esc.html",
   "website": "",
   "appears_in": [
     {

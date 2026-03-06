@@ -5,7 +5,7 @@
   "type_label": "Recycling Center",
   "address": "540 W. Chevy Chase Drive, Glendale, CA 91204",
   "phone": "818-552-2870",
-  "hours": "Open Monday through Friday from 7:30 AM to 4:45 PM and Saturday from 8:00 AM to 3:30 PM.",
+  "hours": "Open Monday-Friday from 7:30 AM to 4:45 PM and Saturday from 8:00 AM to 3:30 PM.",
   "fees": "CRV payouts are available for eligible containers. Other accepted household recyclables are generally drop-off items; confirm any item-specific fees before arrival.",
   "rules": "Use the city recycling center page to confirm current accepted items and any holiday closures before driving.",
   "accepted_materials": [
@@ -19,7 +19,7 @@
     "Household trash",
     "Hazardous waste outside posted program scope"
   ],
-  "verified_date": "2026-03-03",
+  "verified_date": "2026-03-05",
   "source": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/recycling-center",
   "osm_url": "https://www.glendaleca.gov/government/departments/public-works/integrated-waste/recycling-center",
   "website": "",

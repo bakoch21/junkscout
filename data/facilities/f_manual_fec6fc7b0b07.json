@@ -5,7 +5,7 @@
   "type_label": "Hazardous Waste Facility",
   "address": "500 S. Flower Street, Burbank, CA 91502",
   "phone": "818-238-3900",
-  "hours": "The drop zone is open Monday through Friday from 8:00 AM to 5:00 PM and closed Saturday, Sunday, and city holidays. The office closes from 12:00 PM to 1:00 PM for lunch.",
+  "hours": "The drop zone is open Monday-Friday from 8:00 AM to 5:00 PM and closed Saturday, Sunday, and city holidays. The office closes from 12:00 PM to 1:00 PM for lunch.",
   "fees": "The city lists this as a resident and qualifying small-business drop zone. Confirm current eligibility and any item limits before arrival.",
   "rules": "Review the city's universal and HHW guidance before you drive because the drop zone accepts a narrower set of materials than a full HHW facility.",
   "accepted_materials": [
@@ -22,7 +22,7 @@
     "Loose e-bike batteries",
     "Medical waste outside posted rules"
   ],
-  "verified_date": "2026-03-03",
+  "verified_date": "2026-03-05",
   "source": "https://www.burbankca.gov/web/public-works/universal-and-hhw",
   "osm_url": "https://www.burbankca.gov/web/public-works/universal-and-hhw",
   "website": "",

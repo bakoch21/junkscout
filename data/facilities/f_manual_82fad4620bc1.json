@@ -1,0 +1,35 @@
+{
+  "id": "f_manual_82fad4620bc1",
+  "name": "Fairbanks Road Recycling & Disposal Facility",
+  "type": "landfill",
+  "type_label": "Landfill",
+  "address": "8225 Fairbanks N Houston Rd, Houston, TX 77064",
+  "phone": "713-849-2902",
+  "hours": "Monday-Friday: 7:00 AM-5:00 PM. Saturday: 7:00 AM-2:00 PM.",
+  "fees": "WM charges by load, material type, and vehicle class.",
+  "rules": "This WM site is oriented toward brush and construction debris. Confirm current public rules and accepted materials before driving.",
+  "accepted_materials": [
+    "Brush",
+    "Construction site waste free of household and organic waste",
+    "Heavy debris loads"
+  ],
+  "not_accepted": [
+    "Household garbage",
+    "Hazardous waste",
+    "Organic waste"
+  ],
+  "verified_date": "2026-03-05",
+  "source": "https://www.wm.com/us/en/facilities/fairbanks-landfill",
+  "osm_url": "https://www.wm.com/us/en/facilities/fairbanks-landfill",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ],
+  "lat": 29.899848848725,
+  "lng": -95.525010334234,
+  "geocode_match": "8225 FAIRBANKS N HOUSTON RD, HOUSTON, TX, 77064",
+  "geocode_source": "census"
+}

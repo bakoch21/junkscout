@@ -1,0 +1,36 @@
+{
+  "id": "f_manual_e575fdc2fc18",
+  "name": "Hardy Road Transfer Station",
+  "type": "transfer_station",
+  "type_label": "Transfer Station",
+  "address": "18784 Hardy Rd, Houston, TX 77073",
+  "phone": "281-443-1456",
+  "hours": "Call ahead to confirm current public hours and unloading rules.",
+  "fees": "Paid disposal by load or weight.",
+  "rules": "Cover your load and confirm current payment, material, and vehicle rules before driving.",
+  "accepted_materials": [
+    "Non-hazardous solid waste",
+    "Mixed trash loads",
+    "Construction and demolition debris",
+    "Bulky disposal loads"
+  ],
+  "not_accepted": [
+    "Hazardous waste",
+    "Liquids",
+    "Loads outside posted station rules"
+  ],
+  "verified_date": "2026-03-05",
+  "source": "https://www.wasteconnections.com/hardy-road-transfer-station",
+  "osm_url": "https://www.wasteconnections.com/hardy-road-transfer-station",
+  "website": "",
+  "appears_in": [
+    {
+      "state": "texas",
+      "city": "houston"
+    }
+  ],
+  "lat": 29.990270704515,
+  "lng": -95.394384195374,
+  "geocode_match": "18784 HARDY RD, HOUSTON, TX, 77073",
+  "geocode_source": "census"
+}

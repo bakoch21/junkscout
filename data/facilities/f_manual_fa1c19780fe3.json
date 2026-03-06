@@ -5,7 +5,7 @@
   "type_label": "Landfill",
   "address": "3001 Scholl Canyon Road, Glendale, CA 91206",
   "phone": "818-243-9779",
-  "hours": "Self-haul hours are Monday through Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 3:30 PM. Closed Sunday.",
+  "hours": "Self-haul hours are Monday-Friday from 8:00 AM to 5:00 PM and Saturday from 8:00 AM to 3:30 PM. Closed Sunday.",
   "fees": "Landfill fees vary by load size, weight, and material type. Check the official landfill page for current rates before you drive.",
   "rules": "Covered loads and landfill safety rules apply. Confirm accepted materials and payment methods before arrival.",
   "accepted_materials": [
@@ -17,7 +17,7 @@
     "Hazardous waste",
     "Materials outside landfill permit scope"
   ],
-  "verified_date": "2026-03-03",
+  "verified_date": "2026-03-05",
   "source": "https://www.lacsd.org/services/solid-waste/facilities/scholl-canyon-landfill",
   "osm_url": "https://www.lacsd.org/services/solid-waste/facilities/scholl-canyon-landfill",
   "website": "",
