@@ -1,0 +1,76 @@
+{
+  "version": "2026-03-04",
+  "notes": "State gate for rollout execution. Cities cannot publish when state_enabled is false.",
+  "states": [
+    {
+      "state": "TX",
+      "state_slug": "texas",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "CA",
+      "state_slug": "california",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "AZ",
+      "state_slug": "arizona",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "GA",
+      "state_slug": "georgia",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "FL",
+      "state_slug": "florida",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "IL",
+      "state_slug": "illinois",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "NC",
+      "state_slug": "north-carolina",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "WA",
+      "state_slug": "washington",
+      "state_enabled": true,
+      "phase": "enabled",
+      "pilot_required": false
+    },
+    {
+      "state": "NM",
+      "state_slug": "new-mexico",
+      "state_enabled": false,
+      "phase": "backlog",
+      "pilot_required": true
+    },
+    {
+      "state": "CO",
+      "state_slug": "colorado",
+      "state_enabled": false,
+      "phase": "backlog",
+      "pilot_required": true
+    }
+  ]
+}

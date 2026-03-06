@@ -27,6 +27,7 @@ const STATIC_PAGES = [
 ];
 
 const FACILITIES_DIR = path.join("data", "facilities");
+const FACILITY_ALIAS_PATH = path.join(FACILITIES_DIR, "_aliases.json");
 const FACILITY_PAGES_DIR = "facility";
 
 function safeReadJson(filePath, fallback = null) {
@@ -165,10 +166,23 @@ function readFacilityIdsFromDataFiles() {
 }
 
 function readFacilityIds() {
-  const fromPages = readFacilityIdsFromPages();
-  if (fromPages.length > 0) return fromPages.sort((a, b) => a.localeCompare(b));
+  const aliases = safeReadJson(FACILITY_ALIAS_PATH, {});
+  const aliasIds = new Set(
+    aliases && typeof aliases === "object"
+      ? Object.keys(aliases).map((id) => String(id || "").trim()).filter(Boolean)
+      : []
+  );
 
-  return readFacilityIdsFromDataFiles().sort((a, b) => a.localeCompare(b));
+  const fromPages = readFacilityIdsFromPages();
+  if (fromPages.length > 0) {
+    return fromPages
+      .filter((id) => !aliasIds.has(id))
+      .sort((a, b) => a.localeCompare(b));
+  }
+
+  return readFacilityIdsFromDataFiles()
+    .filter((id) => !aliasIds.has(id))
+    .sort((a, b) => a.localeCompare(b));
 }
 
 function run() {

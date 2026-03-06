@@ -283,6 +283,33 @@ a{color:inherit; text-decoration:none}
 .field--cta{display:flex; flex-direction:column; gap:10px}
 .trustline{display:flex; gap:12px; color:#4b5563; font-size:12px; flex-wrap:wrap}
 
+.page-search{
+  margin-top:18px;
+  padding:18px;
+  border:1px solid rgba(35,93,158,.14);
+  border-radius:18px;
+  background:
+    radial-gradient(420px 180px at 100% -20%, rgba(35,93,158,.10), transparent 65%),
+    linear-gradient(180deg, rgba(255,255,255,.96), rgba(246,250,255,.90));
+  box-shadow:0 12px 28px rgba(20,37,63,.07);
+}
+.page-search__title{
+  margin:0;
+  font-size:20px;
+}
+.page-search__copy{
+  margin:4px 0 0;
+}
+.page-search__form{
+  max-width:640px;
+}
+.page-search .combo{
+  margin-top:8px;
+}
+.page-search .btn{
+  flex:0 0 auto;
+}
+
 /* Desktop: align search CTA with the top of the location input box */
 @media (min-width: 981px){
   .field--cta{
@@ -1023,7 +1050,7 @@ select{
   box-shadow: 0 10px 22px rgba(46,110,166,0.10);
 }
 
-/* âœ… List-style layout: clean, scannable, responsive */
+/* List-style layout: clean, scannable, responsive */
 .cityhub__grid{
   margin-top: 6px;
   display:grid;
@@ -1749,7 +1776,7 @@ h2{font-size:28px; margin:0 0 14px}
     height:56px;                 /* stable row height */
     padding: 10px 14px;
     gap: 12px;
-    flex-wrap: nowrap;           /* <-- THIS fixes the â€œbutton lowerâ€ issue */
+    flex-wrap: nowrap;           /* keep the mobile header on one row */
     align-items: center;
   }
 
@@ -1784,6 +1811,7 @@ h2{font-size:28px; margin:0 0 14px}
   /* --- Wizard input row: allow wrap so buttons never collide --- */
   .combo{ flex-wrap: wrap; }
   .combo__btn{ width: 100%; }
+  .page-search .btn{ width:100%; justify-content:center; }
   .quickstart__grid{grid-template-columns:1fr;}
   .quickstart__item{min-height:76px;}
 

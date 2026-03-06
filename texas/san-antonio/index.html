@@ -130,7 +130,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
   <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
 
-  <!-- ✅ Leaflet (map) -->
+  <!-- Leaflet (map) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
@@ -149,6 +149,7 @@
       #map { height: 260px; }
     }
   </style>
+  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
 
   <title>San Antonio Trash Dump, Transfer Stations &amp; Landfills | JunkScout</title>
   <meta name="description" content="Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
@@ -163,7 +164,6 @@
   <meta name="twitter:title" content="San Antonio Trash Dump, Transfer Stations &amp; Landfills | JunkScout" />
   <meta name="twitter:description" content="Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials." />
 
-  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
 </head>
 
 <body data-state="texas" data-city="san-antonio" data-enhanced-city="1" data-blend-curated-with-data="1">
@@ -176,6 +176,7 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="/#browse-locations">Browse locations</a>
         <a href="/about/" class="muted">About</a>
+        <a href="/contact/" class="muted">Contact</a>
       </nav>
 
       <div class="nav__actions">
@@ -220,27 +221,51 @@
   </div>
 </section>
 
-      <!-- ✅ Injected at build time -->
+      <section class="page-search" aria-label="Search another city">
+        <div class="page-search__form">
+          <h2 class="page-search__title">Search another city</h2>
+          <p class="muted page-search__copy">Jump to any live JunkScout city guide across states.</p>
+          <label class="label" for="whereInput" style="margin-top:12px">City and state</label>
+          <div class="combo">
+            <input
+              id="whereInput"
+              type="search"
+              list="cityList"
+              placeholder="Search city, e.g. Houston, TX"
+              autocomplete="off"
+            />
+            <button id="searchBtn" type="button" class="btn btn--primary btn--search-primary">Search</button>
+          </div>
+          <datalist id="cityList"></datalist>
+          <p class="hint">Start typing and pick a city from the list.</p>
+        </div>
+      </section>
+
+      <!-- Injected at build time -->
       <!-- STATEHUBLINK:START -->
 <div class="cityhub__backnav">
   <a class="cityhub__backlink" href="/texas/">&larr; Back to Texas cities</a>
 </div>
 <!-- STATEHUBLINK:END -->
 
-      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- Injected at build time (CA only for now) -->
       <!-- POPULARCITIES:START -->
       <!-- POPULARCITIES:END -->
 
-      <div class="muted small" role="note"
-        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
-        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      <div
+        class="muted small"
+        role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)"
+      >
+        Source-linked where possible &bull; Community-suggested &bull; <strong>Always confirm</strong> hours and accepted
+        materials before visiting
       </div>
 
       <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
         City rules &amp; fees
       </button>
 
-      <!-- ✅ Map -->
+      <!-- Map -->
       <section id="mapWrap" aria-label="Map">
         <div id="map"></div>
       </section>
@@ -256,6 +281,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1531%20Frio%20City%20Rd%2C%20San%20Antonio%2C%20TX%2078226" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_71ffaaaa6f04/">Facility page</a>
+            <a class="link" href="https://www.sa.gov/Directory/Departments/SWMD/Bulky" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -267,6 +293,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=7030%20Culebra%20Rd%2C%20San%20Antonio%2C%20TX%2078238" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_f9b0eb3908d2/">Facility page</a>
+            <a class="link" href="https://www.sa.gov/Directory/Departments/SWMD/HHW" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -278,6 +305,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1800%20Wurzbach%20Pkwy%2C%20San%20Antonio%2C%20TX%2078216" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_6c39c5d7348e/">Facility page</a>
+            <a class="link" href="https://www.sa.gov/Directory/Departments/SWMD" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -289,6 +317,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=7000%20E%20Interstate%2010%2C%20San%20Antonio%2C%20TX%2078219" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_d93acb310897/">Facility page</a>
+            <a class="link" href="https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -300,6 +329,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=San%20Antonio%2C%20TX%20(confirm%20exact%20address%20before%20visiting)" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_697732531d38/">Facility page</a>
+            <a class="link" href="https://www.texasdisposal.com/" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -311,6 +341,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=101%20Nogalitos%20St%2C%20San%20Antonio%2C%20TX%2078204" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_5cbcdfc48893/">Facility page</a>
+            <a class="link" href="https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -322,6 +353,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=19068%20Marbach%20Ln%2C%20San%20Antonio%2C%20TX%2078266" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_25a03b304f96/">Facility page</a>
+            <a class="link" href="https://www.tceq.texas.gov/permitting/waste_permits/msw_permits.html" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -333,6 +365,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=7250%20FM%201346%20SAN%20ANTONIO%20TX%2078220" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_d079cbc26be7/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -344,6 +377,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=101%20Nogalitos%20Street%20San%20Antonio%20TX%2078204" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_5591e42ba979/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -355,6 +389,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=29.5470798,-98.2618889" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_ec9fdac591a4/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -366,6 +401,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=19068%20Marbach%20Lane%20San%20Antonio%20TX%2078266" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_9c2723f02893/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -377,6 +413,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=29.3343179,-98.6546479" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_7ac40e95c88c/">Facility page</a>
+            
           </div>
         </article>
 </section>
@@ -392,8 +429,8 @@
         <h2 id="faqDumpWhere">Where can I dump trash in San Antonio today?</h2>
         <p>
           Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
-          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
-          Use the listings above to confirm what’s accepted before you drive out.
+          The right choice depends on what you&rsquo;re hauling - furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what&rsquo;s accepted before you drive out.
         </p>
 
         <h2 id="faqDumpFree">Where can I drop off trash for free in San Antonio?</h2>
@@ -410,7 +447,7 @@
         <p>
           Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
           Others charge based on load size, weight, or material type.
-          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+          Hours can change seasonally - always check the facility&rsquo;s website or call ahead when possible.
         </p>
 
         <!-- NEARBY cities injected here at build time -->
@@ -469,19 +506,19 @@
         <h2>About dumping in this city</h2>
         <div class="why__grid">
           <div class="why__item">
-            <div class="icon">🪪</div>
+            <div class="icon">ID</div>
             <h3>Resident rules vary</h3>
             <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
           </div>
           <div class="why__item">
-            <div class="icon">🧱</div>
+            <div class="icon">C&amp;D</div>
             <h3>Construction debris</h3>
             <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
           </div>
           <div class="why__item">
-            <div class="icon">☎️</div>
+            <div class="icon">Call</div>
             <h3>Always confirm</h3>
-            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+            <p>Hours and accepted materials change. Check the facility&rsquo;s site or call first.</p>
           </div>
         </div>
       </section>
@@ -493,9 +530,12 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
             <a class="btn btn--ghost" href="/georgia/">Georgia</a>
             <a class="btn btn--ghost" href="/florida/">Florida</a>
             <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
             <a class="btn" href="/">Back to home</a>
           </div>
         </div>
@@ -503,12 +543,47 @@
     </div>
   </main>
 
-  <!-- ✅ Leaflet JS must load before city.js -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__title">Locations</div>
+        <a href="/texas/austin/">Austin</a>
+        <a href="/texas/houston/">Houston</a>
+        <a href="/texas/san-antonio/">San Antonio</a>
+        <a href="/texas/dallas/">Dallas</a>
+        <a href="/california/los-angeles/">Los Angeles</a>
+        <a href="/california/san-diego/">San Diego</a>
+        <a href="/arizona/phoenix/">Phoenix</a>
+        <a href="/florida/miami/">Miami</a>
+        <a href="/north-carolina/charlotte/">Charlotte</a>
+        <a href="/washington/seattle/">Seattle</a>
+        <a href="/illinois/chicago/">Chicago</a>
+      </div>
+      <div>
+        <div class="footer__title">Company</div>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/disclosure/">Disclosure</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div class="footer__note">
+        <div class="footer__brand">
+          &copy; <span id="year"></span> JunkScout
+        </div>
+        <div class="muted small">Always confirm before visiting.</div>
+        <a href="mailto:support@junkscout.io">support@junkscout.io</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
   <script src="/privacy-consent.js?v=20260303e" defer></script>
   <script src="/analytics.js" defer></script>
-  <script src="/city.js" defer></script>
+  <script src="/app.js?v=20260305a" defer></script>
+  <script src="/city.js?v=20260305a" defer></script>
   <script src="/houston-modal.js" defer></script>
 
 <script id="CURATED:JSON" type="application/json">
@@ -516,4 +591,3 @@
 </script>
 </body>
 </html>
-

@@ -49,6 +49,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260223a" />
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
   <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
+  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
 
   <title>University Park Transfer Station (Dallas, TX) - Hours, Fees, Rules | JunkScout</title>
   <meta name="description" content="Address, map, and source links for University Park Transfer Station. Always confirm fees, hours, and accepted materials before visiting." />
@@ -63,7 +64,6 @@
   <meta name="twitter:title" content="University Park Transfer Station (Dallas, TX) - Hours, Fees, Rules | JunkScout" />
   <meta name="twitter:description" content="Address, map, and source links for University Park Transfer Station. Always confirm fees, hours, and accepted materials before visiting." />
 
-  <meta name="google-adsense-account" content="ca-pub-6737290012723041">
 </head>
 
 <body data-state="texas" data-city="dallas">
@@ -76,6 +76,7 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="/#browse-locations">Browse locations</a>
         <a href="/about/" class="muted">About</a>
+        <a href="/contact/" class="muted">Contact</a>
       </nav>
 
       <div class="nav__actions">
@@ -92,12 +93,32 @@
       <h1 id="facilityTitle">University Park Transfer Station</h1>
       <p class="subhead" id="facilitySubhead">Transfer station in the area. Confirm hours, fees, and accepted materials before visiting.</p>
 
-      <!-- ✅ FACILITY BADGES (injected by facility.js) -->
+      <!-- FACILITY BADGES (injected by facility.js) -->
       <div id="facilityBadges"></div>
 
       <p class="muted small" style="margin:10px 0 10px">
-        Source-linked where possible • Always confirm fees/rules before visiting
+        Source-linked where possible &bull; Always confirm fees/rules before visiting
       </p>
+
+      <section class="page-search" aria-label="Search another city">
+        <div class="page-search__form">
+          <h2 class="page-search__title">Search another city</h2>
+          <p class="muted page-search__copy">Jump to any live JunkScout city guide across states.</p>
+          <label class="label" for="whereInput" style="margin-top:12px">City and state</label>
+          <div class="combo">
+            <input
+              id="whereInput"
+              type="search"
+              list="cityList"
+              placeholder="Search city, e.g. Houston, TX"
+              autocomplete="off"
+            />
+            <button id="searchBtn" type="button" class="btn btn--primary btn--search-primary">Search</button>
+          </div>
+          <datalist id="cityList"></datalist>
+          <p class="hint">Start typing and pick a city from the list.</p>
+        </div>
+      </section>
 
       <section class="wizard" style="margin-top:14px">
         <div class="wizard__row" style="grid-template-columns: 1fr 1fr 1fr; align-items:center">
@@ -112,7 +133,7 @@
             <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; align-items:center">
               <a class="link" id="facilityDirections" href="https://www.google.com/maps/search/?api=1&amp;query=32.85,-96.77" target="_blank" rel="noopener">Directions</a>
               <a class="link" id="facilityWebsite" href="#" target="_blank" rel="noopener" style="display:none">Website</a>
-              <a class="link" id="facilitySource" href="https://dallascityhall.com/departments/sanitation/Pages/default.aspx" target="_blank" rel="noopener" style="display:inline">Source</a>
+              <a class="link" id="facilitySource" href="https://dallascityhall.com/departments/sanitation/Pages/default.aspx" target="_blank" rel="noopener" style="display:inline">Official source</a>
 
               <!-- City rules trigger (houston-modal.js will show it when appropriate) -->
               <button
@@ -137,7 +158,7 @@
 
         <div class="wizard__note" style="margin-top:16px">
           <span class="dot"></span>
-          <span>Fees, hours, and accepted materials vary — confirm with the facility directly.</span>
+          <span>Fees, hours, and accepted materials vary - confirm with the facility directly.</span>
         </div>
       </section>
 
@@ -177,6 +198,12 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
+            <a class="btn btn--ghost" href="/georgia/">Georgia</a>
+            <a class="btn btn--ghost" href="/florida/">Florida</a>
+            <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
             <a class="btn" href="/">Back to home</a>
           </div>
         </div>
@@ -184,13 +211,47 @@
     </div>
   </main>
 
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__title">Locations</div>
+        <a href="/texas/austin/">Austin</a>
+        <a href="/texas/houston/">Houston</a>
+        <a href="/texas/san-antonio/">San Antonio</a>
+        <a href="/texas/dallas/">Dallas</a>
+        <a href="/california/los-angeles/">Los Angeles</a>
+        <a href="/california/san-diego/">San Diego</a>
+        <a href="/arizona/phoenix/">Phoenix</a>
+        <a href="/florida/miami/">Miami</a>
+        <a href="/north-carolina/charlotte/">Charlotte</a>
+        <a href="/washington/seattle/">Seattle</a>
+        <a href="/illinois/chicago/">Chicago</a>
+      </div>
+      <div>
+        <div class="footer__title">Company</div>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/disclosure/">Disclosure</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div class="footer__note">
+        <div class="footer__brand">
+          &copy; <span id="year"></span> JunkScout
+        </div>
+        <div class="muted small">Always confirm before visiting.</div>
+        <a href="mailto:support@junkscout.io">support@junkscout.io</a>
+      </div>
+    </div>
+  </footer>
+
   <!-- Modal mount point (houston-modal.js will inject the dialog here) -->
   <div id="houstonModalRoot"></div>
 
   <script src="/privacy-consent.js?v=20260303e" defer></script>
   <script src="/analytics.js" defer></script>
-  <script src="/facility.js"></script>
+  <script src="/app.js?v=20260305a" defer></script>
+  <script src="/facility.js?v=20260305a" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>
 </html>
-

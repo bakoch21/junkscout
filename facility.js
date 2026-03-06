@@ -234,27 +234,30 @@ async function loadFacility() {
       lat && lng
         ? `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`
         : `https://www.google.com/maps/search/${encodeURIComponent(name + " " + address)}`;
+    const websiteUrl = String(f.website || "").trim();
+    const sourceUrl = String(f.source || f.osm_url || "").trim();
 
     if (titleEl) titleEl.textContent = name;
     if (kickerEl) kickerEl.textContent = type;
     if (subEl) subEl.textContent = `${type} in the area — confirm hours, fees, and accepted materials before visiting.`;
 
+    if (subEl) subEl.textContent = `${type} in the area. Confirm hours, fees, and accepted materials before visiting.`;
     if (addrEl) addrEl.textContent = address;
     if (coordsEl) coordsEl.textContent = lat && lng ? `Coordinates: ${lat}, ${lng}` : "";
 
     if (dirEl) dirEl.href = mapsUrl;
     if (ctaEl) ctaEl.href = mapsUrl;
 
-    if (webEl && f.website) {
+    if (webEl && websiteUrl) {
       webEl.style.display = "inline";
-      webEl.href = f.website;
+      webEl.href = websiteUrl;
     } else if (webEl) {
       webEl.style.display = "none";
     }
 
-    if (srcEl && f.osm_url) {
+    if (srcEl && sourceUrl && sourceUrl !== websiteUrl) {
       srcEl.style.display = "inline";
-      srcEl.href = f.osm_url;
+      srcEl.href = sourceUrl;
     } else if (srcEl) {
       srcEl.style.display = "none";
     }

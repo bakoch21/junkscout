@@ -138,7 +138,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
   <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
 
-  <!-- ✅ Leaflet (map) -->
+  <!-- Leaflet (map) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
@@ -184,6 +184,7 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="/#browse-locations">Browse locations</a>
         <a href="/about/" class="muted">About</a>
+        <a href="/contact/" class="muted">Contact</a>
       </nav>
 
       <div class="nav__actions">
@@ -232,27 +233,51 @@
   </div>
 </section>
 
-      <!-- ✅ Injected at build time -->
+      <section class="page-search" aria-label="Search another city">
+        <div class="page-search__form">
+          <h2 class="page-search__title">Search another city</h2>
+          <p class="muted page-search__copy">Jump to any live JunkScout city guide across states.</p>
+          <label class="label" for="whereInput" style="margin-top:12px">City and state</label>
+          <div class="combo">
+            <input
+              id="whereInput"
+              type="search"
+              list="cityList"
+              placeholder="Search city, e.g. Houston, TX"
+              autocomplete="off"
+            />
+            <button id="searchBtn" type="button" class="btn btn--primary btn--search-primary">Search</button>
+          </div>
+          <datalist id="cityList"></datalist>
+          <p class="hint">Start typing and pick a city from the list.</p>
+        </div>
+      </section>
+
+      <!-- Injected at build time -->
       <!-- STATEHUBLINK:START -->
 <div class="cityhub__backnav">
   <a class="cityhub__backlink" href="/texas/">&larr; Back to Texas cities</a>
 </div>
 <!-- STATEHUBLINK:END -->
 
-      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- Injected at build time (CA only for now) -->
       <!-- POPULARCITIES:START -->
       <!-- POPULARCITIES:END -->
 
-      <div class="muted small" role="note"
-        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
-        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      <div
+        class="muted small"
+        role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)"
+      >
+        Source-linked where possible &bull; Community-suggested &bull; <strong>Always confirm</strong> hours and accepted
+        materials before visiting
       </div>
 
       <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
         City rules &amp; fees
       </button>
 
-      <!-- ✅ Map -->
+      <!-- Map -->
       <section id="mapWrap" aria-label="Map">
         <div id="map"></div>
       </section>
@@ -268,6 +293,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1426%20Commerce%20St%2C%20Garland%2C%20TX%2075040" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_fb34d26300ed/">Facility page</a>
+            <a class="link" href="https://www.garlandtx.gov/2117/Transfer-Station" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -279,6 +305,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=1426%20Commerce%20St%2C%20Garland%2C%20TX%2075040" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_93d5027e8265/">Facility page</a>
+            <a class="link" href="https://www.garlandtx.gov/427/Recycling-Center" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -290,6 +317,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=3175%20Elm%20Grove%20Rd%2C%20Rowlett%2C%20TX%2075089" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_6fb871f956ee/">Facility page</a>
+            <a class="link" href="https://www.garlandtx.gov/3150/CM-Hinton-Jr-Regional-Landfill" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -301,6 +329,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=11234%20Plano%20Rd%2C%20Dallas%2C%20TX%2075238" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_678a8b86a613/">Facility page</a>
+            <a class="link" href="https://www.garlandtx.gov/467/Household-Hazardous-Waste" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 </section>
@@ -316,8 +345,8 @@
         <h2 id="faqDumpWhere">Where can I dump trash in Garland today?</h2>
         <p>
           Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
-          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
-          Use the listings above to confirm what’s accepted before you drive out.
+          The right choice depends on what you&rsquo;re hauling - furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what&rsquo;s accepted before you drive out.
         </p>
 
         <h2 id="faqDumpFree">Where can I drop off trash for free in Garland?</h2>
@@ -334,7 +363,7 @@
         <p>
           Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
           Others charge based on load size, weight, or material type.
-          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+          Hours can change seasonally - always check the facility&rsquo;s website or call ahead when possible.
         </p>
 
         <!-- NEARBY cities injected here at build time -->
@@ -351,19 +380,19 @@
         <h2>About dumping in this city</h2>
         <div class="why__grid">
           <div class="why__item">
-            <div class="icon">🪪</div>
+            <div class="icon">ID</div>
             <h3>Resident rules vary</h3>
             <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
           </div>
           <div class="why__item">
-            <div class="icon">🧱</div>
+            <div class="icon">C&amp;D</div>
             <h3>Construction debris</h3>
             <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
           </div>
           <div class="why__item">
-            <div class="icon">☎️</div>
+            <div class="icon">Call</div>
             <h3>Always confirm</h3>
-            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+            <p>Hours and accepted materials change. Check the facility&rsquo;s site or call first.</p>
           </div>
         </div>
       </section>
@@ -375,9 +404,12 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
             <a class="btn btn--ghost" href="/georgia/">Georgia</a>
             <a class="btn btn--ghost" href="/florida/">Florida</a>
             <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
             <a class="btn" href="/">Back to home</a>
           </div>
         </div>
@@ -385,12 +417,47 @@
     </div>
   </main>
 
-  <!-- ✅ Leaflet JS must load before city.js -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__title">Locations</div>
+        <a href="/texas/austin/">Austin</a>
+        <a href="/texas/houston/">Houston</a>
+        <a href="/texas/san-antonio/">San Antonio</a>
+        <a href="/texas/dallas/">Dallas</a>
+        <a href="/california/los-angeles/">Los Angeles</a>
+        <a href="/california/san-diego/">San Diego</a>
+        <a href="/arizona/phoenix/">Phoenix</a>
+        <a href="/florida/miami/">Miami</a>
+        <a href="/north-carolina/charlotte/">Charlotte</a>
+        <a href="/washington/seattle/">Seattle</a>
+        <a href="/illinois/chicago/">Chicago</a>
+      </div>
+      <div>
+        <div class="footer__title">Company</div>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/disclosure/">Disclosure</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div class="footer__note">
+        <div class="footer__brand">
+          &copy; <span id="year"></span> JunkScout
+        </div>
+        <div class="muted small">Always confirm before visiting.</div>
+        <a href="mailto:support@junkscout.io">support@junkscout.io</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
   <script src="/privacy-consent.js?v=20260303e" defer></script>
   <script src="/analytics.js" defer></script>
-  <script src="/city.js" defer></script>
+  <script src="/app.js?v=20260305a" defer></script>
+  <script src="/city.js?v=20260305a" defer></script>
   <script src="/houston-modal.js" defer></script>
 
 <script id="CURATED:JSON" type="application/json">
@@ -398,4 +465,3 @@
 </script>
 </body>
 </html>
-

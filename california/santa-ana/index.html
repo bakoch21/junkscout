@@ -100,7 +100,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
   <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
 
-  <!-- ✅ Leaflet (map) -->
+  <!-- Leaflet (map) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
@@ -146,6 +146,7 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="/#browse-locations">Browse locations</a>
         <a href="/about/" class="muted">About</a>
+        <a href="/contact/" class="muted">Contact</a>
       </nav>
 
       <div class="nav__actions">
@@ -160,7 +161,7 @@
       <h1 id="cityTitle">Where to dump trash</h1>
 
       <p class="subhead" id="cityAnswer">
-        Find public landfills, transfer stations, and recycling drop-offs near this city — with hours, rules, and accepted
+        Find public landfills, transfer stations, and recycling drop-offs near this city - with hours, rules, and accepted
         materials when available.
       </p>
 
@@ -168,14 +169,34 @@
         Compare drop-off options and confirm fees, residency rules, and accepted materials before you drive out.
       </p>
 
-      <!-- ✅ Injected at build time -->
+      <section class="page-search" aria-label="Search another city">
+        <div class="page-search__form">
+          <h2 class="page-search__title">Search another city</h2>
+          <p class="muted page-search__copy">Jump to any live JunkScout city guide across states.</p>
+          <label class="label" for="whereInput" style="margin-top:12px">City and state</label>
+          <div class="combo">
+            <input
+              id="whereInput"
+              type="search"
+              list="cityList"
+              placeholder="Search city, e.g. Houston, TX"
+              autocomplete="off"
+            />
+            <button id="searchBtn" type="button" class="btn btn--primary btn--search-primary">Search</button>
+          </div>
+          <datalist id="cityList"></datalist>
+          <p class="hint">Start typing and pick a city from the list.</p>
+        </div>
+      </section>
+
+      <!-- Injected at build time -->
       <!-- STATEHUBLINK:START -->
 <div class="cityhub__backnav">
   <a class="cityhub__backlink" href="/california/">&larr; Back to California cities</a>
 </div>
 <!-- STATEHUBLINK:END -->
 
-      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- Injected at build time (CA only for now) -->
       <!-- POPULARCITIES:START -->
 <section class="seo-copy" aria-label="Popular California locations" style="margin-top:18px">
   <h2>Popular California locations</h2>
@@ -186,16 +207,20 @@
 </section>
 <!-- POPULARCITIES:END -->
 
-      <div class="muted small" role="note"
-        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
-        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      <div
+        class="muted small"
+        role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)"
+      >
+        Source-linked where possible &bull; Community-suggested &bull; <strong>Always confirm</strong> hours and accepted
+        materials before visiting
       </div>
 
       <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
         City rules &amp; fees
       </button>
 
-      <!-- ✅ Map -->
+      <!-- Map -->
       <section id="mapWrap" aria-label="Map">
         <div id="map"></div>
       </section>
@@ -211,6 +236,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.1872277,-118.6270012" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_adf377ff7712/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -222,6 +248,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=33.9489773,-118.178438" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_f37864c0dd58/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -233,6 +260,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=33.8074844,-118.1765948" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_63b4fef10276/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -244,6 +272,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.1330331,-118.263824" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_096ed3c0fa8c/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -255,6 +284,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.1869291,-118.458718" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_89a4460213b2/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -266,6 +296,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.0370084,-118.4358631" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_c55e30d711d0/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -277,6 +308,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.2280204,-118.4684809" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_124c46c2ae39/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -288,6 +320,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.0803617,-118.2697786" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_28ef6388b36f/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -299,6 +332,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=15025%20Roscoe%20Boulevard%20North%20Hills%20CA%2091402" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_024d9954b4f7/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -310,6 +344,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.283503,-118.18512" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_11123ccf58cc/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -321,6 +356,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.1869898,-118.2714759" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_d36cb725d031/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -332,6 +368,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=34.1582237,-118.194043" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_39b3b6d4b2ba/">Facility page</a>
+            
           </div>
         </article>
 </section>
@@ -347,8 +384,8 @@
         <h2 id="faqDumpWhere">Where can I dump trash in this city?</h2>
         <p>
           Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
-          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
-          Use the listings above to confirm what’s accepted before you drive out.
+          The right choice depends on what you&rsquo;re hauling - furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what&rsquo;s accepted before you drive out.
         </p>
 
         <h2 id="faqDumpFree">Is dumping free in this city?</h2>
@@ -368,7 +405,7 @@
         <p>
           Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
           Others charge based on load size, weight, or material type.
-          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+          Hours can change seasonally - always check the facility&rsquo;s website or call ahead when possible.
         </p>
 
         <!-- NEARBY cities injected here at build time -->
@@ -382,43 +419,43 @@
   <div class="cityhub__grid" style="margin-top:10px">
     
       <a class="cityhub__pill" href="/california/los-angeles/">
-        Los Angeles <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Los Angeles
       </a>
     
       <a class="cityhub__pill" href="/california/long-beach/">
-        Long Beach <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Long Beach
       </a>
     
       <a class="cityhub__pill" href="/california/anaheim/">
-        Anaheim <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Anaheim
       </a>
     
       <a class="cityhub__pill" href="/california/riverside/">
-        Riverside <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Riverside
       </a>
     
       <a class="cityhub__pill" href="/california/irvine/">
-        Irvine <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Irvine
       </a>
     
       <a class="cityhub__pill" href="/california/san-bernardino/">
-        San Bernardino <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        San Bernardino
       </a>
     
       <a class="cityhub__pill" href="/california/oxnard/">
-        Oxnard <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Oxnard
       </a>
     
       <a class="cityhub__pill" href="/california/glendale/">
-        Glendale <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Glendale
       </a>
     
       <a class="cityhub__pill" href="/california/huntington-beach/">
-        Huntington Beach <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Huntington Beach
       </a>
     
       <a class="cityhub__pill" href="/california/santa-clarita/">
-        Santa Clarita <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Santa Clarita
       </a>
     
   </div>
@@ -435,19 +472,19 @@
         <h2>About dumping in this city</h2>
         <div class="why__grid">
           <div class="why__item">
-            <div class="icon">🪪</div>
+            <div class="icon">ID</div>
             <h3>Resident rules vary</h3>
             <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
           </div>
           <div class="why__item">
-            <div class="icon">🧱</div>
+            <div class="icon">C&amp;D</div>
             <h3>Construction debris</h3>
             <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
           </div>
           <div class="why__item">
-            <div class="icon">☎️</div>
+            <div class="icon">Call</div>
             <h3>Always confirm</h3>
-            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+            <p>Hours and accepted materials change. Check the facility&rsquo;s site or call first.</p>
           </div>
         </div>
       </section>
@@ -459,9 +496,12 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
             <a class="btn btn--ghost" href="/georgia/">Georgia</a>
             <a class="btn btn--ghost" href="/florida/">Florida</a>
             <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
             <a class="btn" href="/">Back to home</a>
           </div>
         </div>
@@ -469,13 +509,47 @@
     </div>
   </main>
 
-  <!-- ✅ Leaflet JS must load before city.js -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__title">Locations</div>
+        <a href="/texas/austin/">Austin</a>
+        <a href="/texas/houston/">Houston</a>
+        <a href="/texas/san-antonio/">San Antonio</a>
+        <a href="/texas/dallas/">Dallas</a>
+        <a href="/california/los-angeles/">Los Angeles</a>
+        <a href="/california/san-diego/">San Diego</a>
+        <a href="/arizona/phoenix/">Phoenix</a>
+        <a href="/florida/miami/">Miami</a>
+        <a href="/north-carolina/charlotte/">Charlotte</a>
+        <a href="/washington/seattle/">Seattle</a>
+        <a href="/illinois/chicago/">Chicago</a>
+      </div>
+      <div>
+        <div class="footer__title">Company</div>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/disclosure/">Disclosure</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div class="footer__note">
+        <div class="footer__brand">
+          &copy; <span id="year"></span> JunkScout
+        </div>
+        <div class="muted small">Always confirm before visiting.</div>
+        <a href="mailto:support@junkscout.io">support@junkscout.io</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
   <script src="/privacy-consent.js?v=20260303e" defer></script>
   <script src="/analytics.js" defer></script>
-  <script src="/city.js" defer></script>
+  <script src="/app.js?v=20260305a" defer></script>
+  <script src="/city.js?v=20260305a" defer></script>
   <script src="/houston-modal.js" defer></script>
 </body>
 </html>
-

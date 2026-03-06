@@ -1,0 +1,6 @@
+city,state,city_slug,state_slug,source_status,city_tier,content_tier,state_enabled,manual_required,min_facilities,min_official_sources,uniqueness_reviewed,qa_status,ready_for_publish,approved_by,approved_at,publish_after,published_at,hold_reason,notes
+Los Angeles,CA,los-angeles,california,live,anchor,manual,true,true,8,3,true,approved,false,Baron,2026-03-03,2026-03-03,2026-03-03,,High-traffic city; preserve query shape and improve fact density
+Sacramento,CA,sacramento,california,live,secondary,manual,true,false,5,2,true,approved,false,Baron,2026-03-02,2026-03-02,2026-03-02,,Curated manual city
+Phoenix,AZ,phoenix,arizona,candidate,anchor,manual,true,true,8,3,false,needs_sources,false,,,,,Waiting on manual source pass and uniqueness review
+Charlotte,NC,charlotte,north-carolina,candidate,anchor,manual,true,true,8,3,false,needs_uniqueness,false,,,,,Needs city-specific copy pass before release
+Albuquerque,NM,albuquerque,new-mexico,backlog,anchor,manual,false,true,8,3,false,not_started,false,,,,,State not enabled,Blocked until state onboarding is approved

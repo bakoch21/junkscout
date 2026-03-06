@@ -138,7 +138,7 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=20260223a" />
   <link rel="shortcut icon" href="/favicon.ico?v=20260223a" />
 
-  <!-- ✅ Leaflet (map) -->
+  <!-- Leaflet (map) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
@@ -184,6 +184,7 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="/#browse-locations">Browse locations</a>
         <a href="/about/" class="muted">About</a>
+        <a href="/contact/" class="muted">Contact</a>
       </nav>
 
       <div class="nav__actions">
@@ -232,14 +233,34 @@
   </div>
 </section>
 
-      <!-- ✅ Injected at build time -->
+      <section class="page-search" aria-label="Search another city">
+        <div class="page-search__form">
+          <h2 class="page-search__title">Search another city</h2>
+          <p class="muted page-search__copy">Jump to any live JunkScout city guide across states.</p>
+          <label class="label" for="whereInput" style="margin-top:12px">City and state</label>
+          <div class="combo">
+            <input
+              id="whereInput"
+              type="search"
+              list="cityList"
+              placeholder="Search city, e.g. Houston, TX"
+              autocomplete="off"
+            />
+            <button id="searchBtn" type="button" class="btn btn--primary btn--search-primary">Search</button>
+          </div>
+          <datalist id="cityList"></datalist>
+          <p class="hint">Start typing and pick a city from the list.</p>
+        </div>
+      </section>
+
+      <!-- Injected at build time -->
       <!-- STATEHUBLINK:START -->
 <div class="cityhub__backnav">
   <a class="cityhub__backlink" href="/california/">&larr; Back to California cities</a>
 </div>
 <!-- STATEHUBLINK:END -->
 
-      <!-- ✅ Injected at build time (CA only for now) -->
+      <!-- Injected at build time (CA only for now) -->
       <!-- POPULARCITIES:START -->
 <section class="seo-copy" aria-label="Popular California locations" style="margin-top:18px">
   <h2>Popular California locations</h2>
@@ -250,16 +271,20 @@
 </section>
 <!-- POPULARCITIES:END -->
 
-      <div class="muted small" role="note"
-        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)">
-        Source-linked where possible • Community-suggested • <strong>Always confirm</strong> hours and accepted materials before visiting
+      <div
+        class="muted small"
+        role="note"
+        style="margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.6)"
+      >
+        Source-linked where possible &bull; Community-suggested &bull; <strong>Always confirm</strong> hours and accepted
+        materials before visiting
       </div>
 
       <button id="houstonRulesBtn" class="btn btn--ghost" style="margin-top:12px; display:none;">
         City rules &amp; fees
       </button>
 
-      <!-- ✅ Map -->
+      <!-- Map -->
       <section id="mapWrap" aria-label="Map">
         <div id="map"></div>
       </section>
@@ -275,6 +300,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=5180%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_b9c6f8e14151/">Facility page</a>
+            <a class="link" href="https://www.sandiego.gov/environmental-services/miramar/landfill" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -286,6 +312,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=5165%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_846d960a3d39/">Facility page</a>
+            <a class="link" href="https://www.sandiego.gov/environmental-services/miramar/recyclingcenter" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -297,6 +324,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=5161%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_a17df99e0d58/">Facility page</a>
+            <a class="link" href="https://www.sandiego.gov/environmental-services" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -308,6 +336,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=8514%20Mast%20Blvd%2C%20Santee%2C%20CA%2092071" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_b014d8987cd5/">Facility page</a>
+            <a class="link" href="https://www2.calrecycle.ca.gov/SolidWaste/SiteSearch" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -319,6 +348,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=6750%20Federal%20Blvd%2C%20Lemon%20Grove%2C%20CA%2091945" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_manual_fcab759f169c/">Facility page</a>
+            <a class="link" href="https://www.sancord.com/" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
 <article class="card">
@@ -330,6 +360,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=855%2032nd%20Street%20San%20Diego%2092102" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_81fa2ffceca0/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -341,6 +372,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=32.7724678,-117.071715" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_d1a84bd609e4/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -352,6 +384,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=5299%20Campanile%20Mall%20San%20Diego" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_079afcbdac50/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -363,6 +396,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=La%20Costa%20Avenue%20Encinitas" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_97591d37d39b/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -374,6 +408,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=32.8224165,-117.1024273" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_06b5dabcea9b/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -385,6 +420,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=World%20Trade%20Drive%20San%20Diego%20CA%2092128" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_5c0d829076c6/">Facility page</a>
+            
           </div>
         </article>
 <article class="card">
@@ -396,6 +432,7 @@
           <div style="display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; align-items:center">
             <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=5165%20Convoy%20Street%20San%20Diego%20CA%2092111" target="_blank" rel="noopener">Directions</a>
             <a class="link" href="/facility/f_579625fc2a3c/">Facility page</a>
+            
           </div>
         </article>
 </section>
@@ -411,8 +448,8 @@
         <h2 id="faqDumpWhere">Where can I dump trash in San Diego today?</h2>
         <p>
           Most areas have a mix of public drop-off centers, private landfills, and transfer stations.
-          The right choice depends on what you’re hauling—furniture, household trash, construction debris, brush, or recyclables.
-          Use the listings above to confirm what’s accepted before you drive out.
+          The right choice depends on what you&rsquo;re hauling - furniture, household trash, construction debris, brush, or recyclables.
+          Use the listings above to confirm what&rsquo;s accepted before you drive out.
         </p>
 
         <h2 id="faqDumpFree">Where can I drop off trash for free in San Diego?</h2>
@@ -429,7 +466,7 @@
         <p>
           Disposal rules vary by site. Some facilities are <strong>resident-only</strong> and require ID or proof of address.
           Others charge based on load size, weight, or material type.
-          Hours can change seasonally—always check the facility’s website or call ahead when possible.
+          Hours can change seasonally - always check the facility&rsquo;s website or call ahead when possible.
         </p>
 
         <!-- NEARBY cities injected here at build time -->
@@ -443,11 +480,11 @@
   <div class="cityhub__grid" style="margin-top:10px">
     
       <a class="cityhub__pill" href="/california/chula-vista/">
-        Chula Vista <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Chula Vista
       </a>
     
       <a class="cityhub__pill" href="/california/oceanside/">
-        Oceanside <span class="muted" style="font-weight:600">&middot; 0 mi</span>
+        Oceanside
       </a>
     
       <a class="cityhub__pill" href="/california/los-angeles/">
@@ -496,19 +533,19 @@
         <h2>About dumping in this city</h2>
         <div class="why__grid">
           <div class="why__item">
-            <div class="icon">🪪</div>
+            <div class="icon">ID</div>
             <h3>Resident rules vary</h3>
             <p>Some public facilities require proof of residency. Call ahead if unsure.</p>
           </div>
           <div class="why__item">
-            <div class="icon">🧱</div>
+            <div class="icon">C&amp;D</div>
             <h3>Construction debris</h3>
             <p>C&amp;D may be accepted only at certain sites or for a fee.</p>
           </div>
           <div class="why__item">
-            <div class="icon">☎️</div>
+            <div class="icon">Call</div>
             <h3>Always confirm</h3>
-            <p>Hours and accepted materials change. Check the facility’s site or call first.</p>
+            <p>Hours and accepted materials change. Check the facility&rsquo;s site or call first.</p>
           </div>
         </div>
       </section>
@@ -520,9 +557,12 @@
           <div class="report__actions">
             <a class="btn btn--ghost" href="/texas/">Texas</a>
             <a class="btn btn--primary" href="/california/">California</a>
+            <a class="btn btn--ghost" href="/arizona/">Arizona</a>
             <a class="btn btn--ghost" href="/georgia/">Georgia</a>
             <a class="btn btn--ghost" href="/florida/">Florida</a>
             <a class="btn btn--ghost" href="/illinois/">Illinois</a>
+            <a class="btn btn--ghost" href="/north-carolina/">North Carolina</a>
+            <a class="btn btn--ghost" href="/washington/">Washington</a>
             <a class="btn" href="/">Back to home</a>
           </div>
         </div>
@@ -530,12 +570,47 @@
     </div>
   </main>
 
-  <!-- ✅ Leaflet JS must load before city.js -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__title">Locations</div>
+        <a href="/texas/austin/">Austin</a>
+        <a href="/texas/houston/">Houston</a>
+        <a href="/texas/san-antonio/">San Antonio</a>
+        <a href="/texas/dallas/">Dallas</a>
+        <a href="/california/los-angeles/">Los Angeles</a>
+        <a href="/california/san-diego/">San Diego</a>
+        <a href="/arizona/phoenix/">Phoenix</a>
+        <a href="/florida/miami/">Miami</a>
+        <a href="/north-carolina/charlotte/">Charlotte</a>
+        <a href="/washington/seattle/">Seattle</a>
+        <a href="/illinois/chicago/">Chicago</a>
+      </div>
+      <div>
+        <div class="footer__title">Company</div>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/disclosure/">Disclosure</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </div>
+      <div class="footer__note">
+        <div class="footer__brand">
+          &copy; <span id="year"></span> JunkScout
+        </div>
+        <div class="muted small">Always confirm before visiting.</div>
+        <a href="mailto:support@junkscout.io">support@junkscout.io</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS must load before city.js -->
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 
   <script src="/privacy-consent.js?v=20260303e" defer></script>
   <script src="/analytics.js" defer></script>
-  <script src="/city.js" defer></script>
+  <script src="/app.js?v=20260305a" defer></script>
+  <script src="/city.js?v=20260305a" defer></script>
   <script src="/houston-modal.js" defer></script>
 
 <script id="CURATED:JSON" type="application/json">
@@ -543,4 +618,3 @@
 </script>
 </body>
 </html>
-

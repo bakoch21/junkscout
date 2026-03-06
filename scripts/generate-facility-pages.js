@@ -20,6 +20,7 @@ if (third.startsWith("--city=")) {
 }
 
 const FACILITIES_DIR = path.join("data", "facilities");
+const ALIAS_MANIFEST_PATH = path.join(FACILITIES_DIR, "_aliases.json");
 const TEMPLATE_PATH = "facility-template.html";
 const OUTPUT_BASE = ".";
 const BASE_URL = "https://junkscout.io";
@@ -162,14 +163,16 @@ function facilitiesRepresentSamePlace(a, b) {
 
   const addressA = normalizeComparableText(a?.address || "");
   const addressB = normalizeComparableText(b?.address || "");
-  if (addressA && addressB) return addressA === addressB;
+  if (addressA && addressB && addressA === addressB) return true;
 
   const coordsA = getCoordsFromRecord(a);
   const coordsB = getCoordsFromRecord(b);
-  if (coordsA.lat === null || coordsA.lng === null || coordsB.lat === null || coordsB.lng === null) return false;
+  if (coordsA.lat !== null && coordsA.lng !== null && coordsB.lat !== null && coordsB.lng !== null) {
+    const distanceMi = distanceMiles(coordsA.lat, coordsA.lng, coordsB.lat, coordsB.lng);
+    if (Number.isFinite(distanceMi) && distanceMi <= 0.15) return true;
+  }
 
-  const distanceMi = distanceMiles(coordsA.lat, coordsA.lng, coordsB.lat, coordsB.lng);
-  return Number.isFinite(distanceMi) && distanceMi <= 0.15;
+  return false;
 }
 
 function mergeUniqueStringArrays(a = [], b = []) {
@@ -241,6 +244,71 @@ function mergeFacilityRecords(base, incoming) {
   out.appears_in = mergeAppearsIn(out.appears_in, next.appears_in);
 
   return out;
+}
+
+function facilityPreferenceScore(record) {
+  let score = 0;
+  const id = cleanString(record?.id || "");
+  if (/^f_manual_/i.test(id)) score += 40;
+  if (cleanString(record?.source || "")) score += 16;
+  if (cleanString(record?.verified_date || "")) score += 12;
+  if (cleanString(record?.phone || "")) score += 6;
+  if (cleanString(record?.hours || "")) score += 6;
+  if (cleanString(record?.fees || "")) score += 5;
+  if (cleanString(record?.rules || "")) score += 5;
+  if (cleanString(record?.address || "")) score += 8;
+  if (cleanString(record?.website || "")) score += 4;
+
+  const coords = getCoordsFromRecord(record);
+  if (coords.lat !== null && coords.lng !== null) score += 4;
+
+  score += Math.min(6, coerceArray(record?.accepted_materials).length);
+  score += Math.min(4, coerceArray(record?.not_accepted).length);
+  return score;
+}
+
+function collapseDuplicateFacilities(records) {
+  const groups = [];
+  const sorted = [...coerceArray(records)].sort((a, b) => {
+    const scoreDiff = facilityPreferenceScore(b) - facilityPreferenceScore(a);
+    if (scoreDiff !== 0) return scoreDiff;
+    return cleanString(a?.id || "").localeCompare(cleanString(b?.id || ""));
+  });
+
+  for (const record of sorted) {
+    const id = cleanString(record?.id || "");
+    if (!id) continue;
+
+    const group = groups.find((entry) => facilitiesRepresentSamePlace(record, entry.facility));
+    if (!group) {
+      groups.push({ facility: { ...record, id }, aliases: [] });
+      continue;
+    }
+
+    group.facility = mergeFacilityRecords(group.facility, record);
+    group.aliases.push({ ...record, id });
+  }
+
+  return {
+    facilities: groups.map((group) => group.facility),
+    aliasEntries: groups.flatMap((group) =>
+      group.aliases.map((aliasRecord) => ({
+        aliasId: cleanString(aliasRecord.id),
+        aliasRecord,
+        canonicalId: cleanString(group.facility?.id || ""),
+        canonicalRecord: group.facility,
+      }))
+    ),
+  };
+}
+
+function writeAliasManifest(aliasEntries) {
+  const manifest = {};
+  for (const entry of coerceArray(aliasEntries)) {
+    if (!entry?.aliasId || !entry?.canonicalId || entry.aliasId === entry.canonicalId) continue;
+    manifest[entry.aliasId] = entry.canonicalId;
+  }
+  fs.writeFileSync(ALIAS_MANIFEST_PATH, `${JSON.stringify(manifest, null, 2)}\n`, "utf-8");
 }
 
 function readCityReferencedFacilityIds() {
@@ -689,6 +757,7 @@ function injectServerRenderedFacilityContent(html, facility, poolFacilities, sta
   const mapsUrl = mapsUrlForFacility(facility);
   const sourceUrl = cleanString(facility?.source || facility?.osm_url || "");
   const websiteUrl = cleanString(facility?.website || "");
+  const showSourceUrl = Boolean(sourceUrl && sourceUrl !== websiteUrl);
 
   let out = html;
   out = replaceElementTextById(out, "facilityKicker", type);
@@ -713,7 +782,7 @@ function injectServerRenderedFacilityContent(html, facility, poolFacilities, sta
     out = setAnchorHrefById(out, "facilityWebsite", websiteUrl);
     out = setAnchorVisibilityById(out, "facilityWebsite", true);
   }
-  if (sourceUrl) {
+  if (showSourceUrl) {
     out = setAnchorHrefById(out, "facilitySource", sourceUrl);
     out = setAnchorVisibilityById(out, "facilitySource", true);
   }
@@ -731,8 +800,36 @@ function injectServerRenderedFacilityContent(html, facility, poolFacilities, sta
   return out;
 }
 
+function buildAliasFacilityPage(aliasEntry) {
+  const canonicalId = cleanString(aliasEntry?.canonicalId || "");
+  const canonicalRecord = aliasEntry?.canonicalRecord || {};
+  const canonicalPath = `/facility/${canonicalId}/`;
+  const canonicalUrl = `${BASE_URL}${canonicalPath}`;
+  const facilityName = cleanString(canonicalRecord?.name || "Facility");
+  const title = `${facilityName} | JunkScout`;
+  const description = `This facility page moved to ${canonicalUrl}.`;
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>${escapeHtml(title)}</title>
+  <meta name="description" content="${escapeHtml(description)}" />
+  <meta name="robots" content="noindex,follow" />
+  <link rel="canonical" href="${escapeHtml(canonicalUrl)}" />
+  <meta http-equiv="refresh" content="0; url=${escapeHtml(canonicalPath)}" />
+  <script>window.location.replace(${JSON.stringify(canonicalPath)});</script>
+</head>
+<body>
+  <p>This facility page moved. If you are not redirected, <a href="${escapeHtml(canonicalPath)}">open the current facility page</a>.</p>
+</body>
+</html>
+`;
+}
+
 function loadFacilityRecords() {
-  if (!fs.existsSync(FACILITIES_DIR)) return [];
+  if (!fs.existsSync(FACILITIES_DIR)) return { facilities: [], aliasEntries: [] };
 
   const byId = new Map();
 
@@ -785,7 +882,9 @@ function loadFacilityRecords() {
       .forEach((record) => upsert(record));
   }
 
-  return Array.from(byId.values());
+  const collapsed = collapseDuplicateFacilities(Array.from(byId.values()));
+  writeAliasManifest(collapsed.aliasEntries);
+  return collapsed;
 }
 
 function run() {
@@ -800,7 +899,7 @@ function run() {
     .replace(/<meta\s+name="description"[^>]*>\s*/i, "")
     .replace(/<link\s+rel="canonical"[^>]*>\s*/i, "");
 
-  const facilities = loadFacilityRecords();
+  const { facilities, aliasEntries } = loadFacilityRecords();
   if (facilities.length === 0) {
     console.error("No facility records found.");
     process.exit(1);
@@ -819,6 +918,19 @@ function run() {
     console.error(`No facility pages matched state=${STATE_ARG}${cityMsg}`);
     process.exit(1);
   }
+
+  const filteredAliases = aliasEntries.filter((entry) => {
+    if (!entry?.aliasId || !entry?.canonicalId || entry.aliasId === entry.canonicalId) return false;
+
+    const aliasMatchesState = matchesState(entry.aliasRecord, STATE_ARG) || matchesState(entry.canonicalRecord, STATE_ARG);
+    if (!aliasMatchesState) return false;
+
+    if (!CITY_FILTER_ARG) return true;
+    return (
+      matchesCity(entry.aliasRecord, STATE_ARG, CITY_FILTER_ARG) ||
+      matchesCity(entry.canonicalRecord, STATE_ARG, CITY_FILTER_ARG)
+    );
+  });
 
   for (const facility of filtered) {
     const id = String(facility.id).trim();
@@ -843,7 +955,17 @@ function run() {
     console.log(`Wrote facility page: ${outFile}`);
   }
 
-  console.log(`Generated ${filtered.length} facility page(s).`);
+  for (const aliasEntry of filteredAliases) {
+    const outDir = path.join(OUTPUT_BASE, "facility", aliasEntry.aliasId);
+    const outFile = path.join(outDir, "index.html");
+
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(outFile, buildAliasFacilityPage(aliasEntry), "utf-8");
+
+    console.log(`Wrote facility alias page: ${outFile}`);
+  }
+
+  console.log(`Generated ${filtered.length} facility page(s) and ${filteredAliases.length} alias page(s).`);
 }
 
 run();

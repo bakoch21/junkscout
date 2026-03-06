@@ -94,204 +94,88 @@ function setCanonical(url) {
   link.setAttribute("href", url);
 }
 
+function normalizeTextForCompare(value = "") {
+  return String(value || "").replace(/\s+/g, " ").trim();
+}
+
+function shouldReplaceTemplateText(currentValue, defaults = []) {
+  const current = normalizeTextForCompare(currentValue);
+  if (!current) return true;
+  return defaults.some((entry) => current === normalizeTextForCompare(entry));
+}
+
+function setElementTextIfTemplate(id, nextValue, defaults = []) {
+  const element = document.getElementById(id);
+  if (!element) return;
+  if (shouldReplaceTemplateText(element.textContent, defaults)) {
+    element.textContent = nextValue;
+  }
+}
+
 function applyCitySEO({ cityName, stateName }) {
-  const pretty = cityName + ", " + stateName;
+  const pretty = `${cityName}, ${stateName}`;
   const enhancedManualCity = document.body?.dataset?.enhancedCity === "1";
-  const isHouston = String(cityName).toLowerCase() === "houston" && String(stateName).toUpperCase() === "TX";
-  const isDallas = String(cityName).toLowerCase() === "dallas" && String(stateName).toUpperCase() === "TX";
-  const isAustin = String(cityName).toLowerCase() === "austin" && String(stateName).toUpperCase() === "TX";
-  const isSanAntonio = String(cityName).toLowerCase() === "san antonio" && String(stateName).toUpperCase() === "TX";
-  const isLosAngeles = String(cityName).toLowerCase() === "los angeles" && String(stateName).toUpperCase() === "CA";
-  const isSanFrancisco = String(cityName).toLowerCase() === "san francisco" && String(stateName).toUpperCase() === "CA";
+  const fallbackTitle = enhancedManualCity
+    ? `${cityName} Trash Dump, Transfer Stations & Landfills | JunkScout`
+    : `Where to dump trash in ${pretty} | JunkScout`;
+  const fallbackDescription = enhancedManualCity
+    ? `Compare ${cityName} dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.`
+    : `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}. Hours, fees, and accepted materials when available - always confirm before visiting.`;
+  const fallbackHeading = enhancedManualCity
+    ? `${cityName} Trash Dump, Transfer Stations & Landfills`
+    : `Where to dump trash in ${pretty}`;
+  const fallbackAnswer = enhancedManualCity
+    ? `Compare ${cityName} dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials.`
+    : `Find public landfills, transfer stations, and recycling drop-offs in ${pretty}, with hours, rules, and accepted materials when available.`;
+  const fallbackSubhead = enhancedManualCity
+    ? `Need to dump trash in ${cityName} fast? Start with source-linked options and confirm rules before you drive.`
+    : `Public landfills, transfer stations, and disposal sites in ${cityName}. Always confirm fees, residency rules, and accepted materials before visiting.`;
+  const fallbackFaqWhere = `Where can I dump trash in ${cityName}?`;
+  const fallbackFaqFree = `Is dumping free in ${cityName}?`;
+  const fallbackFaqFreeBody =
+    `Some ${cityName}-area services are resident-focused and may offer free or lower-cost drop-off for specific materials, while private transfer stations and landfills usually charge by load size or material type.`;
 
-  const titleEl = document.getElementById("cityTitle");
-  if (titleEl) {
-    titleEl.textContent = isHouston
-      ? "Houston Trash Dump, Transfer Stations & Landfills"
-      : isDallas
-      ? "Dallas Trash Dump, Transfer Stations & Landfills"
-      : isAustin
-      ? "Austin Trash Dump, Transfer Stations & Landfills"
-      : isSanAntonio
-      ? "San Antonio Trash Dump, Transfer Stations & Landfills"
-      : isLosAngeles
-      ? "Los Angeles Trash Dump, Transfer Stations & Landfills"
-      : isSanFrancisco
-      ? "San Francisco Trash Dump, Transfer Stations & Landfills"
-      : enhancedManualCity
-      ? cityName + " Trash Dump, Transfer Stations & Landfills"
-      : "Where to dump trash in " + pretty;
+  if (shouldReplaceTemplateText(document.title, ["Where to Dump Trash in City, ST | JunkScout"])) {
+    document.title = fallbackTitle;
   }
 
-  const ansEl = document.getElementById("cityAnswer");
-  if (ansEl) {
-    ansEl.textContent = isHouston
-      ? "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-      : isDallas
-      ? "Compare Dallas dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-      : isAustin
-      ? "Compare Austin dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-      : isSanAntonio
-      ? "Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-      : isLosAngeles
-      ? "Compare Los Angeles dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-      : isSanFrancisco
-      ? "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-      : enhancedManualCity
-      ? "Compare " + cityName + " dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-      : "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ", " +
-        "with hours, rules, and accepted materials when available.";
+  const descriptionMeta = document.querySelector('meta[name="description"]');
+  if (
+    !descriptionMeta ||
+    shouldReplaceTemplateText(descriptionMeta.getAttribute("content"), [
+      "Find public landfills, transfer stations, and recycling drop-offs in City, ST. Hours, fees, and accepted materials when available-always confirm before visiting.",
+      "Find public landfills, transfer stations, and recycling drop-offs in City, ST. Hours, fees, and accepted materials when available - always confirm before visiting.",
+    ])
+  ) {
+    setMetaDescription(fallbackDescription);
   }
 
-  const subEl = document.getElementById("citySubhead");
-  if (subEl) {
-    subEl.textContent = isHouston
-      ? "Need to dump trash in Houston fast? Use this where to dump guide and confirm rules before you drive."
-      : isDallas
-      ? "Need to dump trash in Dallas fast? Start with these verified options and confirm rules before you drive."
-      : isAustin
-      ? "Need to dump trash in Austin fast? Start with these verified options and confirm rules before you drive."
-      : isSanAntonio
-      ? "Need to dump trash in San Antonio fast? Start with these verified options and confirm rules before you drive."
-      : isLosAngeles
-      ? "Need to dump trash in Los Angeles fast? Start with these verified options and confirm rules before you drive."
-      : isSanFrancisco
-      ? "Need to dump trash in San Francisco fast? Start with these verified options and confirm rules before you drive."
-      : enhancedManualCity
-      ? "Need to dump trash in " + cityName + " fast? Start with these verified options and confirm rules before you drive."
-      : "Public landfills, transfer stations, and disposal sites in " + cityName + ". " +
-        "Always confirm fees, residency rules, and accepted materials before visiting.";
-  }
+  setElementTextIfTemplate("cityTitle", fallbackHeading, ["Where to dump trash"]);
+  setElementTextIfTemplate(
+    "cityAnswer",
+    fallbackAnswer,
+    [
+      "Find public landfills, transfer stations, and recycling drop-offs near this city - with hours, rules, and accepted materials when available.",
+      "Find public landfills, transfer stations, and recycling drop-offs near this city with hours, rules, and accepted materials when available.",
+    ]
+  );
+  setElementTextIfTemplate(
+    "citySubhead",
+    fallbackSubhead,
+    ["Compare drop-off options and confirm fees, residency rules, and accepted materials before you drive out."]
+  );
+  setElementTextIfTemplate("faqDumpWhere", fallbackFaqWhere, ["Where can I dump trash in this city?"]);
+  setElementTextIfTemplate("faqDumpFree", fallbackFaqFree, ["Is dumping free in this city?"]);
+  setElementTextIfTemplate(
+    "faqDumpFreeBody",
+    fallbackFaqFreeBody,
+    [
+      "Some public facilities offer free or discounted drop-off for residents with proof of address, while private landfills and transfer stations typically charge by load size, weight, or material type. Always confirm rules and fees before visiting.",
+    ]
+  );
 
   const inlineCity = document.getElementById("cityNameInline");
   if (inlineCity) inlineCity.textContent = cityName;
-
-  if (isHouston) {
-    document.title = "Houston Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Compare Houston dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-    );
-
-    const faqDumpWhere = document.getElementById("faqDumpWhere");
-    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Houston today?";
-
-    const faqDumpFree = document.getElementById("faqDumpFree");
-    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Houston?";
-
-    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
-    if (faqDumpFreeBody) {
-      faqDumpFreeBody.textContent =
-        "Some Houston facilities offer free resident drop-off with ID and proof of address, while private transfer stations and landfills usually charge by load size or weight.";
-    }
-  } else if (isDallas) {
-    document.title = "Dallas Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Compare Dallas dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-    );
-
-    const faqDumpWhere = document.getElementById("faqDumpWhere");
-    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Dallas today?";
-
-    const faqDumpFree = document.getElementById("faqDumpFree");
-    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Dallas?";
-
-    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
-    if (faqDumpFreeBody) {
-      faqDumpFreeBody.textContent =
-        "Some Dallas-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
-    }
-  } else if (isAustin) {
-    document.title = "Austin Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Compare Austin dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-    );
-
-    const faqDumpWhere = document.getElementById("faqDumpWhere");
-    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Austin today?";
-
-    const faqDumpFree = document.getElementById("faqDumpFree");
-    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Austin?";
-
-    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
-    if (faqDumpFreeBody) {
-      faqDumpFreeBody.textContent =
-        "Some Austin-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
-    }
-  } else if (isSanAntonio) {
-    document.title = "San Antonio Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Compare San Antonio dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-    );
-
-    const faqDumpWhere = document.getElementById("faqDumpWhere");
-    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in San Antonio today?";
-
-    const faqDumpFree = document.getElementById("faqDumpFree");
-    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in San Antonio?";
-
-    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
-    if (faqDumpFreeBody) {
-      faqDumpFreeBody.textContent =
-        "Some San Antonio-area facilities offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
-    }
-  } else if (isLosAngeles) {
-    document.title = "Los Angeles Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Compare Los Angeles dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-    );
-
-    const faqDumpWhere = document.getElementById("faqDumpWhere");
-    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in Los Angeles today?";
-
-    const faqDumpFree = document.getElementById("faqDumpFree");
-    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in Los Angeles?";
-
-    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
-    if (faqDumpFreeBody) {
-      faqDumpFreeBody.textContent =
-        "Some Los Angeles-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
-    }
-  } else if (isSanFrancisco) {
-    document.title = "San Francisco Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Compare San Francisco dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-    );
-
-    const faqDumpWhere = document.getElementById("faqDumpWhere");
-    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in San Francisco today?";
-
-    const faqDumpFree = document.getElementById("faqDumpFree");
-    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in San Francisco?";
-
-    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
-    if (faqDumpFreeBody) {
-      faqDumpFreeBody.textContent =
-        "Some San Francisco-area services offer resident-focused or lower-cost drop-off options, while private transfer stations and landfills usually charge by load size or material type.";
-    }
-  } else if (enhancedManualCity) {
-    document.title = cityName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Compare " + cityName + " dump, landfill, transfer station, and recycling drop-off options with fees, hours, resident rules, and accepted materials."
-    );
-
-    const faqDumpWhere = document.getElementById("faqDumpWhere");
-    if (faqDumpWhere) faqDumpWhere.textContent = "Where can I dump trash in " + cityName + " today?";
-
-    const faqDumpFree = document.getElementById("faqDumpFree");
-    if (faqDumpFree) faqDumpFree.textContent = "Where can I drop off trash for free in " + cityName + "?";
-
-    const faqDumpFreeBody = document.getElementById("faqDumpFreeBody");
-    if (faqDumpFreeBody) {
-      faqDumpFreeBody.textContent =
-        "Some " + cityName + "-area services are resident-focused and may offer free or lower-cost drop-off for specific materials, while private transfer stations and landfills usually charge by load size or material type.";
-    }
-  } else {
-    document.title = cityName + ", " + stateName + " Trash Dump, Transfer Stations & Landfills | JunkScout";
-    setMetaDescription(
-      "Find public landfills, transfer stations, and recycling drop-offs in " + pretty + ". " +
-      "Hours, fees, and accepted materials when available - always confirm before visiting."
-    );
-  }
 
   const canonical = window.location.origin + window.location.pathname;
   setCanonical(canonical);

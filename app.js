@@ -106,9 +106,11 @@ function runSearch() {
   const key = whereRaw.toLowerCase();
 
   if (!whereRaw) {
-    window.location.href = "/texas/";
+    if (whereInput) whereInput.focus();
     return;
   }
+
+  if (whereInput) whereInput.removeAttribute("aria-invalid");
 
   // If user picked a known city, go straight to that city page
   if (CITY_LOOKUP.has(key)) {

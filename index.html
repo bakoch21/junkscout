@@ -6,7 +6,7 @@
   <title>Find Verified Drop-Off Locations Near You | JunkScout</title>
   <meta
     name="description"
-    content="Find verified drop-off locations for furniture, construction debris, tires, yard waste, and more — with rules, hours, and fees when available."
+    content="Find verified drop-off locations for furniture, construction debris, tires, yard waste, and more - with rules, hours, and fees when available."
   />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://junkscout.io/" />
@@ -29,13 +29,13 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="#all-locations">All locations</a>
         <a href="/about/" class="muted">About</a>
+        <a href="/contact/" class="muted">Contact</a>
       </nav>
 
       <div class="nav__actions">
         <a class="btn btn--ghost" href="/texas/">Texas</a>
         <a class="btn btn--primary" href="/california/">California</a>
       </div>
-
     </div>
   </header>
 
@@ -49,6 +49,25 @@
           and more, with rules, hours, and fees when available.
         </p>
 
+        <section class="page-search" aria-label="Search city guide">
+          <div class="page-search__form">
+            <h2 class="page-search__title">Search by city</h2>
+            <p class="muted page-search__copy">Jump straight to any live JunkScout city guide.</p>
+            <label class="label" for="whereInput" style="margin-top:12px">City and state</label>
+            <div class="combo">
+              <input
+                id="whereInput"
+                type="search"
+                list="cityList"
+                placeholder="Search city, e.g. Houston, TX"
+                autocomplete="off"
+              />
+              <button id="searchBtn" type="button" class="btn btn--primary btn--search-primary">Search</button>
+            </div>
+            <datalist id="cityList"></datalist>
+            <p class="hint">Start typing and pick a city from the list.</p>
+          </div>
+        </section>
 
         <section class="state-lab" aria-label="State card design concepts" data-state-rail-scope>
           <div class="state-lab__head">
@@ -124,62 +143,61 @@
           <p class="state-lab__foot">Auto-scroll is on. Use arrows, swipe, or shift-wheel to explore states.</p>
         </section>
 
-<section class="top-guides" aria-label="Top city guides">
-  <div class="top-guides__head">
-    <h2>Top city guides</h2>
-  </div>
+        <section class="top-guides" aria-label="Top city guides">
+          <div class="top-guides__head">
+            <h2>Top city guides</h2>
+          </div>
 
-  <section class="cards cards--city-guides" aria-label="Featured city guides">
-    <article class="card card--clickable" data-href="/texas/houston/">
-      <div class="card__kicker">
-        <span class="badge badge--blue">Top city guide</span>
-      </div>
-      <h3>Houston, TX</h3>
-      <p class="card__meta">Advanced filters, rules, fees, and map-based options in one city guide.</p>
-      <a class="btn btn--city-cta" href="/texas/houston/">Open Houston guide</a>
-    </article>
+          <section class="cards cards--city-guides" aria-label="Featured city guides">
+            <article class="card card--clickable" data-href="/texas/houston/">
+              <div class="card__kicker">
+                <span class="badge badge--blue">Top city guide</span>
+              </div>
+              <h3>Houston, TX</h3>
+              <p class="card__meta">Advanced filters, rules, fees, and map-based options in one city guide.</p>
+              <a class="btn btn--city-cta" href="/texas/houston/">Open Houston guide</a>
+            </article>
 
-    <article class="card card--clickable" data-href="/texas/dallas/">
-      <div class="card__kicker">
-        <span class="badge badge--green">Top city guide</span>
-      </div>
-      <h3>Dallas, TX</h3>
-      <p class="card__meta">Transfer station, landfill, and recycling options with practical filters.</p>
-      <a class="btn btn--city-cta" href="/texas/dallas/">Open Dallas guide</a>
-    </article>
+            <article class="card card--clickable" data-href="/texas/dallas/">
+              <div class="card__kicker">
+                <span class="badge badge--green">Top city guide</span>
+              </div>
+              <h3>Dallas, TX</h3>
+              <p class="card__meta">Transfer station, landfill, and recycling options with practical filters.</p>
+              <a class="btn btn--city-cta" href="/texas/dallas/">Open Dallas guide</a>
+            </article>
 
-    <article class="card card--clickable" data-href="/california/los-angeles/">
-      <div class="card__kicker">
-        <span class="badge badge--blue">Top city guide</span>
-      </div>
-      <h3>Los Angeles, CA</h3>
-      <p class="card__meta">Large-metro guide with transfer station, landfill, and recycling options.</p>
-      <a class="btn btn--city-cta" href="/california/los-angeles/">Open Los Angeles guide</a>
-    </article>
-  </section>
-</section>
-
+            <article class="card card--clickable" data-href="/california/los-angeles/">
+              <div class="card__kicker">
+                <span class="badge badge--blue">Top city guide</span>
+              </div>
+              <h3>Los Angeles, CA</h3>
+              <p class="card__meta">Large-metro guide with transfer station, landfill, and recycling options.</p>
+              <a class="btn btn--city-cta" href="/california/los-angeles/">Open Los Angeles guide</a>
+            </article>
+          </section>
+        </section>
 
         <!-- Why -->
         <section class="why" aria-label="Why JunkScout">
           <h2>Why JunkScout?</h2>
           <div class="why__grid">
             <div class="why__item">
-              <div class="icon">✓</div>
+              <div class="icon">&#10003;</div>
               <h3>Verified, not vague</h3>
               <p>We link to the source and show when it was last checked.</p>
             </div>
             <div class="why__item">
-              <div class="icon">🧾</div>
+              <div class="icon">Info</div>
               <h3>Find verified drop-off locations near you</h3>
               <p>Accepted items, resident rules, hours, fees (when available).</p>
             </div>
             <div class="why__item">
-              <div class="icon">🛻</div>
+              <div class="icon">Use</div>
               <h3>Built for real life</h3>
               <p>
-                Couches, remodel debris, tires, brush, appliances — not just
-                “landfills.”
+                Couches, remodel debris, tires, brush, appliances - not just
+                &ldquo;landfills.&rdquo;
               </p>
             </div>
           </div>
@@ -224,8 +242,8 @@
           </div>
           <p class="muted small" style="margin-top:10px">
             Popular right now:
-            <a class="link" href="/texas/houston/">Houston</a> •
-            <a class="link" href="/texas/dallas/">Dallas</a> •
+            <a class="link" href="/texas/houston/">Houston</a> &bull;
+            <a class="link" href="/texas/dallas/">Dallas</a> &bull;
             <a class="link" href="/california/los-angeles/">Los Angeles</a>
           </p>
           <div class="locations-directory" id="all-locations">
@@ -283,17 +301,16 @@
       </div>
       <div class="footer__note">
         <div class="footer__brand">
-          © <span id="year"></span> JunkScout
+          &copy; <span id="year"></span> JunkScout
         </div>
         <div class="muted small">Always confirm before visiting.</div>
+        <a href="mailto:support@junkscout.io">support@junkscout.io</a>
       </div>
     </div>
   </footer>
 
   <script src="/privacy-consent.js?v=20260303e" defer></script>
   <script src="/analytics.js" defer></script>
-  <script src="/app.js"></script>
+  <script src="/app.js?v=20260305a" defer></script>
 </body>
 </html>
-
-
